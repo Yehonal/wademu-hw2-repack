@@ -1,0 +1,11 @@
+				TO ALL REPACKERS
+
+It's part of the terms of the LGPL as well as the GFDL that their texts be
+included with programs or documents licensed under them, so we ask repackers to
+please include the "docs/lgpl.txt" and "docs/fdl.txt" whenever you include this
+script and its documentation in your repack.
+
+Thank you very much, for your compreension.
+
+-- 
+Lazarus & Spirit

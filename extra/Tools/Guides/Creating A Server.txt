@@ -1,0 +1,111 @@
+===== 
+SETTING UP THE SERVER 
+===== 
+THIS GUIDE WILL HELP YOU TO SET A PRIVATE SERVER FOR WORLD OF WARCRAFT AND EXPLAIN SOME BASICS ABOUT EVERYTHING. 
+
+
+Here are steps required to build World Of Warcraft private servers: 
+
+1. Download the server: 
+1.1. Download the server from http://blackstormraptor.needlemen.com/ - Read the news and download the latest package. 
+1.2. Download the server from http://www.wddg-online.com/ - Registrate in the forum and read the newest threads for download link. 
+2. Extract/UnRar/UnZip the package in your prefered directory (should be with read-write rights - I mean no CD-ROMs). 
+3. Make sure what is your exact IP address. 
+3.1. If you want to play locally by your onw and you are not looking forward other players to join you - your IP address is 127.0.0.1 
+3.2. If you want other players to join you form your corporate network (LAN) you have to do the following: 
+START->RUN...->input CMD->[Enter]->input IPCONFIG->[Enter]->read IP Address line. 
+3.3. You can find your external IP out by going to www.showmyip.com but if you want that people could connect to your LAN's WoW server you have to configurate your router to forward needed ports to your computer. 
+The ports are: 
+3724 
+8080 
+8085 
+You will get no info here regarding this point. There's plenty info in the net and even in RZ so do not ask. 
+4. Make sure you have the appropriate client if you want to join your server. When this guide was written you had to have WoW 1.2.4 client to join WoW private servers. Read more about the patches in downloads thread. 
+You can find out the version of the client you have by starting it and then you'll see the number in very left-bottom. 
+5. Server configuration. Go to the directory where you extracted/UnRared/UnZipped the server. 
+Then go to scripts/ subfolder. Open emu.conf with Notepad or any other plain text editor you prefer. Note, that if there something missing in this file you have to set those strings while generating your registration-key file. 
+5.1. Set your server name in 
+server_name 
+5.2. Set your IP address in 
+http_host 
+rs_host 
+ws_host 
+rs_host 
+5.3. Set the server mode: 
+server_rules 
+I don't think there would be any differences between PvP, PvE and RPG. 
+5.4. Set the port for registration. Default 8080 
+http_port 
+You will need this to allow new users registrate in your server. If you use 3rd party PHP script for this action, you can remove this line for security reasons. 
+5.5. If you're planning to make more than one server in the same computer change 
+rs_port 
+to any other spare port. Users connecting to your server will need to enter your_ip:<new port>. Default - 3724. 
+5.6. Because of some errors clients who crash can't join the server while the connection is not time-outed. Recomended is 30 (in seconds) 
+5.7. If you want to limit the clients online set 
+max_players 
+to lower number, i.e. 20. Default - 1000000. 
+5.8. After killing the enemy the corpse will dissapear in 
+npc_corpse_delay 
+seconds. Default - 60. 
+5.9. The database auto-save time in minutes is 
+autosave_time_minutes 
+minutes. I recomend to set this ~15. Default - 5. 
+5.10. Health/mana/energy growing reate can be modified in 
+health_growing_rate 
+mana_growing_rate 
+energy_growing_rate 
+Default 1 (and the recommended value). 
+5.11. The accounts will be auto-deleted if not used 
+delete_not_used_accounts_days 
+days. Default - 14. I recomend - 31. 
+5.12. Don't forget that the server should be turned off while editing configuration files. Save the file when you're done. 
+5.13. There's a new feature in new WoWemu - MAPS. I don't know the real purpose of them but they are needed for the server. And they make the server much bigger - all maps are ~400MBs. You will not find any package with maps so you have to extract them by yourself. Go to MAPS\ and edit "map_extract.bat" file. You have to set the full path to WoW client's DATA\ folder. Note that in this case you have to have the client on the machine you're running the server (of course, you can export the maps from another computer too). 
+5.14. XP rate. Open scripts\startup.tcl file and look for this line: 
+set xp [expr {5*$victim_level+5**] 
+edit the bold number. That's where is the XP rate. Note: the startup file can be different because there are many configurations. 
+5.15. You also have to make a key-file. The tools are included in the same directory as wowemu.exe is. You have to edit the text file (it should be only one in that dir) and then launch the key-generator file. It could be a bit tricky and it differs from version to version so I am not going to write more about this here... 
+6. Starting the server. The server can be started in two ways. 
+6.1. By starting wowemu.exe. This will open a console-like window. No user-interaction is allowed except X key (for server shutdown). 
+6.2. By starting WoWtray.exe (or something similar). This will start the same wowemu.exe but the program will be started not in the status bar but in system tray (recommended). 
+NOTE: The server loads ~5mins depending on the size of database. Do not join the server while it is not fully loaded. 
+7. User registration. You have to register the user before he can join the server. The user should go to: 
+http://your.ip.address.or.dns.address:8080 (the port can be different, depending on http_port value in configuration). 
+8. User joins the private server: 
+8.1. The user has to edit realmlist.wtf file located in WoW client's directory. It should look something like (after editing): 
+set realmlist your.ip.address.or.dns.address 
+(set realmlist 127.0.0.1) 
+or 
+set realmlist your.ip.address.or.dns.address:3725 (or any other if it's not default 3724) 
+(set realmlist 127.0.0.1:3725) 
+8.2. The user has to make a shorcut to WoW.exe file and edit the shortcut. He should add -console to the end of the path, i.e.: 
+"C:\Games\WoW\WoW.exe" -console 
+And then during the game in the login screen he should press "~" key (tylde) and then enter" 
+realmlist your.ip.address.or.dns.address 
+(realmlist 127.0.0.1) 
+or 
+realmlist your.ip.address.or.dns.address:3725 (or any other if it's not default 3724) 
+(realmlist 127.0.0.1:3725) 
+8.3. The user can use WoW control panel found in www.blizzhackers.com. This is the most recomended solution for noobs. 
+9. Becoming game master (GM). There should be already created the account (point #7). Go to accounts\ folder. Edit the needed account by Notepad. Set the PLEVEL there. PLEVELs are described in #2 post. Maximum - 6 - total access. 
+10. Statistics can be found in 
+http://your.ip.address.or.dns.address:8080/stat.xml 
+11. Some info about the WoWemu's files. 
+11.1. accounts\* - Users' account files. 
+11.2. logs\*.log - Log 
+11.3. saves\world.save - Here are stored all enemies' and NPCs' locations. 
+11.4. saves\players.save - Here are stored users' data. All characters and items they have, money, etc. 
+11.5. saves\guilds.save - Guilds data. 
+11.6. scripts\*.dbc - Files exported from WoW client. No midification is allowed in them. 
+11.7. scipts\startup.tcl - XP formula and quests' paths. 
+11.8. scripts\*.scp - Database files that can be modified but this is not recommended because you can get errors after editing these files by your own. 
+11.9 scripts\tcl\*\* - Quests. 
+12. Additional tools. 
+12.1. Quest database (IRPG QDB Manager) can be found in *LINK DEAD*. This will make sure that you have all the quests that are available to public. Really easy-to-use. 
+12.2. Mob Spawner can be found *LINK DEAD*. This helps to add monsters without being in the game. Nice program. 
+12.3. K&K Tools Pack can be found in *LINK DEAD*. There are some tools for database/user editing. 
+12.4. A "realtime" Worldmap *LINK DEAD*. Nice Flash movie that can be used to show players' locations graphically in the webpage. 
+12.5. Juhuve Easy Teleport-Tool *LINK DEAD*. In-game tool for teleporting in the whole WoW world. Really usefull for GMs. Just type /telemap while being GM. 
+13. Linux 
+13.1. WoWemu in Linux: http://www.wickle.com/wiki/index.ph...Server_on_Linux 
+
+NOTE: The guide is not quite up-to-date because of the lack of my time... so if something is a bit different don't be nervous. The basic things are in all WoWemu editions. Also, because of the death of BlizzHackers some of the tools do not have links so if you have that tool you could share it here... 

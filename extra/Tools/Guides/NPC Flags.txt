@@ -1,0 +1,14 @@
+.setnpcflags id - Sets flags for targeted NPC (or .setflags id) 
+
+0 Nothing 
+1 Spirit Healer 
+2 Quest 
+4 Vendor 
+8 Taxi 
+16 Trainer 
+64 Banker 
+128 BagSlotVendor 
+256 Inn Keeper 
+512 Tabard 
+1024 Talking 
+2048 Auction

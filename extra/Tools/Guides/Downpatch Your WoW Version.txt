@@ -1,0 +1,5 @@
+In your world of warcraft directory (for example d:\world of warcraft), delete WoW.exe.
+Once you done that, download http://ftp.blizzard.com/pub/WoW/other/Repair.zip
+Unzip it and run repair.exe
+This will now check what files exists, the version of it, and looks what files are missing.
+Once its done, you will see when you start WoW again its version 1.1.2

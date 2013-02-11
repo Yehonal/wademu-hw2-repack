@@ -1,0 +1,16 @@
+#Translated by @Solfern - Solfern@Email.cz
+namespace eval GuildBank {
+::Texts::Set cz notmember "Nejsi clenem Quildy"
+::Texts::Set cz noperm "Nemas povoleni"
+::Texts::Set cz nocash "Nemas zadne penize !"
+::Texts::Set cz addgold "Pridal si %s goldu do GuildBanky"
+::Texts::Set cz nogold "Nemas %s goldu v GuildBance"
+::Texts::Set cz getgold "Dostali si %s goldu z GuildBanky"
+::Texts::Set cz amount "Musis napsat sumu"
+::Texts::Set cz delitem "Odebral si Item z GuildBanky"
+::Texts::Set cz getitem "Dostal si Item z GuildBanky"
+::Texts::Set cz additem "Pridal si Item do GuildBanky"
+::Texts::Set cz cash "Goldu v GuildBance:%s"
+::Texts::Set cz noitem "Nemas tento Item v GuildBance"
+::Texts::Set cz soul_item "Nemuzes pridat item to ho to Typu"
+}

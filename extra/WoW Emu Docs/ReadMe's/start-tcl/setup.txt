@@ -1,0 +1,242 @@
+
+
+        UNLIKE WHAT YOU ARE USED TO, THE "scripts/startup.tcl" SHOULD NOT BE
+        EDITED. ALL CHANGES ARE DONE IN THE FILES CONTAINED IN THE FOLDER
+        "scripts/tcl".
+
+
+How to setup the Start-TCL System
+=================================
+
+ 1. Understanding the levels paradigm and implementation:
+ 
+    1. Some namespaces and procedures must be made available to others to allow
+       these to work. Classic start up sequence kept most of these procedures
+       in the "scripts/startup.tcl" file making it big and prone to accumulate
+       errors over time when edited.
+       
+    2. The solution was to split that big file in smaller ones and edit these
+       instead. This worked from the manageability point of view but brought up
+       another problem, since those files were now loaded in OS and file system
+       dependent fashion, which led to errors when one expected a file to be
+       loaded and the system complained it wasn't.
+       
+    3. The final solution was to allow each file to carry it's load order and
+       this is the origin of the level paradigm (this isn't anything new, it's
+       a system implemented in BSD style OSes as well as in some System V *NIX
+       flavors, it was simply adapted to our needs).
+    
+    4. So we now have 5 arbitrary levels (well actually much more but that is
+       explained further down the text) where we can load scripts at:
+       
+       A. This level is reserved for global defines, the 3 base namespaces
+          initialization and other eventual namespaces users would want to
+          initialize. IT IS NOT INTENDED OR EXPECTED TO HAVE PROCEDURES AT THIS
+          LEVEL. The distributed files that fit in this level are:
+          
+          Start-TCL.tcl
+          AI.tcl
+          NameSpaces.tcl
+          SpellEffects.tcl
+          WoWEmu.tcl
+          
+       B. This level is reserved for the TCL API defined procedures. IT IS NOT
+          INTENDED TO HAVE ANY OTHER PROCEDURE, SINCE THE BASE PROCEDURES ARE
+          STILL BEING DEFINED. The distributed files that fit in this level
+          are:
+          
+          CalcReputation.tcl
+          CalcXP.tcl
+          CanAgro.tcl
+          CanCast.tcl
+          CanCasts.tcl
+          CanUnAgro.tcl
+          Command.tcl
+          Commands.tcl
+          DamageReduction.tcl
+          ExplorationXP.tcl
+          FishingOpen.tcl
+          FishingPing.tcl
+          OnPlayerDeath.tcl
+          OnPlayerResurrect.tcl
+          SPELL_EFFECT_PORTAL.tcl
+          SPELL_EFFECT_QUEST_COMPLETE.tcl
+          SPELL_EFFECT_SCRIPT_EFFECT.tcl
+          SPELL_EFFECT_SEND_EVENT.tcl
+          SPELL_EFFECT_TELEPORT_UNITS.tcl
+           
+       C. This level is an open level where low level procedures that will be
+          needed for more complex scripts and procedures are defined. Such an
+          example are the procedures from spirit's Custom namespace. The
+          distributed files that fit in this level are:
+           
+          Colors.tcl
+           
+       N. This level is the generic catch all level where standard scripts
+          like Honor, Buyback, Mail and the likes are expected to run at. Most
+          scripts will be running at this level, all those with level n as well
+          as those without a level.
+          
+          NOTE: For startup speedup you should have a level definition in all
+                your scripts (preferably at the top of the file), even if they
+                are to run at level n.
+           
+       Z. This is the last resort level, guaranteed to run after all other
+          scripts. The distributed files that fit in this level are:
+           
+          WorldLock.tcl
+
+    5. To make a TCL (or TBC, since both files are treated equal by Start-TCL)
+       be loaded at a particular level the file must be edited and a comment
+       inserted at the top of the file BEFORE ANY NON-COMMENT OR NON EMPTY
+       LINES with the following format:
+       
+       # Start-TCL: <level>
+       
+       Where <level> should be replaced by a, b, c, n or z. The whole line is
+       case insensitive, and any white space after the colon ":" is striped.
+       Alternatively the "StartTCL:" form is also accepted.
+       
+    6. At startup the "scripts/tcl" folder and its first level sub-folders are
+       parsed for all files ending either in TCL or TBC (case insensitive),
+       which in turn are alphabetically ordered and after which are parsed for
+       the Start-TCL level directive, being reordered according to their loading
+       level. At any time you can obtain the ordered list of loaded files by
+       reading the "::StartTCL::scripts" variable.
+       
+    7. The Start-TCL system also includes the facility to load any libraries,
+       either native or external, loaded by the "pkgIndex.tcl" method from the
+       "lib/*" hierarchy.
+
+ 2. Start with a fresh folder:
+
+    1. Extract the contents of the archive to an empty folder, and change to
+       the "scripts/tcl" folder.
+       
+    2. The "scripts/tcl" folder contains a original TCL set of files as packed
+       by WAD, adapted to the Start-TCL, so they MOST CERTAINLY will need to be
+       edited/changed to support your current procedures.
+
+    3. All files in "scripts/tcl" as packed start by 3 numbers. This is only to
+       ease the identification of it's load order, this is NOT mandatory and
+       you can change their names or put them in sub folders or whatever scheme
+       you decide to use on your system and they'll still be loaded in the
+       correct order. The files in this document are referred to without the
+       numbers, for instance "000_Start-TCL.tcl" is referred as
+       "Start-TCL.tcl".
+       
+ 3. Identifying the distributed files:
+ 
+    1. Start-TCL.tcl. This file contains system-wide defines and variables.
+    
+       TCL 101: Note that the usage of "global" outside a procedure is a TCL
+                error and so, should not be used, instead use "variable". With
+                the use of "variable" there is no need to use "set" afterward,
+                simply add the value to initialize the variable with, in the
+                same line.
+    
+    2. AI.tcl, SpellEffects.tcl and WoWEmu.tcl. These contain the namespace
+       initialization of the corresponding TCL API namespaces and should have
+       no need to be edited unless you want to add variables to any of them.
+
+    3. CalcReputation.tcl, CalcXP.tcl, CanAgro.tcl, CanCast.tcl, CanUnAgro.tcl,
+       DamageReduction.tcl, ExplorationXP.tcl, FishingOpen.tcl,
+       FishingPing.tcl, OnPlayerDeath.tcl, OnPlayerResurrect.tcl,
+       SPELL_EFFECT_PORTAL.tcl, SPELL_EFFECT_QUEST_COMPLETE.tcl,
+       SPELL_EFFECT_SCRIPT_EFFECT.tcl, SPELL_EFFECT_SEND_EVENT.tcl and
+       SPELL_EFFECT_TELEPORT_UNITS.tcl. These contain the corresponding TCL API
+       defined procedures and MOST CERTAINLY WILL need to be adapted/updated to
+       newer versions of them, and here is the work you must have adapting your
+       system.
+       
+       NOTE: Mind that this part can be a pain, but it's worth it, in the end
+             you'll have a clean system easily maintainable and upgradable.
+
+    4. Command.tcl and Commands.tcl. These are separated from the above since
+       they are classically the most messed up parts of the TCL API. Only edit
+       these files when there is NO OTHER WAY, for instance, one of the
+       commands defined in them must be changed, else be aware of, AND USE, the
+       excellent "::Custom::AddCommand" procedure that will allow you to add
+       new commands on the fly, without messing with these files.
+    
+    5. NameSpaces.tcl and CanCasts.tcl. These are here for completeness of the
+       conversion of WAD's original TCL API, they can, be discarded for newer
+       AI systems (they can also be left as a backup system without any
+       inconvenience for the system).
+
+    6. Colors.tcl and WorldLock.tcl. These are example procedures/scripts that
+       can be discarded if unwanted. The first contains mnemonics for the 16
+       colors defined by the W3C consortium and that you can use when sending
+       output to the clients console and the second is a automatic lock and
+       unlock to the "world.save" file. Issue ".ws help" for instructions (mind
+       that it locks the file by default on startup, so either remove it from
+       your system or deactivate the lock if you are spawning and/or
+       waypointing or your server will crash when saving), it is loaded at
+       level Z to avoid any interference with any possible script that may
+       attempt to access the "world.save" at start up for whatever reason.
+    
+ 4. Transfer your procedures/scripts to Start-TCL:
+ 
+    1. Edit the files on your system and copy the corresponding procedures to
+       the above mentioned files. MAKE SURE YOU DON'T DELETE THE ORIGINAL FILES
+       BEFORE HAVING Start-TCL RUNNING WITHOUT ERRORS.
+       
+    2. Copy your standard scripts to the Start-TCL folder hierarchy and add the
+       level information to it to speed up the startup process (optional)
+       
+    3. Remember that both TCL and TBC should live in the same folder hierarchy
+       "scripts/tcl" from now on, so if you have a separate folder for TBC,
+       mix them with the TCL files.
+       
+    4. When done backup your current "scripts/startup.tcl" file and your
+       "scripts/tcl" folder and replace them with the ones you prepared for
+       Start-TCL.
+       
+    5. Restart your server (or .retcl if it was running), check and fix any
+       eventual errors, if none enjoy the new system.
+       
+ 5. Suggestions for a clean and organized system:
+    
+    1. Keep configuration files in the "scripts/conf" folder. Most scripts have
+       already adopted this folder for configuration files, so you may end to
+       only need to adapt your own scripts to use it. You can even move the
+       "emu.conf" file into it leaving a stub "emu.conf" in its place with the
+       following line in it (remember to leave an empty line before and after):
+       
+       #include scripts/conf/emu.conf
+       
+    2. You can consider doing the same to the SCP files by creating a folder
+       "scripts/scp", moving your files into it and leave stub files similar to
+       the above example pointing to the real files, for instance "items.scp":
+       
+       #include scripts/scp/items.scp
+       
+ 6. The hidden levels in Start-TCL (advanced fine-tuning):
+ 
+    1. The above described level paradigm is a simplification of the internals
+       of the Start-TCL system and is the RECOMENDED way to use it. Internally
+       the levels are converted to numeric values (hence the numbered prefix in
+       the distributed files) and only then ordered.
+       
+    2. Another notation accepted by Start-TCL is to use the numbers directly so
+       you can use for instance:
+       
+       # StartTCL: 500
+       
+       One particularity is that you will have to use 3 numbers when using this
+       notation no more no less. The possible range is from 000 to 999 which
+       means 1000 levels and with the possibility of more than 1 script per
+       level even control freaks should be more than satisfied with the
+       fine-tuning possibilities.
+       
+    3. For reference here is the relation between the standard levels and the
+       numbers they translate into:
+       
+       a = 100
+       b = 200
+       c = 300
+       n = 500
+       z = 999
+
+For more information, the latest version and to report errors and/or bugs visit
+the support thread at <http://catvir.mooo.com/viewtopic.php?t=1042>.

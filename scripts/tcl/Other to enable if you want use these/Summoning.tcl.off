@@ -1,0 +1,24 @@
+namespace eval Summoning {
+
+	proc Summon { to from spellid } {
+
+puts "**************SUMMONING*************"
+}
+
+#{
+#		set ps [GetPos $from] 
+#		set map [lindex $ps 0] 
+#		set x [lindex $ps 1] 
+#		set y [lindex $ps 2] 
+#		set z [lindex $ps 3] 
+#puts "Posizione del Leader:"
+#puts $map
+#puts $x
+#puts $y
+#puts $z
+
+#Teleport $to $map $x+1 $y+1 $z+1 
+
+
+#	}
+}

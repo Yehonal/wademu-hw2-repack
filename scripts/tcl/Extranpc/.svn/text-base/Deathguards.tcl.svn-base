@@ -1,0 +1,161 @@
+#
+# StartTCL: n
+#
+
+#
+# File sorted by Hochelf <hochelf@gmail.com>
+#
+
+namespace eval DeathguardRandolph {
+	proc GossipHello { npc player } {
+		SendGossipComplete $player
+		SendSwitchGossip $player $npc 1
+	}
+	proc GossipSelect { npc player option } {
+		if {( $option==9 )} {
+			SendGossip $player $npc\
+			{ text 0 "Greetings" }
+		}
+		if {( $option==1 )} {
+			SendGossip $player $npc\
+			{ text 0 "Sorry this village has no bank." }
+		}
+		if {( $option==2 )} {
+			SendGossip $player $npc\
+			{ text 0 "The trainers can all be found in the building Next to the GraveYard." }
+		}
+		if {( $option==3 )} {
+			SendGossip $player $npc\
+			{ text 0 "Sorry this Village has no profession trainers." }
+		}
+		if {( $option==4 )} {
+			SendGossip $player $npc\
+			{ text 0 "Sorry This village has no inn." }
+		}
+		if {( $option==5 )} {
+			SendGossip $player $npc\
+			{ text 0 "Suppliers can found in the buildings oposite the graveyard" }
+		}
+		if {( $option==6 )} {
+			SendGossip $player $npc\
+			{ text 0 "merchants can be found in the buildings oposite the graveyard" }
+		}
+		if {( $option==7 )} {
+			SendGossip $player $npc\
+			{ text 0 "Sorry this village has no Stable Master." }
+		}
+		if {( $option==8 )} {
+			SendGossip $player $npc\
+			{ text 0 "Sorry this village has no Gryphon Master." }
+		}
+	}
+	proc QueryQuest { npc player questid } { }
+	proc QuestStatus { npc player } {
+		set reply 4
+		return $reply
+	}
+	proc QuestHello { npc player } {
+		set PlayerMessage { text 0 "Hi there, how may I help you today?" }
+		set PlayerMessage1 { text 1 "Bank" }
+		set PlayerMessage2 { text 2 "Spell Trainers" }
+		set PlayerMessage3 { text 3 "Profession Trainers" }
+		set PlayerMessage4 { text 4 "Inn" }
+		set PlayerMessage5 { text 5 "General Suppliers" }
+		set PlayerMessage6 { text 6 "Merchants" }
+		set PlayerMessage7 { text 7 "Stable Master" }
+		set PlayerMessage8 { text 8 "Gryphon Master" }
+		SendGossip $player $npc $PlayerMessage $PlayerMessage1 $PlayerMessage2 $PlayerMessage3 $PlayerMessage4 $PlayerMessage5 $PlayerMessage6 $PlayerMessage7 $PlayerMessage8
+	}
+	proc QuestSelect { npc player questid } { }
+	proc QuestAccept { npc player questid } { }
+	proc QuestChooseReward { npc player questid choose } { }
+}
+
+namespace eval DeathguardBartrand {
+	proc GossipHello { npc player } {
+		SendGossipComplete $player
+		SendSwitchGossip $player $npc 1
+	}
+	proc GossipSelect { npc player option } {
+		if {( $option==9 )} {
+			SendGossip $player $npc\
+			{ text 0 "Greetings" }
+		}
+		if {( $option==1 )} {
+			SendGossip $player $npc\
+			{ text 0 "Sorry this village has no bank." }
+		}
+		if {( $option==2 )} {
+			SendGossip $player $npc\
+			{ text 0 "The trainers can all be found in the building Next to the GraveYard." }
+		}
+		if {( $option==3 )} {
+			SendGossip $player $npc\
+			{ text 0 "Sorry this Village has no profession trainers." }
+		}
+		if {( $option==4 )} {
+			SendGossip $player $npc\
+			{ text 0 "Sorry This village has no inn." }
+		}
+		if {( $option==5 )} {
+			SendGossip $player $npc\
+			{ text 0 "Suppliers can found in the buildings oposite the graveyard" }
+		}
+		if {( $option==6 )} {
+			SendGossip $player $npc\
+			{ text 0 "merhants can be found in the buildings oposite the graveyard" }
+		}
+		if {( $option==7 )} {
+			SendGossip $player $npc\
+			{ text 0 "Sorry this village has no Stable Master." }
+		}
+		if {( $option==8 )} {
+			SendGossip $player $npc\
+			{ text 0 "Sorry this village has no Gryphon Master." }
+		}
+	}
+	proc QueryQuest { npc player questid } { }
+	proc QuestStatus { npc player } {
+		set reply 4
+		return $reply
+	}
+	proc QuestHello { npc player } {
+		set PlayerMessage { text 0 "Hi there, how may I help you today?" }
+		set PlayerMessage1 { text 1 "Bank" }
+		set PlayerMessage2 { text 2 "Spell Trainers" }
+		set PlayerMessage3 { text 3 "Profession Trainers" }
+		set PlayerMessage4 { text 4 "Inn" }
+		set PlayerMessage5 { text 5 "General Suppliers" }
+		set PlayerMessage6 { text 6 "Merchants" }
+		set PlayerMessage7 { text 7 "Stable Master" }
+		set PlayerMessage8 { text 8 "Gryphon Master" }
+		SendGossip $player $npc $PlayerMessage $PlayerMessage1 $PlayerMessage2 $PlayerMessage3 $PlayerMessage4 $PlayerMessage5 $PlayerMessage6 $PlayerMessage7 $PlayerMessage8
+	}
+	proc QuestSelect { npc player questid } { }
+	proc QuestAccept { npc player questid } { }
+	proc QuestChooseReward { npc player questid choose } { }
+}
+
+namespace eval DeathguardAbraham {
+	proc GossipHello { npc player } {
+		SendGossipComplete $player
+		SendSwitchGossip $player $npc 1
+	}
+	proc GossipSelect { npc player option } {
+		if {( $option==0 )} {
+			SendGossip $player $npc\
+			{ text 0 "Brill is not far ahead, it is full of trainers and merchants, a stable master can be found there as well." }
+		}
+	}
+	proc QueryQuest { npc player questid } { }
+	proc QuestStatus { npc player } {
+		set reply 4
+		return $reply
+	}
+	proc QuestHello { npc player } {
+		SendGossip $player $npc { text 0 "Brill" }
+	}
+	proc QuestSelect { npc player questid } { }
+	proc QuestAccept { npc player questid } { }
+	proc QuestChooseReward { npc player questid choose } { }
+}

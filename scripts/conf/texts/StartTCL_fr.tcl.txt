@@ -1,0 +1,285 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		 <http://www.gnu.org/copyleft/lesser.html>
+#
+#
+# Translation by Spirit
+#
+
+
+namespace eval ::WoWEmu::Commands {
+	Texts::Set fr unknown_command           "La commande \"%s\" n'est pas reconnue."
+	Texts::Set fr not_allowed               "Vous n'êtes pas autorisé à utiliser cette commande."
+	Texts::Set fr not_allowed_players       "Vous n'êtes pas autorisé à utiliser cette commande sur les joueurs."
+	Texts::Set fr not_allowed_object        "Vous ne pouvez pas utiliser cette commande sur cet objet."
+	Texts::Set fr select_player             "Veuillez sélectionner un joueur."
+	Texts::Set fr select_self               "Vous devez vous sélectionner vous-même en appuyant sur F1 pour cette commande."
+	Texts::Set fr cant_kick_self            "Vous ne pouvez pas vous jeter vous-même."
+	Texts::Set fr plevel_conflict           "Vous ne pouvez pas effectuer cette commande sur un GM de votre niveau ou supérieur."
+	Texts::Set fr object_not_found          "Objet non trouvé."
+	Texts::Set fr help_plvl0                "Commandes: \n .HELP \n .WHERE \n .DISMOUNT \n Utilisez .HELP <commande> pour plus d'information.\n"
+	Texts::Set fr help_plvl2                "Commandes: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .DEL; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .RESURRECT; \n .SETAURA; .SETRESTSTATE; \n .CLEARQFLAGS; \n .STARTTIMER; .STOPTIMER; \n .FACTION; \n Utilisez .HELP <commande> pour plus d'information.\n"
+	Texts::Set fr help_plvl4                "Commandes: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .NAMEGO; \n .FACTION; \n .ADD ; .ADDGO ; .ADDNPC; \n .ADDSPAWN; \n .SETSPAWNNPC; .SETSPAWNGO; \n .SETSPAWNDIST; .SETSPAWNTIME; \n .SETLEVEL; .SETMODEL; \n .SETSIZE; .SETSPEED; \n .SETXP; .SETCP; .SETHP; \n .SETFLAGS; .SETNPCFLAGS; \n .PARALYSE; \n .DEL; .KILL; .KILLALLNPC; \n .RESURRECT; \n .LEARN; .UNLEARN; .LEARNSK; .UNLEARNSK; \n .SETAURA; .SETRESTSTATE; .CELARQFLAGS; \n .TARGETGO; .TARGETLINK; \n .TURN; .COME; \n .MOVE; .ROTATE; \n .CLEARREP; .GFLAGS; .GTYPE; \n .STARTTIMER ; .STOPTIMER; \n .EXPLORATION; .BROADCAST; \n Utilisez .HELP <commande> pour plus d'information.\n"
+	Texts::Set fr help_plvl6                "Commandes: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .KILL ; .KILLALLNPC; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .NAMEGO; \n .FACTION; .SETFACTION; \n .TARGETGO; .TARGETLINK; \n .TURN; .COME; \n .DEL; .ADD ; .ADDGO ; .ADDNPC; \n .ADDSPAWN; \n .SETSPAWNNPC; .SETSPAWNGO; \n .SETSPAWNDIST; .SETSPAWNTIME; \n .SETXP; .SETCP; .SETHP; \n .SETLEVEL; .SETMODEL; .SETSIZE; \n .SETSPEED; .SETFLAGS; \n .SETAURA; .SETRESTSTATE; \n .SETNPCFLAGS; \n .LEARN; .UNLEARN; .LEARNSK; .UNLEARNSK; \n .MOVE; .ROTATE; \n .GFLAGS; .GTYPE; \n .RESURRECT; .PARALYSE; .CLEARREP; \n .EXPLORATION; .CLEARQFLAGS; \n .EXPORTCHAR; .IMPORTCHAR; \n .EXPORTSPAWNS; .EXPORTSPAWNSXY; \n .IMPORTSPAWNS; .DELSPAWNS; .DELSPAWNSXY; \n .STARTTIMER; .STOPTIMER; \n .PPON; .PPOFF; \n .RETCL; .RESCP; \n .BROADCAST; .SAVE; .SHUTDOWN; .REHASH; \n .DELALLCORP; .CLEANUP; .RESPAWNALL; \n Utilisez .HELP <commande> pour plus d'information.\n"
+	Texts::Set fr number_too_large          "Le nombre spécifié est trop grand."
+}
+
+
+namespace eval ::AI {
+	Texts::Set fr humanoid_sayings {
+		"Crève, %s!"
+		"Prépare-toi à mourir, %s!"
+		"Je t'aurai, %s!"
+		"Tu vas mourir, %s!"
+		"%s, je vais t'aider à rejoindre tes ancêtres."
+		"%s, je te trancherai la tête!"
+		"Tu n'iras nulle part, %s!"
+		"%s doit mourir!"
+		"Es-tu prêt à mourir, %s?"
+	}
+}
+
+
+namespace eval ::SpellEffects {
+	Texts::Set fr script_without_case       "ATTENTION! Sort avec effet de script %s sans cas."
+	Texts::Set fr spell_effect_quest        "Sort avec effet de quête %s"
+	Texts::Set fr teleport_not_ready        "Ce sort de téléportation n'est pas encore prêt.[ ::Custom::Color " Temps restant: %s." dcdcdc ]"
+}
+
+
+namespace eval ::GmTools {
+	Texts::Set fr accounts_on_server        "Comptes sur le serveur: %s"
+	Texts::Set fr bans_on_server            "Bannissements sur le serveur: %s"
+	Texts::Set fr plevel_conflict           "Conflit Plevel."
+	Texts::Set fr can_not_ban_self          "Vous ne pouvez vous bannir vous-même."
+	Texts::Set fr banned_account            "Compte banni %s."
+	Texts::Set fr can_not_del_self          "Vous ne pouvez supprimer votre propre compte."
+	Texts::Set fr deleted_account           "Compte supprimé %s."
+	Texts::Set fr account_exists            "Le compte %s existe déjà."
+	Texts::Set fr added_account             "Compte ajouté %s."
+	Texts::Set fr can_not_lock_self         "Vous ne pouvez vous verrouiller vous-même."
+	Texts::Set fr locked_account            "Compte verrouillé %s."
+	Texts::Set fr select_player             "Veuillez sélectionner un joueur."
+	Texts::Set fr unbanned_account          "Compte débanni %s."
+	Texts::Set fr unlocked_account          "Compte déverrouillé %s."
+	Texts::Set fr changed_password          "Mot de passe changé pour %s."
+	Texts::Set fr can_not_level_self        "Vous ne pouvez modifier votre propre plevel."
+	Texts::Set fr changed_plevel            "Plevel modifié pour %s."
+	Texts::Set fr not_enough_parms          "Pas assez de paramètres."
+	Texts::Set fr select_npc                "Veuillez sélectionner un PNJ."
+	Texts::Set fr reputation_with           "Votre réputation avec la faction de %s (%s) est de %s."
+	Texts::Set fr untalent_help             "Usage: .untalent \[ free \]"
+	Texts::Set fr missing_delspell_keys     "Le sort %s dans spellcost.scp manque les clés delspell."
+	Texts::Set fr too_low_level             "%s a un niveau trop bas."
+	Texts::Set fr not_enough_money          "%s n'a pas assez d'argent. Le coût est de %s cuivre."
+	Texts::Set fr aggro_help                "Usage: .aggro \[ on \| off \]"
+	Texts::Set fr aggro_on                  "L'aggro est [ Custom::Color "activé" red ]."
+	Texts::Set fr aggro_off                 "L'aggro est [ Custom::Color "désactivé" lime ]."
+	Texts::Set fr damage_help               "Usage: .damage \[ on \| off \]"
+	Texts::Set fr damage_on                 "Les dégâts sont [ Custom::Color "activés" red ]."
+	Texts::Set fr damage_off                "Les dégâts sont [ Custom::Color "désactivés" lime ]."
+}
+
+
+namespace eval ::WorldLock {
+	Texts::Set fr l_msg01   "[ Custom::Color "Vous n'êtes pas autorisé à utiliser cette commande." red ]"
+	Texts::Set fr l_msg02   "Le \"[ Custom::Color "world.save" white ]\" est déjà [ Custom::Color "vérouillé" red ]."
+	Texts::Set fr l_msg03   "Le \"[ Custom::Color "world.save" white ]\" est déjà [ Custom::Color "déverrouillé" lime ]."
+	Texts::Set fr l_msg04   "Le \"[ Custom::Color "world.save" white ]\" est [ Custom::Color "vérouillé" red ]."
+	Texts::Set fr l_msg05   "Le \"[ Custom::Color "world.save" white ]\" est [ Custom::Color "déverrouillé" lime ]."
+	Texts::Set fr l_msg06   "Usage:   [ Custom::Color ".ws \[ lock \| exclusive \| unlock \| shared \| info \| help \]" white ]"
+}
+
+
+namespace eval ::RavenclawApparition {
+	Texts::Set fr msg1      "Notre Seigneur nous ordonne de nous apprêter à la guerre!"
+	Texts::Set fr msg2      "Nous nous renforçons, tandis que nos ennemis sont entourés d'ennemis, et affaiblis par de constantes attaques."
+	Texts::Set fr msg3      "Mort et Gloire au Roi Liche!"
+	Texts::Set fr msg4      "Nous chasserons nos ennemis de Pins-argentés, et nous ferons s'abattre les marées de la guerre sur leur capitale!"
+}
+
+
+namespace eval ::MoonrageDarkrunner {
+	Texts::Set fr msg1      "Les Files d'Arugal se lèveront contre tous ceux qui défient le pouvoir de Moonrage!"
+}
+
+
+namespace eval ::Nefarian {
+	Texts::Set fr msg1      "BRÛLEZ! Misérables! BRÛLEZ!"
+	Texts::Set fr msg2      "Je vous ferez trembler!"
+	Texts::Set fr msg3      "Arrêtez de vous soigner et affrontez-moi!"
+	Texts::Set fr msg4      "J'ordonne la mort!"
+	Texts::Set fr msg5      "RROOOAARRGGH!"
+	Texts::Set fr msg6      "Des mages aussi? Il faut être prudent quand vous jouez avec la magie!"
+	Texts::Set fr msg7      "Guerriers, je sais que vous pouvez frapper plus fort! On va voir!"
+	Texts::Set fr msg8      "Les druides et vos transformations stupides, voyons ça en action!"
+	Texts::Set fr msg9      "Des prêtres! Si vous allez continuer à soigner comme ça, autant rendre ça un peu plus intéressant!"
+	Texts::Set fr msg10     "Les paladins... On dit que vous savez vous rendre utiles. Montrez-moi."
+	Texts::Set fr msg11     "Shamans, montrez-moi ce que vos totems savent faire!"
+	Texts::Set fr msg12     "Démonistes, il ne faut pas jouer avec la magie que vous ne comprenez pas! Vous voyez ce qui arrive?"
+	Texts::Set fr msg13     "Les chasseurs et vos lance-pierres agaçants!"
+	Texts::Set fr msg14     "Des voleurs? Arrêtez de vous cacher et affrontez-moi!"
+}
+
+
+namespace eval ::DevlinAgamand {
+	Texts::Set fr msg1      "Les Moulins d'Agamand sont détenus par le Fléau, Guerrier. Rejoignez-nous!"
+	Texts::Set fr msg2      "Les Moulins d'Agamand sont détenus par le Fléau, Paladin. Rejoignez-nous!"
+	Texts::Set fr msg3      "Les Moulins d'Agamand sont détenus par le Fléau, Chasseur. Rejoignez-nous!"
+	Texts::Set fr msg4      "Les Moulins d'Agamand sont détenus par le Fléau, Voleur. Rejoignez-nous!"
+	Texts::Set fr msg5      "Les Moulins d'Agamand sont détenus par le Fléau, Prêtre. Rejoignez-nous!"
+	Texts::Set fr msg6      "Les Moulins d'Agamand sont détenus par le Fléau, Shaman. Rejoignez-nous!"
+	Texts::Set fr msg7      "Les Moulins d'Agamand sont détenus par le Fléau, Mage. Rejoignez-nous!"
+	Texts::Set fr msg8      "Les Moulins d'Agamand sont détenus par le Fléau, Démoniste. Rejoignez-nous!"
+	Texts::Set fr msg9      "Les Moulins d'Agamand sont détenus par le Fléau, Druide. Rejoignez-nous!"
+	Texts::Set fr msg10     "Vous visitez la famille? Mourrez imbécile!"
+}
+
+
+namespace eval ::RotHideMongrel {
+	Texts::Set fr msg1      "Grrrr... de la chair fraîche."
+	Texts::Set fr msg2      "Encore des os pour grignoter..."
+}
+
+
+namespace eval ::RotHideGraverobber {
+	Texts::Set fr msg1      "Grrrr... de la chair fraîche."
+	Texts::Set fr msg2      "Encore des os pour grignoter..."
+}
+
+
+namespace eval ::RuklartheTrapper {
+	Texts::Set fr msg1      "Toi pas prendre bougie!"
+	Texts::Set fr msg2      "Yiieeeee! Moi courir!"
+}
+
+
+namespace eval ::LepperGnome {
+	Texts::Set fr msg1      "Je vous trancherai!"
+}
+
+
+namespace eval ::PalemaneTanner {
+	Texts::Set fr msg1      "Grrrr... de la chair fraîche."
+	Texts::Set fr msg2      "Encore des os pour grignoter..."
+}
+
+
+namespace eval ::PalemaneSkinner {
+	Texts::Set fr msg1      "Grrrr... de la chair fraîche."
+	Texts::Set fr msg2      "Encore des os pour grignoter..."
+}
+
+
+namespace eval ::StormscaleToxicologist {
+	Texts::Set fr msg1      "Vous avez interféré avec nos plans pour la dernière fois, stupide Guerrier!"
+	Texts::Set fr msg2      "Vous avez interféré avec nos plans pour la dernière fois, stupide Paladin!"
+	Texts::Set fr msg3      "Vous avez interféré avec nos plans pour la dernière fois, stupide Chasseur!"
+	Texts::Set fr msg4      "Vous avez interféré avec nos plans pour la dernière fois, stupide Voleur!"
+	Texts::Set fr msg5      "Vous avez interféré avec nos plans pour la dernière fois, stupide Prêtre!"
+	Texts::Set fr msg6      "Vous avez interféré avec nos plans pour la dernière fois, stupide Unk1!"
+	Texts::Set fr msg7      "Vous avez interféré avec nos plans pour la dernière fois, stupide Shaman!"
+	Texts::Set fr msg8      "Vous avez interféré avec nos plans pour la dernière fois, stupide Mage!"
+	Texts::Set fr msg9      "Vous avez interféré avec nos plans pour la dernière fois, stupide Démoniste!"
+	Texts::Set fr msg10     "Vous avez interféré avec nos plans pour la dernière fois, stupide Unk2!"
+	Texts::Set fr msg11     "Vous avez interféré avec nos plans pour la dernière fois, stupide Druide!"
+}
+
+
+namespace eval ::KoboldGeomancer {
+	Texts::Set fr msg1      "Toi pas prendre bougie!"
+	Texts::Set fr msg2      "Yiieeeee! Moi courir!"
+}
+
+
+namespace eval ::Koboldminer {
+	Texts::Set fr msg1      "Toi pas prendre bougie!"
+	Texts::Set fr msg2      "Yiieeeee! Moi courir!"
+}
+
+
+namespace eval ::KoboldLaborer {
+	Texts::Set fr msg1      "Toi pas prendre bougie!"
+	Texts::Set fr msg2      "Yiieeeee! Moi courir!"
+}
+
+
+namespace eval ::TunnelRatForager {
+	Texts::Set fr msg1      "Moi pas courrir contre guerrier comme toi!"
+	Texts::Set fr msg2      "Moi pas courrir contre paladin comme toi!"
+	Texts::Set fr msg3      "Moi pas courrir contre chasseur comme toi!"
+	Texts::Set fr msg4      "Moi pas courrir contre voleur comme toi!"
+	Texts::Set fr msg5      "Moi pas courrir contre prêtre comme toi!"
+	Texts::Set fr msg6      "Moi pas courrir contre unk1 comme toi!"
+	Texts::Set fr msg7      "Moi pas courrir contre shaman comme toi!"
+	Texts::Set fr msg8      "Moi pas courrir contre mage comme toi!"
+	Texts::Set fr msg9      "Moi pas courrir contre démoniste comme toi!"
+	Texts::Set fr msg10     "Moi pas courrir contre unk2 comme toi!"
+	Texts::Set fr msg11     "Moi pas courrir contre druide comme toi!"
+	Texts::Set fr msg12     "Yip! Moi tuer!"
+}
+
+
+namespace eval ::TunnelRatVermin {
+	Texts::Set fr msg1      "Moi pas courrir contre guerrier comme toi!"
+	Texts::Set fr msg2      "Moi pas courrir contre paladin comme toi!"
+	Texts::Set fr msg3      "Moi pas courrir contre chasseur comme toi!"
+	Texts::Set fr msg4      "Moi pas courrir contre voleur comme toi!"
+	Texts::Set fr msg5      "Moi pas courrir contre prêtre comme toi!"
+	Texts::Set fr msg6      "Moi pas courrir contre unk1 comme toi!"
+	Texts::Set fr msg7      "Moi pas courrir contre shaman comme toi!"
+	Texts::Set fr msg8      "Moi pas courrir contre mage comme toi!"
+	Texts::Set fr msg9      "Moi pas courrir contre démoniste comme toi!"
+	Texts::Set fr msg10     "Moi pas courrir contre unk2 comme toi!"
+	Texts::Set fr msg11     "Moi pas courrir contre druide comme toi!"
+	Texts::Set fr msg12     "Yip! Moi tuer!"
+}
+
+
+namespace eval ::DefiasBandit {
+	Texts::Set fr msg1      "Ah, une occasion d'utiliser cette lame fraîchement aiguisée."
+	Texts::Set fr msg2      "La Confrérie ne tolérera pas vos activités."
+}
+
+
+namespace eval ::DefiasCutpurse {
+	Texts::Set fr msg1      "Ah, une occasion d'utiliser cette lame fraîchement aiguisée."
+	Texts::Set fr msg2      "La Confrérie ne tolérera pas vos activités."
+}
+
+
+namespace eval ::DarkIronSapper {
+	Texts::Set fr msg1      "Wahehe! Je vais vous faire descendre avec moi!"
+}
+
+
+namespace eval ::VaelastrasztheCorrupt {
+	Texts::Set fr msg1      "Courrez maintenant, tant que vous pouvez! Je ne veux pas vous faire de mal!"
+}
+
+
+namespace eval ::Onyxia {
+	Texts::Set fr msg1      "Quelle chance! D'habitude je dois sortir de mon repaire pour me nourrir."
+	Texts::Set fr msg2      "Il semble que vous n'avez pas compris pas votre leçon, mortels."
+}
+

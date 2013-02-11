@@ -1,0 +1,19 @@
+// Database description file
+
+dbname mails
+creator wad
+created 2005/10/16/10:18:03
+
+key	uint	MSGID
+field	string	FROM
+field	string	TO
+field	string	SUBJECT
+field	string	MESSAGE
+field	uint	PACKAGE
+field	uint	SENDTIME
+field	uint	ITEM_ENTRY
+field	uint	ITEM_PROPS[8]
+field	uint	MONEY
+field	uint	COD
+field	bool	READED
+

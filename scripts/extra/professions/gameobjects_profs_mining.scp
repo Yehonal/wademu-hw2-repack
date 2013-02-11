@@ -1,0 +1,666 @@
+
+[gameobj 6]
+name=Iron Deposit
+type=3
+sound1=1505
+sound0=41
+flags=00
+loottemplate=51
+level=125
+model=312
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 11]
+name=Mithril Deposit
+type=3
+sound1=1742
+sound0=379
+flags=00
+loottemplate=56
+level=175
+model=313
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 12]
+name=Silver Vein
+type=3
+sound1=1504
+sound0=40
+flags=00
+loottemplate=47
+level=75
+model=314
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 13]
+name=Gold Vein
+type=3
+sound1=1506
+sound0=42
+flags=00
+loottemplate=70
+level=15
+model=311
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 22]
+name=Copper Vein
+type=3
+sound1=1502
+sound0=38
+faction=102
+flags=00
+loottemplate=42
+level=0
+model=310
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 23]
+name=Tin Vein
+type=3
+sound1=2627
+sound0=39
+flags=00
+loottemplate=44
+level=65
+model=315
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 62]
+name=Incendicite Mineral Vein
+type=3
+sound1=1409
+sound0=39
+loottemplate=45
+level=65
+model=384
+sound3=1
+sound4=1
+sound5=2
+sound6=295
+
+[gameobj 63]
+name=Lesser Bloodstone Deposit
+type=3
+sound1=2039
+sound0=40
+loottemplate=50
+level=75
+model=48
+sound3=1
+sound4=2
+sound5=3
+
+[gameobj 64]
+name=Small Thorium Vein
+type=3
+sound1=9597
+sound0=400
+loottemplate=63
+level=250
+model=3951
+sound3=1
+sound4=1
+sound5=2
+
+[gameobj 129]
+name=Ooze Covered Mithril Deposit
+type=3
+sound1=1742
+sound0=379
+flags=00
+loottemplate=57
+level=175
+model=767
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 132]
+name=Truesilver Deposit
+type=3
+sound1=5045
+sound0=380
+loottemplate=59
+level=230
+model=314
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 168]
+name=Rich Thorium Vein
+type=3
+sound1=12883
+sound0=939
+flags=00
+loottemplate=64
+level=275
+model=3952
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 219]
+name=Indurium Mineral Vein
+type=3
+sound1=3266
+sound0=25
+loottemplate=53
+level=150
+model=384
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 262]
+name=Dark Iron Deposit
+type=3
+sound1=11213
+sound0=719
+loottemplate=58
+level=230
+model=2571
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 324]
+name=Small Thorium Vein
+type=3
+sound1=9597
+sound0=400
+flags=00
+loottemplate=63
+level=250
+model=3951
+size=0.500000
+sound3=1
+sound4=1
+sound5=2
+
+[gameobj 355]
+name=Ooze Covered Rich Thorium Vein
+type=3
+sound1=12883
+sound0=939
+loottemplate=65
+level=275
+model=767
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 360]
+name=Ooze Covered Silver Vein
+type=3
+sound1=1504
+sound0=40
+loottemplate=49
+level=75
+model=767
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 366]
+name=Ooze Covered Truesilver Deposit
+type=3
+sound1=5045
+sound0=380
+loottemplate=62
+level=230
+model=767
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 1610]
+name=Incendicite Mineral Vein
+type=3
+sound1=1409
+sound0=39
+loottemplate=45
+level=65
+model=384
+sound3=1
+sound4=1
+sound5=2
+sound6=295
+
+[gameobj 1667]
+name=Incendicite Mineral Vein
+type=3
+sound1=1409
+sound0=39
+loottemplate=45
+level=65
+model=384
+size=0.5
+sound3=1
+sound4=1
+sound5=2
+sound6=294
+
+[gameobj 1731]
+name=Copper Vein
+type=3
+sound1=1502
+sound0=38
+flags=00
+loottemplate=42
+level=0
+model=310
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 1732]
+name=Tin Vein
+type=3
+sound1=1503
+sound0=39
+flags=00
+loottemplate=44
+level=65
+model=315
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 1733]
+name=Silver Vein
+type=3
+sound1=1504
+sound0=40
+flags=00
+loottemplate=47
+level=75
+model=314
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 1734]
+name=Gold Vein
+type=3
+sound1=1506
+sound0=42
+flags=00
+loottemplate=70
+level=15
+model=311
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 1735]
+name=Iron Deposit
+type=3
+sound1=1505
+sound0=41
+flags=00
+loottemplate=51
+level=125
+model=312
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 2040]
+name=Mithril Deposit
+type=3
+sound1=1742
+sound0=379
+flags=00
+loottemplate=56
+level=175
+model=313
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 2047]
+name=Truesilver Deposit
+type=3
+sound1=5045
+sound0=380
+flags=00
+loottemplate=59
+level=230
+model=314
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 2054]
+name=Tin Vein
+type=3
+sound1=1736
+sound0=39
+loottemplate=44
+level=65
+model=315
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 2055]
+name=Copper Vein
+type=3
+sound1=1735
+sound0=38
+flags=00
+loottemplate=42
+level=0
+model=310
+size=0.5
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 2653]
+name=Lesser Bloodstone Deposit
+type=3
+sound1=2039
+sound0=40
+loottemplate=50
+level=75
+model=48
+sound3=1
+sound4=2
+sound5=3
+
+[gameobj 3763]
+name=Copper Vein
+type=3
+sound1=2626
+sound0=38
+flags=00
+loottemplate=42
+level=0
+model=310
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 3764]
+name=Tin Vein
+type=3
+sound1=2627
+sound0=39
+flags=00
+loottemplate=44
+level=65
+model=315
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 19903]
+name=Indurium Mineral Vein
+type=3
+sound1=3266
+sound0=25
+flags=00
+loottemplate=53
+level=150
+model=384
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 73939]
+name=Ooze Covered Iron Deposit
+type=3
+sound1=1505
+sound0=41
+loottemplate=52
+level=125
+model=767
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 73940]
+name=Ooze Covered Silver Vein
+type=3
+sound1=1504
+sound0=40
+loottemplate=49
+level=75
+model=767
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 73941]
+name=Ooze Covered Gold Vein
+type=3
+sound1=1506
+sound0=42
+loottemplate=55
+level=155
+flags=00
+model=767
+size=0.5
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 103711]
+name=Tin Vein
+type=3
+sound1=1503
+sound0=39
+faction=102
+flags=00
+loottemplate=44
+level=65
+model=315
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 103713]
+name=Copper Vein
+type=3
+sound1=1502
+sound0=38
+faction=102
+flags=00
+loottemplate=42
+level=0
+model=310
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 105569]
+name=Silver Vein
+type=3
+sound1=1504
+sound0=40
+flags=00
+loottemplate=47
+level=75
+model=314
+size=0.5
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 123309]
+name=Ooze Covered Truesilver Deposit
+type=3
+sound1=5045
+sound0=380
+loottemplate=62
+level=230
+model=767
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 123310]
+name=Ooze Covered Mithril Deposit
+type=3
+sound1=1742
+sound0=379
+flags=00
+loottemplate=57
+level=175
+model=767
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 150079]
+name=Mithril Deposit
+type=3
+sound1=1742
+sound0=379
+flags=00
+loottemplate=56
+level=175
+model=313
+size=0.5
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 150080]
+name=Gold Vein
+type=3
+sound1=1506
+sound0=42
+loottemplate=70
+level=15
+model=311
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 150081]
+name=Truesilver Deposit
+type=3
+sound1=5045
+sound0=380
+loottemplate=59
+level=230
+model=314
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 150082]
+name=Small Thorium Vein
+type=3
+sound1=9597
+sound0=400
+flags=00
+loottemplate=63
+level=250
+model=3951
+size=0.5
+sound3=1
+sound4=1
+sound5=2
+
+[gameobj 165658]
+name=Dark Iron Deposit
+type=3
+sound1=11213
+sound0=719
+loottemplate=58
+level=230
+model=2571
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 175404]
+name=Rich Thorium Vein
+type=3
+sound1=12883
+sound0=939
+flags=00
+loottemplate=64
+level=275
+model=3952
+size=0.500000
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 176643]
+name=Small Thorium Vein
+type=3
+sound1=13960
+sound0=400
+flags=00
+loottemplate=63
+level=250
+model=3951
+size=0.5
+sound3=1
+sound4=1
+sound5=2
+
+[gameobj 176645]
+name=Mithril Deposit
+type=3
+sound1=13961
+sound0=379
+loottemplate=56
+level=175
+model=313
+sound3=1
+sound4=2
+sound5=4
+
+[gameobj 177388]
+name=Ooze Covered Rich Thorium Vein
+type=3
+sound1=12883
+sound0=939
+loottemplate=65
+level=275
+model=767
+sound3=1
+sound4=2
+sound5=4
+

@@ -1,0 +1,286 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+#
+# Translation by Hochelf
+#
+
+
+namespace eval ::WoWEmu::Commands {
+	Texts::Set de unknown_command           "Command \"%s\" is unknown."
+	Texts::Set de not_allowed               "Ihr seid nicht berechtigt, diesen Befehl zu benutzen."
+	Texts::Set de not_allowed_players       "Ihe seid nicht berechtigt, diesen befehl auf Spieler anzuwenden."
+	Texts::Set de not_allowed_object        "Ihe seid nicht berechtigt, diesen befehl auf Objekte anzuwenden."
+	Texts::Set de select_player             "Bitte wählt einen Spieler aus."
+	Texts::Set de select_self               "Ihr müsst euch selbst mit F1 auswählen, um diesen Befehl zu benutzen."
+	Texts::Set de cant_kick_self            "Ihr könnt Euch nicht selbst kicken."
+	Texts::Set de plevel_conflict           "Das Plevel Eures Ziels ist gleich oder höher, als Euer eigenes."
+	Texts::Set de object_not_found          "Objekt nicht gefunden."
+	Texts::Set de help_plvl0                "Befehle: \n .HELP \n .WHERE \n .DISMOUNT \n Benutzt .HELP <Befehl> für mehr Informationen.\n"
+	Texts::Set de help_plvl2                "Befehle: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .DEL; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .RESURRECT; \n .SETAURA; .SETRESTSTATE; \n .CLEARQFLAGS; \n .STARTTIMER; .STOPTIMER; \n .FACTION; \n Benutzt .HELP <Befehl> für mehr Informationen.\n"
+	Texts::Set de help_plvl4                "Befehle: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .NAMEGO; \n .FACTION; \n .ADD ; .ADDGO ; .ADDNPC; \n .ADDSPAWN; \n .SETSPAWNNPC; .SETSPAWNGO; \n .SETSPAWNDIST; .SETSPAWNTIME; \n .SETLEVEL; .SETMODEL; \n .SETSIZE; .SETSPEED; \n .SETXP; .SETCP; .SETHP; \n .SETFLAGS; .SETNPCFLAGS; \n .PARALYSE; \n .DEL; .KILL; .KILLALLNPC; \n .RESURRECT; \n .LEARN; .UNLEARN; .LEARNSK; .UNLEARNSK; \n .SETAURA; .SETRESTSTATE; .CELARQFLAGS; \n .TARGETGO; .TARGETLINK; \n .TURN; .COME; \n .MOVE; .ROTATE; \n .CLEARREP; .GFLAGS; .GTYPE; \n .STARTTIMER ; .STOPTIMER; \n .EXPLORATION; .BROADCAST; \n Benutzt .HELP <Befehl> für mehr Informationen.\n"
+	Texts::Set de help_plvl6                "Befehle: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .KILL ; .KILLALLNPC; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .NAMEGO; \n .FACTION; .SETFACTION; \n .TARGETGO; .TARGETLINK; \n .TURN; .COME; \n .DEL; .ADD ; .ADDGO ; .ADDNPC; \n .ADDSPAWN; \n .SETSPAWNNPC; .SETSPAWNGO; \n .SETSPAWNDIST; .SETSPAWNTIME; \n .SETXP; .SETCP; .SETHP; \n .SETLEVEL; .SETMODEL; .SETSIZE; \n .SETSPEED; .SETFLAGS; \n .SETAURA; .SETRESTSTATE; \n .SETNPCFLAGS; \n .LEARN; .UNLEARN; .LEARNSK; .UNLEARNSK; \n .MOVE; .ROTATE; \n .GFLAGS; .GTYPE; \n .RESURRECT; .PARALYSE; .CLEARREP; \n .EXPLORATION; .CLEARQFLAGS; \n .EXPORTCHAR; .IMPORTCHAR; \n .EXPORTSPAWNS; .EXPORTSPAWNSXY; \n .IMPORTSPAWNS; .DELSPAWNS; .DELSPAWNSXY; \n .STARTTIMER; .STOPTIMER; \n .PPON; .PPOFF; \n .RETCL; .RESCP; \n .BROADCAST; .SAVE; .SHUTDOWN; .REHASH; \n .DELALLCORP; .CLEANUP; .RESPAWNALL; \n Benutzt .HELP <Befehl> für mehr Informationen.\n"
+	Texts::Set de number_too_large          "Diese Nummer ist zu hoch!"
+}
+
+
+namespace eval ::AI {
+	Texts::Set de humanoid_sayings {
+		"Stirb, %s!"
+		"Bereitet Euch auf den Tod vor %s!"
+		"Ich kriege Euch, %s!"
+		"Ihr werdet sterben, %s!"
+		"%s, ich werde Euch zu Euren Urahnen befördern."
+		"%s, ich schneide Euch den Kopf ab!"
+		"Ihr geht nirgendwo hin, %s!"
+		"%s muss sterben!"
+		"Bereit zu sterben, %s?"
+	}
+}
+
+
+namespace eval ::SpellEffects {
+	Texts::Set de script_without_case       "Achtung! Zaubereffekt Script %s ohne Grund"
+	Texts::Set de spell_effect_quest        "Zaubereffekt Quest %s"
+	Texts::Set de teleport_not_ready        "Dieser Teleportzauber ist noch nicht bereit.[ ::Custom::Color " Verbleibende Zeit: %s." dcdcdc ]"
+}
+
+
+namespace eval ::GmTools {
+	Texts::Set de accounts_on_server        "Accounts gesamt: %s"
+	Texts::Set de bans_on_server            "Banns gesamt: %s"
+	Texts::Set de plevel_conflict           "Plevel Konflict."
+	Texts::Set de can_not_ban_self          "Ihr könnt euch nicht selbst bannen."
+	Texts::Set de banned_account            "Account gebannt %s."
+	Texts::Set de can_not_del_self          "Ihr könnt Euren Account nicht löschen."
+	Texts::Set de deleted_account           "Account gelöscht: %s."
+	Texts::Set de account_exists            "Account %s existiert bereits."
+	Texts::Set de added_account             "Account erstellt %s."
+	Texts::Set de can_not_lock_self         "Ihr könnt Euch nicht selbst sperren."
+	Texts::Set de locked_account            "Account gesperrt: %s."
+	Texts::Set de select_player             "Wählt einen Spieler aus."
+	Texts::Set de unbanned_account          "Account entbannt: %s."
+	Texts::Set de unlocked_account          "Account entsperrt: %s."
+	Texts::Set de changed_password          "Passwort geändert von: %s."
+	Texts::Set de can_not_level_self        "Ihr könnt Euer eigenes Plevel nicht ändern."
+	Texts::Set de changed_plevel            "Plevel geändert von: %s."
+	Texts::Set de not_enough_parms          "Nicht genug Parameter."
+	Texts::Set de select_npc                "Bitte wählt einen NPC aus."
+	Texts::Set de reputation_with           "Euer Ruf bei %s's Fraktion (%s) ist %s."
+	Texts::Set de untalent_help             "Benutzung: .untalent \[ free \]"
+	Texts::Set de missing_delspell_keys     "Bei Zauber %s in spellcost.scp fehlt fehlt der delspell Eintrag."
+	Texts::Set de too_low_level             "%s hat eine zu niedrige Stufe."
+	Texts::Set de not_enough_money          "%s hat nicht genug Gold. Es kostet %s Kupfer."
+	Texts::Set de aggro_help                "Benutzung: .aggro \[ on \| off \]"
+	Texts::Set de aggro_on                  "Aggro ist nun [ Custom::Color "an" red ]. Mobs greifen Euch an!"
+	Texts::Set de aggro_off                 "Aggro ist nun [ Custom::Color "aus" lime ]. Mobs greifen Euch nicht an!"
+	Texts::Set de damage_help               "Benutzung: .damage \[ on \| off \]"
+	Texts::Set de damage_on                 "Schaden ist nun [ Custom::Color "an" red ]. Ihr könnt Schaden bekommen!"
+	Texts::Set de damage_off                "Schaden ist nun [ Custom::Color "aus" lime ]. Ihr könnt keinen Schaden bekommen!"
+}
+
+
+namespace eval ::WorldLock {
+	Texts::Set de l_msg01	"[ Custom::Color "Ihr seid nicht berechtigt, diesen befehl zu benutzen!" red ]"
+	Texts::Set de l_msg02	"Die \"[ Custom::Color "world.save" white ]\" ist bereits [ Custom::Color "geschützt" red ]."
+	Texts::Set de l_msg03	"Die \"[ Custom::Color "world.save" white ]\" ist bereits [ Custom::Color "entschützt" lime ]."
+	Texts::Set de l_msg04	"Die \"[ Custom::Color "world.save" white ]\" ist [ Custom::Color "geschützt" red ]."
+	Texts::Set de l_msg05	"Die \"[ Custom::Color "world.save" white ]\" ist [ Custom::Color "entschützt" lime ]."
+	Texts::Set de l_msg06	"Benutzung:   [ Custom::Color ".ws \[ lock \| exclusive \| unlock \| shared \| info \| help \]" white ]"
+}
+
+
+namespace eval ::RavenclawApparition {
+	Texts::Set de msg1      "Unser Lord befiehlt uns, uns auf den Krieg vorzubereiten!"
+	Texts::Set de msg2      "Wir werden stark, während unsere Feinde von Feinden umzingelt werden und durch durchgängige Attacken geschwächt werden!"
+	Texts::Set de msg3      "Tod und Ehre für den Lichkönig!"
+	Texts::Set de msg4      "Wir werden unsere Feinde aus dem Silberwald verdrängen und den Krieg bis in ihre Hauptstädte bringen!"
+}
+
+
+namespace eval ::MoonrageDarkrunner {
+	Texts::Set de msg1      "Die Söhne Arugals werden jeden, der die Macht der Moonrage bezeifelt auslöschen!"
+}
+
+
+namespace eval ::Nefarian {
+	Texts::Set de msg1      "Brennt! Ihr Wracks! Brennt!"
+	Texts::Set de msg2      "Ich werde euch aus dieser Gegend verjagen!"
+	Texts::Set de msg3      "Hört auf, euch zu heilen und stellt euch!"
+	Texts::Set de msg4      "Ich befehle den Tod!"
+	Texts::Set de msg5      "AAAARRRRRGGGGHHHHHH!"
+	Texts::Set de msg6      "Magier auch? Ihr solltet lieber vorsichtig beim Spielen mit Magie sein!"
+	Texts::Set de msg7      "Krieger, ich weiß, dass ihr stärker schlagen könnt! Strengt euch an!"
+	Texts::Set de msg8      "Druiden und ihr verrücktes Gestaltenwechseln. Zeigts mir!"
+	Texts::Set de msg9      "Priester! Wenn ihr weiter so heilt, könnten wir das Ganze auch noch interessanter machen!"
+	Texts::Set de msg10     "Paladine... Ich habe gehört, ihr habt mehrere Leben. Zeigts mir."
+	Texts::Set de msg11     "Schamanen, zeigt mir, was eure Totems drauf haben!"
+	Texts::Set de msg12     "Hexenmeister, ihr solltet nicht mit Magie herumspielen, die ihr nicht versteht! Seht ihr, was passiert?"
+	Texts::Set de msg13     "Jäger und ihre nervenden Piekser!"
+	Texts::Set de msg14     "Schurken? Hört auf euch zu verstecken und stellt euch!"
+}
+
+
+namespace eval ::DevlinAgamand {
+	Texts::Set de msg1      "Agamands Mühlen sind von uns besetzt, Krieger. Macht mit!"
+	Texts::Set de msg2      "Agamands Mühlen sind von uns besetzt, Paladin. Macht mit!"
+	Texts::Set de msg3      "Agamands Mühlen sind von uns besetzt, Jäger. Macht mit!"
+	Texts::Set de msg4      "Agamands Mühlen sind von uns besetzt, Schurke. Macht mit!"
+	Texts::Set de msg5      "Agamands Mühlen sind von uns besetzt, Priester. Macht mit!"
+	Texts::Set de msg6      "Agamands Mühlen sind von uns besetzt, Schamane. Macht mit!"
+	Texts::Set de msg7      "Agamands Mühlen sind von uns besetzt, Magier. Macht mit!"
+	Texts::Set de msg8      "Agamands Mühlen sind von uns besetzt, Hexenmeister. Macht mit!"
+	Texts::Set de msg9      "Agamands Mühlen sind von uns besetzt, Druide. Macht mit!"
+	Texts::Set de msg10     "Hier, um die Familie zu besuchen? Stirb, Unwürdiger!"
+}
+
+
+namespace eval ::RotHideMongrel {
+	Texts::Set de msg1      "Grrrr... frisches Fleisch!"
+	Texts::Set de msg2      "Mehr Knochen zum Nagen..."
+}
+
+
+namespace eval ::RotHideGraverobber {
+	Texts::Set de msg1      "Grrrr... frisches Fleisch!"
+	Texts::Set de msg2      "Mehr Knochen zum Nagen..."
+}
+
+
+namespace eval ::RuklartheTrapper {
+	Texts::Set de msg1      "Ihr nix kriegt die Kerze!"
+	Texts::Set de msg2      "Yiieeeee! Ich rennen!"
+}
+
+
+namespace eval ::LepperGnome {
+	Texts::Set de msg1      "Ich töte Euch!"
+}
+
+
+namespace eval ::PalemaneTanner {
+	Texts::Set de msg1      "Grrrr... frisches Fleisch!"
+	Texts::Set de msg2      "Mehr Knochen zum Nagen..."
+}
+
+
+namespace eval ::PalemaneSkinner {
+	Texts::Set de msg1      "Grrrr... frisches Fleisch!"
+	Texts::Set de msg2      "Mehr Knochen zum Nagen..."
+}
+
+
+namespace eval ::StormscaleToxicologist {
+	Texts::Set de msg1      "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Krieger!"
+	Texts::Set de msg2      "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Paladin!"
+	Texts::Set de msg3      "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Jäger!"
+	Texts::Set de msg4      "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Schurke!"
+	Texts::Set de msg5      "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Priester!"
+	Texts::Set de msg6      "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Unk1!"
+	Texts::Set de msg7      "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Schamane!"
+	Texts::Set de msg8      "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Magier!"
+	Texts::Set de msg9      "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Hexenmeister!"
+	Texts::Set de msg10     "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Unk2!"
+	Texts::Set de msg11     "Ihr habt undere Pläne zum letzten Mal durchkreuzt, närrischer Druide!"
+}
+
+
+namespace eval ::KoboldGeomancer {
+	Texts::Set de msg1      "Ihr nix kriegt die Kerze!"
+	Texts::Set de msg2      "Yiieeeee! Ich rennen!"
+}
+
+
+namespace eval ::Koboldminer {
+	Texts::Set de msg1      "Ihr nix kriegt die Kerze!"
+	Texts::Set de msg2      "Yiieeeee! Ich rennen!"
+}
+
+
+namespace eval ::KoboldLaborer {
+	Texts::Set de msg1      "Ihr nix kriegt die Kerze!"
+	Texts::Set de msg2      "Yiieeeee! Ich rennen!"
+}
+
+
+namespace eval ::TunnelRatForager {
+	Texts::Set de msg1      "Ich nix rennen weg vor Krieger wie Euch!"
+	Texts::Set de msg2      "Ich nix rennen weg vor Paladin wie Euch!"
+	Texts::Set de msg3      "Ich nix rennen weg vor Jäger wie Euch!"
+	Texts::Set de msg4      "Ich nix rennen weg vor Schurke wie Euch!"
+	Texts::Set de msg5      "Ich nix rennen weg vor Priester wie Euch!"
+	Texts::Set de msg6      "Ich nix rennen weg vor Unk1 wie Euch!"
+	Texts::Set de msg7      "Ich nix rennen weg vor Schamane wie Euch!"
+	Texts::Set de msg8      "Ich nix rennen weg vor Magier wie Euch!"
+	Texts::Set de msg9      "Ich nix rennen weg vor Hexenmeister wie Euch!"
+	Texts::Set de msg10     "Ich nix rennen weg vor Unk2 wie Euch!"
+	Texts::Set de msg11     "Ich nix rennen weg vor Druide wie Euch!"
+	Texts::Set de msg12     "Jai! Tötet mich!"
+}
+
+
+namespace eval ::TunnelRatVermin {
+	Texts::Set de msg1      "Ich nix rennen weg vor Krieger wie Euch!"
+	Texts::Set de msg2      "Ich nix rennen weg vor Paladin wie Euch!"
+	Texts::Set de msg3      "Ich nix rennen weg vor Jäger wie Euch!"
+	Texts::Set de msg4      "Ich nix rennen weg vor Schurke wie Euch!"
+	Texts::Set de msg5      "Ich nix rennen weg vor Priester wie Euch!"
+	Texts::Set de msg6      "Ich nix rennen weg vor Unk1 wie Euch!"
+	Texts::Set de msg7      "Ich nix rennen weg vor Schamane wie Euch!"
+	Texts::Set de msg8      "Ich nix rennen weg vor Magier wie Euch!"
+	Texts::Set de msg9      "Ich nix rennen weg vor Hexenmeister wie Euch!"
+	Texts::Set de msg10     "Ich nix rennen weg vor Unk2 wie Euch!"
+	Texts::Set de msg11     "Ich nix rennen weg vor Druide wie Euch!"
+	Texts::Set de msg12     "Jai! Tötet mich!"
+}
+
+
+namespace eval ::DefiasBandit {
+	Texts::Set de msg1      "Ah, eine Chance, diese frisch geschliffene Schwert zu benutzen."
+	Texts::Set de msg2      "Die Bruderschaft wird Eure Aktionen nicht tolerieren."
+}
+
+
+namespace eval ::DefiasCutpurse {
+	Texts::Set de msg1      "Ah, eine Chance, diese frisch geschliffene Schwert zu benutzen."
+	Texts::Set de msg2      "Die Bruderschaft wird Eure Aktionen nicht tolerieren."
+}
+
+
+namespace eval ::DarkIronSapper {
+	Texts::Set de msg1      "Wahehe! Ich werde Euch mit in den Tod reißen!"
+}
+
+
+namespace eval ::VaelastrasztheCorrupt {
+	Texts::Set de msg1      "Rennt weg, solange Ihr noch könnt! Ich will Euch nicht weh tun!"
+}
+
+
+namespace eval ::Onyxia {
+	Texts::Set de msg1      "Was für ein Glück! Normalerweise muss ich meine Höhle verlassen, um an Futter zu kommen."
+	Texts::Set de msg2      "Sieht so aus, als hättet ihr eure Lektion noch nicht gelernt, Sterbliche."
+}
+
+

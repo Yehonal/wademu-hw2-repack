@@ -1,0 +1,5 @@
+Click an NPC, open command prompt in game "console" use command .paralyse in npc
+
+or
+
+.setspawndist 0 0

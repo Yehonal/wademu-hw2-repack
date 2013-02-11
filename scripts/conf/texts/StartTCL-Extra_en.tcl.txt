@@ -1,0 +1,132 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+# Those additions come from UWC, adapted to StartTCL by Hochelf
+#
+
+
+namespace eval ::WoWEmu::Commands {
+	Texts::Set en select_npc                "Please select an NPC."
+	Texts::Set en item_not_found            "Item not found."
+	Texts::Set en copper                    "Copper"
+	Texts::Set en silver                    "Silver"
+	Texts::Set en gold                      "Gold"
+	Texts::Set en invalid_money             "Invalid amount of money"
+	Texts::Set en bad_cmd_args              "Bad command args"
+	Texts::Set en amount                    "amount"
+	Texts::Set en added_to                  "added to"
+	Texts::Set en location_added            "Location added."
+	Texts::Set en no_location_name          "No (or too short) locationname."
+	Texts::Set en target                    "Target"
+	Texts::Set en no_locations              "No locations."
+	Texts::Set en bad_command               "Bad command."
+	Texts::Set en created_for_route_and     "created for route and linked to Waypoint"
+	Texts::Set en created                   "created"
+	Texts::Set en banip_usage               "Use syntax: ban <ip> / <list> / <undo>. For <ip> replace last digit by 0 Example 184.157.23.0. Do not leave a space at the end of the IP address. <Undo> wipes last entry"
+	Texts::Set en no_ips_lines_to_remove    "No IPs or lines to remove"
+	Texts::Set en undo_done_last_line       "Undo done last line removed"
+	Texts::Set en ip_already_banned         "Error > IP is already in banned list"
+	Texts::Set en ip_list_updated_noerror   "IP Banned list updated. No errors"
+	Texts::Set en thank_for_report          "Thank you\n With your help we will make a better Realm."
+	Texts::Set en bug_select                "Please select the bugged Object (or yourself)."
+	Texts::Set en cant_cast_that            "Can't cast that!"
+	Texts::Set en input_spell               "Please input a spell."
+	Texts::Set en no_adminpass_conf         "You do not have the adminpass.conf!"
+	Texts::Set en incorrect_password        "Incorrect Password!"
+	Texts::Set en setpassword_enabled       "Old password correct, please type .setpassword (newpassword) to change your password!"
+	Texts::Set en deleted_from              "deleted from"
+	Texts::Set en not_in_inventory          "not found in the inventory of"
+	Texts::Set en only_gm_learn             "Only GM are allowed to learn those things!"
+	Texts::Set en learned_all_langs         "Learned all languages!"
+	Texts::Set en learned_gm_spells         "Learned all GM spells!"
+	Texts::Set en not_while_dead            "You cannot use this command while being dead."
+	Texts::Set en invalid_selection         "Invalid selection"
+	Texts::Set en removed_from              "removed from"
+	Texts::Set en location_not_found        "Location not found."
+	Texts::Set en location_deleted          "Location deleted."
+	Texts::Set en specify_location          "Please specify a location."
+	Texts::Set en cant_emote                "Can't emote that!"
+	Texts::Set en input_emote               "Please input an emote."
+	Texts::Set en linked_to_start           "linked to start"
+	Texts::Set en way_saved                 "Way saved, Waypoint"
+	Texts::Set en way_starts_on             "Way starts on Waypoint"
+	Texts::Set en start_way_before          "Start a way before trying to save it!"
+	Texts::Set en target_player             "You need to target a player!"
+	Texts::Set en is_gm                     "The selected player is a GM!"
+	Texts::Set en no_gm                     "The selected player is not GM!"
+	#Texts::Set en no_one_jailed             "No one is jailed."
+	#Texts::Set en character_name            "Character Name"
+	#Texts::Set en reason                    "Reason"
+	#Texts::Set en jailed_by                 "Jailed by"
+	#Texts::Set en free_not_sure             "Humm... Not sure, who to free?"
+	#Texts::Set en is_not_jailed             "is not jailed"
+	#Texts::Set en unjailed_false            "The player was not unjailed"
+	#Texts::Set en you_freed_by              "You were freed from jail by"
+	#Texts::Set en free_and_teleported       "is now free and was teleported to"
+	#Texts::Set en jail_usage                "Select Player\n.jail reason: jail selected player\n.jail list: list jailed players\n.jail free: free selected player"
+	#Texts::Set en jail_not_sure             "Humm... Not sure, who to jail?"
+	#Texts::Set en jail_reason_syntax        "Syntax (with selected player): .jail reason"
+	#Texts::Set en now_jailed_by             "Now jailed by"
+	#Texts::Set en for                       "For"
+	#Texts::Set en is_now_jailed_for         "is now jailed for"
+	#Texts::Set en not_jailed                "Not jailed"
+	Texts::Set en cant_teleport             "Can't teleport."
+	Texts::Set en name                      "Name"
+	Texts::Set en file                      "File"
+	Texts::Set en merged_with_main_file     "merged with main waypoints.scp file."
+	Texts::Set en the_original              "The original"
+	Texts::Set en deleted_run_rescp         "has been deleted. Remember to run a .rescp before assigning a Waypoint to any NPC."
+	Texts::Set en missing                   "Missing"
+	Texts::Set en file_to_merge             "file to merge!"
+	Texts::Set en is_reporting              "is reporting"
+	Texts::Set en pvp_usage                 "\nGurubashi PvP Arena:\nTo enter the PvP arena type .pvp enter\nTo leave the PvP arena type .pvp leave\nFor information type .pvp info"
+	Texts::Set en already_there             "You are already there!"
+	Texts::Set en no_enter_while_jailed     "You cannot enter the arena while being in jail!"
+	Texts::Set en not_in_arena              "You cannot leave the arena while not being in it!"
+	Texts::Set en pvp_info                  "Help:\nBattles take place inside the battle ring only!\nViolators will be jailed\nPlease report abuses to GMs"
+	Texts::Set en changepassword_first      "Please use .changepassword (currentpassword) first!"
+	Texts::Set en password_changed          "Password changed."
+	Texts::Set en waypoint_doesnt_exist     "This waypoint doesn't exist!"
+	Texts::Set en ok_waypoint               "OK: Waypoint"
+	Texts::Set en set_for_npc               "set for selected NPC"
+	Texts::Set en waypoint                  "Waypoint"
+	Texts::Set en shown                     "shown"
+	Texts::Set en route_started_waypoint    "Route started, waypoint"
+	Texts::Set en finish_before_new         "Finish current route before creating another one!"
+	Texts::Set en select_target_first       "Select target first!"
+	Texts::Set en cant_tame_elite           "You cannot tame elites!"
+	Texts::Set en cant_tame_player          "You cannot tame players!"
+	Texts::Set en cant_tame_npc             "You cannot tame NPCs!"
+	Texts::Set en cant_tame_friendly        "You cannot tame friendly mobs!"
+	Texts::Set en cant_tame_higher          "You cannot tame anything that has a higher level than you!"
+	Texts::Set en beast_tamed               "You successfully tamed the beast."
+	Texts::Set en you_not_gm                "You are not a GM!"
+	Texts::Set en closer_to_target          "You must be closer to the target!"
+	Texts::Set en now_visible               "You are now visible!"
+	Texts::Set en specify_gender            "You have to specify your gender:\nm is male and f is female!"
+	Texts::Set en pet_ran_away              "Your pet ran away!"
+	Texts::Set en select_pet                "You must select your pet first!"
+	Texts::Set en pet_more_life             "Your pet needs more life!"
+}
+

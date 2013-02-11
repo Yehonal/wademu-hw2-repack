@@ -1,0 +1,2961 @@
+
+[loottemplate 30000]
+loot=6292 0.6
+loot=6294 0.2
+loot=2455 0.1
+loot=6291 52.4
+loot=6289 36.3
+
+[loottemplate 30001]
+loot=6291 75
+loot=6289 25
+
+[loottemplate 30002]
+loot=6351 1.4
+loot=6307 1.4
+loot=6358 16.6
+loot=6361 43.1
+loot=6303 25.4
+loot=6353 1.7
+
+[loottemplate 30008]
+loot=6310 0.3
+loot=8366 0.1
+loot=6359 0.3
+loot=6358 0.4
+loot=6308 28.4
+loot=8365 63.5
+loot=6362 1.8
+loot=4603 1.5
+loot=6357 0.1
+
+[loottemplate 30009]
+loot=6292 0.3
+loot=118 0.3
+loot=2455 0.2
+loot=6291 52.3
+loot=6289 39.1
+
+[loottemplate 30010]
+loot=6309 0.2
+loot=6310 0.2
+loot=6291 0.5
+loot=6308 61.1
+loot=6289 33.6
+loot=8365 0.3
+
+[loottemplate 30011]
+loot=6310 0.3
+loot=6311 0.1
+loot=6647 0.1
+loot=6359 2.6
+loot=929 0.4
+loot=3827 0.2
+loot=6307 0.1
+loot=6358 7.4
+loot=6308 52.4
+loot=6289 27
+loot=6361 20.8
+loot=6354 0.1
+loot=6352 0.05
+
+[loottemplate 30012]
+loot=6292 0.8
+loot=6294 0.1
+loot=6643 0.2
+loot=2963 0.05
+loot=118 0.05
+loot=2455 0.05
+loot=6291 59
+loot=6308 0.05
+loot=6289 35.7
+
+[loottemplate 30014]
+loot=6292 0.6
+loot=6294 0.2
+loot=2455 0.1
+loot=6291 52.4
+loot=6289 36.3
+
+[loottemplate 30015]
+loot=6309 0.1
+loot=6310 0.4
+loot=8366 0.1
+loot=1710 0.2
+loot=3827 0.1
+loot=6308 33.1
+loot=8365 65.2
+
+[loottemplate 30016]
+loot=6358 11.8
+loot=8365 7.1
+loot=13759 15.3
+loot=13758 48.2
+loot=13760 2.4
+
+[loottemplate 30017]
+loot=6309 0.05
+loot=6310 0.2
+loot=6311 0.05
+loot=6645 0.05
+loot=6522 0.2
+loot=6291 17.4
+loot=6308 19.2
+loot=6289 59.3
+
+[loottemplate 30018]
+loot=774 0.05
+loot=2598 0.05
+loot=8178 0.05
+loot=6292 0.8
+loot=6294 0.5
+loot=6295 0.05
+loot=6643 0.2
+loot=8181 0.05
+loot=118 0.4
+loot=2455 0.3
+loot=6291 60.2
+loot=6289 35.8
+
+[loottemplate 30027]
+
+[loottemplate 30028]
+loot=9938 0.05
+loot=8133 0.05
+loot=9922 0.05
+loot=13885 0.3
+loot=13886 0.05
+loot=13882 0.1
+loot=6149 0.3
+loot=13757 2.4
+loot=6358 9.8
+loot=8365 9.2
+loot=13759 11.6
+loot=13758 47.5
+loot=13760 14
+loot=3928 0.3
+
+[loottemplate 30033]
+loot=6309 0.2
+loot=6311 0.1
+loot=3827 0.3
+loot=6308 32.7
+loot=8365 65.5
+
+[loottemplate 30034]
+
+[loottemplate 30035]
+loot=6359 11.3
+loot=6358 11.4
+loot=6362 53.6
+loot=4603 18.6
+loot=6357 0.5
+loot=6355 0.5
+
+[loottemplate 30037]
+loot=1710 0.3
+loot=6308 37.6
+loot=8365 61
+
+[loottemplate 30038]
+loot=6310 0.1
+loot=6291 11.5
+loot=6308 13.2
+loot=6317 30.8
+loot=6289 39.3
+
+[loottemplate 30040]
+loot=6309 0.1
+loot=858 0.1
+loot=3385 0.3
+loot=2455 0.1
+loot=6291 23
+loot=6308 19.5
+loot=6289 54.2
+
+[loottemplate 30041]
+loot=13901 0.2
+loot=13902 0.1
+loot=13757 10.9
+loot=13446 0.4
+loot=13890 10.6
+loot=13759 9
+loot=13758 5.4
+loot=13760 17.5
+loot=13889 35
+loot=13443 0.1
+
+[loottemplate 30043]
+loot=6359 12.9
+loot=6358 12.3
+loot=6362 64.5
+loot=4603 22.5
+loot=6357 0.4
+loot=6355 0.7
+
+[loottemplate 30044]
+loot=6309 0.1
+loot=6310 0.1
+loot=929 0.1
+loot=6308 64.2
+loot=6289 35.9
+loot=1467 3.1
+
+[loottemplate 30045]
+loot=6420 0.05
+loot=15286 0.05
+loot=6310 0.05
+loot=1710 0.2
+loot=6308 36.1
+loot=6289 0.7
+loot=8365 63.3
+
+[loottemplate 30046]
+loot=13757 20
+loot=13890 10
+loot=13758 5
+loot=13760 25
+loot=13889 40
+
+[loottemplate 30047]
+loot=9883 0.05
+loot=13885 0.2
+loot=13886 0.1
+loot=13881 0.05
+loot=6149 0.05
+loot=3914 0.05
+loot=13757 2.9
+loot=6358 9.8
+loot=8365 9.3
+loot=13759 11.3
+loot=13758 47.5
+loot=13760 13.5
+loot=3928 0.05
+
+[loottemplate 30053]
+loot=6309 0.2
+loot=6310 0.2
+loot=6311 0.05
+loot=8366 0.1
+loot=6359 1.7
+loot=3827 0.2
+loot=6358 2.6
+loot=6308 27.8
+loot=8365 50.9
+loot=6362 10.7
+loot=4603 3.8
+loot=16968 0.6
+loot=6355 0.1
+
+[loottemplate 30056]
+
+[loottemplate 30057]
+loot=6292 1
+loot=6291 57.8
+loot=6289 43.1
+
+[loottemplate 30060]
+loot=6292 0.1
+loot=6294 0.1
+loot=6291 56
+loot=6308 1.5
+loot=6289 34.4
+
+[loottemplate 30061]
+loot=6292 0.6
+loot=2455 0.6
+loot=6291 31.2
+loot=6289 35.3
+
+[loottemplate 30062]
+loot=6292 0.6
+loot=4560 0.6
+loot=6291 50.9
+loot=6308 2.9
+loot=6289 33.1
+
+[loottemplate 30063]
+loot=6291 62.7
+loot=6289 26.8
+
+[loottemplate 30064]
+loot=6292 0.6
+loot=6643 1.2
+loot=118 0.6
+loot=6291 58.4
+loot=6308 0.6
+loot=6289 38
+
+[loottemplate 30068]
+loot=3065 0.05
+loot=3210 0.05
+loot=2989 0.05
+loot=6573 0.05
+loot=3055 0.05
+loot=9816 0.05
+loot=9793 0.05
+loot=3870 0.05
+loot=8183 0.05
+loot=6613 0.05
+loot=6582 0.05
+loot=6395 0.05
+loot=6309 0.2
+loot=6310 0.3
+loot=6311 0.1
+loot=6363 0.05
+loot=6647 0.1
+loot=929 0.3
+loot=804 0.05
+loot=3827 0.3
+loot=6308 63
+loot=6289 34.1
+loot=1467 10.7
+
+[loottemplate 30069]
+loot=7364 0.05
+loot=6309 0.05
+loot=6310 0.05
+loot=6311 0.1
+loot=929 0.3
+loot=3827 0.3
+loot=6308 63.6
+loot=6289 33.6
+loot=1467 11.3
+
+[loottemplate 30071]
+loot=6309 0.3
+loot=6308 55
+loot=6289 28.6
+
+[loottemplate 30074]
+loot=6309 0.2
+loot=6311 0.1
+loot=6363 0.1
+loot=1710 0.2
+loot=3827 0.5
+loot=6308 32.9
+loot=8365 65.2
+loot=13758 0.2
+loot=13760 0.2
+
+[loottemplate 30075]
+loot=6308 36.6
+loot=8365 65.7
+
+[loottemplate 30076]
+loot=6308 25
+loot=8365 75
+
+[loottemplate 30085]
+loot=6291 40
+loot=6289 30
+loot=6299 10
+loot=6297 20
+
+[loottemplate 30086]
+loot=6292 0.7
+loot=6294 0.5
+loot=2455 0.1
+loot=6291 54.5
+loot=6289 34.1
+
+[loottemplate 30087]
+loot=8178 0.05
+loot=6292 0.9
+loot=6294 0.5
+loot=6643 0.3
+loot=118 0.4
+loot=2455 0.5
+loot=6291 57.6
+loot=6289 35.2
+loot=4658 0.05
+
+[loottemplate 30088]
+loot=6291 66.7
+loot=6289 33.3
+
+[loottemplate 30089]
+loot=6291 80
+loot=6289 20
+
+[loottemplate 30092]
+loot=6292 0.9
+loot=6294 0.6
+loot=6295 0.1
+loot=6643 0.05
+loot=118 0.3
+loot=6291 62.5
+loot=6289 40.3
+
+[loottemplate 30100]
+loot=6309 0.3
+loot=6310 0.2
+loot=6363 0.05
+loot=1710 0.05
+loot=3827 0.1
+loot=6308 38
+loot=8365 69.2
+
+[loottemplate 30102]
+loot=6308 27.7
+loot=8365 50.8
+
+[loottemplate 30104]
+loot=6359 10.5
+loot=6358 10.6
+loot=6362 52.3
+loot=4603 18.8
+loot=16969 0.05
+loot=6357 0.5
+loot=6355 0.1
+
+[loottemplate 30115]
+loot=6351 1.3
+loot=6307 1.2
+loot=6358 16.2
+loot=6361 44.7
+loot=6303 26.9
+loot=6353 1.1
+
+[loottemplate 30116]
+loot=1710 1
+loot=6308 43.1
+loot=8365 54.9
+
+[loottemplate 30117]
+loot=15233 0.05
+loot=9832 0.05
+loot=7437 0.05
+loot=6311 0.1
+loot=6359 2.9
+loot=1710 0.05
+loot=3827 0.1
+loot=6358 3
+loot=6308 26.8
+loot=8365 49.5
+loot=6362 14.6
+loot=4603 5.8
+loot=6357 0.1
+loot=6355 0.2
+
+[loottemplate 30122]
+loot=6359 0.8
+loot=6358 1.7
+loot=6308 35.3
+loot=8365 70.6
+loot=6362 5
+loot=4603 1.7
+
+[loottemplate 30124]
+loot=13901 0.1
+loot=13757 10.9
+loot=13446 0.6
+loot=13890 14
+loot=13759 14.2
+loot=13758 5.5
+loot=13760 13.9
+loot=13889 37.6
+loot=13443 0.3
+
+[loottemplate 30125]
+loot=6308 200
+loot=8365 100
+
+[loottemplate 30129]
+loot=6308 40.6
+loot=8365 59.4
+
+[loottemplate 30130]
+loot=6310 0.5
+loot=858 0.1
+loot=6358 0.2
+loot=6291 12.8
+loot=6308 18.1
+loot=6289 47.6
+loot=6299 8.5
+loot=6297 8.1
+loot=6301 0.5
+
+[loottemplate 30137]
+
+[loottemplate 30139]
+loot=13757 7.1
+loot=13890 17.9
+loot=13759 10.7
+loot=13758 10.7
+loot=13760 14.3
+loot=13889 39.3
+
+[loottemplate 30141]
+loot=6292 0.5
+loot=6294 0.1
+loot=6295 0.1
+loot=6356 0.6
+loot=118 0.3
+loot=2455 0.2
+loot=6520 0.1
+loot=6291 42.9
+loot=6289 30.8
+loot=6303 24.2
+
+[loottemplate 30146]
+loot=6309 0.1
+loot=6310 0.1
+loot=6291 9.1
+loot=6308 15
+loot=6317 25.7
+loot=6289 37.4
+
+[loottemplate 30150]
+loot=6360 0.05
+loot=6359 11.7
+loot=6307 1.5
+loot=6358 21.7
+loot=6361 67.8
+loot=6354 0.8
+loot=6352 0.8
+
+[loottemplate 30162]
+loot=6292 0.6
+loot=6294 0.3
+loot=6643 0.01
+loot=8179 0.01
+loot=766 0.01
+loot=4662 0.02
+loot=118 0.2
+loot=2455 0.3
+loot=8177 0.01
+loot=6191 47.9
+loot=6289 30.2
+loot=6299 14.4
+loot=4658 0.01
+loot=6297 5.5
+loot=6301 1.1
+
+[loottemplate 30163]
+loot=6294 0.4
+loot=6643 0.4
+loot=6291 49.1
+loot=6289 23.3
+loot=6299 9.9
+loot=6297 7.8
+
+[loottemplate 30168]
+loot=6356 0.4
+loot=6303 90.8
+
+[loottemplate 30169]
+loot=6303 100
+
+[loottemplate 30172]
+loot=6291 14.4
+loot=6308 13.1
+loot=6289 41.3
+loot=6299 10.3
+loot=6297 15.2
+
+[loottemplate 30187]
+loot=6289 100
+
+[loottemplate 30188]
+loot=6294 0.3
+loot=118 0.3
+loot=2455 0.7
+loot=6291 58.6
+loot=6289 35.6
+
+[loottemplate 30193]
+loot=6149 0.4
+loot=13757 3.5
+loot=6358 9.8
+loot=8365 10
+loot=13759 7.6
+loot=13758 49.6
+loot=13760 17.8
+
+[loottemplate 30202]
+loot=13886 0.7
+loot=13881 0.7
+loot=13757 4.8
+loot=6358 8.8
+loot=8365 8.8
+loot=13759 8.8
+loot=13758 41.5
+loot=13760 11.6
+
+[loottemplate 30211]
+loot=774 0.05
+loot=6271 0.05
+loot=3609 0.05
+loot=6292 0.8
+loot=6294 0.4
+loot=6295 0.05
+loot=6643 0.1
+loot=4665 0.05
+loot=3200 0.05
+loot=8179 0.05
+loot=767 0.05
+loot=118 0.4
+loot=2455 0.3
+loot=8177 0.05
+loot=6291 57.9
+loot=6289 34.2
+loot=4565 0.05
+
+[loottemplate 30212]
+loot=4408 0.05
+loot=6292 0.7
+loot=6294 0.3
+loot=6643 0.2
+loot=118 0.4
+loot=2455 0.5
+loot=6291 59
+loot=6289 34.3
+loot=4565 0.05
+
+[loottemplate 30223]
+loot=4562 0.05
+loot=6292 0.8
+loot=6294 0.4
+loot=6295 0.1
+loot=6643 0.1
+loot=766 0.05
+loot=2960 0.05
+loot=118 0.3
+loot=2455 0.3
+loot=6519 0.05
+loot=6291 56.7
+loot=6289 34.9
+loot=4565 0.05
+
+[loottemplate 30226]
+loot=6358 50
+loot=6303 50
+
+[loottemplate 30227]
+loot=6291 16.7
+loot=6308 4.8
+loot=6289 35.7
+loot=6299 15.5
+
+[loottemplate 30237]
+loot=6291 20
+loot=6308 14.7
+loot=6289 49.3
+loot=6299 4.7
+loot=6297 2
+
+[loottemplate 30249]
+loot=13890 25
+loot=13759 33.3
+loot=13758 8.3
+loot=13760 8.3
+loot=13889 25
+
+[loottemplate 30256]
+loot=6289 100
+
+[loottemplate 30258]
+loot=6291 100
+
+[loottemplate 30259]
+loot=2598 0.05
+loot=6292 0.8
+loot=6294 0.5
+loot=118 0.3
+loot=2455 0.3
+loot=6291 57.7
+loot=6289 36.6
+
+[loottemplate 30265]
+loot=6295 0.5
+loot=6291 50.8
+loot=6289 36.1
+
+[loottemplate 30266]
+loot=6292 1.2
+loot=6294 0.1
+loot=118 1.1
+loot=6291 57.1
+loot=6289 39.6
+
+[loottemplate 30267]
+loot=6596 0.05
+loot=15259 0.05
+loot=7450 0.05
+loot=9808 0.05
+loot=6309 0.2
+loot=6310 0.3
+loot=6311 0.1
+loot=6647 0.1
+loot=6359 0.05
+loot=929 0.2
+loot=3827 0.2
+loot=6358 0.2
+loot=6308 68.1
+loot=6289 37.5
+loot=6361 0.4
+
+[loottemplate 30271]
+loot=6359 12
+loot=6307 1.1
+loot=6358 25.6
+loot=6308 0.3
+loot=6289 0.1
+loot=6361 68.7
+loot=6354 0.7
+loot=6352 0.6
+
+[loottemplate 30272]
+loot=6310 0.2
+loot=6308 61.9
+loot=6289 35.9
+
+[loottemplate 30279]
+loot=6292 0.1
+loot=6310 0.1
+loot=6291 21.3
+loot=6308 21.1
+loot=6289 13.3
+loot=8365 33.8
+
+[loottemplate 30284]
+loot=3827 0.5
+loot=6308 36.9
+loot=6289 2.7
+loot=8365 53.6
+
+[loottemplate 30294]
+loot=6359 11.7
+loot=6307 1.6
+loot=6358 21
+loot=6308 0.05
+loot=6361 59.3
+loot=6354 1.1
+loot=6352 0.2
+
+[loottemplate 30295]
+loot=6360 0.1
+loot=6359 10.3
+loot=6307 2.1
+loot=6358 19.8
+loot=6361 60.2
+loot=6354 0.7
+loot=6352 0.1
+
+[loottemplate 30297]
+loot=13876 0.2
+loot=13877 0.05
+loot=13878 0.05
+loot=7973 5.6
+loot=6359 9.3
+loot=13874 0.2
+loot=13875 0.3
+loot=6358 1.6
+loot=13754 9.1
+loot=6362 14.8
+loot=4603 39.4
+loot=13756 4.3
+loot=13422 7.7
+loot=6355 0.05
+
+[loottemplate 30298]
+loot=6360 0.01
+loot=6359 12.3
+loot=6307 0.9
+loot=6358 27.6
+loot=6308 0.1
+loot=6289 0.05
+loot=6361 73.7
+loot=6354 0.7
+loot=6352 0.7
+
+[loottemplate 30299]
+loot=6359 12.3
+loot=6307 2.8
+loot=6358 20.4
+loot=6308 1.5
+loot=6361 55.9
+loot=6354 1.4
+loot=6352 0.1
+
+[loottemplate 30300]
+loot=6359 11.6
+loot=16970 6.2
+loot=6358 12.1
+loot=6362 57.4
+loot=4603 19.9
+loot=6357 0.4
+loot=6355 0.4
+
+[loottemplate 30301]
+loot=6359 11.7
+loot=6358 12.2
+loot=6308 0.2
+loot=8365 0.2
+loot=6362 54.4
+loot=4603 19.1
+loot=16969 5.6
+loot=6357 0.5
+loot=6355 0.4
+
+[loottemplate 30302]
+loot=6359 10.5
+loot=6358 12.5
+loot=6362 64.7
+loot=4603 21.6
+loot=6357 0.5
+loot=6355 0.5
+
+[loottemplate 30305]
+loot=6307 1.4
+loot=6358 16
+loot=6361 44.3
+loot=6303 26.6
+loot=6353 1.6
+
+[loottemplate 30306]
+loot=6307 0.2
+loot=6358 13.6
+loot=6361 44.5
+loot=6303 28
+
+[loottemplate 30307]
+loot=13876 0.2
+loot=13877 0.1
+loot=13878 0.1
+loot=13879 0.05
+loot=7973 7.1
+loot=6359 9.4
+loot=13874 0.1
+loot=13875 0.2
+loot=13754 9.4
+loot=6362 9.1
+loot=4603 39
+loot=13756 5.5
+loot=13422 8.9
+
+[loottemplate 30309]
+loot=6308 62.6
+loot=6289 37.4
+
+[loottemplate 30310]
+loot=6308 33.7
+loot=8365 66.3
+
+[loottemplate 30311]
+loot=6308 32.6
+loot=8365 59.9
+
+[loottemplate 30312]
+loot=3864 0.1
+loot=15261 0.1
+loot=6310 0.2
+loot=8366 0.1
+loot=1710 0.1
+loot=3827 0.1
+loot=6358 0.1
+loot=6308 35.3
+loot=8365 67.3
+loot=6362 0.1
+loot=4603 0.1
+
+[loottemplate 30314]
+loot=9844 0.1
+loot=6309 0.1
+loot=6308 37
+loot=8365 62.2
+
+[loottemplate 30317]
+loot=7354 0.1
+loot=1529 0.1
+loot=4352 0.1
+loot=6310 0.4
+loot=3827 0.2
+loot=6308 33
+loot=8365 64.3
+
+[loottemplate 30318]
+loot=6310 0.8
+loot=6363 0.2
+loot=1710 0.4
+loot=3827 0.2
+loot=6308 28.6
+loot=8365 63.3
+
+[loottemplate 30323]
+loot=6291 24.4
+loot=6308 10.1
+loot=6289 35.3
+loot=8365 0.8
+loot=6299 10.1
+loot=6297 18.5
+loot=6301 0.8
+
+[loottemplate 30324]
+loot=6362 100
+
+[loottemplate 30327]
+loot=6359 11.8
+loot=6358 11.3
+loot=6362 54
+loot=4603 17.9
+loot=6357 0.4
+loot=6355 0.1
+
+[loottemplate 30328]
+loot=6359 11.9
+loot=6358 10.4
+loot=6362 54.1
+loot=4603 23.2
+
+[loottemplate 30331]
+loot=6647 0.2
+loot=6308 62.8
+loot=6289 28.4
+
+[loottemplate 30350]
+loot=8194 0.05
+loot=11999 0.05
+loot=7484 0.05
+loot=13885 0.2
+loot=13886 0.2
+loot=13881 0.1
+loot=6149 0.2
+loot=13757 1.7
+loot=6358 9.6
+loot=8365 9
+loot=13759 12
+loot=13758 50.2
+loot=13760 11.6
+loot=3928 0.1
+
+[loottemplate 30351]
+loot=8121 0.1
+loot=13885 0.2
+loot=13886 0.3
+loot=13881 0.1
+loot=13757 1.9
+loot=6358 10.3
+loot=8365 7.9
+loot=13759 12.6
+loot=13758 50.4
+loot=13760 12.6
+loot=3928 0.1
+
+[loottemplate 30353]
+loot=13882 0.4
+loot=13757 0.4
+loot=6358 5.8
+loot=8365 9.8
+loot=13759 8.9
+loot=13758 50.9
+loot=13760 13.8
+loot=3928 0.4
+
+[loottemplate 30354]
+loot=13886 1.1
+loot=13757 1.1
+loot=6358 3.4
+loot=8365 5.7
+loot=13759 16.1
+loot=13758 44.8
+loot=13760 21.8
+
+[loottemplate 30356]
+loot=6149 0.7
+loot=13757 6
+loot=6358 12.7
+loot=8365 10.7
+loot=13759 6.7
+loot=13758 40
+loot=13760 22.7
+
+[loottemplate 30361]
+loot=13885 0.1
+loot=13886 0.3
+loot=13881 0.1
+loot=13757 2.5
+loot=6358 9.9
+loot=8365 10.7
+loot=13759 10.9
+loot=13758 43.5
+loot=13760 13.8
+loot=3928 0.3
+
+[loottemplate 30363]
+loot=6291 57.1
+loot=6289 29
+
+[loottemplate 30367]
+loot=6292 0.6
+loot=6294 0.2
+loot=118 0.4
+loot=2455 0.5
+loot=6291 59.4
+loot=6289 37
+
+[loottemplate 30368]
+loot=6356 8
+loot=6303 90.5
+
+[loottemplate 30373]
+loot=6356 8.3
+loot=6303 90.3
+
+[loottemplate 30374]
+loot=6356 5.2
+loot=6303 96.7
+
+[loottemplate 30375]
+loot=6303 89
+
+[loottemplate 30382]
+loot=6651 0.5
+loot=4364 2.4
+loot=4361 0.2
+loot=6458 9.2
+loot=6291 8.5
+loot=6308 14.6
+loot=6289 39.2
+loot=6456 4.4
+loot=6455 20
+
+[loottemplate 30384]
+loot=6309 1
+loot=858 0.5
+loot=6291 21.1
+loot=6308 19.6
+loot=6289 53.1
+
+[loottemplate 30385]
+loot=6351 1.7
+loot=6358 13.7
+loot=6361 51.9
+loot=6303 30
+loot=6353 0.7
+
+[loottemplate 30386]
+loot=6543 0.05
+loot=6309 0.2
+loot=6310 0.1
+loot=6522 26.4
+loot=6466 1
+loot=858 0.05
+loot=3385 0.05
+loot=6291 11.3
+loot=6308 14.2
+loot=6289 40.5
+
+[loottemplate 30387]
+loot=2987 0.05
+loot=2988 0.05
+loot=2957 0.05
+loot=2408 0.05
+loot=4293 0.05
+loot=2075 0.05
+loot=11965 0.05
+loot=4561 0.05
+loot=6378 0.05
+loot=6309 0.2
+loot=6310 0.1
+loot=6311 0.05
+loot=6645 0.05
+loot=6522 29.3
+loot=6466 1
+loot=858 0.1
+loot=3385 0.1
+loot=6291 12
+loot=6308 15.5
+loot=6289 43.4
+loot=2553 0.05
+loot=6549 0.05
+
+[loottemplate 30388]
+loot=4346 0.05
+loot=2075 0.05
+loot=2970 0.05
+loot=4564 0.05
+loot=6309 0.2
+loot=6310 0.1
+loot=6311 0.05
+loot=6645 0.05
+loot=6522 28.9
+loot=6466 1
+loot=5573 0.05
+loot=858 0.1
+loot=3385 0.2
+loot=6291 11.7
+loot=6308 15.2
+loot=6289 41.9
+loot=5574 0.05
+
+[loottemplate 30391]
+loot=6351 1.1
+loot=6307 0.8
+loot=6358 16.2
+loot=6361 47.4
+loot=6303 30.1
+loot=6353 1
+
+[loottemplate 30392]
+loot=6351 1
+loot=6307 1
+loot=6358 16.2
+loot=6361 48.2
+loot=6303 29.9
+loot=6353 1.3
+
+[loottemplate 30393]
+loot=6356 7.6
+loot=6303 90.9
+
+[loottemplate 30401]
+loot=6351 1.4
+loot=6307 0.1
+loot=6358 17.5
+loot=6361 42
+loot=6303 25.1
+loot=6353 2
+
+[loottemplate 30405]
+loot=6309 0.2
+loot=6310 0.2
+loot=6311 0.05
+loot=8366 0.1
+loot=6359 1.7
+loot=3827 0.2
+loot=6358 2.6
+loot=6308 27.8
+loot=8365 50.9
+loot=6362 10.7
+loot=4603 3.8
+loot=16968 0.6
+loot=6355 0.1
+
+[loottemplate 30406]
+loot=857 2.6
+loot=6308 65.8
+loot=6289 28.9
+
+[loottemplate 30414]
+loot=6359 10
+loot=6307 0.8
+loot=6358 22
+loot=6289 0.1
+loot=6361 60.6
+loot=6362 0.1
+loot=4603 0.05
+loot=6354 0.5
+loot=6352 0.5
+
+[loottemplate 30415]
+loot=6394 0.01
+loot=6309 0.1
+loot=6310 0.2
+loot=6311 0.1
+loot=6647 0.01
+loot=929 0.3
+loot=3827 0.3
+loot=6308 63.5
+loot=6289 33.6
+
+[loottemplate 30416]
+loot=6308 63.6
+loot=6289 34.5
+
+[loottemplate 30418]
+loot=6308 63.6
+loot=6289 34.1
+
+[loottemplate 30420]
+loot=9791 0.1
+loot=6310 0.2
+loot=6363 0.1
+loot=929 0.3
+loot=6308 64.1
+loot=6289 34.6
+
+[loottemplate 30421]
+loot=6309 0.8
+loot=6647 0.1
+loot=6308 59.2
+loot=6289 32.1
+
+[loottemplate 30422]
+loot=6310 0.5
+loot=929 0.1
+loot=6308 59.2
+loot=6289 36.8
+
+[loottemplate 30424]
+loot=6308 54.4
+loot=6289 45.6
+
+[loottemplate 30429]
+loot=6309 0.3
+loot=929 0.3
+loot=6308 67.7
+loot=6289 31.7
+
+[loottemplate 30433]
+loot=6310 0.2
+loot=6311 0.1
+loot=6647 0.1
+loot=929 0.1
+loot=3827 0.1
+loot=6308 59.3
+loot=6289 34.8
+
+[loottemplate 30434]
+loot=6309 0.3
+loot=6308 58.5
+loot=6289 35.2
+
+[loottemplate 30437]
+loot=6308 55.2
+loot=6289 44.8
+
+[loottemplate 30441]
+loot=6308 40
+loot=6289 40
+
+[loottemplate 30442]
+loot=12238 34
+loot=6351 0.6
+loot=6717 4.4
+loot=6307 0.6
+loot=6358 10.3
+loot=6361 30.6
+loot=6303 19.5
+loot=6353 0.7
+
+[loottemplate 30443]
+loot=6308 40.8
+loot=6289 30.6
+loot=6299 18.4
+loot=6297 10.2
+
+[loottemplate 30445]
+loot=12238 45.5
+loot=6291 18.2
+loot=6308 18.2
+loot=6289 18.2
+
+[loottemplate 30448]
+loot=14168 0.05
+loot=9748 0.05
+loot=6309 0.2
+loot=6310 0.2
+loot=6311 0.05
+loot=6645 0.2
+loot=2975 0.05
+loot=858 0.1
+loot=3385 0.2
+loot=12238 23.1
+loot=6718 7.7
+loot=6291 9.4
+loot=6308 12.8
+loot=6289 36.8
+
+[loottemplate 30449]
+loot=12238 60
+loot=6718 20
+loot=6308 20
+loot=6289 20
+
+[loottemplate 30452]
+loot=12238 34.2
+loot=6351 0.5
+loot=6717 4.2
+loot=6307 0.8
+loot=6358 10.2
+loot=6361 31.4
+loot=6303 19.5
+loot=6353 0.7
+
+[loottemplate 30453]
+loot=12238 34.3
+loot=6351 0.6
+loot=6717 2.9
+loot=6307 0.6
+loot=6358 10.6
+loot=6361 31
+loot=6303 19.5
+loot=6353 0.7
+
+[loottemplate 30454]
+loot=6309 0.2
+loot=6310 0.1
+loot=12238 34.7
+loot=6718 17
+loot=858 0.1
+loot=3385 0.3
+loot=6291 10.9
+loot=6308 12.8
+loot=6289 37.7
+
+[loottemplate 30456]
+loot=9775 0.05
+loot=6552 0.05
+loot=2406 0.05
+loot=8350 0.05
+loot=6309 0.1
+loot=6310 0.1
+loot=6311 0.05
+loot=6645 0.1
+loot=12238 34.4
+loot=6718 18.1
+loot=858 0.05
+loot=3385 0.2
+loot=6358 0.05
+loot=6291 10.2
+loot=6308 13
+loot=6289 37.2
+loot=6361 0.05
+loot=6303 0.1
+
+[loottemplate 30460]
+loot=4661 0.05
+loot=7356 0.05
+loot=12006 0.05
+loot=6581 0.05
+loot=6309 0.2
+loot=6310 0.2
+loot=6311 0.05
+loot=929 0.05
+loot=3827 0.3
+loot=6308 65
+loot=6289 34.8
+
+[loottemplate 30463]
+loot=6458 6.5
+loot=6308 39.5
+loot=6289 17.1
+loot=6456 12.4
+loot=6457 14.1
+
+[loottemplate 30464]
+loot=12054 0.05
+loot=6309 0.1
+loot=6311 0.1
+loot=6364 0.05
+loot=929 0.1
+loot=3827 0.1
+loot=6308 65.2
+loot=6289 35.1
+
+[loottemplate 30478]
+loot=6292 0.7
+loot=6294 0.7
+loot=6643 0.1
+loot=118 0.1
+loot=2455 0.8
+loot=6291 60.1
+loot=6289 35.8
+
+[loottemplate 30490]
+loot=9929 0.1
+loot=7543 0.1
+loot=13885 0.1
+loot=13886 0.1
+loot=13884 0.1
+loot=6149 0.1
+loot=13757 3.2
+loot=6358 11
+loot=8365 9.9
+loot=13759 9
+loot=13758 44.5
+loot=13760 17.6
+loot=3928 0.1
+
+[loottemplate 30493]
+loot=6359 3.6
+loot=13757 3.3
+loot=6358 9.6
+loot=8365 6.4
+loot=13759 7.9
+loot=13758 34
+loot=6362 17.4
+loot=4603 4.9
+loot=13760 9.1
+loot=6357 0.2
+loot=6355 0.2
+loot=3928 0.3
+
+[loottemplate 30496]
+loot=6309 0.1
+loot=6310 0.3
+loot=6311 0.1
+loot=3827 0.2
+loot=6308 35.1
+loot=8365 63.8
+
+[loottemplate 30497]
+loot=6308 36.4
+loot=8365 60.8
+
+[loottemplate 30501]
+loot=4603 99.98
+
+[loottemplate 30502]
+loot=6309 0.2
+loot=6308 30.5
+loot=8365 60.3
+
+[loottemplate 30504]
+loot=1710 1.3
+loot=6308 34.2
+loot=8365 64.5
+
+[loottemplate 30508]
+loot=3827 25
+loot=6308 50
+loot=8365 25
+
+[loottemplate 30509]
+loot=6308 30.5
+loot=8365 67.8
+
+[loottemplate 30510]
+loot=5011 1.3
+loot=6310 1.3
+loot=6308 39
+loot=8365 58.4
+
+[loottemplate 30511]
+loot=1710 0.4
+loot=6308 34.7
+loot=8365 51.2
+
+[loottemplate 30513]
+loot=6359 13.2
+loot=6358 13.3
+loot=6362 61.6
+loot=4603 21.8
+loot=6357 0.6
+loot=6355 0.5
+
+[loottemplate 30516]
+loot=6359 12.3
+loot=6358 11.3
+loot=6362 51.1
+loot=4603 19.7
+loot=6357 0.6
+loot=6355 0.3
+
+[loottemplate 30517]
+loot=6359 12.1
+loot=6358 11.4
+loot=6362 56
+loot=4603 19.9
+loot=6357 0.4
+loot=6355 0.6
+
+[loottemplate 30518]
+loot=6359 10.9
+loot=6358 10.2
+loot=6361 0.1
+loot=6362 53.8
+loot=6303 0.05
+loot=4603 19.6
+loot=6357 0.5
+loot=6355 0.8
+
+[loottemplate 30537]
+loot=13882 0.3
+loot=6149 0.9
+loot=6358 8
+loot=8365 6.2
+loot=13759 13.6
+loot=13758 57.9
+loot=13760 7.7
+
+[loottemplate 30538]
+loot=13886 0.1
+loot=6149 0.1
+loot=13757 2.5
+loot=6358 9.2
+loot=8365 8.1
+loot=13759 13.1
+loot=13758 52
+loot=13760 11.7
+loot=3928 0.4
+
+[loottemplate 30542]
+loot=13757 8.3
+loot=6358 4.2
+loot=8365 8.3
+loot=13759 12.5
+loot=13758 16.7
+loot=13760 16.7
+
+[loottemplate 30543]
+loot=13885 0.2
+loot=13882 0.1
+loot=6149 0.2
+loot=13757 1.6
+loot=6358 9.7
+loot=8365 8.4
+loot=13759 13.6
+loot=13758 51.5
+loot=13760 13.3
+
+[loottemplate 30556]
+loot=9763 0.05
+loot=6342 0.05
+loot=6545 0.05
+loot=8350 0.05
+loot=6541 0.05
+loot=6309 0.3
+loot=6310 0.1
+loot=6311 0.05
+loot=6645 0.1
+loot=6515 0.05
+loot=858 0.2
+loot=3385 0.2
+loot=6291 11.4
+loot=6308 13.8
+loot=6317 28.8
+loot=6289 40.8
+loot=2657 0.05
+loot=9746 0.05
+
+[loottemplate 30576]
+loot=6803 55.6
+loot=6289 36.2
+
+[loottemplate 30598]
+loot=6359 11.9
+loot=6358 12
+loot=6362 54.2
+loot=4603 19.6
+loot=16968 5.2
+loot=6357 0.5
+loot=6355 0.5
+
+[loottemplate 30602]
+loot=6308 34.8
+loot=8365 64.4
+
+[loottemplate 30604]
+loot=6308 35.2
+loot=8365 60.5
+
+[loottemplate 30618]
+loot=13902 0.1
+loot=13757 13.8
+loot=13446 0.1
+loot=13890 13
+loot=13759 10.4
+loot=13758 4.8
+loot=13760 20.5
+loot=13889 36.2
+loot=13443 0.1
+
+[loottemplate 30636]
+loot=6309 0.1
+loot=4382 0.1
+loot=4377 0.1
+loot=3827 0.1
+loot=6458 8.7
+loot=6308 36.3
+loot=6289 19.9
+loot=6456 8.3
+loot=6457 21
+
+[loottemplate 30656]
+loot=9928 0.05
+loot=15263 0.05
+loot=13885 0.2
+loot=13886 0.2
+loot=13882 0.05
+loot=13883 0.05
+loot=13757 2.6
+loot=6358 9.5
+loot=8365 9.8
+loot=13759 10.4
+loot=13758 47.1
+loot=13760 14.7
+loot=3928 0.3
+
+[loottemplate 30657]
+loot=6362 50
+loot=4603 50
+
+[loottemplate 30702]
+loot=6356 1
+loot=6303 46
+
+[loottemplate 30719]
+loot=6310 0.1
+loot=858 0.1
+loot=3385 0.1
+loot=6291 10.9
+loot=6308 12.4
+loot=6289 32.8
+loot=6299 13.5
+loot=6297 11.5
+loot=6301 0.4
+
+[loottemplate 30720]
+loot=6358 15.2
+loot=6361 47.5
+loot=6303 27.8
+
+[loottemplate 30797]
+loot=6292 1.8
+loot=118 1.1
+loot=6291 62.3
+loot=6289 33.8
+
+[loottemplate 30799]
+loot=6310 0.1
+loot=6647 0.1
+loot=6291 10.7
+loot=6308 49.8
+loot=6289 34.3
+
+[loottemplate 30810]
+loot=6292 0.8
+loot=6294 0.3
+loot=6643 0.2
+loot=6291 47
+loot=6289 27.7
+loot=6299 13.9
+loot=6297 4.8
+loot=6301 1.3
+
+[loottemplate 30814]
+loot=6292 0.5
+loot=6294 0.1
+loot=6309 0.05
+loot=3385 0.05
+loot=118 0.05
+loot=2455 0.1
+loot=6520 0.05
+loot=6291 54.3
+loot=6308 2.5
+loot=6289 36.8
+
+[loottemplate 30815]
+loot=9780 0.05
+loot=15925 0.05
+loot=4564 0.05
+loot=2978 0.05
+loot=6292 0.05
+loot=6309 0.3
+loot=6310 0.1
+loot=6645 0.05
+loot=858 0.1
+loot=3385 0.1
+loot=118 0.05
+loot=2455 0.1
+loot=6291 20.9
+loot=6308 19.3
+loot=6289 57.9
+
+[loottemplate 30818]
+loot=6291 61.8
+loot=6289 37.3
+
+[loottemplate 30878]
+loot=9918 0.05
+loot=12012 0.05
+loot=15252 0.05
+loot=5216 0.05
+loot=13885 0.2
+loot=13886 0.05
+loot=13884 0.05
+loot=13881 0.1
+loot=6149 0.2
+loot=13757 3
+loot=6358 9.1
+loot=6308 0.8
+loot=6289 0.5
+loot=8365 9.1
+loot=13759 10
+loot=13758 46.1
+loot=13760 14.9
+loot=3928 0.2
+
+[loottemplate 30879]
+loot=6309 0.1
+loot=6311 0.05
+loot=13886 0.1
+loot=6149 0.05
+loot=929 0.1
+loot=13757 0.4
+loot=3827 0.4
+loot=6358 0.8
+loot=6308 54.5
+loot=6289 30.1
+loot=8365 0.9
+loot=13759 1.1
+loot=13758 4.7
+loot=13760 2.3
+loot=3928 0.05
+
+[loottemplate 30896]
+loot=6359 13.6
+loot=6307 2.6
+loot=6358 15.8
+loot=6361 58.1
+loot=6354 0.05
+
+[loottemplate 30917]
+loot=858 0.2
+loot=3827 0.2
+loot=6291 5
+loot=6308 49.6
+loot=6289 42.4
+
+[loottemplate 30919]
+loot=8350 0.05
+loot=6309 0.4
+loot=6310 0.3
+loot=6311 0.05
+loot=6645 0.05
+loot=858 0.4
+loot=3385 0.3
+loot=6291 16.9
+loot=6308 19.3
+loot=6289 60.3
+
+[loottemplate 30922]
+loot=6291 4.4
+loot=6308 51.1
+loot=6289 44.4
+
+[loottemplate 30923]
+loot=6308 9.2
+loot=6317 3.1
+loot=6289 46.2
+
+[loottemplate 30927]
+loot=6309 0.1
+loot=858 0.1
+loot=6291 12.2
+loot=6308 17.3
+loot=6289 40.3
+loot=6299 16.2
+loot=6297 12.5
+loot=6301 0.4
+
+[loottemplate 30968]
+loot=13876 0.2
+loot=13877 0.3
+loot=7973 7.8
+loot=6359 9.1
+loot=13874 0.3
+loot=13754 10.3
+loot=6362 9.2
+loot=4603 39
+loot=13756 5.2
+loot=13422 7.5
+
+[loottemplate 30977]
+loot=13876 0.3
+loot=13877 0.2
+loot=13878 0.1
+loot=13879 0.05
+loot=13880 0.05
+loot=7973 6.5
+loot=6359 9.1
+loot=13874 0.2
+loot=13875 0.2
+loot=13754 10.4
+loot=6362 9.1
+loot=4603 40
+loot=13756 5.2
+loot=13422 8.9
+
+[loottemplate 30978]
+loot=13876 0.1
+loot=7973 7.3
+loot=6359 9
+loot=13874 0.3
+loot=13875 0.1
+loot=13754 7.8
+loot=6362 9.8
+loot=4603 41.5
+loot=13756 5.2
+loot=13422 7.5
+
+[loottemplate 30979]
+loot=6292 0.8
+loot=6294 0.8
+loot=118 1.1
+loot=6291 60.5
+loot=6289 35.5
+
+[loottemplate 30983]
+loot=7973 5.6
+loot=6359 11.1
+loot=13754 10.5
+loot=6362 8.5
+loot=4603 40.7
+loot=13756 2
+loot=13422 7.6
+
+[loottemplate 30988]
+loot=13876 0.2
+loot=13877 0.1
+loot=13878 0.1
+loot=7973 5.6
+loot=6359 9.4
+loot=13874 0.3
+loot=13875 0.5
+loot=13754 12.1
+loot=6362 8.4
+loot=4603 39.2
+loot=13756 4.5
+loot=13422 9.1
+
+[loottemplate 30997]
+loot=6308 100
+
+[loottemplate 30998]
+loot=6308 75
+loot=6289 25
+
+[loottemplate 31001]
+loot=6308 75
+loot=6289 25
+
+[loottemplate 31002]
+loot=6291 2.8
+loot=6308 44
+loot=6289 40.4
+
+[loottemplate 31017]
+loot=6308 50
+loot=6289 50
+
+[loottemplate 31018]
+loot=6308 57.7
+loot=6289 35.8
+
+[loottemplate 31020]
+loot=6310 0.8
+loot=6308 61.6
+loot=6289 38.4
+
+[loottemplate 31021]
+loot=6647 0.7
+loot=857 0.7
+loot=6308 53.9
+loot=6289 44.1
+
+[loottemplate 31022]
+loot=6308 62
+loot=6289 32.8
+
+[loottemplate 31023]
+loot=6308 92.3
+loot=6289 7.7
+
+[loottemplate 31024]
+loot=6308 54.5
+loot=6289 45.5
+
+[loottemplate 31025]
+loot=6309 0.4
+loot=6308 66.7
+loot=6289 33
+
+[loottemplate 31039]
+loot=6309 0.1
+loot=6363 0.1
+loot=6359 0.3
+loot=3827 0.1
+loot=6358 1.3
+loot=6308 62
+loot=6289 29.7
+loot=6361 2.3
+
+[loottemplate 31056]
+loot=6308 65.2
+loot=6289 32.9
+
+[loottemplate 31097]
+loot=3827 0.1
+loot=6308 62.1
+loot=6289 33.6
+
+[loottemplate 31099]
+loot=7540 0.05
+loot=15270 0.05
+loot=3868 0.05
+loot=13885 0.2
+loot=13886 0.1
+loot=13882 0.1
+loot=13883 0.05
+loot=6149 0.2
+loot=13757 2.8
+loot=6358 9.7
+loot=8365 9.4
+loot=13759 11.6
+loot=13758 47.3
+loot=13760 13.9
+loot=3928 0.1
+
+[loottemplate 31101]
+loot=13885 0.7
+loot=6149 0.7
+loot=13757 2
+loot=6358 10.1
+loot=8365 7.4
+loot=13759 3.4
+loot=13758 45
+loot=13760 15.4
+
+[loottemplate 31102]
+loot=3208 0.05
+loot=13885 0.2
+loot=13886 0.1
+loot=13882 0.05
+loot=6149 0.4
+loot=13757 2.4
+loot=6358 9.4
+loot=8365 9.7
+loot=13759 11.5
+loot=13758 47.4
+loot=13760 13.2
+loot=3928 0.4
+
+[loottemplate 31106]
+loot=9938 0.1
+loot=13885 0.2
+loot=13886 0.3
+loot=13882 0.1
+loot=6149 0.4
+loot=13757 1.3
+loot=6358 11.3
+loot=8365 11.3
+loot=13759 17.7
+loot=13758 49.3
+loot=13760 7.9
+
+[loottemplate 31108]
+loot=13876 0.3
+loot=13877 0.1
+loot=13878 0.1
+loot=13879 0.05
+loot=7973 7.5
+loot=6359 9.5
+loot=13874 0.1
+loot=13875 0.3
+loot=13754 10.6
+loot=6362 9.5
+loot=4603 40.5
+loot=13756 6.7
+loot=13422 8.6
+
+[loottemplate 31112]
+loot=13757 5.3
+loot=13890 11.3
+loot=13759 17
+loot=13758 1.1
+loot=13760 10.6
+loot=13889 41.5
+
+[loottemplate 31116]
+loot=13876 0.2
+loot=13877 0.1
+loot=13878 0.1
+loot=13879 0.05
+loot=13880 0.05
+loot=7973 7
+loot=6359 9
+loot=13874 0.2
+loot=13875 0.4
+loot=13754 10.3
+loot=6362 9.1
+loot=4603 40.1
+loot=13756 4.5
+loot=13422 8.8
+
+[loottemplate 31117]
+loot=13876 0.3
+loot=13878 0.1
+loot=7973 6.2
+loot=6359 9.1
+loot=13874 0.2
+loot=13875 0.6
+loot=13754 9.7
+loot=6362 8.3
+loot=4603 41.7
+loot=13756 7.7
+loot=13422 8.4
+
+[loottemplate 31119]
+loot=13885 0.2
+loot=13886 0.2
+loot=13882 0.05
+loot=6149 0.2
+loot=13757 2.8
+loot=6358 9.5
+loot=8365 9.1
+loot=13759 10.6
+loot=13758 50.9
+loot=13760 13.5
+loot=3928 0.2
+
+[loottemplate 31120]
+loot=13876 0.4
+loot=13877 0.2
+loot=13878 0.1
+loot=7973 6.7
+loot=6359 9.5
+loot=13874 0.05
+loot=13875 0.4
+loot=13754 12.7
+loot=6362 9.1
+loot=4603 37.6
+loot=13756 4.7
+loot=13422 8.2
+
+[loottemplate 31121]
+loot=13876 0.2
+loot=13877 0.2
+loot=7973 5.7
+loot=6359 9.7
+loot=13875 0.3
+loot=13754 11.4
+loot=6362 9.4
+loot=4603 36.6
+loot=13756 4.2
+loot=13422 9.8
+
+[loottemplate 31136]
+loot=13886 1.2
+loot=6358 17.3
+loot=8365 11.1
+loot=13759 17.3
+loot=13758 50.6
+loot=13760 2.5
+
+[loottemplate 31137]
+loot=13885 0.1
+loot=13886 0.1
+loot=13882 0.1
+loot=13881 0.05
+loot=6149 0.2
+loot=13757 2
+loot=6358 9.3
+loot=8365 9.4
+loot=13759 14.1
+loot=13758 49.6
+loot=13760 12.2
+loot=3928 0.4
+
+[loottemplate 31156]
+loot=6291 11.9
+loot=6308 5.1
+loot=6289 62.7
+
+[loottemplate 31176]
+loot=10606 3.8
+loot=13757 11.5
+loot=6358 3.8
+loot=8365 11.5
+loot=13758 46.2
+loot=13760 23.1
+
+[loottemplate 31222]
+loot=13907 0.2
+loot=7973 10
+loot=13888 40.2
+loot=13874 0.3
+loot=13893 9.8
+loot=13754 0.1
+loot=6362 0.1
+loot=4603 3
+loot=13756 17.1
+loot=13918 1.3
+loot=6887 0.7
+loot=13422 14.4
+
+[loottemplate 31226]
+loot=13877 1.1
+loot=7973 13.5
+loot=6359 11.2
+loot=13875 1.1
+loot=13754 9
+loot=6362 7.9
+loot=4603 28.1
+loot=13756 20.2
+loot=13422 7.9
+
+[loottemplate 31227]
+loot=13909 0.1
+loot=13910 0.02
+loot=13911 0.04
+loot=13876 0.02
+loot=13878 0.03
+loot=13879 0.02
+loot=13907 0.1
+loot=13914 0.02
+loot=13908 0.02
+loot=7973 8.5
+loot=13888 33.2
+loot=6359 1.7
+loot=13874 0.4
+loot=13975 0.04
+loot=13893 6.5
+loot=13754 1.3
+loot=6362 1.6
+loot=4603 8.8
+loot=13756 10.7
+loot=13918 0.8
+loot=6887 1.2
+loot=13422 11.4
+
+[loottemplate 31228]
+loot=13876 0.2
+loot=13877 0.2
+loot=13878 0.05
+loot=7973 8
+loot=13888 1.1
+loot=6359 8.6
+loot=13874 0.2
+loot=13875 0.3
+loot=13893 0.3
+loot=13754 9.4
+loot=6362 8
+loot=4603 38.5
+loot=13756 6.5
+loot=13918 0.05
+loot=6887 0.1
+loot=13422 8.7
+
+[loottemplate 31229]
+loot=13878 0.2
+loot=7973 7.2
+loot=6359 8.8
+loot=13754 9.3
+loot=6362 10.7
+loot=4603 37.3
+loot=13756 8.6
+loot=13422 8.6
+
+[loottemplate 31230]
+loot=13877 0.2
+loot=13878 0.2
+loot=13880 0.2
+loot=7973 8.2
+loot=6359 8.3
+loot=13754 14.7
+loot=6362 8.8
+loot=4603 35.2
+loot=13756 5.9
+loot=13422 11.3
+
+[loottemplate 31231]
+loot=13876 0.3
+loot=13877 0.2
+loot=13878 0.1
+loot=13879 0.05
+loot=7973 8.2
+loot=13888 0.3
+loot=6359 8.5
+loot=13874 0.2
+loot=13875 0.3
+loot=13893 0.1
+loot=13754 10.3
+loot=6362 8.9
+loot=4603 39.9
+loot=13756 6.3
+loot=6887 0.05
+loot=13422 9.5
+
+[loottemplate 31234]
+loot=13885 0.4
+loot=13886 0.2
+loot=6149 0.4
+loot=13757 3.5
+loot=6358 9.7
+loot=8365 10.1
+loot=13759 9.7
+loot=13758 44.6
+loot=13760 16.4
+loot=3831 0.1
+
+[loottemplate 31256]
+loot=13876 0.1
+loot=13877 0.2
+loot=7973 8
+loot=6359 8.2
+loot=13874 0.2
+loot=13875 0.4
+loot=6358 0.2
+loot=13754 8.5
+loot=6362 9.7
+loot=4603 41
+loot=13756 5.3
+loot=13422 8.2
+loot=6355 0.05
+
+[loottemplate 31296]
+loot=6292 0.4
+loot=6291 58.8
+loot=6289 38.6
+
+[loottemplate 31297]
+loot=6292 0.1
+loot=6295 0.1
+loot=2455 0.1
+loot=6291 57.4
+loot=6289 33.7
+
+[loottemplate 31336]
+loot=13876 0.2
+loot=13878 0.1
+loot=7973 7.2
+loot=6359 8.6
+loot=13874 0.1
+loot=13875 0.2
+loot=13754 10.7
+loot=6362 10.8
+loot=4603 39
+loot=13756 3.2
+loot=13422 8.7
+
+[loottemplate 31338]
+loot=6309 0.1
+loot=6291 19.5
+loot=6308 19.5
+loot=6289 53.5
+
+[loottemplate 31339]
+loot=6291 55.6
+loot=6289 38.6
+loot=6299 1.8
+
+[loottemplate 31477]
+loot=13885 0.4
+loot=6149 0.3
+loot=13757 1.9
+loot=6358 11
+loot=6308 4
+loot=8365 14.8
+loot=13759 9.8
+loot=13758 55.1
+loot=13760 14.2
+loot=3928 0.5
+
+[loottemplate 31519]
+loot=6310 0.3
+loot=6291 20.4
+loot=6308 20.4
+loot=6289 50.3
+
+[loottemplate 31557]
+loot=6308 27
+loot=8365 69.8
+
+[loottemplate 31577]
+loot=6359 12
+loot=6358 10.2
+loot=6308 0.2
+loot=8365 0.5
+loot=6362 54.4
+loot=4603 19.2
+loot=6357 0.6
+loot=6355 0.7
+
+[loottemplate 31578]
+loot=6359 11.6
+loot=6358 11.6
+loot=6308 0.05
+loot=8365 0.05
+loot=6362 55.2
+loot=4603 20
+loot=16969 1.1
+loot=6357 0.4
+loot=6355 0.5
+
+[loottemplate 31581]
+loot=6291 15.5
+loot=6308 22.6
+loot=6289 59
+
+[loottemplate 31582]
+loot=858 0.3
+loot=6291 16.9
+loot=6308 23.8
+loot=6289 56.7
+
+[loottemplate 31617]
+loot=6309 0.4
+loot=6310 0.1
+loot=6311 0.05
+loot=6645 0.1
+loot=858 0.2
+loot=3385 0.3
+loot=6291 16.1
+loot=6308 21.1
+loot=6289 59.4
+
+[loottemplate 31638]
+loot=6291 27.3
+loot=6308 27.3
+loot=6289 45.5
+
+[loottemplate 31662]
+loot=6308 25
+loot=6289 75
+
+[loottemplate 31681]
+loot=6291 26.3
+loot=6308 16.6
+loot=6289 16.6
+loot=8365 36.6
+
+[loottemplate 31682]
+loot=6292 1.3
+loot=6294 0.7
+loot=118 0.7
+loot=2455 0.3
+loot=6291 51.6
+loot=6308 5.2
+loot=6289 31.4
+loot=8365 0.3
+
+[loottemplate 31684]
+loot=1988 0.2
+loot=3827 0.5
+loot=6308 33.5
+loot=8365 59.5
+
+[loottemplate 31701]
+loot=858 1.3
+loot=6291 16.3
+loot=6308 22.7
+loot=6289 58.1
+
+[loottemplate 31738]
+loot=6310 0.3
+loot=6308 35.1
+loot=8365 63.2
+
+[loottemplate 31739]
+loot=6359 11.8
+loot=6358 12.5
+loot=6362 53.6
+loot=4603 20.6
+loot=16969 0.2
+loot=6357 0.2
+loot=6355 0.7
+
+[loottemplate 31740]
+loot=6308 0.4
+loot=8365 64.5
+
+[loottemplate 31760]
+loot=6308 27.3
+loot=8365 72.7
+
+[loottemplate 31762]
+loot=13885 0.4
+loot=13886 0.4
+loot=13882 0.2
+loot=13757 3.2
+loot=6358 7.3
+loot=8365 9.8
+loot=13759 11.6
+loot=13758 42.2
+loot=13760 16.9
+loot=3928 0.4
+
+[loottemplate 31764]
+loot=7976 0.05
+loot=13885 0.3
+loot=13886 0.2
+loot=13882 0.1
+loot=6149 0.1
+loot=13757 1.9
+loot=6358 9.2
+loot=8365 8.9
+loot=13759 11.9
+loot=13758 46.5
+loot=13760 11.1
+loot=3928 0.2
+
+[loottemplate 31765]
+loot=13885 0.1
+loot=6149 0.1
+loot=13757 3.3
+loot=6358 10.3
+loot=8365 8.4
+loot=13759 8.6
+loot=13758 47.6
+loot=13760 16.1
+loot=3928 0.1
+
+[loottemplate 31767]
+loot=13885 0.2
+loot=6149 0.2
+loot=13757 6.9
+loot=6358 10.7
+loot=8365 7.4
+loot=13759 11.4
+loot=13758 44
+loot=13760 16.9
+loot=3928 0.5
+
+[loottemplate 31770]
+loot=8365 50
+loot=13758 50
+
+[loottemplate 31777]
+loot=1710 0.3
+loot=6308 37.8
+loot=8365 61.2
+
+[loottemplate 31778]
+loot=8365 100
+
+[loottemplate 31780]
+loot=6308 44.4
+loot=8365 55.6
+
+[loottemplate 31797]
+loot=6308 42.9
+loot=8365 57.1
+
+[loottemplate 31798]
+loot=6310 0.4
+loot=6308 39.8
+loot=8365 59.8
+
+[loottemplate 31883]
+loot=13885 0.3
+loot=13886 0.1
+loot=13882 0.1
+loot=6149 0.3
+loot=13757 3.3
+loot=6358 10.1
+loot=8365 10
+loot=13759 11.1
+loot=13758 47.7
+loot=13760 15.9
+
+[loottemplate 31884]
+loot=13757 1.9
+loot=6358 9.7
+loot=8365 8.7
+loot=13759 15.5
+loot=13758 45.4
+loot=13760 8.2
+loot=3928 0.5
+
+[loottemplate 31939]
+loot=6291 57.8
+loot=6289 40.4
+loot=766 0.9
+
+[loottemplate 31940]
+loot=13876 0.4
+loot=13878 0.1
+loot=13880 0.1
+loot=7973 6.2
+loot=6359 9.2
+loot=13874 0.2
+loot=13875 0.1
+loot=13754 11.8
+loot=6362 8.9
+loot=4603 36.6
+loot=13756 6.2
+loot=13422 9.1
+
+[loottemplate 31942]
+loot=13886 0.2
+loot=6149 0.1
+loot=13757 2
+loot=6358 9.8
+loot=8365 9.2
+loot=13759 12.8
+loot=13758 49.3
+loot=13760 14.9
+loot=3928 0.3
+
+[loottemplate 31977]
+loot=1710 5
+loot=6308 25
+loot=8365 70
+
+[loottemplate 31997]
+loot=7910 0.1
+loot=13886 0.1
+loot=13757 2.9
+loot=6358 9.3
+loot=8365 9
+loot=13759 8.8
+loot=13758 45.6
+loot=13760 15.3
+loot=3928 0.1
+
+[loottemplate 31998]
+loot=12023 0.05
+loot=13885 0.2
+loot=13886 0.1
+loot=13882 0.05
+loot=6149 0.1
+loot=13757 1.8
+loot=6358 9.7
+loot=8365 9.5
+loot=13759 12.3
+loot=13758 51.3
+loot=13760 11.5
+loot=3928 0.1
+
+[loottemplate 32017]
+loot=13890 23.3
+loot=13759 32.9
+loot=13758 4.1
+loot=13760 1.4
+loot=13889 38.4
+
+[loottemplate 32077]
+loot=12238 31.3
+loot=6718 17.7
+loot=858 0.3
+loot=6291 11.8
+loot=6308 12.7
+loot=6289 39.6
+loot=13758 0.1
+
+[loottemplate 32078]
+loot=6311 0.1
+loot=12238 34
+loot=6291 11.8
+loot=6308 13.9
+loot=6289 36.3
+
+[loottemplate 32079]
+loot=6308 35.8
+loot=8365 59.5
+
+[loottemplate 32097]
+loot=6310 0.3
+loot=6311 0.1
+loot=1710 0.6
+loot=6308 37.4
+loot=8365 63.5
+
+[loottemplate 32100]
+loot=13886 0.4
+loot=13757 0.6
+loot=6358 9.5
+loot=8365 8.8
+loot=13759 9.9
+loot=13758 47.1
+loot=13760 15.6
+
+[loottemplate 32158]
+loot=1710 0.3
+loot=6308 37.2
+loot=8365 59.2
+
+[loottemplate 32246]
+loot=8312 0.05
+loot=13902 0.1
+loot=13891 0.05
+loot=13757 10.3
+loot=13446 0.3
+loot=13890 11.7
+loot=13759 11.5
+loot=13758 4.2
+loot=13760 15.4
+loot=13889 39.7
+loot=13443 0.1
+
+[loottemplate 32270]
+loot=13757 100
+
+[loottemplate 32272]
+loot=13757 9.2
+loot=13890 9.2
+loot=13759 14.5
+loot=13758 4
+loot=13760 15
+loot=13889 38.7
+loot=13443 0.6
+
+[loottemplate 32277]
+loot=13757 100
+
+[loottemplate 32279]
+loot=13901 0.2
+loot=13905 0.1
+loot=13757 9.2
+loot=13446 0.3
+loot=13890 13.3
+loot=13759 12
+loot=13758 3.6
+loot=13760 16.4
+loot=13889 41.1
+loot=13443 0.4
+
+[loottemplate 32297]
+loot=9970 0.05
+loot=9289 0.05
+loot=13885 0.1
+loot=13886 0.1
+loot=6149 0.2
+loot=13757 2.7
+loot=6358 10.3
+loot=8365 10.4
+loot=13759 13.2
+loot=13758 51.2
+loot=13760 15.2
+loot=3928 0.1
+
+[loottemplate 32298]
+loot=13885 0.1
+loot=13886 0.1
+loot=13882 0.1
+loot=13883 0.1
+loot=6149 0.3
+loot=13757 2.3
+loot=6358 8.7
+loot=8365 8.5
+loot=13759 11.3
+loot=13758 50.4
+loot=13760 13.6
+
+[loottemplate 32302]
+loot=6309 0.3
+loot=1710 0.3
+loot=6308 34.7
+loot=8365 65
+
+[loottemplate 32317]
+loot=6359 13.1
+loot=6358 10.2
+loot=13754 0.3
+loot=6362 47.3
+loot=4603 19.5
+loot=13756 0.3
+loot=13422 0.6
+loot=6355 1
+
+[loottemplate 32318]
+loot=6359 11.1
+loot=6358 12.7
+loot=6362 52.5
+loot=4603 21.5
+loot=6357 0.1
+loot=6355 0.1
+
+[loottemplate 32321]
+loot=6359 15.6
+loot=6358 10.9
+loot=6362 42.2
+loot=4603 28.9
+
+[loottemplate 32322]
+loot=6303 97.9
+
+[loottemplate 32323]
+loot=6359 10
+loot=13754 15
+loot=6362 15
+loot=4603 42.5
+loot=13422 15
+
+[loottemplate 32324]
+loot=6359 10.2
+loot=6358 22
+loot=6362 51.7
+loot=4603 16.1
+
+[loottemplate 32325]
+loot=6359 1.8
+loot=6358 1.4
+loot=6362 44.3
+loot=4603 2.3
+
+[loottemplate 32326]
+loot=6359 10.1
+loot=6358 8.8
+loot=6362 62.8
+loot=4603 4.5
+
+[loottemplate 32364]
+loot=6359 20
+loot=6362 80
+
+[loottemplate 32365]
+loot=6359 17.1
+loot=6358 2.9
+loot=6362 54.3
+loot=4603 25.7
+
+[loottemplate 32398]
+loot=6359 13.6
+loot=6358 13.6
+loot=6362 45.5
+loot=4603 27.3
+
+[loottemplate 32399]
+loot=6359 11.2
+loot=6358 9.2
+loot=6362 58.4
+loot=4603 20.4
+loot=6357 0.8
+
+[loottemplate 32400]
+loot=13876 0.3
+loot=13877 0.1
+loot=13878 0.1
+loot=7973 6
+loot=6359 8.9
+loot=13874 0.4
+loot=13875 0.2
+loot=13754 13
+loot=6362 8.6
+loot=4603 39.1
+loot=13756 6.1
+loot=13422 10.4
+
+[loottemplate 32401]
+loot=6359 9.1
+loot=6358 13.5
+loot=6362 54.3
+loot=4603 13.5
+loot=6355 0.5
+
+[loottemplate 32402]
+loot=6362 50
+loot=4603 50
+
+[loottemplate 32403]
+loot=6359 10.8
+loot=6358 11.8
+loot=6362 54.8
+loot=4603 17.9
+loot=6357 0.5
+loot=6355 0.4
+
+[loottemplate 32405]
+loot=6358 0.3
+loot=6308 31.7
+loot=8365 62.8
+loot=6362 1.4
+loot=4603 0.3
+loot=16968 0.6
+
+[loottemplate 32408]
+loot=10409 0.05
+loot=7427 0.05
+loot=15243 0.05
+loot=2080 0.05
+loot=9886 0.05
+loot=7409 0.05
+loot=7459 0.05
+loot=7111 0.05
+loot=7086 0.05
+loot=3872 0.05
+loot=9868 0.05
+loot=15233 0.05
+loot=4414 0.05
+loot=7110 0.05
+loot=3037 0.05
+loot=6309 0.2
+loot=6310 0.2
+loot=6311 0.1
+loot=6363 0.05
+loot=8366 0.05
+loot=6359 0.05
+loot=1710 0.2
+loot=3827 0.2
+loot=6358 0.05
+loot=6308 33.3
+loot=8365 62.1
+loot=6362 0.05
+loot=4603 0.05
+
+[loottemplate 32457]
+loot=3740 0.1
+loot=6309 0.1
+loot=6310 0.3
+loot=929 0.3
+loot=3827 0.1
+loot=6308 62.5
+loot=6289 33.2
+
+[loottemplate 32477]
+loot=13890 66.7
+loot=13759 33.3
+
+[loottemplate 32479]
+loot=8365 50
+loot=13758 50
+
+[loottemplate 32481]
+loot=13885 0.2
+loot=13883 0.2
+loot=13881 0.2
+loot=6149 0.2
+loot=6358 11.1
+loot=8365 7
+loot=13759 22.5
+loot=13758 51.5
+loot=13760 4.6
+loot=3928 0.2
+
+[loottemplate 32521]
+loot=7546 0.05
+loot=8142 0.05
+loot=12011 0.05
+loot=10088 0.05
+loot=8114 0.05
+loot=13885 0.2
+loot=13886 0.1
+loot=13882 0.1
+loot=13881 0.05
+loot=16967 3.7
+loot=6149 0.2
+loot=13757 2
+loot=6358 9.6
+loot=8365 9.5
+loot=13759 12.7
+loot=13758 49.2
+loot=13760 12.3
+loot=3928 0.2
+
+[loottemplate 32522]
+loot=6358 5.4
+loot=8365 8.1
+loot=13759 23
+loot=13758 54.1
+loot=13760 5.4
+
+[loottemplate 32558]
+loot=13902 3.8
+loot=13757 7.7
+loot=13890 15.4
+loot=13759 26.9
+loot=13758 3.8
+loot=13760 7.7
+loot=13889 34.6
+
+[loottemplate 32562]
+loot=13901 0.3
+loot=13757 11.9
+loot=13446 0.2
+loot=13890 11.6
+loot=13759 15
+loot=13758 4
+loot=13760 12.9
+loot=13889 43.6
+loot=13443 0.2
+
+[loottemplate 32597]
+loot=13757 11.3
+loot=13446 0.5
+loot=13890 10.4
+loot=13759 11.1
+loot=13758 6.1
+loot=13760 18.6
+loot=13889 36.3
+loot=13443 0.2
+
+[loottemplate 32618]
+loot=6149 0.2
+loot=13757 0.9
+loot=6358 9.3
+loot=8365 7.5
+loot=13759 16.6
+loot=13758 47.2
+loot=13760 7.9
+loot=3928 0.1
+
+[loottemplate 32619]
+loot=9959 0.1
+loot=13885 0.1
+loot=13886 0.1
+loot=6149 0.1
+loot=13757 5.1
+loot=6358 6
+loot=13890 2.3
+loot=8365 6.3
+loot=13759 18.3
+loot=13758 34.7
+loot=13760 10.7
+loot=13889 13
+loot=3928 0.1
+
+[loottemplate 32620]
+loot=13885 0.2
+loot=13886 0.1
+loot=13882 0.1
+loot=6149 0.1
+loot=13757 1.9
+loot=6358 8.8
+loot=8365 8.9
+loot=13759 15.9
+loot=13758 50.9
+loot=13760 9.4
+loot=3928 0.2
+loot=13443 0.05
+
+[loottemplate 32624]
+loot=13757 13.1
+loot=13446 0.4
+loot=13890 13.1
+loot=13759 9.3
+loot=13758 0.4
+loot=13760 13.8
+loot=13889 38.4
+
+[loottemplate 32631]
+loot=9925 0.05
+loot=13885 0.05
+loot=13882 0.05
+loot=6149 0.2
+loot=13757 2.3
+loot=6358 9.2
+loot=8365 9.5
+loot=13759 13.2
+loot=13758 46.2
+loot=13760 13
+loot=3928 0.1
+
+[loottemplate 32797]
+loot=6310 0.1
+loot=858 0.1
+loot=3385 0.1
+loot=6291 10.6
+loot=6308 12.1
+loot=6289 32.4
+loot=6299 13.9
+loot=6297 11.1
+loot=6301 0.4
+
+[loottemplate 32837]
+loot=13757 8
+loot=13890 12
+loot=13759 12
+loot=13758 4
+loot=13760 12
+loot=13889 48
+loot=13443 4
+
+[loottemplate 32897]
+loot=6360 0.05
+loot=6359 10.7
+loot=6307 1.4
+loot=6358 21.7
+loot=6361 60.1
+loot=6354 0.7
+loot=6352 0.6
+
+[loottemplate 33000]
+loot=6291 0.01      //Raw Brilliant Smallfish
+
+[loottemplate 34000]
+// fake loottemplate for itemcheck by smartwork 1.01

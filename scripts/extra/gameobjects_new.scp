@@ -1,0 +1,3441 @@
+/////////New Game Objects by Snake :)/////////
+////////Add this to gameobjects.scp and put the GameObjectDisplayInfo.dbc in Data folder of WoW///////////
+
+////////Misc/////////
+
+[gameobj 888888]
+flags=040
+model=4396
+name=Portal to GM City
+sound1=75
+sound2=1
+type=2
+size=1
+questscript=GMCity
+
+[gameobj 888025]
+flags=040
+model=4396
+name=Portal to Draenor
+sound1=75
+sound2=1
+type=2
+size=5
+questscript=Draenor1
+
+[gameobj 888026]
+flags=040
+model=4396
+name=Portal to Azeroth
+sound1=75
+sound2=1
+type=2
+size=5
+questscript=Draenor2
+
+
+
+[gameobj 300000]
+name=Altar Of Storms
+type=14
+model=9001
+
+[gameobj 300008]
+name=Lumbermill
+type=14
+model=9009
+
+[gameobj 300018]
+name=Guild House 1
+type=14
+model=9019
+
+[gameobj 300019]
+name=Guild House 2
+type=14
+model=9020
+
+[gameobj 300026]
+name=Gate 1
+type=14
+model=9027
+
+[gameobj 300027]
+name=Gate 2
+type=14
+model=9028
+
+[gameobj 300028]
+name=Keep Bridge
+type=14
+model=9029
+
+[gameobj 300030]
+name=Wall Piece 1
+type=14
+model=9031
+
+[gameobj 300031]
+name=Wall Piece 2
+type=14
+model=9032
+
+[gameobj 300032]
+name=Wall Piece 3
+type=14
+model=9033
+
+[gameobj 300033]
+name=Wall Piece 4
+type=14
+model=9034
+
+[gameobj 300036]
+name=WallPost
+type=14
+model=9037
+
+[gameobj 300040]
+name=Oil Plataform
+type=14
+model=9041
+
+[gameobj 300053]
+name=Zul'Gurub Piece
+type=14
+model=9054
+
+[gameobj 300054]
+name=Aliancce Shrine
+type=14
+model=9055
+
+[gameobj 300056]
+name=Bridge 2
+type=14
+model=9057
+
+[gameobj 300058]
+name=Bridge 3
+type=14
+model=9059
+
+[gameobj 300061]
+name=Horde Shrine
+type=14
+model=9062
+
+[gameobj 300062]
+name=Ironfoot Bridge
+type=14
+model=9063
+
+[gameobj 300064]
+name=Bamboo House
+type=14
+model=9065
+
+[gameobj 300065]
+name=Stranglethorn Arena
+type=14
+model=9066
+
+[gameobj 300132]
+name=Anvilmar Pass
+type=14
+model=9133
+
+[gameobj 300164]
+name=Fishing Hole
+type=14
+model=9165
+
+[gameobj 300189]
+name=Horde Mine
+type=14
+model=9190
+
+[gameobj 300190]
+name=Horde Mine 2
+type=14
+model=9191
+
+[gameobj 300230]
+name=Pirate Ship
+type=14
+model=9232
+
+[gameobj 300231]
+name=Pirate Ship 2
+type=14
+model=9233
+
+[gameobj 300235]
+name=Spidermane
+type=14
+model=9237
+
+[gameobj 300252]
+name=Naga Pagoda
+type=14
+model=9254
+
+[gameobj 300314]
+name=Durotar Rooted Rock
+type=14
+model=9315
+
+[gameobj 300316]
+name=Theramore Docks
+type=14
+model=9317
+
+[gameobj 300321]
+name=Landing Pad
+type=14
+model=9322
+
+[gameobj 300322]
+name=Monster Machine
+type=14
+model=9323
+
+[gameobj 300323]
+name=Wheel Plataform
+type=14
+model=9324
+
+[gameobj 300325]
+name=Everlook Walls
+type=14
+model=9326
+
+[gameobj 300354]
+name=Anvilmar
+type=14
+model=9355
+
+[gameobj 300369]
+name=Gates of Grim Batol
+type=14
+model=9370
+
+[gameobj 300372]
+name=Excavation Plataform
+type=14
+model=9373
+
+[gameobj 300374]
+name=Netherguard Walls
+type=14
+model=9374
+
+[gameobj 300379]
+name=Uther Shrine
+type=14
+model=9379
+
+[gameobj 300380]
+name=Durnholde Walls
+type=14
+model=9380
+
+[gameobj 300381]
+name=Stromguard Walls
+type=14
+model=9381
+
+[gameobj 300384]
+name=Lordaeron Walls
+type=14
+model=9384
+
+[gameobj 300385]
+name=Dark Portal
+type=14
+model=9385
+
+[gameobj 300386]
+name=Warcraft 2 Dark Portal
+type=14
+model=9386
+
+[gameobj 300387]
+name=Draenei Hut
+type=14
+model=9387
+
+[gameobj 300388]
+name=Draenei Tower
+type=14
+model=9388
+
+[gameobj 300389]
+name=Draenei Hut 2
+type=14
+model=9389
+
+[gameobj 300391]
+name=Black Citadel
+type=14
+model=9391
+
+[gameobj 300396]
+name=Booty Bay Entrance
+type=5
+model=9396
+
+[gameobj 300398]
+name=Burnt People
+type=5
+model=9398
+
+[gameobj 300399]
+name=Burnt People 2
+type=5
+model=9399
+
+[gameobj 300400]
+name=Burnt People 3
+type=5
+model=9400
+
+[gameobj 300401]
+name=Burnt People 4
+type=5
+model=9401
+
+[gameobj 300402]
+name=Burnt People 5
+type=5
+model=9402
+
+[gameobj 300403]
+name=Bridge 4
+type=5
+model=9403
+
+[gameobj 300404]
+name=Burnt Giant Wheel
+type=5
+model=9404
+
+[gameobj 300405]
+name=Lava Altar
+type=5
+model=9405
+
+[gameobj 300406]
+name=Lava Bridge
+type=5
+model=9406
+
+[gameobj 300407]
+name=Lava Plug
+type=5
+model=9407
+
+[gameobj 300408]
+name=Lava Plug 2
+type=5
+model=9408
+
+[gameobj 300409]
+name=Lava Shrine
+type=5
+model=9409
+
+[gameobj 300411]
+name=Smoke
+type=5
+model=9411
+
+[gameobj 300413]
+name=Rock Bridge
+type=5
+model=9413
+
+[gameobj 300414]
+name=Hanging Body
+type=5
+model=9414
+
+[gameobj 300415]
+name=Hanging Body 2
+type=5
+model=9415
+
+[gameobj 300416]
+name=Rock Arch
+type=5
+model=9416
+
+[gameobj 300417]
+name=Rock Arch 2
+type=5
+model=9417
+
+[gameobj 300418]
+name=Rock Arch 3
+type=5
+model=9418
+
+[gameobj 300419]
+name=Wagon
+type=5
+model=9419
+
+[gameobj 300421]
+name=Covered Bridge
+type=5
+model=9421
+
+[gameobj 300422]
+name=Darkshire Entrance
+type=5
+model=9422
+
+[gameobj 300424]
+name=Chasm Bridge
+type=5
+model=9424
+
+[gameobj 300425]
+name=Coffin
+type=5
+model=9425
+
+[gameobj 300426]
+name=Coffin Lid
+type=5
+model=9426
+
+[gameobj 300427]
+name=Darkshire Entrance
+type=5
+model=9427
+
+[gameobj 300429]
+name=Hay Stack
+type=5
+model=9429
+
+[gameobj 300430]
+name=Hay Wagon
+type=5
+model=9430
+
+[gameobj 300431]
+name=Hearse
+type=5
+model=9431
+
+[gameobj 300432]
+name=Scarecrow
+type=5
+model=9432
+
+[gameobj 300433]
+name=Wheat
+type=5
+model=9433
+
+[gameobj 300434]
+name=Fence Segment
+type=5
+model=9434
+
+[gameobj 300435]
+name=Gate
+type=5
+model=9435
+
+[gameobj 300436]
+name=Cementery Gate
+type=5
+model=9436
+
+[gameobj 300437]
+name=Grave Frame
+type=5
+model=9437
+
+[gameobj 300438]
+name=Cementery Gate 2
+type=5
+model=9438
+
+[gameobj 300439]
+name=Gate Segment
+type=5
+model=9439
+
+[gameobj 300440]
+name=Mausoleum
+type=5
+model=9440
+
+[gameobj 300441]
+name=Dirt Mound
+type=5
+model=9441
+
+[gameobj 300442]
+name=Tomb Stone 1
+type=5
+model=9442
+
+[gameobj 300443]
+name=Tomb Monument
+type=5
+model=9443
+
+[gameobj 300444]
+name=Rock Wall
+type=5
+model=9444
+
+[gameobj 300445]
+name=Warning Tree
+type=5
+model=9445
+
+[gameobj 300446]
+name=Portal Gate
+type=5
+model=9446
+
+[gameobj 300447]
+name=Blacksmith
+type=5
+model=9447
+
+[gameobj 300448]
+name=Distillery
+type=5
+model=9448
+
+[gameobj 300454]
+name=Fence
+type=5
+model=9454
+
+[gameobj 300455]
+name=Stone Fence
+type=5
+model=9455
+
+[gameobj 300456]
+name=Eye Of Azora
+type=5
+model=9456
+
+[gameobj 300457]
+name=Lamp Post
+type=5
+model=9457
+
+[gameobj 300458]
+name=Rock Monument
+type=5
+model=9458
+
+[gameobj 300459]
+name=Ruined Fountain
+type=5
+model=9459
+
+[gameobj 300461]
+name=Stone Pyre
+type=5
+model=9461
+
+[gameobj 300462]
+name=Water Basin
+type=5
+model=9462
+
+[gameobj 300463]
+name=Waterfall
+type=5
+model=9463
+
+[gameobj 300464]
+name=Waterfall 2
+type=5
+model=9464
+
+[gameobj 300479]
+name=Dock
+type=5
+model=9479
+
+[gameobj 300480]
+name=Dock 2
+type=5
+model=9480
+
+[gameobj 300481]
+name=Small Boat
+type=5
+model=9481
+
+[gameobj 300483]
+name=Holy Spring Well
+type=5
+model=9483
+
+[gameobj 300484]
+name=Small Boat
+type=5
+model=9484
+
+[gameobj 300486]
+name=Lighthouse
+type=5
+model=9486
+
+[gameobj 300487]
+name=Stable
+type=5
+model=9487
+
+[gameobj 300504]
+name=Bed
+type=5
+model=9504
+
+[gameobj 300505]
+name=Waterfall 3
+type=5
+model=9505
+
+[gameobj 300507]
+name=Fountain
+type=5
+model=9507
+
+[gameobj 300522]
+name=Cauldron
+type=5
+model=9522
+
+[gameobj 300523]
+name=Cracked Ice
+type=5
+model=9523
+
+[gameobj 300537]
+name=Gem Rock
+type=5
+model=9537
+
+[gameobj 300538]
+name=World Tree Portal
+type=5
+model=9538
+
+[gameobj 300539]
+name=Grinding Wheel
+type=5
+model=9539
+
+[gameobj 300542]
+name=Dark Iron Mural
+type=5
+model=9542
+
+[gameobj 300543]
+name=Dark Iron Mural 2
+type=5
+model=9543
+
+[gameobj 300544]
+name=Dark Iron Mural 3
+type=5
+model=9544
+
+[gameobj 300545]
+name=Dark Iron Throne
+type=5
+model=9545
+
+[gameobj 300546]
+name=Dark Iron Saw
+type=5
+model=9546
+
+[gameobj 300567]
+name=Mine Cart Giant
+type=5
+model=9567
+
+[gameobj 300579]
+name=Subway Car
+type=5
+model=9579
+
+[gameobj 300580]
+name=Underwater Light Shaft
+type=5
+model=9580
+
+[gameobj 300585]
+name=Farm Door
+type=5
+model=9585
+
+[gameobj 300595]
+name=Wizards Sphere
+type=5
+model=9595
+
+[gameobj 300596]
+name=Stuffed Bear
+type=5
+model=9596
+
+[gameobj 300597]
+name=Stuffed TallStrider
+type=5
+model=9597
+
+[gameobj 300601]
+name=Doghouse
+type=5
+model=9601
+
+[gameobj 300602]
+name=Metal Cup
+type=5
+model=9602
+
+[gameobj 300603]
+name=Metal Cup 2
+type=5
+model=9603
+
+[gameobj 300607]
+name=Plagued Fountain
+type=5
+model=9607
+
+[gameobj 300608]
+name=Snow Fountain
+type=5
+model=9608
+
+[gameobj 300611]
+name=Gryphon Roost
+type=5
+model=9611
+
+[gameobj 300619]
+name=Gypsy Wagon
+type=5
+model=9619
+
+[gameobj 300620]
+name=General Outpost
+type=5
+model=9620
+
+[gameobj 300621]
+name=General Outpost 2
+type=5
+model=9621
+
+[gameobj 300622]
+name=Sarcophagus
+type=5
+model=9622
+
+[gameobj 300623]
+name=Shack
+type=5
+model=9623
+
+[gameobj 300624]
+name=Shop Counter
+type=5
+model=9624
+
+[gameobj 300625]
+name=Shop Counter 2
+type=5
+model=9625
+
+[gameobj 300634]
+name=Iron Maiden
+type=5
+model=9634
+
+[gameobj 300635]
+name=Rack
+type=5
+model=9635
+
+[gameobj 300636]
+name=Stocks
+type=5
+model=9636
+
+[gameobj 300638]
+name=Great Wall Portcullis
+type=5
+model=9638
+
+[gameobj 300660]
+name=Wooden Stairs
+type=5
+model=9660
+
+[gameobj 300661]
+name=Wooden Stairs 2
+type=5
+model=9661
+
+[gameobj 300663]
+name=Brass Doors
+type=5
+model=9663
+
+////////Cities, Instances and Big Places/////////
+
+[gameobj 300048]
+name=Human PvP Barracks City
+type=14
+model=9049
+
+[gameobj 300049]
+name=Stormwind City
+type=14
+model=9050
+
+[gameobj 300050]
+name=Booty Bay
+type=14
+model=9051
+
+[gameobj 300066]
+name=Blackrock
+type=14
+model=9067
+
+[gameobj 300067]
+name=Blackrock Lower Guild
+type=14
+model=9068
+
+[gameobj 300068]
+name=Blackrock Lower Instance
+type=14
+model=9069
+
+[gameobj 300069]
+name=Blackrock Upper Guild
+type=14
+model=9070
+
+[gameobj 300070]
+name=Blackrock Upper Instance
+type=14
+model=9071
+
+[gameobj 300071]
+name=Nefarian's Balcony
+type=14
+model=9072
+
+[gameobj 300072]
+name=Deadmines Part 1
+type=14
+model=9073
+
+[gameobj 300073]
+name=Deadmines Part 2
+type=14
+model=9074
+
+[gameobj 300074]
+name=Deadmines Part 3
+type=14
+model=9075
+
+[gameobj 300075]
+name=Deadmines Part 4
+type=14
+model=9076
+
+[gameobj 300076]
+name=Karazhan Future Tower Instance
+type=14
+model=9077
+
+[gameobj 300077]
+name=Kharazan Actual Tower (no instance)
+type=14
+model=9078
+
+[gameobj 300078]
+name=The Stockades
+type=14
+model=9079
+
+[gameobj 300079]
+name=Stormwind Vault
+type=14
+model=9080
+
+[gameobj 300080]
+name=Deeprun Tram
+type=14
+model=9081
+
+[gameobj 300081]
+name=Caverns of Time
+type=14
+model=9082
+
+[gameobj 300082]
+name=Caverns of Time Entrance
+type=14
+model=9083
+
+[gameobj 300083]
+name=Caverns of Time Arm 1
+type=14
+model=9084
+
+[gameobj 300084]
+name=Caverns of Time Arm 2
+type=14
+model=9085
+
+[gameobj 300085]
+name=Caverns of Time Arm 3
+type=14
+model=9086
+
+[gameobj 300086]
+name=Ahn'Quiraj
+type=14
+model=9087
+
+[gameobj 300087]
+name=Ahn'Quiraj Entrance
+type=14
+model=9088
+
+[gameobj 300088]
+name=Ahn'Quiraj Door
+type=14
+model=9089
+
+[gameobj 300089]
+name=Ahn'Quiraj Border of Door
+type=14
+model=9090
+
+[gameobj 300090]
+name=Ahn'Quiraj Walls
+type=14
+model=9091
+
+[gameobj 300091]
+name=Blackfathom
+type=14
+model=9092
+
+[gameobj 300092]
+name=Blackfathom Instance
+type=14
+model=9093
+
+[gameobj 300093]
+name=Old Blackfathom Facade
+type=14
+model=9094
+
+[gameobj 300094]
+name=Dire Maul
+type=14
+model=9095
+
+[gameobj 300095]
+name=Dire Maul Back Entrance
+type=14
+model=9096
+
+[gameobj 300096]
+name=Dire Maul Instance
+type=14
+model=9097
+
+[gameobj 300097]
+name=Maraudon
+type=14
+model=9098
+
+[gameobj 300098]
+name=Maraudon Intance
+type=14
+model=9099
+
+[gameobj 300099]
+name=Onyxia's Lair
+type=14
+model=9100
+
+[gameobj 300100]
+name=Onyxia's Lair Piece
+type=14
+model=9101
+
+[gameobj 300101]
+name=Onyxia's Lair
+type=14
+model=9102
+
+[gameobj 300102]
+name=Ragefire Chasm
+type=14
+model=9103
+
+[gameobj 300103]
+name=Razorfen Downs
+type=14
+model=9104
+
+[gameobj 300104]
+name=Razorfen Downs Intance
+type=14
+model=9105
+
+[gameobj 300105]
+name=Razorfen Kraul
+type=14
+model=9106
+
+[gameobj 300106]
+name=Razorfen Kraul Intance
+type=14
+model=9107
+
+[gameobj 300107]
+name=Wailing Caverns
+type=14
+model=9108
+
+[gameobj 300108]
+name=Wailing Caverns Intance
+type=14
+model=9109
+
+[gameobj 300109]
+name=Wailing Caverns Teeth
+type=14
+model=9110
+
+[gameobj 300110]
+name=Gnomeragan
+type=14
+model=9111
+
+[gameobj 300111]
+name=Gnomeragan Instance
+type=14
+model=9112
+
+[gameobj 300112]
+name=Uldaman Piece
+type=14
+model=9113
+
+[gameobj 300113]
+name=Uldaman Piece 2
+type=14
+model=9114
+
+[gameobj 300114]
+name=Uldaman Piece 3 
+type=14
+model=9115
+
+[gameobj 300115]
+name=Uldaman Piece 4
+type=14
+model=9116
+
+[gameobj 300116]
+name=Dragon Isles
+type=14
+model=9117
+
+[gameobj 300117]
+name=Dragon Isles 2
+type=14
+model=9118
+
+[gameobj 300118]
+name=Dragon Isles 3
+type=14
+model=9119
+
+[gameobj 300119]
+name=Dragon Isles 4
+type=14
+model=9120
+
+[gameobj 300120]
+name=Monestary Cathedral
+type=14
+model=9121
+
+[gameobj 300121]
+name=Monestary Cementery
+type=14
+model=9122
+
+[gameobj 300122]
+name=Monestary Library
+type=14
+model=9123
+
+[gameobj 300123]
+name=Monestary War
+type=14
+model=9124
+
+[gameobj 300124]
+name=Shadowfang
+type=14
+model=9125
+
+[gameobj 300125]
+name=Shadowfang Instance
+type=14
+model=9126
+
+[gameobj 300126]
+name=Stratholme Part
+type=14
+model=9127
+
+[gameobj 300127]
+name=Stratholme Part 2
+type=14
+model=9128
+
+[gameobj 300128]
+name=Stratholme Part 3
+type=14
+model=9129
+
+[gameobj 300129]
+name=Stratholme Part 4
+type=14
+model=9130
+
+[gameobj 300130]
+name=Algaz Gate
+type=14
+model=9131
+
+[gameobj 300234]
+name=Crypt Intance
+type=14
+model=9236
+
+[gameobj 300236]
+name=Furbolg Cave
+type=14
+model=9238
+
+[gameobj 300237]
+name=Timbermaw Hold
+type=14
+model=9239
+
+[gameobj 300238]
+name=Scarley Monastery
+type=14
+model=9240
+
+[gameobj 300239]
+name=Sunken Temple
+type=14
+model=9241
+
+[gameobj 300240]
+name=Sunken Temple Instance
+type=14
+model=9242
+
+[gameobj 300326]
+name=Darnassus
+type=14
+model=9327
+
+[gameobj 300327]
+name=Orc Pvp Barracks City
+type=14
+model=9328
+
+[gameobj 300328]
+name=Orgrimmar City
+type=14
+model=9329
+
+[gameobj 300331]
+name=Druid Mesa
+type=14
+model=9332
+
+[gameobj 300332]
+name=Druid Mesa 2
+type=14
+model=9333
+
+[gameobj 300333]
+name=Giant Totem
+type=14
+model=9334
+
+[gameobj 300334]
+name=Lower Mesa
+type=14
+model=9335
+
+[gameobj 300335]
+name=Lower Mesa 2
+type=14
+model=9336
+
+[gameobj 300336]
+name=Lower Mesa 3
+type=14
+model=9337
+
+[gameobj 300337]
+name=Lower Mesa 4
+type=14
+model=9338
+
+[gameobj 300338]
+name=Lower Mesa 5
+type=14
+model=9339
+
+[gameobj 300339]
+name=Lower Mesa 6
+type=14
+model=9340
+
+[gameobj 300340]
+name=Mid Mesa
+type=14
+model=9341
+
+[gameobj 300341]
+name=Mid Mesa 2
+type=14
+model=9342
+
+[gameobj 300342]
+name=Mid Mesa 3
+type=14
+model=9343
+
+[gameobj 300343]
+name=Mid Mesa 4
+type=14
+model=9344
+
+[gameobj 300344]
+name=Shaman Mesa
+type=14
+model=9345
+
+[gameobj 300345]
+name=Undead Cave
+type=14
+model=9346
+
+[gameobj 300346]
+name=Upper Mesa
+type=14
+model=9347
+
+[gameobj 300347]
+name=Upper Mesa 2
+type=14
+model=9348
+
+[gameobj 300348]
+name=Upper Mesa 3
+type=14
+model=9349
+
+[gameobj 300349]
+name=Upper Mesa 4
+type=14
+model=9350
+
+[gameobj 300350]
+name=Upper Mesa 5
+type=14
+model=9351
+
+[gameobj 300351]
+name=Warrior Mesa
+type=14
+model=9352
+
+[gameobj 300352]
+name=Warrior Mesa 1
+type=14
+model=9353
+
+[gameobj 300370]
+name=Ironforge
+type=14
+model=9371
+
+[gameobj 300383]
+name=Undercity
+type=14
+model=9383
+
+[gameobj 300051]
+name=Duskwood World Tree
+type=14
+model=9052
+
+[gameobj 300059]
+name=Stormwind Valley of Heroes Bridge
+type=14
+model=9060
+
+[gameobj 300060]
+name=Stormwind Valley of Heroes Gate
+type=14
+model=9061
+
+////////Human Buildings/////////
+
+[gameobj 300609]
+name=Human Fountain
+type=5
+model=9609
+
+[gameobj 300626]
+name=Human Sign Post
+type=5
+model=9626
+
+[gameobj 300637]
+name=Human Vendor Tent
+type=5
+model=9637
+
+[gameobj 300449]
+name=Guard Tower 2
+type=5
+model=9449
+
+[gameobj 300450]
+name=Watch Tower
+type=5
+model=9450
+
+[gameobj 300451]
+name=Stormwind Gate Old
+type=5
+model=9451
+
+[gameobj 300452]
+name=Human Ballista
+type=5
+model=9452
+
+[gameobj 300428]
+name=Barn
+type=5
+model=9428
+
+[gameobj 300423]
+name=Guard Tower
+type=5
+model=9423
+
+[gameobj 300001]
+name=Chapel
+type=14
+model=9002
+
+[gameobj 300002]
+name=Barn
+type=14
+model=9003
+
+[gameobj 300003]
+name=Barracks
+type=14
+model=9004
+
+[gameobj 300004]
+name=Blacksmith
+type=14
+model=9005
+
+[gameobj 300005]
+name=Farm
+type=14
+model=9006
+
+[gameobj 300006]
+name=House
+type=14
+model=9007
+
+[gameobj 300007]
+name=Inn
+type=14
+model=9008
+
+[gameobj 300009]
+name=Mage Tower
+type=14
+model=9010
+
+[gameobj 300010]
+name=Stable
+type=14
+model=9011
+
+[gameobj 300011]
+name=Townhall
+type=14
+model=9012
+
+[gameobj 300012]
+name=Townhall without Wall
+type=14
+model=9013
+
+[gameobj 300015]
+name=Blacksmith 2
+type=14
+model=9016
+
+[gameobj 300016]
+name=Inn 2
+type=14
+model=9017
+
+[gameobj 300017]
+name=Guard Tower
+type=14
+model=9018
+
+[gameobj 300020]
+name=Barn 2
+type=14
+model=9021
+
+[gameobj 300021]
+name=Barracks 2
+type=14
+model=9022
+
+[gameobj 300022]
+name=Farm 2
+type=14
+model=9023
+
+[gameobj 300023]
+name=House 2
+type=14
+model=9024
+
+[gameobj 300025]
+name=Gate
+type=14
+model=9026
+
+[gameobj 300029]
+name=Wall Piece
+type=14
+model=9030
+
+[gameobj 300034]
+name=Wall Piece with Stairs
+type=14
+model=9035
+
+[gameobj 300035]
+name=WallPost
+type=14
+model=9036
+
+[gameobj 300037]
+name=Lumbermill
+type=14
+model=9038
+
+[gameobj 300038]
+name=Mage Tower
+type=14
+model=9039
+
+[gameobj 300039]
+name=Abbey
+type=14
+model=9040
+
+[gameobj 300047]
+name=Townhall 3
+type=14
+model=9048
+
+[gameobj 300055]
+name=Abbey Gate
+type=14
+model=9056
+
+[gameobj 300057]
+name=Bridge
+type=14
+model=9058
+
+[gameobj 300063]
+name=Bridge 2
+type=14
+model=9064
+
+[gameobj 300233]
+name=Ruined Keep
+type=14
+model=9235
+
+[gameobj 300329]
+name=PvP Wall
+type=14
+model=9330
+
+[gameobj 300375]
+name=Cathedral
+type=14
+model=9375
+
+[gameobj 300390]
+name=Tank
+type=14
+model=9390
+
+////////Elf Buildings/////////
+
+[gameobj 300133]
+name=Barrow Dens
+type=14
+model=9134
+
+[gameobj 300134]
+name=Corrupted Barrow Dens
+type=14
+model=9135
+
+[gameobj 300135]
+name=Barrow Dens 2
+type=14
+model=9136
+
+[gameobj 300136]
+name=Barrow Dens 3
+type=14
+model=9137
+
+[gameobj 300137]
+name=Barrow Dens 4
+type=14
+model=9138
+
+[gameobj 300138]
+name=Corrupted Barrow Dens 2
+type=14
+model=9139
+
+[gameobj 300253]
+name=House
+type=14
+model=9255
+
+[gameobj 300254]
+name=Abbey
+type=14
+model=9256
+
+[gameobj 300255]
+name=Druid Tower
+type=14
+model=9257
+
+[gameobj 300256]
+name=Guard Tower
+type=14
+model=9258
+
+[gameobj 300257]
+name=Building
+type=14
+model=9259
+
+[gameobj 300258]
+name=Inn
+type=14
+model=9260
+
+[gameobj 300259]
+name=Giant Moonwell
+type=14
+model=9261
+
+[gameobj 300260]
+name=Moonwell
+type=14
+model=9262
+
+[gameobj 300261]
+name=Outpost
+type=14
+model=9263
+
+[gameobj 300262]
+name=Small House
+type=14
+model=9264
+
+[gameobj 300263]
+name=Gate
+type=14
+model=9265
+
+[gameobj 3003161]
+name=Sacra Moonwell
+type=8
+sound1=883
+sound0=883
+model=4393
+
+[gameobj 300317]
+name=Bridge
+type=14
+model=9318
+
+[gameobj 300392]
+name=PvP Wall
+type=5
+model=9392
+
+[gameobj 300393]
+name=PvP Wall 2
+type=5
+model=9393
+
+[gameobj 300394]
+name=PvP Wall 3
+type=5
+model=9394
+
+////////Dwarf Buildings/////////
+
+[gameobj 300541]
+name=Dwarf Manacle
+type=5
+model=9541
+
+[gameobj 300547]
+name=Portcullis
+type=5
+model=9547
+
+[gameobj 300548]
+name=Battlement Large
+type=5
+model=9548
+
+[gameobj 300549]
+name=Battlement Mossy
+type=5
+model=9549
+
+[gameobj 300550]
+name=Battlement Mossy 2
+type=5
+model=9550
+
+[gameobj 300551]
+name=Battlement Mossy 3
+type=5
+model=9551
+
+[gameobj 300552]
+name=Battlement Mossy 4
+type=5
+model=9552
+
+[gameobj 300553]
+name=Battlement Mossy 5
+type=5
+model=9553
+
+[gameobj 300554]
+name=Battlement Mossy 6
+type=5
+model=9554
+
+[gameobj 300555]
+name=Battlement Mossy 7
+type=5
+model=9555
+
+[gameobj 300556]
+name=Battlement Small
+type=5
+model=9556
+
+[gameobj 300557]
+name=Battlement Snowy
+type=5
+model=9557
+
+[gameobj 300558]
+name=Battlement Snowy 2
+type=5
+model=9558
+
+[gameobj 300559]
+name=Battlement Snowy 3
+type=5
+model=9559
+
+[gameobj 300560]
+name=Battlement Snowy 4
+type=5
+model=9560
+
+[gameobj 300561]
+name=Battlement Snowy 5
+type=5
+model=9561
+
+[gameobj 300562]
+name=Battlement Snowy 6
+type=5
+model=9562
+
+[gameobj 300563]
+name=Battlement Snowy 7
+type=5
+model=9563
+
+[gameobj 300564]
+name=Battlement Large Snowy
+type=5
+model=9564
+
+[gameobj 300565]
+name=Battlement Small Snowy
+type=5
+model=9565
+
+[gameobj 300566]
+name=Gyrocopter
+type=5
+model=9566
+
+[gameobj 300355]
+name=Barracks (snow)
+type=14
+model=9356
+
+[gameobj 300356]
+name=Barracks
+type=14
+model=9357
+
+[gameobj 300357]
+name=Blacksmith (snow)
+type=14
+model=9358
+
+[gameobj 300358]
+name=Blacksmith
+type=14
+model=9359
+
+[gameobj 300359]
+name=Griffon Aviary
+type=14
+model=9360
+
+[gameobj 300360]
+name=Guard Tower
+type=14
+model=9361
+
+[gameobj 300361]
+name=Inn (snow)
+type=14
+model=9362
+
+[gameobj 300362]
+name=Inn
+type=14
+model=9363
+
+[gameobj 300363]
+name=Stable (snow)
+type=14
+model=9364
+
+[gameobj 300364]
+name=Tower (snow)
+type=14
+model=9365
+
+[gameobj 300365]
+name=Stable
+type=14
+model=9366
+
+[gameobj 300366]
+name=Tavern (snow)
+type=14
+model=9367
+
+[gameobj 300367]
+name=Tavern
+type=14
+model=9368
+
+[gameobj 300368]
+name=Dark Iron Tower
+type=14
+model=9369
+
+[gameobj 300371]
+name=Dam
+type=14
+model=9372
+
+////////Tauren Buildings/////////
+
+[gameobj 300294]
+name=Druid Tent
+type=14
+model=9296
+
+[gameobj 300295]
+name=Hunter Tent
+type=14
+model=9297
+
+[gameobj 300296]
+name=Hut Big
+type=14
+model=9298
+
+[gameobj 300297]
+name=Hut
+type=14
+model=9299
+
+[gameobj 300298]
+name=Hut 2
+type=14
+model=9300
+
+[gameobj 300299]
+name=Tepee
+type=14
+model=9301
+
+[gameobj 300301]
+name=Longhouse
+type=14
+model=9302
+
+[gameobj 300302]
+name=Shaman Tent
+type=14
+model=9303
+
+[gameobj 300313]
+name=Bridge
+type=14
+model=9314
+
+[gameobj 300319]
+name=Tent
+type=14
+model=9320
+
+////////Orc Buildings/////////
+
+[gameobj 300540]
+name=Orc Manacle
+type=5
+model=9540
+
+[gameobj 300232]
+name=Ruined Fortress
+type=14
+model=9234
+
+[gameobj 300264]
+name=Blackrock Barracks
+type=14
+model=9266
+
+[gameobj 300453]
+name=Orc Catapult
+type=5
+model=9453
+
+[gameobj 300265]
+name=Barracks
+type=14
+model=9267
+
+[gameobj 300266]
+name=Barracks (Swamp of Sorrows)
+type=14
+model=9268
+
+[gameobj 300267]
+name=Blackrock Blacksmith
+type=14
+model=9269
+
+[gameobj 300268]
+name=Blacksmith
+type=14
+model=9270
+
+[gameobj 300269]
+name=Blacksmith (Swamp of Sorrows)
+type=14
+model=9271
+
+[gameobj 300270]
+name=Blackrock Fortress
+type=14
+model=9272
+
+[gameobj 300271]
+name=Fortress
+type=14
+model=9273
+
+[gameobj 300272]
+name=Fortress (Swamp of Sorrows)
+type=14
+model=9274
+
+[gameobj 300273]
+name=Blackrock Great Hall
+type=14
+model=9275
+
+[gameobj 300274]
+name=Great Hall
+type=14
+model=9276
+
+[gameobj 300275]
+name=Great Hall (Swamp of Sorrows)
+type=14
+model=9277
+
+[gameobj 300276]
+name=Blackrock Hut
+type=14
+model=9278
+
+[gameobj 300277]
+name=Hut
+type=14
+model=9279
+
+[gameobj 300278]
+name=Inn
+type=14
+model=9280
+
+[gameobj 300279]
+name=Blackrock Kennel
+type=14
+model=9281
+
+[gameobj 300280]
+name=Kennel
+type=14
+model=9282
+
+[gameobj 300281]
+name=Kennel (Swamp of Sorrows)
+type=14
+model=9283
+
+[gameobj 300282]
+name=Blackrock Mage Tower
+type=14
+model=9284
+
+[gameobj 300283]
+name=Mage Tower
+type=14
+model=9285
+
+[gameobj 300284]
+name=Mage Tower (Swamp of Sorrows)
+type=14
+model=9286
+
+[gameobj 300285]
+name=Blackrock House
+type=14
+model=9287
+
+[gameobj 300286]
+name=House
+type=14
+model=9288
+
+[gameobj 300287]
+name=House (Swamp of Sorrows)
+type=14
+model=9289
+
+[gameobj 300288]
+name=Blackrock Tower
+type=14
+model=9290
+
+[gameobj 300289]
+name=Tower
+type=14
+model=9291
+
+[gameobj 300290]
+name=Tower (Swamp of Sorrows)
+type=14
+model=9292
+
+[gameobj 300291]
+name=Blackrock Tower Small
+type=14
+model=9293
+
+[gameobj 300292]
+name=House Tower Small
+type=14
+model=9294
+
+[gameobj 300293]
+name=Zeppelin House
+type=14
+model=9295
+
+[gameobj 300315]
+name=Gate
+type=14
+model=9316
+
+[gameobj 300318]
+name=Bridge
+type=14
+model=9319
+
+[gameobj 300320]
+name=Bridge
+type=14
+model=9321
+
+[gameobj 300330]
+name=PvP Wall
+type=14
+model=9331
+
+[gameobj 300395]
+name=Spike Wall
+type=5
+size=1.8
+model=9395
+
+////////Undead Buildings/////////
+
+[gameobj 300376]
+name=Slaughter House
+type=14
+model=9376
+
+[gameobj 300377]
+name=Ziggurat
+type=14
+model=9377
+
+[gameobj 300378]
+name=Tower Zeppelin
+type=14
+model=9378
+
+[gameobj 300604]
+name=Undead Campfire
+type=5
+model=9604
+
+[gameobj 300605]
+name=Undead Fire Large
+type=5
+model=9605
+
+[gameobj 300606]
+name=Undead Fire Small
+type=5
+model=9606
+
+[gameobj 300610]
+name=Undead Fountain
+type=5
+model=9610
+
+////////Gnome Buildings/////////
+
+[gameobj 300013]
+name=Hut
+type=14
+model=9014
+
+[gameobj 300014]
+name=Hut 2
+type=14
+model=9015
+
+////////Troll Buildings/////////
+
+[gameobj 300052]
+name=Troll Ziggurat
+type=14
+model=9053
+
+[gameobj 300482]
+name=Troll Watch Tower
+type=5
+model=9482
+
+[gameobj 300142]
+name=Troll Den
+type=14
+model=9143
+
+[gameobj 300143]
+name=Troll Den 2
+type=14
+model=9144
+
+[gameobj 300303]
+name=Blackrock Troll Burrow
+type=14
+model=9304
+
+[gameobj 300304]
+name=Troll Burrow (Swamp of Sorrows)
+type=14
+model=9305
+
+[gameobj 300305]
+name=Troll Burrow
+type=14
+model=9306
+
+[gameobj 300306]
+name=Troll Hotel
+type=14
+model=9307
+
+[gameobj 300307]
+name=Troll Shop House
+type=14
+model=9308
+
+[gameobj 300308]
+name=Troll Shopping Mall
+type=14
+model=9309
+
+[gameobj 300309]
+name=Troll Hut Desert
+type=14
+model=9310
+
+[gameobj 3003010]
+name=Troll Hut Desert Small
+type=14
+model=9311
+
+[gameobj 300311]
+name=Troll Hut
+type=14
+model=9312
+
+[gameobj 300312]
+name=Troll Hut Small
+type=14
+model=9313
+
+[gameobj 300382]
+name=Troll City Arena
+type=14
+model=9382
+
+////////Goblin Buildings/////////
+
+[gameobj 300581]
+name=Goblin Machinery
+type=5
+model=9581
+
+[gameobj 300412]
+name=Goblin Melting Pot
+type=5
+model=9412
+
+[gameobj 300582]
+name=Goblin Shredder Suit
+type=5
+model=9582
+
+[gameobj 300241]
+name=Hut
+type=14
+model=9243
+
+[gameobj 300242]
+name=Observatory (snow)
+type=14
+model=9244
+
+[gameobj 300243]
+name=Igloo
+type=14
+model=9245
+
+[gameobj 300244]
+name=Igloo 2
+type=14
+model=9246
+
+[gameobj 300245]
+name=Igloo 3
+type=14
+model=9247
+
+[gameobj 300246]
+name=Igloo 4
+type=14
+model=9248
+
+[gameobj 300247]
+name=Desert Building
+type=14
+model=9249
+
+[gameobj 300248]
+name=Desert Building 2
+type=14
+model=9250
+
+[gameobj 300249]
+name=Desert Building 3
+type=14
+model=9251
+
+[gameobj 300250]
+name=Desert Building 4
+type=14
+model=9252
+
+[gameobj 300251]
+name=Laboratory
+type=14
+model=9253
+
+[gameobj 300324]
+name=Gate
+type=14
+model=9325
+
+////////Gnome Buildings/////////
+
+[gameobj 300013]
+name=Hut
+type=14
+model=9014
+
+[gameobj 300014]
+name=Hut 2
+type=14
+model=9015
+
+[gameobj 300568]
+name=Gnome Machine
+type=5
+model=9568
+
+[gameobj 300569]
+name=Gnome Machine 2
+type=5
+model=9569
+
+[gameobj 300570]
+name=Gnome Machine 3
+type=5
+model=9570
+
+[gameobj 300571]
+name=Gnome Machine 4
+type=5
+model=9571
+
+[gameobj 300572]
+name=Gnome Machine 5
+type=5
+model=9572
+
+[gameobj 300573]
+name=Gnome Machine 6
+type=5
+model=9573
+
+[gameobj 300574]
+name=Gnome Subway Glass
+type=5
+model=9574
+
+[gameobj 300575]
+name=Gnome Subway Sign
+type=5
+model=9575
+
+[gameobj 300576]
+name=Gnome Robo arm
+type=5
+model=9576
+
+[gameobj 300577]
+name=Gnome Rocket Cart
+type=5
+model=9577
+
+[gameobj 300578]
+name=Gnome Spider Tank
+type=5
+model=9578
+
+////////Prison Buildings/////////
+
+[gameobj 300662]
+name=Prison Cell
+type=5
+model=9662
+
+[gameobj 300024]
+name=Prison Tower
+type=14
+model=9025
+
+[gameobj 300041]
+name=Prison Headquarters
+type=14
+model=9042
+
+[gameobj 300042]
+name=Prison House
+type=14
+model=9043
+
+[gameobj 300043]
+name=Prison Cage 1
+type=14
+model=9044
+
+[gameobj 300044]
+name=Prison Cage 2 (with tunnel)
+type=14
+model=9045
+
+[gameobj 300045]
+name=Prison Cage 3 (with tunnel)
+type=14
+model=9046
+
+[gameobj 300046]
+name=Prison Cage 4 (with tunnel)
+type=14
+model=9047
+
+////////Caves/////////
+
+[gameobj 300191]
+name=Ice Cave
+type=14
+model=9000
+
+[gameobj 300192]
+name=Ice Cave Medium
+type=14
+model=9000
+
+[gameobj 300193]
+name=Ice Cave 2
+type=14
+model=9000
+
+[gameobj 300194]
+name=Ice Cave 3
+type=14
+model=9000
+
+[gameobj 300195]
+name=Ice Cave 4
+type=14
+model=9000
+
+[gameobj 300196]
+name=Jungle Cave
+type=14
+model=9000
+
+[gameobj 300197]
+name=Jungle Cave Crystal
+type=14
+model=9000
+
+[gameobj 300198]
+name=Jungle Cave Medium
+type=14
+model=9000
+
+[gameobj 300199]
+name=Jungle Cave 2
+type=14
+model=9201
+
+[gameobj 300200]
+name=Mountain Cave Medium
+type=14
+model=9202
+
+[gameobj 300201]
+name=Mountain Cave Medium 2
+type=14
+model=9203
+
+[gameobj 300202]
+name=Mountain Cave Medium 3
+type=14
+model=9204
+
+[gameobj 300203]
+name=Mountain Cave Medium 4
+type=14
+model=9205
+
+[gameobj 300204]
+name=Mountain Cave Medium 5
+type=14
+model=9206
+
+[gameobj 300205]
+name=Mountain Cave Medium 6
+type=14
+model=9207
+
+[gameobj 300206]
+name=Mountain Cave Medium 7
+type=14
+model=9208
+
+[gameobj 300207]
+name=Mountain Cave Medium 8
+type=14
+model=9209
+
+[gameobj 300208]
+name=Mushroom Cave
+type=14
+model=9210
+
+[gameobj 300209]
+name=Mushroom Cave 2
+type=14
+model=9211
+
+[gameobj 300210]
+name=Mushroom Cave 3
+model=9212
+
+[gameobj 300211]
+name=Mushroom Cave 4
+type=14
+model=9213
+
+[gameobj 300212]
+name=Mushroom Cave 5
+type=14
+model=9214
+
+[gameobj 300213]
+name=Mushroom Cave 6
+type=14
+model=9215
+
+[gameobj 300214]
+name=Mushroom Cave 7
+type=14
+model=9216
+
+[gameobj 300215]
+name=Mushroom Cave 8
+type=14
+model=9217
+
+[gameobj 300216]
+name=Mushroom Cave 9
+type=14
+model=9218
+
+[gameobj 300217]
+name=Mushroom Cave 10
+type=14
+model=9219
+
+[gameobj 300218]
+name=Underwater Cave Medium
+type=14
+model=9220
+
+[gameobj 300219]
+name=Warm Cave
+type=14
+model=9221
+
+[gameobj 300220]
+name=Warm Cave Medium
+type=14
+model=9222
+
+[gameobj 300353]
+name=Winterspring Cave
+type=14
+model=9354
+
+////////Dens/////////
+
+[gameobj 300131]
+name=Animal Den
+type=14
+model=9132
+
+[gameobj 300139]
+name=Ice Den
+type=14
+model=9140
+
+[gameobj 300140]
+name=Jungle Den
+type=14
+model=9141
+
+[gameobj 300141]
+name=Mushroom Den
+type=14
+model=9142
+
+[gameobj 300144]
+name=Volcanic den
+type=14
+model=9145
+
+[gameobj 300145]
+name=Warm Den
+type=14
+model=9146
+
+////////Tunnels/////////
+
+[gameobj 300146]
+name=Tunnel Cave to Cave
+type=14
+model=9147
+
+[gameobj 300147]
+name=Tunnel Cave to Cave (Ice)
+type=14
+model=9148
+
+[gameobj 300148]
+name=Tunnel Cave to Cave Large
+type=14
+model=9149
+
+[gameobj 300149]
+name=Tunnel Cave to Cave (Warm)
+type=14
+model=9150
+
+[gameobj 300150]
+name=Alterac Valley Entrance
+type=14
+model=9151
+
+[gameobj 300151]
+name=Alterac Valley Entrance (Snow)
+type=14
+model=9152
+
+[gameobj 300159]
+name=Large Tunnel
+type=14
+model=9160
+
+[gameobj 300160]
+name=Medium Tunnel
+type=14
+model=9161
+
+[gameobj 300161]
+name=Medium Tunnel (Snow)
+type=14
+model=9162
+
+[gameobj 300162]
+name=Small Tunnel
+type=14
+model=9163
+
+[gameobj 300163]
+name=Small Tunnel (Snow)
+type=14
+model=9164
+
+////////Crypts/////////
+
+[gameobj 300152]
+name=Crypt
+type=14
+model=9153
+
+[gameobj 300153]
+name=Crypt 2
+type=14
+model=9154
+
+[gameobj 300154]
+name=Crypt 3
+type=14
+model=9155
+
+[gameobj 300155]
+name=Crypt 4
+type=14
+model=9156
+
+[gameobj 300156]
+name=Crypt 5 (Undead Starting Crypt)
+type=14
+model=9157
+
+[gameobj 300157]
+name=Crypt School
+type=14
+model=9158
+
+[gameobj 300158]
+name=Crypt Simple Entrance
+type=14
+model=9159
+
+////////Goldmine Parts/////////
+
+[gameobj 300165]
+name=Goldmine
+type=14
+model=9166
+
+[gameobj 300166]
+name=Goldmine Small
+type=14
+model=9167
+
+[gameobj 300167]
+name=Goldmine 2
+type=14
+model=9168
+
+[gameobj 300168]
+name=Goldmine 3
+type=14
+model=9169
+
+[gameobj 300169]
+name=Goldmine 4
+type=14
+model=9170
+
+[gameobj 300170]
+name=Goldmine 5
+type=14
+model=9171
+
+[gameobj 300171]
+name=Goldmine 6
+type=14
+model=9172
+
+[gameobj 300172]
+name=Goldmine 7
+type=14
+model=9173
+
+////////Hives/////////
+
+[gameobj 300173]
+name=Hive Arch
+type=14
+model=9174
+
+[gameobj 300174]
+name=Hive Piece (exterior)
+type=14
+model=9175
+
+[gameobj 300175] 
+name=Hive Piece 2 (exterior)
+type=14
+model=9176
+
+[gameobj 300176] 
+name=Hive Piece 3 (exterior)
+type=14
+model=9177
+
+[gameobj 300177]
+name=Hive Piece 4 (exterior)
+type=14
+model=9178
+
+[gameobj 300178]
+name=Hive Piece 5 (exterior)
+type=14
+model=9179
+
+[gameobj 300179]
+name=Mini-Hive 1
+type=14
+model=9180
+
+[gameobj 300180]
+name=Mini-Hive 2
+type=14
+model=9181
+
+[gameobj 300181]
+name=Mini-Hive 3
+type=14
+model=9182
+
+[gameobj 300182]
+name=Mini-Hive 3 Albino
+type=14
+model=9183
+
+[gameobj 300183]
+name=Mini-Hive 4
+type=14
+model=9184
+
+[gameobj 300184]
+name=Mini-Hive 4 Albino
+type=14
+model=9185
+
+[gameobj 300185]
+name=Mini-Hive 5
+type=14
+model=9186
+
+[gameobj 300186]
+name=Mini-Hive 5 Albino
+type=14
+model=9187
+
+[gameobj 300187]
+name=Mini-Hive 6
+type=14
+model=9188
+
+[gameobj 300188]
+name=Mini-Hive 6 Albino
+type=14
+model=9189
+
+////////Ogremounds/////////
+
+[gameobj 300221]
+name=Ogremound
+type=14
+model=9223
+
+[gameobj 300222]
+name=Ogremound 2
+type=14
+model=9224
+
+[gameobj 300223]
+name=Ogremound 3
+type=14
+model=9225
+
+[gameobj 300224]
+name=Ogremound 4
+type=14
+model=9226
+
+[gameobj 300225]
+name=Ogremound 5
+type=14
+model=9227
+
+[gameobj 300226]
+name=Ogremound Medium
+type=14
+model=9228
+
+[gameobj 300227]
+name=Ogremound 6
+type=14
+model=9229
+
+[gameobj 300228]
+name=Ogremound 7
+type=14
+model=9230
+
+[gameobj 300229]
+name=Ogremound 8
+type=14
+model=9231
+
+[gameobj 300420]
+name=Ogremound 9
+type=5
+model=9420
+
+////////Statues/////////
+
+[gameobj 300410]
+name=Lothar Statue
+type=5
+model=9410
+
+[gameobj 300460]
+name=Lion Statue
+type=5
+model=9460
+
+[gameobj 300485]
+name=Snake Statue
+type=5
+model=9485
+
+[gameobj 300506]
+name=Mountain King Statue
+type=5
+model=9506
+
+[gameobj 300508]
+name=Franger Statue
+type=5
+model=9508
+
+[gameobj 300509]
+name=Mage Statue
+type=5
+model=9509
+
+[gameobj 300510]
+name=Spearman Statue
+type=5
+model=9510
+
+[gameobj 300511]
+name=Sunshield Statue
+type=5
+model=9511
+
+[gameobj 300512]
+name=Sunshield Statue 2
+type=5
+model=9512
+
+[gameobj 300513]
+name=Twinblades Statue
+type=5
+model=9513
+
+[gameobj 300514]
+name=Captain Statue
+type=5
+model=9514
+
+[gameobj 300515]
+name=Captain Statue 2
+type=5
+model=9515
+
+[gameobj 300516]
+name=Crusader Statue
+type=5
+model=9516
+
+[gameobj 300517]
+name=Crusader Statue 2
+type=5
+model=9517
+
+[gameobj 300518]
+name=Crusader Statue 3
+type=5
+model=9518
+
+[gameobj 300519]
+name=Human Statue
+type=5
+model=9519
+
+[gameobj 300520]
+name=Paladin Statue
+type=5
+model=9520
+
+[gameobj 300521]
+name=Priest Statue
+type=5
+model=9521
+
+[gameobj 300627]
+name=Alleria Statue 
+type=5
+model=9627
+
+[gameobj 300628]
+name=Danath Statue 
+type=5
+model=9628
+
+[gameobj 300629]
+name=Khadgar Statue 
+type=5
+model=9629
+
+[gameobj 300630]
+name=Kurdran Statue 
+type=5
+model=9630
+
+[gameobj 300631]
+name=Lion Statue 
+type=5
+model=9631
+
+[gameobj 300632]
+name=Turalyon Statue 
+type=5
+model=9632
+
+[gameobj 300633]
+name=Uther Statue
+type=5
+model=9633
+
+[gameobj 300397]
+name=Goblin Statue
+type=5
+model=9397
+
+////////Karazahn, Emerald Dream and COT stuffs/////////
+
+[gameobj 300465]
+name=Karazahn Portcullis
+type=5
+model=9465
+
+[gameobj 300466]
+name=Karazahn Chandelier
+type=5
+model=9466
+
+[gameobj 300467]
+name=Karazahn Pedestal
+type=5
+model=9467
+
+[gameobj 300468]
+name=Karazahn Pedestal 2
+type=5
+model=9468
+
+[gameobj 300469]
+name=Karazahn Sconce
+type=5
+model=9469
+
+[gameobj 300470]
+name=Karazahn Sconce 2
+type=5
+model=9470
+
+[gameobj 300471]
+name=Karazahn Sconce 3
+type=5
+model=9471
+
+[gameobj 300472]
+name=Karazahn Sconce 4
+type=5
+model=9472
+
+[gameobj 300473]
+name=Karazahn Sconce 5
+type=5
+model=9473
+
+[gameobj 300474]
+name=Karazahn Sconce 6
+type=5
+model=9474
+
+[gameobj 300475]
+name=Karazahn Sconce 7
+type=5
+model=9475
+
+[gameobj 300476]
+name=Karazahn Starlab
+type=5
+model=9476
+
+[gameobj 300477]
+name=Karazahn Table
+type=5
+model=9477
+
+[gameobj 300478]
+name=Karazahn Throne
+type=5
+model=9478
+
+[gameobj 300488]
+name=Emerald Dream Catcher
+type=5
+model=9488
+
+[gameobj 300489]
+name=Emerald Dream Catcher 2
+type=5
+model=9489
+
+[gameobj 300490]
+name=Emerald Dream Catcher 3
+type=5
+model=9490
+
+[gameobj 300491]
+name=Emerald Dream Catcher 4
+type=5
+model=9491
+
+[gameobj 300492]
+name=Emerald Dream Giant
+type=5
+model=9492
+
+[gameobj 300493]
+name=Emerald Dream Spinning Flower
+type=5
+model=9493
+
+[gameobj 300494]
+name=Emerald Dream Fountain Tree
+type=5
+model=9494
+
+[gameobj 300495]
+name=Emerald Dream Fountain Tree 2
+type=5
+model=9495
+
+[gameobj 300496]
+name=Emerald Dream Fountain Tree 3
+type=5
+model=9496
+
+[gameobj 300497]
+name=Emerald Dream Fountain Tree 4
+type=5
+model=9497
+
+[gameobj 300498]
+name=Emerald Dream Fountain Tree 5
+type=5
+model=9498
+
+[gameobj 300499]
+name=Caverns of Time Door
+type=5
+model=9499
+
+[gameobj 300500]
+name=Caverns of Time Portal Particles
+type=5
+model=9500
+
+[gameobj 300501]
+name=Caverns of Time Standing Stone
+type=5
+model=9501
+
+[gameobj 300502]
+name=Caverns of Time Standing Stone 2
+type=5
+model=9502
+
+[gameobj 300503]
+name=Caverns of Time Portal
+type=5
+model=9503
+
+////////Banners/////////
+
+[gameobj 300598]
+name=Blue Lordaeron Banner
+type=5
+model=9598
+
+[gameobj 300599]
+name=Durnholde Banner
+type=5
+model=9599
+
+[gameobj 300600]
+name=Night Elf Banner
+type=5
+model=9600
+
+[gameobj 300664]
+name=Night Elf Owl Banner
+type=5
+model=9664
+
+[gameobj 300665]
+name=Night Elf Tree Banner
+type=5
+model=9665
+
+
+////////Weapons/////////
+
+[gameobj 300639]
+name=Pick Axe
+type=5
+model=9639
+
+[gameobj 300640]
+name=Crimson Wall Shield
+type=5
+model=9640
+
+[gameobj 300641]
+name=Human Arrow
+type=5
+model=9641
+
+[gameobj 300642]
+name=Human Arrows
+type=5
+model=9642
+
+[gameobj 300643]
+name=Axe
+type=5
+model=9643
+
+[gameobj 300644]
+name=Axe 2
+type=5
+model=9644
+
+[gameobj 300645]
+name=Bow 
+type=5
+model=9645
+
+[gameobj 300646]
+name=Bow 2
+type=5
+model=9646
+
+[gameobj 300647]
+name=Hammer 
+type=5
+model=9647
+
+[gameobj 300648]
+name=Hammer 2
+type=5
+model=9648
+
+[gameobj 300649]
+name=Mace
+type=5
+model=9649
+
+[gameobj 300650]
+name=Mace 2
+type=5
+model=9650
+
+[gameobj 300651]
+name=Spear
+type=5
+model=9651
+
+[gameobj 300652]
+name=Spear 2
+type=5
+model=9652
+
+[gameobj 300653]
+name=Staff
+type=5
+model=9653
+
+[gameobj 300654]
+name=Staff 2
+type=5
+model=9654
+
+[gameobj 300655]
+name=Sword
+type=5
+model=9655
+
+[gameobj 300656]
+name=Sword 2
+type=5
+model=9656
+
+[gameobj 300657]
+name=Arrow
+type=5
+model=9657
+
+[gameobj 300658]
+name=Wall Shield
+type=5
+model=9658
+
+[gameobj 300659]
+name=Wall Sword
+type=5
+model=9659
+
+[gameobj 300612]
+name=Mortar
+type=5
+model=9612
+
+[gameobj 300613]
+name=Rifle
+type=5
+model=9613
+
+[gameobj 300614]
+name=Bomb
+type=5
+model=9614
+
+[gameobj 300615]
+name=Dynamite
+type=5
+model=9615
+
+[gameobj 300616]
+name=Mortar Shell
+type=5
+model=9616
+
+[gameobj 300617]
+name=Rifle 2
+type=5
+model=9617
+
+[gameobj 300618]
+name=Tripod
+type=5
+model=9618
+
+/////////Instance Portals/Doors and Meeting Stones////////
+
+[gameobj 300527]
+name=Instance Portal
+type=5
+model=9527
+
+[gameobj 300528]
+name=Instance Portal Green
+type=5
+model=9528
+
+[gameobj 300529]
+name=Instance Portal Red
+type=5
+model=9529
+
+[gameobj 300530]
+name=Instance Portal White
+type=5
+model=9530
+
+[gameobj 300531]
+name=Mage Portal
+type=5
+model=9531
+
+[gameobj 300532]
+name=Meeting Stone
+type=5
+model=9532
+
+[gameobj 300533]
+name=Meeting Stone 2
+type=5
+model=9533
+
+[gameobj 300534]
+name=Meeting Stone 3
+type=5
+model=9534
+
+[gameobj 300535]
+name=Meeting Stone 4
+type=5
+model=9535
+
+[gameobj 300536]
+name=Meeting Stone 5
+type=5
+model=9536
+
+[gameobj 300524]
+name=Gnomeragan Door
+type=5
+model=9524
+
+[gameobj 300525]
+name=Sunken Temple Portcullis
+type=5
+model=9525
+
+[gameobj 300526]
+name=Uldaman Door
+type=5
+model=9526
+
+[gameobj 300583]
+name=Deadmines Door
+type=5
+model=9583
+
+[gameobj 300584]
+name=Deadmines Door 2
+type=5
+model=9584
+
+[gameobj 300586]
+name=Monestary Boss Door
+type=5
+model=9586
+
+[gameobj 300587]
+name=Monestary Hall Door
+type=5
+model=9587
+
+[gameobj 300588]
+name=Monestary Secret Door
+type=5
+model=9588
+
+[gameobj 300589]
+name=Portcullis Active
+type=5
+model=9589
+
+[gameobj 300590]
+name=Scarlet Cathedral Door
+type=5
+model=9590
+
+[gameobj 300591]
+name=Shadowfang Door
+type=5
+model=9591
+
+[gameobj 300592]
+name=Shadowfang Door 2
+type=5
+model=9592
+
+[gameobj 300593]
+name=Wrought Iron Door
+type=5
+model=9593
+
+[gameobj 300594]
+name=Wrought Iron Door 2
+type=5
+model=9594
+
+[gameobj 888889]
+flags=040
+model=4396
+name=Portal to Naxxramass
+sound1=75
+sound2=1
+type=2
+size=1
+questscript=Naxx
+
+[gameobj 990001]
+name=Sede degli Eldawe Night
+type=0
+races=4
+flags=020
+model=413
+size=2
+sound2=196608

@@ -1,0 +1,33 @@
+[ai 111050]
+name=Healer
+// tacticX=type {actions} {parameters} {text}
+// params:  pri chrgs adist kdist dur ad tcd tframe health timeout ntac
+tactic0=0 {0} {1 0 30 25 0 0 0 0 60 0 -1} {New Tactic: healing} // healing
+tactic1=0 {0 1} {0 0 30 25 0 0 1 0 0 0 -1} {New Tactic: healing + call help}
+tactic2=0 {2} {1 0 10 0 0 0 0 -2 0 0 -1} {idle tactic activated}
+// actionX=atype {pri tsel ttype range chrgs dur cdwn tr or na} {special} {txt}
+action0=0 {0 2 2 30 0 5 3 {fs !h100}} 913 // healing wave
+action1=5 {0 0 1 0 1 2 5} {60 5} // call for help, call_range=60, friend_limit=5
+action2=0 {5 9 2 30 0 2 60 fs {i38:1e i30:1f} 3} 1245 {Alert, enemies in sight!} // Fortitude R3
+action3=6 {5 9 2 1..30 0 2 20 fs} 1  {switching friend tactic to 1}
+
+[ai 111051]
+name=Caster
+// tacticX=type {actions} {parameters} {comment}
+// params:  pri chrgs adist kdist dur ad tcd tframe health timeout ntac
+tactic0=2 {0 1} {1 0 25 20 0 5 1 0 50 0} {New Tactic: alternating casts}
+tactic1=0 {0 2} {0 0 50 30 0 5 1 0 0 0} {New Tactic: spell + text action}
+// actionX=atype {pri tsel ttype range chrgs dur cdwn tr or na} {special} {txt}
+action0=0 {0 0 1 30 0 5 6} 133 // fireball rank 1
+action1=0 {0 0 1 30 0 5 6} 116 // frostbolt rank 1
+action2=1 {1 0 0 30 0 4 20 !h50} 0 {Please heal me!} // just some text action
+
+[ai 111052]
+name=CatchMe
+// tacticX=type {actions} {parameters} {comment}
+tactic0=0 {0 1 2} {1 0 35 25 0 0 1 0 0 0} {catch-me tactic activated}
+// actionX=atype {pri tsel ttype range chrgs dur cdwn tr or na} {special} {txt}
+action0=0 {0 0 1 30 0 5 6} 133 // fireball rank 1
+action1=0 {0 0 1 30 0 5 6} 116 // frostbolt rank 1
+action2=0 {1 1 3 5 0 1 4 {} 3} {6139 ss} // *blink*
+action3=0 {0 0 1 30 0 3 1} 22355 // {next!} // next action test

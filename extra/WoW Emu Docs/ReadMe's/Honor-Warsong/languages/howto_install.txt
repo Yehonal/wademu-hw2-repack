@@ -1,0 +1,7 @@
+Language files installation:
+
+- Copy the tcl files you need (-Texts_<language_code>.tcl) to the tcl directory.
+  It is better not to delete -Texts_en.tcl even if you don't use English.
+  It will work as a fallback if your language file is missing some texts.
+
+- Open "scripts/scripts.conf" and change the "language" variable.

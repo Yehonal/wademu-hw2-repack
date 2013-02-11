@@ -1,0 +1,374 @@
+
+		::Custom namespace procedures reference:
+
+
+        This document is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+        This document is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+
+        Permission is granted to copy, distribute and/or modify this
+        document under the terms of the GNU Free Documentation License,
+        Version 1.2 or any later version published by the Free Software
+        Foundation; with no Invariant Sections, no Front-Cover Texts,
+        and no Back-Cover Texts. A copy of the license is available as
+        a companion document, as well as online at:
+
+                    <http://www.gnu.org/copyleft/fdl.html>
+
+
+::Custom::AddCommand <command> <procedure> [plevel] [<command> <procedure> [plevel] ...]
+	registers a command to call a given procedure
+
+	command		- What the player must enter on the client chat line.
+	procedure	- Full qualified name of the procedure to run. It
+			  must accept parameters "player" and "cargs", even if
+			  it doesn't use them at all.
+	plevel		- Minimum player level required to run this command.
+
+
+::Custom::AddSpellScript <procedure> <spell> [spell ...]
+	links a procedure to a given spell effect
+
+	procedure	- Full qualified name of the procedure to link. It
+			  must accept parameters "to" "from" and "spellid", even if
+			  it doesn't use them at all.
+	spell		- Spell(s) to link the procedure at.
+
+
+::Custom::BenchCmd <command> [verbose] [output]
+	benchmarks a command or procedure execution
+
+	command		- Command or procedure to benchmark.
+	verbose		- Boolean that indicates a verbose output (defaults to
+			  1).
+	output		- Channel to output to (defaults to "stdout").
+
+
+::Custom::ChainCmd <command> <body> [position]
+	executes code before or after a command or procedure, returning the
+	command or procedure value if ran after
+
+	command		- Command or procedure to hook on.
+	body		- Code to hook.
+	position	- Position to add the code at (defaults to "after").
+
+
+::Custom::CheckProc <procedure> [code]
+	returns a boolean depending if the given procedure exists and if the
+	optional code is not already defined in it
+
+	procedure	- Procedure to check for.
+	code		- Code to check for.
+
+
+::Custom::Color <string> [color]
+	returns a colored string suitable to output to the client console
+
+	string		- String to act on.
+	color		- Color to paint the string with (it can be declared as
+			  one of the 16 W3C pre-defined web colors or in the
+			  RRGGBB hex format, defaults to "white").
+
+
+::Custom::DateString
+	returns a string in the format "YYYY-MM-DD HH:MM:SS"
+
+
+::Custom::DecToHex <number>
+	converts a integer from base 10 to base 16
+
+	number		- The integer to convert.
+
+
+::Custom::DistancePos <from> <to>
+	returns the X and y distance between two positions
+
+	from		- The position to measure from.
+	to		- The position to measure to.
+
+
+::Custom::DropNoise <string> [comment tags]
+	trims comment tags and spaces from a given string
+
+	string		- String to act on.
+	comment tags	- Tags to strip (defaults to TCL comment tags).
+
+
+::Custom::DyingScream
+	returns a dying scream as a string
+
+
+::Custom::Error <message>
+	outputs to the game console and the error log the given error message
+
+	message		- Error message to output.
+
+
+::Custom::GetBenchData [sort index] [output]
+	returns the data gathered by ::Custom::BenchCmd
+
+	sort index	- Column index for sorting (defaults to column 0).
+	output		- Channel to output to (defaults to "stdout").
+
+
+::Custom::GetCivilian <npc>
+	returns a boolean value regarding the civilian status of a given NPC
+
+	npc		- ID of the NPC to check for.
+
+
+::Custom::GetCreatureScp <creature> <key> [type]
+	returns a cached value from the given creature definition
+
+	creature	- Creature ID to act on.
+	key		- Key to obtain a value from.
+	type		- Type of value to obtain.
+
+
+::Custom::GetElite <npc>
+	returns the elite status of a given NPC
+
+	npc		- ID of the NPC to check for.
+
+
+::Custom::GetFaction <npc>
+	returns the faction of a given NPC
+
+	npc		- ID of the NPC to check for.
+
+
+::Custom::GetFamily <npc>
+	returns the family of a given NPC
+
+	npc		- ID of the NPC to check for.
+
+
+::Custom::GetGuildName <player> [force]
+	returns a string with the guild name for the given player
+
+	player		- Player ID to act on.
+	force		- Boolean to force re-reading the guild.save file.
+
+
+::Custom::GetName <object>
+	returns a string with the name of the game object or target NPC
+
+	object		- ID of the game object or NPC.
+
+
+::Custom::GetNpcName <npc>
+	returns the name of the given NPC
+
+	npc		- ID of the NPC to check for.
+
+
+::Custom::GetNpcSide <npc>
+	returns the side of the given NPC (0 = Alliance, 1 = Horde)
+
+	npc		- ID of the NPC to check for.
+
+
+::Custom::GetNpcSideByFaction <faction>
+	returns the side of a given faction (0 = Alliance, 1 = Horde,
+	-1 = Other)
+
+	faction		- Faction to obtain side from
+
+
+::Custom::GetOnlineData <name>
+	gathers the information stored in stats.xml for a given player name
+	(::Custom::ReadOnline must be called before any number of calls to this
+	one)
+
+	name		- Player name to act on.
+
+
+::Custom::GetPlayerSide <player>
+	returns the side of a given player (0 = Alliance, 1 = Horde)
+
+	player		- Player ID to act on.
+
+
+::Custom::GetPlayerSideByRace <race>
+	returns the side of a given race (0 = Alliance, 1 = Horde)
+
+	race		- Race to get side from.
+
+
+::Custom::GetReputationLevel <player> <npc>
+	return a integer ranged from -3 to 4 depending on the player reputation
+	regarding a NPC faction
+
+	player		- Player ID to act on.
+	npc		- ID of the NPC to check for.
+
+
+::Custom::GetScriptVersion <namespace>
+	returns the VERSION variable from the given namespace (-1 if not found)
+
+	namespace	- Namespace to check for variable.
+
+
+::Custom::GetSide <object>
+	returns the side of a given player, NPC or game object
+
+	object		- ID of the player, NPC or game object.
+
+
+::Custom::GoHome <player>
+	send the given player to his bind position
+
+	player		- Player ID to act on.
+
+
+::Custom::HookProc <procedure> <body> [code to check] <args>
+	adds the given code to the beginning of a procedure
+
+	procedure	- Procedure to add to.
+	body		- Code to add.
+	code		- Code to check for.
+	args		- Arguments to pass to the hooked procedure.
+
+
+::Custom::HookProcAfter { proc_name body args } {
+	adds the given code to the end of a procedure
+
+	procedure	- Procedure to add to.
+	body		- Code to add.
+	args		- Arguments to pass to the hooked procedure.
+
+
+::Custom::IsAlive <object>
+	returns a boolean depending if a given player or NPC is dead or alive
+
+	object		- ID of the player or NPC.
+
+
+::Custom::IsGreyLevel <victim level> <killer level>
+	returns a boolean depending if the difference of levels results in the
+	victim being "grey leveled" to the killer
+
+	victim level	- Level of the kill victim.
+	killer level	- Level of the killer.
+
+
+::Custom::IsOnline <player> [force]
+	returns a boolean with the online status of a given player
+
+	player		- Player ID to act on.
+	force		- Boolean to force re-filling the information variable.
+
+
+::Custom::IsTrivial <victim> <killer>
+	returns a boolean depending if the victim is "grey leveled" to the
+	killer
+
+	victim		- ID of the kill victim.
+	killer		- ID of the killer.
+
+
+::Custom::LoadConf [namespace] [file] [verbose]
+	loads the uppercase version of the variables found into the namespace
+	section of the given configuration file (see also ::Custom::ReadConf)
+
+	namespace	- Namespace to load variables in.
+	file		- Configuration file to load from (defaults to
+			  "scripts/conf/scripts.conf").
+	verbose		- Boolean to output to the console the variables being
+			  loaded.
+
+::Custom::Log <message> <file> [commit]
+	add a log message into a given file
+
+	message		- Message to log (time stamping is done internally).
+	file		- File to log the message in.
+	commit		- Boolean to force the flushing of messages to files.
+
+::Custom::LogCommit [file mask]
+	commit the writing into specified log files
+
+	file mask	- Filter with the registered log files to flush
+			  (defaults to all files).
+
+
+::Custom::LogPrefix
+	returns a string suited to prefix entries in the server console
+
+
+::Custom::NpcIsAlive <npc>
+	returns a boolean depending if a given NPC is alive
+
+	npc		- ID of the NPC to check for.
+
+
+::Custom::PlayerIsAlive <player>
+	returns a boolean depending if a given player is alive
+
+	player		- Player ID to act on.
+
+
+::Custom::RandInt <low> <high>
+	return a random integer from a given interval
+
+	low		- The low bound of the interval.
+	high		- The high bound of the interval.
+
+
+::Custom::ReadConf <file>
+	return a list of lists organized by section with key/value pairs
+
+	file		- File to read.
+
+
+::Custom::ReadOnline [force]
+	fills the information variable with data about online players (use
+	before either a single or multiple calls to ::Custom::GetOnlineData)
+
+	force		- Boolean to force re-filling the information variable.
+
+
+::Custom::RoundPos <position>
+	returns a string with the rounded values of a given position
+
+	position	- Position to round in the form "MAP X Y Z".
+
+
+::Custom::SecondsToTime <seconds>
+	converts a integer to a time string in the form "HHhMMmSSs"
+
+	seconds		- The integer to convert.
+
+
+::Custom::Sound [sound]
+	returns a predefined sound suitable to play on the client
+
+	sound		- Sound to send to the client (defaults to "levelup").
+
+
+::Custom::Source <file>
+	allows loading TCL files encoded in UTF-8 with BOM
+
+	file		- File to load.
+
+
+::Custom::TeleportPos <player> <position>
+	send the player to a given position
+
+	player		- Player ID to act on.
+	position	- Position to send to.
+
+
+::Custom::TraceCmd <command> [verbose] [output]
+	traces a command or procedure execution and arguments and returns its
+	return value
+
+	command		- Command or procedure to trace.
+	verbose		- Boolean that indicates a verbose output (defaults to
+			  1).
+	output		- Channel to output to (defaults to "stdout").
+
+
+::Custom::UnColor <string>
+	returns a color striped string
+
+	string		- String to act on.
+

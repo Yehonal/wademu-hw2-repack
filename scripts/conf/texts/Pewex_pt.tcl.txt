@@ -1,0 +1,16 @@
+#Translation by @itizai - itizai@mail.pt
+namespace eval GuildBank {
+::Texts::Set pt notmember "N?o fazes parte da Guilda"
+::Texts::Set pt noperm "N?o autorizado"
+::Texts::Set pt nocash "N?o tens dinheiro!"
+::Texts::Set pt addgold "Adicionaste %s de ouro ao Banco da Guilda"
+::Texts::Set pt nogold "N?o tens %s de ouro no Banco da Guilda"
+::Texts::Set pt getgold "Tiraste %s de ouro do Banco da Guilda"
+::Texts::Set pt amount "Tens de dizer a quantia"
+::Texts::Set pt delitem "Apagaste um Item do Banco da Guilda"
+::Texts::Set pt getitem "Tiraste um Item do Banco da Guilda"
+::Texts::Set pt additem "Adicionaste um Item ao Banco da Guilda"
+::Texts::Set pt cash "Dinheiro guardado:%s"
+::Texts::Set pt noitem "N?o tens esse Item no Banco da Guilda"
+::Texts::Set pt soul_item "N?o podes adicionar isso"
+}

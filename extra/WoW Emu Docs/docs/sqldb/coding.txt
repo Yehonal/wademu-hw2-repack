@@ -1,0 +1,392 @@
+
+        This document is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+
+        Permission is granted to copy, distribute and/or modify this
+        document under the terms of the GNU Free Documentation License,
+        Version 1.2 or any later version published by the Free Software
+        Foundation; with no Invariant Sections, no Front-Cover Texts,
+        and no Back-Cover Texts. A copy of the license is available as
+        a companion document, as well as online at:
+
+                    <http://www.gnu.org/copyleft/fdl.html>
+
+
+		Using the SQLdb TCL native abstraction layer API
+		================================================
+
+
+ 0. Index
+    -----
+	 1. Introduction
+	 2. How it works
+	 3. *SQLdb procedures
+	 4. open* procedures (database engine specific)
+	 5. close* procedures (database engine specific)
+	 6. query* procedures (database engine specific)
+	 7. firstcell* procedures (database engine specific)
+	 8. boolean* procedures (database engine specific)
+	 9. exists* procedures (database engine specific)
+	10. error* procedures (database engine specific)
+	11. canonize* procedures (database engine specific)
+	12. version* procedures (database engine specific)
+	13. trace* procedures (database engine specific)
+	14. cleanup* procedures (database engine specific)
+	15. Further information and support
+
+
+ 1. Introduction
+    ------------
+
+Programming in TCL to access a database is normally very dependent of several
+choices the coder makes regarding which database engine to use. Hence we see
+several "versions" for a script, one for each database engine. Since this
+duplication of effort is a perfect waste I came up with this abstraction layer
+that allows one to code once and let the user decide which database engine to
+use.
+
+There are several alternatives to this small wrapper library, but either they
+are heavier or harder, or both, to install, hence this rather simple but
+effective library.
+
+At the current revision the supported database engines are MySQL (libmysqltcl
+3.01 / libmysql 4.1.18), PostgreSQL (1) (pgtclng 1.5.2 / blibpq 7.4.6), SQLite
+(tclsqlite 2.8.16) and SQLite 3 (tclsqlite 3.3.4).
+
+
+(1) - Theorethical implementation, since it lacks extensive testing to be done
+      at the next development cycle.
+
+
+ 2. How it works
+    ------------
+
+For each of the supported engines there is a series of functions that are
+exported in the ::SQLdb:: namespace. There is also a wrapper function for each
+of the database engine specific functions which calls the system wide default
+configured database.
+
+Normally this wrapper function should be the one to use for a portable script,
+neverless if one has the need for using a specific database engine one can call
+the corresponding specific function.
+
+Using SQLdb has possibilities like simultaneously accessing several different
+databases by initiating several database handlers and even accessing several
+different database engines by calling the underlying database engine specific
+functions.
+
+At first invocation by means of "package require SQLdb" (case dependent) the
+wrapper identifies which SQL database libraries are installed and configures
+itself, by reading an optional "scripts/conf/sqldb.conf" file (if that file is
+missing, it sets itself to use the SQLite3 database engine and connect to the
+"saves/sqldb.db3" database).
+
+From that point on it is available to be used in scripts. A database access is
+started by getting a handle from ::SQLdb::openSQLdb, like:
+
+	set handle [ ::SQLdb::openSQLdb ]
+
+From this point on all database accesses are done through that $handle (so it's
+a good practice to make it a variable if it's going to be shared amongst more
+than one procedure). The above command initializes a handle to the default
+database engine and database, or to the database engine and database defined in
+"scripts/conf/sqldb.conf". This is the prefered method of using it, but if it
+is desired to use another database (using the default database engine) the
+command invocation takes the form:
+
+	set handle [ ::SQLdb::openSQLdb host user password database ]
+
+For those database engines where a parameter makes no sense (SQLite or SQLite3)
+although it must be present, it may be anything or a empty string ( i.e. empty,
+"not used" or "") since it is ignored.
+
+To interact with the database we then send a query to it using the command
+::SQLdb::querySQLdb, in the form:
+
+	set sql "SELECT * FROM `table_name`"
+	set reply [ ::SQLdb::querySQLdb $handle $sql ]
+
+At this point $reply will contain a properly formated list of lists that can be
+further processed. An alternative is using a row-by-row processing, as in:
+
+	set sql "SELECT * FROM `table_name`"
+
+	foreach row [ ::SQLdb::querySQLdb $handle $sql ] {
+		foreach { column_one column_two column_three } $row {
+		}
+			<processing commands where the variables take
+			 the names of the indexes in second foreach>
+	}
+
+Whatever database access command used has a full return, that is, in database
+language, no pending result remains, which makes it perfectly safe to nest
+several commands without the risk of getting access denied or locked out.
+
+Either when no more need to access a database or at program finish a explicit
+database closure is required, since the SQLdb library will be running as long
+as the server is running, independently of a script doing the same or not. To
+close a database access and release the corresponding handle we use the command
+::SQLdb::closeSQLdb as:
+
+	::SQLdb::closeSQLdb $handle
+
+In a nutshell this is all that is needed to set a generic access that the user
+can then tailor to the database engine prefered on the target system.
+
+A not so obvious implication regarding the usage of this method lies down with
+variables and SQL character escaping. Since this is an indirect method of
+accessing the real database engines, automatic SQL character escaping is lost,
+so one has to explicitly do the escape for any variable where it's probable the
+appearance of characters that must be escaped (i.e. single quotes "'" or
+backslashes "\"). The command to process the escaping is ::SQLdb::canonizeSQLdb
+and is used like:
+
+	# Given the following variable:
+	set $string "Old M'am"
+
+	# This is incorrect and will render an error:
+	set sql "SELECT * FROM  `table_name` WHERE (`name` = '$string')"
+
+	# This is correct and will work OK:
+	set string [ ::SQLdb::canonizeSQLdb $string ]
+	set sql "SELECT * FROM  `table_name` WHERE (`name` = '$string')"
+
+	# This is more compact and will also work:
+	set sql "SELECT * FROM  `table_name` WHERE (`name` = '[ ::SQLdb::canonizeSQLdb $string ]')"
+
+A final word regarding SQL language itself. Since when the script is written
+there is no way to know which database engine it is going to run under, it is
+fundamental that the SQL used is as standard as possible, or all the work taken
+in using SQLdb will be lost due to incompatible SQL. For instance using any of
+the several engine specific extensions to SQL language is saing goodbye to
+portability.
+
+There are specific points of this scheme that are impossible to apply, for
+instance "IF EXISTS" and "IF NOT EXISTS" are standard SQL and SQLite doesn't
+support them or "AUTO_INCREMENT" is also standard SQL but SQLite 3 uses a
+variant "AUTOINCREMENT" and SQLite doesn't support it. These specific cases are
+dealt by SQLdb internally and transparently corrected or stripped from the SQL
+that is sent to the database engine.
+
+The only requirement (well, not actually a requirement but good practice and a
+safety net) is that every program using SQLdb register themselves on the SQLdb
+table. The SQLdb table is created by the library at first run and updated each
+time a new version is installed. To illustrate it an example procedure follows:
+
+	#	proc setSQLdb { }
+	#
+	# Example procedure to set, check and update the SQLdb database entry
+	#
+	proc setSQLdb { } {
+		variable handle
+
+		# NAME is the script name (this MUST be consistent accross
+		#      versions)
+		# VERSION is the script current version
+		if { ! [ ::SQLdb::booleanSQLdb $handle "SELECT * FROM `$::SQLdb::NAME` WHERE (`name` = '$NAME')" ] } {
+			# Whatever commands you need to get a first time run
+			# working, but it must contain:
+			::SQLdb::querySQLdb $handle "INSERT INTO `$::SQLdb::NAME` (`name`, `version`) VALUES('$NAME', '$VERSION')"
+		} else {
+			set oldver [ ::SQLdb::firstcellSQLdb $handle "SELECT `version` FROM `$SQLdb::NAME` WHERE (`name` = '$NAME')" ]
+
+			if { [ expr { $oldver > $VERSION } ] } {
+				# Whatever commands needed to downgrade, or if
+				# downgrading isn't allowed something like:
+				error "The current version of $NAME ($VERSION) is older that the previous one ($oldver), downgrade unsupported!"
+				# If downgrading is allowed it must end with:
+				#::SQLdb::querySQLdb $handle "UPDATE `$SQLdb::NAME` SET `version` = '$VERSION', `previous` = '$s_oldver', `date` = CURRENT_TIMESTAMP WHERE (`name` = '$NAME')"
+			} elseif { [ expr { $s_oldver < $VERSION } ] } {
+				# Whatever command to upgrade (for instance a
+				# switch cycle if different steps are needed to
+				# upgrade from different versions) but the
+				# batch of commands must end with:
+				::SQLdb::querySQLdb $handle "UPDATE `$SQLdb::NAME` SET `version` = '$VERSION', `previous` = '$s_oldver', `date` = CURRENT_TIMESTAMP WHERE (`name` = '$NAME')"
+			}
+		}
+	}
+
+
+ 3. *SQLdb procedures
+    -----------------
+
+	proc ::SQLdb::openSQLdb { host user pass db }
+
+Procedure to open the SQL connection, on clean completion returns a database
+handle.
+
+
+	proc ::SQLdb::closeSQLdb { handle }
+
+Procedure to close the SQL connection, on clean completion returns 0.
+
+
+	proc ::SQLdb::querySQLdb { handle sql }
+
+Procedure to send a query to the SQL database, on clean completion returns a
+list of lists with the result of the query or an empty list if command has no
+output.
+
+
+	proc ::SQLdb::firstcellSQLdb { handle sql }
+
+Procedure to get the first column of the first row of a query to the SQL
+database, on clean completion returns a string with the result.
+
+
+	proc ::SQLdb::booleanSQLdb { handle sql }
+
+Procedure to get 1 if the query to the SQL database returns any result or 0
+otherwise, on clean completion returns acordingly.
+
+
+	proc ::SQLdb::existsSQLdb { handle table }
+
+Procedure to verify if a table exists in the SQL database, on clean completion
+returns 1 if the table was found, 0 otherwise.
+
+
+	proc ::SQLdb::errorSQLdb { handle }
+
+Procedure to get a errorcode resulting of the last SQL database access.
+
+
+	proc ::SQLdb::canonizeSQLdb { string }
+
+Procedure to convert a string to use in SQL, returns the converted string.
+
+
+	proc ::SQLdb::versionSQLdb { handle }
+
+Procedure to get versioning from the underlying SQL database and TCL library,
+on clean completion returns a string with the gathered information.
+
+
+	proc ::SQLdb::traceSQLdb { handle args }
+
+Procedure to set tracing of the SQL database accesses, it can optionally
+include the name (namespace included) of a function that will deal with the
+tracing of the SQL commands. This function must accept a string parameter that
+is the SQL code. If this argument is omited a internal routine is used for
+tracing SQL code.
+
+
+	proc ::SQLdb::cleanupSQLdb { handle }
+
+Procedure to cleanup (vacuum) the SQL database, on clean completion returns 0.
+This function does nothing if the underlying database is MySQL, since it lacks
+the functionality. Use seldomly if ever, it can have a huge impact on the
+database server if it's PostgreSQL, but has some advantages if it's SQLite or
+SQLite 3. Typical use is at server startup.
+
+
+ 4. open* procedures (database engine specific)
+    ----------------
+
+	proc SQLdb::openMySQL { host user pass db }
+	proc SQLdb::openPostgreSQL { host user pass db }
+	proc SQLdb::openSQLite { db } (2)
+	proc SQLdb::openSQLite3 { db }
+
+(2) - Due to the way it is built the tclsqlite.dll will always use the latest
+      version it finds available, so in systems where you have SQLite and
+      SQLite3 a call to any *SQLite command will always revert to the
+      equivalent SQLite3 one.
+
+
+ 5. close* procedures (database engine specific)
+    -----------------
+
+	proc SQLdb::closeMySQL { handle }
+	proc SQLdb::closePostgreSQL { handle }
+	proc SQLdb::closeSQLite { handle }
+	proc SQLdb::closeSQLite3 { handle }
+
+
+ 6. query* procedures (database engine specific)
+    -----------------
+
+	proc SQLdb::queryMySQL { handle sql }
+	proc SQLdb::queryPostgreSQL { handle sql }
+	proc SQLdb::querySQLite { handle sql }
+	proc SQLdb::querySQLite3 { handle sql }
+
+
+ 7. firstcell* procedures (database engine specific)
+    ---------------------
+
+	proc SQLdb::firstcellMySQL { handle sql }
+	proc SQLdb::firstcellPostgreSQL { handle sql }
+	proc SQLdb::firstcellSQLite { handle sql }
+	proc SQLdb::firstcellSQLite3 { handle sql }
+
+
+ 8. boolean* procedures (database engine specific)
+    -------------------
+
+	proc SQLdb::booleanMySQL { handle sql }
+	proc SQLdb::booleanPostgreSQL { handle sql }
+	proc SQLdb::booleanSQLite { handle sql }
+	proc SQLdb::booleanSQLite3 { handle sql }
+
+
+ 9. exists* procedures (database engine specific)
+    ------------------
+
+	proc SQLdb::existsMySQL { handle table }
+	proc SQLdb::existsPostgreSQL { handle table }
+	proc SQLdb::existsSQLite { handle table }
+	proc SQLdb::existsSQLite3 { handle table }
+
+
+10. error* procedures (database engine specific)
+    -----------------
+
+	proc SQLdb::errorMySQL { handle }
+	proc SQLdb::errorPostgreSQL { handle }
+	proc SQLdb::errorSQLite { handle }
+	proc SQLdb::errorSQLite3 { handle }
+
+
+11. canonize* procedures (database engine specific)
+    --------------------
+
+	proc SQLdb::canonizeMySQL { string }
+	proc SQLdb::canonizePostgreSQL { string }
+	proc SQLdb::canonizeSQLite { string }
+	proc SQLdb::canonizeSQLiet3 { string }
+
+
+12. version* procedures (database engine specific)
+    -------------------
+
+	proc SQLdb::versionMySQL { handle }
+	proc SQLdb::versionPostgreSQL { handle }
+	proc SQLdb::versionSQLite { handle }
+	proc SQLdb::versionSQLite3 { handle }
+
+
+13. trace* procedures (database engine specific)
+    -----------------
+
+	proc SQLdb::traceMySQL { handle args }
+	proc SQLdb::tracePostgreSQL { handle args }
+	proc SQLdb::traceSQLite { handle args }
+	proc SQLdb::traceSQLite3 { handle args }
+
+
+14. cleanup* procedures (database engine specific)
+    -------------------
+
+	proc SQLdb::cleanupMySQL { handle } (3)
+	proc SQLdb::cleanupPostgreSQL { handle }
+	proc SQLdb::cleanupSQLite { handle }
+	proc SQLdb::cleanupSQLite3 { handle }
+
+(3) - This is a no-op procedure, always returns 0
+
+
+15. Further information and support
+    -------------------------------
+
+Support and information regarding SQLdb can be found at:
+<http://www.uw-crew.com/thread.php?threadid=3146>

@@ -1,0 +1,13 @@
+			TO ALL REPACKERS
+
+I've noticed that it's been missing in a repack or two so here goes.
+
+It's part of the terms of the LGPL that it's text be included with programs
+licensed under it. It is also my wish that this program is accompanied with it,
+so I ask all repackers to please include the "docs/ngauction/lgpl.txt" whenever
+you include this plugin in your repack.
+
+Thank you very much, for your compreension.
+
+-- 
+Lazarus

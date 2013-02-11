@@ -1,0 +1,113 @@
+			Setting up the SQLdb TCL library
+			================================
+
+ 1. Clean install
+    -------------
+
+   1. If you have a fairly decent "scripts/startup.tcl" this should have been
+      already setup for you, if not open it with a text editor and insert the
+      following at the highest point possible of it (idealy it should be the
+      very first thing in it, but some global variables before it are OK, since
+      they may be used by the loaded libraries):
+
+	foreach dir [ glob -nocomplain -type d lib/* ] {
+		source $dir/pkgIndex.tcl
+	}
+
+      This may be already there with bell and wistles (like error checking and
+      the likes) so if you find those lines or any reference to "pkgIndex.tcl"
+      being sourced, you wont be needing it.
+
+
+   2. Not all scripts will be converted to use SQLdb at once (some may end up
+      never being, that's with each author) so you'll have to judge in a case
+      by case base and remove loading code and database initializing commands
+      that no longer are used (each script that uses SQLdb should have
+      instructions on how to clean up from older versions) though note that
+      some commands are shared amongst several scripts so only remove when you
+      are sure that it's no longer needed by ANY script. Examples are:
+
+	load <some path>/tclsqlite3.dll
+	load <some path>/libmysqltcl.dll
+
+      or
+
+	sqlite3 <some handle> "<some path>/<some file>"
+
+      or
+
+	foreach link [info vars "mysql*"] {
+		catch { ::mysql::close $link }
+	}
+
+      or
+
+	if { [catch { set myqe_db [::mysql::connect -host $mysql(host) -user $mysql(user) -password $mysql(password) -db $mysql(db)] }] } {
+		puts "MyQE: MySQL connection error. Exiting..."
+		return
+	}
+	puts "MyQE: Done"
+
+      In short, any reference to a SQL database should be analysed. These can
+      be found scatered along your TCL files but the most common are the above
+      "scripts/startup.tcl" and "commands.tcl", "buybackmail.tcl", "sql.tcl",
+      and/or "mysql.tcl" (all in a subfolder of "scripts", normally "tcl", but
+      also "lx" is common). If you are running the start-tcl system forget this
+      (it already comes correctly set).
+
+
+   3. Extract the archive (I guess you already did that if you are reading this
+      file) and move the "lib" folder to the base folder of your server (at the
+      same level of "WoWemu.exe", you should see one if you see the other).
+
+
+   4. Move the "scripts/sqldb.conf" to your server's "scripts" folder, and MAKE
+      SURE to edit it to reflect your system configuration. It is very well
+      commented so, just read it.
+
+
+   5. Optionally move the "bin" folder to the base folder of your server (it
+      has some usefull utilities related to the database engines).
+
+
+   6. Optionally move the "docs" folder to the base folder of your server (it's
+      a good practice keeping documentation at hand).
+
+
+   7. If your server was running either restart it or as GM issue ".retcl" to
+      load the system.
+
+
+   8. You are done, the rest is with the scripts that will be using SQLdb.
+
+
+ 2. Upgrading
+    ---------
+
+   1. Each folder in "lib" is for a different library, so you may upgrade them
+      by the pack or one by one. All files distributed with SQLdb have version
+      information incorporated (right click, select properties and the version
+      tab to access) so you can check which version you have on your system
+      (other files may not have such information, so you must, keep track of
+      those yourself).
+
+
+   2. To upgrader a library, simply replace its folder with a new one (make
+      SURE that the new folder has an updated "pkgIndex.tcl" file, you CAN NOT
+      use the old one without editing it) and do that for all folders for which
+      you have an update library.
+
+
+   3. The libraries the come with SQLdb are (by folder name) "libmysqltcl",
+      "oratcl", "pgtclng", "sybtcl", "tclsqlite", "tclsqlite3" (MySQL, Oracle,
+      PostgreSQL, Sybase, SQLite and SQLite3), "sqldb" (SQLdb itself) and
+      "tbcload" (TBC binary loader).
+
+
+   4. If your server was running either restart it or as GM issue ".retcl" to
+      reload the system.
+
+
+Repackers support and information regarding SQLdb can be found at:
+
+	<http://catvir.wgc-eden.com/phpBB2/viewtopic.php?t=677>

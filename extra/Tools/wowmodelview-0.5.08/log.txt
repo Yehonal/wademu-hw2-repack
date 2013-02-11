@@ -1,0 +1,67 @@
+18:44:12: Starting:
+World of Warcraft® Model Viewer v0.5.08
+
+
+18:44:12: Initiating Objects...
+18:44:12: Creating Anim Control...
+18:44:12: Creating Char Control...
+18:44:12: Creating Light Control...
+18:44:12: Creating Model Control...
+18:44:12: Creating Settings Control...
+18:44:12: Creating Model Bank Control...
+18:44:12: Creating OpenGL Canvas...
+18:44:12: Initiating OpenGL...
+18:44:13: Info: GLEW successfully initiated.
+
+18:44:13: Video Renderer: Radeon X1300/X1550 Series x86/MMX/3DNow!/SSE2
+18:44:13: Video Vendor: ATI Technologies Inc.
+18:44:13: Driver Version: 2.0.6347 WinXP Release
+18:44:13: Support wglPixelFormat: true
+18:44:13: Support Texture Compression: true
+18:44:13: Support Multi-Textures: true
+18:44:13: Support Draw Range Elements: true
+18:44:13: Support Vertex Buffer Objects: true
+18:44:13: Support Point Sprites: true
+18:44:13: Support Pixel Shaders: true
+18:44:13: Support Vertex Shaders: true
+18:44:13: Support GLSL: true
+18:44:13: Support Anti-Aliasing: true
+18:44:13: Support Pixel Buffer Objects: true
+18:44:13: Support Frame Buffer Objects: true
+18:44:13: Support Non-Power-of-Two: true
+18:44:13: Support Rectangle Textures: true
+18:44:13: Support OpenGL 2.0: true
+18:44:13: Max Rectangle Texture Size Supported: 4096
+18:44:13: Max Texture Size Supported: 4096
+
+18:44:13: Creating OpenGL Canvas...
+18:44:13: Initiating OpenGL...
+18:44:13: Loading Session settings from: (null)
+
+18:44:13: Initiating File Menu..
+18:44:13: Initiating GUI Docking.
+18:44:13: Max Lights used: 4
+18:44:13: Setting OpenGL render state...
+18:44:13: Initiating Archives...
+
+18:44:13: Game Data Path: I:\Giochi\World of Warcraft offy\Data\
+18:44:13: Use Local Files: false
+
+18:44:13: Opening I:\Giochi\World of Warcraft offy\Data\Patch.MPQ
+18:44:14: Opening I:\Giochi\World of Warcraft offy\Data\Expansion.MPQ
+18:44:14: Opening I:\Giochi\World of Warcraft offy\Data\Common.MPQ
+18:44:14: Opening I:\Giochi\World of Warcraft offy\Data\enGB\Patch-enGB.MPQ
+18:44:14: Opening I:\Giochi\World of Warcraft offy\Data\enGB\Locale-enGB.MPQ
+18:44:14: Opening I:\Giochi\World of Warcraft offy\Data\enGB\Base-enGB.MPQ
+18:44:14: Loaded Content TOC: v2.01.00
+
+18:44:15: Initiating Databases...
+18:44:15: Finished initiating database files.
+
+18:44:15: Info: GUI Layout loaded from previous session.
+18:44:15: WoW Model Viewer successfully loaded!
+----
+
+18:44:17: Shuting down the program...
+
+18:44:17: Info: GUI Layout was saved.

@@ -1,0 +1,6 @@
+This script will change the item drop rate..
+
+Click on go.bat
+then type the drop rate percentage..
+like if you want each items to be drop 100% , then type 100,
+if you want 25% , then type 25...

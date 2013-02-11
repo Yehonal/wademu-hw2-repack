@@ -1,0 +1,2 @@
+Drag over the dbc file on DBCUTIL.EXE to convert it to csv 
+to convert back drag over csv file back on dbcutil.exe

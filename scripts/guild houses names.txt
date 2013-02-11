@@ -1,0 +1,26 @@
+Aliance:
+
+10.Guildhouse of Holy Light
+11.Guildhouse of Ancient Gods
+12.Guildhouse of Legendary Heroes
+
+13.Guildhouse of Iron Will
+14.Guildhouse of Earth Thunder
+15.Guildhouse of Past Storms
+
+16.Guildhouse of Moon Glow
+17.Guildhouse of Ancestor Breathe
+18.Guildhouse of Burning Heart
+Horde:
+
+1.Guildhouse of Primal Fear
+2.Guildhouse of Doom Lords
+3.Guildhouse of Shadow Side
+
+4.Guildhouse of Evil Forces
+5.Guildhouse of Bestial Rage
+6.Guildhouse of Ghost Power
+
+7.Guildhouse of Black Dawn
+8.Guildhouse of Fiery Gods
+9.Guildhouse of Pagan Flame

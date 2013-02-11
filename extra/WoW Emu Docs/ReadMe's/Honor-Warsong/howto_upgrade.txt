@@ -1,0 +1,64 @@
+First, you should follow the installation instructions in the readme files.
+Use the upgrade instructions below if you want to check your installation or if you have problems.
+
+
+####################################################################################################################################
+ Upgrade from versions before v3.98
+####################################################################################################################################
+
+You need to copy the new files as usual, but be careful not to have duplicates.
+Some files have been renamed in order to enforce load order, especially "-Custom.tcl" wich replaces "Custom.tcl".
+If you see in the console "Warsong.conf not found" and "Speed.conf not found", that means you didn't delete the old "Custom.tcl",
+which is looking for multiple .conf file, whereas the newer "-Custom.tcl" looks for "scripts.conf" only.
+"honor.conf" has been replaced by "scripts.conf", which is intended to be a unified configuration file for many tcl scripts.
+If you are using an incorrect v3.9x installation from some early repacks, follow the upgrade instructions for older versions bellow.
+
+
+####################################################################################################################################
+ Upgrade from versions before v3.90
+####################################################################################################################################
+
+Search your tcl files for lines containing "Honor::" or "Warsong::" and remove them all.
+
+In startup.tcl, remove:
+
+(In proc WoWEmu::CalcXP)
+	if { [Honor::IsRacialLeader $victim] } { Honor::RacialLeaderKilled $killer $victim
+	} elseif { [Honor::IsCivilian $killer $victim] } { Honor::DishonorableKill $killer }
+
+(In proc WoWEmu::DamageReduction)
+	Honor::HitCount $player $mob
+
+(In proc WoWEmu::OnPlayerDeath)
+	Warsong::OnPlayerDeath $player $killer
+	Honor::CalcRatings $player $killer
+
+(In proc WoWEmu::OnPlayerResurrect)
+	Warsong::OnPlayerResurrect $player
+
+(In proc SpellEffects::SPELL_EFFECT_TELEPORT_UNITS)
+	Warsong::OnPlayerTP $to $from $spellid
+
+In startup.tcl or AI.tcl, remove:
+
+(In proc AI::CanUnAgro)
+	if { [Honor::IsRacialLeader $npc] } { Honor::RacialLeaderDetect $npc $victim }
+
+If you have a really messed up installation, you may rather start from the original WoWEmu scripts.
+
+
+####################################################################################################################################
+ Upgrade from other Honor Systems
+####################################################################################################################################
+
+Remove any code/file from other honor systems/warsong battleground scripts in startup.tcl, AI.tcl and Commands.tcl.
+
+Files you should delete, as they can conflict (this list may be not exhaustive):
+HonorHall.tcl
+HonorNPC.tcl
+E2BF.tcl
+E2BM1.tcl
+E2BM2.tcl
+E2RF.tcl
+Event2.tcl
+

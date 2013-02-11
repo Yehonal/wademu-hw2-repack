@@ -1,0 +1,156 @@
+#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+#
+# Name:		startup.tcl / $SCRIPTS_DIR/api/*.tcl
+#
+# Version:	0.9.1
+#
+# Date:		2006-03-29
+#
+# Description:  StartTCL Startup System
+#
+# Authors:	Lazarus Long <lazarus.long@bigfoot.com>
+#		Spirit <thehiddenspirit@hotmail.com>
+#
+# Changelog:
+#
+# v0.9.1 (2006-03-29) -	The "cut the head off" version.
+#			Updates to WorldLock and AI. Added "-exact" option to
+#			::StartTCL::Require. Added configuration controlled
+#			logging of GM commands affecting players.
+#
+# v0.9.0 (2006-03-27) -	The "let's bump the version some more" version.
+#			It's way too different to keep at 0.8.x. The AI is now
+#			managing cooldowns individually to each NPC and spell.
+#			This is hopefully a releasable version since the
+#			rewrite started with v0.8.3. Hard to state all the
+#			differences, since it practically a rewrite, so treat
+#			this as a new version, updates from previous versions
+#			should be dealt as new installs.
+#
+# v0.8.4 (2006-03-26) -	The "let's increment the version" version.
+#			Quite some changes have happened. Incrementing the
+#			version is the least we could do. Many fixes and
+#			improvements, package like facility has been
+#			implemented.
+#
+# v0.8.3 (2006-03-21) -	The "have a look, completely untested, tell me what you
+#			think" version.
+#			Major rewrite of "startup.tcl", addition of up-to-date
+#			TCL API procedures, creation of a configuration file
+#			(no more need to edit the startup.tcl ever).
+#
+# v0.8.2 (2006-03-20) -	The "sort it out" version.
+#			Reverted back to "dictionary" sorting since "integer"
+#			chokes on levels that start by 0 and are followed by 8
+#			or 9 'cause the option assumes they are octal numbers.
+#			Included a graphical level editor to the archive to
+#			ease level setting. Included WorldLock.tcl back to the
+#			pack, READ the instructions or it WILL crash your
+#			system,
+#
+# v0.8.1 (2006-03-15) -	The "space in space" version.
+#			Found out a problem with "concat" when the path
+#			contains spaces, converted to "lappend".
+#
+# v0.8.0 (2006-03-15) -	The "ready for prime time" version.
+#			Done the documentation explaining how to set
+#			it up.
+#
+# v0.7.2 (2006-03-11) -	The "faster than a speeding bullet" version.
+#			Final changes. One important for performance is that
+#			the StartTCL information regarding the level to run at
+#			must be in the first block of comments at the top of
+#			the script, before any non-comment data (excluding
+#			empty lines) or else it will be ignored.
+#
+# v0.7.1 (2006-03-10) -	The "there can be only one" version.
+#			If there are two files with identical names only
+#			differing in the extension issue a warning.
+#
+# v0.7.0 (2006-03-10) -	The "one size fits all" version.
+#			All scripts are now loaded from the same folder,
+#			regardless of being TCL or TBC.
+#
+# v0.6.6 (2006-03-08) -	The "lets go global" version.
+#			Spirit's onboard. It's more than deserved since half
+#			the changes are either his suggestions or his code so
+#			it's co-authored from now on. Going global for the sort
+#			system both TCL and TBC based.
+#
+# v0.6.5 (2006-03-02) -	The "no dash to separate us" version.
+#			Removed the dash "-" from the namespace and script name
+#			since it was giving too many trouble.
+#
+# v0.6.4 (2006-02-28) -	The "less is best" version.
+#			Reduced the number of levels by one, since there was no
+#			need for 4 start levels.
+#
+# v0.6.3 (2006-02-26) -	The "new approach" version.
+#			OK, I found a weakness by relying only on the filename,
+#			so I looked for another approach and BSD systems have
+#			it. The file itself contains the information of when it
+#			should be loaded, so this is a much more robust method.
+#
+# v0.6.2 (2006-02-22) -	The "preload bye bye" version.
+#			I finaly decided to give up the preloader idea, it was
+#			prone to misinterpretations and errors, it's time to go
+#			System V all the way, which means that filenames alone
+#			decide the order of loading, the rest is decided by
+#			convention.
+#
+# v0.6.1 (2006-02-20) -	The "sort me out" version.
+#			Redid the whole idea by case insensitive sorting the
+#			filenames, which gives a consistent order across OS
+#			versions.
+#
+# v0.6.0 (2006-02-01) -	The "inform me of errors" version.
+#			Included the $errorInfo variable in error messages.
+#
+# v0.5.0 (2006-01-26) -	The "incremental" version.
+#			Changed the way the counters are incremented.
+#
+# v0.4.0 (2006-01-26) -	The "with license" version.
+#			Put it under LGPL, instead of GPL.
+#
+# v0.3.0 (2006-01-14) -	The "best of both" version.
+#			I'm puting back the former behaviour of loading files
+#			from the "scripts\pls" into the WoWEmu namespace. To
+#			add global directives and/or defines edit/create
+#			"scripts/local/preload.tcl".
+#
+# v0.2.0 (2006-01-14) -	The "better make up your mind" version.
+#			I'm still trying to figure out the best way to preload
+#			scripts.
+#
+# v0.1.0 (2006-01-13) -	The "I sure hope I'm doing it right" version.
+#			First attempt. This is going to be very generic. I
+#			didn't base it in nothing particular, but took ideas
+#			from here and there from almost every "startup.tcl" I
+#			got my hands on so WDDG, Ecko007, Ramanubis, Spirit,
+#			GriffonHeart and Golgorth are just the ones that I
+#			remember, most surelly there are others.
+#
+#

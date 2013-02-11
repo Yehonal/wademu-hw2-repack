@@ -1,0 +1,27 @@
+Create test way..
+
+- call command  .wp newway 100000 Test_Admin 
+- move little foward and call command  .wp addsay HelloWorld 
+- move little foward and call command  .wp addcast 6668 
+- move little foward and call command  .wp addemote 94 
+- move little foward and call command  .wp addloop 
+- call command  .wp saveway 
+- call command  .wp load 100000 
+- call command  .rescp 
+- select Npc ( must have Spawn ) and call command  .wp set 100000 
+
+Way files to Export to another server is Saved in scriptPewexWaySystemWay and scriptPewexWaySystemActs...
+
+In this folders script save way files.. Files name 100000.db in Act and 100000.db in Ways.. If you will give your way then you must give to another server this files.. and this man must copy to this folders.. this files biggrin.gif .... in to game and call command  .wp load Way_ID  this way have 100000..
+
+Simple biggrin.gif...
+
+Now Npc must Move to first point, move little foward and Say HelloWorld, move little foward and Cast Red Fireworks, move little foward and Dance one or two seconds and Repeat this Way nonstop..
+
+If not work.. then wait to supported version...
+
+If you will delete way
+
+- enter to server
+- call command  .wp unload 100000 
+- call command  .rescp 

@@ -1,0 +1,659 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<style type="text/css">
+		a {
+			color: #e1b940;
+			text-decoration : none;
+		}
+		a:hover {
+			color: #9acd32;
+			text-decoration : inherit;
+		}
+		blockquote {
+			font-family: "Courier New", Courier, monospace;
+		}
+		body {
+			background-color: #faf0e6;
+			color: #7865ed;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: smaller;
+			padding: 10px 10px 10px 10px;
+		}
+		h1 {
+			text-align: center;
+		}
+		h2 {
+			text-align: left;
+		}
+		h2.index {
+			text-align: center;
+		}
+		p {
+			text-align: justify;
+		}
+		p.fdl {
+			text-align: center;
+		}
+		table {
+			font-size: inherit;
+			padding-bottom: 20px;
+			white-space: nowrap;
+			width: 95%;
+		}
+		th {
+			padding-right: 20px;
+			text-align: right;
+			width: 15%;
+		}
+		.index {
+			color: inherit;
+		}
+		.proc {
+			color: #9acd32;
+		}
+		.top {
+			font-size: smaller;
+			text-align: right;
+		}
+	</style>
+	<title>::Custom namespace procedures reference</title>
+</head>
+
+<body>
+	<h1><a class="proc" name="_top">::Custom</a> namespace procedures reference:</h1>
+	<hr>
+	<blockquote>
+		<p>This document is (c) 2006 by Lazarus Long &lt;lazarus.long@bigfoot.com&gt;<br>
+    This document is (c) 2006 by Spirit &lt;thehiddenspirit@hotmail.com&gt;</p>
+    <p>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is available as a companion document, as well as online at:</p>
+    <p class="fdl"><a href="http://www.gnu.org/copyleft/fdl.html">http://www.gnu.org/copyleft/fdl.html</a></p>
+  </blockquote>
+	<hr>
+	<h2 class="index">|&nbsp;<a href="#A">A</a>&nbsp;|&nbsp;<a href="#B">B</a>&nbsp;|&nbsp;<a href="#C">C</a>&nbsp;|&nbsp;<a href="#D">D</a>&nbsp;|&nbsp;<a href="#E">E</a>&nbsp;|&nbsp;F&nbsp;|&nbsp;<a href="#G">G</a>&nbsp;|&nbsp;<a href="#H">H</a>&nbsp;|&nbsp;<a href="#I">I</a>&nbsp;|&nbsp;J&nbsp;|&nbsp;K&nbsp;|&nbsp;<a href="#L">L</a>&nbsp;|&nbsp;M&nbsp;|&nbsp;<a href="#N">N</a>&nbsp;|&nbsp;O&nbsp;|&nbsp;<a href="#P">P</a>&nbsp;|&nbsp;Q&nbsp;|&nbsp;<a href="#R">R</a>&nbsp;|&nbsp;<a href="#S">S</a>&nbsp;|&nbsp;<a href="#T">T</a>&nbsp;|&nbsp;<a href="#U">U</a>&nbsp;|&nbsp;V&nbsp;|&nbsp;W&nbsp;|&nbsp;X&nbsp;|&nbsp;Y&nbsp;|&nbsp;Z&nbsp;|</h2>
+	<hr>
+	<h2><a class="index" name="A">A</a></h2>
+	<h3><a class="proc" name="AddCommand">::Custom::AddCommand</a> &lt;command&gt; &lt;procedure&gt; [plevel] [&lt;command&gt; &lt;procedure&gt; [plevel] ...]</h3>
+	<h4>registers a command to call a given procedure</h4>
+	<table>
+		<tr>
+			<th>command</th>
+			<td>What the player must enter on the client chat line.</td>
+		</tr>
+		<tr>
+			<th>procedure</th>
+			<td>Full qualified name of the procedure to run. It must accept parameters "player" and "cargs", even if it doesn't use them at all.</td>
+		</tr>
+		<tr>
+			<th>plevel</th>
+			<td>Minimum player level required to run this command.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="AddSpellScript">::Custom::AddSpellScript</a> &lt;procedure&gt; &lt;spell&gt; [spell ...]</h3>
+	<h4>links a procedure to a given spell effect</h4>
+	<table>
+		<tr>
+			<th>procedure</th>
+			<td>Full qualified name of the procedure to link. It must accept parameters "to" "from" and "spellid", even if it doesn't use them at all.</td>
+		</tr>
+		<tr>
+			<th>spell</th>
+			<td>Spell(s) to link the procedure at.</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="B">B</a></h2>
+	<h3><a class="proc" name="BenchCmd">::Custom::BenchCmd</a> &lt;command&gt; [verbose] [output]</h3>
+	<h4>benchmarks a command or procedure execution</h4>
+	<table>
+		<tr>
+			<th>command</th>
+			<td>Command or procedure to benchmark.</td>
+		</tr>
+		<tr>
+			<th>verbose</th>
+			<td>Boolean that indicates a verbose output (defaults to <em>1</em>).</td>
+		</tr>
+		<tr>
+			<th>output</th>
+			<td>Channel to output to (defaults to <em>stdout</em>).</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="C">C</a></h2>
+	<h3><a class="proc" name="ChainCmd">::Custom::ChainCmd</a> &lt;command&gt; &lt;body&gt; [position]</h3>
+	<h4>executes code before or after a command or procedure, returning the command or procedure value if ran after</h4>
+	<table>
+		<tr>
+			<th>command</th>
+			<td>Command or procedure to hook on.</td>
+		</tr>
+		<tr>
+			<th>body</th>
+			<td>Code to hook.</td>
+		</tr>
+		<tr>
+			<th>position</th>
+			<td>Position to add the code at (defaults to <em>after</em>).</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="CheckProc">::Custom::CheckProc</a> &lt;procedure&gt; [code]</h3>
+	<h4>returns a boolean depending if the given procedure exists and if the optional code is not already defined in it</h4>
+	<table>
+		<tr>
+			<th>procedure</th>
+			<td>Procedure to check for.</td>
+		</tr>
+		<tr>
+			<th>code</th>
+			<td>Code to check for.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="Color">::Custom::Color</a> &lt;string&gt; [color]</h3>
+	<h4>returns a colored string suitable to output to the client console</h4>
+	<table>
+		<tr>
+			<th>string</th>
+			<td>String to act on.</td>
+		</tr>
+		<tr>
+			<th>color</th>
+			<td>Color to paint the string with (it can be declared as one of the 16 W3C pre-defined web colors or in the RRGGBB hex format, defaults to <em>white</em>).</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="D">D</a></h2>
+	<h3><a class="proc" name="DateString">::Custom::DateString</a></h3>
+		<tr>
+			<th><h4>returns a string in the format "YYYY</th>
+			<td>MM</td>
+		</tr>
+	<h3><a class="proc" name="DecToHex">::Custom::DecToHex</a> &lt;number&gt;</h3>
+	<h4>converts a integer from base 10 to base 16</h4>
+	<table>
+		<tr>
+			<th>number</th>
+			<td>The integer to convert.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="DistancePos">::Custom::DistancePos</a> &lt;from&gt; &lt;to&gt;</h3>
+	<h4>returns the X and y distance between two positions</h4>
+	<table>
+		<tr>
+			<th>from</th>
+			<td>The position to measure from.</td>
+		</tr>
+		<tr>
+			<th>to</th>
+			<td>The position to measure to.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="DropNoise">::Custom::DropNoise</a> &lt;string&gt; [comment tags]</h3>
+	<h4>trims comment tags and spaces from a given string</h4>
+	<table>
+		<tr>
+			<th>string</th>
+			<td>String to act on.</td>
+		</tr>
+		<tr>
+			<th>comment tags</th>
+			<td>Tags to strip (defaults to the <em>standard TCL comment tags</em>).</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="DyingScream">::Custom::DyingScream</a></h3>
+	<h4>returns a dying scream as a string</h4>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="E">E</a></h2>
+	<h3><a class="proc" name="Error">::Custom::Error</a> &lt;message&gt;</h3>
+	<h4>outputs to the game console and the error log the given error message</h4>
+	<table>
+		<tr>
+			<th>message</th>
+			<td>Error message to output.</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="G">G</a></h2>
+	<h3><a class="proc" name="GetBenchData">::Custom::GetBenchData</a> [sort index] [output]</h3>
+	<h4>returns the data gathered by <a href="#BenchCmd">::Custom::BenchCmd</a></h4>
+	<table>
+		<tr>
+			<th>sort index</th>
+			<td>Column index for sorting (defaults to <em>column 0</em>).</td>
+		</tr>
+		<tr>
+			<th>output</th>
+			<td>Channel to output to (defaults to <em>stdout</em>).</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetCivilian">::Custom::GetCivilian</a> &lt;npc&gt;</h3>
+	<h4>returns a boolean value regarding the civilian status of a given NPC</h4>
+	<table>
+		<tr>
+			<th>npc</th>
+			<td>ID of the NPC to check for.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetCreatureScp">::Custom::GetCreatureScp</a> &lt;creature&gt; &lt;key&gt; [type]</h3>
+	<h4>returns a cached value from the given creature definition</h4>
+	<table>
+		<tr>
+			<th>creature</th>
+			<td>Creature ID to act on.</td>
+		</tr>
+		<tr>
+			<th>key</th>
+			<td>Key to obtain a value from.</td>
+		</tr>
+		<tr>
+			<th>type</th>
+			<td>Type of value to obtain.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetElite">::Custom::GetElite</a> &lt;npc&gt;</h3>
+	<h4>returns the elite status of a given NPC</h4>
+	<table>
+		<tr>
+			<th>npc</th>
+			<td>ID of the NPC to check for.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetFaction">::Custom::GetFaction</a> &lt;npc&gt;</h3>
+	<h4>returns the faction of a given NPC</h4>
+	<table>
+		<tr>
+			<th>npc</th>
+			<td>ID of the NPC to check for.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetFamily">::Custom::GetFamily</a> &lt;npc&gt;</h3>
+	<h4>returns the family of a given NPC</h4>
+	<table>
+		<tr>
+			<th>npc</th>
+			<td>ID of the NPC to check for.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetGuildName">::Custom::GetGuildName</a> &lt;player&gt; [force]</h3>
+	<h4>returns a string with the guild name for the given player</h4>
+	<table>
+		<tr>
+			<th>player</th>
+			<td>Player ID to act on.</td>
+		</tr>
+		<tr>
+			<th>force</th>
+			<td>Boolean to force re-reading the guild.save file.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetName">::Custom::GetName</a> &lt;object&gt;</h3>
+	<h4>returns a string with the name of the game object or target NPC</h4>
+	<table>
+		<tr>
+			<th>object</th>
+			<td>ID of the game object or NPC.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetNpcName">::Custom::GetNpcName</a> &lt;npc&gt;</h3>
+	<h4>returns the name of the given NPC</h4>
+	<table>
+		<tr>
+			<th>npc</th>
+			<td>ID of the NPC to check for.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetNpcSide">::Custom::GetNpcSide</a> &lt;npc&gt;</h3>
+	<h4>returns the side of the given NPC (0 = Alliance, 1 = Horde)</h4>
+	<table>
+		<tr>
+			<th>npc</th>
+			<td>ID of the NPC to check for.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetNpcSideByFaction">::Custom::GetNpcSideByFaction</a> &lt;faction&gt;</h3>
+		<tr>
+			<th><h4>returns the side of a given faction (0 = Alliance, 1 = Horde,</th>
+			<td>1 = Other)</h4></td>
+		</tr>
+	<table>
+		<tr>
+			<th>faction</th>
+			<td>Faction to obtain side from</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetOnlineData">::Custom::GetOnlineData</a> &lt;name&gt;</h3>
+	<h4>gathers the information stored in stats.xml for a given player name (<a href="#ReadOnline">::Custom::ReadOnline</a> must be called before any number of calls to this one)</h4>
+	<table>
+		<tr>
+			<th>name</th>
+			<td>Player name to act on.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetPlayerSide">::Custom::GetPlayerSide</a> &lt;player&gt;</h3>
+	<h4>returns the side of a given player (0 = Alliance, 1 = Horde)</h4>
+	<table>
+		<tr>
+			<th>player</th>
+			<td>Player ID to act on.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetPlayerSideByRace">::Custom::GetPlayerSideByRace</a> &lt;race&gt;</h3>
+	<h4>returns the side of a given race (0 = Alliance, 1 = Horde)</h4>
+	<table>
+		<tr>
+			<th>race</th>
+			<td>Race to get side from.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetReputationLevel">::Custom::GetReputationLevel</a> &lt;player&gt; &lt;npc&gt;</h3>
+	<h4>return a integer ranged from -3 to 4 depending on the player reputation regarding a NPC faction</h4>
+	<table>
+		<tr>
+			<th>player</th>
+			<td>Player ID to act on.</td>
+		</tr>
+		<tr>
+			<th>npc</th>
+			<td>ID of the NPC to check for.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetScriptVersion">::Custom::GetScriptVersion</a> &lt;namespace&gt;</h3>
+		<tr>
+			<th><h4>returns the VERSION variable from the given namespace (</th>
+			<td>1 if not found)</h4></td>
+		</tr>
+	<table>
+		<tr>
+			<th>namespace</th>
+			<td>Namespace to check for variable.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GetSide">::Custom::GetSide</a> &lt;object&gt;</h3>
+	<h4>returns the side of a given player, NPC or game object</h4>
+	<table>
+		<tr>
+			<th>object</th>
+			<td>ID of the player, NPC or game object.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="GoHome">::Custom::GoHome</a> &lt;player&gt;</h3>
+	<h4>send the given player to his bind position</h4>
+	<table>
+		<tr>
+			<th>player</th>
+			<td>Player ID to act on.</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="H">H</a></h2>
+	<h3><a class="proc" name="HookProc">::Custom::HookProc</a> &lt;procedure&gt; &lt;body&gt; [code to check] &lt;args&gt;</h3>
+	<h4>adds the given code to the beginning of a procedure</h4>
+	<table>
+		<tr>
+			<th>procedure</th>
+			<td>Procedure to add to.</td>
+		</tr>
+		<tr>
+			<th>body</th>
+			<td>Code to add.</td>
+		</tr>
+		<tr>
+			<th>code</th>
+			<td>Code to check for.</td>
+		</tr>
+		<tr>
+			<th>args</th>
+			<td>Arguments to pass to the hooked procedure.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="HookProcAfter">::Custom::HookProcAfter</a> { proc_name body args } {</h3>
+	<h4>adds the given code to the end of a procedure</h4>
+	<table>
+		<tr>
+			<th>procedure</th>
+			<td>Procedure to add to.</td>
+		</tr>
+		<tr>
+			<th>body</th>
+			<td>Code to add.</td>
+		</tr>
+		<tr>
+			<th>args</th>
+			<td>Arguments to pass to the hooked procedure.</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="I">I</a></h2>
+	<h3><a class="proc" name="IsAlive">::Custom::IsAlive</a> &lt;object&gt;</h3>
+	<h4>returns a boolean depending if a given player or NPC is dead or alive</h4>
+	<table>
+		<tr>
+			<th>object</th>
+			<td>ID of the player or NPC.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="IsGreyLevel">::Custom::IsGreyLevel</a> &lt;victim level&gt; &lt;killer level&gt;</h3>
+	<h4>returns a boolean depending if the difference of levels results in the victim being "grey leveled" to the killer</h4>
+	<table>
+		<tr>
+			<th>victim level</th>
+			<td>Level of the kill victim.</td>
+		</tr>
+		<tr>
+			<th>killer level</th>
+			<td>Level of the killer.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="IsOnline">::Custom::IsOnline</a> &lt;player&gt; [force]</h3>
+	<h4>returns a boolean with the online status of a given player</h4>
+	<table>
+		<tr>
+			<th>player</th>
+			<td>Player ID to act on.</td>
+		</tr>
+		<tr>
+			<th>force</th>
+			<td>Boolean to force re-filling the information variable.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="IsTrivial">::Custom::IsTrivial</a> &lt;victim&gt; &lt;killer&gt;</h3>
+	<h4>returns a boolean depending if the victim is "grey leveled" to the killer</h4>
+	<table>
+		<tr>
+			<th>victim</th>
+			<td>ID of the kill victim.</td>
+		</tr>
+		<tr>
+			<th>killer</th>
+			<td>ID of the killer.</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="L">L</a></h2>
+	<h3><a class="proc" name="LoadConf">::Custom::LoadConf</a> [namespace] [file] [verbose]</h3>
+	<h4>loads the uppercase version of the variables found into the namespace section of the given configuration file (see also <a href="#ReadConf">::Custom::ReadConf</a>)</h4>
+	<table>
+		<tr>
+			<th>namespace</th>
+			<td>Namespace to load variables in.</td>
+		</tr>
+		<tr>
+			<th>file</th>
+			<td>Configuration file to load from (defaults to <em>scripts/conf/scripts.conf</em>).</td>
+		</tr>
+		<tr>
+			<th>verbose</th>
+			<td>Boolean to output to the console the variables being loaded.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="Log">::Custom::Log</a> &lt;message&gt; &lt;file&gt; [commit]</h3>
+	<h4>add a log message into a given file</h4>
+	<table>
+		<tr>
+			<th>message</th>
+			<td>Message to log (time stamping is done internally).</td>
+		</tr>
+		<tr>
+			<th>file</th>
+			<td>File to log the message in.</td>
+		</tr>
+		<tr>
+			<th>commit</th>
+			<td>Boolean to force the flushing of messages to files.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="LogCommit">::Custom::LogCommit</a> [file mask]</h3>
+	<h4>add a log message into a given file</h4>
+	<table>
+		<tr>
+			<th>file mask</th>
+			<td>Filter with the registered log files to flush (defaults to <em>all files</em>).</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="LogPrefix">::Custom::LogPrefix</a></h3>
+	<h4>returns a string suited to prefix entries in the server console</h4>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="N">N</a></h2>
+	<h3><a class="proc" name="NpcIsAlive">::Custom::NpcIsAlive</a> &lt;npc&gt;</h3>
+	<h4>returns a boolean depending if a given NPC is alive</h4>
+	<table>
+		<tr>
+			<th>npc</th>
+			<td>ID of the NPC to check for.</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="P">P</a></h2>
+	<h3><a class="proc" name="PlayerIsAlive">::Custom::PlayerIsAlive</a> &lt;player&gt;</h3>
+	<h4>returns a boolean depending if a given player is alive</h4>
+	<table>
+		<tr>
+			<th>player</th>
+			<td>Player ID to act on.</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="R">R</a></h2>
+	<h3><a class="proc" name="RandInt">::Custom::RandInt</a> &lt;low&gt; &lt;high&gt;</h3>
+	<h4>return a random integer from a given interval</h4>
+	<table>
+		<tr>
+			<th>low</th>
+			<td>The low bound of the interval.</td>
+		</tr>
+		<tr>
+			<th>high</th>
+			<td>The high bound of the interval.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="ReadConf">::Custom::ReadConf</a> &lt;file&gt;</h3>
+	<h4>return a list of lists organized by section with key/value pairs</h4>
+	<table>
+		<tr>
+			<th>file</th>
+			<td>File to read.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="ReadOnline">::Custom::ReadOnline</a> [force]</h3>
+	<h4>fills the information variable with data about online players (use before either a single or multiple calls to <a href="#GetOnlineData">::Custom::GetOnlineData</a>)</h4>
+	<table>
+		<tr>
+			<th>force</th>
+			<td>Boolean to force re-filling the information variable.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="RoundPos">::Custom::RoundPos</a> &lt;position&gt;</h3>
+	<h4>returns a string with the rounded values of a given position</h4>
+	<table>
+		<tr>
+			<th>position</th>
+			<td>Position to round in the form "MAP X Y Z".</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="S">S</a></h2>
+	<h3><a class="proc" name="SecondsToTime">::Custom::SecondsToTime</a> &lt;seconds&gt;</h3>
+	<h4>converts a integer to a time string in the form "HHhMMmSSs"</h4>
+	<table>
+		<tr>
+			<th>seconds</th>
+			<td>The integer to convert.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="Sound">::Custom::Sound</a> [sound]</h3>
+	<h4>returns a predefined sound suitable to play on the client</h4>
+	<table>
+		<tr>
+			<th>sound</th>
+			<td>Sound to send to the client (defaults to <em>levelup</em>).</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="Source">::Custom::Source</a> &lt;file&gt;</h3>
+	<h4>allows loading TCL files encoded in UTF-8 with BOM</h4>
+	<table>
+		<tr>
+			<th>file</th>
+			<td>File to load.</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="T">T</a></h2>
+	<h3><a class="proc" name="TeleportPos">::Custom::TeleportPos</a> &lt;player&gt; &lt;position&gt;</h3>
+	<h4>send the player to a given position</h4>
+	<table>
+		<tr>
+			<th>player</th>
+			<td>Player ID to act on.</td>
+		</tr>
+		<tr>
+			<th>position</th>
+			<td>Position to send to.</td>
+		</tr>
+	</table>
+	<h3><a class="proc" name="TraceCmd">::Custom::TraceCmd</a> &lt;command&gt; [verbose] [output]</h3>
+	<h4>traces a command or procedure execution and arguments and returns its return value</h4>
+	<table>
+		<tr>
+			<th>command</th>
+			<td>Command or procedure to trace.</td>
+		</tr>
+		<tr>
+			<th>verbose</th>
+			<td>Boolean that indicates a verbose output (defaults to <em>1</em>).</td>
+		</tr>
+		<tr>
+			<th>output</th>
+			<td>Channel to output to (defaults to <em>stdout</em>).</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+	<h2><a class="index" name="U">U</a></h2>
+	<h3><a class="proc" name="UnColor">::Custom::UnColor</a> &lt;string&gt;</h3>
+	<h4>returns a color striped string</h4>
+	<table>
+		<tr>
+			<th>string</th>
+			<td>String to act on.</td>
+		</tr>
+	</table>
+	<p  class="top"><a href="#_top">back to top</a></p>
+	<hr>
+</body>
+</html>
+

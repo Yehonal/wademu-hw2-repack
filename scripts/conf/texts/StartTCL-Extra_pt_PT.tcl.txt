@@ -1,0 +1,132 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+# Those additions come from UWC, adapted to StartTCL by Hochelf
+#
+
+
+namespace eval ::WoWEmu::Commands {
+	Texts::Set pt_PT select_npc                "Por favor seleccione um personagem."
+	Texts::Set pt_PT item_not_found            "Ítem não encontrado."
+	Texts::Set pt_PT copper                    "Cobre"
+	Texts::Set pt_PT silver                    "Prata"
+	Texts::Set pt_PT gold                      "Ouro"
+	Texts::Set pt_PT invalid_money             "Quantia inválida"
+	Texts::Set pt_PT bad_cmd_args              "argumentos do comando incorrectos"
+	Texts::Set pt_PT amount                    "quantia"
+	Texts::Set pt_PT added_to                  "adicionada a"
+	Texts::Set pt_PT location_added            "Localização adicionada."
+	Texts::Set pt_PT no_location_name          "Nenhum nome indicado para a localização (ou nome demasiado curto)."
+	Texts::Set pt_PT target                    "Alvo"
+	Texts::Set pt_PT no_locations              "Nenhuma localização."
+	Texts::Set pt_PT bad_command               "Comando incorrecto."
+	Texts::Set pt_PT created_for_route_and     "criado para precurso e ligado ao destino"
+	Texts::Set pt_PT created                   "criado"
+	Texts::Set pt_PT banip_usage               "Modo de usar: ban <IP> / <lista> / <undo>. Com <IP> substitua o último dígito por 0, Exemplo: 192.168.1.0. Não deixe um espaço no final do endereço IP. <Undo> remove a última entrada."
+	Texts::Set pt_PT no_ips_lines_to_remove    "Nenhum IP ou linha para remover"
+	Texts::Set pt_PT undo_done_last_line       "Removido, última linha removida"
+	Texts::Set pt_PT ip_already_banned         "Erro, o IP já se encontra na lista"
+	Texts::Set pt_PT ip_list_updated_noerror   "Lista de IP banidos actualizada. Sem erros"
+	Texts::Set pt_PT thank_for_report          "Obrigado\n Com a sua ajuda contruiremos um Reino melhor."
+	Texts::Set pt_PT bug_select                "Por favor seleccione o objecto com problemas (ou a si próprio)."
+	Texts::Set pt_PT cant_cast_that            "Não posso invocar isso!"
+	Texts::Set pt_PT input_spell               "Por favor indique um encantamento."
+	Texts::Set pt_PT no_adminpass_conf         "O ficheiro adminpass.conf não existe!"
+	Texts::Set pt_PT incorrect_password        "Palavra-passe incorrecta!"
+	Texts::Set pt_PT setpassword_enabled       "A palavra-passe antiga foi correctamente introduzida, por favor insira .setpassword <palavra-passe nova> para alterar a sua palavra-passe!"
+	Texts::Set pt_PT deleted_from              "removido de"
+	Texts::Set pt_PT not_in_inventory          "não foi encontrado no inventário de"
+	Texts::Set pt_PT only_gm_learn             "Apenas os GM estão autorizados a aprender essas coisas!"
+	Texts::Set pt_PT learned_all_langs         "Aprendidas todas as línguas!"
+	Texts::Set pt_PT learned_gm_spells         "Aprendidos todos os encantamentos de GM!"
+	Texts::Set pt_PT not_while_dead            "Não pode usar este commando enquanto estiver morto."
+	Texts::Set pt_PT invalid_selection         "Selecção inválida"
+	Texts::Set pt_PT removed_from              "removido de"
+	Texts::Set pt_PT location_not_found        "Localização não encontrada."
+	Texts::Set pt_PT location_deleted          "Localização removida."
+	Texts::Set pt_PT specify_location          "Por favor indique uma localização."
+	Texts::Set pt_PT cant_emote                "Não pode animar isso!"
+	Texts::Set pt_PT input_emote               "Por favor indique uma animação."
+	Texts::Set pt_PT linked_to_start           "ligado ao início"
+	Texts::Set pt_PT way_saved                 "Precurso gravado, destino"
+	Texts::Set pt_PT way_starts_on             "O precurso inicia-se no destino"
+	Texts::Set pt_PT start_way_before          "Inicie um precurso antes de o tentar gravar!"
+	Texts::Set pt_PT target_player             "Tem que seleccionar um jogador!"
+	Texts::Set pt_PT is_gm                     "O jogador seleccionado é um GM!"
+	Texts::Set pt_PT no_gm                     "O jogador seleccionado não é GM!"
+	Texts::Set pt_PT no_one_jailed             "Ninguém está preso."
+	Texts::Set pt_PT character_name            "Nome da personagem"
+	Texts::Set pt_PT reason                    "Motivo"
+	Texts::Set pt_PT jailed_by                 "Encarcerado por"
+	Texts::Set pt_PT free_not_sure             "Humm... Não tenho a certeza de quem libertar?"
+	Texts::Set pt_PT is_not_jailed             "não está preso"
+	Texts::Set pt_PT unjailed_false            "O jogador não foi libertado"
+	Texts::Set pt_PT you_freed_by              "Foi libertado por"
+	Texts::Set pt_PT free_and_teleported       "foi libertado e transportado para"
+	Texts::Set pt_PT jail_usage                "Seleccione o jogador\n.jail <motivo>: prende o jogador seleccionado\n.jail list: lista os jogadores encarcerados\n.jail free: liberta o jogador selecionado"
+	Texts::Set pt_PT jail_not_sure             "Humm... Não tenho a certeza de quem prender?"
+	Texts::Set pt_PT jail_reason_syntax        "Sintaxe (com um jogador seleccionado): .jail <motivo>"
+	Texts::Set pt_PT now_jailed_by             "Encarcerado por"
+	Texts::Set pt_PT for                       "Por"
+	Texts::Set pt_PT is_now_jailed_for         "foi preso por"
+	Texts::Set pt_PT not_jailed                "Não foi preso"
+	Texts::Set pt_PT cant_teleport             "Não posso transportar."
+	Texts::Set pt_PT name                      "Nome"
+	Texts::Set pt_PT file                      "Ficheiro"
+	Texts::Set pt_PT merged_with_main_file     "fundido com o ficheiro principal waypoints.scp."
+	Texts::Set pt_PT the_original              "O original"
+	Texts::Set pt_PT deleted_run_rescp         "foi apagado. Não se esqueça de executar .rescp antes de atribuir qualquer ponto de destino."
+	Texts::Set pt_PT missing                   "em falta"
+	Texts::Set pt_PT file_to_merge             "ficheiro a fundir!"
+	Texts::Set pt_PT is_reporting              "encontra-se"
+	Texts::Set pt_PT pvp_usage                 "\nArena de PVP en Gurubashi:\nPara entrar na arena introduza .pvp enter\nPara abandonar a arena introduza .pvp leave\nPara informações introduza .pvp info"
+	Texts::Set pt_PT already_there             "Já cá se encontra!"
+	Texts::Set pt_PT no_enter_while_jailed     "Não ode entrar na arena enquanto estiver encarcerado!"
+	Texts::Set pt_PT not_in_arena              "Não pode abandonar a arena se não se encontra nela!"
+	Texts::Set pt_PT pvp_info                  "Ajuda:\nAs batalhas têm lugar apenas no interior da arena!\nQuem não cumprir será preso\nPor favor relate qualquer abuso aos GMs"
+	Texts::Set pt_PT changepassword_first      "Por favor utilize .changepassword <palavra-passe actual> primeiro!"
+	Texts::Set pt_PT password_changed          "Palavra-passe alterada."
+	Texts::Set pt_PT waypoint_doesnt_exist     "Este ponto de destino não existe!"
+	Texts::Set pt_PT ok_waypoint               "OK: Destino"
+	Texts::Set pt_PT set_for_npc               "atribuído ao personagem seleccionado"
+	Texts::Set pt_PT waypoint                  "Destino"
+	Texts::Set pt_PT shown                     "mostrado"
+	Texts::Set pt_PT route_started_waypoint    "Percurso iniciado, destino"
+	Texts::Set pt_PT finish_before_new         "Termine o percurso actual antes de iniciar um novo!"
+	Texts::Set pt_PT select_target_first       "Selecione um alvo primeiro!"
+	Texts::Set pt_PT cant_tame_elite           "Não pode domesticar elites!"
+	Texts::Set pt_PT cant_tame_player          "Não pode domesticar jogadores!"
+	Texts::Set pt_PT cant_tame_npc             "Não pode domesticar personagens!"
+	Texts::Set pt_PT cant_tame_friendly        "Não pode domesticar seres amigáveis!"
+	Texts::Set pt_PT cant_tame_higher          "Não pode domesticar nada com um nível superior ao seu!"
+	Texts::Set pt_PT beast_tamed               "Conseguiu domesticar o animal."
+	Texts::Set pt_PT you_not_gm                "Não é um GM!"
+	Texts::Set pt_PT closer_to_target          "Tem que estar mais perto do alvo!"
+	Texts::Set pt_PT now_visible               "Encontra-se agora visível!"
+	Texts::Set pt_PT specify_gender            "Tem que indicar o seu género:\nm para masculino e f para feminino!"
+	Texts::Set pt_PT pet_ran_away              "O seu animal de estimação fugiu!"
+	Texts::Set pt_PT select_pet                "Tem que seleccionar o seu animal de estimação primeiro!"
+	Texts::Set pt_PT pet_more_life             "O seu animal de estimação necessita de mais vida!"
+}
+

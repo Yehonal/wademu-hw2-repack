@@ -1,0 +1,18 @@
+
+###################################################################
+################### !!!How to make Waypoints!!! ###################
+###################################### Readme by Dark_Schneider73 #
+
+create 4 macro buttons related to : .startway .addwp .addswp .endway and place them in your favorite bar ;)
+- move to where u want the start point of the npc and set a Start Point ( .startway button)
+- move along the way u want your npc to do fixing Waypoints as often as needed with .addwp button ( remember that npc travels 
+following a straight line from a wp to another so, set them appropriately to have the npc follow the right way.
+- set a Swp (.addswp button) when u want your npc to talk ( the text stays on till next wp , so set them appropriately)
+- when u have set last wp u can close the way ( .endway button).
+The script will the tell u that the way has been closed and will give the n# of way start wp.
+- now u can merge the user custom waypoint file with the main one (with .mergewp ) and assign it to the npc of your choice : 
+ create/select the spawnpoint of the npc and in console type ".setwp n#" (n# of start wp). The child npc will inherit the way.
+ To have a npc talk when @ a specific waypoint u have to create a file on the \npcsay\ dir. named {npc name} with the text to say in it.
+ Sample stormwind_guard text included in this release
+ the command .showwp shows u on the minimap where is last waypoint. ( not so useful i know...  working on it to show a 
+ desired wp)

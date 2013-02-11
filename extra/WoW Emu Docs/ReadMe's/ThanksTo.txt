@@ -1,0 +1,20 @@
+...to Blizzard for
+World of Warcraft,	(c) 2004 Blizzard Entertainment.
+
+...to open source projects:
+SSLeay 0.9.0b, 		Copyright (C) 1995-1998 Eric Young
+zlib 1.1.4, 		Copyright (C) 1995-2002 Jean-loup Gailly and Mark Adler
+js-1.5-rc6a, fdlibm 	Copyright (C) 1993 by Sun Microsystems, Inc.
+tcl 8.4.4.0 		Copyright (c) 2002 by Kevin B. Kenny.
+
+...to WoW emulation pioner projects:
+TeamPython, StormCraft.
+
+...to dudes:
+Glorfindel, quetzal, dadesign, Des, [Shaman], MadMaxan, kirp,
+Slayer, gvr, Zanuff, munche, RomanRom2,
+the_wizard, PacmanBG, pacoking, 
+and others...
+
+...to Coca-Cola and Winston developers.
+

@@ -1,0 +1,98 @@
+//////////////////////////////////////////////////// 
+//Game Master Commands For W0WEmu 
+//Cteated by: SiLeNt-JoKeR 
+//////////////////////////////////////////////////// 
+
+:: 0123456 :: = PLEVEL That you need to use this command. 
+0-Player 
+1-Councelor 
+2-Seer 
+3-Moderator 
+4-Game Master 
+5-Administrator 
+6-Developer 
+
+:: 0123456 :: .help - List available commands 
+:: ****456 :: .addgo - Add gameobject in your coordinates 
+:: ****456 :: .addnpc - Add paralysed npc in the world 
+:: ****456 :: .add - Add item into your bag (Parameter: <item_ number>) 
+:: ****456 :: .del - Delete targeted npc or gameobject 
+:: ****456 :: .setlevel - Set level for pc or npc 
+:: ****456 :: .setmodel - Set model number to pc or npc *Be carefull!* 
+:: *1****6 :: .save - Save world to file 
+:: ******6 :: .rehash - Rehash objects 
+:: ******6 :: .flag1 - Set debug flags 
+:: ******6 :: .ppon - Turn on PP system 
+:: 0123456 :: .ppoff - Turn off PP system 
+:: ****456 :: .broadcast - Yell message for all players 
+:: ****456 :: .turn - Turn npc facing to you 
+:: ****456 :: .come - Npc will come to your position 
+:: **23456 :: .go - Go to world coordinates 
+:: **23456 :: .gotrigger - Go to world area trigger location (Parameter: <trigger_number>) 
+:: **23456 :: .kill - Kill selected pc or npc 
+:: **23456 :: .killallnpc - Kill all npcs in visual range 
+:: ******6 :: .setkillable - For Debug 
+:: ******6 :: .delallcorp - Remove all corpses in the world 
+:: ******6 :: .cleanup - Remove all bad objects 
+:: **23456 :: .resurrect - Resurrect selected pc *For resurrecting yourself use this command in the guild chat* 
+:: ****456 :: .setsize - Set size for npc 
+:: ****456 :: .setspeed - Set speed for pc or npc 
+:: ****456 :: .setflags - Set flags bitmask for pc or gameobject (Parameters: <ftype> <flags>) 
+:: ****456 :: .addspawn - Add spawnpoint to your position (Parameters: [<npc entry>] [<npcs number>]) 
+:: ****456 :: .setspawnnpc - Add entry and number of spawned npcs to spawnpoint 
+:: ****456 :: .setspawngo - Set entry for spawn gameobject to spawnpoint 
+:: ****456 :: .setspawndist - Set min and max distance for spawn 
+:: ****456 :: .setspawntime - Set min and max respawntime 
+:: ****456 :: .setxp - Set xp for pc 
+:: *****56 :: .setcp - Set cp for pc 
+:: *****56 :: .sethp - Set hp for pc 
+:: ****456 :: .paralyse - Paralyse and unparalyse pc or npc 
+:: **23456 :: .setaura - Set aura by number 
+:: ****456 :: .exploration - Opens your map locations (Parameter: <zoneid mask>) 
+:: 0123456 :: .dismount - Dismount you 
+:: **23456 :: .listsp - List your spells 
+:: ****456 :: .learn - Learn spell by number (Parameter: <spell_id>) 
+:: ****456 :: .unlearn - Unlearn one spell (Parameter: <spell_id>) 
+:: **23456 :: .listsk - List your skills 
+:: ****456 :: .learnsk - Learn on skill (Parameter: <skill_id>) 
+:: ****456 :: .unlearnsk - Unlearn one skill (Parameter: <skill_id) 
+:: **23456 :: .info - Give you info about selected pc, npc, gameobject or spawnpoint 
+:: **23456 :: .online - Show numbers of players online 
+:: **23456 :: .setreststate - Set new rest state for testing (Parameter: new_state(1...5)) 
+:: ******6 :: .exportchar - Export character *with inventory* to external file (Parameters: <char_name> <file_name>) 
+:: ******6 :: .importchar - Import objects from external file (Parameter: <file_name>) 
+:: **23456 :: .goname - Teleport to char name (Parameter: <char_name>) 
+:: **23456 :: .namego - Teleport char name to me (Parameter: <char_name>) 
+:: **23456 :: .goguid - Teleport to guid, pc or npc (Parameter: <guid>) 
+:: ****456 :: .tartgetgo - Trying to target nearest gameobject 
+:: ****456 :: .targetlink - Trying to target link of selected object 
+:: ****456 :: .move - Move object 
+:: 0123456 :: .where - Displays where you are in the world in world coordinates 
+:: ****456 :: .rotate - Rotate gameobject 
+:: ******6 :: .retcl - Reload TCL scripts 
+:: ******6 :: .rescp - Reload SCP scripts 
+:: **23456 :: .clearqflags - Clear quest flags from me 
+:: ******6 :: .exportspawns - Export spawnpoints to external file (Parameter: <file_name>) 
+:: ******6 :: .exportspawnsxy - Export spawnpoints to external file (Parameters: <map> <x1> <y1> <x2> <y2> <file_name>) 
+:: ******6 :: .importspawns - Import spawnpoints from external file (Parameter: <file_name>) 
+:: ******6 :: .delspawns - Remove spawnpoints in this zone 
+:: ******6 :: .delspawnsxy - Remove spawnpoints in rectangle (Parameters: <map> <x1> <y1> <x2> <y2>) 
+:: ******6 :: .bytes - For debug 
+:: **23456 :: .pingmm - Make point on your minimap 
+:: ******6 :: .adddyn - Just for testing 
+:: **23456 :: .starttimer - Start timer visuals (Parameters: timerid(0..2)value maxvalue scale type spell 
+:: **23456 :: .stoptimer - Stop timer visuals (Parameters: timerid(0..2) 
+:: ******6 :: .test - For Debug 
+:: ******6 :: .test2 - For Debug 
+:: ******6 :: .movelog - For Debug 
+:: **23456 :: .faction - Show faction info for pc or npc 
+:: ****456 :: .setfaction - Set faction for npc 
+:: ****456 :: .setnpcflags - Show npcflags for npc 
+:: ****456 :: .clearrep - Clear reputation for target pc 
+:: ******6 :: .shutdown - Shutdown the server 
+:: ****456 :: .gflags - Set gflags for selected gameobject 
+:: ****456 :: .gtype - Set gtype for selected gameobject 
+
+//////////////////////////////////////////////////// 
+//End Of Game Master Commands 
+////////////////////////////////////////////////////

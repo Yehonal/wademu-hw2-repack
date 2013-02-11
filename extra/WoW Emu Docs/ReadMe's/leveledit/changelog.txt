@@ -1,0 +1,82 @@
+#
+#
+# This program is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later
+# version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc., 51
+# Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult the
+# terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/gpl.html>
+#
+#
+# Name:		LevelEdit.tcl
+#
+# Version:	0.8.0
+#
+# Date:		2006-03-19
+#
+# Description:  Start-TCL Level Editor
+#
+# Authors:	Lazarus Long <lazarus.long@bigfoot.com>
+#
+# Changelog:
+#
+# v0.8.0 (2006-03-19) -	The "run it everywhere" version.
+#			Finaly got it compiled without errors, ready for
+#			distribution.
+#
+# v0.7.3 (2006-03-19) -	The "give us freedom" version.
+#			Got rid of the version dependencies regarding the
+#			library needed to access the registry.
+#
+# v0.7.2 (2006-03-19) -	The "if at first you don't succeed..." version.
+#			Fixed the dealing with level headers for good.
+#
+# v0.7.1 (2006-03-19) -	The "never works the first time" version.
+#			I forgot all about when a file still hasn't the level
+#			header and it was failing. Thanks spirit for noting it.
+#
+# v0.7.0 (2006-03-19) -	The "unreachable" version.
+#			Added logic to deal with unreacheable folders. It's
+#			ready for primetime I think.
+#
+# v0.6.0 (2006-03-18) -	The "I can't believe that three days went by" version.
+#			It's done, I can't say more. The whole heart of the
+#			program was done in three days non-stop of trial & error
+#			attempts, so I'm a bit off balance with the lack of
+#			sleep.
+#
+# v0.5.0 (2006-03-15) -	The "push my buttons" version.
+#			Created several standard buttons and a status line
+#			widget system.
+#
+# v0.4.0 (2006-03-15) -	The "folder search" version.
+#			Done creating a basic widget to get the server top
+#			folder.
+#
+# v0.3.1 (2006-03-14) -	The "waiter, oh waiter... menu please" version.
+#			Created a basic menu with several standard entries.
+#
+# v0.3.0 (2006-03-14) -	The "open the window" version.
+#			Started to work the root widget to see what can be done
+#			with it.
+#
+# v0.2.0 (2006-03-13) -	The "lets start with what we have" version.
+#			Converted some basic procedures from other scripts to
+#			run on this standalone version.
+#
+# v0.1.0 (2006-03-13) -	The "let us see what TK can do" version.
+#			First attempt with TK. Setup the basic structure and
+#			created some test widgets.
+#
+#

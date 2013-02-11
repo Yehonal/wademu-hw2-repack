@@ -1,0 +1,135 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+# Those additions come from UWC, adapted to StartTCL by Hochelf
+#
+#
+# Polish language support added by Vlad - vl4d@vp.pl
+#
+
+
+namespace eval ::WoWEmu::Commands {
+	Texts::Set pl select_npc                "Zaznacz NPC."
+	Texts::Set pl item_not_found            "Nie znaleziono przedmiotu."
+	Texts::Set pl copper                    "Copper"
+	Texts::Set pl silver                    "Silver"
+	Texts::Set pl gold                      "Gold"
+	Texts::Set pl invalid_money             "Niewłaściwa wartość pieniędzy"
+	Texts::Set pl bad_cmd_args              "Złe parametry komendy"
+	Texts::Set pl amount                    "ilość"
+	Texts::Set pl added_to                  "dodane do"
+	Texts::Set pl location_added            "Lokacja dodana."
+	Texts::Set pl no_location_name          "Brak (lub za krótka) nazwy lokacji."
+	Texts::Set pl target                    "Cel"
+	Texts::Set pl no_locations              "Brak lokacji."
+	Texts::Set pl bad_command               "Zła komenda."
+	Texts::Set pl created_for_route_and     "stworzone dla scieżki i połączone z Waypointem"
+	Texts::Set pl created                   "stworzone"
+	Texts::Set pl banip_usage               "Użyj składni: ban <ip> / <list> / <undo>. Dla <ip> zamień ostatnią cyfrę na 0 Przykład 184.157.23.0. Nie zostawiaj miejsca po adresię IP. <Undo> usuwa ostatni wpis"
+	Texts::Set pl no_ips_lines_to_remove    "Nie ma IP ani linijek do usunięcia"
+	Texts::Set pl undo_done_last_line       "Cofnij usunięcie ostatniej linii"
+	Texts::Set pl ip_already_banned         "Bląd > IP jest już na liście Banów"
+	Texts::Set pl ip_list_updated_noerror   "IP zostało zbanowane, lista zaktualizowana. Brak błędów"
+	Texts::Set pl thank_for_report          "Dziękujemy\n Z twoja pomoca stworzymy lepszy swiat."
+	Texts::Set pl bug_select                "Proszę zaznaczyc blędny obiekt (lub siębie)."
+	Texts::Set pl cant_cast_that            "Nie możesz użyc tego czaru!"
+	Texts::Set pl input_spell               "Proszę wprowadzić zaklęcie."
+	Texts::Set pl no_adminpass_conf         "Nie masz pliku adminpass.conf!"
+	Texts::Set pl incorrect_password        "Złe hasło!"
+	Texts::Set pl setpassword_enabled       "Stare hasło poprawne, proszę wpisac .setpassword (nowe hasło) aby zmienić hasło!"
+	Texts::Set pl deleted_from              "usunięte z"
+	Texts::Set pl not_in_inventory          "nie znaleziono w ekwipunku"
+	Texts::Set pl only_gm_learn             "Tylko GM może się tego nauczyć!"
+	Texts::Set pl learned_all_langs         "Nauczyłeś się wszystkich językow!"
+	Texts::Set pl learned_gm_spells         "Nauczyłeś się wszystkich czarów GM'a!"
+	Texts::Set pl not_while_dead            "Nie możesz użyc tej komendy kiedy jesteś martwy."
+	Texts::Set pl invalid_selection         "Niewłaściwy wybór"
+	Texts::Set pl removed_from              "usunięte z"
+	Texts::Set pl location_not_found        "Nie znaleziono lokacji."
+	Texts::Set pl location_deleted          "Lokacja usunięta."
+	Texts::Set pl specify_location          "Proszę sprecyzować lokację."
+	Texts::Set pl cant_emote                "Nie można tego pokazać!"
+	Texts::Set pl input_emote               "Proszę wprowadzić gest."
+	Texts::Set pl linked_to_start           "podłączone do startu"
+	Texts::Set pl way_saved                 "Droga zapisana, Waypoint"
+	Texts::Set pl way_starts_on             "Droga zaczyna się od Waypointu"
+	Texts::Set pl start_way_before          "Zacznij drogę zanim ją zapiszesz!"
+	Texts::Set pl target_player             "Musisz zaznaczyć gracza!"
+	Texts::Set pl is_gm                     "Zaznaczony gracz jest GM'em!"
+	Texts::Set pl no_gm                     "Zaznaczony gracz nie jest GM'em!"
+	Texts::Set pl no_one_jailed             "Nikogo nie ma w więzieniu."
+	Texts::Set pl character_name            "Nazwa postaci"
+	Texts::Set pl reason                    "Powód"
+	Texts::Set pl jailed_by                 "Wsadzony przez"
+	Texts::Set pl free_not_sure             "Hmm... Nie jestem pewien, kogo uwolnić?"
+	Texts::Set pl is_not_jailed             "nie jest w więzieniu"
+	Texts::Set pl unjailed_false            "Gracz nie został uwolniony z więzienia"
+	Texts::Set pl you_freed_by              "Zostałeś uwolniony z więzienia przez"
+	Texts::Set pl free_and_teleported       "jest teraz wolny i został teleportowany do"
+	Texts::Set pl jail_usage                "Zaznacz Gracza\n.jail powód: wsadzenie gracza do więzienia\n.jail list: pokazuje listę graczy w więzieniu\n.jail free: uwalnia zaznaczonego gracza"
+	Texts::Set pl jail_not_sure             "Hmm... Nie jestem pewien, kogo wtrącić do więzienia?"
+	Texts::Set pl jail_reason_syntax        "Składnia (po zaznaczeniu gracza): .jail powód"
+	Texts::Set pl now_jailed_by             "Wtrącony do więzienia przez"
+	Texts::Set pl for                       "Za"
+	Texts::Set pl is_now_jailed_for         "jest teraz uwięziony za"
+	Texts::Set pl not_jailed                "Nie jest w więzieniu"
+	Texts::Set pl cant_teleport             "Nie można się teleportować."
+	Texts::Set pl name                      "Nazwa"
+	Texts::Set pl file                      "Plik"
+	Texts::Set pl merged_with_main_file     "połączone z głównym plikiem waypoints.scp."
+	Texts::Set pl the_original              "Oryginalne"
+	Texts::Set pl deleted_run_rescp         "zostało usunięte. Pamiętaj, aby wpisać .rescp zanim przypiszesz Waypoint do jakiegoś NPC."
+	Texts::Set pl missing                   "Brakuje"
+	Texts::Set pl file_to_merge             "plik do połączenia!"
+	Texts::Set pl is_reporting              "powiadamia"
+	Texts::Set pl pvp_usage                 "\nGurubashi PvP Arena:\nAby wejść na arenę PVP wpisz .pvp enter\nAby wyjść z areny PVP wpisz .pvp leave\nAby uzyskać więcej informacji wpisz .pvp info"
+	Texts::Set pl already_there             "Już tam jesteś!"
+	Texts::Set pl no_enter_while_jailed     "Przebywając w więzieniu nie możesz wejść na arenę!"
+	Texts::Set pl not_in_arena              "Nie możesz opuścić areny, ponieważ nie ma cię na niej!"
+	Texts::Set pl pvp_info                  "Pomoc:\nWalki rozgrywają się tylko wewnątrz kręgu!\nPrzeszkadzający będą wsadzani do więzienia\nNadużycia proszę zgłaszać do GM'ów"
+	Texts::Set pl changepassword_first      "Proszę najpierw użyć .changepassword (obecne hasło)!"
+	Texts::Set pl password_changed          "Hasło zmienione."
+	Texts::Set pl waypoint_doesnt_exist     "Ten Waypoint nie istnieje!"
+	Texts::Set pl ok_waypoint               "OK: Waypoint"
+	Texts::Set pl set_for_npc               "ustaw dla zaznaczonego NPC"
+	Texts::Set pl waypoint                  "Waypoint"
+	Texts::Set pl shown                     "pokazane"
+	Texts::Set pl route_started_waypoint    "Ścieżka rozpoczęta, waypoint"
+	Texts::Set pl finish_before_new         "Zakończ aktualną ścieżkę zanim zaczniesz nową!"
+	Texts::Set pl select_target_first       "Najpierw wskaż cel!"
+	Texts::Set pl cant_tame_elite           "Nie możesz oswajać elit!"
+	Texts::Set pl cant_tame_player          "Nie możesz oswajać graczy!"
+	Texts::Set pl cant_tame_npc             "Nie możesz oswajać NPC!"
+	Texts::Set pl cant_tame_friendly        "Nie możesz oswajać przyjaznych stworzeń!"
+	Texts::Set pl cant_tame_higher          "Nie możesz oswajać niczego co ma większy poziom od ciebie!"
+	Texts::Set pl beast_tamed               "Udało ci się oswoić to stworzenie."
+	Texts::Set pl you_not_gm                "Nie jesteś GM'em!"
+	Texts::Set pl closer_to_target          "Musisz być bliżej celu!"
+	Texts::Set pl now_visible               "Jesteś teraz widzialny!"
+	Texts::Set pl specify_gender            "Musisz wybrac płeć:\nm to mężczyzna, a f to kobieta!"
+	Texts::Set pl pet_ran_away              "Twój chowaniec uciekł!"
+	Texts::Set pl select_pet                "Musisz najpierw zaznaczyć swojego chowańca!"
+	Texts::Set pl pet_more_life             "Twój chowaniec potrzebuje więcej życia!"
+}
+

@@ -1,0 +1,197 @@
+
+        This document is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+
+        Permission is granted to copy, distribute and/or modify this
+        document under the terms of the GNU Free Documentation License,
+        Version 1.2 or any later version published by the Free Software
+        Foundation; with no Invariant Sections, no Front-Cover Texts,
+        and no Back-Cover Texts. A copy of the license is available as
+        a companion document, as well as online at:
+
+                    <http://www.gnu.org/copyleft/fdl.html>
+
+
+        VERY IMPORTANT: If you ever rename the NextGen Auction House
+        System file from the default "ngAuction.tcl" you MUST make sure
+        that it is loaded after both of your Agro System procedures and
+        the "Commands.tcl", or else you will render your server useless.
+
+
+How to install the NextGen Auction House System
+===============================================
+
+ 0. Remove any other version you might have of the Auction House System,
+    namelly the compiled version for MySQL by OXOTHuK:
+    
+    0. If you are running the StartTCL Startup System, you most sure don't have
+       any other version of the Auction House System, so you may skip this
+       whole step.
+
+    1. Locate the "commands.tcl" file under your scripts folder (it can be in
+       "tcl" or "lx" depending on which repack you have).
+
+    2. Open it with a text browser (i.e. Notepad) and locate and remove:
+
+       "auc" { return [Auction::work $player $cargs $args] }
+       "aucf" { return [Auction::auc_force $player 0] }
+       "aucq" { return [Auction::auc_force $player 1] }
+       "auct" { return [Auction::auc_trade $player $full] }
+
+    3. If this was the only plugin accessing your underlying database or if all
+       other you have on your system are already using the SQLdb library,
+       locate the "startup.tcl" file in your scripts folder, open it with a
+       text browser (i.e. Notepad) and locate and remove:
+
+       set pl [package names]
+       if { [lsearch $pl "mysqltcl"]==-1 } {
+           puts "MyQE: mysqltcl extension not found. Exiting..."
+           return
+           }
+       unset pl
+
+       puts "MyQE: Opening MySQL connection..."
+       package require mysqltcl
+
+       foreach link [info vars "mysql*"] {
+           catch { ::mysql::close $link }
+           }
+
+       if { [catch { set myqe_db [::mysql::connect -host $mysql(host) -user $mysql(user) -password $mysql(password) -db $mysql(db)] }] } {
+           puts "MyQE: MySQL connection error. Exiting..."
+           return
+           }
+       puts "MyQE: Done"
+
+    4. Again if this was the only plugin accessing your underlying database or
+       if all other you have on your system are already using the SQLdb
+       library, in the same file locate and remove:
+
+       # MySQL Settings ##############################################################
+       set mysql(host) "mysql_host"
+       set mysql(user) "db_user"
+       set mysql(password) "db_password"
+       set mysql(db) "you_data_base_name"
+       # MySQL Settings ##############################################################
+
+    5. Still in the same file locate and remove:
+
+       load tbcload14.dll
+
+    6. Locate and remove the "auction.tbc" file from your system (depending on
+       which repack you have, it can be in "scripts/compiled", "scripts/tcl",
+       "scripts/lx" or "scripts/tbc").
+
+    7. Locate and remove the "SQliteAuction.tcl" file from your system
+       (depending on which repack you have, it can be in "scripts/tcl"  or
+       "scripts/lx").
+
+    8. Locate and remove the "SQLiteAuction.tbc" file from your system
+       (depending on which repack you have, it can be in "scripts/compiled",
+       "scripts/tcl", "scripts/lx" or "scripts/tbc").
+
+ 1. Download the SQLdb middleware library and follow its instructions for
+    installation:
+
+    1. Download it from <http://catvir.mooo.com/viewtopic.php?t=677>
+
+    2. Extract it to a temporary folder, and copy the "lib" folder to your
+       server top folder (it must be at the same level as Wowemu.exe so, if you
+       see one you should see the other) and make sure you overwrite existing
+       files since the included are the latest ones available.
+
+    3. Locate the "startup.tcl" file in your scripts folder, open it with a
+       text browser (i.e. Notepad) and:
+       
+       0. If you are running the StartTCL Startup System skip to step 1.4.
+
+       1. Locate the string "foreach script [glob scripts/tcl/*.tcl] {" (if you
+          are using the UWC-RR it's "foreach script [glob scripts/lx/*.tcl] {")
+          and add BEFORE it (if you have a fairly decent script it might
+          already be there):
+
+          foreach dir [ glob -nocomplain -type d lib/* ] {
+              source $dir/pkgIndex.tcl
+          }
+
+       2. Locate the same string "foreach script [glob scripts/tcl/*.tcl] {"
+          (again for UWC-RR it's "foreach script [glob scripts/lx/*.tcl] {")
+          and now add AFTER it (if you have a fairly decent script it might
+          already be there, also note that the path "scripts/tbc" may differ
+          from the location where your repack puts compiled scripts, so change
+          accordingly):
+
+          foreach script [glob -nocomplain scripts/tbc/*.tbc] { 
+              if {$DEBUG == 1} {source $script} 
+              if {[catch {source $script}]} {set err "$err\n Can't load script \[$script\]"} 
+          }
+
+   4. Move the "scripts/conf/sqldb.conf" to your server's "scripts/conf"
+      folder, and MAKE SURE to edit it to reflect your system configuration
+      (you may find the values that you need to put there in variables in your
+      "startup.tcl"). The "scripts/conf/sqldb.conf" is very well commented so,
+      just read it.
+
+    5. That's basically it, if you want more info regarding installing SQLdb,
+       have a look at "docs/sqldb/setup.txt" that comes with the library.
+
+ 2. Extract the NextGen Auction House System version to a temporary folder and:
+
+    1. Change to the "scripts" folder inside the temporary folder and copy one,
+       AND ONLY ONE, of the contents of either the "tbc" or "tcl" folders to
+       the correct location on your server (the content of the "tcl" folder may
+       go to one of "scripts/tcl" or "scripts/lx" depending on which repack you
+       have, the content of the "tbc" folder may go to one of "scripts/tbc",
+       "scripts/compiled", "scripts/tcl" or "scripts/lx" depending on which
+       repack you have or how you have setup the above 1.3.2 step).
+
+    2. Which script to choose:
+
+       a. If you aren't a developer, you're satisfied in using the default
+          configuration, or your system is configured to mostly support
+          compiled scripts you can use the compiled script from the "tbc"
+          folder.
+
+       b. If you want to be able to edit the file, you don't have support for
+          compiled scripts or you simply prefer to use uncompiled scripts you
+          can use the script from the "tcl" folder.
+
+       Note: There is NO user configuration made inside the "ngAuction.tcl"
+             anymore, so whatever the file you choose it is universal.
+
+    3. Edit your "scripts/emu.conf" (if you are using the UWC-RR edit instead
+       "scripts/extra/addons.conf") and add to it (if it's not there already):
+
+       [client_addon Rivera_Auction]
+       enabled=1
+       crc=00F5A011D
+       pub=86U7NkccLccCdz6muYAV51IcoayAZ6GIW6N3YjvOr0ejiec6tBRbnkHttvXFu6ZHO9jgQEqMJ0T7MgFmp51bNMpn4ejXInrDqXuQlg6IGO5DGLeb6C/TY19vVr24BLSFLArMRmRbEq9JRTneCQBIpusqP0ixW+56PkcZzkCWw1pHvH2M0CdeRhg+HvWpcKVUKTxa/3ag43Ud+pTX9UEenYSculiy/kwdbs4OL3gPvvhr/vKIrSjn8ZfjP1EZ6MmGN4S9UZR7hhl1F9RxHiQGY0Erq/sfITu44OT7NSw/DmNqMvXBnXWLvfNAskzU8UhDsGqcgcucCBA8kRxhniXH7Q==
+
+ 3. Make sure you have the server-side mail system up and running:
+
+    1. If you are running the NextGen Mail System it's already setup correctly.
+
+    2. If you are running another mail system, make sure the server-side
+       scripts for the Rivera Mail System (either by OXOThuk or by Golgorth)
+       are installed and running.
+
+       Note: When running the server-side scripts for Rivera Mail System both
+             SQL tables must be in the same database. This is already true for
+             most, if not all, those who use MySQL, but for SQLite, this might
+             not be true, so locate the database handle initialization for the
+             "mail" table "sqlite3 mail <some path>" and edit the config file
+             "scripts/conf/sqldb.conf" to point to the same location.
+
+ 4. If you are running the StartTCL system forget all of the above and simply
+    drop the content of either "scripts/tbc" or "scripts/tcl" in your server's
+    "scripts/tcl" folder.
+
+ 5. Restart your server (either shutting it down and bringing it back up, or
+    using the ".retcl" command).
+
+ 6. Make your players extract the contents of "client/rivera_auction_0.4.2.7z"
+    to the WoW Interface folder, "%ProgramFiles%\World of Warcraft\Interface",
+    and make them be sure to extract the paths from the archive.
+
+For more information, the latest version and to report errors and/or bugs visit
+the support thread at <http://catvir.mooo.com/viewtopic.php?t=582>.
+

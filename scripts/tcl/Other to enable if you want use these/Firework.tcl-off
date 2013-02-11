@@ -1,0 +1,26 @@
+namespace eval ::firework {
+
+  variable NPCS
+
+proc GossipHello { npc player } { }
+
+proc QuestStatus { npc player } {
+    variable NPCS
+    set NPCS($npc) $npc
+    return 0
+}
+
+proc explode { player cargs } {
+  variable NPCS
+
+  if {![info exists NPCS]} { return }
+  set boom_list "6668 11540 11541 11542 11543 11544"
+  
+  foreach {npc} [array names NPCS] {
+    set spellid [ lindex $boom_list [ expr { int( rand() * [ llength $boom_list ]) } ] ]
+    CastSpell $npc $npc $spellid
+  }
+}
+
+  Custom::AddCommand "boom" "firework::explode" 0
+}

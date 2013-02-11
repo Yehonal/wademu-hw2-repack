@@ -1,0 +1,143 @@
+All Commands are for Ingame use 
+
+.where –Tells your position in the world
+
+.help –List available commands
+
+.addgo –Add gameobject to your coordinates
+
+.add –Add item to your backpack
+.add <ItemID*> 
+
+.addnpc –Add Paralysed npc to the world
+.add <CreatureID**>
+
+.del –Delete targeted npc or object 
+
+.setlevel –Set level for pc or npc 
+.setlevel <desired lvl>
+
+.setmodel –Set model number to pc or npc
+.setmodel <ModelID***>
+
+.learn –Learn spell by number 
+.learn <SpellID****>
+
+.save –Save world to file
+
+.rehash –Rehash object 
+
+.flag1 –Set debug flags
+
+.ppon –Turn on pp system
+
+.ppoff –Turn off pp system
+
+.turn -Turn targeted npc facing to you
+
+.come - targeted Npc will come to the your position 
+
+.go- Go to world coordinates
+.go <WorldID> <X Coordinate> <Y Coordinate> <Z Coordinate> 
+
+.gotrigger- Go to world area trigger location, parameter: trigger_number
+
+.kill- Kill selected pc or npc
+
+.killallnpc - Kill all npcs in visual range
+. 
+.resurrect - Resurect selected npc 
+
+.setsize - Set size for npc. times normal size 
+.setsize <desired size>
+
+.setspeed- Set speed for pc or npc. Times normal speed
+.setspeed <desired speed> 
+
+.setflags- Set flags bitmask for pc or g.o.
+.setflags <ftype> <flags>
+
+.addspawn- Add spawnpoint to your position.
+.addspawn <CreatureID**> <number of npc's>
+
+.setnpcspawn- Add entry and number of spawned npcs to spawn point
+.setnpcspawn <CreatureID**> <number of npc's>
+
+.setnpcgo- Set entry for spawn gameobject to spawnpoint 
+
+.setspawndist- Set min and max distance for spawn
+.setspawndist <Minimum distance> <Maximum distance>
+
+.setspawntime- Set min and max respawn time
+.setspawntime <minimum respawntime> <Maximum respawntime>
+
+.setxp - Set XP for pc
+.setxp <desired XP>
+
+.paralyse- Paralyse and unparalyse selected pc or npc
+
+.setaura - Set aura by number
+.setaura <Aura Value>
+
+.exploration - Open up your map locations
+
+.dismount- Dismount you. 
+
+.listsp- List your spells
+
+.listsk- List your skills
+
+.delsp- Unlearn on spell 
+.delsp <SpellID****>
+
+.delsk- Unlearn one skill
+.delsk <SpellID****>
+
+.info- Give you info about selected npc
+
+.online- Show numbers of players online
+
+.setreststate- Set new reststate for testing.
+.setreststate <1-5>
+
+.exportcharacter- Export character <with inventory> to external file
+.exportcharacter <char name> <filename>
+
+.importcharacter- Import objects from external file
+.importcharacter <filename>
+
+.goname- Teleport to charname, pc or npc
+.goname <name>
+
+.goguild- Teleport to guild
+.goguild <guildname>
+
+.targetgo- Trying totarget nearest gameobject
+
+.targetlink- Trying to target link of selected objects
+
+.move- Move objects
+
+.retcl- Reload TCL Scripts
+
+.rescp - Reload SCP scripts.
+
+.clearqflags- Clear quest flags from me
+
+.bytes - for debug
+
+.pingmm - Make point on your minimap 
+
+.adddyn –Just for testing 
+
+.starttimer – parameter(s) : timerid(0..2) value maxvalue scale type spell
+
+.stoptimer – Stop visuals, parameter(s) : timerid(0..2)
+
+.test – for debug
+
+* = Item ID's can be found in the items.scp file in the server directory
+** = Creature ID's can be found in the creatures.scp file in the serer directory 
+*** = Model ID's can be found in the Models section of this http://thottbot.com/ web-site 
+**** = Spell ID's can be found in the Spells section of this http://thottbot.com/ web-stie 
+Mouse over spell and at down bottom left corner the link end with number shows that is id 

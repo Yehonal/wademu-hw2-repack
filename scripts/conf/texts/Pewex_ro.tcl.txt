@@ -1,0 +1,16 @@
+#Translated by DjScorpio - djscorpio4u@yahoo.com
+namespace eval GuildBank {
+::Texts::Set ro notmember "Nu esti un membru al unui Guild"
+::Texts::Set ro noperm "Permisiune interzisa"
+::Texts::Set ro nocash "Nu ai bani !"
+::Texts::Set ro addgold "Ai adaugat %s Aur in Banca Guildei"
+::Texts::Set ro nogold "Nu ai %s Aur in Banca Guildei"
+::Texts::Set ro getgold "Ai luat %s Aur din Banca Guildei"
+::Texts::Set ro amount "Trebuie sa scrii o cantitate"
+::Texts::Set ro delitem "Ai sters un obiect din Banca Guildei"
+::Texts::Set ro getitem "Ai luat un obiect din Banca Guildei"
+::Texts::Set ro additem "Ai adaugat un obiect in Banca Guilei"
+::Texts::Set ro cash "Bani in Banca Guildei:%s"
+::Texts::Set ro noitem "Nu ai acest obiect in Banca Guildei"
+::Texts::Set ro soul_item "Nu poti adauga acest tip de obiect"
+}

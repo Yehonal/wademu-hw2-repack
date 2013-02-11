@@ -1,0 +1,22 @@
+NetDBUtil Beta 4
+By Wiznuz for Rezurection French Server
+
+-- CHANGELOG --
+Beta 4:
+Working IP search with direct account or character link
+Better use of exclusive/shared DB access
+
+Beta 3:
+Fixes preventing the corrupted DB load.
+New details from accounts.
+Now display Empty/Fuzzy accounts and orphans
+
+Beta 2:
+Now list all characters and get Info on character's account (easier to find someone).
+Detailed account info.
+Some bug fixes on DB loading.
+
+Beta 1:
+First shoot of replacement software for DBUtil.
+Next version (with error management, modifications, searchs) in few days.
+Have fun.

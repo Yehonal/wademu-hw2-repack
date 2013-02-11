@@ -1,0 +1,50 @@
+kizura zgabi, 09/2006
+
+Check SCP files for referential integrity
+
+eg:
+You specified item references in loottemplate.scp
+
+loot=12345 50.0
+
+-> The refChecker will look inside items.scp (and all files included from items.scp)
+   and check if an item with the id "12345" exists.
+   
+Please take a look at "refCheck.conf".
+It contains rules, that can be enhanced.
+
+To invoke a rule, start the program with the ID inside [refCheck XYZ]
+
+eg:
+scprefchecker -refCheck loottemplate
+
+-> The program will look inside the file "refChecker.conf" and
+   execute [refCheck loottemplate] 
+
+Feel free to implement your own rules and share.
+
+lousy.kizura@gmail.com
+Sept 2006
+
+
+PLEASE
+If you like this program and find it useful:
+Please donate money to a charity oranization of your choice.
+I recommend any organization that fights cancer.
+
+
+>> SCPRefChecker 2006-09-28 by kizura // 1.1 (Jambi) <<
+o Added support for #include in the file that should
+  be checked.
+
+PLEASE
+If you like this program and find it useful:
+Please donate money to a charity oranization of your choice.
+I recommend any organization that fights cancer.
+
+---
+
+>> SCPRefChecker 2006-09-26 by kizura // 1.0 (Vicarious) <<
+o First release
+
+---

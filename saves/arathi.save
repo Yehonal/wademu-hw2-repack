@@ -1,0 +1,20 @@
+m_pBases;"Mine";0
+m_pBases;"Mill";0
+m_pBases;"Stables";0
+m_pBases;"Blacksmith";0
+m_pBases;"Farm";0
+m_pAlliesScore;0;0
+m_pHordeScore;0;0
+m_pWinner;0;0
+m_pMessageQueue;219,text;To start game need:  4 alliance,  4 horde  player(s).
+m_pMessageQueue;219,audio;0
+m_pMessageQueue;219,color;0.7#0.7#0.7
+m_pMessageQueue;219,to;0
+m_pMessageID;219;219
+pEvery2sec;1151312914;1151312914
+pEvery5sec;0;0
+pEvery10sec;1151312914;1151312914
+pEvery30sec;1151312914;1151312914
+pEvery5min;0;0
+pFinishMessageSent;0;0
+m_pGameStatus;0;0

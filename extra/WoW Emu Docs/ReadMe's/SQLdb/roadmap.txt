@@ -1,0 +1,17 @@
+Roadmap:
+=======
+
+v0.3.0 - v0.3.x	(YYYY-MM-DD - YYYY-MM-DD) -	Development series to add
+						support for more procedures,
+						SSL for MySQL, test PostgreSQL
+						and essay support for Oracle
+						and Sybase.
+
+v0.2.0 - v0.2.x	(2006-02-06 - YYYY-MM-DD) -	Stable series, supporting
+						MySQL, PostgreSQL, SQLite and
+						SQLite 3.
+
+v0.1.0 - v0.1.9	(2006-01-30 - 2006-02-03) -	Development series used to
+						create the "API" and the base
+						procedures.
+

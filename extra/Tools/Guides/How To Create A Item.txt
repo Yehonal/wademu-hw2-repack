@@ -1,0 +1,96 @@
+First off, you need a picture of the item you would like to custom add to your database. 
+
+
+We would like to add the crescent blades of the Demon Hunter which you can't buy or get in official servers and only the demon hunter npc carries them. 
+
+Firstly open MyWarcraftStudio. 
+1) Click File -> Open MPQ Archive -> Browse to your W0W/data folder -> Select patch.mpq and open it. 
+2) Click Item -> ObjectComponents -> Weapon 
+3) Select each of the models and view them untill you find one that matches your item. If you don't find it, restart from step 1) but instead of opening patch.mpq, open models.mpq. 
+4) Once you have found the model, make a note of the model name. In our case it would be Glave_1H_DualBlade_C_01.m2. 
+
+Secondly open DBCTool 0.5b by noisehole 
+1) Click File -> Open dbc files -> W0W client 
+2) Click on ItemDisplayInfo.dbc 
+3) Click model left header to sort the list of model names 
+4) Scroll down to Glave_1H_DualBlade_C_01.mdx there should be couple of them, if you look at the 4th collumn, you should see the texture name aswell, you can use this to identify the colors. 
+5) You will notice that the following Item models are available for the one we want: 
+29397 Purple Blade 
+8376 Black Blade 
+4291 Gold Blade 
+25511 Gold Blade 
+25504 Silver Blade 
+4290 Silver Blade 
+
+Now that we have the model that we require, we would have to start building our item in items.scp. I am not going to go into detail what each field means, just the basics. 
+1) We start by giving it a name and an id, the model we want is a black blade: 
+
+[item 1337357] 
+name=Demon Hunter Blades 
+model=8376 
+
+2) Now we need to tell the emu what kind of item it is: 
+
+class=2 
+subclass=8 
+bonding=1 
+inventorytype=13 // i think its 17 rather than 13, but test yourself 
+material=1 
+sheath=1 
+// this means that its a 1H Bladed weapon 
+
+3) Now we need to tell the emu what attributes the weapon has: 
+
+damage=425 525 0 // 425min dmg to 525max dmg 
+quality=4 
+sellprice=0 // we make it useless to sell this leet item  
+delay=1000 // 1 sec delay between attack, which is really fast 
+spell=18212 2 0 -1 0 -1 // we added the Demon Slaying spell to the sword 
+durability=220 // we give it high durability 
+bonus=6 24 
+bonus=7 15 
+bonus=3 5 // we add a couple of bonuses to the sword that benefit the user 
+
+4) Now we also need to tell the emu what attributes the char needs to have to use the weapon: 
+
+level=60 
+reqlevel=59 // meaning, you can only use it once you are high level 59 atleast 
+classes=07FFF // meaning ALL classes can use it, but i'd suggest restricting to Hunter 
+races=01FF // meaning ALL races can use it, but i'd suggest restricting to Night Elf 
+
+5) Now to recap, we should have an item that looks like this: 
+
+    
+item 1337357] 
+name=Demon Hunter Blades 
+model=8376 
+class=2 
+subclass=8 
+bonding=1 
+inventorytype=13 
+material=1 
+sheath=1 
+damage=425 525 0 
+quality=4 
+sellprice=0 
+delay=1000 
+spell=18212 2 0 -1 0 -1 
+durability=220 
+bonus=6 24 
+bonus=7 15 
+bonus=3 5 
+level=60 
+reqlevel=59 
+classes=07FFF 
+races=01FF 
+ 
+
+
+If I left anything out of this tutorial, I appologise, I don't normally write these kind of things, but since I was asked nicely, here it is. 
+
+Feel free to add your input and expanding to this tutorial. 
+
+Tools Used: 
+MyWarcraftStudio - http://www.curse-gaming.com/mod.php?addid=657 
+DBCTool 0.5b by noisehole - http://warcraft.ho8.com/DBC_Tool_0.5b.rar 
+The DBCTool is on Synric's site, so thanks to him for hosting it.

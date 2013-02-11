@@ -1,0 +1,16 @@
+#Translated by @Luciolis - info@abitcomputer.com
+namespace eval GuildBank {
+::Texts::Set fr notmember "Vous n'etes pas membre d'une guilde"
+::Texts::Set fr noperm "Pas de permission"
+::Texts::Set fr nocash "Vous n'avez pas d'argent !"
+::Texts::Set fr addgold "Vous avez ajoute %s a la banque de guilde"
+::Texts::Set fr nogold "Vous n'avez pas %s a la banque de guilde"
+::Texts::Set fr getgold "Vous creditez %s a la banque de guilde"
+::Texts::Set fr amount "Vous devez ecrire un montant"
+::Texts::Set fr delitem "Vous supprimez un objet a la banque de guilde"
+::Texts::Set fr getitem "Vous creditez un objet a la banque de guilde"
+::Texts::Set fr additem "Vous ajoutez un objet a la banque de guildek"
+::Texts::Set fr cash "Or dans la banque de guilde:%s"
+::Texts::Set fr noitem "Vous n'avez pas cet item"
+::Texts::Set fr soul_item "Vous ne pouvez pas ajouter un objet de ce type"
+}

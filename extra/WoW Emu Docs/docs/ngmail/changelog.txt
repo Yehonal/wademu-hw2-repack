@@ -1,0 +1,166 @@
+#
+#
+# This program is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+#
+# This program is partly based on a group of TCL procedures known as the
+# Golgorth's Final Mail v1.0. Altought it was started from scratch this program
+# inherits their functionality, hence the relationship. Golgorth graciously
+# allowed the licensing of this derivated work under the above License. This
+# does not imply that the original code nor its versions are under the same
+# license as long as they don't include code specific from this program. Only
+# this program and derivated work from it are subject to the above License. The
+# original code is (c) Golgorth and you must contact him for licensing details.
+#
+# This program requires interaction with a Lua script known as the Rivera Mail
+# client addon, authored by OXOTHuK, who graciously allowed manipulating it and
+# licensing of that derivated work under the above License. This does not imply
+# that the original code nor its versions are under the same license as long
+# as they don't include code specific from the manipulated script. Only the
+# manipulated script and derivated work from it are subject to the above
+# License. The original code is (c) OXOTHuK and you must contact him for
+# licensing details.
+#
+#
+# Name:		ngMail.tcl
+#
+# Version:	0.9.0
+#
+# Date:		2006-03-28
+#
+# Description:	NextGen Mail System
+#
+# Author:	Lazarus Long <lazarus.long@bigfoot.com>
+#
+# Changelog:
+#
+# v0.9.0 (2006-03-28) -	The "no more identification" version.
+#			Fixed the dealing with activating DEBUG on the config
+#			file. Converted it to use ReadConf from Custom, and
+#			Provide and Requires from StartTCL. Receive the item ID
+#			instad of its name from the client, due to this, this
+#			version is incompatible with client versions prior to
+#			1.1.0.
+#
+# v0.8.3 (2006-03-01) -	The "start-tcl integration" version.
+#			Added the needed options to support the new start-tcl
+#			scheme, also moved the "scripts/ngmail.conf" to the new
+#			"scripts/conf" folder. Changed SQL queries to be case
+#			insensitive for player names, thanks to XuTMaH.
+#
+# v0.8.2 (2006-02-23) -	The "by your command" version.
+#			Fixed command processing when spirit's "AddCommand"
+#			isn't present/used.
+#
+# v0.8.1 (2006-02-22) -	The "lets go international" version.
+#			Added localization for German by Ramanubis (verified by
+#			ZeberRus), Chilian Spanish by EZ-Mouse, Standard
+#			Spanish by ZeberRus, French by spirit and Russian by
+#			Neo_mat. Thank you all.
+#
+# v0.8.0 (2006-02-20) -	The "you got mail" version.
+#			Tested with both client addons, an it seems to work
+#			(of course that with Rivera Mail, the new functions
+#			don't, duhhh). Added localization support with the
+#			file "scripts/ngmail.conf" and setup the auto init
+#			procedures. First public beta.
+#
+# v0.7.8 (2006-02-19) -	The "use existing facilities" version.
+#			Converted the script to use spirit's custom procedures
+#			"::Custom::AddCommand" and "::Custom::HookProc" if
+#			present (I hope I did it correctly, I'm not sure of the
+#			second one). (development version)
+#
+# v0.7.7 (2006-02-17) -	The "wherever it comes from we deliver" version.
+#			Added startup dealing with importing MySQL tables.
+#			(development version)
+#
+# v0.7.6 (2006-02-17) -	The "return to sender" version.
+#			Implemented a return to sender option for CoD mails.
+#			(development version)
+#
+# v0.7.5 (2006-02-16) -	The "handle it to spirit" version.
+#			Corrected the dealing with the database handle due to a
+#			wrong interpretation of the variable linking concept,
+#			after spirit called my attention to it. Thank you
+#			spirit. (development version)
+#
+# v0.7.4 (2006-02-14) -	The "charge on delivery revisited" version.
+#			Fixed the CoD dealing, now it's Blizz-like, it sends a
+#			mail message instead of crediting directly the player.
+#			Droped the procedures "cod" and "itosmoney" (pity, this
+#			second one was very slick). Once again redid the
+#			database format to allow Auction House Invoices in a
+#			Blizzard fashion, This implies that I'll have to change
+#			"SendMail" once more.  (development version)
+#
+# v0.7.3 (2006-02-13) -	The "postman changed but mail arrived" version.
+#			Created routines to import mail from the existing
+#			Golgorth's Final Mail tables (it supports both existing
+#			formats, with and without "time_send"). (development
+#			version)
+#
+# v0.7.2 (2006-02-13) -	The "read it once" version.
+#			Implemented the timing out of mail in a Blizz-like
+#			fashion. The CoD dealing isn't yet Blizz-like, so it
+#			still needs to be worked. This gave origin to a new
+#			server command "read". (development version)
+#
+# v0.7.1 (2006-02-12) -	The "back step by step" version.
+#			Removed the multipage code from the "get" procedure,
+#			since the plugin seems to deal with it. (development
+#			version)
+#
+# v0.7.0 (2006-02-12) -	The "who am I?" version.
+#			Created the "serverinfo" procedure and changed the
+#			"get" procedure to allow multiple pages to function.
+#			(development version)
+#
+# v0.6.0 (2006-02-11) -	The "slim me down" version.
+#			Changed the database format to a slimmer one, had to
+#			redo all procedures related. (development version)
+#
+# v0.5.0 (2006-02-10) -	The "dressed for reharsall" version.
+#			OK, I had to redo the date logic to make it acceptable,
+#			so "get" and "send" had to be worked. First full script
+#			version. (development version)
+#
+# v0.4.1 (2006-02-09) -	The "keep them sending" version.
+#			"send" and "delete" are ready to go. (development
+#			version)
+#
+# v0.4.0 (2006-02-09) -	The "cash and carry" version.
+#			"get", "getitem" and "getmoney" are in place.
+#			(development version)
+#
+# v0.3.0 (2006-02-08) -	The "charge on delivery" version.
+#			Split the CoD logic to make it easier to check and
+#			maintain. (development version)
+#
+# v0.2.0 (2006-02-08) -	The "fetch Ubu fetch" version.
+#			"newmails" is working (I got to see the client about
+#			that damn icon). (development version)
+#
+# v0.1.0 (2006-02-08) -	The "where do we start at?" version.
+#			Created the basic layout of the file and started to
+#			analyse the Rivera Mail client addon to see what makes
+#			it tick. (development version)
+#
+#

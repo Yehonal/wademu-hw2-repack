@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stat.xsl"?>
+  <stats>
+    <server>
+      <version>0.4735.1.9</version>
+      <owner>orangevirus</owner>
+      <servername>Hw2Repack</servername>
+      <uptime>0 weeks 0 days 0 hours 35 mins</uptime>
+    </server>
+    <serverload>
+      <network>
+        <configsleep>180</configsleep>
+        <loops>0</loops>
+        <totaltime>0</totaltime>
+        <load>0.00%</load>
+      </network>
+      <world>
+        <configsleep>500</configsleep>
+        <loops>2721</loops>
+        <totaltime>464371</totaltime>
+        <load>21.90%</load>
+      </world>
+    </serverload>
+    <players>
+      <player>
+        <name>Cellen</name>
+        <race>4</race>
+        <class>4</class>
+        <level>60</level>
+        <map>1</map>
+        <zone>141</zone>
+        <ping>1</ping>
+        <plevel>6</plevel>
+        <ip>127.0.0.1</ip>
+      </player>
+    </players>
+  </stats>

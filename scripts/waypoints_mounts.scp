@@ -1,0 +1,816 @@
+// Waypoints for NPC Mounts by Spirit
+
+// Mounted Ironforge Mountaineer
+[point 20000]
+pos=-5056 -1669 499
+script=Mount::Waypoint
+
+// Lieutenant Valorcall
+[point 20001]
+pos=-1222 -2523 23
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20002]
+pos=316 -2225 137
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20003]
+pos=-7194 -3936 10
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20004]
+pos=1751 -669 45
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20005]
+pos=-755 -4141 40
+script=Mount::Waypoint
+
+// Marcus Bel
+[point 20006]
+pos=-2105 -2352 93
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20007]
+pos=-4534 -1600 505
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20008]
+pos=-494 -4459 52
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20009]
+pos=-4395 -1511 478
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20010]
+pos=-4063 -1119 165
+script=Mount::Waypoint
+
+// Lieutenant Doren
+[point 20011]
+pos=-11297 -207 77
+script=Mount::Waypoint
+
+// Scout Tharr
+[point 20012]
+pos=2092 -4690 41
+script=Mount::Waypoint
+
+// Stromgarde Cavalryman
+[point 20013]
+pos=-1327 -1841 64
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20014]
+pos=-321 -4127 53
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20015]
+pos=-4769 -1674 504
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20016]
+pos=-14284 290 33
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20017]
+pos=-628 -4341 43
+script=Mount::Waypoint
+
+// Zanzil Skeleton
+[point 20018]
+pos=-13667 -306 9
+script=Mount::Waypoint
+
+// Guard Parker
+[point 20019]
+pos=-9581 -1949 67
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20020]
+pos=2350 485 34
+script=Mount::Waypoint
+
+// Dark Iron Raider
+[point 20021]
+pos=-5680 -3709 317
+script=Mount::Waypoint
+
+// Ageron Kargal
+[point 20022]
+pos=2251 249 42
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20023]
+pos=-768 -4334 55
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20024]
+pos=10392 826 1318
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20025]
+pos=-11550 -228 29
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20026]
+pos=4302 91 43
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20027]
+pos=-9341 165 62
+script=Mount::Waypoint
+
+// Kildar
+[point 20028]
+pos=2158 -4662 50
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20029]
+pos=246 -4793 11
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20030]
+pos=-3297 -2431 19
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20031]
+pos=-4864 -1693 504
+script=Mount::Waypoint
+
+// Scout Tharr
+[point 20032]
+pos=1734 -4399 36
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20033]
+pos=2644 -635 108
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20034]
+pos=667 -306 31
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20035]
+pos=-517 -4376 47
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20036]
+pos=-4720 -1633 504
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20037]
+pos=9684 953 1292
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20038]
+pos=-10779 -1194 36
+script=Mount::Waypoint
+
+// Huntress Skymane
+[point 20039]
+pos=9905 2519 1317
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20040]
+pos=-4654 -739 650
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20041]
+pos=-2176 -337 -5
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20042]
+pos=909 -1530 56
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20043]
+pos=-10836 -2953 15
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20044]
+pos=2443 -2953 124
+script=Mount::Waypoint
+
+// Mountaineer Flint
+[point 20045]
+pos=-4956 -2759 326
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20046]
+pos=-229 -4449 65
+script=Mount::Waypoint
+
+// Huntress Yaeliura
+[point 20047]
+pos=9839 995 1307
+script=Mount::Waypoint
+
+// Scout Manslayer
+[point 20048]
+pos=1677 -4398 20
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20049]
+pos=-5787 430 427
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20050]
+pos=480 1599 127
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20051]
+pos=-268 -4140 57
+script=Mount::Waypoint
+
+// Scout Tharr
+[point 20052]
+pos=2079 -4707 40
+script=Mount::Waypoint
+
+// Executor Zygand
+[point 20053]
+pos=2233 279 36
+script=Mount::Waypoint
+
+// Scarlet Medic
+[point 20054]
+pos=1817 -1312 60
+script=Mount::Waypoint
+
+// Dalin Forgewright
+[point 20055]
+pos=-740 1504 17
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20056]
+pos=-6442 -297 4
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20057]
+pos=-250 -4156 57
+script=Mount::Waypoint
+
+// Scout Tharr
+[point 20058]
+pos=1948 -4681 25
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20059]
+pos=-229 -4282 66
+script=Mount::Waypoint
+
+// Huntress Nhemai
+[point 20060]
+pos=9840 1000 1307
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20061]
+pos=6742 196 24
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20062]
+pos=2119 -5294 82
+script=Mount::Waypoint
+
+// Raider Jhash
+[point 20063]
+pos=57 -4741 21
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20064]
+pos=-5079 -1701 499
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20065]
+pos=-4518 -1704 509
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20066]
+pos=-2176 -337 -5
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20067]
+pos=-4774 -1639 505
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20068]
+pos=-330 -4435 56
+script=Mount::Waypoint
+
+// Aean Swiftriver
+[point 20069]
+pos=-2107 -2351 93
+script=Mount::Waypoint
+
+// Warsong Outrider
+[point 20070]
+pos=2616 -3019 162
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20071]
+pos=-6811 -2285 281
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20072]
+pos=-5535 729 389
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20073]
+pos=-4460 -1593 491
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20074]
+pos=-639 -4298 41
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20075]
+pos=-5560 519 383
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20076]
+pos=-774 -4988 20
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20077]
+pos=1881 1637 95
+script=Mount::Waypoint
+
+// Scout Tharr
+[point 20078]
+pos=1931 -4588 34
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20079]
+pos=-5131 -1652 499
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20080]
+pos=6890 -4661 702
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20081]
+pos=-5334 -236 441
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20082]
+pos=-3298 -2431 19
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20083]
+pos=2928 -6032 6
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20084]
+pos=-757 -4318 44
+script=Mount::Waypoint
+
+// Thora Feathermoon
+[point 20085]
+pos=-2105 -2349 93
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20086]
+pos=-6160 326 401
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20087]
+pos=297 -3683 28
+script=Mount::Waypoint
+
+// General Marcus Jonathan
+[point 20088]
+pos=-8954 521 97
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20089]
+pos=-372 -4016 51
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20090]
+pos=2679 -3998 108
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20091]
+pos=-4608 -826 642
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20092]
+pos=3802 -1615 220
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20093]
+pos=-5677 -524 397
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20094]
+pos=-2507 -1967 92
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20095]
+pos=-3121 -3053 34
+script=Mount::Waypoint
+
+// Ulag the Cleaver
+[point 20096]
+pos=2461 315 29
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20097]
+pos=2638 -4013 108
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20098]
+pos=-595 -2533 93
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20099]
+pos=-979 -74 20
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20100]
+pos=-5519 556 393
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20101]
+pos=-10575 -3377 23
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20102]
+pos=-636 -4477 47
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20103]
+pos=2612 -534 90
+script=Mount::Waypoint
+
+// Scout Tharr
+[point 20104]
+pos=2029 -4676 26
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20105]
+pos=16320 16244 25
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20106]
+pos=-4687 -1651 504
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20107]
+pos=-4973 -1704 503
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20108]
+pos=-5560 519 383
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20109]
+pos=-1433 1974 87
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20110]
+pos=-20 -970 56
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20111]
+pos=-5011 -2121 84
+script=Mount::Waypoint
+
+// Stormpike Ram Rider Commander
+[point 20112]
+pos=599 -3 43
+script=Mount::Waypoint
+
+// Stormpike Ram Rider Commander
+[point 20113]
+pos=-8 -426 46
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20114]
+pos=-10610 1126 38
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20115]
+pos=6858 -4663 702
+script=Mount::Waypoint
+
+// Moon Priestess Amara
+[point 20116]
+pos=9839 998 1307
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20117]
+pos=-5667 679 388
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20118]
+pos=-4997 -1675 500
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20119]
+pos=-5272 -1609 499
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20120]
+pos=-9394 -2022 59
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20121]
+pos=-5352 -2892 342
+script=Mount::Waypoint
+
+// Huntress Ravenoak
+[point 20122]
+pos=10101 2486 1319
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20123]
+pos=5943 -1218 384
+script=Mount::Waypoint
+
+// Scarlet Medic
+[point 20124]
+pos=1871 -1333 61
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20125]
+pos=-5352 -2892 342
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20126]
+pos=-5054 -257 442
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20127]
+pos=-3355 -845 2
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20128]
+pos=7419 -2814 465
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20129]
+pos=-4440 374 52
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20130]
+pos=-3527 -4318 8
+script=Mount::Waypoint
+
+// Raider Kerr
+[point 20131]
+pos=69 -4743 19
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20132]
+pos=5957 -1208 381
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20133]
+pos=-5207 -1621 499
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20134]
+pos=-4596 3230 10
+script=Mount::Waypoint
+
+// Scout Tharr
+[point 20135]
+pos=1597 -4343 2
+script=Mount::Waypoint
+
+// Scout Tharr
+[point 20136]
+pos=1802 -4529 22
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20137]
+pos=-6834 895 34
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20138]
+pos=-5055 -149 431
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20139]
+pos=-10559 1207 32
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20140]
+pos=-5208 -1622 499
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20141]
+pos=-9341 165 62
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20142]
+pos=-2948 -142 68
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20143]
+pos=-5584 426 381
+script=Mount::Waypoint
+
+// Hannah Bladeleaf
+[point 20144]
+pos=-2094 -2353 93
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20145]
+pos=-770 -4202 44
+script=Mount::Waypoint
+
+// Mountaineer Pebblebitty
+[point 20146]
+pos=-6033 -2495 311
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20147]
+pos=-6439 -1115 313
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20148]
+pos=-722 -590 26
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20149]
+pos=-12019 -545 15
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20150]
+pos=-5671 744 390
+script=Mount::Waypoint
+
+// Deathguard Lundmark
+[point 20151]
+pos=2146 716 34
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20152]
+pos=-4656 -1776 -42
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20153]
+pos=-4549 -1609 504
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20154]
+pos=-1071 -3479 63
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20155]
+pos=-5531 -3447 -41
+script=Mount::Waypoint
+
+// Frostmane Snowstrider
+[point 20156]
+pos=-5544 672 398
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20157]
+pos=-8923 -189 81
+script=Mount::Waypoint
+
+// Mounted Ironforge Mountaineer
+[point 20158]
+pos=-5188 -1637 499
+script=Mount::Waypoint
+
+// Lazy Peon
+[point 20159]
+pos=-214 -4221 63
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20160]
+pos=1776 226 60
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20161]
+pos=4725 -3757 949
+script=Mount::Waypoint
+
+// Spirit Healer
+[point 20162]
+pos=-8173 1441 3
+script=Mount::Waypoint

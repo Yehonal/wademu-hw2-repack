@@ -1,0 +1,403 @@
+List was made by Ryuuza 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+0 = Azeroth – Eastern Kingdoms 
+Map Location = N/A 
+.go 0 0 0 100 
+This will land you somewhere near Dalaran in the Alterac Mountain Range it was the meeting spot in Beta 1 when world porting was publicly accessible. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+1 = Kalimdor 
+Map Location = N/A 
+.go 0 0 0 500 
+This will land you somewhere in the Stone Talon mountains not much I can say about this place. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+O 2 = UnderMine (Blank) 
+Map Location = N/A 
+.go 2 0 0 500 
+Currently when I worldport into this ID I can not find land to set down on currently I believe this to be blank should anyone find land PM me or post the coordinates here. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+13 = test 
+Map Location = N/A 
+.go 13 0 0 0 
+This is a small test instance 3 large cubes inside each other nothing else here very bland and not to interesting. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+17 = Kalidar 
+Map Location = N/A - Undiscovered 
+.go 17 1320 260 76 (Top of Castle) 
+.go 17 3305.46 609.966 39.5909 (In development area) 
+.go 17 3049.02 -505.125 77.0384 (Snow Area Alliance Side) 
+.go 17 2876.37 -762.631 21.3474 (Snow Area Horde Side) 
+.go 17 3707.52 -1190.21 0 (Test VI Lettering) 
+.go 17 3102.9 -2319.38 2 (Teldrassil roots section) 
+
+Some kind of battle field instance I have as of yet to find a red portal which indicates a battle field instance. The Worldport starts you out onto of a castle surrounded by a mote it’s a mirror image on each side one side has a tower and gold mine and the other side has one to my guess it’s a capture the flag type area. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+25 = ScottTest 
+Map Location = N/A 
+.go 25 0 0 500 
+ERROR #0 (0x85100000) Program: F:\Program Files\World of Warcraft\WoW.exe 
+File: C:\build\buildWoW\WoW\Source\WorldClient\MapLoad.cpp 
+Line: 271 
+Expr: wdtFile 
+That is the error I get when I try and worldport into that. Don’t attempt to worldport here. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+29 = Test 
+Map Location = N/A 
+.go 29 0 0 0 
+The exact same thing as worldport 13 3 cubes inside each other each one getting bigger very bad instance as the center cube is about the size of a small closet period. Don’t bother world porting here. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+30 = PVPZone01 
+Map Location = N/A – Undiscovered 
+.go 30 -219.279 -283.455 4.89101 (Snow Area middle of impact crater) 
+.go 30 -6.34645 -411.184 45.4318 (Snow Area Alliance Starting Area) 
+.go 30 -503.745 -194.215 58.5942 (Snow Area Horde Starting Area) 
+.go 30 -1231.66 453.486 138.972 (Deadwind Pass/Bad Lands portion) 
+.go 30 607.377 -1041.68 112.675 (Second Badlands portion overlooking a test IV sign) 
+.go 30 669.224 346.28 138.129 (Deadwind Pass portion) 
+This started as a multiple instance area in beta 1 and 2 where multiple sections of maps were pasted into one giant battle ground like the Blasted Lands Medivhs tower Tanaris Dun Morgoh. Now it seems is a bit broken up and Dun Morgoh is the biggest portion. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+33 = Shadowfang 
+Map Location = .go 0 -232.189 1568.8 76.8921 (Enterence) 
+.go 33 -241 2079 77 (Main Bridge Enterence) 
+.go 33 -211.367 2197.26 79.7633 (Main Courtyard) 
+.go 33 -270.835 2295.69 76.9719 (Dinner Hall) 
+.go 33 -267.127 2151.72 95.7755 (Overlook of Pyrewood Village) 
+.go 33 -146.23 2172.71 127.953 (Top of Main Tower Floor 1) 
+.go 33 -83.1988 2153.63 155.629 (Top of Main Tower Floor 2) 
+.go 33 -260.433 2113.79 128.202 (Tower Outlook) 
+Shadowfang Keep - Level 18-25 - Silverpine Forest 
+This is a big castle in the silver pine forest area close by the Ruins of Lorderon. The worldport starts you out at the enterence. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+34 = StormwindJail 
+Map Location = .go 0 -8768.85 842.871 89.4151 (Enterence) 
+.go 34 28 1 -9 (Main Enterence) 
+.go 34 153.006 108.394 -35.1896 (End of block A) 
+.go 34 102.751 -106.511 -35.1896 (End of block B) 
+
+The Stockades - Level 23-26 – Stormwind 
+
+This starts you out at the enterence walk down the stairs. Not to big of an instance a few jail cells and torture looking devices. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+35 = Stormwind Vault 
+Map Location = .go 0 -8643.74 595.867 95.7033 (Enterence) 
+.go 35 -1 -9 -5 (Enterence) 
+.go 35 -1.14688 115.714 -40.0507 (Beneath Grating) 
+.go 35 -99.6878 148.892 -40.3822 (Vault) 
+
+This starts you out at the enterence walk down the stairs quite similar to Stormwind Jail a bit bigger and a few more rooms. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+36 = DeadminesInstance 
+Map Location = .go 0 -11208.2 1673.74 24.628 (Enterence) 
+.go 36 -14.6997 -393.778 63.7404 (Enterence) 
+.go 36 -289.545 -504.035 50.0564 (Mast Room) 
+.go 36 -198.048 -556.252 51.2294 (Goblin Foundry) 
+.go 36 0.502815 -779.344 9.7818 (Ironclad Cove – Contested Territory) 
+.go 36 -108 -999 35 (Exit) 
+Map Location = .go 0 -11339.4 1567.36 99.6446 (Exit) 
+
+Deadmines - Level 15-20 – Westfall 
+
+The depths of the Deadmines are full of the slaves of the Defias brotherhood. Set to work tirelessly to fund the brotherhood. 
+
+The first ID is the enterence to the dead mines a mining area and head through the portal to explore. The last one is at the exit to the Dead mines don’t head back through the portal. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+37 = PVPZone02 
+Map Location = N/A Unknown 
+.go 37 -443 -1004 436 (Alliance Start Point) 
+
+.go 37 -634 -492 385 (Horde Start Point) 
+A very snowy area quite possibly close to Northrend simple battle field instance each side has a tower and ya go at it. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+42 = Collin 
+Map Location = N/A Unknown 
+.go 42 0 0 0 
+The same as worldport’s 13 and 29 this is a test area to. Three cubes inside each other Isn’t worth your time though I post it here for completeness. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+43 = WailingCaverns 
+Map Location = .go 1 -740.091 -2215.73 16.247 (Enterence) 
+.go 43 -163 133 -72 
+Wailing Caverns - Level 15-21 - The Barrens 
+This is some kind of ancient dinosaur area underground. The worldport starts you out at the enterence which you can quickly find raptor eggs and at the end of the dungeon a giant waterfall nest type area. Looks like trolls might be here to. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+44 = Monastry 
+Map Location = .go 0 2889.91 -811.148 160.332 (Enterence) 
+.go 44 72 0 19 
+The Scarlet Monastery - Level 30-40 - Tirisfal Glades 
+This starts you out at the enterence; walk up the stairs and through the portal to enter. You will have to worldport through an invisible wall to enter. This is the scarlet Monastry though I doubt this will be the version in the retail as there’s another version more close to the current setup of the Monastry. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+47 = RazorfenKraulInstance 
+Map Location = .go 1 -4467.63 -1670.51 81.8819 
+.go 47 1931 1527 83 
+Razorfen Kraul - Level 25-31 - The Barrens 
+This starts you out in a Razorfen Den enterence. Cool looking area with brambles and bones about. May also be for harpies to as there’s some nest that suggest that. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+48 = Blackfathom Deeps 
+Map Location = .move fast 1 7201.45 -841.771 -1.27055 
+.go 48 -150 106 -38 
+Blackfathom Deeps - Level 20-27 - Darkshore 
+A VERY cool area highly recommended exploring lots of giant wisp circling roots here and furthering down in it there is a Naga temple with a statue of lady Vashj. Worldport starts you out at the enterence. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+70 = Uldaman 
+Map Location = .go 0 -6066.9 -2952.9 209.772 (Enterence 1) 
+.go 70 -228 31 -45 (Enterence 1) 
+
+.go 70 -213 372 -35 (Enterence 2) 
+Map Location = .go 0 -6621.29 -3765.47 266.356 (Enterence 2) 
+
+Uldaman - Level 35-45 - The Badlands 
+The infamous and one of the ancestral homes of the dwarfs! Extremely cool place to explore. First worldport starts you out at the enterence while the second I believe starts you out the exit but I have yet to find this on Azeroth leading me to believe that it goes deeper still into undermine possibly. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+90 = GnomeragonInstance 
+Map Location = .go 0 -5162.81 924.722 257.177 (Tunnel Enterence) 
+.go 90 -330 -2 -151 (Tunnel Enterence) 
+
+.go 90 -708 2 -242 (Hallway Entrance) 
+Map Location = .go 0 -4859.57 757.622 244.924 (Hallway Entrance) 
+
+Gnomeregan - Level 24-33 - Dun Morogh 
+The home of the gnomes! Very cool area lots of machinery very industrial looking and the first worldport starts you out by a collapsed tunnel with a machine there trying to dig it away. While the other one is at a simple but very long hallway. Possible one of the best area’s to explore. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+109 = The Temple of Atal`Hakkar (Formerly known as the Sunken Temple) 
+Map Location = .go 0 -10183.4 -3993.96 -109.195 (Enterence) 
+.go 109 -269 100 -118 (Enterence) 
+The Sunken Temple - Level 44-50 - Swamp of Sorrows 
+The higher the worldport ID’s go the cooler the area’s seem to get. This area is under a lake unknown of how to reach at the moment other then world porting. This worldport starts you at the enterence. The whole area seems to have an occult look to it many alters and sacrificial pits around the place. Quite dark and looks as if it has been abandoned for some time. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+129 = RazorfenDowns 
+Map Location = .go 1 -4658.32 -2524.85 81.3465 
+.go 129 2593 1100 52 
+Razorfen Downs - Level 35-40 - The Barrens 
+While this crashed in Beta 2 it works in Beta 3! This area is quite similar to its cousin RazorfenKraul. There are many stones around here suggestion a close relationship between harpies and Razorfen’s. There is also a giant Razorfen alter here that looks to be used for worship its better then RazorfenKraul in my opinion. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Beta 2 Additions: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+169 = EmeraldDream 
+Map Location = .go 0 -10377.2 -421.704 63.6252 (Rumored Enterence) 
+.go 169 3105.41 3096.78 27.0032 Emerald Forest (Statue) 
+
+.go 169 -2128.12 -1005.89 132.213 - The Verdant Fields 
+
+.go 169 2732.93 -3319.63 101.284 {Emerald Forest (Trees)} 
+
+The area of all area’s to explore. This in conjunction with BlackRockSpire is the best area’s to explore. The objects already in here are utterly amazing. Explore this area NOW! First ID starts you out in front of a weird statue and a couple of objects witch look like Indian dream catchers. The second one starts you in some endless fields which have HUGE flowers. Third starts you in a forest with trees that rival ones on Dranor/Outland. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+189 = MonasteryInstances 
+Map Location = .go 0 2889.91 -811.148 160.332 (Enterence) 
+.go 189 254 -208 19 (Enterence) 
+
+The Scarlet Monastery - Level 30-40 - Tirisfal Glades 
+The updated Scarlet Monastery which I think will be in retail. Pretty small though a lot of objects and eye candy to look at. Good area. The worldport ID starts you out at the enterence. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Beta 3 Additions: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Programmers Isle 
+.go 0 16391.8 16341.2 69.44 - (Moved to 451 in 0.11.0) 
+Map Location = N/A 
+
+A testing island for programmers few funny messages written on the ground such as “Chow is my love monkey” Cool area to explore but don’t go near the coast as I’ve found that looking under the ground at all crashes the client and screws your character. 
+
+Designers Isle 
+.go 0 16303.5 -16173.5 40.4365 - (Moved to 451 in 0.11.0) 
+Map Location = N/A 
+
+Another very cool area lots of sea shells looking buildings and a giant temple in the middle. An island for game designers to be blunt the sea shell buildings may be eventually what will become a Naga City though that has yet to be seen. 
+
+Map Location = .go 1 16222.1 16252.1 12.5872 – (GM Island) 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+209 = Zul`Farrak 
+Map Location = .go 1 -6809.68 -2887.04 8.9234 (Enterence) 
+.go 209 1232.52 841.765 8.93945 (Enterence) 
+
+Zul'Farrak - Level 43-47 - Tanaris Desert 
+Also known as the Tanaris instance. This area seems to have statues in remarkable similarity to those in Stranglethorn Vale possibly a troll area kind of small and bland in my opinion. The worldport ID starts you out at the enterence. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+229 = BlackRockSpire Blackrock Upper Instance 
+Map Location = .go 0 -7527.03 -1223.51 285.732 (Enterence) 
+.go 229 80.1406 -237.005 54.106 – (Enterence) 
+.go 229 172.479 -474.532 116.842 – (Raid Instance enterence) 
+
+Found in Beta 0.9.1. 
+
+Can we say Halls of Moria from Lord of the Rings? The enterence of this place is likely heavily inspired from the books and movies lots of dwarf corpses lying around. Place thus far looks like it will be a very hard instance due to it being a complex layout almost maze like in some parts. Also known is at the end of this there is a raid gate to the Blackwing Lair. I haven’t heard much about this yet as that area isn’t open yet in the official beta likely. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+230 = BlackrockDepths Blackrock Lower Instance 
+Blackrock Depths (48-56 Dungeon) 
+Map Location = .go 0 -7182.74 -914.191 165.49 (Enterence) 
+.go 230 458.098 34.6597 -69.4462 (Enterence) 
+.go 230 1116.37 -458.124 -102.811 (The Molten Core Raid Enterence) 
+
+The best area to explore period a tad bit better then Emerald Dream. It seems to be an ancient Dwarf/Titan/Gnome city. There’s evidence here suggesting the gnomes lived here because there’s machinery here while there are stone statues in remarkable similarity to dwarf titans. Most strange of all there’s an abomination workshop in the depths no idea what that’s doing there. At the very bottom is a green instance gate. This leads to a raid instance called “The Molten Core”. The worldport takes you to the enterence where you are free to explore one of the most interesting areas yet in the game. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+249 = Onyxia’s Lair Instance (Raid Instance) 
+Map Location = N/A Undiscovered. 
+.go 249 27.607 -61.4587 -4.83827 
+This is a small but EXTEREMELY cool looking area. The first raid instance I’ve entered. No idea who Onyxia is but it sounds like a dragon as there are some smoking and cindering corpses in a dark corner. At the end there’s a LOT of eggs with spikes on them again no idea what this area is but it’s sure to be awesome in retail. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Beta 4 – Version 0.9.1 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+269 = Caverns of Time 
+Map Location = .go 0 -287.016 -430.397 66.1254 (Eventual Site of Enterence) 
+.go 269 3146.18 2312.06 -146.004 – Enterence 
+Note: Under Heavy Construction since Beta 4 0.9.1 – Beta 6 0.11.0. 
+This area… well it’s probably going to be the most unique area in the game being that the enterence is near Dalaran and all along the first cave path down you see different pieces of ship wreck or buildings stuck in the walls. Then you get to an open space and it’s a huge star field sky with asteroids spiraling around everywhere. Only problem with it now is that the end area is quite small and not fully developed yet. Hopefully I can post more in the upcoming patches. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+289 = School of Necromancy 
+Map Location = .go 0 1265.39 -2556.05 94.128 (Enterence) 
+.go 289 219.583 112.002 124.13 – Enterence 
+
+Well this area is kind of bland in my opinion the whole area is like a catacomb level from Diablo 2 in that respect it’s kind of cool but there’s nothing particular cool in it aside from at a certain part you can see a circle of skeletons laughing and playing cards. Other then that it’s worth a visit only if you like undead areas. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Beta 5 – Version 0.10.0 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+309 = Zul`gurub 
+Map Location = .move 0 -11916.3 -1209.73 92.2617 (Enterence) 
+.go 309 -11917.3 -1244.23 92.3168 (Enterence) 
+
+Kind of a cool area it’s a dense troll jungle area with lots of bridges and troll building surrounding a temple in the middle a lake surrounds the temple so you have to walk in a counter clockwise path over bridges and such to get to it eventually. It’s a cool area if ya like trolls n all. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+329 = Straholm 
+Map Location = .go 0 3392.1 -3380.25 142.727 (Main Enterence) 
+.go 329 3439.85 -3379.25 140.941 (Main Enterence) 
+
+Map Location = .go 0 3232.94 -4048.01 108.441 (East wall Gate) 
+.go 329 3591.24 -3643.88 138.493 (East wall Gate) 
+
+.go 329 3929.57 -3383.43 119.687 (Raid Gate) 
+
+.go 329 3422.95 -3053.52 136.498 (The Crimson Throne) 
+
+Hideously cool area fiery red sky once you enter it’s the city you burned down to the ground in a race against a dreadlord in Warcraft III as Arthas when he was still human while attempting to destroy the plague. While in the 0.10.0 patch at the area the instance gate lead to an area where an Undead Black Citadel building was floating in the sky! It’s worth it to see that building. Though as of 0.11.0 they have places a raid gate here so it’s highly likely there will be a raid instance inside the Black Citadel building! I will be updating lightning fast if I do happen to find the instance that Black Citadel in it. Is this a place to visit? Hell yes goes visit it NOW! 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+349 = Marudon 
+Map Location = .go 0 -1189.61 2876.48 85.9689 (Marudon – Purple Crystal Enterence) 
+.go 349 751.912 -617.958 -33.1118 – (Marudon – Purple Crystal Enterence) 
+
+Map Location = .go 0 -1421.58 2680.17 72.4831 (Marudon - Red Crystal Enterence) 
+.go 349 1007.76 -462.063 -43.5609 – (Marudon - Red Crystal Enterence) 
+
+Said to be a centaur themed dungeon. Both entrances to this place are covered with mineral patches probably able to be mined once the area is opened up. The actual instance itself now starts out as possibly and undead/Orc/troll area as there are many structures suggesting that and for the first half of the dungeon there is toxic brown water everywhere. Then about half way through the walls change to a healthy grey stone color and the roof opens up letting sunlight in the water clears and it’s a very awesome looking area. Further in there are several winding caves and waterfalls that decorate the area and at the end of this huge instance is what might be a grave site a mount of earth covered with grass and flowers with antlers sticking out of it possibly the grave of Cenaurius. One of the larger instances I’ve come across you’ll be spending a lot of time exploring this place. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+369 = Deeprun Tram 
+Map Location Ironforge Side= .go 0 -4838.98 -1315.09 501.868 
+.go 369 71.1234 9.74174 -4.29735 (Deeprun Tram – Iron Forge Side) 
+
+Map Location Stormwind Side= .go 0 -8360.21 532.16 91.7969 
+.go 369 70.1911 2490.4 -4.29719 (Deeprun Tram – Stormwind Side) 
+
+.go 369 -9.96166 1238.17 -126.102 (Deeprun Tram - Underwater area) 
+
+A pretty cool area between Stormwind and Ironforge it’s pretty much a mirror image on both sides with the typical gnomish looking tunnel about it. The really cool area is the portion that opens up to an underwater landscape which has a few sunken ships near it and other ocean floor life. The underwater part is quite spiffy and makes checking out this small instance worth it. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+389 = OrgrimmarInstance (Ragefire Chasm) 
+Map Location = .go 1 1812.45 -4413.98 -18.4452 (Enterence) 
+.go 389 5.439 -8.5433 -15.758 (Ragefire Chasm Enterence) 
+
+This is much like the Onyxia’s Lair instance though much bigger there are many more hallways and lava pools then Onyxia’s lair though no really big and large areas to look about in. It seems that blizzard though it only fair to give the horde a instance in their city since the alliance had once in theirs it’s possible we may see instances put into Ironforge likely where Old Ironforge is and then in the Ruins of Lorderon though where they would fit an instance in is unknown. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Beta 6 – Version 0.11.0 – Additions 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+409 = the Molten Core (Blackrock Depths Raid Instance) 
+Blackrock Depths Map Location = .go 230 1116.37 -458.124 -102. (Enterence) 
+.go 409 1088.57 -457.557 -102.592 (Enterence) 
+
+The raid instance at the bottom of Blackrock Depths! A pretty spiffy area lots of lava flowing everywhere even on the ceiling! There are also quite a few geysers shooting gas up into the air as well the whole dungeon seems to loop around back to the enterence eventually a very cool area to explore although there are no interesting structures or look at mostly just terrain. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+429 = Dire Maul (High Elves Area) 
+Map Location = N/A Supposed area where this is isn’t developed yet. 
+.go 429 -250.854 -33.3498 -2.70243 (Main Enterence Courtyard) 
+.go 429 -39.1487 -159.362 -3.4727 (Enterence 1) 
+.go 429 -256.431 23.2414 -2.55959 (Enterence 2) 
+.go 429 -52.3906 196.33 -4.1464 (Enterence 3) 
+.go 429 -197.991 244.191 -27.8801 (Enterence 4) 
+.go 429 -7.48323 836.158 -33.0102 (Enterence 5) 
+
+An extremely cool looking area several entrances into this place and several sections of it as well. There is a Central Courtyard which seems to connect all the entrances though I warn that the middle of it has no substance to it and you will far forever should you try and walk into it. The area overall is EXTREMELY cool one of my recommended AAA exploration area’s to explore. There is just so much to check out here it’s hard to explain it all. One part there is a coliseum like area with a blue energy field surrounding it with blue pillar of light on the middle likely holding something or someone. Another part shows high plant growth on all parts of the dungeon. This is an area definitely that you want to take your time with and quite possibly the largest instance dungeon in the game. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+449 = Alliance PVP Barracks – (Stormwind City) - Stormwind 
+Map Location = .go 0 -8761.65 401.47 103.906 (Enterence) 
+.go 449 0.445956 9.41431 -0.227239 (Enterence) 
+
+A one room instance barracks for PVP for the Alliance side in Stormwind every city will probably get one of these eventually. This particular one is just like a small house area not to much to see unless you’re like me and just have to every instance no matter how small it is. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+450 = Horde PVP Barracks (Hall of the Brave) - Orgrimmar 
+Map Location = .go 1 1636.03 -4245.17 56.1671 
+.go 450 220.812 74.3277 25.7199 
+
+This to be a one room instance it’s like many of the other Orc buildings except this one will be used as a PVP barrack. It’s just one room like the Alliance version in Stormwind. Not too much in this since you’ve likely seen the building layout in a few other Orc Structures. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+451 = Development Land 
+Map Location = N/A 
+.go 451 16391.8 16341.2 69.44 - Programmers Island 
+
+.go 451 16303.5 -16173.5 40.4365 – Designers Island 
+
+Programmers isle is testing island for programmers few funny messages written on the ground such as “Chow is my love monkey” Cool area to explore but don’t go near the coast as I’ve found that looking under the ground at all crashes the client and screws your character. What I mean by that is going to the edge of the map and looking below it with the camera. There is also the sunken temple here as well though it tends to crash the client. Other things are miscellaneous structures from all races no new buildings as of yet a place to likely as they said to test program code rather then eye candy. 
+
+Designer is another very cool area this has all new buildings that haven’t been implemented into the game yet and might never be. There are several areas here that suggest the development of Naga buildings such as the giant sea shell like buildings close to shore or the one giant temple like area in the center. A very nice and eye candy area to check out to see what might be coming in retail. This area is definitely worth your time to look over the area. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+469 = Blackwing Lair (Blackrock Spire Raid Instance) 
+Blackrock Spire Map Location = .go 229 172.479 -474.532 116.842 
+.go 469 -7666.19 -1102.34 399.679 (Enterence) 
+
+Well this is a pretty dark area with many spiky looking things strews about the halls. Many many Orc war banners hung on the walls and throne like areas. Somewhat confusing to navigate due to the lighting issue though at the end there is a huge balcony overlooking all of Burning Steppes and Searing Gorge. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Bonus Area’s 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Slithidus – Currently Blocked to closed testers by a barrier. 
+Map Location = .go 1 -7172.89 560.817 46.6813 (Zerg Hive) 
+.go 1 -8123.955078 1526.388794 3.911464 3.083629
+.go 1 -9221.1604492 1580.850830 19.300426 0.702431
+.go 1 -10136.569336 1931.054932 75.305107 6.242479
+.go 1 -7040.499512 427.939484 8.320133 3.649754   Southwind village
+
+This area is damn cool LOTS of the doodads here and other creatures look like things from Starcraft. There are also many Zerg like structures with mineral patches and some vespine gas geysers to. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Draenor/Outland 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Map Location = .go 0 -11894.8 -3206.52 -14.6188 (Supposed Enterence) 
+.go 0 -14958.5 12761.6 36.0388 (Dark Portal) 
+Starts you out near THE dark portal to Azeroth very cool looking seems like blizzard redesigned all dark portals to look like the one in the intro screen. Close by are also some regular trees in which the roots are entangled around some kind of crystal and floating with the tree mid air. 
+
+.go 0 -14357.7 12317.8 -2.36 (Ruined Orc Village on a Hill) 
+Ruined Orc village looks abandoned and pretty much like Razor Hill. 
+
+.go 0 -14315.9 12908.5 -130.907 (Ruined Human settlement) 
+Same as the Orc place but ruined. Possibly from the first war in Outland. 
+
+.go 0 -13946.7 12416.7 -98.4378 (Corpse of a Pit Lord/Manorroth the Destroyer) 
+Probably the reason you’re going here a very cool part of Warcraft history. Worldport starts you out at the enterence to the pit where the lord lays. 
+
+.go 0 -13634.8 12462.3 4.27872 (Draenei Village) 
+Draenei Village looks quite run down but it seems it could be used for Draenei. Cool looking though easily mistaken for Tauren houses. 
+
+.go 0 -13602.3 12776.9 142.523 (Draenei outlook post) 
+Top of a giant spire you can pretty much see everything from here including the corpse of the pit lord. A giant blue torch lights the top very cool looking. 
+
+.go 0 -13841.8 13327.7 -241.797 (Spike Cube) 
+Worldport starts you out close to some giant spike cube and in the distance a ruined tower in which chunks of it are floating in the air. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Miscellaneous Information: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+GilS.PR] Time's about up so this will be the last question: Will there be any world events that are scripted like a larger scale Stitches quest in the beta or in retail? 
+
+[Katricia] Yes! We plan on having many world events in the game. One of the more epic quests that we plan to include before the end of Beta is the opening of the raid zone Ahn'Qiraj. During this event a large number of players will need to ban together to challenge the defenders of the city. The event will take several hours and will involve the entire zone of Silithus. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+Area’s to look out for: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+??? = Stormwind Player Housing District 
+Map Location = .go 0 -8816.95 463.826 93.969 (Enterence) 
+
+As stated on official beta boards this gate will eventually lead to player housing in the game. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+??? = Karazhan – Medivhs Tower 
+Map Location = .go 0 -11101 -1998.06 49.3307 (Enterence 1) 
+
+Map Location = .go 0 -11037.7 -1999.49 92.9823 (Enterence 2) 
+
+Pardon my language here but blizzard fucking raped the look of this tower in this version. They better have done one hell of a job in the inside of this when they design it because currently the tower is about half the size of what is was in versions prior to 0.11.0 and doesn’t look nearly as cool. There are quite a few Orc buildings surrounding this so far with two enterence that I have listed. Hopefully blizzard will surprise me like always and make this area cool as hell again. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+??? Unknown Battlefield Instance 
+Map Location = .go 0 -29.955 -305.356 135.518 
+
+Found close to Hillsbrad and the Future caverns of time instance. You can enter it but it’s a typical cave area thus far. As said on the Beta forums it’s just a place holder until they finish the instance that it will lead to. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 

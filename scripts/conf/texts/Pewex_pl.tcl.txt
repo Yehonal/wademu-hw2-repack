@@ -1,0 +1,16 @@
+#Translated by @mLaPL - mlapeel@gmail.com
+namespace eval GuildBank {
+::Texts::Set pl notmember "Nie jestes w Gildii"
+::Texts::Set pl noperm "Nie posiadasz dostepu"
+::Texts::Set pl nocash "Nie masz pieniedzy !"
+::Texts::Set pl addgold "Dodales %s Gold do Banku Gildii"
+::Texts::Set pl nogold "Niemasz %s Gold w Banku Gildii"
+::Texts::Set pl getgold "Zabrales %s Gold z Banku Gildii"
+::Texts::Set pl amount "Musisz wpisac ilosc"
+::Texts::Set pl delitem "Wyrzuciles Item z Banku Gildii"
+::Texts::Set pl getitem "Zabrales Item z Banku Gildii"
+::Texts::Set pl additem "Dodales Item do Banku Gildii"
+::Texts::Set pl cash "Pieniadze w Banku Gildii:%s"
+::Texts::Set pl noitem "Niemasz tego Itemu w Banku Gildii"
+::Texts::Set pl soul_item "Niemozesz dodac tego typu Itemow"
+}

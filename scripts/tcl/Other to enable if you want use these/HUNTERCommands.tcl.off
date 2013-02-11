@@ -1,0 +1,60 @@
+namespace eval chiamaunpet {
+
+
+
+::Custom::AddCommand {	
+      "chiamacat" ::WoWEmu::Commands::chiamacat 0
+      "chiamawolf" ::WoWEmu::Commands::chiamawolf 0
+      "chiamacrocolisk" ::WoWEmu::Commands::chiamacrocolisk 0     
+
+
+}
+
+#
+# Comando Hunter per summonare un CAT
+# 
+#
+
+proc ::WoWEmu::Commands::chiamacat { player cargs } { 
+
+set lvl [::GetLevel $player]
+
+if { $lvl < 50 } {return [ ::Texts::Get "Solo dal lvl 50 potrai usare il comando" ] }
+	if { [ ::GetClass $player ] == 3 } {
+		CastSpell $player $player 7906
+	}
+	return
+}
+
+
+#
+# Comando Hunter per summonare un WOLF
+# 
+#
+
+proc ::WoWEmu::Commands::chiamawolf { player cargs } { 
+set lvl [::GetLevel $player]
+if { $lvl < 50 } {return [ ::Texts::Get "Solo dal lvl 50 potrai usare il comando" ] }
+	if { [ ::GetClass $player ] == 3 } {
+		CastSpell $player $player 4946
+	}
+	return
+}
+
+
+#
+# Comando Hunter per summonare un crocolisk
+# 
+#
+
+proc ::WoWEmu::Commands::chiamacrocolisk { player cargs } { 
+set lvl [::GetLevel $player]
+if { $lvl < 50 } {return [ ::Texts::Get "Solo dal lvl 50 potrai usare il comando" ] }
+	if { [ ::GetClass $player ] == 3 } {
+		CastSpell $player $player 7908
+	}
+	return
+}
+
+
+}

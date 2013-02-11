@@ -1,0 +1,58 @@
+////// insert here all your custom creatures//////
+
+
+//////////////////////////////////////////////
+////// creatures_smartAI_test     ////////////
+//////////////////////////////////////////////
+
+[creature 111050]
+attack=1175 1292
+bounding_radius=1.6
+combat_reach=3
+damage=1 2
+faction=60
+level=40
+loottemplate=1047
+maxhealth=9298
+maxmana=30000
+model=8313
+money=792..4153
+name=Red Healbane
+speed=1.2
+type=2
+
+[creature 111051]
+attack=1166 1283
+bounding_radius=1.6
+combat_reach=3
+damage=1 2
+elite=1
+faction=60
+level=40
+loottemplate=1048
+maxhealth=5000
+maxmana=5000
+model=716
+money=875..4373
+name=Scalebane Caster
+speed=1.2
+type=2
+
+[creature 111052]
+attack=1141 1255
+bounding_radius=1
+combat_reach=2
+damage=5 7
+faction=60
+level=40
+loottemplate=1049
+maxhealth=10389
+maxmana=8000
+model=8314
+money=875..4373
+name=Catch Me
+speed=1.5
+type=2
+
+
+////////////////////////////////////////////////////

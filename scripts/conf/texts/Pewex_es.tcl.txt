@@ -1,0 +1,16 @@
+#Translated by @Luciolis - info@abitcomputer.com
+namespace eval GuildBank {
+::Texts::Set es notmember "No eres miembro del gremio"
+::Texts::Set es noperm "Permiso negado "
+::Texts::Set es nocash "No tienes ningun efectivo !"
+::Texts::Set es addgold "Agregas el oro de %s a GuildBank"
+::Texts::Set es nogold "Tu no tener oro de %s en GuildBank"
+::Texts::Set es getgold "Consigues el oro de %s de GuildBank"
+::Texts::Set es amount "Debes escribir cantidad"
+::Texts::Set es delitem "Quitas el artículo de GuildBank"
+::Texts::Set es getitem "Consigues el artículo de GuildBank"
+::Texts::Set es additem "Agregas el artículo a GuildBank"
+::Texts::Set es cash "Cobrar adentro GuildBank: %s"
+::Texts::Set es noitem "Tu no tener este artículo en GuildBank"
+::Texts::Set es soul_item "No puedes agregar este tipo"
+}

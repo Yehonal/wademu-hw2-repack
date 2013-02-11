@@ -1,0 +1,287 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+#
+# Czech translation by kupkoid
+#
+
+
+namespace eval ::WoWEmu::Commands {
+	Texts::Set cz unknown_command           "Prikaz \"%s\" je neznamy."
+	Texts::Set cz not_allowed               "Nejsi opravnen pouzit tento prikaz."
+	Texts::Set cz not_allowed_players       "Nejsi opravnen pouzit tento prikaz na hrace."
+	Texts::Set cz not_allowed_object        "Nejsi opravnen pouzit tento prikaz na objekt."
+	Texts::Set cz select_player             "Prosim vyber hrace."
+	Texts::Set cz select_self               "Pro pouziti tohoto prikazu musis vybrat svou postavu pomoci F1."
+	Texts::Set cz cant_kick_self            "Nemuzes kicknout sam sebe."
+	Texts::Set cz plevel_conflict           "Plevel tveho hrace je roven nebo vetsi tvemu."
+	Texts::Set cz object_not_found          "Objekt nenalezen"
+	Texts::Set cz help_plvl0                "Commands: \n .HELP \n .WHERE \n .DISMOUNT \n Use .HELP <command> for more info.\n"
+	Texts::Set cz help_plvl2                "Commands: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .DEL; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .RESURRECT; \n .SETAURA; .SETRESTSTATE; \n .CLEARQFLAGS; \n .STARTTIMER; .STOPTIMER; \n .FACTION; \n Use .HELP <command> for more info.\n"
+	Texts::Set cz help_plvl4                "Commands: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .NAMEGO; \n .FACTION; \n .ADD ; .ADDGO ; .ADDNPC; \n .ADDSPAWN; \n .SETSPAWNNPC; .SETSPAWNGO; \n .SETSPAWNDIST; .SETSPAWNTIME; \n .SETLEVEL; .SETMODEL; \n .SETSIZE; .SETSPEED; \n .SETXP; .SETCP; .SETHP; \n .SETFLAGS; .SETNPCFLAGS; \n .PARALYSE; \n .DEL; .KILL; .KILLALLNPC; \n .RESURRECT; \n .LEARN; .UNLEARN; .LEARNSK; .UNLEARNSK; \n .SETAURA; .SETRESTSTATE; .CELARQFLAGS; \n .TARGETGO; .TARGETLINK; \n .TURN; .COME; \n .MOVE; .ROTATE; \n .CLEARREP; .GFLAGS; .GTYPE; \n .STARTTIMER ; .STOPTIMER; \n .EXPLORATION; .BROADCAST; \n Use .HELP <command> for more info.\n"
+	Texts::Set cz help_plvl6                "Commands: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .KILL ; .KILLALLNPC; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .NAMEGO; \n .FACTION; .SETFACTION; \n .TARGETGO; .TARGETLINK; \n .TURN; .COME; \n .DEL; .ADD ; .ADDGO ; .ADDNPC; \n .ADDSPAWN; \n .SETSPAWNNPC; .SETSPAWNGO; \n .SETSPAWNDIST; .SETSPAWNTIME; \n .SETXP; .SETCP; .SETHP; \n .SETLEVEL; .SETMODEL; .SETSIZE; \n .SETSPEED; .SETFLAGS; \n .SETAURA; .SETRESTSTATE; \n .SETNPCFLAGS; \n .LEARN; .UNLEARN; .LEARNSK; .UNLEARNSK; \n .MOVE; .ROTATE; \n .GFLAGS; .GTYPE; \n .RESURRECT; .PARALYSE; .CLEARREP; \n .EXPLORATION; .CLEARQFLAGS; \n .EXPORTCHAR; .IMPORTCHAR; \n .EXPORTSPAWNS; .EXPORTSPAWNSXY; \n .IMPORTSPAWNS; .DELSPAWNS; .DELSPAWNSXY; \n .STARTTIMER; .STOPTIMER; \n .PPON; .PPOFF; \n .RETCL; .RESCP; \n .BROADCAST; .SAVE; .SHUTDOWN; .REHASH; \n .DELALLCORP; .CLEANUP; .RESPAWNALL; \n Use .HELP <command> for more info.\n"
+	Texts::Set cz number_too_large          "Toto cislo je prilis dlouhe!"
+}
+
+
+namespace eval ::AI {
+	Texts::Set cz humanoid_sayings {
+		"Zemri, %s!"
+		"Priprav se na smrt, %s!"
+		"A mam te, %s!"
+		"Za chvili je po tobe, %s!"
+		"%s, pomuzu ti pripojit se k tvym zesnulym pribuznym."
+		"%s, useknu ti hlavu!"
+		"Nikam mi neuteces, %s!"
+		"%s musis zemrit!"
+		"Jsi pripraven na smrt, %s?"
+	}
+}
+
+
+namespace eval ::SpellEffects {
+	Texts::Set cz script_without_case       "VAROVANI! Spell effect script %s without case"
+	Texts::Set cz spell_effect_quest        "Spell effect quest %s"
+	Texts::Set cz teleport_not_ready        "Tento teleport neni zatim pripraven.[ ::Custom::Color " Zbyva casu: %s." dcdcdc ]"
+}
+
+
+namespace eval ::GmTools {
+	Texts::Set cz accounts_on_server        "Accountu na serveru: %s"
+	Texts::Set cz bans_on_server            "BANu na serveru: %s"
+	Texts::Set cz plevel_conflict           "Konflikt plevelu."
+	Texts::Set cz can_not_ban_self          "Nemuzes zabanovat sam sebe."
+	Texts::Set cz banned_account            "Zabanovan account: %s."
+	Texts::Set cz can_not_del_self          "Nemuzes vymazat svuj account."
+	Texts::Set cz deleted_account           "Vymazal jsi account: %s."
+	Texts::Set cz account_exists            "Account %s jiz existuje."
+	Texts::Set cz added_account             "Pridan account: %s."
+	Texts::Set cz can_not_lock_self         "Nemuzes zamknout svuj account."
+	Texts::Set cz locked_account            "Zamknuty account: %s."
+	Texts::Set cz select_player             "Prosim vyber hrace."
+	Texts::Set cz unbanned_account          "Odbanovany account: %s."
+	Texts::Set cz unlocked_account          "Odemceny account: %s."
+	Texts::Set cz changed_password          "Zmeneno heslo pro: %s."
+	Texts::Set cz can_not_level_self        "Nemuzes si zmenit plevel."
+	Texts::Set cz changed_plevel            "Plevel zmenen na %s."
+	Texts::Set cz not_enough_parms          "Nedostatek parametru."
+	Texts::Set cz select_npc                "Prosim vyber NPC."
+	Texts::Set cz reputation_with           "Tva reputace u %s frakce (%s) je %s."
+	Texts::Set cz untalent_help             "Pouziti: .untalent \[ free \]"
+	Texts::Set cz missing_delspell_keys     "Spellu %s v souboru spellcost.scp chybi dispell klic."
+	Texts::Set cz too_low_level             "%s ma moc nizky level."
+	Texts::Set cz not_enough_money          "%s nemas dostatek penez. Stoji to %s medaku."
+	Texts::Set cz aggro_help                "Pouziti: .aggro \[ on \| off \]"
+	Texts::Set cz aggro_on                  "Aggro je prepnuto na: [ Custom::Color "on" green ]."
+	Texts::Set cz aggro_off                 "Aggro je prepnuto na: [ Custom::Color "off" red ]."
+	Texts::Set cz damage_help               "Pouziti: .damage \[ on \| off \]"
+	Texts::Set cz damage_on                 "Redukce zraneni je prepnuta na: [ Custom::Color "on" green ]."
+	Texts::Set cz damage_off                "Redukce zraneni je prepnuta na: [ Custom::Color "off" red ]."
+}
+
+
+namespace eval ::WorldLock {
+	Texts::Set cz l_msg01   "[ Custom::Color "Nemas prava k pouziti tohoto prikazu!" red ]"
+	Texts::Set cz l_msg02   "The \"[ Custom::Color "world.save" white ]\" jiz je [ Custom::Color "zamcen" red ]."
+	Texts::Set cz l_msg03   "The \"[ Custom::Color "world.save" white ]\" jiz je [ Custom::Color "odemcen" lime ]."
+	Texts::Set cz l_msg04   "The \"[ Custom::Color "world.save" white ]\" je [ Custom::Color "zamcen" red ]."
+	Texts::Set cz l_msg05   "The \"[ Custom::Color "world.save" white ]\" je [ Custom::Color "odemcen" lime ]."
+	Texts::Set cz l_msg06   "Pouziti:   [ Custom::Color ".ws \[ lock \| exclusive \| unlock \| shared \| info \| help \]" white ]"
+}
+
+
+namespace eval ::RavenclawApparition {
+	Texts::Set cz msg1      "Mame prikazy naseho pana, zni: do valky!!"
+	Texts::Set cz msg2      "Vrostli jsme v silne, kdyz jste plenili nase zeme. Je cas vam to vratit!"
+	Texts::Set cz msg3      "Nasi smrt a utrpeni pro krale Lichu!"
+	Texts::Set cz msg4      "Cestovali jsme zde az ze silverpine forestu, nesnazte se nas nastvat."
+}
+
+
+namespace eval ::MoonrageDarkrunner {
+	Texts::Set cz msg1      "Synove Arugala povstanou znovu proti vsem, kdo se bude chtit stretnout se silou Moonrage!"
+}
+
+
+namespace eval ::Nefarian {
+	Texts::Set cz msg1      "Smazte se! Vy nicky! Smazte se!"
+	Texts::Set cz msg2      "Vytrham vam  vnitrnosti!"
+	Texts::Set cz msg3      "Prestan lecit a postav se mi!"
+	Texts::Set cz msg4      "Velim smrti!"
+	Texts::Set cz msg5      "RROOOAARRGGH!"
+	Texts::Set cz msg6      "Magove taky? Mel bys byt priste opatrnejsi pri zahravani si s magii!"
+	Texts::Set cz msg7      "Valecnici, Ha, to neumite dat lepsi ranu, nez byla tato!"
+	Texts::Set cz msg8      "Druidi a ty vase smesne premeny. Uvidime v akci!"
+	Texts::Set cz msg9      "Knezi! Budete-li lecit tak jako doted, udelame si to trochu zajimavejsi!"
+	Texts::Set cz msg10     "Paladinove... Slysel jsem, ze umite mnoho veci.... Tak se ukazte."
+	Texts::Set cz msg11     "Saman, a ty jeho totemy, kdo vi, co umi?!"
+	Texts::Set cz msg12     "Warlocks, nemuzete hrat s magii. kdyz ji ani nerozumite!"
+	Texts::Set cz msg13     "Lovci a ty jejich smesne drivka!"
+	Texts::Set cz msg14     "Zlodej? Prestan se skryvat a postav se mi!"
+}
+
+
+namespace eval ::DevlinAgamand {
+	Texts::Set cz msg1      "The Agamand Mills is held by the Scourge, Warrior. Pripoj se!"
+	Texts::Set cz msg2      "The Agamand Mills is held by the Scourge, Paladin. Pripoj se!"
+	Texts::Set cz msg3      "The Agamand Mills is held by the Scourge, Hunter. Pripoj se!"
+	Texts::Set cz msg4      "The Agamand Mills is held by the Scourge, Rogue. Pripoj se!"
+	Texts::Set cz msg5      "The Agamand Mills is held by the Scourge, Priest. Pripoj se!"
+	Texts::Set cz msg6      "The Agamand Mills is held by the Scourge, Shaman. Pripoj se!"
+	Texts::Set cz msg7      "The Agamand Mills is held by the Scourge, Mage. Pripoj se!"
+	Texts::Set cz msg8      "The Agamand Mills is held by the Scourge, Warlock. Pripoj se!"
+	Texts::Set cz msg9      "The Agamand Mills is held by the Scourge, Druid. Pripoj se!"
+	Texts::Set cz msg10     "Prisel jsi navstivit rodinu? Zdechni blazne!"
+}
+
+
+namespace eval ::RotHideMongrel {
+	Texts::Set cz msg1      "Grrrr... cerstve masicko!"
+	Texts::Set cz msg2      "Vice kosti na naramky..."
+}
+
+
+namespace eval ::RotHideGraverobber {
+	Texts::Set cz msg1      "Grrrr... cerstve masicko!"
+	Texts::Set cz msg2      "Vice kosti na naramky..."
+}
+
+
+namespace eval ::RuklartheTrapper {
+	Texts::Set cz msg1      "Nevezmes mi svicku!"
+	Texts::Set cz msg2      "Yiieeeee! Zdrhaam!"
+	Texts::Set cz msg3      "Muj ryc zkonci hluboko v tve........."
+}
+
+
+namespace eval ::LepperGnome {
+	Texts::Set cz msg1      "Rozrezu te!"
+}
+
+
+namespace eval ::PalemaneTanner {
+	Texts::Set cz msg1      "Grrrr... cerstve masicko!"
+	Texts::Set cz msg2      "Vice kosti na naramky..."
+}
+
+
+namespace eval ::PalemaneSkinner {
+	Texts::Set cz msg1      "Grrrr... cerstve masicko!"
+	Texts::Set cz msg2      "Vice kosti na naramky..."
+}
+
+
+namespace eval ::StormscaleToxicologist {
+	Texts::Set cz msg1      "Byl jsi zapocitan do nasich planu, blaznivy Warriore!"
+	Texts::Set cz msg2      "Byl jsi zapocitan do nasich planu, Paladine!"
+	Texts::Set cz msg3      "Byl jsi zapocitan do nasich planu, Huntere!"
+	Texts::Set cz msg4      "Byl jsi zapocitan do nasich planu, Rogue!"
+	Texts::Set cz msg5      "Byl jsi zapocitan do nasich planu, foolish Prieste!"
+	Texts::Set cz msg6      "Byl jsi zapocitan do nasich planu, foolish Unk1e!"
+	Texts::Set cz msg7      "Byl jsi zapocitan do nasich planu, foolish Shamane!"
+	Texts::Set cz msg8      "Byl jsi zapocitan do nasich planu, foolish Magee!"
+	Texts::Set cz msg9      "Byl jsi zapocitan do nasich planu, foolish Warlocke!"
+	Texts::Set cz msg10     "Byl jsi zapocitan do nasich planu, foolish Unk2e!"
+	Texts::Set cz msg11     "Byl jsi zapocitan do nasich planu, foolish Druide!"
+}
+
+
+namespace eval ::KoboldGeomancer {
+	Texts::Set cz msg1      "Nevezmes mi svicku!"
+	Texts::Set cz msg2      "Yiieeeee! Zdrhaam!"
+}
+
+
+namespace eval ::Koboldminer {
+	Texts::Set cz msg1      "Nevezmes mi svicku!"
+	Texts::Set cz msg2      "Yiieeeee! Zdrhaam!"
+}
+
+
+namespace eval ::KoboldLaborer {
+	Texts::Set cz msg1      "Nevezmes mi svicku!"
+	Texts::Set cz msg2      "Yiieeeee! Zdrhaam!"
+}
+
+
+namespace eval ::TunnelRatForager {
+	Texts::Set cz msg1      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg2      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg3      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg4      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg5      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg6      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg7      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg8      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg9      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg10     "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg11     "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg12     "Yip! Moje smrt....!"
+}
+
+
+namespace eval ::TunnelRatVermin {
+	Texts::Set cz msg1      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg2      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg3      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg4      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg5      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg6      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg7      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg8      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg9      "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg10     "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg11     "Nebudu utikat pred nekym takovym, jako jsi ty!"
+	Texts::Set cz msg12     "Yip! Moje smrt!"
+}
+
+
+namespace eval ::DefiasBandit {
+	Texts::Set cz msg1      "Ah, sance pouzit muj cerstve naostreny mec."
+	Texts::Set cz msg2      "Bretrstvo nebude tolerovat tve ciny."
+}
+
+
+namespace eval ::DefiasCutpurse {
+	Texts::Set cz msg1      "Ah, sance pouzit muj cerstve naostreny mec."
+	Texts::Set cz msg2      "Bretrstvo nebude tolerovat tve ciny."
+}
+
+
+namespace eval ::DarkIronSapper {
+	Texts::Set cz msg1      "Wahehe! Vezmu te do pekla s sebou!"
+}
+
+
+namespace eval ::VaelastrasztheCorrupt {
+	Texts::Set cz msg1      "Utikej nyni, dokud jeste muzes! Nechci ti ublizit!"
+}
+
+
+namespace eval ::Onyxia {
+	Texts::Set cz msg1      "Jake stesti! Obvykle kvuli presnidavce opoustim svuj brloh."
+	Texts::Set cz msg2      "Asi ste nedostali poradnou lekci, sebevrazi......."
+	Texts::Set cz msg3      "Ach jo.... Proc me porad chodi ten hmyz otravovat?"
+}
+

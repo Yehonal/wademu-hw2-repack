@@ -1,0 +1,304 @@
+Changes for 3.5.0 (Release: 31.10.2006)
+
+WoWQT:
+
+- option to disable the byte order maker (BOM) at top of the 
+  created UTF8 files
+- support for escort quests now also in the editor although it 
+  should be improved (by loading waypoints.scp too), note that
+  escort quests may not work if combined with other objectives
+
+MasterScript:
+
+- merged with spirit's latest version of it, requires now Start-TCL
+- (double) improved cheat protection vs. packet hacks
+- support for escort quests
+- some minor bug fixes
+- support für reputation level requirements with letter "p", 
+  so p1 means NPC's faction must be "friendly" to the player
+
+Changes for 3.4.0 (unlreleased):
+
+- quest_noxp.scp can now be created automatically by WoWQT
+- several unnessary entries (e.g. classes=0000) and dupe lines 
+  will now be removed automatically from the items.scp
+- Header of includes will not be lost anymore
+- UTF8-Marker are now also added to includes
+- quests_noxp.scp will not be loaded anymore
+- support für reputation requirements
+
+Changes for 3.3.0 (unlreleased):
+
+- added some stuff to modify certain object properties,
+  this is currently hidden to the user but may later be used
+  for extended edit function
+- fixed small bug that deleted the startquest key when no
+  quests where defined for this item but an externa quest 
+  script was assigned which needed this key
+
+Changes for 3.2.2 (unreleased):
+
+- (spell) buffs casted as reward from items didn't work
+- items which started more than one quest didn't work
+- areatable which actually contains quest categories updated (thx ZaenitH)
+- fixed profession limit for trainers who teach Apprentice Engineer
+- fixed crash bug with missing NPcTexts
+
+Changes for 3.2.1 (17.02.2006, script release only)
+
+- critical quest fix in MasterScript, a bug allowed players 
+  to easily repeat a quest again and again
+- bugfix for some not working delivery quests
+
+
+Changes for 3.2.0 (09.02.2006):
+
+Editor:
+
+- added new "apply DB-patch" feature that allows you to import
+  the included patch, which is based on snakes quests and creature
+  patch so you can turn your system to MAsterScript without having 
+  to import the rather outdated QDB
+- boxes with items, creatures etc. can now also be searched in the 
+  Objective Editor to speed up the process of adding new objectives
+- slightly modified GUI and its behaviour for the Dialog Editor
+- corrected quest default level list
+- new npctexts are now only generated if wowemu can't use the existing ones
+- reward repu is no longer deleted when QDB is imported
+- fixed bug with processing prereqs coming from "leads-to" quests,
+  option added for autogeneration for such prereqs 
+- fixed small bug with greeting emote
+- fixed bug that caused the reset of job flags 
+- fixed bug in dialog editor which cause that the text of 
+  the currently selected option got deleted if the "new option" 
+  button was clicked 
+- no more crashes if a DB is opended twice, it's nevertheless 
+  suggested to restart the tool if you want to edit another DB
+- delete button for options didn't work (dialog editor)
+- menus.txt renamed to dialogs.txt
+
+MasterScript:
+
+- added message if prim_prof_limit is reached
+- fixed bug with prim_prof_limit
+- fixed area trigger processing
+- fixed bug with default quest of GOs and items
+- fixed bug in processing of tcl commands of dialogs
+
+
+Changes for 3.1.0 (29.12.2005)
+
+Editor:
+
+- flag generation for profressions of NPCs
+- utf8 support for part descriptions of quests
+- display error for some quests for quest-start and/or finisher 
+- Quest Export didn't work
+- fixed flag problem for taxis on old emu
+- items and objects which finished a quest but started no quests didn't work
+- the l0-0 requirement is not saved anymore (dialog editor)
+- the old type of GOs is backedup if they get flagged as QuestGiver and
+  restored if they are no longer quest involved
+
+MasterScript:
+
+- added primary profession limit
+- added OnGossipEvent triggered by some objects
+- fixed a bug in requirements processing for the new "must not" operator
+
+Changes for 3.0.1 (22.12.2005):
+
+- fixed small bug in MasterScript for item quests
+- fixed small bug in WoWQT that prevented that level requirements for 
+  quests are displayed twice
+- the qtgemote key is no longer saved twice per entry
+- added more dummy functions to MasterScript for older emu versions
+- retcl during open dialogs should no longer cause TCL errors
+
+Changes for 3.0.0 (22.12.2005):
+
+Editor:
+
+- very enhanced and overhauled dialog system with new features (see below)
+- conditional greetings allow for example that class trainers greet classes 
+  they can train different than classes they can not train
+- alternative greeting texts (up to 10) per greeting type
+- NPC anwers will now be shown as unclickable texts at top as it should always 
+  have been 
+- conditonal answers allow complex dialogs
+- up to 10 alternative answer texts per processed answer
+- possibilty to enter npctext ids as base for answer and greetings, 
+  so all npcanswers can be kept (and translated) in the npctext.scp
+- optional emotes for greetings and answers
+- optional TCL and emu commands for each possible answer
+- support for default place holders "you have some taks to compelete" like
+  it was in QDB
+- a language mod (=collection of DB files containing only translated strings)
+  can be imported winto any DB with very few clicks, even if you don't want to
+  use the MasterScript
+- progress_desc is now imported from QDB and used for both events (incomplete 
+  and precomplete)
+- greeting etmote are now imported from QDB
+- WoWQT tries to find the original npctext ids for all texts used in QDB
+  (works only if you use an English npctext.scp!)
+- race requirements for quests other than "horde" and "alliance" 
+  were not imported from QDB
+- MasterScript.tcl in the emu scripts folder was not created or updated 
+  after DB save if QDB was imported during the current session
+- added hints to most controls of the dialog and quest editor
+- added compatibility to older emu versions 
+- keys of saved SCPs can now be sorted by importance or alphabetically
+- quests can now be displayed sorted by number or alphabetically
+- default greeting can new be defined in the preferences
+- all used npctexts will be generated dynamically to not to interfere original 
+  ids and to be accessible by the emu
+
+MasterScript:
+
+- added support for the new features described above
+- added compatibility for older emu versions
+- fixed minor bug that caused that class specific placeholders for
+  paladin and hunters were resolved vice versa
+
+Changes for 2.1.2 (26.11.2005)
+
+Editor:
+
+- item browser: staffs were not listed in r
+- item browser: the subclass field was always disabled 
+- item browser: possible crash if the search result list was empty 
+- item browser: sorted weapons alphabetically
+
+Changes for 2.1.1 (19.11.2005)
+
+Edit:
+
+- fixed small bugs in the behaviour of the new buff and spell controls
+- added some debug code so more detailed error messages are 
+  generated that can be sent via e-mail
+
+Changes for 2.1.0 (16.11.2005)
+
+Editor:
+
+- added the new quest rewards "spell" and "buff"
+- small bugfix for comments again
+- weapontrainer info options are now correctly imported from QDB
+
+MasterScript:
+
+- new quest rewards "reward_spell" and "reward_buff" supported
+
+
+Changes for 2.0.1 (15.11.2005)
+
+Editor:
+
+- small bug fix to import scp files with comments, note that comments behind
+  processed keys will be deleted when the DB is saved
+
+- added small readme in FAQ style which hopefully explains some basic things.
+
+
+Changes for 2.0.0 (10.11.2005)
+
+Editor:
+
+- added item browser/editor with some mass-modify functions
+
+- all NPC jobs are now supported 
+
+- all NPC jobs can fully be imported from QDB
+
+- NPC dialogs and texts including guard informations can now 
+  also be imported from QDB, the dialogs will should work better
+  than before (better icons, better "browsing")
+
+- added search function for boxes with npcs, items, gameobjects and quests
+
+- greeting texts (npctext) can now be changed in the dialog editor
+
+- added flag to disable the blue question mark if chat is available 
+
+- added flag to disable to prevent job specific chat if NPC has only one job
+
+- item texts (name+descript) can now be imported and exported, so you 
+  can simply import those texts from an old item file but keep all new 
+  stats and items
+
+- some GUI improvements and serveral bugfixes
+
+MasterScript:
+
+- added a lot of header comments that everybody can use the full potential 
+  of the script 
+
+- added support for placeholders starting with a "$" in dialogs (menus)
+
+- added support for the new npc jobs and other new features of the editor
+
+- option to auto-add a good-bye option to dialogs (enabled per default)
+
+- the Translate function is now "public" (=can be used by other scripts) 
+  such as the new EvalText function which replaces places holders with 
+  translated strings as defined in the msgs.def
+
+
+Changes for 1.2.0 (26.10.2005):
+
+Editor:
+
+- added requirements support for dialog options
+
+- added full support of include commands in scp files
+
+- fixed bug which deleted the header comments of scp files
+
+- utf8 byte order marker has now an own line, otherwise the emu 
+  would ignore the first section if it is at top of the file
+
+MasterScript:
+
+- added option to set minimap markers for NPCs who can finish quests (NpcPOI)
+
+- the yellow question mark for finishable quests has now a higher priority
+  than the yellow exclamation mark (new quests available)
+
+- added support for dialog option requirements
+
+- fixed small bug for skipped quest with different quest giver and finisher
+ 
+
+Changes for 1.1.0 (23.10.2005):
+
+Editor:
+
+- added QDBM like reward_xp calculation for QDB import if no reward_xp field is present
+  and the quest is new, otherwise the old reward_xp is simply kept if greater zero
+
+- added forgotten option to import quest files
+
+- added byte order maker for UTF8 at the beginning of all saved scps 
+
+- added time limit field
+
+- added repeatable option
+
+- renamed "Menu Editor" to "Dialog Editor" and added a small HowTo
+
+- the SCP load routine should now be more fail safe
+
+- removed flags edit field as the q-flags are undocumented and apparently unsupported anyway
+
+- fixed text import and export, now quest name and part descriptions are supported too
+
+- quest controls are now disabled if no quest is selected
+
+
+MasterScript:
+
+- skill check is now supported
+
+- repeatable quests are now supported
+
+- added setting to define behaviour of "wrong trainers" at top of the script

@@ -1,0 +1,15 @@
+Open gameobjects.scp in your Scripts folder 
+Press CTRL+F on your keyboard 
+Type: vator 
+Press Enter 
+find the gameobject id, example: [GAMEOBJ XXX] where XXX is the ID you want. 
+Also then after doing the first search you can just PRESS F3 to get the rest. 
+
+Ingame: 
+GM Commands to use: 
+.addgo gameobjectID 
+
+If you make a mistake or spawn the wrong object, you can do this: 
+Stand as close to the object as possbile: 
+.targetgo 
+.del 

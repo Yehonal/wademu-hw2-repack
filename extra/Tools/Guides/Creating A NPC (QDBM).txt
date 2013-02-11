@@ -1,0 +1,7 @@
+1. Create the NPC in creatures.scp with the scp details there (like model=, name=, damagereduction=, level=, etc... all those fields, including loottemplate)... If you will not do this you'll receive a warning that the NPC doesn't exist in your creatures file so the quest will be automatically disabled!
+2. Spawn that NPC, if you will not do this then the quest will be disabled because the NPC is not spawned (so theoretically if it is not spawned this means that the quest cannot be given by that NPC, right ???  )
+3. Now RUN QDBM and make the export... so you will not receive warnings and the quest will work!
+
+If you want to not receive those warnings there is a second possibility:
+1. Set the quest's type as UNIQUE so those warnings will not appear and the quest will not be disabled.
+2. In game as ADMIN (you need to have the speciffic admin level, look in your conf file) go to ANY NPC YOU WANT and set your quest as "enabled" on that NPC  (look in the menu " Manage unique/hidden quests " and select " Connect " speciffic to your quest!

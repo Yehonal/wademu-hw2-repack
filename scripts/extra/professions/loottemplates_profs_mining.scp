@@ -1,0 +1,186 @@
+
+[loottemplate 42] // Copper Vein
+loot=1210 0.975686
+loot=2770 100
+loot=2770 50
+loot=2770 25
+loot=2798 0.189096
+loot=2835 45.9101
+loot=4371 0.0000459752
+loot=4425 0.0000459752
+loot=5075 1.81556
+loot=5498 0.000137926
+loot=5503 0.00331021
+loot=5504 0.000275851
+loot=774 0.985616
+loot=818 0.989754
+loot=8766 0.0000459752
+loot=8846 0.0000459752
+loot=8952 0.0000459752
+loot=8953 0.0000459752
+
+[loottemplate 44] // Tin Vein
+loot=1206 1.12554
+loot=1210 0.998813
+loot=1529 0.269703
+loot=1705 0.986744
+loot=2771 100
+loot=2771 50
+loot=2771 25
+loot=2798 0.797348
+loot=2836 42.1077
+loot=5075 3.24603
+loot=5503 0.00232102
+loot=5504 0.00108314
+
+[loottemplate 45] // Incendicite Mineral Vein
+loot=3340 99.976
+loot=5833 99.96
+loot=9589 1
+
+[loottemplate 47] // Silver Vein
+loot=1206 1.49275
+loot=1210 1.00016
+loot=1705 0.975196
+loot=2775 100
+loot=2775 50
+loot=2775 25
+loot=5503 0.00249623
+
+[loottemplate 49] // Ooze Covered Silver Vein
+loot=1206 0.789889
+loot=1210 0.631912
+loot=1705 1.89573
+loot=2775 100
+
+[loottemplate 50] // Lesser Bloodstone Deposit
+loot=4278 99.983
+
+[loottemplate 51] // Iron Deposit
+loot=1529 1.22667
+loot=1705 1.0171
+loot=1710 0.000126175
+loot=2772 100
+loot=2772 50
+loot=2772 25
+loot=2838 40.1562
+loot=3864 0.752886
+loot=5504 0.00025235
+loot=7909 0.241247
+loot=7974 0.00075705
+
+[loottemplate 52] // Ooze Covered Iron Deposit
+loot=1529 1
+loot=1705 1
+loot=2772 10
+
+[loottemplate 53] // Indurium Mineral Vein
+loot=5833 99.9767
+
+[loottemplate 70] // Gold Vein ( was 54 )
+loot=1529 1.02061
+loot=1705 0.994604
+loot=2776 100
+loot=2776 50
+loot=2776 25
+loot=3864 1.01504
+loot=7974 0.00557201
+
+[loottemplate 55] // Ooze Covered Gold Vein
+loot=1529 1.63934
+loot=1705 0.252207
+loot=2776 100
+loot=3864 0.630517
+
+[loottemplate 56] // Mithril Deposit
+loot=11513 0.94489
+loot=3858 100
+loot=3858 50
+loot=3858 25
+loot=3864 0.747762
+loot=3928 0.000122745
+loot=4844 0.000122745
+loot=5500 0.000122745
+loot=5504 0.000122745
+loot=7909 0.73831
+loot=7910 0.740397
+loot=7912 39.8312
+loot=7971 0.000122745
+loot=7974 0.00822391
+loot=9262 0.983677
+
+[loottemplate 57] // Ooze Covered Mithril Deposit
+loot=3858 99.7777
+loot=3864 0.640816
+loot=7909 0.496959
+loot=7910 0.627738
+loot=7912 38.7171
+loot=9262 0.954685
+
+[loottemplate 58] // Dark Iron Deposit
+loot=11370 100
+loot=11370 50
+loot=11370 25
+loot=11382 0.513983
+loot=11754 0.40176
+loot=9262 0.96961
+
+[loottemplate 59] // Truesilver Deposit
+loot=15564 0.000959196
+loot=3864 0.957277
+loot=785 0.000959196
+loot=7909 1.41961
+loot=7910 1.01771
+loot=7911 100
+loot=7911 50
+loot=7911 25
+loot=8766 0.000959196
+loot=8952 0.000959196
+loot=8953 0.000959196
+
+[loottemplate 62] // Ooze Covered Truesilver Deposit
+loot=3864 0.524934
+loot=7909 1.83727
+loot=7910 0.874891
+loot=7911 99.825
+
+[loottemplate 63] // Small Thorium Vein
+loot=10620 100
+loot=10620 25
+loot=12365 40.005
+loot=11513 2.85363
+loot=12361 0.355051
+loot=12799 0.355051
+loot=7910 0.747788
+loot=7974 0.000661175
+loot=9262 0.966637
+
+[loottemplate 64] // Rich Thorium Vein
+loot=10620 100
+loot=10620 50
+loot=10620 25
+loot=11040 0.000323882
+loot=12361 0.638048
+loot=12363 2.92142
+loot=12364 0.627684
+loot=12365 40.1034
+loot=12799 0.638696
+loot=12800 0.658453
+loot=5498 0.000323882
+loot=5500 0.000323882
+loot=7910 0.75918
+loot=7971 0.000323882
+loot=7974 0.00259106
+
+[loottemplate 65] // Ooze Covered Rich Thorium Vein
+loot=10620 97.051
+loot=12361 0.607587
+loot=12363 3.0083
+loot=12364 0.829876
+loot=12365 40.1749
+loot=12799 0.726141
+loot=12800 0.681683
+loot=7910 0.963248
+
+
+

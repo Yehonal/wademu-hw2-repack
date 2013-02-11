@@ -1,0 +1,197 @@
+[loottemplate 7]  // Icecap
+loot=11040 0.00521621
+loot=13467 100
+loot=13467 50
+loot=13467 25
+
+[loottemplate 8]  // Gromsblood
+loot=11514 13.4665
+loot=8846 100
+loot=8846 50
+loot=8846 25
+
+[loottemplate 9]  // Grave Moss
+loot=3369 99.9173
+loot=7974 0.00635809
+
+[loottemplate 10]  // Goldthorn
+loot=3821 100.00
+loot=3821 50.00
+loot=3821 25.00
+loot=5500 0.00117881
+loot=7974 0.00589407
+
+[loottemplate 11]  // Golden Sansam
+loot=11514 4.41023
+loot=13464 100
+loot=13464 50
+loot=13464 25
+loot=7971 0.00217789
+loot=7974 0.0283126
+
+[loottemplate 12]  // Ghost Mushroom
+loot=8845 100
+loot=8845 50
+loot=8845 25
+
+[loottemplate 13]  // Firebloom
+loot=4625 100.00
+loot=4625 50.00
+loot=4625 25.00
+
+[loottemplate 14]  // Dreamfoil
+loot=11514 6.82539
+loot=13463 100
+loot=13463 50
+loot=13463 25
+loot=7974 0.00212961
+
+[loottemplate 15]  // Bruiseweed
+loot=2453 100.0
+loot=2453 50.0
+loot=2453 25.0
+loot=5056 0.113655
+loot=5503 0.00774923
+loot=5504 0.00774923
+
+[loottemplate 16]  // Blindweed
+loot=7974 0.0086672
+loot=8838 100
+loot=8838 50
+loot=8838 25
+loot=8839 99.7291
+
+[loottemplate 17]  // Black Lotus
+loot=13468 100
+loot=13468 50
+loot=13468 25
+
+[loottemplate 18]  // Arthas' Tears
+loot=11514 10.6593
+loot=8836 100
+loot=8836 50
+loot=8836 25
+
+[loottemplate 19]  // Stranglekelp
+loot=3820 100.00
+loot=3820 50.00
+loot=3820 25.00
+loot=5498 0.0040503
+loot=5503 0.0182264
+loot=5504 0.0607546
+loot=7974 0.00810061
+
+[loottemplate 20]     // Peacebloom
+loot=2447 100
+loot=2447 50
+loot=2447 25
+loot=2450 0.000397716
+loot=5056 0.873383
+loot=5498 0.000397716
+loot=5503 0.00397716
+
+[loottemplate 21]    // Silverleaf
+loot=5056 0.930706
+loot=5498 0.000315387
+loot=5503 0.00220771
+loot=765 100
+loot=765 50
+loot=765 25
+loot=8050 0.000315387
+
+[loottemplate 25]   // Mageroyal
+loot=2452 20.0408
+loot=5056 1.20408
+loot=5503 0.00654897
+loot=5504 0.000935567
+loot=785 100
+loot=785 50
+loot=785 25
+
+[loottemplate 26]   // Fadeleaf
+loot=3818 100.0
+loot=3818 50.0
+loot=3818 25.0
+
+[loottemplate 27]   // Briarthorn
+loot=2450 100
+loot=2450 50
+loot=2450 25
+loot=2452 39.8464
+loot=5056 0.96207
+loot=5503 0.00341402
+loot=5504 0.00273121
+
+[loottemplate 28]   // Khadgar's Whisker
+loot=3358 100
+loot=3358 50
+loot=3358 25
+loot=7971 0.00139575
+loot=7974 0.00558301
+
+[loottemplate 29]   // Earthroot
+loot=2449 100
+loot=2449 50
+loot=2449 25
+loot=5056 0.734197
+loot=5498 0.00070057
+loot=5503 0.00560456
+
+[loottemplate 31]  // Kingsblood
+loot=11040 0.000954882
+loot=3356 100.0
+loot=3356 50.0
+loot=3356 25.0
+loot=5503 0.000954882
+loot=5504 0.00381953
+
+[loottemplate 32]  // Liferoot
+loot=3357 100.0
+loot=3357 50.0
+loot=3357 25.0
+loot=5504 0.033651
+loot=7974 0.00269208
+
+[loottemplate 33]  // Mountain Silversage
+loot=11514 4.39885
+loot=13465 100
+loot=13465 50
+loot=13465 25
+loot=3821 0.00232374
+loot=7974 0.00232374
+
+[loottemplate 34]  // Plaguebloom
+loot=11514 11.0893
+loot=13466 100
+loot=13466 50
+loot=13466 25
+
+[loottemplate 35]  // Purple Lotus
+loot=5498 0.00271157
+loot=5500 0.00271157
+loot=7971 0.00271157
+loot=7974 0.0677893
+loot=8153 10.0762
+loot=8831 100
+loot=8831 50
+loot=8831 25
+
+[loottemplate 37]  // Sungrass
+loot=11040 0.00270819
+loot=11514 1.78334
+loot=7974 0.00541638
+loot=8838 100
+loot=8838 50
+loot=8838 25
+
+[loottemplate 39]  // Wild Steelbloom
+loot=3355 100.0
+loot=3355 50.0
+loot=3355 25.0
+loot=5504 0.00222767
+loot=7974 0.006683
+
+[loottemplate 41]  // Wintersbite
+loot=3819 100.00
+loot=3819 50.00
+loot=3819 25.00

@@ -1,0 +1,16 @@
+#Translated by @mLaPL - mlapeel@gmail.com
+namespace eval GuildBank {
+::Texts::Set en notmember "You Are Not Guild Member"
+::Texts::Set en noperm "Permission Denied"
+::Texts::Set en nocash "You Have No Cash !"
+::Texts::Set en addgold "You Add %s Gold To GuildBank"
+::Texts::Set en nogold "You Not Have %s Gold In GuildBank"
+::Texts::Set en getgold "You Get %s Gold From GuildBank"
+::Texts::Set en amount "You Must Write Amount"
+::Texts::Set en delitem "You Remove Item From GuildBank"
+::Texts::Set en getitem "You Get Item From GuildBank"
+::Texts::Set en additem "You Add Item To GuildBank"
+::Texts::Set en cash "Cash In GuildBank:%s"
+::Texts::Set en noitem "You Not Have This Item In GuildBank"
+::Texts::Set en soul_item "You Cannot Add This Type"
+}

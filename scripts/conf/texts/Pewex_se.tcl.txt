@@ -1,0 +1,16 @@
+#Translated by @ReVarre - ReVarre@gmail.com
+namespace eval GuildBank {
+::Texts::Set se notmember "Du är inte en medlem i någon guild"
+::Texts::Set se noperm "Åtkomst nekad"
+::Texts::Set se nocash "Du har inga pengar !"
+::Texts::Set se addgold "Du lade till %s guld till GuildBanken"
+::Texts::Set se nogold "Du har inte %s guld i GuildBanken"
+::Texts::Set se getgold "Du tar ut %s guld ur GuildBanken"
+::Texts::Set se amount "Du måste skriva hur mycket"
+::Texts::Set se delitem "Du tog bort saken ur GuildBanken"
+::Texts::Set se getitem "Du tar ut saken ur GuildBanken"
+::Texts::Set se additem "Du lade till en sak till GuildBanken"
+::Texts::Set se cash "Pengar i GuildBanken:%s"
+::Texts::Set se noitem "Du har inte denna saken i GuildBanken"
+::Texts::Set se soul_item "Du kan inte lägga till denna typen"
+}

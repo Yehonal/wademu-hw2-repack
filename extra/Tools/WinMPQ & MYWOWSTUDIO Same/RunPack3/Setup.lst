@@ -1,0 +1,12 @@
+[BootStrap]
+File1=1,,setup132.ex_,setup132.exe,$(WinPath),$(EXESelfRegister),,1/12/1996,171520,4.0.0.2422
+File2=1,,stkit432.dl_,stkit432.dll,$(WinSysPath),,$(Shared),9/4/2001,24576,4.0.2422.0
+
+[Files]
+File1=1,,MSCOMCTL.OC_,MSCOMCTL.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),6/26/1998,1062704,6.0.81.77
+
+[Setup]
+Title=Runtime Files Pack 3
+DefaultDir=$(WinSysPath)
+Setup=setup132.exe
+ForceUseDefDir=1

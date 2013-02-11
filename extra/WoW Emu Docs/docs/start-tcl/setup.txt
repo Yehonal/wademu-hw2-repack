@@ -1,0 +1,320 @@
+
+        This document is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+        This document is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+
+        Permission is granted to copy, distribute and/or modify this
+        document under the terms of the GNU Free Documentation License,
+        Version 1.2 or any later version published by the Free Software
+        Foundation; with no Invariant Sections, no Front-Cover Texts,
+        and no Back-Cover Texts. A copy of the license is available as
+        a companion document, as well as online at:
+
+                    <http://www.gnu.org/copyleft/fdl.html>
+
+
+        UNLIKE WHAT YOU ARE USED TO, THE "scripts/startup.tcl" SHOULD NOT BE
+        EDITED. ALL CHANGES ARE DONE IN THE FILES CONTAINED IN THE FOLDER
+        "scripts/tcl".
+
+
+How to upgrade the StartTCL System
+==================================
+
+ 1. Backup your modifications to the distributed files: "api/*". No other file
+    should have the need to be modified, so if you are editing any other
+    distributed files, you are not doing things right.
+
+ 2. Backup your modifications to the "scripts/conf/start-tcl.conf" file.
+
+ 3. Unpack the distributed archive and overwrite the existing files on your
+    system.
+
+ 4. Restore your modifications back to the corresponding files.
+
+
+How to setup the StartTCL System
+=================================
+
+ 1. Understanding the levels paradigm and implementation:
+
+    1. Some namespaces and procedures must be made available to others to allow
+       these to work. Classic start up sequence kept most of these procedures
+       in the "scripts/startup.tcl" file making it big and prone to accumulate
+       errors over time when edited.
+
+    2. The solution was to split that big file in smaller ones and edit these
+       instead. This worked from the manageability point of view but brought up
+       another problem, since those files were now loaded in OS and file system
+       dependent fashion, which led to errors when one expected a file to be
+       loaded and the system complained it wasn't.
+
+    3. The final solution was to allow each file to carry it's load order and
+       this is the origin of the level paradigm (this isn't anything new, it's
+       a system implemented in BSD style OSes as well as in some System V *NIX
+       flavors, it was simply adapted to our needs).
+
+    4. So we now have 5 arbitrary levels (well actually much more but that is
+       explained further down the text) where we can load scripts at:
+
+       A. This level is reserved for internal configuration and setting of
+          essential procedures. The distributed files that fit in this level are:
+
+              Custom.tcl
+
+       B. This level is reserved for the TCL API defined procedures. IT IS NOT
+          INTENDED TO HAVE ANY OTHER PROCEDURE, SINCE THE BASE PROCEDURES ARE
+          STILL BEING DEFINED. The distributed files that fit in this level
+          are:
+
+              api/*.tcl
+
+       C. This level is an open level where low level procedures that will be
+          needed for more complex scripts and procedures are defined. Such an
+          example are the procedures from Spirit's Custom namespace. The
+          distributed files that fit in this level are:
+
+              MasterScript.tcl
+
+       N. This level is the generic catch all level where standard scripts
+          like Honor, Buyback, Mail and the likes are expected to run at. Most
+          scripts will be running at this level, all those with level n as well
+          as those without a level. The distributed files that fit in this
+          level are:
+
+              GmTools.tcl
+
+          NOTE: For startup speedup you should have a level definition in all
+                your scripts (preferably at the top of the file), even if they
+                are to run at level n.
+
+       Z. This is the last resort level, guaranteed to run after all other
+          scripts. The distributed files that fit in this level are:
+
+              WorldLock.tcl
+
+    5. To make a TCL (or TBC, since both files are treated equal by StartTCL)
+       be loaded at a particular level the file must be edited and a comment
+       inserted at the top of the file BEFORE ANY NON-COMMENT OR NON EMPTY
+       LINES with the following format:
+
+       # StartTCL: <level>
+
+       Where <level> should be replaced by a, b, c, n or z. The whole line is
+       case insensitive, and any white space after the colon ":" is striped.
+       Alternatively the "Start-TCL:" form is also accepted.
+
+    6. At startup the "scripts/tcl" folder and its first level sub-folders are
+       parsed for all files ending either in TCL or TBC (case insensitive),
+       which in turn are alphabetically ordered and after which are parsed for
+       the StartTCL level directive, being reordered according to their loading
+       level. At any time you can obtain the ordered list of loaded files by
+       reading the "::StartTCL::scripts" variable.
+
+    7. The StartTCL system also includes the facility to load any libraries,
+       either native or external, loaded by the "pkgIndex.tcl" method from the
+       "lib/*" hierarchy.
+
+ 2. Start with a fresh folder:
+
+    1. Extract the contents of the archive to an empty folder, and change to
+       the "scripts/tcl" folder.
+
+    2. The "scripts/tcl" folder contains a clean set of files, adapted to
+       StartTCL, and they are full working procedures out of the box.
+
+    3. The "scripts/tcl/api" folder contains the TCL API procedures definition,
+       updated and adapted to StartTCL. They MOST LIKELY wont work if used
+       separated from the system without heavy editing.
+
+       NOTE: Based on the original WAD procedures, on information harvested at
+             WoWWiki and on information and example code contributed through
+             time by the community these procedures should be the most
+             Blizz-like that current information allowed.
+
+    4. The "scripts/conf/start-tcl.conf" file contains the default settings as
+       packed and should be the place where editing takes place.
+
+    5. The "scripts/conf/texts/StartTCL_en.tcl.txt" file contains the default
+       language definition strings for StartTCL. By copying it and changing its
+       contents you can localize it for your language.
+
+       NOTE: Please contribute your localization changes, so the whole
+             community can benefit.
+
+ 3. Identifying the distributed files in "scripts/tcl" :
+
+    1. Custom.tcl: this file contains the definition of the ::Custom namespace
+       procedures on which great part of StartTCL depends.
+
+    2. api/*.tcl: these contain the updated TCL API defined procedures and
+       SHOULD NOT need to be changed except as noted in the next point:
+
+    3. Due to several possible choices and/or constant evolution, StartTCL does
+       not include neither a Rest State System, nor a Stats System, so:
+
+       1. When setting up the Rest State System, the procedure called
+          ::WoWEmu::GetRestStateMultiplier in "api/WoWEmu_CalcXP.tcl" must be
+          edited to take in account this system (instructions inside the file).
+
+       2. When setting up the Stats System the "api/WoWEmu_DamageREduction.tcl"
+          file must be edited and the Stats System aware procedure must be used
+          instead of the default one (instructions inside the file).
+
+    4. api/WoWEmu_Command.tcl and api/WoWEmu_Commands.tcl: these are separated
+       from the above since they are classically the most messed up parts of
+       the TCL API. Only edit these files when there is NO OTHER WAY, for
+       instance, one of the commands defined in them must be changed, else be
+       aware of, AND USE, the excellent "::Custom::AddCommand" procedure that
+       is part of StartTCL and will allow you to add new commands on the fly,
+       without messing with these files. The files themselves are using the
+       above mention procedure, so you will find their content different than
+       most descriptions you'll read.
+
+    5. MasterScript.tcl: this file is the standard version simply with a
+       StartTCL level included and some minor changes. It's loaded at level c
+       since as informed by its author it has no dependencies whatsoever,
+       althought some scripts depend on it being loaded. StartTCL is Quest
+       System agnostic, MasterScript is included only for convenience because
+       of pre-requirements of generic widespread scripts.
+
+    6. GmTools.tcl: this is a modified version of GmTools 1.0.4 by Faerion,
+       adapted to StartTCL and with some custom modifications by Spirit. It is
+       a good GM tool and is here for your benefit.
+
+    7. WorldLock.tcl: this file is part of the StartTCL system and is an
+       automatic lock and unlock to the "world.save" file. Issue ".ws help" for
+       instructions. It is loaded at level Z to avoid interference with any
+       possible script that may attempt to access the "world.save" at start up
+       for whatever reason. Mind that it locks the file by default on startup.
+       You can modify this behaviour in "start-tcl.conf".
+
+       NOTE: if you are spawning and/or waypointing and the lock is active your
+             server will crash when saving, so remember to deactivate it prior.
+
+ 4. Transfer your procedures/scripts to StartTCL:
+
+    1. Copy your standard scripts to the StartTCL folder hierarchy and add the
+       level information to it to speed up the startup process (optional)
+
+    2. Remember that both TCL and TBC should live in the same folder hierarchy
+       "scripts/tcl" from now on, so if you have a separate folder for TBC,
+       mix them with the TCL files.
+
+    3. When done backup your current "scripts/startup.tcl" file and your
+       "scripts/tcl" folder and replace them with the ones you prepared for
+       StartTCL.
+
+    4. Edit "scripts/conf/start-tcl.conf" and tailor it to your needs.
+
+    5. Restart your server (or .retcl if it was running), check and fix any
+       eventual errors, if none enjoy the new system.
+
+ 5. Suggestions for a clean and organized system:
+
+    1. Keep configuration files in the "scripts/conf" folder. Most scripts have
+       already adopted this folder for configuration files, so you may end to
+       only need to adapt your own scripts to use it. You can even move the
+       "emu.conf" file into it leaving a stub "emu.conf" in its place with the
+       following line in it (remember to leave an empty line before and after):
+
+       #include scripts/conf/emu.conf
+
+    2. You can consider doing the same to the SCP files by creating a folder
+       "scripts/scp", moving your files into it and leave stub files similar to
+       the above example pointing to the real files, for instance "items.scp":
+
+       #include scripts/scp/items.scp
+
+    3. Make your scripts easily readable, by formating their content in a
+       consistently way and commenting and documenting the procedures you
+       create.
+
+       TCL 101: Note that the usage of "global" outside a procedure is a TCL
+                error and so, should not be used, instead use "variable". With
+                the use of "variable" there is no need to use "set" afterward,
+                simply add the value to initialize the variable with, in the
+                same line.
+
+ 6. The hidden levels in StartTCL (advanced fine-tuning):
+
+    1. The above described level paradigm is a simplification of the internals
+       of the StartTCL system and is the RECOMENDED way to use it. Internally
+       the levels are converted to numeric values and only then ordered.
+
+    2. Another notation accepted by StartTCL is to use the numbers directly so
+       you can use for instance:
+
+       # StartTCL: 500
+
+       One particularity is that you will have to use 3 numbers when using this
+       notation no more no less. The possible range is from 000 to 999 which
+       means 1000 levels and with the possibility of more than 1 script per
+       level even control freaks should be more than satisfied with the
+       fine-tuning possibilities.
+
+    3. For reference here is the relation between the standard levels and the
+       numbers they translate into:
+
+       a = 100
+       b = 200
+       c = 300
+       n = 500
+       z = 999
+
+ 7. The developer control options for StartTCL (advanced control):
+
+    1. Due to the ease of changing levels presented by StartTCL, it might end
+       up being that a needed script may be set to load at a later time than
+       another that may require it, so a mechanism to control such situations
+       is presented in the form of two procedures ::StartTCL::Provide and
+       ::StartTCL::Require.
+
+    2. ::StartTCL::Provide <name> [version]
+
+           name                 - the name of the script/package that is
+                                  provided.
+           version              - the version of the script provided.
+
+       This procedure is intended to allow the developer to declare which
+       facilities this script provides. If called from within a namespace
+       definition both "name" and "version" can be omited since it takes those
+       values from the namespace and the VERSION variable. The suggested way of
+       using this procedure is:
+
+           if { [ ::Custom::GetScriptVersion "StartTCL" ] >= 0.9.0 } {
+               ::StartTCL::Provide "MyScript" $::MyScript::VERSION
+           }
+
+       or if called from a hypotetical namespace "MyScript", the functional
+       equivalent:
+
+           namespace eval MyScript {
+           	variable VERSION <version>
+           	...
+               if { [ ::Custom::GetScriptVersion "StartTCL" ] >= 0.9.0 } {
+                   ::StartTCL::Provide
+               }
+           }
+
+    3. ::StartTCL::Require [-exact] <name> [version]
+
+           -exact               - optional flag, when present, must be the
+                                  first argument to the procedure and indicates
+                                  that the version match must be exact (a newer
+                                  version is treated as an older and fail).
+           name                 - the name of the script/package that is
+                                  required.
+           version              - the version of the script provided.
+
+       This procedure is intended to allow the developer to declare the
+       required functionalties for its script to run and should be used either
+       at a initialization function or at the top of the script. The suggested
+       way of using this procedure is:
+
+           if { [ ::Custom::GetScriptVersion "StartTCL" ] >= 0.9.0 } {
+               ::StartTCL::Require "Custom" 1.92
+           }
+
+
+For more information, the latest version and to report errors and/or bugs visit
+the support thread at <http://catvir.mooo.com/viewtopic.php?t=1042>.

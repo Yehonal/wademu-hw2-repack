@@ -1,0 +1,13 @@
+668 	Language Common 		(18570) 	0 
+671 	Language Darnassian 		(18619) 	0 
+815 	Language Demon Tongue 		(25871) 	0 
+814 	Language Draconic (NYI) 	(25847) 	0 
+672 	Language Dwarven 		(18639) 	0 
+7340 	Language Gnomish 		(206256) 	0 
+17737 	Language Gutterspeak 		(473947) 	0 
+817 	Language Old Tongue (NYI) 	(25914) 	0 
+669 	Language Orcish 		(18586) 	0 
+670 	Language Taurahe 		(18602) 	0 
+813 	Language Thalassian (NYI) 	(25821) 	0 
+816 	Language Titan (NYI) 		(25893) 	0 
+7341 	Language Troll 			(206273)	0

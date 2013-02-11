@@ -1,0 +1,175 @@
+#
+# StartTCL: n
+#
+
+#
+# File sorted by Hochelf <hochelf@gmail.com>
+#
+
+namespace eval CaptainNoteo {
+	proc GossipHello { npc player } {
+		SendGossip $player $npc { text 0 "Teleport me" }\
+	}
+	proc GossipSelect { npc player option } {
+		switch $option {
+			0 { Teleport $player 0 -3734 -593 7 }
+		}
+		SendGossipComplete $player
+	}
+	proc QueryQuest { npc player questid } { }
+	proc QuestStatus { npc player } { return 1 }
+	proc QuestHello { npc player } { }
+	proc QuestSelect { npc player questid } { }
+	proc QuestAccept { npc player questid } { }
+	proc QuestChooseReward { npc player questid choose } { }
+}
+
+namespace eval WantedPosterHogger {
+	proc QueryQuest { obj player questlistid } {
+		if { $questlistid == 93 } {
+			if {[GetQFlag $player Q176] == 0} {
+				if { [GetQuestStatus $player 176] == 1 } {
+					SendQuestReward $player $obj 176
+				} else {
+					SendQuestDetails $player $obj 176
+				}
+			}
+		}
+	}
+	proc QuestAccept { obj player questid } { }
+	proc QuestChooseReward { obj player questid choose } {
+		SetQFlag $player "Q$questid"
+	}
+}
+
+namespace eval AncientofLore {
+	proc GossipHello { npc player } {
+		SendGossipComplete $player
+		SendSwitchGossip $player $npc 0
+	}
+	proc GossipSelect { npc player option } { }
+	proc QueryQuest { npc player questid } { }
+	proc QuestStatus { npc player } {
+		set reply 0
+		if {([GetQuestStatus $player 952] == 3)} {
+			return 5
+		}
+		return $reply
+	}
+	proc QuestHello { npc player } {
+		if {[GetQuestStatus $player 952] == 3} {
+			SendGossip $player $npc { quest 952 "Grove of the Ancients." }
+			return
+		}
+		set questCount 0
+		set newQuest 0
+		set gossipQuest 0
+		set compliteQuest 0
+		if {$questCount > 1} {
+			SendQuestsList $player $npc
+		} elseif { $newQuest != 0} {
+			SendQuestDetails $player $npc $newQuest
+		} elseif { $gossipQuest != 0} {
+			SendGossip $player $npc $gossipQuest
+		} elseif { $compliteQuest != 0} {
+			SendQuestReward $player $npc $compliteQuest
+		}
+	}
+	proc QuestSelect { npc player questid } {
+		if {([GetQuestStatus $player $questid] == 1) || (([GetQuestStatus $player $questid] == 3) && ($questid == 952))} {
+			SendQuestReward $player $npc $questid
+		} else {
+			SendQuestDetails $player $npc $questid
+		}
+	}
+	proc QuestAccept { npc player questid } { }
+	proc QuestChooseReward { npc player questid choose } {
+		SetQFlag $player "Q$questid"
+	}
+}
+
+namespace eval WantedHogger {
+	proc QueryQuest { obj player questlistid } {
+		if { $questlistid == 93 } {
+			if {[GetQFlag $player Q176] == 0} {
+				if { [GetQuestStatus $player 176] == 1 } {
+					SendQuestReward $player $obj 176
+				} else {
+					SendQuestDetails $player $obj 176
+				}
+			}
+		}
+	}
+	proc QuestAccept { obj player questid } { }
+	proc QuestChooseReward { obj player questid choose } {
+		SetQFlag $player "Q$questid"
+	}
+}
+
+namespace eval TwilightTome {
+	proc QueryQuest { obj player questlistid } {
+		if { $questlistid == 549 } {
+			if {[GetQFlag $player Q949] == 0} {
+				if { ([GetQuestStatus $player 949] == 3)&&([GetLevel $player] >=15) } {
+					SendQuestReward $player $obj 949
+				}
+			}
+			if {[GetQFlag $player Q949] == 1} {
+				if { ([GetQuestStatus $player 950] == 4)&&([GetLevel $player] >=15) } {
+					SendQuestDetails $player $obj 950
+				}
+			}
+		}
+	}
+	proc QuestAccept { obj player questid } { }
+	proc QuestChooseReward { obj player questid choose } {
+		SetQFlag $player "Q$questid"
+		SendQuestDetails $player $obj 950
+	}
+}
+
+namespace eval TheThreshwackonator4100 {
+	proc GossipHello { npc player } {
+		set pLvl [GetLevel $player]
+		set qs2078 0
+		SendSwitchGossip $player $npc 1
+		if {([GetQuestStatus $player 2078] == 3) && ($pLvl >= 18) } {
+			set qs2078 { text 1 "First Slot." }
+		}
+		SendGossip $player $npc $qs2078 {npctext 758}
+	}
+	proc GossipSelect { npc player option } {
+		SendGossipComplete $player
+	}
+	proc QueryQuest { npc player questid } {
+		SendQuestComplete $player 2078
+	}
+}
+
+namespace eval PoorOldBlanchy {
+	proc OnOpen { obj player lootid } {
+		if {[GetQFlag $player Q151] == 0} {
+			if { [GetQuestStatus $player 151] == 3 } {
+				return 1
+			} else {
+				return 0
+			}
+		} else {
+			return 0
+		}
+	}
+}
+
+namespace eval MillyHarvest {
+	proc OnOpen { obj player lootid } {
+		if {[GetQFlag $player Q3904] == 0} {
+			if { [GetQuestStatus $player 3904] == 3 } {
+				return 1
+			} else {
+				return 0
+			}
+		} else {
+			return 0
+		}
+	}
+}

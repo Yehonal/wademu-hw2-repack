@@ -1,0 +1,135 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+# Those additions come from UWC, adapted to StartTCL by Hochelf
+#
+#
+# Dutch translation by Drakkaa <www.drakkaa.nl>
+#
+
+
+namespace eval ::WoWEmu::Commands {
+	Texts::Set nl select_npc                "Selecteer een NPC alstublieft."
+	Texts::Set nl item_not_found            "Voorwerp niet gevonden."
+	Texts::Set nl copper                    "Koper"
+	Texts::Set nl silver                    "Zilver"
+	Texts::Set nl gold                      "Goud"
+	Texts::Set nl invalid_money             "Onjuiste hoeveelheid geld"
+	Texts::Set nl bad_cmd_args              "Onjuiste commando argumenten"
+	Texts::Set nl amount                    "hoeveelheid"
+	Texts::Set nl added_to                  "toegevoegd aan"
+	Texts::Set nl location_added            "Locatie toegevoegd."
+	Texts::Set nl no_location_name          "Geen (of een te korte) locatiennaam."
+	Texts::Set nl target                    "Doel"
+	Texts::Set nl no_locations              "Geen locaties."
+	Texts::Set nl bad_command               "Onjuist commando."
+	Texts::Set nl created_for_route_and     "Gecreëerd voor een route en gelinkt aan een waypoint"
+	Texts::Set nl created                   "gecreëerd"
+	Texts::Set nl banip_usage               "Type het op deze manier: ban <ip> / <list> / <undo>. voor <ip> vervang laatste getal door een 0 Voorbeeld 184.157.23.0. Geen spatie aan het einde van een IP adres. <Undo> wist het laatst toegevoegde ip"
+	Texts::Set nl no_ips_lines_to_remove    "Geen IPs of geen regel te verwijderen"
+	Texts::Set nl undo_done_last_line       "Undo klaar. laatste regel verwijderd"
+	Texts::Set nl ip_already_banned         "Fout > IP staat al in de Ban-lijst"
+	Texts::Set nl ip_list_updated_noerror   "IP Ge-Banned lijst upgedate. Geen fouten"
+	Texts::Set nl thank_for_report          "Badankt \n met jouw hulp maken we er aan betere server van."
+	Texts::Set nl bug_select                "Selecteer het object met bugs (of jezelf)."
+	Texts::Set nl cant_cast_that            "Dat kun je niet casten!"
+	Texts::Set nl input_spell               "Wel een spreuk toevoegen."
+	Texts::Set nl no_adminpass_conf         "je hebt de adminpass.conf niet!"
+	Texts::Set nl incorrect_password        "Incorrect wachtwoord!"
+	Texts::Set nl setpassword_enabled       "Oude wachtwoord correct, type .setpassword (nieuw wachtwoord) om het wachtwoord te veranderen."
+	Texts::Set nl deleted_from              "verwijderd van"
+	Texts::Set nl not_in_inventory          "staat niet in je inventaris"
+	Texts::Set nl only_gm_learn             "Alleen een GM mag dat leren!"
+	Texts::Set nl learned_all_langs         "Alle talen geleerd!"
+	Texts::Set nl learned_gm_spells         "Alle Gm spreuken geleerd!"
+	Texts::Set nl not_while_dead            "Je kunt dit commando niet gebruiken, als je dood bent."
+	Texts::Set nl invalid_selection         "Onjuiste selectie"
+	Texts::Set nl removed_from              "verwijderd van"
+	Texts::Set nl location_not_found        "Locatie niet gevonden."
+	Texts::Set nl location_deleted          "Locatie verwijderd."
+	Texts::Set nl specify_location          "Noem een locatie alstublieft."
+	Texts::Set nl cant_emote                "Dat kan je niet met een emote gebruiken!"
+	Texts::Set nl input_emote               "Een emote toevoegen aub."
+	Texts::Set nl linked_to_start           "Gebonden aan de start"
+	Texts::Set nl way_saved                 "weg bewaard, Waypoint"
+	Texts::Set nl way_starts_on             "weg begint hier Waypoint"
+	Texts::Set nl start_way_before          "start een weg voor je het kunt bewaren!"
+	Texts::Set nl target_player             "Je moet een speler selecteren!"
+	Texts::Set nl is_gm                     "De geselecteerde speler is een GM!"
+	Texts::Set nl no_gm                     "De geselecteerde speler is geen GM!"
+	Texts::Set nl no_one_jailed             "Niemand zit in de gevangenis."
+	Texts::Set nl character_name            "Karakter Naam"
+	Texts::Set nl reason                    "Reden"
+	Texts::Set nl jailed_by                 "Gevangen gezet door"
+	Texts::Set nl free_not_sure             "Humm... Niet zeker, wie wil je uit de gevangenis halen?"
+	Texts::Set nl is_not_jailed             "zit niet gevangen"
+	Texts::Set nl unjailed_false            "De speler is niet uit de gevangenis gehaald"
+	Texts::Set nl you_freed_by              "Je bent uit de gevangenis bevrijd door"
+	Texts::Set nl free_and_teleported       "is nu vrij en word geteleport naar"
+	Texts::Set nl jail_usage                "Selecteer speler\n.waarom gevangen: zet de geselecteerde speler gevangen\n.gevangenis lijst: geeft een lijst van alle gevangengezette spelers\n.free: halt de geselecteerde speler uit de gevangenis "
+	Texts::Set nl jail_not_sure             "Humm... Niet zeker, Wie moet in de gevangenis?"
+	Texts::Set nl jail_reason_syntax        "Het moet zo (met de geselecteerde speler): .jail reason"
+	Texts::Set nl now_jailed_by             "Nu gevangen gezet door"
+	Texts::Set nl for                       "Voor"
+	Texts::Set nl is_now_jailed_for         "is nu vastgezet voor"
+	Texts::Set nl not_jailed                "niet gevangen"
+	Texts::Set nl cant_teleport             "je kunt jezelf niet teleporten."
+	Texts::Set nl name                      "Naam"
+	Texts::Set nl file                      "Bestand"
+	Texts::Set nl merged_with_main_file     "samengevoegd met waypoints.scp bestand."
+	Texts::Set nl the_original              "Het origineel"
+	Texts::Set nl deleted_run_rescp         "is verwijderd. denk eraan een .rescp te doen voordat je een Waypoint geeft aan een NPC."
+	Texts::Set nl missing                   "Mist"
+	Texts::Set nl file_to_merge             "bestand om samen te voegen!"
+	Texts::Set nl is_reporting              "word geraporteerd"
+	Texts::Set nl pvp_usage                 "\nGurubashi PvP Arena:\nOm de PvP arena binnen te gaan type .pvp enter\nOm de PvP arena te verlaten type .pvp leave\n voor informatie type .pvp info"
+	Texts::Set nl already_there             "Je bent er al!"
+	Texts::Set nl no_enter_while_jailed     "Je kunt de arena niet in als je in de gevangenis zit!"
+	Texts::Set nl not_in_arena              "je kunt de arena niet uit, omdat je er niet inzit!"
+	Texts::Set nl pvp_info                  "Help:\nGevechten vinden alleen plaats in de ring!\nOvertreders worden in de gevangenis gezet\nRaporteer abuse aan GMs"
+	Texts::Set nl changepassword_first      "Gebruik .changepassword (huidig wachtwoord) eerst!"
+	Texts::Set nl password_changed          "Wachtwoord veranderd."
+	Texts::Set nl waypoint_doesnt_exist     "Deze waypoint bestaat niet!"
+	Texts::Set nl ok_waypoint               "OK: Waypoint"
+	Texts::Set nl set_for_npc               "zet voor geselecteerde NPC"
+	Texts::Set nl waypoint                  "Waypoint"
+	Texts::Set nl shown                     "laten zien"
+	Texts::Set nl route_started_waypoint    "Route gestart, waypoint"
+	Texts::Set nl finish_before_new         "Beëindig huidige route voor je een nieuwe begint!"
+	Texts::Set nl select_target_first       "Selecteer doel eerst!"
+	Texts::Set nl cant_tame_elite           "Je kunt geen elites tam maken!"
+	Texts::Set nl cant_tame_player          "Je kunt geen players tam maken!"
+	Texts::Set nl cant_tame_npc             "Je kunt geen NPCs tam maken!"
+	Texts::Set nl cant_tame_friendly        "Je kunt geen vriendelijke dieren tam maken!"
+	Texts::Set nl cant_tame_higher          "Je kunt geen beesten tam maken die een hogere level als jou hebben!"
+	Texts::Set nl beast_tamed               "Je hebt het beest succesvol tam gemaakt."
+	Texts::Set nl you_not_gm                "Je bent geen GM!"
+	Texts::Set nl closer_to_target          "Je moet dichter bij het doelwit staan!"
+	Texts::Set nl now_visible               "Je bent nu zichtbaar!"
+	Texts::Set nl specify_gender            "Je moet je geslacht aangeven:\nm is man en f is vrouw!"
+	Texts::Set nl pet_ran_away              "Je tamme beest rent weg!"
+	Texts::Set nl select_pet                "Je moet eerst een getemt beest selecteren!"
+	Texts::Set nl pet_more_life             "Je dier heeft meer voedsel nodig!"
+}
+

@@ -1,0 +1,2448 @@
+0.4735.1.9
++++ scp: scripts/waypoints.scp
++++ tcl api: SetWayPoint npc pointid
++++ waypoints: walking.
++++ waypoints: save/load.
++++ waypoints: migration from spawns to spawned.
+
+0.4735.1.8
++++ bugfix: SetFaction must clear agro list.
++++ world: optimisation.
++++ bugfix: then client disconnected, monster must remove agro for him.
++++ versions: pktlog/pktparse 4784(1.8.2)
++++ bugfix: items opening without keys (shells).
++++ movements: falling damage, first touch.
+
+0.4735.1.7
++++ wdb: processed 4.5 Gb 1.8.0 from anonymous helper.
++++ world: one big optimisation.
+
+0.4735.1.6
++++ addons: url=
++++ mpq: mpq.exe v.2.2, some new types of compression.
++++ versions: 4735(1.8.0)...4784(1.8.2)
++++ tcl api: CastSpell from to spellid (for players, npcs, gameobjects)
+    return 1 if succesful, else 0
++++ tcl api: SetFaction to faction_template (for npcs and gameobjects)
++++ tcl api: GetNumLinked from
+    return number of linked objects to 'from'
+
+0.4735.1.5
++++ addons: pub=
++++ addons: util wowsig.exe released.
+    for creation of .sig .pub and crc for addons.
+
+0.4735.1.4
++++ quests: then item has given as reward of quest, it's checked as quest item.
++++ tcl api: GetHealthPCT mobile
++++ tcl api: ChangeMoney player +-money (return 0 if not enough money,
+    otherwise 1 if money consumed or added)
++++ addons: hidden addons: enabled=2
++++ addons: secure addons: crc=04C1C776D 
+    note: this crc only only for standart addons, don't use it for user addons.
+
+0.4735.1.3
++++ addons: new addons enabling system.
++++ addons: every addon must have own section in the emu.conf like:
+    [client_addon Blizzard_TrainerUI]
+    enabled=1 (must be 0-banned or 1-enabled)
+    then client connecting and section for addon does not exist, you will see a 
+    message in the log file.
++++ tcl api: GetLinkObject from
+    spawned are linked to spawn, items are linked to container, loot are linked 
+    to body, etc.
+
+0.4735.1.2
++++ bugfix: can heal yourself by spells like Holy Light.
++++ bugfix: restrict distance of mass spells.
++++ mpq.exe: new version 2.1 released, bugfix: 'Unknown chunk blablabla' then
+    extracting of maps from Kalimdor_42_24.adt 
++++ maps: yes, maps must be reextracted.
++++ maps: new water.dat from 1.8.0
++++ tcl api: SpellEffects::SPELL_EFFECT_PORTAL from spellid
++++ db: saves/mails
+
+0.4735.1.1 full
++++ scp, tcl: from General Base (13.10.2005)
++++ 4735: new DBCs.
++++ 4735: pktlog/pktparse.
+
+0.4735.1.0
++++ versions: 4735(1.8.0)
++++ 4735: new opcodes, structures.
+
+0.4671.2.6
++++ spells: checking of allies/enemies for all spells, very primitive.
++++ performance: in the log special fields "TIMING:", please watch and report 
+    if very big values exist (>1000ms).
++++ items: bind on pickup items are bounded then buyed from vendors.
++++ items: error message then trying to destroy a non-empty bags.
++++ items: error message then trying to trade a non-empty bags.
+
+0.4671.2.5
++++ locks: first touch.
++++ skills: growing of mining skill depends of a mining vein type.
++++ skills: all weapon skills have limit level*5 now.
++++ talents: apply to damages from auras.
++++ bugfix: Power Word: Shield must absorb only requested amount of damage.
++++ spells: items creation - right number of items.
++++ bugfix: Greather Magic Essence <-> 3 Lesser Magic Essencies
++++ tcl api: ConsumeItem player entry number 
+    items from backpack and subpacks consumed. if not enough - returned 0 else 1
++++ spells: creature type is checked for targets.
+
+0.4671.2.4
++++ bugfix: chests and mining was broken in the 0.4671.2.0
++++ bugfix: quests was broken in the 0.4671.2.3, sorry.
++++ bugfix: lootable items has double loot generation then clicked twice.
++++ locks: Lock.dbc
+
+0.4671.2.3
++++ quests: then questgiver have status QUEST_STATUS_COMPLETE (yellow (?)),
+    he always have a yellow mark at the minimap.
++++ spells & talents: optimizations.
++++ talents: Improved Fireball and all other casting time adjustment spells.
++++ bugfix: critical and spell critical is no more 4x but 2x damage.
+
+0.4671.2.2
++++ bugfix: damage resisted - wrong calculation in the Power Word: Shield.
++++ bugfix: lag at mass spells.
++++ spells: Bonefire Damage and other similar.
++++ spells: Blood Tap and all  other similar spells.
++++ spells: dispell, remove curse, remove poison, remove disease and other shit.
++++ bugfix: client patch system didn't work.
++++ spells: Blink.
+
+0.4671.2.1
++++ bugfix: Horse Riding was breaked in the 0.4671.2.0
++++ bugfix: Ice Armor removed after first hit.
+
+0.4671.2.0
++++ spells: Shadow Shield and all other damage shield spells.
+    if two different shields are exist - only one will be used - maximal,
+    all spell bonuses coming from the caster of used shield.
++++ spells: Power Word: Shield, and all other absorbing spells.
++++ talents: spell duration talents.
++++ spells: Blizzard, Volly and some other mass spells.
++++ spells: new targets counting method.
+
+0.4671.1.4
++++ tcl api: TaxiNodeExplorered player nodeid
++++ bugfix: Shot Wand right cooldown.
++++ bugfix: spell damage log has wrong message.
++++ spells: critical damage from spells.
++++ spells: resistance from spells.
++++ scp: creatures.scp: resist=spell_school damage_reduction_procents
+    resist=#SPELL_SCHOOL_FIRE 15
++++ versions: 4671(1.7.0)...4695(1.7.1)
++++ spells: Lightning Shield and other spells with limited number of charges.
++++ talents: Combustion and other crit chances.
++++ bugfix: Curse Of Doom can't be casted on players.
++++ spells: Shield Block and other similar spells.
++++ requested feature: <GM> in a chat only for plevel>1
++++ spells: turn on/off Counterattack and Riposte spells usabling.
+
+0.4671.1.3
++++ spells: right message "Return you to ..." on Hearthstone.
++++ hotfix: Moonfire 20k damage again, sorry.
+
+0.4671.1.2
++++ bugfix: Moonfire 20k damage.
++++ talents: Improved Fireball and all other spell modification (only visuals
+    yet, except damage and mana cost).
++++ bugfix: binds on equip items was not binded.
++++ bugfix: some kind of Bear Form didn't work.
+
+0.4671.1.1
++++ spells: Drain Life and other leech spells.
++++ spells: right message "You Gain XXX Rage."
++++ spells: Bloodrage and all periodical energize spells.
++++ spells: Life Tap right health cost calculation.
++++ spells: turn on/off Overpower spell usabling.
++++ bugfix: "Create All" didn't work in craft skills.
++++ spells: Backstab and other weapon procent spells.
++++ scp: если есть несколько одинаковых секций - будет использоватся последняя,
+    раньше использовалась первая.
++++ export: 16x_all6 138k objects from 1Gb pktlogs.
++++ spells: new damage calculation (maximal near to blizz)
++++ bugfix: extra digits then join a chat channel.
+
+0.4671.1.0
++++ versions: supported 4671(1.7.0)...4671(1.7.0)
++++ 4671: structs, packets.
++++ 4671: pktlog/pktparse.
++++ bugfix: crash on 58 spelleffect.
++++ bugfix: problems with dual casting at Ice Armor.
++++ combat, spells: rage is dropped if out of combat by 1 in a second.
+
+0.4500.2.20
++++ spells: Relentless Of Seal and other additional damage at attack spells.
++++ spells: Charge generate rage. Charge movement.
++++ bugfix: polymorph forever if saved then polymorphed.
++++ bugfix: wrong gender of player voices.
++++ quests: wrong message about founded quest items.
++++ loot: message - You receive loot: [blabla]
++++ tcl api: EmoteState player npc emote (234 is a tree chopping).
++++ tcl api: NpcPOI player npc 1(on)/0(off)
++++ spells: extra attack spells.
++++ spells: all creature tracking spells.
+
+0.4500.2.19
++++ death: message - Your equipped items suffer a 10% durability loss
++++ tcl api: SpellEffects::SPELL_EFFECT_SEND_EVENT to from eventid
++++ spells: all Knock Back spells.
++++ spells: alcogolic spells.
++++ spells: Lay Of Hand and other maxhealth spells.
++++ spells: Touch of Weakness and other spell at attack spells.
+
+0.4500.2.18
++++ spells: message - Your blablabla heals you for blablabla... and green 
+    digits at the healed face.
++++ spells: message - You gain XXX Mana.
++++ spells: message - You create blablabla...
++++ spells: all Mana Drain spells.
++++ spells: message - You drain XXX mana from blabla, you gain YYY mana.
+
+0.4500.2.17
++++ stat.hml: additional statistics: uptime, name, owner, version
++++ battlefield: new packets.
++++ spells: all polymorphic spells.
++++ friends: and ignores lists temporary disabled.
+
+0.4500.2.16
++++ items: refresh proficiencies then learned weapons.
++++ bug: empty chat channels was not removed.
++++ channels: password checking.
++++ channels: message 'you r left channel'.
+
+0.4500.2.15
++++ enchanting: enchanted items visible in the equipment.
++++ combat: player weapon mode is visible to other players.
++++ tcl api: FishNotHooked player
++++ tcl api: FishEscaped player
++++ items: item set pieces names.
++++ fixed bug: can't remove talisman from neck.
++++ login: dead, pet.
++++ tcl api: KickPlayer player
+
+0.4500.2.14
++++ friends list: ready.
++++ ignores list: ready.
++++ tcl api: LearnSpell player spellid
++++ vendors: complete stacks selling.
++++ memory: separate heap for network.
+
+//======= new format of changelog =======================================
+
+27.08.2005
++++ tcl api: SpellEffects::SPELL_EFFECT_SCRIPT_EFFECT { to from spellid }
++++ tcl api: AddItem player itemid
++++ taxi: exploration. player can't fly to unexplored taxi node.
+    чтобы разведать нового таксиста надо с ним поговорить.
++++ RS: для сложных случаев роутинга можно использовать конструкции типа:
+    ws_host=123.123.123.123/255.255.255.0 124.124.124.124
+    т.е. можно указывать ip сервера находящийся вне подсети. старое 
+    использование не меняется, следующие кончтрукции легальны как и раньше:
+    ws_host=123.123.123.123/255.255.0.0
+    ws_host=wow.freaks.com
+    а в такой конструкции маска по умолчанию теперь 0.0.0.0(INADDR_ANY):
+    ws_host=123.123.123.123
+    строк может быть сколько угодно как и раньше.
+
+26.08.2005 0.4500.2.10
++++ fishing: remove "Fishing" message then break link.
+
+22.08.2005 0.4500.2.9
++++ spells: Capture Spirit and Drain Soul spell items.
+
+21.08.2005 0.4500.2.8
++++ scp: новый синтаксис во ВСЕХ scp: 
+    1) любое целое число X можно заменить на конструкцию X..Y что будет 
+    обозначать random от X до Y включительно. например level=20..30 будет 
+    обозначать уровень от 20 до 30.
+    2) любое целое число X можно также заменить на конструкцию X,Y,Z что будет
+    обозначать random из списка X,Y,Z. например model=454,460 будет обозначать
+    случайный выбор модели либо 454 либо 460. длинна списка неограничена.
+    примечание 1: распределение в длинных списках неравномерное, т.е.
+    первый член списка всегда имеет шанс 0.5 а остальные выпадут с затухающей 
+    вероятностью. например для четырёх членов это будет 0.5 0.25 0.125 0.125
+    примечание 2: многие поля, например из items.scp, которые хранятся в WDB 
+    у клиента не могут быть рандомизованы.
+
+20.08.2005
++++ requested feature: ghost water walking.
++++ items: bonuses from enchanted items (stats).
+
+19.08.2005 0.4500.2.7
++++ version: 4500 (1.6.0) ... 4565 (1.6.2 China)
++++ emu.conf: new section [import] 
+    repeated values: dont_import_map= dont_import_loc=
++++ tcl api: GetLocation object
+
+18.08.2005
++++ scp: items.scp for enchanting and disenchanting from Gulliver[]
++++ pktlog: export and scripts from ~600mb pktlogs from Hotabych, Oh0tnik, gvr
+
+17.08.2005
++++ loot: money=-1 (no money), money=0 (money level *( Rand( 5) +1))
+
+16.08.2005 0.4500.2.6
++++ spells: disenchant.
++++ items.scp: part=
+
+14.08.2005
++++ spells, combat: Battle, Deffensive, Berserker Stances can be casted only in
+    combat, and removed then you lost combat target.
+
+13.08.2005
++++ high items only from green.
++++ items.scp: variation=
+
+12.08.2005 0.4500.2.5
++++ bug: can't cast from Light Armor Kit
++++ items: предметы исчезают после использования не сразу.
+
+11.08.2005
++++ items: enchanting
++++ items: high items (...of the Defense)
++++ emu.conf: [game] high_item_chance=100 (procents of high items in the drop)
++++ bug: crash on some tcl api commands.
+
+10.08.2005 0.4500.2.4
++++ items: enchantment first touch.
+
+06.08.2005 0.4500.2.3
++++ wdb: very big npctext/quests from anonymous.
+
+04.08.2005
++++ versions: 4500(1.6.0)...4544(1.6.1)
++++ 4544: pktlog/pktparse
++++ combat: Dual Wield ability. damage is summed, animation is randomised.
+
+03.08.2005
++++ tcl api: *::OnFocus object player focus_type (for gameobject)
+
+02.08.2005 0.4500.2.2
++++ bug: join to chat channel without name crash.
++++ tcl: Commands.tcl from Gulliver[WG]
++++ export: rest of 1.5.x pktlogs, 300 mb of 1.6.0
++++ scp & tcl from General Base (many changes).
+
+01.08.2005
++++ bug: in tcl api Say with empty text make crash.
++++ bug: nonempty bags shouldn't be moved.
++++ bug: Demon Skin броня не включается сразу после каста 
+         (не только в этом спелле).
+
+31.07.2005 0.4500.2.1
++++ tcl api:
+    GetName player
+    GetPos object (m x y z)
+    GetSkill player
+    SetSkill player value maxvalue
+    GetGuid object (guid is returned in standart wowemu style: lead 0 and hex)
+
+29.07.2005
++++ requested feature: in emu.conf:
+    [welcome]
+    line=bla...
+    line=bla bla bla...
+    line=blabla...
++++ security: all keys must be changed.
++++ tcl api: BreakSpellLink player
++++ tcl api: WoWEmu::FishingPing { player bobber seconds_remaining }
++++ tcl api: WoWEmu::FishingOpen { player bobber deep }
++++ bug: при поворотах не всегда устанавливался heading.
++++ 9x version: network_sleep_ms= is now used.
++++ spells: fishing - замах удочкой.
+
+28.07.2005 0.4500.2.0
++++ tcl api: GO_CustomAnimation object animation
++++ tcl api: Loot player body loottemplate loottype
+
+27.07.2005 0.4500.1.9
++++ spells: fishing - right distance, direction, bobbler position, 
+    water checking....
++++ tcl api, commands: WoWEmu::Command procedure are used _before_ standart 
+    command handler. so - you can replace any standart command by your own 
+    (and with your own checkings). if WoWEmu::Command return string begin 
+    with "." it's used as ordinary standart command, otherwise it's printed
+    on the screen.
++++ bug: very long input strings crash the server.
+
+26.07.2005 0.4500.1.8
++++ bug: если нехватает места в бекпаке, квестовый предмет даёт + к квесту.
++++ bug: правильная работа спелла Web.
+
+23.07.2005
++++ combat: block only by shield or buckler, but not orb or weapon in off-hand.
++++ vendor: don't sell noprice items.
+
+22.07.2005 0.4500.1.6
++++ maps, ppoints: динамическое распределение квадратов. занимаемая память
+    упала с 411 мб до 82 мб. второй результат - не должно быть падений от
+    выхода обьекта за пределы карты.
++++ bug: acceptors=0, workers=0
+
+21.07.2005 0.4500.1.5
++++ bug: неправильное отображение позиций в party.
++++ tcl api: GetPlevel $player
++++ tcl api: GetObjectType $object
+    types are: 0=object not found, item=1, container=2, creature=3, 
+               player=4, gameobject=5, corpse=7
+
+20.07.2005 0.4500.1.4
++++ maps: максимальные значения -18000...18000
++++ tcl api: SendQuestDetails изменён согласно указаниям munche.
++++ bug: умножение предметов при начале квеста с предмета.
+
+19.07.2005 0.4500.1.3
++++ tcl api: SpellEffects::SPELL_EFFECT_QUEST_COMPLETE { to from questid }
++++ items: item loot. синтаксис такой же как и у лута г.о. и кречуров:
+    loot=7 100.0
+    loottemplate=11111 100.0
++++ items: item removed after item loot.
+
+18.07.2005
++++ bug: items: not soulbounded from loot.
++++ bug: items: dupes.
+    комментарий: и блин, такую мифологию развили вокруг дупов... а надо было
+    всегото - торгануть предметом из дополнительной сумки, и потом дождаться
+    save-load, вот их и два.
+
+17.07.2005
++++ 4500: pktlog/pktparse
++++ 4500: wdb utils
++++ bug: spells: Ghost Wolf right model.
++++ bug: tradeskills: right consumed count of items. (если предметы в разных 
+    кучках то забиралось неправильное количество).
+
+16.07.2005 0.4500.1.2
++++ 9x: версия способна уже принимать соединения.
++++ tcl api: WoWEmu::OnPlayerDeath player killer
++++ tcl api: WoWEmu::OnPlayerResurrect player
++++ spells: all auras removed then npc dead.
+
+15.07.2005 0.4500.1.1
++++ 4500: gossip problems.
++++ 4500: problims with chat in the channels.
++++ 4500: cooldown problems.
++++ emu.conf: [system] patch_connection_timeout=900
+    дело в том, что пока патч передаётся, никаких пингов не предусмотрено,
+    и чтобы соединение не оборвалось, надо установить таймаут.
++++ error_dump.log threads list.
++++ os support: раздельные версии под win9x/win2k/wine и win2k3/winxp
+    комментарий: сейчас версия win9x нерабочая, очень хотелось бы получить
+    то что пишет wine при запуске, чтобы увидеть все несовместимости.
+
+14.07.2005 0.4500.1.0
++++ versions supported: 1.6.0-1.6.0
++++ 4500: structures
++++ export: from pktlog 1.5.x 499mb 84820 objects
++++ bug: accounts overwrite from creation.
++++ dbutil: в ремотном режиме долгая пауза на последней записи.
+    для любителей подробностей коды ошибок для DB_OPCODE_SC_ERROR:
+    #define DB_ERROR_RECORD_LOCKED		1
+    #define DB_ERROR_NOT_EXIST			2
++++ 4500: new dbcs
+
+13.07.2005 0.4442.2.5
++++ tcl api: SendPOI $player $flags $x $y $type $unk $text
+
+12.07.2005 0.4442.2.4
++++ conection_timeout= снова работает.
+
+09.07.2005 0.4442.2.3
++++ bugs: more locks in logs output, crash at 00:00
++++ logs: colors for error messages
++++ db: сохранение аккаунтов при любом save.
++++ db: text accounts don't used any more! import it with DButil in exclusive 
+    mode, backup, remove and forget about it :)
+
+08.07.2005
++++ dbutil: more gui, Clear accounts db, Import accounts db from text files.
+
+07.07.2005
++++ bug: many not closed handles.
++++ bug: memory leaks in the network.
++++ emu.conf: [system]: http_acceptors=10 http_workers=1 rs_acceptors=10 
+    rs_workers=1 ws_acceptors=10 ws_workers=1
+    комментарий: acceptors это число одновременно возможных конкурирующих 
+    входящих соединений, ограничения нет, при возможных ddos атаках 
+    рекомендуется ставить большое значение. workers это количество тредов 
+    конвееров, теоретически должно примерно соотвествовать количеству CPU 
+    умноженному на 2. максимальное значение 100. 10 и 1 это значения по 
+    умолчанию. если поставить 0 на одном - входные соединения на этом порту 
+    приниматься не будут.
++++ emu.conf: [game]: pploadoff=true ppoff=true
+    комментарий: ppoff выключает использование ppoints подобно команде .ppoff
+    (можно потом включить обратно в игре), pploadoff выключает загрузку ppoints
+    из файлов.
+
+06.07.2005 0.4442.2.2
++++ network: эффективная многопоточность для нескольких процессоров.
+    комментарий: к сожалению, исрользуя функции спецефичные для платформы NT,
+    мы действительно потеряли совместимость с win9x и wine. для её 
+    восстановления под эти платформы надо писать отдельный network.
++++ network: новые lock.
++++ bug: 100% загрузка cpu при использовании DButil
+
+05.07.2005 0.4442.2.1
++++ свежий баг с .2.0: CHAR= без 0 впереди.
++++ свежий баг с .2.0: нет дисконнекта.
++++ свежий баг с .2.0: сервер неможет нормально остановится.
+
+04.07.2005
++++ db bug: неверный размер записи, креш.
++++ accounts: выловлено много мелких багов.
++++ db: при старте все аккаунты перегоняются в базу.
+
+03.07.2005 0.4442.2.0
++++ network: полностью переписан на использование AcceptEx, Overlapped, 
+    IO Completion Ports. не знаю как это будет вести себя в wine, но 
+    совместимость с Win9x теряется точно. производительность становится 
+    на порядок выше. пока временно обработчик только один поток, в дальнейшем 
+    планируется сделать всё по науке, с учётом количества процессоров.
+
+01.07.2005
++++ 18 wdb
++++ tcl: from General Base. сейчас ГенералБаза является основной и для scp и
+    для tcl.
++++ first version of db.dll released.
++++ first version of DButil.exe released.
++++ saves/accounts.*
+    примечание: аккаунты всё еще используются старые, из accounts/* но база 
+    пополняется по мере захода игроков в игру. DButil.exe работает только при
+    запущенном wowemu.exe, если аккаунты необходимо редактировать без 
+    запущенного сервера - используйте DButil_exclusive.exe
+    порт для коммуникации с модулем дб фиксированный - UDP 8090
+
+30.06.2005
++++ game versions supported: 1.5.0...1.5.2
++++ external db: udp интерфейс.
++++ external db: dbutil.exe для редактирования аккаунтов.
+
+25.06.2005 0.4442.1.8
++++ www: stat.xsl <stats/players/player/ip>
++++ external db: first using for accounts.
+
+24.06.2005
++++ tcl: from Slayer, munche: DunMorogh, Durotar, EnwynnForest, RedridgeMountains,
+    Ironforge, Stormwind, Westfall
++++ external db: Create, Open, AddRecord, Save
+
+23.06.2005
++++ cleanup: Tamed Crawler
++++ requested feature: stat.xml <stats/players/player/ip>
+
+22.06.2005 0.4442.1.7
++++ bug: Client UI error then party member is out of range.
++++ bug: несколько пропущенных проверок на записываемость файлов, могло 
+    вызывать креши.
++++ quests: part1= part2= part3= part4= не загружались.
+
+21.06.2005
++++ 4449: pktlog/pktparse.
++++ tcl: from munche - Ironforge and Stormwind
+
+20.06.2005
++++ external db: first touch.
+
+19.06.2005 0.4442.1.6
++++ .cleanup: Imp Minions, wards, eggs, standards, eyes
++++ bug: talents not verified by server.
++++ tcl api: BankerList player npc
++++ tcl api: TaxistList player npc
++++ tcl api: WoWEmu::ExplorationXP { player location }
+
+18.06.2005
++++ bug: permanent disconnects of slow connections.
++++ часть #0 и #132 ошибок найдена и побеждена.
++++ tcl: from Slayer (AI and StormWind), Trainers
+    пожалуйста, удалите или переименуйте scripts/tcl/Tainers -> scripts/tcl/Trainers
+
+17.06.2005 0.4442.1.5
++++ patch system: имя файла патча теперь wow-patch.mpq как и на офф.
+    еще раз для непонятливых - патч ложится в папку с исходной версией, т.е.
+    для патча 1.5.0-1.5.1 это будет scripts/client_patches/4442enUS/ а не /4449
++++ mpq: bzip2 parts.
+
+16.06.2005 0.4442.1.4
++++ network: going to threads model.
++++ patch system: ограничение на 16к снято.
++++ versions: диапазон версий - 4442(1.5.0)...4449(1.5.1)
++++ requested feature: flush log buffers before error exit.
++++ classes: Coldridge Valley Gift Voucher :)
+
+15.06.2005
++++ patch system: scripts/client_patches/*
+    можно положить патчи ClientPatch.rar по субдиректориям соответсвующим
+    версии клиента. патчи попадут к клиенту. размер на одно скачивание временно
+    ограничен 16к.
++++ bugs: trying to fight with network lags.
+
+14.06.2005 0.4442.1.3
++++ bug: "Charges 0" on all magic items.
++++ accounts: ADATA= from players.save moved accounts MD5=
++++ accounts: scripts/default_account/*.dat
+    можно выставить дефолтные конфиги для игрока. это убирает проблему белого
+    окна лога в клиенте при первом заходе.
+
+13.06.2005
++++ cleanup: remove all spawned npcs and go.
++++ cleanup: remove all spawns with npc with player faction.
++++ commands: .respawnall
+    хочу предупредить, что это не респавнит всех нпц, а подготавливает к 
+    мгновенному респавну, как только появится игрок в пределах видимости.
+
+12.06.2005
++++ auth: account details.
++++ bugs: trying to fight with network packets fragmentation.
++++ scp: creatures different loading.
++++ tcl: from munche for Dun Morogh
+
+10.06.2005 0.4442.1.2
++++ 4442: new opcodes.
++++ 4442: pktlog/pktparse.
++++ tcl api: Distance object1 object2
++++ tcl api: AI::CanAgro npc player
++++ tcl api: AI::CanUnAgro npc player
+
+09.06.2005 0.4442.1.1
++++ 4442: structures.
++++ 4442: DBCs.
++++ tcl: 2 from munche, 1 from Slayer.
++++ quests: warning about bad npctext section in the gossip (especialy for Slayer :))
++++ bug: gossip switching is wrong.
++++ bug: wine incompatibility.
+
+08.06.2005 0.4375.1.13 (for China 1.4.4 only build)
++++ bug: multipage item.
++++ versions: max_build=9999
++++ tcl api: GetSelection player
+
+07.06.2005
++++ durability: death -10%, spirit healer resurrect -25%
++++ tcl: from MadMax and munche.
++++ pktlog: 3rd big part of export.
+
+06.06.2005
++++ items: durability: init, save, load.
++++ dbc: DurabilityCosts.dbc
++++ items: durability repairing.
++++ combat: durabuility damage.
+    оружие портится при ударе им (даже неудачном), и при парировании чужого 
+    удара. щит портится при блоке. вещи армора портятся при успешном ударе 
+    по владельцу.
+
+05.06.2005 0.4375.1.12
++++ world: spawn entry is 1 now (instead of 99999999).
+    don't worry, all spawns will converted automaticaly.
++++ world: in loading, remove teleport, walk, connected flags form players.
++++ AI: base attack distance for dragons is now 10
++++ AI: attack distance is depended on healths of unit and player.
++++ AI: remove agro if distance 2x biggest then attack distance.
+
+04.06.2005
++++ spells: bottles of quick mana restore.
++++ inventory: casting from secondary backpacks.
++++ bug: bugs with inventory (some dupe bugs has gone away too).
+
+03.06.2005 0.4375.1.11
++++ scp: rewrited loading for items.scp, spellcost.scp, areatriggers.scp,
+    quests.scp, pages.scp, npctext.scp.
+    very fast access now, but less functionality (you can't use custom 
+    big sections numbers like 99999999).
+    это заметно сказывается на скорости, и почти незаметно увеличивает 
+    занимаемую память, на время загрузки это не сказывается.
++++ special console key for emulating of lag: CTRL-ALT-S
+
+02.06.2005
++++ bug: "Your wowemu.key seems to old! make a new one."
++++ bug: problem with some opening quest G.O. (i.e. Stolen Tome)
+
+01.06.2005 0.4375.1.10
++++ scp: char ';' is no more make a comment (bug: problem with "$gsir:lady;"
+    expression in the quests.scp). "//" and "/*" is still comment expressions.
++++ tcl api: последние необязательные параметры будут выводится только если они
+    имеют ненулевую длинну в функциях:
+    SendQuestDetails $player $npc $qid "name" "desc" "details"
+    SendQuestRequestItems $player $npc $qid "name" "desc"
+    SendQuestReward $player $npc $qid "name" "desc"
+    в противном случае используются параметры из соответсвующих полей в quests.scp
+    это позволяет например пропустить поле name, и изменить только desc.
++++ bug: orbs can't be equiped.
++++ tcl api: button "Complete" in the SendRequestItems in the killing quests.
+
+31.05.2005
++++ bug: уже мертвый нпц или игрок может кастовать.
++++ pktlog: вторая часть большого экспорта (53000)
++++ tcl: from Slayer & munche
+
+30.05.2005 0.4375.1.9
++++ maps: water.dat
+
+28.05.2005
++++ tcl api: Emote { mob emoteid }
+    номера эмоций смотреть в scripts/defines.scp (EMOTE_*)
++++ tcl api: Say { mob language emoteid }
+    номера language смотреть в scripts/defines.scp (LANG_*)
+
+27.05.2005
++++ xp: дополнительные проверки.
++++ xp: в группе считается индивидуально на каждого члена группы 
+    (через WoWEmu::CalcXP) с персональными бонусами и ограничениями.
++++ spells: проработка channeled спеллов (флаги, прерывание).
+
+26.05.2005 0.4375.1.8
++++ bug: при logout/login/death на грифоне - остаётся скорость 1.6
++++ bug: парализованный нпц продолжал драться.
++++ bug: при наложении roots npc не останавливался.
++++ spells: снятие roots при повреждении.
+    при парринге - 100%, при блоке, evade, dodge, hit - 50%, при промахе roots
+    не снимается.
+
+25.05.2005
++++ versions: 4341...4413 (1.4.0...1.4.3)
++++ bug: прокачка на спиритхилерах.
++++ bug: изготовление некоторых предметов - растёт не тот скилл.
++++ tcl: образец WoWEmu::Command
++++ tcl: AI.tcl от Slayer всё растёт и растёт...
++++ bug: двойное обучение одному и тому же спеллу.
++++ spells: открывание всех ГО (нового чара надо для этого).
++++ CMSG_2CE log flood.
++++ bug: очень большие значения block. теперь parry,block,evade,dodge 
+    ограничены 75%
+
+24.05.2005 0.4375.1.7
++++ quests: кнопка Continue в QuestRequestItems. (чтобы она загарелась, нужно 
+    чтобы все deliver= были собраны, src_item и kill не учитываются).
++++ tcl api: quests event *::RequestReward { npc player questid }
+    как всё это делается можно посмотреть в HelloWorld.tcl
+    всем скриперам рекомендуется также почитать комменты в DurnanFurcutter.tcl
+    и образец (не оптимальный) работы с последовательным списком квестов в
+    Darthalia.tcl
+
+23.05.2005
++++ cмeнa ключeй.
++++ big export from all 1.4.x pktlogs (283608 spawns)
+
+22.05.2005
++++ scp: new script: npctext.scp
++++ tcl api: SendGossip { player npc { npctext 192 } { text 4 "Hello" } { quest 66 }... }
+    npctext может быть только один в вызове этой функции. если их несклько -
+    будет использоваться последний.
++++ scp: npctext= в creatures.scp, только для информации скриптерам, не используется.
+
+21.05.2005
++++ tcl: from Zanuff and Slayer
++++ pktlog: 56 mb
++++ bug: http is not secure with some sequences.
+
+20.05.2005 0.4375.1.6
++++ packets researching.
+
+19.05.2005
++++ maps: new format. all maps must be reextracted.
+    maps: новый формат. все карты надо перераспаковать.
++++ maps: правильное определение границ локаций, и exploration.
++++ tcl: from MadMax & Slayer
+
+18.05.2005 0.4375.1.5
++++ taxi: корабли и дирежабли (все)
+
+17.05.2005
++++ bug: random stance visual.
++++ ppoints: не сохранять пустые файлы.
++++ bug: crash then pet killed.
+
+16.05.2005
++++ taxi: полёты на грифонах
+
+15.05.2005 0.4375.1.4
++++ 4394: диапазон версий расширен 1.4.0 - 0.5.0(1.5.0test)
++++ 4394: packets
++++ 4394: pktlog
++++ 4394: areatriggers
+
+14.05.2005 0.4375.1.3
++++ bug: cooldowns
++++ spells: правильный кулдаун для stealth
++++ spells: правильный вид stealth, battle stance, defensive stance
++++ spells: Garotte and other rogue spells in stealth
++++ dbc: TaxiPathNode.dbc
+
+13.05.2005 0.4375.1.2
++++ bug: mounts & speed.
++++ spells: stealth.
++++ craft: требование forge & anvil при изготовлении.
++++ tcl: WestFall from Slayer, some fixes of Kirp tcls in the DunMorogh
++++ tcl api: WoWEmu::Command { args }
+    сюда попадают все команды игрока, которые не могут быть обработаны.
+
+12.05.2005
++++ pkts, wdbs, generalbase....
++++ quests: dupe qflags
++++ tcl api: ClearQFlag $player $flag
++++ quests: добавление необходимых предметов более общим образом, например 
+    из магазина.
++++ quests: fix for new QuestStatus system.
+    # QUEST_STATUS_NONE			0	// no mark on the head, chat not available
+    # QUEST_STATUS_COMPLETE		1	// gray (!) mark,       chat not available
+    # QUEST_STATUS_UNAVAILABLE		2	// no mark,             chat available, req higher level
+    # QUEST_STATUS_INCOMPLETE		3	// gray (?) mark,       chat available
+    # QUEST_STATUS_AVAILABLE		4	// yellow (!) mark,     chat available
+    # QUEST_STATUS_COMPLETE		5	// yellow (?) mark,     quest complete, need reward
+    # QUEST_STATUS_UNK6			6	// yellow (!) mark
+    # QUEST_STATUS_REPEATABLE		7	// blue (?) mark
+
+11.05.2005
++++ bug: при наложении нескольких одинаковых аур скорости (Eartbind totem)
++++ AI: после смерти труп больше не двигается, а лежит там где умер.
++++ tcl: AI.tcl from Slayer
+
+10.05.2005 0.4375.1.1
++++ block: для игроков.
++++ block: npc с щитом тоже имеют шанс (5%).
++++ block: зависимость от Strength.
++++ dodge: для игроков.
++++ dodge: npc тоже имеют шанс (5%).
++++ dodge: зависимость от Agility.
++++ evade: для игроков.
++++ evade: npc тоже имеют шанс (5%).
++++ dodge, parry, block: зависят от скилла defense.
++++ critical: defense оброняющегося понижает шанс.
++++ skills: рост скилла defense.
++++ go: открывание Locked.
+
+09.05.2005
++++ 517 mb packets and 1 wdb
+
+08.05.2005
++++ диапазон версий 1.4.0-1.4.2
++++ rats catching.
+
+07.05.2005 0.4375.1.0
++++ parry: для игроков.
++++ parry: npc с оружием тоже имеют шанс (5%).
++++ critical: для игроков, коофициент 4.
++++ critical: npc тоже имеют шанс (5%).
++++ critical: зависимость от Agility.
+
+05.05.2005 0.4364.1.1
++++ bug: проблемы со скоростью после смерти.
++++ bug: "Welcome to []"
++++ AI: преследование игрока с вычислением промежуточных расстояний. нпц бьёт
+    на ходу только в случае если время пробега меньше времени удара.
++++ AI: убрано агро при наведении на нпц.
++++ AI: удаление агро на дальнем расстоянии.
+
+04.05.2005
++++ 4364: диапазон версий 1.4.0-1.4.1
++++ 4364: wowpktlog
++++ go: способ садится на стулья изменен.
++++ commands: .cleanup расширен.
++++ network: буфер еще расширен.
+
+03.05.2005 0.4364.1.0
++++ weapons and armor proficiences
++++ spells: all speed changing spells
++++ spells: mount spells has changed, different speed effect at different mounts.
++++ tcl api: SendQuestRequestItems { player npc qid  qname qdesc }
+
+03.05.2005 0.4341.1.5
++++ stats: health & mana growing rate k=spirit/(level+19)
++++ pktlogs, wdbs: 274 mb
++++ commands: .cleanup удаляет тотемы, двойные ГО (расстояние <5 без учёта z),
+    ГО привязанные к игрокам, обьекты с плохим линком.
+
+2.05.2005
++++ pktlogs, wdbs: 200 mb
++++ /pvp (it is posilble complete disable it in the emu.conf:server_rules)
++++ при создании нпц если maxhealth отсутствует в темплейте, он считается
+    по формуле level * 32, для элиты и боссов увеличивается в 2,3,4,5 раз.
++++ stats.xml: map, zone, plevel, race, class
++++ tcl: from Slayer, munche, gvr
+
+1.05.2005
++++ ai: нпц останавливается при gossip на 60 секунд.
++++ spells: Arcane Missiles
+
+30.04.2005
++++ сmенa kлючeй. пpoвеpка на cтаpые kлючи.
++++ tcl api: GetCreatureType $npc
++++ startup.tcl: CalcXP is different
++++ tcl api: расширенный формат (старый формат тоже поддерживается) -
+    SendQuestDetails $player $npc $qid $qname $qdesc $qdetails
++++ tcl api: расширенный формат (старый формат тоже поддерживается) -
+    SendQuestReward $player $npc $qid $qname $qdesc
+
+29.04.2005 0.4341.1.4
+
+28.04.2005
++++ 4341: WDB
++++ bug: #0 errors.
++++ builds expanded 4341(1.4.0)...4346(1.3.3china o.b)
++++ ai: npc снова бьют на ходу.
++++ при отключенной pp системе - ппоинты не собираются и не используются.
++++ bug: crash on world load.
+
+27.04.2005 0.4341.1.3
++++ pktlog: spellcost.scp from pkts.
++++ pktlog: train= trainer_type= trainer_text= from pkts.
++++ pktlog: обработано 212 мб логов из разных источников.
+
+26.04.2005 0.4341.1.2
++++ более правильное определение зоны.
++++ bug: поплавки и дуэльные флаги.
++++ bug: забыл положить в прошлый апдейт новый ssleay32
++++ pktlog: equipmodel= и спавны для gtype=3
++++ scp: equipmodel= (имеет больший приоритет чем equip=)
+
+25.04.2005
++++ изменен порядок загрузки скриптов.
++++ убрана надпись о невозможности загрузить .adt
++++ export, scp: from pkt & wdb
++++ tcl: from dimm, munche
++++ bug: spawned creatures is not a pets sometime.
++++ bug: xp from pets.
++++ requested feature: открытие сокетов только после загрузки мира.
+
+24.04.2005
++++ rats catching.
++++ диапазон поддерживаемых билдов ограничен 4341-4341
+
+23.04.2005
++++ rats catching.
+
+22.04.2005 0.4341.1.1
++++ rats catching.
+
+21.04.2005 0.4341.1.0
++++ 4341: packets, structures.
++++ 4341: dbc.
++++ pp: убрана проверка на загрузке ппоинтов.
+
+20.04.2005
++++ rats catching.
+
+19.04.2005
++++ classes: всем добавлены herthstones
++++ scp, pktlog, tcl, export: from MadMax, dimm, Niger, Oh00tnik
++++ exports from pktlog: поправлены флаги у ГО, убраны дуэльные флаги и поплавки.
++++ saves: геймобьекты поплавки и дуэльные флаги не сохраняются больше.
++++ spells: при рыбалке правильно появляется поплавок.
+
+18.04.2005
++++ spells: проверяется дистанция перед началом каста.
++++ spells: если по кастеру бьют - время кастования увеличивается на 25% при
+    каждом ударе.
+
+17.04.2005 0.4297.1.8
++++ spells: Holy Strike, Raptor Strike
++++ scp: new script: loottemplates.scp
+    [loottemplate xxx] не обязательно должны быть цифровыми, можно называть их
+    и например по имени нпц, или еще както, но одинм словом. в описании нпц это
+    выглядит как loottemplate=FleshEater 100.0
+    вызовов loottemplate= в описании нпц может быть сколько угодно.
++++ scp: в [creature ] и [gameobject ] можно указывать деньги для лута money=
+    если описания нет - они вычисляются старым методом.
++++ dbc: SpellRange.dbc
+
+16.04.2005
++++ tcl, scp: from Slayer, munche
+
+15.04.2005 0.4297.1.7
++++ bug: pet level != owner level
+
+14.04.2005
++++ scp, tcl, pktlog, export: from RENGEN, Kirp, Slayer, dimm, gvr, Niger
++++ spells: при наложении разных аур удаляются предыдущие похожие (спасибо
+    Oh00tnik за идею как это сделать).
++++ bug: crash on item 10938 (tnx RomanRom2 for report)
+
+13.04.2005
++++ scp: WDB & pktlogs from RENGEN, MadMaxan, Oh00tnik, ...
++++ httpd: ping time for players
++++ Zeppelin - Orgrimmar to Undercity
+
+12.04.2005 0.4297.1.6
++++ auth: bug. sometime "information you entered is invalid".
+
+11.04.2005
++++ scp, export, tcl: from Des, Kirp, Slayer, dimm
+
+09.04.2005 0.4297.1.5
++++ tcl api: GetBindpoint $player
++++ spells: working Hearthstones
++++ spells: более правильный cooldown
++++ spells: items cooldown
++++ pets: dismiss
++++ totems: destroing after time
+
+08.04.2005
++++ maps: exploring then on the ship
++++ maps: размер карт увеличен, GM Island теперь доступен
++++ network: изменён обработчик
++++ commands: .kill (now plavel=4) .del (now plevel=2) .killallnpc (now plavel=4)
+
+07.04.2005 0.4297.1.4
++++ AI: поворот по направлению спавнпоинта при spawndist=0
+
+06.04.2005 0.4297.1.3
++++ bug: SpawnPet entry=0
++++ bug: max_players=0
++++ debug: показ количества игроков в реалмлисте временно запрещен.
++++ bug: невозможно управлять петом после logout/login
++++ scp: updates from gvr, MadMax, vklimov
++++ tcl: from MadMax
++++ export: from gvr
+
+05.04.2005 0.4297.1.2
++++ bug: MapCache: (0 0) unloaded
++++ bug: MapCache ram eating
++++ bug: SendGossip rewriten
+
+03.04.2005
++++ pets: attack
++++ bug: bounding_radius > combat_reach
++++ pets: follow
++++ bug: agro didn't removed after death of victim
++++ ppoints: deleting of ppoints that exist on mapcache, collect only ppoints from wmo
++++ maps: exploration.
++++ scp: from Slayer, dimm, munche
++++ tcl: from Slayer
++++ export: from gvr
++++ bug: SendGossip $player $npc "" crash
+
+02.04.2005
++++ bug: ложное срабатывание защиты под wine.
++++ pets: casting.
+
+01.04.2005 0.4297.1.1
++++ quests.scp: unk10= replaced by type=
++++ pets: totems and posessed are halfpets :)
++++ pets: spell= for totems
+
+31.03.2005 0.4297.1.0
++++ 4297: compatible versions are 4223(1.3.0)...4297(1.3.1)
++++ bug: npc wandering - wrong Z.
++++ scp: updates from 4 WDB and from gvr
+
+30.03.2005 0.4181.1.5 test2 build
++++ emu.conf: [system] mapcache_mb=100 (maximal size of map cache in megabytes)
++++ movement: wandering from both system (ppoints and maps)
++++ movement: combat from both system (ppoints and maps)
++++ movement: spawn from both system (ppoints and maps)
++++ bug: crash on .exportspawns
+
+29.03.2005 0.4181.1.5 test build
++++ maps/maps_extract.bat (be sure to have ~3gb free hdd space)
++++ *.adt must be in the maps/World/Maps/
++++ движение нпц при wandering not from ppoints.
+
+28.03.2005
++++ maps: новый вариант определения номера зоны по координатам (актуально для
+    команд .exportspawns, .delallspawns).
++++ realmserver: в emu.conf можно писать несколько интерфейсов и маски:
+    ws_host=192.168.1.15/255.255.255.0
+    ws_host=112.113.114.115/255.255.255.0
++++ requested feature: "population" value in the realmlist (players/maxplayers)
++++ combat AI: при невозможности достать ударом игрока нпц пробует другие 
+    действия.
++++ combat AI: движение не по ppoints.
++++ chat: whisper не видно самому себе.
++++ tcl: from Slayer
+
+27.03.2005
++++ maps: maps/*/*.adt
++++ maps: maps/*.map
+
+26.03.2005 0.4281.1.4
++++ maps: maps/*.zmp
+
+25.03.2005 0.4281.1.3
++++ maps: first touch.
++++ dbc: Map.dbc
++++ export: from munche, Des, MadMaxan
++++ tcl: from Des, Slayer, Kirp, munche
++++ scp: 20 источников, в основном gvr.
++++ tcl: startup.tcl $DEBUG variable
+
+24.03.2005
++++ version: from 4223 (first chinese 1.3.0) to 4284 (US 1.3.0)
+
+23.03.2005 0.4281.1.2
++++ quests: time quests now working properly.
++++ bug: deliver quests can't be completed.
++++ bug: can't see party members movements.
++++ 4281: new resurrection sickness
+
+22.03.2005 0.4281.1.1
++++ version: from 4223 (first chinese 1.3.0) to 4281 (US beta 1.3.0)
++++ bug: не видно в чате что говоришь.
++++ bug: crash on chat.
++++ chat: whisper, yell, cloudes on head.
++++ quests: time_minutes=
+
+21.03.2005
++++ bug: нпц продолжал бить мертвого игрока.
++++ bug: иногда при создании игрока - репутация сразу очень большая.
++++ AI: npc casting (пока только fireball) при наличии маны.
++++ combat: невозможность бить и нпц и игроку, если их bounding_radius
+    пересекаются.
++++ areatriggers: from build 4281
++++ dbc: from build 4281
++++ logs: отображение в логе ошибочных скриптов при загрузке tcl.
++++ tcl proc: AI::CanCast $npc $victim
++++ tcl proc: (aiscript=)::CanCast $npc $victim
+    эти две процедуры вызываются, когда нпц стоит на расстоянии большем 
+    расстояния удара. должны вернуть номер кастуемого спелла. необходимая
+    мана (maxmana=) проверяется ПОСЛЕ вызова, так что спелл может и не 
+    получится. сначала вызывается процедура с aiscript, а если скрипта такого
+    нет - тогда общая процедура с AI::
+    если вернули 0 или не хватает маны - нпц будет двигатся для обычного удара.
++++ bug: не посылалась модель в WDB.
++++ scp: creatures, items, pages, gameobjects from WDB and [--error--]
++++ tcl: Elwynn Forest from Slayer
++++ tcl api: GetEntry $object
++++ scp: areatriggers.scp: script=
++++ tcl proc: AreaTrigger $player $trigger_number
++++ tcl api: SendQuestComplete не завершает квест, а только отмечает его в логе
+    как (Complete). Это решает проблему тех квестов, где надо чтото разведать,
+    (например Fargodeep Mine), флаг надо выставлять на скрипте ареатриггера.
+
+20.03.2005 0.4281.1.0
++++ 4281: structs changes.
++++ 4281: packets changes.
++++ scp: creatures: все unk*= заменены на правильные type,family,elite
+
+19.03.2005
++++ bans: сильно дополнен список внутренних банов по статистике лога.
++++ scp: creatures,items,pages,quests,gameobjests from WDB,MadMaxan,Des,Slayer,Kirp
++++ export: from MadMaxan & Slayer
++++ tcl: from Kirp, Des, Slayer
++++ requested feature: .shutdown (plevel=6)
++++ bug: .delspawns не удалял gameobjects.
++++ requested feature: .delspawnsxy map x1 y1 x2 y2 (plevel=6)
++++ tcl api: GetNpcflags, SetNpcflags, SetBindpoint
++++ tcl api: QueryQuest для locked GAMEOBJECT_TYPE_QUESTGIVER
+    смотреть образец scripts/tcl/HalfEatenBody.tcl
++++ tcl api: OnGossip для locked GAMEOBJECT_TYPE_QUESTGIVER
+    смотреть образец scripts/tcl/HalfEatenBody.tcl
+
+17.03.2005
++++ combat: нпц всегда повернут лицом к игроку когда атакует.
++++ spells: модель для Ghost Wolf Form.
++++ chat: канальный чат, можно чатать.
++++ http: статистика загрузки сервера.
+
+16.03.2005 0.4222.2.6
++++ bug: для гильдии не надо было 9 подписей.
++++ guilds: promote/demote/leave.
++++ bug: negative talents points.
++++ spells: правильные модели для Cat, Bear Forms
+
+15.03.2005
++++ guilds: petition price.
++++ guilds: turn petition to guild, guild creation.
++++ battlefield: list, join.
++++ scp: creatures, spellcost, gameobjects from Des, silver, Sinclair, Kirp
++++ export: thunder bluff from silver, mulgore&thunder bluff from MadMaxan
++++ bug: /knell ураганный рост здоровья и маны. теперь рост будет такой:
+    standing: 100%, sitting, sitting on chair: 200%, sleeping: 300%, kneel: 150%
++++ requested feature: когда игрока бьют - он встаёт если лежал или сидел.
++++ requested feature: если игрок встаёт во время еды - аура обрывается.
+
+14.03.2005
++++ channels chat: join, msg...
++++ auction: first touch
++++ battlefield: first touch
++++ mail: first touch
++++ bug: при уменьшении золота после квеста, если у игрока не хватает денег - баг.
+
+13.03.2005 0.4222.2.5
++++ tcl: from Des, Kirp
++++ guilds: listing, roster....
++++ channels chat: first touch
++++ guilds: invite, accept, remove...
+
+12.03.2005 0.4222.2.4
++++ bug: отрицательные hp & mana.
++++ bug: значение армора в 2 раза больше чем надо.
++++ bug: gameobjects неправильное положение (стулья).
++++ requested feature: запрет кастинга в воде.
++++ guilds: инициализация, сохранение, загрузка.
+
+11.03.2005
++++ tcl84.dll: version 8.4.9
++++ scp: creatures, spellcost, items, quests from Des, Zanuff, Kirp, MadMaxan
++++ tcl: from Des, Zanuff, Kirp
++++ export: ashenvale, loch_modan
++++ guilds: guild charter signatures.
+
+10.03.2005 0.4222.2.3
++++ maps: по движущемуся дерижаблю можно бегать.
++++ guilds: petition packets.
++++ guilds: guild charter.
++++ tcl api: PetitionList $player $npc
+
+09.03.2005
++++ gameobjects: можно садится на стулья.
++++ bug: #132 в клиенте при неправильном типе обьекта или 0 maxhealth.
++++ bug: неправильный рост маны у шамана.
++++ req feature: max_players= учитывает plevel=
+
+08.03.2005 0.4222.2.2
++++ gameobjects: loot= в такой же форме как у нпц (loot=entry %%)
++++ tcl api: OnOpen на gameobject, return 1 (loot) или return 0 (noloot)
+    смотреть для примера TestGO.tcl TestGO2::OnOpen
+    сюда же можно вставлять напрмер SendQuestDetails или прочее.
++++ tcl api: SpellEffects:: для скриптовых эффектов.
+
+07.03.2005
++++ tcl api: можно ставить questscript= на items и gameobjects. образцы
+    прилагаются scripts/tcl/TestItem.tcl scripts/tcl/TestGO.tcl
+    обратите внимание, что gameobject шлёт не номер quest, а questlist
+    прописанного в gameobjects.scp в виде sound1=
++++ quests: можно и нужно писать spell_reward=
++++ scp: quests, items, gameobjects, creatures from munche and WDB.
++++ tcl: Stormwind, Durotar from munche.
+
+06.03.2005 0.4222.2.1
++++ players: вставлены проверка и коррекция на неправильные race & class.
++++ players: вставлены проверки на skin,face,hair style,hair color,facial hair.
++++ classes: подобраны значения heathmod= и powermod= чтобы рост был более
+    похож на офф. для всех классов.
++++ classes: новый парметр mana=
++++ classes: удалён параметр damage=
++++ classes: новые параметры: str_on_level= agi_on_level= sta_on_level=
+    int_on_level= spi_on_level=
++++ bug: бесконечные предмены в сумке которая в сумке.
++++ bug: запрет ложить сумку в сумку.
++++ tcl api: TrainerList $player $npc
+
+05.03.2005
++++ classes: таблица роста статов (пока внутри движка, потом будет в скриптах).
++++ export: tirisfal_glades & undercity от [Shaman]
++++ export: dun_morogh & ironforge от [Des]
++++ tcl: Dun Morogh от [Des]
++++ bug: spell Rupture не сбрасывал комбо.
++++ scp: spellcost from Kirp, creatures from Oh00tnik, [Des], [Shaman]
++++ requested feature: .dellallcorp (plevel=6)
++++ commands: .exportspawnsxy <map> <x1> <y1> <x2> <y2> <filename>
++++ spells: Cat Form, Bear Form
+
+04.03.2005
++++ classes: healthmodifier переименован в healthmod (для единообразия).
++++ classes: всё высчитывается из левела и рассы: статы, хитпоинты, мана...
+
+03.03.2005 0.4222.2.0
++++ tcl api: GetScpValue $script $section $key
++++ spells: harm ауры ставятся так, что самому их не снять.
++++ spawns: теперь можно ставить только один тип кречурсов (раньше 5),
+    всё равно никто не пользуется, а память занимает.
+
+02.03.2005
++++ auth: additional flood protection.
++++ talents: при изучении следующего степа - предыдущий убирается.
++++ talents: внимание, не надо прописывать их в spellcost как reqspell=
++++ spells: правильное отображение Dodge,Critical,Block,Parry процентов,
+    (пассивные спеллы тоже учитываются).
++++ tcl: изменились параметры у WoWemu::DamageReduction { player mob armor }
++++ classes: size=1.3 для tauren
++++ tcl: Darkshore
++++ scp: creatures, items, spellcost
+
+01.03.2005 0.4222.1.3
++++ items: spell on equip and remove spell on unequip.
++++ bug: при перекладывании одежды в дополнительные сумки - не видно
++++ spells: все бонусные спеллы attack power & ranged attack power.
++++ spells: все спеллы, дающие значение к статам.
++++ spells: все спеллы, дающие процент к статам.
++++ resurrection sickness.
+
+28.02.2005
++++ requested feature: кладбище сначала ищется в той же зоне.
++++ commands: .broadcast text (plevel=4)
++++ tcl api: Resurrect $player
++++ tcl api: VendorList $player $npc
++++ tcl, export, db from munche, stormwind.
++++ areatriggers, spellcost, quests, creatures: из разных источников.
++++ save: мертвые тела игроков сохранять не надо.
++++ talents: все взаимозависимости.
++++ spells: проверка reqspell= при изучении а не только у вендора.
+
+27.02.2005
++++ spells: парализующие ауры (roots, frost nova,...)
++++ spells: множество мелких исправлений.
++++ pets: trainer
+
+26.02.2005 0.4222.1.2
++++ bug: креш клиента на репутации.
++++ tcl api: new commands:
+    GetClass $player
+    GetRace $player
+    GetLevel $mobile
+    GetReputation $player $npc (полное значение репутации)
+    AddReputation $player $npc $value
++++ tcl: WoWEmu::CalcReputation изменен формат аргументов.
++++ updates: можно писать -string= для удаления строк.
++++ spells: ауры переодического действия - правильная работа (food,renew,
+    corruption...).
++++ tcl: WoWEmu::DamageReduction { player armor }
+    возвращаемое значение - это доля damage, которая будет absorbed.
+
+25.02.2005
++++ bug: skill Wands растёт когда кушаешь.
++++ bug: несколько проблем с определением зон.
++++ commands: уровень для комманды .dismount понижен до plevel=0
++++ commands: .clearrep очищает репутацию ко всем фракциям
++++ items: при надевании предметов bind on equip выставляется флаг soulbound.
++++ spells: все эффекты summon creature
++++ creatures: spell=xxxx
++++ pets: игрок при спавне изучает spell= от creature которую спавнит.
++++ pets: сохранение, загрузка спеллов.
++++ scp: creatures, gameobjects, spellcost, pages, quests
++++ tcl: немного квестовых скриптов из разных зон.
++++ export: ironforge, tirisfal_glades, undercity
+
+24.02.2005 0.4222.1.1
++++ 4222: изменения в пакетах.
++++ bug: проблема с определением зоны -
+    Elwynn Forest in Westfall (имеет теперь больший приоритет)
++++ bug: если мертвый получает levelup - он оживал.
++++ reputation: постепенное восстановление (10 в час).
++++ emu.conf: [game] reputation_restore_in_hour=10
+
+23.02.2005 0.4222.1.0
++++ classes.scp: size= в секциях [race ]
++++ agro добавляется при нападении (вроде бы уже делал?)
++++ при изспользовании предметов bind on use выставляется флаг soulbound.
++++ bug: торговля сбрасывается при торговле bounded предметами.
++++ 4222: поддержка версии (все предыдущие отключены).
++++ 4222: структуры новых пакетов.
++++ areatriggers.scp с названиями.
++++ tcl: несколько скриптов из разных источников.
++++ export: ashenval, brill, darkshore, durotar, undercity.
++++ scp: spellcost, gameobjects, creatures - небольшие дополнения.
+
+
+22.02.2005 0.4211.2.1
++++ bug: ванд перестал давать демедж.
++++ bug: вещи дающие плюс к Int давали лишнюю ману.
++++ skills: рост скилла Wands.
++++ bug: если репутация очень маленькая или очень большая - клиент падает.
++++ временно отключено сохранение петов.
++++ emu.conf: новая опция max_players=
++++ прерывание кастинга при движении.
+
+21.02.2005
++++ commands: дополнительная информация в .info на игрока: 
+    account, plevel, host, port.
++++ requested feature: сбрасывать xp в 0 при .setlevel
++++ bug: при LevelUp новый левел не виден вокруг.
++++ classes: AttackPower больше нигде не хранится. он вычисляется из статов.
++++ classes: AttackPowerRanged вычисляется из статов.
++++ combat: bonus damage from AttackPower.
++++ bug: двойное повреждение от дистанционного оружия.
++++ combat: bonus damage from AttackPowerRanged на дистанционном оружии.
++++ pets: first touch...
++++ bug: httpd неверно показывал страницы.
++++ export: Durotar from Kirp
++++ tcl: Evelyn Forest from Slayer
++++ spellcost from silver
+
+20.02.2005 0.4211.2
++++ при смерти - телепорт к ближайшему кладбищу, а если такого не существует -
+    к ближайшему кладбищу к bindpoint, если же и такого не существует -
+    останется на месте.
++++ spells: при Finish снимаются combo points.
++++ spells: cooldown для всех спеллов.
++++ spells: Sinister Strike, правильный демедж.
++++ auras: не накладываются на мертвых.
+
+19.02.2005 0.4211.1.3
++++ tcl: загрузка всех скриптов scripts/tcl/* в startup.tcl
++++ tcl: некоторые скрипты сторонних производителей :)
++++ tcl: несколько скриптов от Des.
++++ reputation: структуры, загрузка, сохранение, изменение, агрессия.
++++ tcl: CalcReputation в startup.tcl
++++ bug: неправильное отображение демеджа второго оружия.
++++ scp: spellcost, creatures updates from Des & silver
++++ export: Dun Morogh, Loch Modan, Ironforge from Des
+
+18.02.2005
++++ bug: random in loot
++++ все строки 0.00 в луте заменены на 0.01
++++ tcl: Eagan Peltskiner исправленный.
++++ doc: FAQ by Slayer
++++ 2 WDB
++++ исправления spellcost от silver
++++ bug: если stat.xml блокирован при создании - креш.
+
+17.02.2005 0.4211.1.2
++++ bug: combo points не сбрасывались при изменении selection.
++++ emu.conf: energy_growing_rate= (default 1.0) in section [game]
++++ emu.conf: delete_not_used_accounts_days= (default 14) in section [game]
++++ accounts: удаление просроченных аккаунтов.
+
+16.02.2005
++++ bug: crash on .learn 297239
++++ items: бонус на int даёт бонус на ману.
++++ RS: защита от флуда.
++++ WS: защита от флуда.
++++ string overflow при загрузке аккаунта.
++++ 4 WDB
++++ tcl: WestFall
++++ изменения в creatures.scp & spellcost.scp
++++ export: ogrimmar, vale(ashenvale?)
++++ classes: elf-hunter - скилл daggers.
+
+15.02.2005 0.4211.1.1
++++ мертвые тела не сохранять.
++++ auth: найден баг, иногда дававший ошибку "can't import session key []".
++++ commands: .info показывает больше информации о спавне.
+
+14.02.2005
++++ ai: когда нпц гонится за игроком, он старается не подходить ближе 
+    чем bounding_radius. если же он находится уже ближе - он пытается отступить,
+    если есть куда.
++++ trade: нельзя продавать bounding= предметы.
++++ html: www/stat.xml - список всех игроков, обновляется раз в 10 сек.
++++ httpd: mime types.
++++ httpd: нормальная расшифровка русских букв во входных полях (аккаунты
+    и пароли можно создавать на русском).
+
+13.02.2005
++++ 59(!) WDB
++++ creatures, spellscost, gameobjects, quests от Des, Zanuff & others.
++++ export: dun_morogh от Des.
++++ при изучении Apprentice Herbalism добавляется Find Herbs.
++++ bug: найдена и исправлена причина пропадания спеллов и скиллов. 
+    (неправильное сохранение). (!!!)
++++ отключена проверка на школу магии при кастинге. слишком много проблем
+    создаёт.
++++ bounding_radius, combat_reach - инициализация, сохранение, загрузка.
+
+12.02.2005 0.4211.1
++++ поддержка билда 4211
+
+11.02.2005
++++ 8 WDB (+170 creatures, +160 items, +200 quests...).
++++ creatures.scp, spellcost.scp, classes.scp from gvr, bh & other.
++++ export: darkshore, teldrassil
+
+10.02.2005 0.4196.2.4
++++ bug 4196: креш клиента на эмоциях. (поддержку 1.2.1 следовало бы удалить).
++++ items: бонус на стамину даёт бонус на здоровье.
++++ установка агро при ударе, не важно, попал или не попал, а не при атаке.
++++ при начале каста - обычный удар откладыватся.
+
+09.02.2005
++++ scripts: tcl Elvyn Forest from Slayer.
++++ 10 WDB from finished eurobeta.
++++ новая формула армора.
+
+08.02.2005 0.4196.2.3
++++ ai: принципиальная переделка.
++++ падение rage (только при полном здоровье).
++++ guilds: first touch.
+
+07.02.2005
++++ bug: кастование обрывало атаку.
++++ отдельные таймер на: респавн, труп, кастинг (готовимся к переделке AI).
++++ agro добавляется сразу при нападени, а не при первом повреждении.
+
+06.02.2005
++++ стартовые предметы даются в максимальном количестве для каждого предмета.
++++ spells: cancel cast, невозможность кастовать на бегу.
++++ рост energy.
++++ db: большой апдейт лута с альказама.
++++ небольшие изменения classes.scp
++++ combo очки.
++++ damage от комбо.
+
+05.02.2005 0.4196.2.2
++++ от времени растёт только здоровье и мана, но не rage и прочие powers.
++++ rage растёт от ударов на размер damage.
++++ configs: две новые переменные в секции [game]:
+    health_growing_rate=1.0 // задаётся в процентах в секунду
+    mana_growing_rate=1.0 // задаётся в процентах в секунду
+    старая переменная mana_and_health_growing_rate не активна больше.
+
+04.02.2005 0.4196.2.1
++++ classes.scp точное соответствие скиллов и спеллов.
++++ 3 WDB
++++ quests: reward за выполненный квест (если нет reward_xp= в описании квеста)
+    равен levels= * 250.
++++ accounts: можно писать LOCKED (это обозначает, что на этот аккаунт можно
+    зайти только с одного IP).
++++ spells: при изучении Arcane Intellect дают заодно скилл Arcane.
++++ crafts: исправлены скиллы для некоторых Tailoring предметов.
+
+03.02.2005
++++ classes.scp от Kirp
++++ db: changes6.txt от Kirp, 1 wdb
++++ bug: школа магии Nature теперь имеет скилл Balance.
++++ bug: Darkshore in Felwood (имеет теперь больший приоритет).
++++ accounts: можно писать BANNED
++++ protection: ключи теперь можно найти в doc/keys.txt
+
+02.02.2005 0.4196.2
++++ spellcost: можно писать addskill, синтаксис:
+    addskill=skillid max
++++ spellcost: можно писать delskill, синтаксис:
+    delskill=skillid
++++ spellcost: можно писать delspell, синтаксис:
+    delspell=spellid
++++ переделано хранение спеллов (надеюсь будут реже теряться).
++++ commands: теперь всего 6 комманд для изменения скиллов и спеллов:
+    .listsp
+    .learn spellid
+    .unlearn spellid
+    .listsk
+    .learnsk skillid [skilval] [skillmax]
+    .unlearnsk skillid
+    все команды теперь действуют на выбранного игрока.
+    информационные команды имеют plevel=2, изменяющие plevel=4.
+
+01.02.2005
++++ bug: Mulgore in Feralas (имеет теперь больший приоритет).
++++ bug: креш при CMSG_AUTOEQUIP_ITEM.
++++ protection: level up :)
+
+31.01.2005 0.4196.1a
++++ protection: up.
++++ skills: рост скиллов на магии и дистанционном оружии.
++++ classes: у hunter стартовый спелл shoot crossbow заменён на shoot bow.
++++ bug: при throw не уменьшалось количество.
+
+30.01.2005 0.4196.1
++++ version: проверка (можно использовать 1.2.1 и 1.2.2).
++++ dbc: Spell, EmotesText, AreaTable
++++ protection: up.
+
+29.01.2005
++++ scripts: в creatures.scp можно писать gender= (0-male,1-female,2-none).
++++ bug: иконка You have unread mail.
++++ scripts: spellcost.scp: some changes for Muglor
++++ scripts: creatures.scp: kodo mounts, tiger mounts, mage trainer, 
+    some changes for Muglor
++++ db: darnassus, muglor, elwynn forest, teldrassil
++++ bug: при импорте спавнов небыло сообщения о том, что файл не найден.
+
+28.01.2005
++++ scripts: spellcost.scp: first aid
++++ scripts: creatures.scp: raptor mounts, durotar monster changes...
++++ scripts: classes.scp: spell opening
++++ scripts: gameobjects.scp
++++ tcl: немного от Zanuff
++++ db: заселенный Durotar от kirp
++++ requested feature: работающие бандажи.
++++ export: геймобьекты тоже экспортируются. при импорте дублем считаются
+    обьекты на расстоянии меньше 0.5
++++ groups: на большой карте видно, как перемещаются члены группы.
+
+27.01.2005 0.4150.15a
++++ groups: при заходе в игру, если игрок в группе - послать обновление группы.
++++ spawns: дистанция дупов в emu.conf->system->spawns_dupes_distance
+
+26.01.2005
++++ bug: решено несколько проблем с определением зон -
+    Durotar in The Barrens (имеет теперь больший приоритет)
+    Dustwallow in The Barrens (имеет теперь больший приоритет)
++++ bug: при CMSG_OPEN_ITEM зависал клиент.
++++ db: большой импорт - 13 WDB, creatures от kirp, gvr, tcl от Zanuff
+    classes.scp от ?, spellcost.scp от ? (подписывайтесь пожалуйста :))
+    одна заселенная зона Muglor от MadMaxan
+
+25.01.2005 0.4150.15
++++ получение хп заскриптовано ( смотреть startup.tcl WoWEmu::CalcXP)
+    чтобы небыло споров - можете менять как кому нравится :)
++++ bug: при удалении обьекта линки иногда терялись.
++++ spawns: апдейтятся не только те нпц, которые находятся в зоне видимости
+    игроков, но и те, которые связаны со спавнами, которые находятся в
+    видимости игроков. (это например решит проблему гвардов, которых заманили 
+    далеко от спавна и там бросили).
++++ groups: xp sharing.
+
+23.01.2005
++++ атака на бегу у нпц (если не очень далеко).
++++ формула на демедж.
+
+22.01.2005 0.4150.14a
++++ xp: уточнение формулы.
++++ start: не давать 100 монет при создании чара.
++++ bug: хотя мне и не удалось повторить баг с .rescp, я нашел одно
+    потенциальное место, где он мог происходить.
++++ factions: для фракций, с которыми отрицательная репутация - война.
+    (тначе нельзя было нападать на вендоров противоположной фракции).
+
+21.01.2005
++++ bug: при загрузке dbc.
++++ защита ключом.
++++ xp: формула сильно изменена, зависит от разницы в уровнях.
+
+20.01.2005 0.4150.14
++++ 13 разных WDB импортировано.
++++ 12 зон заселения импортировано.
++++ bug: в .delspawns нельзя было указать зону. теперь можно, а если не указана -
+    используется текущая зона.
+
+19.01.2005
++++ tcl от kirp, небольшие добавления creatures & spellcost
++++ http: переделано немного, надеюсь теперь будет везде и на любых броузерах
+    работать. ___bad_login.html и __bad_password.html тоже изменены под Оперу.
+
+18.01.2005 0.4150.13
++++ bug: при импорте спавнов неправильно проверялась дистанция.
++++ bug: удалено множество дублей спавнов, заново проимпортировано всё.
++++ commands: .delspawns (noargs, notarget, plevel=6) удаляет все спавны в зоне.
+
+17.01.2005
++++ bug: исправлен баг с крешем при перекладывании вещей.
++++ bug: skinning многократно одного и тогоже тела.
++++ groups: disband, set leader, uninvite.
++++ scripts: в spellcost.scp можно писать addspell= (например чтобы вместе с 
+    начальным минингом выучить одновременно Smelting, Smelt Copper 
+    & Find Minerals).
++++ classes: убраны начальные спеллы smelting & smelt copper.
++++ scripts: изменения в creatures.scp от Zanuff.
+
+16.01.2005 0.4150.12
++++ groups: invite, accept, decline.
+
+15.01.2005
++++ data: WorldMapArea.dbc
++++ quests: tcl от gvr.
++++ spawns: .exportspawns экспортирует только спавны той зоны, где находится
+    админ-экспортёр.
+
+14.01.2005
++++ gameobjects: rotation - сохранение, загрука, показ.
++++ commands: .rotate x y z (euler в градусах).
++++ commands: в команде .move последний параметр теперь в градусах а не радианах.
++++ bug: при удалении героя все стоящие рядом герои вылетали из игры с 
+    ошибкой #132
+
+13.01.2005 0.4150.11
++++ bug: при покупке в слот не проверялось, возможно ли одеть предмет.
+
+12.01.2005 0.4150.10 (bugfixes update)
++++ bug: взаимный lock мира и плайеров. зависания.
++++ bug: consume забирало только один предмет.
++++ bug: memory leak in the GetLinks();
++++ изменен способ добавления предмета в инвентори при луте.
++++ изменен способ добавления предмета в инвентори при покупке.
++++ изменен способ добавления предмета в инвентори при крафтинге.
+
+11.01.2005
++++ изменения npcflags= от gvr, Des и Cactus
++++ импортированы спавны от Des
++++ spell effect: resurrect.
++++ bug: .namego
+
+10.01.2005
++++ scripts: новый скрипт scripts/pages.scp
++++ обработка пакета страницы текста с ГО.
++++ обработка пакета страницы текста с предмета в бекпаке.
++++ classes: paladin: holy strike был - 679, стал - 13953.
++++ spells: новый holy light работает как надо.
+
+09.01.2005 0.4150.9
++++ world: импортированы спавны (огого! всего уже больше 13к спавнов!)
++++ импорт 4 WDB
++++ skills: Skinning более продвинутый, больше разных предметов и сильнее
+    разделение по левелам убитого нпц.
++++ spells: track resources (find minerals, herbs, ...).
++++ bug: ауры бесконечного действия не ставились.
++++ bug: при левелапах жизнь и мана должны становится по максимуму.
++++ commands: .setcp xxx
++++ commands: .sethp xxx
+
+08.01.2005
++++ убраны все maxhealth= из creatures.scp
++++ bug: тренеры учат сами себя (последствия внедрения массовых спеллов).
++++ bug: руда не копалась (тоже).
++++ bug: во многих местах нет проверки на валидность плайера.
++++ command: .namego <имя>, команда телепортирует плайера к ГМу. plevel=2.
++++ gameobjects.scp: можно указывать размер, по умолчанию size=1.0
++++ размер горок с рудой уменьшен в 2 раза.
+
+07.01.2005 0.4150.8
++++ массовые спеллы типа cone from caster, массовые спеллы centered from caster.
+
+06.01.2005
++++ импортированы спавны kirp.
++++ tcl: startup.tcl перенесён из scripts/tcl/ в scripts/
++++ tcl: startup.tcl переделан чтобы сам грузил все скрипты.
++++ некоторые массовые спеллы (не все).
+
+05.01.2005
++++ вставлено предупредительное сообщение при удалении плайера. надеюсь это
+    поможет найти причину пропадаения скиллов и спеллов.
++++ SpellRadius.dbc
+
+04.01.2005 0.4150.7
++++ requested feature: .setfaction xxx (PLEVEL=4)
++++ requested feature: .setnpcflags xxx (PLEVEL=4)
++++ requested feature: отдельный лог для ГМ-комманд.
+
+03.01.2005
++++ scp: в конфиге spellcost.scp можно писать craftskill1(2,3)=nnn где nnn номер
+    скилла который будет проверяться, и расти при изготовлении этой вещи.
+    для всех вещей значения уже есть, но возможно нужны исправления.
++++ scp: можно писать equip= в creatures.scp:
+    equip=0 923   // первое число - слот, всего 3 слота (0-main hand, 
+                  // 1-off hand, 2-ranged), второе - темплейт предмета.
+    equip=1 7188  // в этом примере это щит и меч для гварда.
++++ skills: Skinning.
++++ mounts: подправлены mechanostriders mounts.
++++ st: в синглтреад версии уменьшена нагрузка на процессор.
+
+02.01.2005
++++ рост крафтовских скиллов при изготовлении предметов.
++++ loot одновременно несколькими, правила пока что очень простые - кто перый
+    схватил предмет или деньги - тот и прав :)
++++ bug: в квестах, где надо собирать предметы, желтая надпись прогресса имела
+    неверные значения.
++++ loot: максимальное количество предметов в луте увеличено.
+
+01.01.2005
++++ packets: посылаются ауры в большом пакете обновления.
++++ scp: в creatures.scp можно указывать тип тренера trainer_type=
+    0 - general training (default)
+    1 - talents trainer
+    3 - tradeskills trainer
+    4 - pets trainer
++++ requested feature: раздельный сейв для плаеров и остального мира -
+    save/players.save и save/world.save
++++ factions: найден флаг, отвечающий за агрессивность неитральных нпц.
+
+31.12.2004 0.4150.6
++++ убрана поддержка клиентов до 1.2.1(4150)
++++ при импорте спавнов проверяется также совпадение go_entry
++++ bug: если спавнпоинт перемещался (.come) то спавн останавливался.
++++ bug: если spawndistance 0.0 0.0 нпц уходил от спавнпоинта.
++++ combat: npc наносит первый удар сразу как подбежал, без паузы.
+
+29.12.2004
++++ classes: orc-warrior, dwarf-warrior добавлен скилл 2H-axes (стартовые
+    предметы такие).
++++ npc: значения по умолчанию для параметров:
+    faction=31 ("Prey", желтый для всех)
+    maxhealth=level*32 (спасибо Des)
+    attack=2000 2000
+    damage=2.0 2.0
+    type=8 (CREATURE_TYPE_CRITTER)
+    level=1
++++ requested feature: в creatures.scp можно писать level=x1 x2
++++ bug 4150: изменения в пакете торговли.
++++ scripts: spellcost.scp от Slayer
++++ world: импортировано немного спавнов (tnx gvr).
++++ bug: мертвые плаейеры видны для других как ползающие лёжа трупы, которых
+    можно лутить, с вылетанием клиента :)
+
+28.12.2004
++++ packets: unknown packet 0x296
++++ bug: флаги телепорта при заходе плаера надо снимать.
++++ inventory: при надевании оружия и армора проверяется есть ли скилл.
++++ classes: tauren-warrior владеет 2H-maces (у него стартовый предмет такой).
+
+27.12.2004 0.4150.5
++++ spawns: рандомный спавн в определенной дистанции от спавнпоинта.
++++ bug: движение монстров только по диагонали.
++++ bug: неправильная генерация случайных чисел.
++++ classes: всем рассам дан изначальный Smelting и Smelt Copper (их нельзя
+    изучить). для остальных смелтингов есть трайнеры.
++++ craft: создание одних предметов из других.
+
+26.12.2004
++++ gameobjects: loot= для открывающихся предметов (номер предмета и количество)
++++ gameobjects: проверка скиллов при открывании (мининг, гербализм,...)
++++ bug: внутренний баг связанный с некорректным удалением связанных предметов.
+
+25.12.2004 0.4150.4
++++ перехват сигналов недопустимых операций в каждом треде.
++++ расширенный стек отладки при креше.
++++ лист соединений переделан из stl:: в str::
++++ bug: квестовый статус неверно сохранялся.
++++ bug: прогресс квеста неверно отображался.
++++ bug: reward_xp= в квестах не срабатывал.
++++ при импорте спавнов проверяется, нет ли таких же спавнов в радиусе видимости,
+    если есть - старый удаляется.
+
+24.12.2004 0.4150.3
++++ расширенный стек отладки при креше.
++++ requested feature: size= speed= в creatures.scp (default: 1.0)
++++ bug: правильное отображение демеджа, поглощенного армором.
++++ рост и проверка боевых скиллов. если скилла нет - будет всё время промахиваться.
+
+23.12.2004 0.4150.2
++++ single thread вариант сервера (WoWEmuST.exe)
++++ поставлены и запущены лифты в Tunder Bluff.
++++ поставлен и запущен лифт в Gnomeregan.
++++ две новые команды .gtype и .gflags для установки параметров геймобьектов
++++ в команде .move 4 параметра, первые три - относительное смещение, последний -
+    абсолютный поворот.
++++ добывание руды временно отменяется.
+
+22.12.2004 0.4150.1
++++ поддерживаемые версии 1.1.0-1.2.1
++++ stack dump при креше, пожалуйста, посылайте их мне.
++++ большое добавление предметов, обьектов, нпц и квестов из 15-ти WDB (thx all)
+
+21.12.2004
++++ команда .faction, показывает данные о фракции
++++ reputation: атакуют только нпц для которых плаер имеет низкую репутацию
+
+20.12.2004 0.4115.7
++++ bug: роба не надевается в свой слот.
++++ новые команды:
+    .exportspawns <file>
+    .importspawns <file>
+    дубликаты при импорте проверяются. при импорте спавнов всем плаерам
+    желательно выйти из игры (как и при любых импортах) иначе они могут 
+    вылететь.
++++ загрузка фракций.
+
+19.12.2004 0.4115.6
++++ рост скилла соответсвующего языка при разговоре.
++++ creature_type
++++ bug: нпц продолжает бить плаера когда он умер.
++++ CREATURE_TYPE_CRITTER не лезет в драку, и не бьёт.
++++ юниты атакуют плаера при приближении. дистанция атаки зависит от типа -
+    CREATURE_TYPE_MECHANICAL 2.0
+    CREATURE_TYPE_BEAST      5.0
+    CREATURE_TYPE_GIANT      5.0
+    CREATURE_TYPE_UNDEAD     5.0
+    CREATURE_TYPE_DEMON      10.0
+    CREATURE_TYPE_ELEMENTAL  10.0
+    CREATURE_TYPE_HUMANOID   15.0
+    CREATURE_TYPE_DRAGON     64.0
+    принимаются разумные предложения по изменению дистанции агро. а может её
+    стОит заскриптовать?
++++ показ списка фракций на репутации в папердоле.
+
+18.12.2004
++++ эмоции полностью работают, текст и анимация.
++++ bug: .turn & .come на спавнпоинтах не работало.
++++ requested feature: .addspawn с параметами - npc_entry npcs_number
++++ requested feature: дистанция для спавнов.
+
+17.12.2004 0.4115.5
++++ Who list
++++ requested feature: по команде .where показывать зону.
++++ проверка при надевании предмета на правильность слота.
++++ вставлены новые скрипты и изменены квестовые нпс (tnx Slayer & gvr)
++++ bug: эмоции пишет неправильно на кого направлены.
+
+16.12.2004
++++ bug: при логине не показывало сразу демедж от оружия на папердоле.
++++ armor & и другие резисты при обычном комбате, при ударе аурой, и при спеллах.
++++ визуальный показ set и durability у предметов. (желательно удалить WDB)
++++ задержка в 2 секунды, после убивания нетворка, и перед финальным сейвом.
++++ новая команда .rescp (перезагружает все скрипты)
++++ requested feature: в команде .info показывать npcflags для нпц.
++++ bug: при попытках автоматического перекладывания предметов в/из банка предмет
+    становился серым.
+
+15.12.2004 0.4115.4
++++ новая команда - .rehash
++++ немного изменён механизм распределения памяти.
++++ видно как стрелы: заряжаются, летят, втыкаются. метательные ножи - пока нет.
+
+14.12.2004 0.4115.3
++++ crash: выполнение команды .del без правильного таргета приводит к крешу
++++ система команд - немного переделана проверка таргетов для стабильности.
++++ дистанционное оружие теперь имеет задержку, указанную на оружии. т.е. ванды
+    больше не стреляют очередями.
++++ при надевании предметов учитывается необходимый левел.
++++ при надевании предметов учитывается что двуручное оружие нельзя надеть со
+    щитом или другим предметом в off-hand.
+
+13.12.2004
++++ удаление квестовых предметов по окончании квеста или по отмене.
++++ 100% шанс выпадения в луте квестового предмета.
++++ квестовые предметы в луте видно только если активен соответсвующий квест.
+
+12.12.2004
++++ requested feature: количество продаваемых предметов зависит от stackable.
++++ requested feature: exploration bonus уменьшен в 256 раз.
++++ requested feature: autosave (не забудьте добавить autosave_time_minutes=
+    в секцию [game], по умолчанию - 60 минут, минимальное значение - 5 минут)
++++ requested feature: combat range увеличен в два раза (3.0)
+
+11.12.2004 0.4115.2
++++ новая команда .retcl (перезагружает все скрипты tcl)
++++ новая команда .clearqflags (удаляет флаги выполненных квестов)
++++ tcl: новая команда SendQuestComplete { player questid }
+
+10.12.2004 0.4115.1
++++ 4115 (1.1.2), старые версии еще поддерживаются (4044 & 4062)
++++ bug: креш на импорте сессионного ключа
++++ новая команда .move dx dy dz dh (двигает выбранный обьект относительно старой
+    позиции)
+
+9.12.2004
++++ сохранять значение ammo при CMSG_SET_AMMO, чтобы потом можно было 
+    ConsumeItem()...
++++ ConsumeItem() и по бекпакам тоже... (при стрельбе)
++++ аммуниция при стрельбе расходуется (луки,арбалеты,ружья,камни)
++++ emu.conf: loglevel=1...5 (1=maximal number of messages, 5=minimal)
+
+8.12.2004
++++ большое дополнение из WDB (tnx Slayer, the_wizard, NoMad)
++++ trade: unaccept trade (сброс зелёного)
++++ trade: accept trade, exchange money and items
+    warning! полученные предметы складываются только в основной бэкпак,
+    если места нет - предметы удаляются.
+
+7.12.2004 0.4062.6
++++ немного изменён процесс телепорта, в том числе посмертного телепорта,
+    это должно уменьшить вылетания клиента.
+
+6.12.2004
++++ в creatures.scp npctext= заменен на npctext0_0=
+    есть также npctext0_1=
++++ tcl: SendGossipComplete (для информации читать scripts/tcl/startup.tcl)
++++ tcl: SendSwitchGossip (для информации читать scripts/tcl/startup.tcl)
++++ tcl: SendGossip (для информации читать scripts/tcl/startup.tcl)
++++ tcl: все вызовы скриптов переделаны в namespace, так красивее и логичнее.
++++ все gossip= убраны из creatures.scp
++++ bug: запрос по квестовым предметам не всегда обрабатывался
+
+5.12.2004
++++ изменена формула подсчёта максимального xp
++++ новая команда - .targetgo (селектит ближайший gameobject и показывает 
+    данные по нему).
++++ команда .delnpc теперь называется .del и удаляет не только npcs но 
+    и gameobjects.
++++ новая команда .targetlink (применение - например если спавн нпц стоит
+    в невидимом месте, его можно так заселектить через нпц, а потом сказать 
+    ему .come)
+
+4.12.2004 0.4062.5
++++ objects update from WDB (tnx Slayer, the_wizard)
+    gameobjects.scp old:3268 new:3501 sections
+    creatures.scp   old:3189 new:3412 sections
+    items.scp       old:7998 new:8083 sections
+    quests.scp      old:227  new:330 sections
++++ bug: client crashed due teleport
++++ bug: если положить не-контейнер в слот контейнера - глюк
++++ bug: при заходе - RecalcItemBonuses()
+
+3.12.2004
++++ tcl: GetQflag { player flag } return 1 or 0
+
+2.12.2004
++++ tcl: GetQuestStatus { player questid }	return active quest status
++++ tcl: SendQuestsList { player npc questid1 questid2 questid3 .... }
++++ tcl: SendQuestDetails { player npc questid }
++++ tcl: SendQuestReward { player npc questid }
++++ tcl: SetQflag { player flag }
+
+1.12.2004
++++ tcl: GetQFlags { player }			return string of quest flags
+
+30.11.2004 0.4062.4
+
+28.11.2004
++++ .goname <name>
++++ .goguid <guid>
++++ questgiver status reply packet
++++ tcl interpretator
++++ onqq= в creatures.scp
++++ QFLAG= в world.save для плаеров
++++ tcl: scripts/tcl/startup.tcl
++++ tcl: образец скрипта квеста (scripts/tcl/StenStoutarm.tcl)
+    WARNING! квесты не закончены, экспериментировать с ними рано.
+
+27.11.2004 0.4062.3
++++ taxi packets
+
+26.11.2004 0.4062.2
++++ requested feature: .exportchar char_name file_name
+    сохраняет плаера со всеми предметами в отдельном файле.
++++ requested feature: .importchar file_name
+    загружает плаера со всеми предметами из отдельного файла.
+    WARNING! убедитесь что плаера с таким же guid и name уже нет в мире,
+    в противном случае последствия непредсказуемы! к инвентори плаера это
+    тоже относится (к каждому предмету!)
++++ bug: данные из закрытого сокета
++++ bug: emote crashed server
++++ bug: some corpses are never disapeared.
+
+25.11.2004 0.4062.1
++++ imports to scripts from users WDB (tnx NoMad)
++++ несколько позиций в creatures.scp train= (tnx Slayer)
++++ убрать сообщения check cell для плаеров с плевелом <4
++++ exploration bonus for PP founds
++++ при телепорте - добавлять и удалять к Cells плаера
+
+24.11.2004
++++ ConsumeItem() then CMSG_USE_ITEM, CMSG_DESTROY_ITEM
+
+23.11.2004 0.4044.5
++++ requested feature: .killallnpc
+
+22.11.2004
++++ talents.
++++ 8000 нпц из одной из баз тимпитона.
+
+21.11.2004
++++ areatriggers from/to: Ironforge/Deep Tram/Stormwind
++++ big import to scripts from users WDB (tnx dadesign & Slayer):
+    items.scp       old:7694 sections, new:7878 sections.
+    gameobjects.scp old:2899 sections, new:3081 sections.
+    creatures.scp   old:2969 sections, new:3045 sections.
++++ internal banlist (for my best friends :)
+
+20.11.2004 0.4044.4
++++ new script: areatriggers.scp
++++ .gotrigger xxxx
++++ auth: prime has changed (used prime from B*zard)
+
+19.11.2004
++++ worldport
++++ карты кроме 1 & 0
+
+18.11.2004
++++ map: открытие (explore) зоны при входе в неё, AreaTable.dbc
+
+17.11.2004
++++ network: [banned] section in emu.conf
+
+16.11.2004 0.4044.3
++++ commands: можно использовать .help (command_name)
++++ auras: periodical aura damage log and right(?) damage calculation
+
+15.11.2004
++++ http: подправлено создание аккаутов, 
+    много аккаунтов в одной сессии не создать (anti create flood protection)
+
+14.11.2004 0.4044.2
++++ 4044: spell_go
++++ bug: плаеры иногда видят spawnpoints
++++ spawns: пореже цикл (теперь 5 секунд минимум)
++++ http: logo, css, и красивые странички :)
++++ gameobjects: mineral veins после лута исчезают
++++ spawns: spawn for gameobjects; .addspawn , .setspawngo 1731
++++ auras: periodic auras
+
+13.11.2004 0.4044.1
++++ 4044: new opcodes, changed and new updatefields, new crypt...
++++ 4044: changed packets...
++++ 4044: updated dbc files
+
+8.11.2004
++++ bug: disconnect timeout (обрати внимание - в emu.conf он в другом месте)
++++ bug: httpd не вовремя обрывал соединение. теперь он соединение вообще не
+    обрывает, только по таймауту. (IE любит keep-alive)
++++ conf: world_sleep_ms=500 определяет цикл обработки world (милисекунды)
+          network_sleep_ms=100 определяет цикл обработки network (милисекунды)
+
+
+7.11.2004 0.3989.3
++++ damage от оружия и классовый damage суммируются
++++ зависимость роста маны и здоровья от sit/stand/sleep (sit *2, sleep *4)
++++ rest state, xp from rest
++++ булки дают здоровье :)
++++ banker
+
+6.11.2004
++++ лук - стреляет
++++ при кастинге - уменьшается мана
++++ кастинг с предметов. (короче - булки можно есть :) )
++++ при отсутствии рассовых или классовых ограничений в скрипте предметов - 
+    подставляются правильные.
++++ в classes.scp во всех секциях можно писать item= skill= spell=
++++ стартовые абилити для всех
+
+5.11.2004 0.3989.2
++++ отмена эффектов аур (например лошадь)
++++ damages разбиты на группы - melee, spell, aura, ranged, env...
++++ bug: при заходе с маунтом - нет скорости маунта
++++ правильный лог при поражении спеллом
++++ bug: после каста ванд исчезает, анимация удара рукой
++++ set ammo
+
+4.11.2004 0.3989.1
++++ показ заставки только при создании персонажа
++++ bug: при перекладывании предметов в бп восстанавливалось здоровье
++++ bug: при отсутствии чаров на аккаунте - выкидывало на выбор временной зоны
++++ requested feature: команда .online показывает количество плаеров
++++ bug: mindamage-maxdamage
++++ bug: креш клиента, при кастинге на чара, который делает логаут
++++ правильные цвета системных сообщений
+
+3.11.2004
++++ отмена всех аур после смерти персонажа.
++++ bug: ауры с бесконечной длительностью не работали (например finding herbs)
++++ команда .info, показывает entry и faction of npc
++++ начальный пакет фракций
++++ при .addnpc они появляются сразу парализованными
++++ при создании нпц загружается его фракция
++++ сохранение-загрузка фракций нпц, определение фракции по расе у плаеров.
+
+2.11.2004 0.3988.9
++++ bug: не видно как кастуют battle stance
++++ httpd: авторизация и создание аккаунтов.
+    примечание - к httpd можно обращаться http://your_host:8080/
+    порт, естественно можно поменять в emu.conf
++++ языки в скрипте для night elf & undead
+
+1.11.2004
++++ bug: при покупке у вендора, если покупаешь в тот же слот где уже лежит
+    такой же предмет - старый предмет пропадает.
++++ множество других фиксов на продаже у вендоров.
++++ bug: если сумку положить в саму себя - она исчезает
++++ bug: максимальное количество предметов в слоте inventory (splitable)
++++ chat: заработал. не забывайте говорить на правильном языке :)
++++ starting spells and skills with languages for different races.
+
+31.10.2004
++++ trade: можно переставлять предметы, и менять деньги, практически все работает,
+    кроме финального trade_accept.
++++ новый скрипт предметов от dadesign
++++ старый скрипт spellcost.scp отсортирован и дупы удалены.
++++ bug: у вендоров не проверяется доступность предмета по деньгам, и можно
+    купить дороже чем есть денег.
+
+30.10.2004
++++ skill=x y z в секциях [race nnn] в classes.scp
++++ обработки trade. не закончено, но окна открываются у обоих.
+
+29.10.2004 0.3988.8
++++ команда .setspawngo <entry_in_gameobjects.scp>
+    примечание: спавнится не будет, процесс самого спавна gameobj еще не сделан.
++++ убрать показ пароля в логе при auth
+
+28.10.2004 0.3988.7
++++ bug: все abilitys у trainers - unavalable
++++ bug: при выучивании следующего ранка скилла - терялось старое значение
++++ bug: не видно, как другой плайер крутит головой.
++++ bug: нет battle stance у warrior'a, в списке спеллов два разных b/s: 7165
+    и 2457, поставлен 2457. (первый постоянный, второй 3 минуты)
++++ bug: startspell parry 3124->3127(passive)
++++ bug: на mining vain контейнере - рыбалка
++++ изменение в скриптах: в classes.scp skill= имеет теперь три параметра:
+    skill=<id> <value> <maxvalue>
++++ bug: неправильный таймер-бар при кастинге
++++ bug: не видно кастующего другим плайерам
++++ bug: sit/stand/sleep обновляется у самого плайера и других плайеров
+
+27.10.2004
++++ новый скрипт - spellcost.scp, в нём нужно описать сколько стоит каждая
+    ability у вендора, и зависимость одной абилити от другой.
++++ вендор знает, что Expert BS нельзя покупать перед Aprentice BS :)
++++ большая замена classes.scp от dadesign
++++ стартовые скиллы - можно писать в classes.scp в секциях [class * *] в виде
+    skill=nnn mmm, где nnn это номер скилла, а mmm это максимальное возможное
+    значение этого скилла (для классовых серых скиллов можно ставить 1).
++++ все обработки tutorial.
++++ SMSG_TRIGGER_CINEMATIC.
+
+26.10.2004
++++ .listsp - List Spells
++++ .listsk - List Skills
++++ .delsp - Unlearn Spell
++++ .delsk - Unlearn Skill
++++ spell effect: skill step
++++ spell effect: spell learn
++++ трайнеры корректно учат спеллам и скиллам
++++ уже выученный спелл будет серым у трайнера
+
+25.10.2004 0.3988.6
++++ первичный обработчик CMSG_*_TRADE*
++++ bug: второй плаер выходит из игры - крэш первого плаера (в момент исчезновения)
+
+24.10.2004
++++ скиллы: структура-сохранение-загрузка-вывод
++++ сохранять данные sit-stand
++++ gm-ticket - долой с экрана :)
++++ mage, warlock - правильная одежда (tt. dadesign)
++++ сохранение маунтов, слать маунт в большом пакете апдейта
++++ при смерти - убирать маунт
+
+23.10.2004
++++ почистить creatures.scp: kill dupes 'loot', if 'sell' exists - kill 'loot'
++++ правильная одежда для palladin & priest (tnx dadesign)
++++ у моунтов должна быть повышенная скорость
++++ все пакеты обработки скорости (mount/unmount, run/walk)
+
+22.10.2004 0.3988.5
++++ чат в приделах видимости игроков (должен работать, но не проверено)
++++ CMSG_GMTICKET_* обрабатываются
++++ CMSG_BUG обрабатывается, и записывается в лог сообщение
++++ CMSG_MOUNTSPECIAL_ANIM
+
+21.10.2004
++++ GameTime packets
++++ ppoints сохраняются в бинарном виде. если хочется их сохранить в текстовом
+    сейве (для обмена напрмер) - есть опция в конфиге save_text_ppoints=yes
++++ переработаны структуры описывающие обьект в памяти, меньше памяти будет занимать
++++ aura_mount
++++ .dismount
+
+20.10.2004
++++ SMSG_ACTION_BUTTONS
++++ у стартового персонажа - action button - attack (tnx dadesign)
++++ CMSG_UPDATE_ACCOUNT_DATA_MD5 полная обработка с сохранением дайджестов
+
+19.10.2004 0.3988.4
++++ правильная аура при смерти (Shrout Of Death(10848) -> Ghost(8326))
++++ правильный визуальный таймер кастинга (внизу)
+
+18.10.2004
++++ при перекладывании предмета в/из бакпака в видимое инвентори - предмет должен
+    удаляться/прявляться у других плаеров.
++++ цвета в консоли при ошибках
++++ traps for bugs (закрытие лога)
++++ SO_REUSEADDR
++++ bug3988: бороды не всегда видны
+
+17.10.2004 0.3988.3
++++ WorldSafeLocs.dbc и телепорт к ближайшей при смерти
++++ выделить cast_spell в отдельную функцию
++++ разобрать структуру one_spell
+
+16.10.2004 0.3988.2
++++ bug: все ауры cancelable, в том числе и Shrout Of Death
++++ удалять труп после оживления
++++ gnome:warlock - правильная одежда (tnx dadesign)
++++ выделить resurrect в отдельную функцию
++++ xp loss in resurrect on SH
++++ при ресуректе - половину здоровья и маны
++++ при спавне надо полное здоровье
++++ corpse on minimap
++++ стартовой маны слишком много
+
+14.10.2004
++++ 3988: death, rest, etc....
++++ aura Shroud Of Death for death
+
+13.10.2004 0.3988.1
++++ 3988: opcodes
++++ 3988: error codes
+
+11.10.2004
++++ trainers
++++ при продаже вендору не учитывается количество
++++ сделать все пять (max)powers (save/load/update), убрать (max)mana, rage,
+    не забыть про powers в classes.scp
++++ если есть maxpower[x] сделать рост
++++ power rage не видно в статусбаре
+
+10.10.2004 0.3925.4
++++ spell casting: damage from ranged weapons
++++ SPELL_EFFECT_HEAL
++++ SPELL_EFFECT_APPLY_AURA
++++ SPELL_EFFECT_SCHOOL_DAMAGE
++++ SPELL_EFFECT_ENVIRONMENTAL_DAMAGE (partialy)
++++ SPELL_EFFECT_WEAPON_DAMAGE_NOSCHOOL
++++ SPELL_EFFECT_WEAPON_DAMAGE
++++ SPELL_EFFECT_INSTAKILL
+
+09.10.2004
++++ spells переделаны под прямую загрузку Spell.dbc
++++ ApplyAura
++++ spell casting: damage and etc.
+
+08.10.2004
++++ AddAura, DelAura
++++ ChangeStance
+
+07.10.2004
++++ SetAura(), .setaura
+
+06.10.2004
++++ new, advanced spells.scp
+
+05.10.2004
++++ .cast (bugged)
++++ corpse небыло видно после repop
+
+04.10.2004
++++ npc damage and animation to pc
++++ health & mana growing rate
+
+03.10.2004
++++ bug: не посылаются предметы в контейнерах при заходе в игру
++++ world->Broadcast
++++ 3925: бот доработан
++++ команда для бота, с левелом 0 на выключение pp system
++++ bug: бот неверно формирует команды движения
++++ команда .paralyse на нпц
++++ npc agro & combat AI
+
+02.10.2004 0.3925.2
++++ еще одна переделка cMutex, надеюсь что последняя. they're perfect now! :)
++++ bug 3925: SMSG_LOOT_RESPONSE
++++ XP gain
++++ level stats
+
+01.10.2004 0.3925.1
++++ bug 3925: CMSG_LOGOUT_REQUEST
++++ all about vendors...
+
+30.09.2004
++++ util: WDBcreature
++++ vendors inv list
+
+29.09.2004
++++ util: WDBitem
++++ util: ScpAdd
+
+28.09.2004
++++ libeay32.dll
+
+26.09.2004
++++ Mutex incremental
++++ bug3892: mpq extracor вылетает на распаковке patch-2.mpg
++++ bug3892: статовые предметы дают бонус неправильно
++++ spirit healers
++++ flags1 for spirit healers
++++ bug3892: в предметах нет демеджа
++++ npctext, gossip
+
+25.09.2004
++++ bug3892: клиент вылетает на CMSG_LOGOUT_REQUEST
++++ pvprank
++++ bug: при создании чара нет предметов
+
+24.09.2004 0.3892.1
++++ opcodes from 3892
++++ update fields from 3892
++++ LS removed
++++ CMD_REALM_LIST from 3892
++++ query obj single from 3892
++++ bug: двойной лок на delobj...hideinventory
++++ лок по threadid
+
+23.09.2004
++++ bug: двойной лок на delobj...delalllinkedobjs
+
+21.09.2004
++++ bug: crash server при release и CMSG_PLAYER_LOGIN
+
+20.09.2004 0.3810.8
++++ CMSG_AUTOSTORE_LOOT_ITEM
++++ контейнеры (тип 2)
++++ не посылаются контейнеры при заходе в игру
+
+19.09.2004
++++ DB update
++++ переход на cSObject - smart safe object pointers
+
+18.09.2004
++++ loot npc
++++ встроенная мат. библиотека
+
+17.09.2004
++++ obj::Damage()
++++ npc delay,damage,npcflags - save/load
+
+16.09.2004 v0.3810.7
++++ spell action by Glor
++++ nRandom::*
++++ operator<< и operator>> для WS_PKT
+
+09.09.2004
++++ cObject::damage[7][2]
++++ dummy objects[0]
++++ дистанция для атаки
+
+08.09.2004
++++ переделаны InitObj() и UnInitObj()
++++ save для спавнов
+
+07.09.2004
++++ CMSG_ATTACKSWING, CMSG_ATTACKSTOP
++++ структуры для комбата
++++ combat w. player
+
+06.09.2004
++++ .setspawntime
++++ cWorld::ProcessOneSpawn();
++++ сильно переработан cUpdatePacket
++++ cObject::Death();
++++ lock averywhere...
++++ npc corpse delay
+
+05.09.2004
++++ слать inventory при появлении плаеров и нпц, и соответственно удалять при 
+    исчезании
++++ hash_map msvc7 bug
++++ движение бота, проверка и подсчет всех guid в боте (create,destroy,compressed)
++++ сохранять время последнего CMSG_PING, timeout - disconnect
++++ .setspawnnpc .setspawndist
+
+04.09.2004
++++ WoWEmu_bot частично закончен, можно заходить в игру
++++ проверить multiplayer - проверено появление-исчезновение других плаеров
++++ исправлен небольшой баг связанный с linger
+
+03.09.2004
++++ AddCorpse();
++++ WorldServer auth for WoWEmu_bot
+
+02.09.2004
++++ RealmServer (with srp6) for WoWEmu_bot
+
+01.09.2004
++++ SMSG_SPELL_CAST, SMSG_SPELL_RESULT, SMSG_SPELL_GO, структуры для спеллов
+
+29.08.2004
++++ проверка некорректных чаров на аккаунтах
++++ hash_map by guid & link
++++ GetObjectByGuid() через hash_map
++++ GetObjectsByLink() через hash_map
++++ перенести AddNPC() AddGroundObject() AddItem() в cWorld::
++++ телепорт to bindpoint при смерти
++++ оживление, когда добегаешь до своего тела
+
+28.08.2004
++++ в внутриигровых командах можно применять defines
++++ action,action_timer для нпц
++++ begin spawns for npcs
+
+27.08.2004
++++ client builds diapasone - 3807...3810 compatible (0.9.0...0.9.1)
++++ process только тех нпц возле которых есть плаеры (это сказывается,
+    когда на сервере очень много обьектов)
++++ bindpoints save/load
++++ coinage(money) сохранять
++++ проверять наличие спелла в скрипте, при .learn
++++ спеллы сохраняются по отдельности, вместе со слотом
++++ обработка слотов спеллов при перестановке в спеллбуке
++++ race/class starting spells
+
+26.08.2004
++++ .kill UNIT_DYNAMIC_FLAGS & CMSG_LOOT
++++ bug: disconnect if login after logout (исправлено)
++++ stat0 stat1 stat2... в массив stats[]
++++ resists сохранять на одной строке
++++ при надевании вещей с плюсами - менять hp, mana, статы и резисты
+    (stats меняются, но надо закрыть-открыть paperdoll, возможно это баг клиента?)
++++ account already in use
++++ character name already exists
+
+25.08.2004
++++ bug: видно плаеров logout (исправлено)
++++ initial spells
++++ bind point
++++ .kill на нпц
+
+24.08.2004:
++++ speed & size, .setspeed .setsize
++++ .kill .resurrect commands
+
+23.08.2004:
++++ Client build 3807 done
++++ Mutex locks in the cWorld
++++ Unit MoveTo(), TurnTo()
++++ All inter-player/npc movements
++++ First NPC AI :)
+

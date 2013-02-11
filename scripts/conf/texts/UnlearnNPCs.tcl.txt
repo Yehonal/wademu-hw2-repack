@@ -1,0 +1,97 @@
+﻿#
+# Texts UnlearnNPCs
+#
+# English
+# by Rama
+namespace eval ::Profch {
+#
+::Texts::Set en blacksmithing "Blacksmithing"
+::Texts::Set en alchemy "Alchemy"
+::Texts::Set en enchanting "Enchanting"
+::Texts::Set en herbalism "Herbalism"
+::Texts::Set en leatherworking "Leatherworking"
+::Texts::Set en mining "Mining"
+::Texts::Set en skinning "Skinning"
+::Texts::Set en tailoring "Tailoring"
+::Texts::Set en engineering "Engineering"
+#
+::Texts::Set en need_unlearn "I need to Unlearn %s !"
+::Texts::Set en no_knowskill "You don't know %s !"
+::Texts::Set en no_enoughmoney "You don't have enough money to unlearn %s !"
+::Texts::Set en unlearned "You unlearned %s !"
+#
+::Texts::Set en exit_option "No Thanks. Good Bye!"
+#
+#
+# German
+# by Rama
+::Texts::Set de need_unlearn "Ich möchte %s verlernen!"
+::Texts::Set de no_knowskill "Du kannst %s nicht!"
+::Texts::Set de no_enoughmoney "du hast nicht genug Geld um %s zu verlernen!"
+::Texts::Set de unlearned "Du hast %s verlernt!"
+#
+::Texts::Set de exit_option "Nein Danke, Bye!"
+#
+}
+#
+#
+#
+namespace eval ::Profi2 {
+#
+::Texts::Set en first_aid "First Aid"
+::Texts::Set en cooking "Cooking"
+::Texts::Set en fishing "Fishing"
+#
+::Texts::Set en need_unlearn "I need to Unlearn %s !"
+::Texts::Set en no_knowskill "You don't know %s !"
+::Texts::Set en no_enoughmoney "You don't have enough money to unlearn %s !"
+::Texts::Set en unlearned "You unlearned %s !"
+#
+::Texts::Set en exit_option "No Thanks. Good Bye!"
+#
+#
+# German
+# by Rama
+::Texts::Set de need_unlearn "Ich möchte %s verlernen!"
+::Texts::Set de no_knowskill "Du kannst %s nicht!"
+::Texts::Set de no_enoughmoney "du hast nicht genug Geld um %s zu verlernen!"
+::Texts::Set de unlearned "Du hast %s verlernt!"
+#
+::Texts::Set de exit_option "Nein Danke, Bye!"
+#
+}
+#
+#
+#
+namespace eval ::Profi3 {
+#
+::Texts::Set en horse_ride "Horse Ride"
+::Texts::Set en wolf_ride "Wolf Ride"
+::Texts::Set en tiger_ride "Tiger Ride"
+::Texts::Set en ram_ride "Ram Ride"
+::Texts::Set en raptor_ride "Raptor Ride"
+::Texts::Set en undead_horse_ride "Undead Horse Ride"
+::Texts::Set en kodo_ride "Kodo Ride"
+::Texts::Set en mechanostrider_ride "Mechanostrider Piloting"
+#
+::Texts::Set en need_unlearn "I need to Unlearn %s !"
+::Texts::Set en no_knowskill "You don't know %s !"
+::Texts::Set en no_enoughmoney "You don't have enough money to unlearn %s !"
+::Texts::Set en unlearned "You unlearned %s !"
+#
+::Texts::Set en exit_option "No Thanks. Good Bye!"
+#
+#
+# German
+# by Rama
+::Texts::Set de need_unlearn "Ich möchte %s verlernen!"
+::Texts::Set de no_knowskill "Du kannst %s nicht!"
+::Texts::Set de no_enoughmoney "du hast nicht genug Geld um %s zu verlernen!"
+::Texts::Set de unlearned "Du hast %s verlernt!"
+#
+::Texts::Set de exit_option "Nein Danke, Bye!"
+#
+}
+#
+#
+#

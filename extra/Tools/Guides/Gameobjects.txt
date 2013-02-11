@@ -1,0 +1,132 @@
+[gameobj 20811]
+name=Mine
+flags=028
+//note=Though this is full sized, do NOT use!
+name=Mine
+type=15
+model=649
+sound0=241
+sound1=30
+sound2=1
+
+[gameobj 20812]
+name=Orc Tower
+flags=028
+//note=
+name=Orc Tower
+type=15
+model=629
+sound0=241
+sound1=30
+sound2=1
+
+[gameobj 20816]
+name=Guard Tower
+flags=028
+//note=
+name=Guard Tower
+type=15
+model=628
+sound0=241
+sound1=30
+sound2=1
+
+
+[gameobj 20817]
+name=Holding Pen
+flags=028
+//note=
+name=Holding Pen
+type=15
+model=2170
+sound0=241
+sound1=30
+sound2=1
+
+[gameobj 20818]
+name=Night Elf Moon Well
+flags=028
+//note=
+name=Moon Well
+type=15
+model=4691
+sound0=241
+sound1=30
+sound2=1
+
+[gameobj 20819]
+name=Moon Well 2
+flags=028
+//note=
+name=Moon Well 2
+type=15
+model=368
+sound0=241
+sound1=30
+sound2=1
+
+[gameobj 20820]
+name=Giant Sea Turtle
+flags=028
+//note=
+name=Giant Sea Turtle
+type=15
+model=3534
+sound0=241
+sound1=30
+sound2=1
+
+[gameobj 20821]
+name=Giant Turtle
+flags=028
+//note=
+name=Giant Turtle
+type=15
+model=3531
+sound0=241
+sound1=30
+sound2=1
+
+[gameobj 20822]
+name=Landing Pad
+flags=028
+//note=
+name=Landing Pad
+type=15
+model=2410
+sound0=241
+sound1=30
+sound2=1
+
+[gameobj 20823]
+name=Player Housing
+flags=028
+//note=
+name=Player Housing
+type=15
+model=467
+sound0=241
+sound1=30
+sound2=1
+
+[gameobj 20824]
+name=Orc Tower
+flags=028
+//note=
+name=Orc Tower
+type=15
+model=629
+sound0=241
+sound1=30
+sound2=1
+
+[gameobj 20827]
+name=Stormwind City
+flags=028
+//note=
+name=Stormwind
+type=15
+model=471
+sound0=241
+sound1=30
+sound2=1

@@ -1,0 +1,18 @@
+::Custom::HookProc "::WoWEmu::Command" "::broadcastloop::timecheck"
+
+namespace  eval broadcastloop {
+    variable looptimeline [ clock seconds ]
+    variable looptimediff 6000
+    
+    proc timecheck { } {
+        variable looptimeline
+        variable looptimediff
+        set now [ clock seconds ]
+        if { $now >= ( $looptimeline + $looptimediff ) } {
+            set looptimeline $now    
+
+        return ".broadcast Sono le $now , Buon proseguimento di gioco su AzerothShard,dallo staff"
+
+        }
+    }
+}

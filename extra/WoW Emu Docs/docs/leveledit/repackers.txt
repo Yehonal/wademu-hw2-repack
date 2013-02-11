@@ -1,0 +1,10 @@
+				TO ALL REPACKERS
+
+It's part of the terms of the GPL that it's text be included with programs
+licensed under it, so I ask repackers to please include the "docs/gpl.txt"
+whenever you include this program in your repack.
+
+Thank you very much, for your compreension.
+
+-- 
+Lazarus

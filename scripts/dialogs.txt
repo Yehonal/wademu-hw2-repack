@@ -1,0 +1,5299 @@
+﻿
+[moption NPC6736.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC295.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6928.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6740.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC1573.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53069
+link0=0
+
+[moption NPC1572.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53070
+link0=0
+
+[moption NPC5636.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53071
+link0=0
+
+[moption NPC352.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53072
+link0=0
+
+[moption NPC523.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53073
+link0=0
+
+[moption NPC3838.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53074
+link0=0
+
+[moption NPC2995.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53075
+link0=0
+
+[moption NPC5688.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6747.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6929.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC3615.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53076
+link0=0
+
+[moption NPC3310.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53077
+link0=0
+
+[moption NPC5111.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC1423.0]
+icon=6
+text=$infbanks
+answerids0=53078 53079
+link0=0
+npctext0=4260.0
+
+[moption NPC1423.0]
+icon=2
+text=$infgryphonmasters
+answerids0=53080 53081
+link0=0
+npctext0=4261.0
+
+[moption NPC1423.0]
+icon=0
+text=$infguilds
+answerids0=53082 53083
+link0=0
+npctext0=4262.0
+
+[moption NPC1423.0]
+icon=1
+text=$infinns
+answerids0=53084 53085
+link0=0
+npctext0=4263.0
+
+[moption NPC1423.0]
+icon=5
+text=$infstablemasters
+answerids0=53086 53087
+link0=0
+npctext0=5983.0
+
+[moption NPC1423.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC1423.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC1423.1]
+icon=7
+text=$ClassDruid
+answerids0=4265
+link0=1
+npctext0=4265.0
+
+[moption NPC1423.1]
+icon=7
+text=$ClassHunter
+answerids0=4266
+link0=1
+npctext0=4266.0
+
+[moption NPC1423.1]
+icon=7
+text=$ClassMage
+answerids0=53088 53089
+link0=1
+npctext0=4268.0
+
+[moption NPC1423.1]
+icon=7
+text=$ClassPaladin
+answerids0=53090 53091
+link0=1
+npctext0=4269.0
+
+[moption NPC1423.1]
+icon=7
+text=$ClassPriest
+answerids0=53092 53093
+link0=1
+npctext0=4267.0
+
+[moption NPC1423.1]
+icon=7
+text=$ClassRogue
+answerids0=53094 53095
+link0=1
+npctext0=4270.0
+
+[moption NPC1423.1]
+icon=7
+text=$ClassWarlock
+answerids0=53096 53097
+link0=1
+npctext0=4272.0
+
+[moption NPC1423.1]
+icon=7
+text=$ClassWarrior
+answerids0=53098 53099
+link0=1
+npctext0=4271.0
+
+[moption NPC1423.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfAlchemy
+answerids0=53100 53101
+link0=2
+npctext0=919.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfBlacksmithing
+answerids0=53102 53103
+link0=2
+npctext0=920.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfCooking
+answerids0=53104 53105
+link0=2
+npctext0=921.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfEnchanting
+answerids0=53106 53107
+link0=2
+npctext0=941.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfEngineering
+answerids0=53108 53109
+link0=2
+npctext0=922.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53110 53111
+link0=2
+npctext0=923.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfFishing
+answerids0=53112 53113
+link0=2
+npctext0=940.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfHerbalism
+answerids0=53114 53115
+link0=2
+npctext0=924.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfLeatherworking
+link0=2
+npctext0=925.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfMining
+link0=2
+npctext0=927.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfSkinning
+link0=2
+npctext0=928.0
+
+[moption NPC1423.2]
+icon=7
+text=$ProfTailoring
+answerids0=53116 53117
+link0=2
+npctext0=929.0
+
+[moption NPC1423.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC68.0]
+icon=0
+text=$infauctions
+answerids0=53118 53119
+link0=0
+npctext0=3834.0
+
+[moption NPC68.0]
+icon=0
+text=$infbanks
+answerids0=53120 53121
+link0=0
+npctext0=764.0
+tcl0_0=SendPOI $player 2 -8925 615 6 1637 "Stormwind Bank"
+
+[moption NPC68.0]
+icon=0
+text=$inftrams
+answerids0=53122 53123
+link0=0
+npctext0=3813.0
+
+[moption NPC68.0]
+icon=0
+text=$infinns
+answerids0=53124 53125
+link0=0
+npctext0=3860.0
+tcl0_0=SendPOI $player 2 -9467 27 6 1637 "Goldshire Inn"
+
+[moption NPC68.0]
+icon=0
+text=$infgryphonmasters
+answerids0=53126 53127 53128 53129
+link0=0
+npctext0=879.0
+tcl0_0=SendPOI $player 2 -8840 488 6 1637 "Stormwind Gryphon Master"
+
+[moption NPC68.0]
+icon=0
+text=$infguilds
+answerids0=53130 53131 53132
+link0=0
+npctext0=882.0
+tcl0_0=SendPOI $player 2 -8890 613 6 1637 "Stormwind Guild Master"
+
+[moption NPC68.0]
+icon=0
+text=$infmailboxes
+answerids0=53133 53134
+link0=0
+npctext0=3861.0
+
+[moption NPC68.0]
+icon=0
+text=$infstablemasters
+answerids0=53135 53136
+link0=0
+npctext0=5984.0
+
+[moption NPC68.0]
+icon=0
+text=$infWpTrainers
+answerids0=53137 53138
+link0=0
+npctext0=4516.0
+
+[moption NPC68.0]
+icon=7
+text=$inftrainers
+link0=1
+
+[moption NPC68.0]
+icon=7
+text=$infproftrainers
+link0=2
+
+[moption NPC68.1]
+icon=0
+text=$ClassDruid
+answerids0=4265
+link0=1
+npctext0=4265.0
+tcl0_0=SendPOI $player 2 -8741 1095 6 1637 "Druid Trainer"
+
+[moption NPC68.1]
+icon=0
+text=$ClassHunter
+answerids0=4266
+link0=1
+npctext0=4266.0
+tcl0_0=SendPOI $player 2 -8419 547 6 1637 "Hunter Trainer"
+
+[moption NPC68.1]
+icon=0
+text=$ClassMage
+answerids0=53139 53140
+link0=1
+npctext0=4268.0
+tcl0_0=SendPOI $player 2 -9467 27 6 1637 "Mage Trainer"
+
+[moption NPC68.1]
+icon=0
+text=$ClassPaladin
+answerids0=53141 53142
+link0=1
+npctext0=4269.0
+tcl0_0=SendPOI $player 2 -9428 109 6 1637 "Paladin Trainer"
+
+[moption NPC68.1]
+icon=0
+text=$ClassPriest
+answerids0=53143 53144
+link0=1
+npctext0=4267.0
+tcl0_0=SendPOI $player 2 -9467 27 6 1637 "Priest Trainer"
+
+[moption NPC68.1]
+icon=0
+text=$ClassRogue
+answerids0=53145 53146
+link0=1
+npctext0=4270.0
+tcl0_0=SendPOI $player 2 -9467 27 6 1637 "Rogue Trainer"
+
+[moption NPC68.1]
+icon=0
+text=$ClassWarlock
+answerids0=53147 53148
+link0=1
+npctext0=4272.0
+tcl0_0=SendPOI $player 2 -9467 27 6 1637 "Warlock Trainer"
+
+[moption NPC68.1]
+icon=0
+text=$ClassWarrior
+answerids0=53149 53150
+link0=1
+npctext0=4271.0
+tcl0_0=SendPOI $player 2 -9461 110 6 1637 "Warrior Trainer"
+
+[moption NPC68.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC68.2]
+icon=0
+text=$ProfAlchemy
+answerids0=53151 53152
+link0=2
+npctext0=919.0
+tcl0_0=SendPOI $player 2 -9062 153 6 1637 "Alchemist Trainer"
+
+[moption NPC68.2]
+icon=0
+text=$ProfBlacksmithing
+answerids0=53153 53154
+link0=2
+npctext0=920.0
+tcl0_0=SendPOI $player 2 -9457 88 6 1637 "Blacksmith Trainer"
+
+[moption NPC68.2]
+icon=0
+text=$ProfCooking
+answerids0=53155 53156
+link0=2
+npctext0=921.0
+
+[moption NPC68.2]
+icon=0
+text=$ProfEnchanting
+answerids0=53157 53158
+link0=2
+npctext0=941.0
+tcl0_0=SendPOI $player 2 -8855 799 6 1637 "Enchanting Trainer"
+
+[moption NPC68.2]
+icon=0
+text=$ProfEngineering
+answerids0=53159 53160
+link0=2
+npctext0=922.0
+tcl0_0=SendPOI $player 2 -8350 645 6 1637 "Engineering Trainer"
+
+[moption NPC68.2]
+icon=0
+text=$ProfFirstAid
+answerids0=53161 53162
+link0=2
+npctext0=923.0
+tcl0_0=SendPOI $player 2 -9467 27 6 1637 "Firstaid Trainer"
+
+[moption NPC68.2]
+icon=0
+text=$ProfFishing
+answerids0=53163 53164
+link0=2
+npctext0=940.0
+tcl0_0=SendPOI $player 2 -9381 -113 6 1637 "Fishing Trainer"
+
+[moption NPC68.2]
+icon=0
+text=$ProfHerbalism
+answerids0=53165 53166
+link0=2
+npctext0=924.0
+tcl0_0=SendPOI $player 2 -9062 153 6 1637 "Herbalist Trainer"
+
+[moption NPC68.2]
+icon=0
+text=$ProfLeatherworking
+link0=2
+npctext0=925.0
+tcl0_0=SendPOI $player 2 -9380 -75 6 1637 "Leatherworking Trainer"
+
+[moption NPC68.2]
+icon=0
+text=$ProfMining
+link0=2
+npctext0=927.0
+tcl0_0=SendPOI $player 2 -8428 689 6 1637 "Minning Trainer"
+
+[moption NPC68.2]
+icon=0
+text=$ProfSkinning
+link0=2
+npctext0=928.0
+tcl0_0=SendPOI $player 2 -9380 -75 6 1637 "Skinning Trainer"
+
+[moption NPC68.2]
+icon=0
+text=$ProfTailoring
+answerids0=53167 53168
+link0=2
+npctext0=929.0
+tcl0_0=SendPOI $player 2 -9536 -1217 6 1637 "Tailoring Trainer"
+
+[moption NPC68.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC2439.0]
+icon=1
+text=$infauctions
+answerids0=53169 53170
+link0=0
+npctext0=3834.0
+
+[moption NPC2439.0]
+icon=6
+text=$infbanks
+answerids0=53171 53172
+link0=0
+npctext0=764.0
+
+[moption NPC2439.0]
+icon=2
+text=$inftrams
+answerids0=53173 53174
+link0=0
+npctext0=3813.0
+
+[moption NPC2439.0]
+icon=1
+text=$infinns
+answerids0=53175 53176
+link0=0
+npctext0=3860.0
+
+[moption NPC2439.0]
+icon=2
+text=$infgryphonmasters
+answerids0=53177 53178 53179 53180
+link0=0
+npctext0=879.0
+
+[moption NPC2439.0]
+icon=0
+text=$infguilds
+answerids0=53181 53182 53183
+link0=0
+npctext0=882.0
+
+[moption NPC2439.0]
+icon=4
+text=$infmailboxes
+answerids0=53184 53185
+link0=0
+npctext0=3861.0
+
+[moption NPC2439.0]
+icon=5
+text=$infstablemasters
+answerids0=53186 53187
+link0=0
+npctext0=5984.0
+
+[moption NPC2439.0]
+icon=0
+text=$infWpTrainers
+answerids0=53188 53189
+link0=0
+npctext0=4516.0
+
+[moption NPC2439.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC2439.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC2439.1]
+icon=7
+text=$ClassDruid
+answerids0=4265
+link0=1
+npctext0=4265.0
+
+[moption NPC2439.1]
+icon=7
+text=$ClassHunter
+answerids0=4266
+link0=1
+npctext0=4266.0
+
+[moption NPC2439.1]
+icon=7
+text=$ClassMage
+answerids0=53190 53191
+link0=1
+npctext0=4268.0
+
+[moption NPC2439.1]
+icon=7
+text=$ClassPaladin
+answerids0=53192 53193
+link0=1
+npctext0=4269.0
+
+[moption NPC2439.1]
+icon=7
+text=$ClassPriest
+answerids0=53194 53195
+link0=1
+npctext0=4267.0
+
+[moption NPC2439.1]
+icon=7
+text=$ClassRogue
+answerids0=53196 53197
+link0=1
+npctext0=4270.0
+
+[moption NPC2439.1]
+icon=7
+text=$ClassWarlock
+answerids0=53198 53199
+link0=1
+npctext0=4272.0
+
+[moption NPC2439.1]
+icon=7
+text=$ClassWarrior
+answerids0=53200 53201
+link0=1
+npctext0=4271.0
+
+[moption NPC2439.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfAlchemy
+answerids0=53202 53203
+link0=2
+npctext0=919.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfBlacksmithing
+answerids0=53204 53205
+link0=2
+npctext0=920.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfCooking
+answerids0=53206 53207
+link0=2
+npctext0=921.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfEnchanting
+answerids0=53208 53209
+link0=2
+npctext0=941.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfEngineering
+answerids0=53210 53211
+link0=2
+npctext0=922.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53212 53213
+link0=2
+npctext0=923.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfFishing
+answerids0=53214 53215
+link0=2
+npctext0=940.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfHerbalism
+answerids0=53216 53217
+link0=2
+npctext0=924.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfLeatherworking
+link0=2
+npctext0=925.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfMining
+link0=2
+npctext0=927.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfSkinning
+link0=2
+npctext0=928.0
+
+[moption NPC2439.2]
+icon=7
+text=$ProfTailoring
+answerids0=53218 53219
+link0=2
+npctext0=929.0
+
+[moption NPC2439.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1756.0]
+icon=1
+text=$infauctions
+answerids0=53220 53221
+link0=0
+npctext0=3834.0
+
+[moption NPC1756.0]
+icon=6
+text=$infbanks
+answerids0=53222 53223
+link0=0
+npctext0=764.0
+
+[moption NPC1756.0]
+icon=2
+text=$inftrams
+answerids0=53224 53225
+link0=0
+npctext0=3813.0
+
+[moption NPC1756.0]
+icon=1
+text=$infinns
+answerids0=53226 53227
+link0=0
+npctext0=3860.0
+
+[moption NPC1756.0]
+icon=2
+text=$infgryphonmasters
+answerids0=53228 53229 53230 53231
+link0=0
+npctext0=879.0
+
+[moption NPC1756.0]
+icon=0
+text=$infguilds
+answerids0=53232 53233 53234
+link0=0
+npctext0=882.0
+
+[moption NPC1756.0]
+icon=4
+text=$infmailboxes
+answerids0=53235 53236
+link0=0
+npctext0=3861.0
+
+[moption NPC1756.0]
+icon=5
+text=$infstablemasters
+answerids0=53237 53238
+link0=0
+npctext0=5984.0
+
+[moption NPC1756.0]
+icon=0
+text=$infWpTrainers
+answerids0=53239 53240
+link0=0
+npctext0=4516.0
+
+[moption NPC1756.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC1756.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC1756.1]
+icon=7
+text=$ClassDruid
+answerids0=4265
+link0=1
+npctext0=4265.0
+
+[moption NPC1756.1]
+icon=7
+text=$ClassHunter
+answerids0=4266
+link0=1
+npctext0=4266.0
+
+[moption NPC1756.1]
+icon=7
+text=$ClassMage
+answerids0=53241 53242
+link0=1
+npctext0=4268.0
+
+[moption NPC1756.1]
+icon=7
+text=$ClassPaladin
+answerids0=53243 53244
+link0=1
+npctext0=4269.0
+
+[moption NPC1756.1]
+icon=7
+text=$ClassPriest
+answerids0=53245 53246
+link0=1
+npctext0=4267.0
+
+[moption NPC1756.1]
+icon=7
+text=$ClassRogue
+answerids0=53247 53248
+link0=1
+npctext0=4270.0
+
+[moption NPC1756.1]
+icon=7
+text=$ClassWarlock
+answerids0=53249 53250
+link0=1
+npctext0=4272.0
+
+[moption NPC1756.1]
+icon=7
+text=$ClassWarrior
+answerids0=53251 53252
+link0=1
+npctext0=4271.0
+
+[moption NPC1756.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfAlchemy
+answerids0=53253 53254
+link0=2
+npctext0=919.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfBlacksmithing
+answerids0=53255 53256
+link0=2
+npctext0=920.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfCooking
+answerids0=53257 53258
+link0=2
+npctext0=921.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfEnchanting
+answerids0=53259 53260
+link0=2
+npctext0=941.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfEngineering
+answerids0=53261 53262
+link0=2
+npctext0=922.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53263 53264
+link0=2
+npctext0=923.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfFishing
+answerids0=53265 53266
+link0=2
+npctext0=940.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfHerbalism
+answerids0=53267 53268
+link0=2
+npctext0=924.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfLeatherworking
+link0=2
+npctext0=925.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfMining
+link0=2
+npctext0=927.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfSkinning
+link0=2
+npctext0=928.0
+
+[moption NPC1756.2]
+icon=7
+text=$ProfTailoring
+answerids0=53269 53270
+link0=2
+npctext0=929.0
+
+[moption NPC1756.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1976.0]
+icon=1
+text=$infauctions
+answerids0=53271 53272
+link0=0
+npctext0=3834.0
+
+[moption NPC1976.0]
+icon=6
+text=$infbanks
+answerids0=53273 53274
+link0=0
+npctext0=764.0
+
+[moption NPC1976.0]
+icon=2
+text=$inftrams
+answerids0=53275 53276
+link0=0
+npctext0=3813.0
+
+[moption NPC1976.0]
+icon=1
+text=$infinns
+answerids0=53277 53278
+link0=0
+npctext0=3860.0
+
+[moption NPC1976.0]
+icon=2
+text=$infgryphonmasters
+answerids0=53279 53280 53281 53282
+link0=0
+npctext0=879.0
+
+[moption NPC1976.0]
+icon=0
+text=$infguilds
+answerids0=53283 53284 53285
+link0=0
+npctext0=882.0
+
+[moption NPC1976.0]
+icon=4
+text=$infmailboxes
+answerids0=53286 53287
+link0=0
+npctext0=3861.0
+
+[moption NPC1976.0]
+icon=5
+text=$infstablemasters
+answerids0=53288 53289
+link0=0
+npctext0=5984.0
+
+[moption NPC1976.0]
+icon=0
+text=$infWpTrainers
+answerids0=53290 53291
+link0=0
+npctext0=4516.0
+
+[moption NPC1976.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC1976.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC1976.1]
+icon=7
+text=$ClassDruid
+answerids0=4265
+link0=1
+npctext0=4265.0
+
+[moption NPC1976.1]
+icon=7
+text=$ClassHunter
+answerids0=4266
+link0=1
+npctext0=4266.0
+
+[moption NPC1976.1]
+icon=7
+text=$ClassMage
+answerids0=53292 53293
+link0=1
+npctext0=4268.0
+
+[moption NPC1976.1]
+icon=7
+text=$ClassPaladin
+answerids0=53294 53295
+link0=1
+npctext0=4269.0
+
+[moption NPC1976.1]
+icon=7
+text=$ClassPriest
+answerids0=53296 53297
+link0=1
+npctext0=4267.0
+
+[moption NPC1976.1]
+icon=7
+text=$ClassRogue
+answerids0=53298 53299
+link0=1
+npctext0=4270.0
+
+[moption NPC1976.1]
+icon=7
+text=$ClassWarlock
+answerids0=53300 53301
+link0=1
+npctext0=4272.0
+
+[moption NPC1976.1]
+icon=7
+text=$ClassWarrior
+answerids0=53302 53303
+link0=1
+npctext0=4271.0
+
+[moption NPC1976.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfAlchemy
+answerids0=53304 53305
+link0=2
+npctext0=919.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfBlacksmithing
+answerids0=53306 53307
+link0=2
+npctext0=920.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfCooking
+answerids0=53308 53309
+link0=2
+npctext0=921.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfEnchanting
+answerids0=53310 53311
+link0=2
+npctext0=941.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfEngineering
+answerids0=53312 53313
+link0=2
+npctext0=922.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53314 53315
+link0=2
+npctext0=923.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfFishing
+answerids0=53316 53317
+link0=2
+npctext0=940.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfHerbalism
+answerids0=53318 53319
+link0=2
+npctext0=924.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfLeatherworking
+link0=2
+npctext0=925.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfMining
+link0=2
+npctext0=927.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfSkinning
+link0=2
+npctext0=928.0
+
+[moption NPC1976.2]
+icon=7
+text=$ProfTailoring
+answerids0=53320 53321
+link0=2
+npctext0=929.0
+
+[moption NPC1976.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1642.0]
+icon=6
+text=$infbanks
+answerids0=53322 53323
+link0=0
+npctext0=4260.0
+
+[moption NPC1642.0]
+icon=2
+text=$infgryphonmasters
+answerids0=53324 53325
+link0=0
+npctext0=4261.0
+
+[moption NPC1642.0]
+icon=0
+text=$infguilds
+answerids0=53326 53327
+link0=0
+npctext0=4262.0
+
+[moption NPC1642.0]
+icon=1
+text=$infinns
+answerids0=53328 53329
+link0=0
+npctext0=4263.0
+
+[moption NPC1642.0]
+icon=5
+text=$infstablemasters
+answerids0=53330 53331
+link0=0
+npctext0=5983.0
+
+[moption NPC1642.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC1642.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC1642.1]
+icon=7
+text=$ClassDruid
+answerids0=4265
+link0=1
+npctext0=4265.0
+
+[moption NPC1642.1]
+icon=7
+text=$ClassHunter
+answerids0=4266
+link0=1
+npctext0=4266.0
+
+[moption NPC1642.1]
+icon=7
+text=$ClassMage
+answerids0=53332 53333
+link0=1
+npctext0=4268.0
+
+[moption NPC1642.1]
+icon=7
+text=$ClassPaladin
+answerids0=53334 53335
+link0=1
+npctext0=4269.0
+
+[moption NPC1642.1]
+icon=7
+text=$ClassPriest
+answerids0=53336 53337
+link0=1
+npctext0=4267.0
+
+[moption NPC1642.1]
+icon=7
+text=$ClassRogue
+answerids0=53338 53339
+link0=1
+npctext0=4270.0
+
+[moption NPC1642.1]
+icon=7
+text=$ClassWarlock
+answerids0=53340 53341
+link0=1
+npctext0=4272.0
+
+[moption NPC1642.1]
+icon=7
+text=$ClassWarrior
+answerids0=53342 53343
+link0=1
+npctext0=4271.0
+
+[moption NPC1642.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfAlchemy
+answerids0=53344 53345
+link0=2
+npctext0=919.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfBlacksmithing
+answerids0=53346 53347
+link0=2
+npctext0=920.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfCooking
+answerids0=53348 53349
+link0=2
+npctext0=921.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfEnchanting
+answerids0=53350 53351
+link0=2
+npctext0=941.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfEngineering
+answerids0=53352 53353
+link0=2
+npctext0=922.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53354 53355
+link0=2
+npctext0=923.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfFishing
+answerids0=53356 53357
+link0=2
+npctext0=940.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfHerbalism
+answerids0=53358 53359
+link0=2
+npctext0=924.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfLeatherworking
+link0=2
+npctext0=925.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfMining
+link0=2
+npctext0=927.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfSkinning
+link0=2
+npctext0=928.0
+
+[moption NPC1642.2]
+icon=7
+text=$ProfTailoring
+answerids0=53360 53361
+link0=2
+npctext0=929.0
+
+[moption NPC1642.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC5595.0]
+icon=1
+text=$infauctions
+answerids0=3014
+link0=0
+npctext0=3014.0
+
+[moption NPC5595.0]
+icon=6
+text=$infbanks
+answerids0=53362 53363
+link0=0
+npctext0=2761.0
+
+[moption NPC5595.0]
+icon=2
+text=$inftrams
+answerids0=53364 53365
+link0=0
+npctext0=3814.0
+
+[moption NPC5595.0]
+icon=2
+text=$infgryphonmasters
+answerids0=53366 53367
+link0=0
+npctext0=2762.0
+
+[moption NPC5595.0]
+icon=0
+text=$infguilds
+answerids0=53368 53369
+link0=0
+npctext0=2764.0
+
+[moption NPC5595.0]
+icon=1
+text=$infinns
+answerids0=53370 53371
+link0=0
+npctext0=2768.0
+
+[moption NPC5595.0]
+icon=4
+text=$infmailboxes
+answerids0=53372 53373
+link0=0
+npctext0=2769.0
+
+[moption NPC5595.0]
+icon=5
+text=$infstablemasters
+answerids0=53374 53375
+link0=0
+npctext0=5986.0
+
+[moption NPC5595.0]
+icon=0
+text=$infWpTrainers
+answerids0=53376 53377
+link0=0
+npctext0=4518.0
+
+[moption NPC5595.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC5595.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC5595.1]
+icon=7
+text=$ClassHunter
+answerids0=53378 53379
+link0=1
+npctext0=2770.0
+
+[moption NPC5595.1]
+icon=7
+text=$ClassMage
+answerids0=53380 53381
+link0=1
+npctext0=2771.0
+
+[moption NPC5595.1]
+icon=7
+text=$ClassPaladin
+answerids0=53382 53383
+link0=1
+npctext0=2773.0
+
+[moption NPC5595.1]
+icon=7
+text=$ClassPriest
+answerids0=53384 53385
+link0=1
+npctext0=2772.0
+
+[moption NPC5595.1]
+icon=7
+text=$ClassRogue
+answerids0=53386 53387
+link0=1
+npctext0=2774.0
+
+[moption NPC5595.1]
+icon=7
+text=$ClassWarlock
+answerids0=53388 53389
+link0=1
+npctext0=2775.0
+
+[moption NPC5595.1]
+icon=7
+text=$ClassWarrior
+answerids0=53390 53391
+link0=1
+npctext0=2776.0
+
+[moption NPC5595.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfAlchemy
+answerids0=53392 53393
+link0=2
+npctext0=2794.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfBlacksmithing
+answerids0=53394 53395
+link0=2
+npctext0=2795.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfCooking
+answerids0=53396 53397
+link0=2
+npctext0=2796.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfEnchanting
+answerids0=53398 53399
+link0=2
+npctext0=2797.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfEngineering
+answerids0=53400 53401
+link0=2
+npctext0=2798.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53402 53403
+link0=2
+npctext0=2799.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfFishing
+answerids0=53404 53405
+link0=2
+npctext0=2800.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfHerbalism
+answerids0=53406 53407
+link0=2
+npctext0=2801.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfLeatherworking
+answerids0=53408 53409
+link0=2
+npctext0=2802.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfMining
+answerids0=53410 53411
+link0=2
+npctext0=2804.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfSkinning
+answerids0=53412 53413
+link0=2
+npctext0=2805.0
+
+[moption NPC5595.2]
+icon=7
+text=$ProfTailoring
+answerids0=53414 53415
+link0=2
+npctext0=2807.0
+
+[moption NPC5595.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC727.0]
+icon=1
+text=$infauctions
+answerids0=3014
+link0=0
+npctext0=3014.0
+
+[moption NPC727.0]
+icon=6
+text=$infbanks
+answerids0=53416 53417
+link0=0
+npctext0=2761.0
+
+[moption NPC727.0]
+icon=2
+text=$inftrams
+answerids0=53418 53419
+link0=0
+npctext0=3814.0
+
+[moption NPC727.0]
+icon=2
+text=$infgryphonmasters
+answerids0=53420 53421
+link0=0
+npctext0=2762.0
+
+[moption NPC727.0]
+icon=0
+text=$infguilds
+answerids0=53422 53423
+link0=0
+npctext0=2764.0
+
+[moption NPC727.0]
+icon=1
+text=$infinns
+answerids0=53424 53425
+link0=0
+npctext0=2768.0
+
+[moption NPC727.0]
+icon=4
+text=$infmailboxes
+answerids0=53426 53427
+link0=0
+npctext0=2769.0
+
+[moption NPC727.0]
+icon=5
+text=$infstablemasters
+answerids0=53428 53429
+link0=0
+npctext0=5986.0
+
+[moption NPC727.0]
+icon=0
+text=$infWpTrainers
+answerids0=53430 53431
+link0=0
+npctext0=4518.0
+
+[moption NPC727.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC727.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC727.1]
+icon=7
+text=$ClassHunter
+answerids0=53432 53433
+link0=1
+npctext0=2770.0
+
+[moption NPC727.1]
+icon=7
+text=$ClassMage
+answerids0=53434 53435
+link0=1
+npctext0=2771.0
+
+[moption NPC727.1]
+icon=7
+text=$ClassPaladin
+answerids0=53436 53437
+link0=1
+npctext0=2773.0
+
+[moption NPC727.1]
+icon=7
+text=$ClassPriest
+answerids0=53438 53439
+link0=1
+npctext0=2772.0
+
+[moption NPC727.1]
+icon=7
+text=$ClassRogue
+answerids0=53440 53441
+link0=1
+npctext0=2774.0
+
+[moption NPC727.1]
+icon=7
+text=$ClassWarlock
+answerids0=53442 53443
+link0=1
+npctext0=2775.0
+
+[moption NPC727.1]
+icon=7
+text=$ClassWarrior
+answerids0=53444 53445
+link0=1
+npctext0=2776.0
+
+[moption NPC727.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC727.2]
+icon=7
+text=$ProfAlchemy
+answerids0=53446 53447
+link0=2
+npctext0=2794.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfBlacksmithing
+answerids0=53448 53449
+link0=2
+npctext0=2795.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfCooking
+answerids0=53450 53451
+link0=2
+npctext0=2796.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfEnchanting
+answerids0=53452 53453
+link0=2
+npctext0=2797.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfEngineering
+answerids0=53454 53455
+link0=2
+npctext0=2798.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53456 53457
+link0=2
+npctext0=2799.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfFishing
+answerids0=53458 53459
+link0=2
+npctext0=2800.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfHerbalism
+answerids0=53460 53461
+link0=2
+npctext0=2801.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfLeatherworking
+answerids0=53462 53463
+link0=2
+npctext0=2802.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfMining
+answerids0=53464 53465
+link0=2
+npctext0=2804.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfSkinning
+answerids0=53466 53467
+link0=2
+npctext0=2805.0
+
+[moption NPC727.2]
+icon=7
+text=$ProfTailoring
+answerids0=53468 53469
+link0=2
+npctext0=2807.0
+
+[moption NPC727.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC5953.0]
+icon=6
+text=$infbanks
+answerids0=53470 53471
+link0=0
+npctext0=4032.0
+
+[moption NPC5953.0]
+icon=2
+text=$infgryphonmasters
+answerids0=53472 53473
+link0=0
+npctext0=4033.0
+
+[moption NPC5953.0]
+icon=1
+text=$infinns
+answerids0=53474 53475
+link0=0
+npctext0=4034.0
+
+[moption NPC5953.0]
+icon=5
+text=$infstablemasters
+answer0_0=Pets to take care of? Just make sure you clean up after it !  Shoja'my is over in front of the inn. Now move along, I'm busy.
+answerids0=53476
+link0=0
+
+[moption NPC5953.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC5953.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC5953.1]
+icon=7
+text=$ClassHunter
+answerids0=53477 53478
+link0=1
+npctext0=4013.0
+
+[moption NPC5953.1]
+icon=7
+text=$ClassMage
+answerids0=53479 53480
+link0=1
+npctext0=4014.0
+
+[moption NPC5953.1]
+icon=7
+text=$ClassPriest
+answerids0=53481 53482
+link0=1
+npctext0=4015.0
+
+[moption NPC5953.1]
+icon=7
+text=$ClassRogue
+answerids0=53483 53484
+link0=1
+npctext0=4016.0
+
+[moption NPC5953.1]
+icon=7
+text=$ClassShaman
+answerids0=53485 53486
+link0=1
+npctext0=4017.0
+
+[moption NPC5953.1]
+icon=7
+text=$ClassWarlock
+answer0_0=On the east side of Razor Hill, behind the barracks is where you will find Dhugru Gorelust .
+answerids0=53487
+link0=1
+
+[moption NPC5953.1]
+icon=7
+text=$ClassWarrior
+answerids0=53488 53489
+link0=1
+npctext0=4019.0
+
+[moption NPC5953.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC5953.2]
+icon=7
+text=$ProfAlchemy
+answerids0=53490 53491
+link0=2
+npctext0=4020.0
+
+[moption NPC5953.2]
+icon=7
+text=$ProfBlacksmithing
+answerids0=53492 53493
+link0=2
+npctext0=4021.0
+
+[moption NPC5953.2]
+icon=7
+text=$ProfCooking
+answerids0=53494 53495
+link0=2
+npctext0=4022.0
+
+[moption NPC5953.2]
+icon=7
+text=$ProfEnchanting
+answer0_0=I don't know of one of those around here. There's one in Orgrimmar.A grunt up there will know what directions to give you.Just head north up the road here, you can't miss it .
+answerids0=53496
+link0=2
+
+[moption NPC5953.2]
+icon=7
+text=$ProfEngineering
+answer0_0=Bah, that's goblin work ! Still, we have an orc here in Razor Hill that will teach you of such things.Look for Mukdrak over near the forge .
+answerids0=53497
+link0=2
+
+[moption NPC5953.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53498 53499
+link0=2
+npctext0=4025.0
+
+[moption NPC5953.2]
+icon=7
+text=$ProfFishing
+answerids0=53500 53501
+link0=2
+npctext0=4026.0
+
+[moption NPC5953.2]
+icon=7
+text=$ProfHerbalism
+answerids0=53502 53503
+link0=2
+npctext0=4027.0
+
+[moption NPC5953.2]
+icon=7
+text=$ProfMining
+answerids0=53504 53505
+link0=2
+npctext0=4029.0
+
+[moption NPC5953.2]
+icon=7
+text=$ProfSkinning
+answerids0=53506 53507
+link0=2
+npctext0=4030.0
+
+[moption NPC5953.2]
+icon=7
+text=$ProfTailoring
+answerids0=53508 53509
+link0=2
+npctext0=4031.0
+
+[moption NPC5953.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC5725.0]
+icon=6
+text=$infbanks
+answerids0=53510 53511
+link0=0
+npctext0=4074.0
+
+[moption NPC5725.0]
+icon=2
+text=$infgryphonmasters
+answerids0=53512 53513
+link0=0
+npctext0=4075.0
+
+[moption NPC5725.0]
+icon=1
+text=$infinns
+answerids0=53514 53515
+link0=0
+npctext0=4076.0
+
+[moption NPC5725.0]
+icon=5
+text=$infstablemasters
+answerids0=53516 53517
+link0=0
+npctext0=5978.0
+
+[moption NPC5725.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC5725.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC5725.1]
+icon=7
+text=$ClassMage
+answerids0=53518 53519
+link0=1
+npctext0=4077.0
+
+[moption NPC5725.1]
+icon=7
+text=$ClassPriest
+answerids0=53520 53521
+link0=1
+npctext0=4078.0
+
+[moption NPC5725.1]
+icon=7
+text=$ClassRogue
+answer0_0=The Rogue Trainer's name is Marion Call. Marion Call is keeping Dark Cleric Beryl company in the reading room upstairs at the Gallows' End Tavern on the southeast edge of Brill. I'm just dying to see who wins that staring contest .
+answerids0=53522
+link0=1
+
+[moption NPC5725.1]
+icon=7
+text=$ClassWarlock
+answerids0=53523 53524
+link0=1
+npctext0=4080.0
+
+[moption NPC5725.1]
+icon=7
+text=$ClassWarrior
+answerids0=53525 53526
+link0=1
+npctext0=4081.0
+
+[moption NPC5725.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC5725.2]
+icon=7
+text=$ProfAlchemy
+answer0_0=Our Alchemist's name is Carolai Anise. You'll find Carolai Anise trying to blow up her house at the northwest end of town. Why don't you go see if you can help her ?
+answerids0=53527
+link0=2
+
+[moption NPC5725.2]
+icon=7
+text=$ProfBlacksmithing
+answerids0=53528 53529
+link0=2
+npctext0=4083.0
+
+[moption NPC5725.2]
+icon=7
+text=$ProfCooking
+answerids0=53530 53531
+link0=2
+npctext0=4084.0
+
+[moption NPC5725.2]
+icon=7
+text=$ProfEnchanting
+answerids0=53532 53533
+link0=2
+npctext0=4085.0
+
+[moption NPC5725.2]
+icon=7
+text=$ProfEngineering
+answerids0=53534 53535
+link0=2
+npctext0=4086.0
+
+[moption NPC5725.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53536 53537
+link0=2
+npctext0=4087.0
+
+[moption NPC5725.2]
+icon=7
+text=$ProfFishing
+answerids0=53538 53539
+link0=2
+npctext0=4088.0
+
+[moption NPC5725.2]
+icon=7
+text=$ProfHerbalism
+answer0_0=Look for Faruza .  Actually I prefer traditional medicines . . . leeches, maggots, bonesaws . . . that sort of thing .  Well to each their own .  You can find the our local Herbalism Trainer, Faruza, standing out front near the stables in Brill .
+answerids0=53540
+link0=2
+
+[moption NPC5725.2]
+icon=7
+text=$ProfLeatherworking
+answer0_0=That would be Shelene Rhobart .  Nothing quite like the feel of something dead rubbing up against you .  You can find Shelene Rhobart by heading southeast on the road out of town, and then going east at the intersection .  She's at a small camp there not too far along the road .
+answerids0=53541
+link0=2
+
+[moption NPC5725.2]
+icon=7
+text=$ProfMining
+answerids0=53542 53543
+link0=2
+npctext0=4091.0
+
+[moption NPC5725.2]
+icon=7
+text=$ProfSkinning
+answerids0=53544 53545
+link0=2
+npctext0=4092.0
+
+[moption NPC5725.2]
+icon=7
+text=$ProfTailoring
+answerids0=53546 53547
+link0=2
+npctext0=4093.0
+
+[moption NPC5725.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC3220.0]
+icon=6
+text=$infbanks
+answerids0=53548 53549
+link0=0
+npctext0=4051.0
+
+[moption NPC3220.0]
+icon=2
+text=$infgryphonmasters
+answerids0=53550 53551
+link0=0
+npctext0=4052.0
+
+[moption NPC3220.0]
+icon=1
+text=$infinns
+answerids0=53552 53553
+link0=0
+npctext0=4053.0
+
+[moption NPC3220.0]
+icon=5
+text=$infstablemasters
+answer0_0=Ah yes, it is Seikwa that you must find. She can take care of your animal friends when you have the need. Seek her out in front of the inn .
+answerids0=53554
+link0=0
+
+[moption NPC3220.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC3220.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC3220.1]
+icon=7
+text=$ClassDruid
+answerids0=53555 53556
+link0=1
+npctext0=4054.0
+
+[moption NPC3220.1]
+icon=7
+text=$ClassHunter
+answerids0=53557 53558
+link0=1
+npctext0=4055.0
+
+[moption NPC3220.1]
+icon=7
+text=$ClassShaman
+answerids0=53559 53560
+link0=1
+npctext0=4056.0
+
+[moption NPC3220.1]
+icon=7
+text=$ClassWarrior
+answerids0=53561 53562
+link0=1
+npctext0=4057.0
+
+[moption NPC3220.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfAlchemy
+answerids0=53563 53564
+link0=2
+npctext0=4058.0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfBlacksmithing
+answerids0=53565 53566
+link0=2
+npctext0=4059.0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfCooking
+answerids0=53567 53568
+link0=2
+npctext0=4060.0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfEnchanting
+answerids0=53569 53570
+link0=2
+npctext0=4061.0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53571 53572
+link0=2
+npctext0=4062.0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfFishing
+answerids0=53573 53574
+link0=2
+npctext0=4063.0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfHerbalism
+answerids0=53575 53576
+link0=2
+npctext0=4064.0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfLeatherworking
+answerids0=53577 53578
+link0=2
+npctext0=4065.0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfMining
+answerids0=53579 53580
+link0=2
+npctext0=4066.0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfSkinning
+answerids0=53581 53582
+link0=2
+npctext0=4067.0
+
+[moption NPC3220.2]
+icon=7
+text=$ProfTailoring
+answerids0=53583 53584
+link0=2
+npctext0=4068.0
+
+[moption NPC3220.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC3571.0]
+icon=6
+text=$infbanks
+answerids0=53585 53586
+link0=0
+npctext0=4317.0
+
+[moption NPC3571.0]
+icon=0
+text=$infzeppelins
+answerids0=53587 53588
+link0=0
+npctext0=4318.0
+
+[moption NPC3571.0]
+icon=0
+text=$infguilds
+answerids0=53589 53590
+link0=0
+npctext0=4319.0
+
+[moption NPC3571.0]
+icon=1
+text=$infinns
+answerids0=53591 53592
+link0=0
+npctext0=4320.0
+
+[moption NPC3571.0]
+icon=5
+text=$infstablemasters
+answerids0=53593 53594
+link0=0
+npctext0=5982.0
+
+[moption NPC3571.0]
+icon=3
+text=$inftrainers
+link0=1
+
+[moption NPC3571.0]
+icon=3
+text=$infproftrainers
+link0=2
+
+[moption NPC3571.1]
+icon=7
+text=$ClassDruid
+answerids0=53595 53596
+link0=1
+npctext0=4323.0
+
+[moption NPC3571.1]
+icon=7
+text=$ClassHunter
+answerids0=53597 53598
+link0=1
+npctext0=4324.0
+
+[moption NPC3571.1]
+icon=7
+text=$ClassPriest
+answerids0=53599 53600
+link0=1
+npctext0=4325.0
+
+[moption NPC3571.1]
+icon=7
+text=$ClassRogue
+answer0_0=A rougue?I'm not in the habit of referring people to those types, but I believe Jannok would be the one you're looking for.You will find him at the inn in Dolanaar .
+answerids0=53601
+link0=1
+
+[moption NPC3571.1]
+icon=7
+text=$ClassWarrior
+answerids0=53602 53603
+link0=1
+npctext0=4327.0
+
+[moption NPC3571.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC3571.2]
+icon=7
+text=$ProfAlchemy
+answerids0=53604 53605
+link0=2
+npctext0=4329.0
+
+[moption NPC3571.2]
+icon=7
+text=$ProfCooking
+answerids0=53606 53607
+link0=2
+npctext0=4330.0
+
+[moption NPC3571.2]
+icon=7
+text=$ProfEnchanting
+answerids0=53608 53609
+link0=2
+npctext0=4331.0
+
+[moption NPC3571.2]
+icon=7
+text=$ProfFirstAid
+answerids0=53610 53611
+link0=2
+npctext0=4332.0
+
+[moption NPC3571.2]
+icon=7
+text=$ProfFishing
+answerids0=53612 53613
+link0=2
+npctext0=4333.0
+
+[moption NPC3571.2]
+icon=7
+text=$ProfHerbalism
+answer0_0=Marlone somehow manages to pick the Tailoring Skinning Leatherworking most delicate herbs without damaging them. Certainly he is the one you should learn from. He lives just east of the Inn in Dolanaar.
+answerids0=53614
+link0=2
+
+[moption NPC3571.2]
+icon=7
+text=$ProfLeatherworking
+answerids0=53615 53616
+link0=2
+npctext0=4335.0
+
+[moption NPC3571.2]
+icon=7
+text=$ProfSkinning
+answerids0=4336
+link0=2
+npctext0=4336.0
+
+[moption NPC3571.2]
+icon=7
+text=$ProfTailoring
+answerids0=53617 53618
+link0=2
+npctext0=4337.0
+
+[moption NPC3571.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC6791.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6807.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6930.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC7714.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC7731.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC7733.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC7736.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC7737.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC7744.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC8931.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC8999.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC9356.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC9501.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC11103.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC11106.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC11116.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC11118.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC12196.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC1247.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC1464.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC2352.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC2388.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC3934.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6272.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6727.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6734.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6735.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6737.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6738.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6739.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6741.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6746.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC6790.0]
+icon=0
+text=$infinnhow
+answerids0=1853
+link0=0
+npctext0=1853.0
+
+[moption NPC4974.0]
+icon=0
+text=$infguildhow
+answer0_0=If you want to make your guild then you'll have to purchase a Guild Charter and after that you'll have to gather 10 signatures from 10 different citizens that agree with your guild.After that you will be able to register your guild .
+answerids0=53619
+link0=0
+
+[moption NPC3370.0]
+icon=0
+text=$infguildhow
+answer0_0=If you want to make your guild then you'll have to purchase a Guild Charter and after that you'll have to gather 10 signatures from 10 different citizens that agree with your guild.After that you will be able to register your guild .
+answerids0=53620
+link0=0
+
+[moption NPC4161.0]
+icon=0
+text=$infguildhow
+answer0_0=If you want to make your guild then you'll have to purchase a Guild Charter and after that you'll have to gather 10 signatures from 10 different citizens that agree with your guild.After that you will be able to register your guild .
+answerids0=53621
+link0=0
+
+[moption NPC4613.0]
+icon=0
+text=$infguildhow
+answer0_0=If you want to make your guild then you'll have to purchase a Guild Charter and after that you'll have to gather 10 signatures from 10 different citizens that agree with your guild.After that you will be able to register your guild .
+answerids0=53622
+link0=0
+
+[moption NPC5054.0]
+icon=0
+text=$infguildhow
+answer0_0=If you want to make your guild then you'll have to purchase a Guild Charter and after that you'll have to gather 10 signatures from 10 different citizens that agree with your guild.After that you will be able to register your guild .
+answerids0=53623
+link0=0
+
+[moption NPC5130.0]
+icon=0
+text=$infguildhow
+answer0_0=If you want to make your guild then you'll have to purchase a Guild Charter and after that you'll have to gather 10 signatures from 10 different citizens that agree with your guild.After that you will be able to register your guild .
+answerids0=53624
+link0=0
+
+[moption NPC11867.0]
+icon=0
+text=$infOtherWpTrainers
+answerids0=6290
+link0=0
+npctext0=6290.0
+
+[moption NPC7823.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53625
+link0=0
+
+[moption NPC8018.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53626
+link0=0
+
+[moption NPC8609.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53627
+link0=0
+
+[moption NPC931.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53628
+link0=0
+
+[moption NPC1571.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53629
+link0=0
+
+[moption NPC2299.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53630
+link0=0
+
+[moption NPC2409.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53631
+link0=0
+
+[moption NPC2432.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53632
+link0=0
+
+[moption NPC2835.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53633
+link0=0
+
+[moption NPC2859.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53634
+link0=0
+
+[moption NPC4321.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53635
+link0=0
+
+[moption NPC12596.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53636
+link0=0
+
+[moption NPC12617.0]
+icon=0
+text=$infGryphonHowTo
+answer0_0=TODO_TODO_GRYPHON
+answerids0=53637
+link0=0
+
+[moption NPC3841.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53638
+link0=0
+
+[moption NPC4267.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53639
+link0=0
+
+[moption NPC4319.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53640
+link0=0
+
+[moption NPC4407.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53641
+link0=0
+
+[moption NPC6706.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53642
+link0=0
+
+[moption NPC8019.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53643
+link0=0
+
+[moption NPC10897.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53644
+link0=0
+
+[moption NPC11138.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53645
+link0=0
+
+[moption NPC12577.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53646
+link0=0
+
+[moption NPC12578.0]
+icon=0
+text=$infHippogryphHowTo
+answer0_0=TODO_TODO_HIPPOGRYPH
+answerids0=53647
+link0=0
+
+[moption NPC1387.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53648
+link0=0
+
+[moption NPC2851.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53649
+link0=0
+
+[moption NPC2858.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53650
+link0=0
+
+[moption NPC2861.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53651
+link0=0
+
+[moption NPC4312.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53652
+link0=0
+
+[moption NPC4317.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53653
+link0=0
+
+[moption NPC6026.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53654
+link0=0
+
+[moption NPC6726.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53655
+link0=0
+
+[moption NPC7824.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53656
+link0=0
+
+[moption NPC8020.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53657
+link0=0
+
+[moption NPC8610.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53658
+link0=0
+
+[moption NPC11139.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53659
+link0=0
+
+[moption NPC11899.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53660
+link0=0
+
+[moption NPC11900.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53661
+link0=0
+
+[moption NPC11901.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53662
+link0=0
+
+[moption NPC12616.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53663
+link0=0
+
+[moption NPC12740.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53664
+link0=0
+
+[moption NPC13177.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53665
+link0=0
+
+[moption NPC3305.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53666
+link0=0
+
+[moption NPC1233.0]
+icon=0
+text=$infWindRiderHowTo
+answer0_0=TODO_TODO_WINDRIDER
+answerids0=53667
+link0=0
+
+[moption NPC3149.0]
+icon=0
+text=Where does this zepplin go?
+answer0_0=Why you would want to leave these sunny shores and crystal blue waters I have no idea. It's like paradise down here. But don't tell my brother Zapetta that, he's bitter enough already about getting stuck up there in Tirisfal all day long. This Zeppelin here drops off at Orgrimmar so you shouldn't have to worry about having to listen to him whine. But if you are in Tirisfal anytime soon, heed my warning and don't get him started.
+answerids0=53668
+link0=0
+
+[moption NPC3150.0]
+icon=0
+text=Where does this zeppelin go?
+answer0_0=This here is the finest, most state of the art mode of transportation money can build. What? Deeprun Tram? Gnomes? Listen pal, If you believe that garbage then I've got a statue down in Stranglethorn to sell ya. Now, are you walking to Grom'Gol or are you gonna to ride in style in this fine flying machine? Your choice.
+answerids0=53669
+link0=0
+
+[moption NPC9564.0]
+icon=0
+text=Where does this zeppelin go?
+answer0_0=This baby will get you to Undercity faster and safer than any boat, and the view is truly breathtaking. Of course there's no danger in everything catching flames and exploding like a huge helium bomb. Speaking of breath, smoking is not allowed while on board the zeppelin, and fire spells are banned from being cast during the trip.
+answerids0=53670
+link0=0
+
+[moption NPC9566.0]
+icon=0
+text=Where does this zeppelin go?
+answer0_0=My brother said we could make great money with this trade route, but he didn't tell me I would be the one living on this side. If you come back this way on the Zeppelin, could you bring me something to eat? They sell some of the finest meat in Orgrimmar, and I sure could use something that didn't die weeks before it stopped moving.
+answerids0=53671
+link0=0
+
+[moption NPC12136.0]
+icon=0
+text=Where does this zeppelin go?
+answer0_0=Hey there cutie, you looking for a ride to Grom'gol? I hear it gets mighty steamy down in those jungles, maybe I could join you for a short vacation, show you a real jungle cat. : Come, take a trip to the wonderful, gorgeous, tropical jungles of Stranglethorn. That's right, you too can be spending your time sunbathing by the crystal blue waters while I stand here in this unbearable heat with nothing to look at but my brother Frezza all day! Enjoy your trip!
+answerids0=53672
+link0=0
+
+[moption NPC12137.0]
+icon=0
+text=Where does this zeppelin go?
+answer0_0=Slip a little coin into the boss's hand and look what it gets ya. I love my job. Though, if I could find a way to get that little firecracker Snurk reassigned to this port....well, I can't imagine it any better. But I'm betting that you aren't here about my business practices. You're looking for the Zeppelin to Undercity, am I right? Well that's great, because it docks right here behind me. Oh and hey, if you see Snurk, put a good word in for me, would ya?
+answerids0=53673
+link0=0
+
+[moption NPC1742.0]
+icon=0
+text=$infBanks
+answerids0=53674 53675
+link0=0
+npctext0=4074.0
+
+[moption NPC1742.0]
+icon=0
+text=$infInns
+answerids0=53676 53677
+link0=0
+npctext0=4076.0
+tcl0_0=SendPOI $player 2 2270 245 6 1637 "The Inn"
+
+[moption NPC1742.0]
+icon=0
+text=$infGryphonMasters
+answerids0=53678 53679
+link0=0
+npctext0=4075.0
+tcl0_0=SendPOI $player 2 1567 266 6 1637 "Undercity Bat Handler"
+
+[moption NPC1742.0]
+icon=7
+text=$infProfTrainers
+answerids0=4095
+link0=1
+npctext0=4095.0
+
+[moption NPC1742.0]
+icon=0
+text=$infStableMasters
+answerids0=53680 53681
+link0=0
+npctext0=5978.0
+tcl0_0=SendPOI $player 2 2266 321 6 1637 "The Stable Master"
+
+[moption NPC1742.1]
+icon=0
+text=$ClassMage
+answerids0=53682 53683
+npctext0=4077.0
+tcl0_0=SendPOI $player 2 2256 233 6 1637 "A Mage Trainer"
+
+[moption NPC1742.1]
+icon=0
+text=$ClassPriest
+answerids0=53684 53685
+link0=1
+npctext0=4078.0
+tcl0_0=SendPOI $player 2 2265 251 6 1637 "A Priest Trainer"
+
+[moption NPC1742.1]
+icon=0
+text=$ClassRogue
+answerids0=53686 53687
+link0=1
+npctext0=4079.0
+tcl0_0=SendPOI $player 2 2271 243 3 1637 "A Rogue Trainer"
+
+[moption NPC1742.1]
+icon=0
+text=$ClassWarlock
+answerids0=53688 53689
+link0=1
+npctext0=4080.0
+tcl0_0=SendPOI $player 2 2259 250 6 1637 "A Warlock Trainer"
+
+[moption NPC1742.1]
+icon=0
+text=$ClassWarrior
+answerids0=53690 53691
+link0=1
+npctext0=4081.0
+tcl0_0=SendPOI $player 2 2255 238 6 1637 "A Warrior Trainer"
+
+[moption NPC1742.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1742.2]
+icon=0
+text=$ProfAlchemy
+answerids0=53692 53693
+link0=2
+npctext0=4082.0
+tcl0_0=SendPOI $player 2 2265 347 6 1637 "Alchemy"
+
+[moption NPC1742.2]
+icon=0
+text=$ProfBlacksmithing
+answerids0=53694 53695
+link0=2
+npctext0=4083.0
+
+[moption NPC1742.2]
+icon=0
+text=$ProfCooking
+answerids0=53696 53697
+link0=2
+npctext0=4084.0
+
+[moption NPC1742.2]
+icon=0
+text=$ProfEnchanting
+answerids0=53698 53699
+link0=2
+npctext0=4085.0
+tcl0_0=SendPOI $player 2 2284 242 6 1637 "Enchanting"
+
+[moption NPC1742.2]
+icon=0
+text=$ProfEngineering
+answerids0=53700 53701
+link0=2
+npctext0=4086.0
+
+[moption NPC1742.2]
+icon=0
+text=$ProfFirstAid
+answerids0=53702 53703
+link0=2
+npctext0=4087.0
+tcl0_0=SendPOI $player 2 2246 240 6 1637 "First Aid"
+
+[moption NPC1742.2]
+icon=0
+text=$ProfFishing
+answerids0=53704 53705
+link0=2
+npctext0=4088.0
+tcl0_0=SendPOI $player 2 2301 -2 6 1637 "Fishing"
+
+[moption NPC1742.2]
+icon=0
+text=$ProfHerbalism
+answerids0=53706 53707
+link0=2
+npctext0=4089.0
+tcl0_0=SendPOI $player 2 2267 332 6 1637 "Herbalism"
+
+[moption NPC1742.2]
+icon=0
+text=$ProfLeatherworking
+answerids0=53708 53709
+link0=2
+npctext0=4090.0
+tcl0_0=SendPOI $player 2 2026 77 6 1637 "Leatherworking"
+
+[moption NPC1742.2]
+icon=0
+text=$ProfMining
+answerids0=53710 53711
+link0=2
+npctext0=4091.0
+
+[moption NPC1742.2]
+icon=0
+text=$ProfSkinning
+answerids0=53712 53713
+link0=2
+npctext0=4092.0
+tcl0_0=SendPOI $player 2 2029 70 6 1637 "Skinning"
+
+[moption NPC1742.2]
+icon=0
+text=$ProfTailoring
+answerids0=53714 53715
+link0=2
+npctext0=4093.0
+tcl0_0=SendPOI $player 2 2165 657 6 1637 "Tailoring"
+
+[moption NPC1742.2]
+icon=0
+text=$infback
+link0=0
+
+[moption NPC1743.0]
+icon=0
+text=$infBanks
+answerids0=53716 53717
+link0=0
+npctext0=4074.0
+
+[moption NPC1743.0]
+icon=0
+text=$infInns
+answerids0=53718 53719
+link0=0
+npctext0=4076.0
+tcl0_0=SendPOI $player 2 2270 245 6 1637 "The Inn"
+
+[moption NPC1743.0]
+icon=0
+text=$infGryphonMasters
+answerids0=53720 53721
+link0=0
+npctext0=4075.0
+tcl0_0=SendPOI $player 2 1567 266 6 1637 "Undercity Bat Handler"
+
+[moption NPC1743.0]
+icon=0
+text=$infStableMasters
+answerids0=53722 53723
+link0=0
+npctext0=5978.0
+tcl0_0=SendPOI $player 2 2266 321 6 1637 "The Stable Master"
+
+[moption NPC1743.0]
+icon=7
+text=$infTrainers
+answerids0=4095
+link0=1
+npctext0=4095.0
+
+[moption NPC1743.0]
+icon=7
+text=$infProfTrainers
+answerids0=4096
+link0=2
+npctext0=4096.0
+
+[moption NPC1743.1]
+icon=0
+text=$ClassMage
+answerids0=53724 53725
+npctext0=4077.0
+tcl0_0=SendPOI $player 2 2256 233 6 1637 "A Mage Trainer"
+
+[moption NPC1743.1]
+icon=0
+text=$ClassPriest
+answerids0=53726 53727
+link0=1
+npctext0=4078.0
+tcl0_0=SendPOI $player 2 2265 251 6 1637 "A Priest Trainer"
+
+[moption NPC1743.1]
+icon=0
+text=$ClassRogue
+answerids0=53728 53729
+link0=1
+npctext0=4079.0
+tcl0_0=SendPOI $player 2 2271 243 3 1637 "A Rogue Trainer"
+
+[moption NPC1743.1]
+icon=0
+text=$ClassWarlock
+answerids0=53730 53731
+link0=1
+npctext0=4080.0
+tcl0_0=SendPOI $player 2 2259 250 6 1637 "A Warlock Trainer"
+
+[moption NPC1743.1]
+icon=0
+text=$ClassWarrior
+answerids0=53732 53733
+link0=1
+npctext0=4081.0
+tcl0_0=SendPOI $player 2 2255 238 6 1637 "A Warrior Trainer"
+
+[moption NPC1743.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1743.2]
+icon=0
+text=$ProfAlchemy
+answerids0=53734 53735
+link0=2
+npctext0=4082.0
+tcl0_0=SendPOI $player 2 2265 347 6 1637 "Alchemy"
+
+[moption NPC1743.2]
+icon=0
+text=$ProfBlacksmithing
+answerids0=53736 53737
+link0=2
+npctext0=4083.0
+
+[moption NPC1743.2]
+icon=0
+text=$ProfCooking
+answerids0=53738 53739
+link0=2
+npctext0=4084.0
+
+[moption NPC1743.2]
+icon=0
+text=$ProfEnchanting
+answerids0=53740 53741
+link0=2
+npctext0=4085.0
+tcl0_0=SendPOI $player 2 2284 242 6 1637 "Enchanting"
+
+[moption NPC1743.2]
+icon=0
+text=$ProfEngineering
+answerids0=53742 53743
+link0=2
+npctext0=4086.0
+
+[moption NPC1743.2]
+icon=0
+text=$ProfFirstAid
+answerids0=53744 53745
+link0=2
+npctext0=4087.0
+tcl0_0=SendPOI $player 2 2246 240 6 1637 "First Aid"
+
+[moption NPC1743.2]
+icon=0
+text=$ProfFishing
+answerids0=53746 53747
+link0=2
+npctext0=4088.0
+tcl0_0=SendPOI $player 2 2301 -2 6 1637 "Fishing"
+
+[moption NPC1743.2]
+icon=0
+text=$ProfHerbalism
+answerids0=53748 53749
+link0=2
+npctext0=4089.0
+tcl0_0=SendPOI $player 2 2267 332 6 1637 "Herbalism"
+
+[moption NPC1743.2]
+icon=0
+text=$ProfLeatherworking
+answerids0=53750 53751
+link0=2
+npctext0=4090.0
+tcl0_0=SendPOI $player 2 2026 77 6 1637 "Leatherworking"
+
+[moption NPC1743.2]
+icon=0
+text=$ProfMining
+answerids0=53752 53753
+link0=2
+npctext0=4091.0
+
+[moption NPC1743.2]
+icon=0
+text=$ProfSkinning
+answerids0=53754 53755
+link0=2
+npctext0=4092.0
+tcl0_0=SendPOI $player 2 2029 70 6 1637 "Skinning"
+
+[moption NPC1743.2]
+icon=0
+text=$ProfTailoring
+answerids0=53756 53757
+link0=2
+npctext0=4093.0
+tcl0_0=SendPOI $player 2 2165 657 6 1637 "Tailoring"
+
+[moption NPC1743.2]
+icon=0
+text=$infback
+link0=0
+
+[moption NPC1744.0]
+icon=0
+text=$infBanks
+answerids0=53758 53759
+link0=0
+npctext0=4074.0
+
+[moption NPC1744.0]
+icon=0
+text=$infInns
+answerids0=53760 53761
+link0=0
+npctext0=4076.0
+tcl0_0=SendPOI $player 2 2270 245 6 1637 "The Inn"
+
+[moption NPC1744.0]
+icon=0
+text=$infGryphonMasters
+answerids0=53762 53763
+link0=0
+npctext0=4075.0
+tcl0_0=SendPOI $player 2 1567 266 6 1637 "Undercity Bat Handler"
+
+[moption NPC1744.0]
+icon=0
+text=$infStableMasters
+answerids0=53764 53765
+link0=0
+npctext0=5978.0
+tcl0_0=SendPOI $player 2 2266 321 6 1637 "The Stable Master"
+
+[moption NPC1744.0]
+icon=7
+text=$infTrainers
+answerids0=4095
+link0=1
+npctext0=4095.0
+
+[moption NPC1744.0]
+icon=7
+text=$infProfTrainers
+answerids0=4096
+link0=2
+npctext0=4096.0
+
+[moption NPC1744.1]
+icon=0
+text=$ClassMage
+answerids0=53766 53767
+npctext0=4077.0
+tcl0_0=SendPOI $player 2 2256 233 6 1637 "A Mage Trainer"
+
+[moption NPC1744.1]
+icon=0
+text=$ClassPriest
+answerids0=53768 53769
+link0=1
+npctext0=4078.0
+tcl0_0=SendPOI $player 2 2265 251 6 1637 "A Priest Trainer"
+
+[moption NPC1744.1]
+icon=0
+text=$ClassRogue
+answerids0=53770 53771
+link0=1
+npctext0=4079.0
+tcl0_0=SendPOI $player 2 2271 243 3 1637 "A Rogue Trainer"
+
+[moption NPC1744.1]
+icon=0
+text=$ClassWarlock
+answerids0=53772 53773
+link0=1
+npctext0=4080.0
+tcl0_0=SendPOI $player 2 2259 250 6 1637 "A Warlock Trainer"
+
+[moption NPC1744.1]
+icon=0
+text=$ClassWarrior
+answerids0=53774 53775
+link0=1
+npctext0=4081.0
+tcl0_0=SendPOI $player 2 2255 238 6 1637 "A Warrior Trainer"
+
+[moption NPC1744.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1744.2]
+icon=0
+text=$ProfAlchemy
+answerids0=53776 53777
+link0=2
+npctext0=4082.0
+tcl0_0=SendPOI $player 2 2265 347 6 1637 "Alchemy"
+
+[moption NPC1744.2]
+icon=0
+text=$ProfBlacksmithing
+answerids0=53778 53779
+link0=2
+npctext0=4083.0
+
+[moption NPC1744.2]
+icon=0
+text=$ProfCooking
+answerids0=53780 53781
+link0=2
+npctext0=4084.0
+
+[moption NPC1744.2]
+icon=0
+text=$ProfEnchanting
+answerids0=53782 53783
+link0=2
+npctext0=4085.0
+tcl0_0=SendPOI $player 2 2284 242 6 1637 "Enchanting"
+
+[moption NPC1744.2]
+icon=0
+text=$ProfEngineering
+answerids0=53784 53785
+link0=2
+npctext0=4086.0
+
+[moption NPC1744.2]
+icon=0
+text=$ProfFirstAid
+answerids0=53786 53787
+link0=2
+npctext0=4087.0
+tcl0_0=SendPOI $player 2 2246 240 6 1637 "First Aid"
+
+[moption NPC1744.2]
+icon=0
+text=$ProfFishing
+answerids0=53788 53789
+link0=2
+npctext0=4088.0
+tcl0_0=SendPOI $player 2 2301 -2 6 1637 "Fishing"
+
+[moption NPC1744.2]
+icon=0
+text=$ProfHerbalism
+answerids0=53790 53791
+link0=2
+npctext0=4089.0
+tcl0_0=SendPOI $player 2 2267 332 6 1637 "Herbalism"
+
+[moption NPC1744.2]
+icon=0
+text=$ProfLeatherworking
+answerids0=53792 53793
+link0=2
+npctext0=4090.0
+tcl0_0=SendPOI $player 2 2026 77 6 1637 "Leatherworking"
+
+[moption NPC1744.2]
+icon=0
+text=$ProfMining
+answerids0=53794 53795
+link0=2
+npctext0=4091.0
+
+[moption NPC1744.2]
+icon=0
+text=$ProfSkinning
+answerids0=53796 53797
+link0=2
+npctext0=4092.0
+tcl0_0=SendPOI $player 2 2029 70 6 1637 "Skinning"
+
+[moption NPC1744.2]
+icon=0
+text=$ProfTailoring
+answerids0=53798 53799
+link0=2
+npctext0=4093.0
+tcl0_0=SendPOI $player 2 2165 657 6 1637 "Tailoring"
+
+[moption NPC1744.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1746.0]
+icon=0
+text=$infBanks
+answerids0=53800 53801
+link0=0
+npctext0=4074.0
+
+[moption NPC1746.0]
+icon=0
+text=$infInns
+answerids0=53802 53803
+link0=0
+npctext0=4076.0
+tcl0_0=SendPOI $player 2 2270 245 6 1637 "The Inn"
+
+[moption NPC1746.0]
+icon=0
+text=$infGryphonMasters
+answerids0=53804 53805
+link0=0
+npctext0=4075.0
+tcl0_0=SendPOI $player 2 1567 266 6 1637 "Undercity Bat Handler"
+
+[moption NPC1746.0]
+icon=0
+text=$infStableMasters
+answerids0=53806 53807
+link0=0
+npctext0=5978.0
+tcl0_0=SendPOI $player 2 2266 321 6 1637 "The Stable Master"
+
+[moption NPC1746.0]
+icon=7
+text=$infTrainers
+answerids0=4095
+link0=1
+npctext0=4095.0
+
+[moption NPC1746.0]
+icon=7
+text=$infProfTrainers
+answerids0=4096
+link0=2
+npctext0=4096.0
+
+[moption NPC1746.1]
+icon=0
+text=$ClassMage
+answerids0=53808 53809
+npctext0=4077.0
+tcl0_0=SendPOI $player 2 2256 233 6 1637 "A Mage Trainer"
+
+[moption NPC1746.1]
+icon=0
+text=$ClassPriest
+answerids0=53810 53811
+link0=1
+npctext0=4078.0
+tcl0_0=SendPOI $player 2 2265 251 6 1637 "A Priest Trainer"
+
+[moption NPC1746.1]
+icon=0
+text=$ClassRogue
+answerids0=53812 53813
+link0=1
+npctext0=4079.0
+tcl0_0=SendPOI $player 2 2271 243 3 1637 "A Rogue Trainer"
+
+[moption NPC1746.1]
+icon=0
+text=$ClassWarlock
+answerids0=53814 53815
+link0=1
+npctext0=4080.0
+tcl0_0=SendPOI $player 2 2259 250 6 1637 "A Warlock Trainer"
+
+[moption NPC1746.1]
+icon=0
+text=$ClassWarrior
+answerids0=53816 53817
+link0=1
+npctext0=4081.0
+tcl0_0=SendPOI $player 2 2255 238 6 1637 "A Warrior Trainer"
+
+[moption NPC1746.1]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC1746.2]
+icon=0
+text=$ProfAlchemy
+answerids0=53818 53819
+link0=2
+npctext0=4082.0
+tcl0_0=SendPOI $player 2 2265 347 6 1637 "Alchemy"
+
+[moption NPC1746.2]
+icon=0
+text=$ProfBlacksmithing
+answerids0=53820 53821
+link0=2
+npctext0=4083.0
+
+[moption NPC1746.2]
+icon=0
+text=$ProfCooking
+answerids0=53822 53823
+link0=2
+npctext0=4084.0
+
+[moption NPC1746.2]
+icon=0
+text=$ProfEnchanting
+answerids0=53824 53825
+link0=2
+npctext0=4085.0
+tcl0_0=SendPOI $player 2 2284 242 6 1637 "Enchanting"
+
+[moption NPC1746.2]
+icon=0
+text=$ProfEngineering
+answerids0=53826 53827
+link0=2
+npctext0=4086.0
+
+[moption NPC1746.2]
+icon=0
+text=$ProfFirstAid
+answerids0=53828 53829
+link0=2
+npctext0=4087.0
+tcl0_0=SendPOI $player 2 2246 240 6 1637 "First Aid"
+
+[moption NPC1746.2]
+icon=0
+text=$ProfFishing
+answerids0=53830 53831
+link0=2
+npctext0=4088.0
+tcl0_0=SendPOI $player 2 2301 -2 6 1637 "Fishing"
+
+[moption NPC1746.2]
+icon=0
+text=$ProfHerbalism
+answerids0=53832 53833
+link0=2
+npctext0=4089.0
+tcl0_0=SendPOI $player 2 2267 332 6 1637 "Herbalism"
+
+[moption NPC1746.2]
+icon=0
+text=$ProfLeatherworking
+answerids0=53834 53835
+link0=2
+npctext0=4090.0
+tcl0_0=SendPOI $player 2 2026 77 6 1637 "Leatherworking"
+
+[moption NPC1746.2]
+icon=0
+text=$ProfMining
+answerids0=53836 53837
+link0=2
+npctext0=4091.0
+
+[moption NPC1746.2]
+icon=0
+text=$ProfSkinning
+answerids0=53838 53839
+link0=2
+npctext0=4092.0
+tcl0_0=SendPOI $player 2 2029 70 6 1637 "Skinning"
+
+[moption NPC1746.2]
+icon=0
+text=$ProfTailoring
+answerids0=53840 53841
+link0=2
+npctext0=4093.0
+tcl0_0=SendPOI $player 2 2165 657 6 1637 "Tailoring"
+
+[moption NPC1746.2]
+icon=7
+text=$infback
+link0=0
+
+[moption NPC2155.0]
+icon=0
+text=$infBanks
+answerids0=53842 53843
+link0=0
+npctext0=3017.0
+
+[moption NPC2155.0]
+icon=0
+text=$infInns
+answerids0=53844 53845
+link0=0
+npctext0=3020.0
+
+[moption NPC2155.0]
+icon=0
+text=$infGuilds
+answerids0=53846 53847
+link0=0
+npctext0=3019.0
+
+[moption NPC2155.0]
+icon=0
+text=$infMailBoxes
+answerids0=53848 53849
+link0=0
+npctext0=3021.0
+
+[moption NPC2155.0]
+icon=0
+text=$infZeppelins
+answerids0=53850 53851
+link0=0
+npctext0=3018.0
+
+[moption NPC2155.0]
+icon=7
+text=$infTrainers
+answerids0=3022
+link0=1
+npctext0=3022.0
+
+[moption NPC2155.0]
+icon=7
+text=$infProfTrainers
+answerids0=3034
+link0=2
+npctext0=3034.0
+
+[moption NPC2155.1]
+icon=0
+text=$ClassDruid
+answerids0=53852 53853
+link0=1
+npctext0=3024.0
+
+[moption NPC2155.1]
+icon=0
+text=$ClassHunter
+answerids0=53854 53855
+link0=1
+npctext0=3023.0
+
+[moption NPC2155.1]
+icon=0
+text=$ClassPriest
+answerids0=53856 53857
+link0=1
+npctext0=3025.0
+
+[moption NPC2155.1]
+icon=0
+text=$ClassRogue
+answerids0=53858 53859
+link0=1
+npctext0=3026.0
+
+[moption NPC2155.1]
+icon=0
+text=$ClassWarrior
+answerids0=53860 53861
+link0=1
+npctext0=3033.0
+
+[moption NPC2155.1]
+icon=7
+text=$infback
+answerids0=3016
+link0=0
+npctext0=3016.0
+
+[moption NPC2155.2]
+icon=0
+text=$ProfAlchemy
+answerids0=53862 53863
+link0=2
+npctext0=3035.0
+
+[moption NPC2155.2]
+icon=0
+text=$ProfCooking
+answerids0=53864 53865
+link0=2
+npctext0=3036.0
+
+[moption NPC2155.2]
+icon=0
+text=$ProfFirstAid
+answerids0=3037
+link0=2
+npctext0=3037.0
+
+[moption NPC2155.2]
+icon=0
+text=$ProfFishing
+answerids0=53866 53867
+link0=2
+npctext0=3038.0
+
+[moption NPC2155.2]
+icon=0
+text=$ProfHerbalism
+answerids0=53868 53869
+link0=2
+npctext0=3039.0
+
+[moption NPC2155.2]
+icon=0
+text=$ProfLeatherworking
+answerids0=53870 53871
+link0=2
+npctext0=3040.0
+
+[moption NPC2155.2]
+icon=0
+text=$ProfSkinning
+answerids0=53872 53873
+link0=2
+npctext0=3042.0
+
+[moption NPC2155.2]
+icon=0
+text=$ProfTailoring
+answerids0=53874 53875
+link0=2
+npctext0=3044.0
+
+[moption NPC2155.2]
+icon=7
+text=$infback
+answerids0=3016
+link0=0
+npctext0=3016.0
+
+[moption NPC2209.0]
+icon=0
+text=$infBanks
+answerids0=53876 53877
+link0=0
+npctext0=4074.0
+
+[moption NPC2209.0]
+icon=0
+text=$infInns
+answerids0=53878 53879
+link0=0
+npctext0=4076.0
+
+[moption NPC2209.0]
+icon=0
+text=$infGryphonMasters
+answerids0=53880 53881
+link0=0
+npctext0=4075.0
+
+[moption NPC2209.0]
+icon=0
+text=$infStableMasters
+answerids0=53882 53883
+link0=0
+npctext0=5978.0
+
+[moption NPC2209.0]
+icon=7
+text=$infTrainers
+answerids0=4069
+link0=1
+npctext0=4069.0
+
+[moption NPC2209.0]
+icon=7
+text=$infProfTrainers
+answerids0=4070
+link0=2
+npctext0=4070.0
+
+[moption NPC2209.1]
+icon=0
+text=$ClassMage
+answerids0=53884 53885
+link0=1
+npctext0=4077.0
+
+[moption NPC2209.1]
+icon=0
+text=$ClassPriest
+answerids0=53886 53887
+link0=1
+npctext0=4078.0
+
+[moption NPC2209.1]
+icon=0
+text=$ClassRogue
+answerids0=53888 53889
+link0=1
+npctext0=4079.0
+
+[moption NPC2209.1]
+icon=0
+text=$ClassWarlock
+answerids0=53890 53891
+link0=1
+npctext0=4080.0
+
+[moption NPC2209.1]
+icon=0
+text=$ClassWarrior
+answerids0=53892 53893
+link0=1
+npctext0=4081.0
+
+[moption NPC2209.1]
+icon=7
+text=$infback
+answerids0=4072
+link0=0
+npctext0=4072.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfAlchemy
+answerids0=53894 53895
+link0=3
+npctext0=4082.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfBlacksmithing
+answerids0=53896 53897
+link0=3
+npctext0=4083.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfCooking
+answerids0=53898 53899
+link0=3
+npctext0=4084.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfEnchanting
+answerids0=53900 53901
+link0=3
+npctext0=4085.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfEngineering
+answerids0=53902 53903
+link0=3
+npctext0=4086.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfFirstAid
+answerids0=53904 53905
+link0=3
+npctext0=4087.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfFishing
+answerids0=53906 53907
+link0=3
+npctext0=4088.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfHerbalism
+answerids0=53908 53909
+link0=3
+npctext0=4089.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfLeatherworking
+answerids0=53910 53911
+link0=3
+npctext0=4090.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfMining
+answerids0=53912 53913
+link0=3
+npctext0=4091.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfSkinning
+answerids0=53914 53915
+link0=3
+npctext0=4092.0
+
+[moption NPC2209.2]
+icon=0
+text=$ProfTailoring
+answerids0=53916 53917
+link0=3
+npctext0=4093.0
+
+[moption NPC2209.2]
+icon=7
+text=$infback
+answerids0=4072
+link0=0
+npctext0=4072.0
+
+[moption NPC2209.3]
+icon=7
+text=$infBack
+link0=2
+
+[moption NPC2210.0]
+icon=0
+text=$infBanks
+answerids0=53918 53919
+link0=0
+npctext0=4074.0
+
+[moption NPC2210.0]
+icon=0
+text=$infInns
+answerids0=53920 53921
+link0=0
+npctext0=4076.0
+
+[moption NPC2210.0]
+icon=0
+text=$infGryphonMasters
+answerids0=53922 53923
+link0=0
+npctext0=4075.0
+
+[moption NPC2210.0]
+icon=0
+text=$infStableMasters
+answerids0=53924 53925
+link0=0
+npctext0=5978.0
+
+[moption NPC2210.0]
+icon=7
+text=$infTrainers
+answerids0=4069
+link0=1
+npctext0=4069.0
+
+[moption NPC2210.0]
+icon=7
+text=$infProfTrainers
+answerids0=4070
+link0=2
+npctext0=4070.0
+
+[moption NPC2210.1]
+icon=0
+text=$ClassMage
+answerids0=53926 53927
+link0=1
+npctext0=4077.0
+
+[moption NPC2210.1]
+icon=0
+text=$ClassPriest
+answerids0=53928 53929
+link0=1
+npctext0=4078.0
+
+[moption NPC2210.1]
+icon=0
+text=$ClassRogue
+answerids0=53930 53931
+link0=1
+npctext0=4079.0
+
+[moption NPC2210.1]
+icon=0
+text=$ClassWarlock
+answerids0=53932 53933
+link0=1
+npctext0=4080.0
+
+[moption NPC2210.1]
+icon=0
+text=$ClassWarrior
+answerids0=53934 53935
+link0=1
+npctext0=4081.0
+
+[moption NPC2210.1]
+icon=7
+text=$infback
+answerids0=4072
+link0=0
+npctext0=4072.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfAlchemy
+answerids0=53936 53937
+link0=3
+npctext0=4082.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfBlacksmithing
+answerids0=53938 53939
+link0=3
+npctext0=4083.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfCooking
+answerids0=53940 53941
+link0=3
+npctext0=4084.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfEnchanting
+answerids0=53942 53943
+link0=3
+npctext0=4085.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfEngineering
+answerids0=53944 53945
+link0=3
+npctext0=4086.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfFirstAid
+answerids0=53946 53947
+link0=3
+npctext0=4087.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfFishing
+answerids0=53948 53949
+link0=3
+npctext0=4088.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfHerbalism
+answerids0=53950 53951
+link0=3
+npctext0=4089.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfLeatherworking
+answerids0=53952 53953
+link0=3
+npctext0=4090.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfMining
+answerids0=53954 53955
+link0=3
+npctext0=4091.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfSkinning
+answerids0=53956 53957
+link0=3
+npctext0=4092.0
+
+[moption NPC2210.2]
+icon=0
+text=$ProfTailoring
+answerids0=53958 53959
+link0=3
+npctext0=4093.0
+
+[moption NPC2210.2]
+icon=7
+text=$infback
+answerids0=4072
+link0=0
+npctext0=4072.0
+
+[moption NPC2210.3]
+icon=7
+text=$infBack
+link0=2
+
+[moption NPC3296.0]
+icon=0
+text=$infBanks
+answerids0=53960 53961
+link0=3
+npctext0=2554.0
+tcl0_0=SendPOI $player 2 1622 -4376 5 1637 "The Bank"
+
+[moption NPC3296.0]
+icon=0
+text=$infInns
+answerids0=53962 53963
+link0=3
+npctext0=2557.0
+tcl0_0=SendPOI $player 2 1633 -4439 3 1637 "The Inn"
+
+[moption NPC3296.0]
+icon=0
+text=$infGryphonMasters
+answerids0=53964 53965
+link0=3
+npctext0=2555.0
+tcl0_0=SendPOI $player 2 1677 -4315 5 1637 "The wind rider master"
+
+[moption NPC3296.0]
+icon=0
+text=$infStableMasters
+answerids0=53966 53967
+link0=3
+npctext0=5974.0
+tcl0_0=SendPOI $player 2 2133 -4664 3 1637 "The stable master"
+
+[moption NPC3296.0]
+icon=0
+text=$infAuctions
+answerids0=53968 53969
+link0=3
+npctext0=3075.0
+tcl0_0=SendPOI $player 2 1681 -4458 3 1637 "The auction house"
+
+[moption NPC3296.0]
+icon=0
+text=$infGuilds
+answerids0=53970 53971
+link0=3
+npctext0=2556.0
+tcl0_0=SendPOI $player 2 1575 -4294 3 1637 "The guild master"
+
+[moption NPC3296.0]
+icon=0
+text=$infMailBoxes
+answerids0=53972 53973
+link0=3
+npctext0=2558.0
+tcl0_0=SendPOI $player 2 1616 -4392 3 1637 "The mailbox"
+
+[moption NPC3296.0]
+icon=0
+text=$infWpTrainers
+answerids0=53974 53975
+link0=3
+npctext0=4519.0
+tcl0_0=SendPOI $player 2 2092 -4824 3 1637 "The weapon master"
+
+[moption NPC3296.0]
+icon=0
+text=$infZeppelins
+answerids0=53976 53977
+link0=3
+npctext0=3173.0
+tcl0_0=SendPOI $player 2 1630 -4263 3 1637 "Officers Lounge"
+
+[moption NPC3296.0]
+icon=0
+text=$infTrainers
+link0=1
+
+[moption NPC3296.0]
+icon=0
+text=$infProfTrainers
+link0=2
+
+[moption NPC3296.1]
+icon=0
+text=$ClassHunter
+answerids0=53978 53979
+link0=1
+npctext0=2559.0
+tcl0_0=SendPOI $player 2 2098 -4617 3 1637 "A hunter trainer"
+
+[moption NPC3296.1]
+icon=0
+text=$ClassMage
+answerids0=53980 53981
+link0=1
+npctext0=2560.0
+tcl0_0=SendPOI $player 2 1472 -4221 3 1637 "A mage trainer"
+
+[moption NPC3296.1]
+icon=0
+text=$ClassPriest
+answerids0=53982 53983
+link0=1
+npctext0=2561.0
+tcl0_0=SendPOI $player 2 1457 -4181 3 1637 "A priest trainer"
+
+[moption NPC3296.1]
+icon=0
+text=$ClassRogue
+answerids0=53984 53985
+link0=1
+npctext0=2563.0
+tcl0_0=SendPOI $player 2 1774 -4282 3 1637 "A rogue trainer"
+
+[moption NPC3296.1]
+icon=0
+text=$ClassShaman
+answerids0=53986 53987
+link0=1
+npctext0=2562.0
+tcl0_0=SendPOI $player 2 1934 -4221 3 1637 "A shaman trainer"
+
+[moption NPC3296.1]
+icon=0
+text=$ClassWarlock
+answerids0=53988 53989
+link0=1
+npctext0=2564.0
+tcl0_0=SendPOI $player 2 1841 -4354 3 1637 "A warlock trainer"
+
+[moption NPC3296.1]
+icon=0
+text=$ClassWarrior
+answerids0=53990 53991
+link0=1
+npctext0=2565.0
+tcl0_0=SendPOI $player 2 1983 -4795 3 1637 "A warrior trainer"
+
+[moption NPC3296.1]
+icon=7
+text=$infBack
+answerids0=2496
+link0=0
+npctext0=2496.0
+
+[moption NPC3296.2]
+icon=0
+text=$ProfAlchemy
+answerids0=53992 53993
+link0=4
+npctext0=2497.0
+tcl0_0=SendPOI $player 2 1963 -4468 3 1637 "Alchemy"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfBlacksmithing
+answerids0=53994 53995
+link0=4
+npctext0=2499.0
+tcl0_0=SendPOI $player 2 2053 -4812 3 1637 "Blacksmithing"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfCooking
+answerids0=53996 53997
+link0=4
+npctext0=2500.0
+tcl0_0=SendPOI $player 2 1770 -4486 3 1637 "Cooking"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfEnchanting
+answerids0=53998 53999
+link0=4
+npctext0=2501.0
+tcl0_0=SendPOI $player 2 1916 -4433 3 1637 "Enchanting"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfEngineering
+answerids0=54000 54001
+link0=4
+npctext0=2653.0
+tcl0_0=SendPOI $player 2 2045 -4745 3 1637 "Engineering"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfFirst Aid
+answerids0=54002 54003
+link0=4
+npctext0=2502.0
+tcl0_0=SendPOI $player 2 1484 -4158 3 1637 "First Aid"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfFishing
+answerids0=54004 54005
+link0=4
+npctext0=2503.0
+tcl0_0=SendPOI $player 2 1999 -4658 3 1637 "Fishing"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfHerbalism
+answerids0=54006 54007
+link0=4
+npctext0=2504.0
+tcl0_0=SendPOI $player 2 1901 -4460 3 1637 "Herbalism"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfLeatherworking
+answerids0=54008 54009
+link0=4
+npctext0=2513.0
+tcl0_0=SendPOI $player 2 1852 -4562 3 1637 "Leatherworking"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfMining
+answerids0=54010 54011
+link0=4
+npctext0=2515.0
+tcl0_0=SendPOI $player 2 2028 -4705 3 1637 "Mining"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfSkinning
+answerids0=54012 54013
+link0=4
+npctext0=2516.0
+tcl0_0=SendPOI $player 2 1852 -4562 3 1637 "Skinning"
+
+[moption NPC3296.2]
+icon=0
+text=$ProfTailoring
+answerids0=54014 54015
+link0=4
+npctext0=2518.0
+tcl0_0=SendPOI $player 2 1810 -4560 3 1637 "Tailoring"
+
+[moption NPC3296.2]
+icon=7
+text=$infBack
+link0=0
+
+[moption NPC3296.3]
+icon=7
+text=$infBack
+answerids0=2496
+link0=0
+npctext0=2496.0
+
+[moption NPC3296.4]
+icon=7
+text=$infBack
+link0=2
+
+[moption NPC5624.0]
+icon=0
+text=$infBanks
+answerids0=54016 54017
+link0=0
+npctext0=3514.0
+tcl0_0=SendPOI $player 2 1590 235 6 1637 "Undercity Bank"
+
+[moption NPC5624.0]
+icon=0
+text=$infInns
+answerids0=54018 54019
+link0=0
+npctext0=3517.0
+tcl0_0=SendPOI $player 2 1635 233 6 1637 "Undercity Inn"
+
+[moption NPC5624.0]
+icon=0
+text=$infGryphonMasters
+answerids0=54020 54021
+link0=0
+npctext0=3515.0
+tcl0_0=SendPOI $player 2 1567 266 6 1637 "Undercity Bat Handler"
+
+[moption NPC5624.0]
+icon=0
+text=$infStableMasters
+answerids0=54022 54023
+link0=0
+npctext0=5979.0
+tcl0_0=SendPOI $player 2 1637 226 6 1637 "Anya Maulray"
+
+[moption NPC5624.0]
+icon=0
+text=$infAuctions
+answerids0=54024 54025
+link0=0
+npctext0=3519.0
+
+[moption NPC5624.0]
+icon=0
+text=$infGuilds
+answerids0=54026 54027
+link0=0
+npctext0=3516.0
+tcl0_0=SendPOI $player 2 1591 204 6 1637 "Undercity Guild Master"
+
+[moption NPC5624.0]
+icon=0
+text=$infMailBoxes
+answerids0=54028 54029
+link0=0
+npctext0=3518.0
+tcl0_0=SendPOI $player 2 1572 272 6 1637 "Undercity Mailbox"
+
+[moption NPC5624.0]
+icon=0
+text=$infWpTrainers
+answerids0=54030 54031
+link0=0
+npctext0=4521.0
+tcl0_0=SendPOI $player 2 1668 323 6 1637 "Archibald"
+
+[moption NPC5624.0]
+icon=0
+text=$infZeppelins
+answerids0=54032 54033
+link0=0
+npctext0=3520.0
+tcl0_0=SendPOI $player 2 2064 276 6 1637 "Undercity Zeppelin"
+
+[moption NPC5624.0]
+icon=7
+requirements=l0-1
+text=$infTrainers
+answerids0=3542
+link0=1
+npctext0=3542.0
+
+[moption NPC5624.0]
+icon=7
+text=$infProfTrainers
+answerids0=3541
+link0=2
+npctext0=3541.0
+
+[moption NPC5624.1]
+icon=0
+text=$ClassMage
+answerids0=54034 54035
+link0=1
+npctext0=3513.0
+tcl0_0=SendPOI $player 2 1770 63 6 1637 "Undercity Mage Trainers"
+
+[moption NPC5624.1]
+icon=0
+text=$ClassPriest
+answerids0=54036 54037
+link0=1
+npctext0=3521.0
+tcl0_0=SendPOI $player 2 1770 395 6 1637 "Undercity Priest Trainers"
+
+[moption NPC5624.1]
+icon=0
+text=$ClassRogue
+answerids0=54038 54039
+link0=1
+npctext0=3524.0
+tcl0_0=SendPOI $player 2 1440 70 6 1637 "Undercity Rogue Trainers"
+
+[moption NPC5624.1]
+icon=0
+text=$ClassWarlock
+answerids0=54040 54041
+link0=1
+npctext0=3526.0
+tcl0_0=SendPOI $player 2 1770 65 6 1637 "Undercity Warlock Trainers"
+
+[moption NPC5624.1]
+icon=0
+text=$ClassWarrior
+answerids0=54042 54043
+link0=1
+npctext0=3527.0
+tcl0_0=SendPOI $player 2 1775 415 6 1637 "Undercity Warrior Trainers"
+
+[moption NPC5624.1]
+icon=7
+text=$infBack
+answerids0=3543
+link0=0
+npctext0=3543.0
+
+[moption NPC5624.2]
+icon=0
+text=$ProfAlchemy
+answerids0=54044 54045
+link0=3
+npctext0=3528.0
+tcl0_0=SendPOI $player 2 1415 415 6 1637 "The Apothecarium"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfBlacksmithing
+answerids0=54046 54047
+link0=3
+npctext0=3529.0
+tcl0_0=SendPOI $player 2 1680 285 6 1637 "Undercity Blacksmithing Trainer"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfCooking
+answerids0=54048 54049
+link0=3
+npctext0=3530.0
+tcl0_0=SendPOI $player 2 1590 277 6 1637 "Undercity Cooking Trainer"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfEnchanting
+answerids0=54050 54051
+link0=3
+npctext0=3531.0
+tcl0_0=SendPOI $player 2 1482 274 6 1637 "Undercity Enchanting Trainer"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfEngineering
+answerids0=54052 54053
+link0=3
+npctext0=3532.0
+tcl0_0=SendPOI $player 2 1410 150 6 1637 "Undercity Engineering Trainer"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfFirstAid
+answerids0=54054 54055
+link0=3
+npctext0=3533.0
+tcl0_0=SendPOI $player 2 1525 171 6 1637 "Undercity First Aid Trainer"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfFishing
+answerids0=54056 54057
+link0=3
+npctext0=3534.0
+tcl0_0=SendPOI $player 2 1678 99 6 1637 "Undercity Fishing Trainer"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfHerbalism
+answerids0=54058 54059
+link0=3
+npctext0=3535.0
+tcl0_0=SendPOI $player 2 1560 355 6 1637 "Undercity Herbalism Trainer"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfLeatherworking
+answerids0=54060 54061
+link0=3
+npctext0=3536.0
+tcl0_0=SendPOI $player 2 1510 200 6 1637 "Undercity Leatherworking Trainer"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfMining
+answerids0=54062 54063
+link0=3
+npctext0=3537.0
+tcl0_0=SendPOI $player 2 1638 335 6 1637 "Undercity Mining Trainer"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfSkinning
+answerids0=54064 54065
+link0=3
+npctext0=3538.0
+tcl0_0=SendPOI $player 2 1500 200 6 1637 "Undercity Skinning Trainer"
+
+[moption NPC5624.2]
+icon=0
+text=$ProfTailoring
+answerids0=54066 54067
+link0=3
+npctext0=3539.0
+tcl0_0=SendPOI $player 2 1681 194 6 1637 "Undercity Tailoring Trainer"
+
+[moption NPC5624.2]
+icon=7
+text=$infBack
+answerids0=3543
+link0=0
+npctext0=3543.0
+
+[moption NPC5624.3]
+icon=7
+text=$infBack
+answerids0=3543
+link0=2
+npctext0=3543.0
+
+[moption NPC9095.0]
+icon=0
+text=$infTrainers
+answer0_0=Trainers can be found inside as well as outside the castle.
+answerids0=54068
+link0=0
+
+[moption NPC9095.0]
+icon=0
+text=Milly OsWorth
+answer0_0=Milly can be found at the back of the castle, Her quest will only become active only once the eagan peltskinner quest has been completed
+answerids0=54069
+link0=0
+
+[moption NPC9095.0]
+icon=0
+text=Eagan PeltSkinner
+answer0_0=Egan can be found on the side of the castle. His quest must be completed before Millys quest will become active.
+answerids0=54070
+link0=0
+
+[moption NPC9095.0]
+icon=0
+text=Brother Neals
+answer0_0=Bother neals can be found in the very top of the castle and his quest will only be activated once all Millys quests have been completed.
+answerids0=54071
+link0=0
+
+[moption NPC9095.0]
+icon=0
+text=$infMerchants
+answer0_0=Merchants and trainers can be found right here in front of the castle.
+answerids0=54072
+link0=0
+
+[moption NPC14827.0]
+icon=0
+text=Umm hi?
+answer0_0=Greetings, $N. I am Burth, your friendly Darkmoon Faire ogre. In order to purchase things around here, you'll need Darkmoon Faire Prize Tickets, which are obtainable from most of the vendors here. You'll need to do something for them first of course.
+answerids0=54073
+link0=1
+tcl0_0=Emote $npc 2
+
+[moption NPC14827.0]
+icon=0
+text=Boy are you out of appearance for a guide. Get a diaper, and you know why...
+answer0_0=Please refrain from childish insults here, or as an ogre with a axe, I shall be forced to put you under it.
+answerids0=54074
+link0=2
+
+[moption NPC14827.1]
+icon=0
+text=Wow okay...
+answer0_0=Need more information? I apologise for I may not be able to provide everything you need to know, but the Faire Carnies wouldn't mind a gossip I'm sure.
+answerids0=54075
+link0=0
+
+[moption NPC14827.2]
+icon=0
+text=You know, I came to you looking for help, but now it looks like YOU'RE the one that needs it.
+link0=ExitGossip
+tcl0_0=Say $npc 0 "RAWR!"
+tcl0_1=CastSpell $player $player 21330
+tcl0_2=Emote %npc 15
+tcl0_3=Emote $player 34
+
+[moption NPC14827.2]
+icon=0
+text=Aaah just pretend I never said anything
+answer0_0=Of course $c, I can understand that people can be under a lot of stress due to complicated circumstances.
+answerids0=54076
+link0=0
+
+[moption NPC14832.0]
+icon=4
+requirements=l0-0
+text=I want to bind my hearthstone to this location
+link0=SetBindpoint
+
+[moption NPC14841.0]
+icon=1
+requirements=l0-0
+text=Need a gun? Remember, you were never here...
+link0=VendorList
+
+[moption NPC14844.0]
+icon=1
+requirements=l0-0
+text=I want to browse your goods!
+link0=VendorList
+
+[moption NPC14845.0]
+icon=1
+requirements=l0-0
+text=I want to browse your goods!
+link0=VendorList
+
+[moption NPC14846.0]
+icon=1
+requirements=l0-0
+text=I want to browse your goods!
+link0=VendorList
+
+[moption NPC14847.0]
+icon=1
+requirements=l0-0
+text=I want to browse your goods!
+link0=VendorList
+
+[moption NPC14849.0]
+icon=0
+text=Rinling
+answer0_0=Rinling is a ranged weapon merchant. He thinks the guards are after him, but the truth is, no one really cares.$B$B
+answerids0=54077
+link0=0
+tcl0_0=Emote $npc 1
+
+[moption NPC14849.0]
+icon=0
+text=Kerri Hicks
+answer0_0=Kerri Hicks is the reason the phrase "look don't touch" was invented. She can your bind hearthstone to this location however.
+answerids0=54078
+link0=0
+tcl0_0=Emote $npc 14
+
+[moption NPC14849.0]
+icon=0
+text=Stamp Thunderhorn
+answer0_0=Looking for a bite to eat? Stamp Thunderhorn sells it all. Not exactly the tastiest stuff in my opinion.
+answerids0=54079
+link0=0
+tcl0_0=Emote $player 11
+tcl0_1=Emote $npc 1
+
+[moption NPC14849.0]
+icon=0
+text=Lhara
+answer0_0=Lhara sells some very expensive stuff, but it's definitely worth it.
+answerids0=54080
+link0=0
+tcl0_0=Emote $player 273
+tcl0_1=Emote $npc 1
+
+[moption NPC14849.0]
+icon=0
+text=Professor Paleo
+answer0_0=The Professor sells some rare stuff like umm...
+answerids0=54081
+link0=0
+tcl0_0=Emote $npc 6
+
+[moption NPC14849.0]
+icon=0
+text=Burth
+answer0_0=He's an ogre!
+answerids0=54082
+link0=0
+tcl0_0=Emote $npc 11
+
+[moption NPC11956.0]
+icon=0
+requirements=c11 q5921|5922 !q5931 !q5932
+text=What do you represent, spirit?
+answerids0=4721
+link0=1
+npctext0=4721.0
+
+[moption NPC11956.0]
+icon=0
+requirements=c11 q5921|5922 !q5931 !q5932
+text=What do you represent, spirit?
+answerids0=4721
+link0=1
+npctext0=4721.0
+
+[moption NPC11956.1]
+icon=0
+requirements=c11 q5921|5922 !q5931 !q5932
+text=I seek to understand the importance of strength of the body.
+answerids0=4733
+link0=2
+npctext0=4733.0
+
+[moption NPC11956.2]
+icon=0
+requirements=c11 q5921|5922 !q5931 !q5932
+text=I seek to understand the importance of strength of the heart.
+answerids0=4734
+link0=3
+npctext0=4734.0
+
+[moption NPC11956.3]
+icon=0
+requirements=c11 q5921|5922 !q5931 !q5932
+text=I have heard your words, Great Bear Spirit, and I understand. I now seek your blessings to fully learn the way of the Claw.
+answerids0=4735
+link0=4
+npctext0=4735.0
+tcl0_0=if {[GetQuestStatus $player 5929] == "3"} {AddItem $player 16205; Say $player "|cFFF0002FYou receive item: \[Gaea Seed]"}
+tcl0_1=if {[GetQuestStatus $player 5930] == "3"} {AddItem $player 16205; Say $player "|cFFF0002FYou receive item: \[Gaea Seed]"}
+
+[moption NPC12144.0]
+icon=0
+requirements=c11 q5931|5932
+text=You have fought well, spirit. I ask you to grant me the strength of your body and the strength of your heart.
+answerids0=4715
+link0=1
+npctext0=4715.0
+tcl0_0=CastSpell $npc $player 14247
+tcl0_1=Emote $player 16
+tcl0_2=Emote $player 33
+tcl0_3=Emote $player 15
+tcl0_4=CastSpell $npc $npc 16423
+tcl0_5=if {[GetQuestStatus $player 6001] == "3"} {{AddItem $player 12383} {return "|cFFF0002FYou receive item: \[Moontouched Feather]"}}
+tcl0_6=if {[GetQuestStatus $player 6002] == "3"} {{AddItem $player 12383} {return "|cFFF0002FYou receive item: \[Moontouched Feather]"}}
+tcl0_7=CastSpell $npc $npc 13520
+
+[moption NPC2.0]
+icon=0
+text=Can you test stealth on me?
+link0=1
+tcl0_0=SetQFlags $player stealth
+tcl0_1=CastSpell $npc $player 10032
+tcl0_2=CastSpell $npc $player 14247
+
+[moption NPC2.1]
+icon=0
+text=Okay, can you turn it off now.
+link0=0
+tcl0_0=ClearQFlag $player stealth
+tcl0_1=CastSpell $player $player 10032
+tcl0_2=CastSpell $npc $player 14247
+tcl0_3=Emote $npc 293
+
+[moption NPC4968.0]
+icon=0
+text=Lady Jaina, this may sound like an odd request... but I have a young ward who is quite shy. You are a hero to him, and he asked me to get your autograph.
+tcl0_0=if {[GetQuestStatus $player 558] == "3"} {AddItem $player 18642; Say $player "|cFFF0002FYou receive item: \[Jaina's Autograph]"}
+
+[moption NPC11798.0]
+icon=0
+requirements=r4 c11 q28 !q5061
+text=What can you tell me about the aquatic pendants?
+answerids0=5373
+link0=0
+npctext0=5373.0
+
+[moption NPC11798.0]
+icon=0
+requirements=r6 c11 !q31 q29
+text=What can you tell me about the aquatic pendants
+answerids0=5374
+link0=0
+npctext0=5374.0
+
+[moption NPC11800.0]
+icon=0
+requirements=r4 c11 q28 !q5061
+text=Can you help me find the aquatic pendants?
+answerids0=54083
+link0=0
+npctext0=5375.1
+
+[moption NPC11800.0]
+icon=0
+requirements=r6 c11 q29 !q31
+text=Can you help me find the aquatic pendants?
+answerids0=54084
+link0=0
+npctext0=5376.1
+
+[moption NPC600008.0]
+icon=0
+text=Legs
+answerids0=54000
+link0=0
+npctext0=54000.0
+tcl0_0=::Kwestor::Legs $npc $player
+
+[moption NPC600008.0]
+icon=0
+text=Feet
+answerids0=54000
+link0=0
+npctext0=54000.0
+tcl0_0=::Kwestor::Feet $npc $player
+
+[moption NPC600008.0]
+icon=0
+text=Chest
+answerids0=54000
+link0=0
+npctext0=54000.0
+tcl0_0=::Kwestor::Chest $npc $player
+
+[moption NPC600008.0]
+icon=0
+text=Wrist
+answerids0=54000
+link0=0
+npctext0=54000.0
+tcl0_0=::Kwestor::Wrist $npc $player
+
+[moption NPC600008.0]
+icon=0
+text=Hand
+answerids0=54000
+link0=0
+npctext0=54000.0
+tcl0_0=::Kwestor::Hands $npc $player
+
+[moption NPC600008.0]
+icon=0
+text=Waist
+answerids0=54000
+link0=0
+npctext0=54000.0
+tcl0_0=::Kwestor::Waist $npc $player
+
+[moption NPC600008.0]
+icon=0
+text=Legs
+answerids0=54000
+link0=0
+npctext0=54000.0
+tcl0_0=::Kwestor::Head $npc $player
+
+[moption NPC600008.0]
+icon=0
+text=Feet
+answerids0=54000
+link0=0
+npctext0=54000.0
+tcl0_0=::Kwestor::Head $npc $player
+
+[moption NPC8395.0]
+icon=0
+requirements=q3381
+text=Let me teleport you to my Masters Tower.
+tcl0_0=Say $npc 0 "Go to my Masters Tower"
+tcl0_1=Teleport $player 1 3982.023438 -4760.211426 304.804382 1.382802
+
+[moption NPC15526.0]
+icon=0
+requirements=q8599 !q8606
+text=I need swimming lessons.
+link0=ExitGossip
+npctext0=55013.0
+tcl0_0=Say $npc 0 [::Texts::Get "Say hello to Narain for me!"]; ::CastSpell $player $player 7840;
+
+[moption NPC11832.0]
+icon=0
+requirements=q8735 !q8741
+text=I am ready for battle! Bring forth Eranikus!
+answerids0=52336
+link0=ExitGossip
+npctext0=52336.0
+tcl0_0=Say $npc 0 [::Texts::Get "An ancient force has awakened in moonglade!"]; ::CastSpell $npc $npc 51001;
+
+[moption NPC15481.0]
+icon=0
+requirements=q8519
+text=I am a treasure hunter in search of powerful artifacts. Give them to me and you will not be harmed.
+link0=1
+npctext0=55000.0
+
+[moption NPC15481.1]
+icon=0
+text=How did you know? I mean, yes ... Yes I am looking for that shard. Do you have it?
+link0=2
+npctext0=55000.0
+
+[moption NPC15481.2]
+icon=0
+text=Alright. Where?
+link0=3
+npctext0=55000.0
+
+[moption NPC15481.3]
+icon=0
+text=By Bronzebeard's ... um, beard! What are you talking about?
+link0=4
+npctext0=55000.0
+
+[moption NPC15481.4]
+icon=0
+text=Fish? You gave a piece of what could be the key to saving all life on Kalimdor to a fish?
+link0=5
+npctext0=55000.0
+
+[moption NPC15481.5]
+icon=0
+text=A minnow? The oceans are filled with minnows! There could be a hundred million minnows out there!
+link0=6
+npctext0=55000.0
+
+[moption NPC15481.6]
+icon=0
+text=You put the piece on a minnow and placed the minnow somewhere in the waters of the sea between here and the Eastern Kingdoms? And this minnow has special powers?
+link0=7
+npctext0=55000.0
+
+[moption NPC15481.7]
+icon=0
+text=You're insane.
+link0=8
+npctext0=55000.0
+
+[moption NPC15481.8]
+icon=0
+text=I'm all ears.
+link0=9
+npctext0=55000.0
+
+[moption NPC15481.9]
+icon=0
+text=Come again.
+link0=10
+npctext0=55000.0
+
+[moption NPC15481.10]
+icon=0
+text=Ok, let me get this straight. You put the scepter shard entrusted to your Flight by Anachronos on a minnow of your own making and now you expect me to build an ... an arcanite buoy or something ... to potentially incur the wrath of an Elemental Lord? Did I miss anything? Perhaps I am to do this without any clothes on, during a solar eclipse, on a leap year?
+link0=11
+npctext0=55000.0
+
+[moption NPC15481.11]
+icon=0
+text=FINE! And how, dare I ask, am I supposed to acquire an arcanite buoy?
+link0=12
+npctext0=55000.0
+tcl0_0=AddItem $player 20949; Say $player 0 [::Texts::Get "I received a magical ledger!"]
+
+[moption NPC15481.12]
+icon=0
+text=But.. but..
+link0=ExitGossip
+

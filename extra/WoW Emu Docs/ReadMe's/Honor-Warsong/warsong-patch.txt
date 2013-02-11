@@ -1,0 +1,21 @@
+; Warsong Gulch Battleground Spells, use with DBC-Patcher.exe
+; Bug-fix for WOWEmu spell.dbc by skite2001 (thx to spirit^^)
+; Spirit: Added fixes for power-ups
+
+; Horde Flag Drop
+23334:28=187,58=6,85=0
+
+; Alliance Flag Drop
+23336:28=187,58=6,85=0
+
+; Speed Buff (working original: +100% movement speed for 10s)
+;23978:
+
+; Food Buff (non-working original: restore 10% hp/mp every 1s for 10s)
+; converted to: restore 500hp/mp every 1s for 10s
+24379:58=6,59=6,73=500,74=500,88=8,89=24
+
+; Berserk Buff (non-working original: +30% damage done, +10% damage taken, +10% size for 60s)
+; converted to: +30% critical chance, +500 melee attack, +500 ranged attack for 60s
+24378:73=29,74=499,75=499,88=52,89=99,90=124
+

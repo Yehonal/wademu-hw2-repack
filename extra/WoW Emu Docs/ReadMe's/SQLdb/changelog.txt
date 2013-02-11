@@ -1,0 +1,111 @@
+#
+#
+# This program is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#               <http://www.gnu.org/copyleft/lesser.html>
+#
+#
+# Name:		SQLdb.tcl
+#
+# Version:	0.2.1
+#
+# Date:		2006-02-16
+#
+# Description:	SQL middleware database API
+#
+# Author:	Lazarus Long <lazarus.long@bigfoot.com>
+#
+# Changelog:
+#
+# v0.2.1 (2006-02-16) -	The "append nothing to nothing, gives nothing" version.
+#			Added initialization of a variable in the "existsMySQL"
+#			procedure that got by my logic (thanks to spirit for
+#			reporting this).
+#
+# v0.2.0 (2006-02-06) -	The "documentary is about documents, right?" version.
+#			Documented the API (if you can call it that), to allow
+#			publication and ease future development.
+#
+# v0.1.9 (2006-02-03) -	The "bits and bytes" version.
+#			Added the "canonize*" procedures to convert a string.
+#			Added the "exists*" procedures to check if a table
+#			exists or not. Added the "version*" procedures for
+#			versioning info. Added the "cleanup*" procedures to do
+#			a database VACUUM (no-op for the MySQL).
+#
+# v0.1.8 (2006-02-03) -	The "packaging" version.
+#			Setup the script to work as a package so one only has
+#			to enter "package require SQLdb" (case sensitive) to
+#			make it ready to use.
+#
+# v0.1.7 (2006-02-03) -	The "virtualization" version.
+#			Created the generic "*SQLdb" procedures that will call
+#			the real ones depending on the system configuration.
+#			Also created the routine to read the configuration file
+#			"scripts/sqldb.conf" and parse it for configuration
+#			options.
+#
+# v0.1.6 (2006-02-02) -	The "if it isn't there... make it" version.
+#			Created pseudo "trace*" for MySQL (tested) and for
+#			PostgreSQL (untested). Also I think that the MySQL
+#			implementation should need some more error checking but
+#			I'm leaving it for a future development cycle.
+#
+# v0.1.5 (2006-02-02) -	The "last but not least" version.
+#			Implemented the base functions for MySQL, once again
+#			except for the "trace*" procedure, since it has no
+#			equivalence.
+#
+# v0.1.4 (2006-02-01) -	The "handles unlimited" version.
+#			To make them more similar to the client server model
+#			and to allow (theoretical) unlimited SQLite and SQLite3
+#			databases, implemented a incremental returned handle,
+#			only dependent on the filename.
+#
+# v0.1.3 (2006-01-31) -	The "not so obvious choice" version.
+#			Implemented the base functions for PostgreSQL except
+#			the "trace*" function that has no equivalent. I know
+#			that this wasn't the most obvious choice, but it was
+#			next in reverse alphabetical order so I did it (I'm
+#			getting lazy I know, but I wasn't in the mood to
+#			install the PostgreSQL database on my server just for
+#			testing it, so this implementation is theoretical).
+#
+# v0.1.2 (2006-01-31) -	The "logical second" version.
+#			Implemented the base functions for SQLite (in fact I
+#			simply duplicated the ones from SQLite3 except for
+#			"boolean*").
+#
+# v0.1.1 (2006-01-30) -	The "easiest first" version.
+#			Implemented the base functions: "open*", "close*",
+#			"error*", "trace*", "query*", "firstcell*" and
+#			"boolean*" for SQLite3.
+#
+# v0.1.0 (2006-01-30) -	The "let's see what can be done" version.
+#			Created the basic layout of the file and added the
+#			functions to deal with the "package" facility. Created
+#			two internal functions "init*" and "start*" for each of
+#			the database DLLs I plan to support: MySQL, Oracle,
+#			PostgreSQL, SQLite, SQLite3 and Sybase. I won't be
+#			touching Oracle and Sybase for the near future, I'm
+#			starting with the much more spread and supported RDBMS
+#			like MySQL, SQLite and PostgreSQL. (development
+#			version as all the odd middle numbers will be, so the
+#			first public release is going to be v0.2.0)
+#
+#

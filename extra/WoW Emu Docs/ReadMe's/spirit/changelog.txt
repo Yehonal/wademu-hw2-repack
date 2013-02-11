@@ -1,0 +1,290 @@
+2006-03-17 - v4.32
+
+- Defense v1.20
+  New command ".defense info", it will tell if the selected NPC is a guard.
+  Added guards from neutral zones (Ratchet, Booty Bay, Gadgetzan, Everlook)
+  Added new fast auto mode and changed the "player_defense" option: 2 = fast auto mode, 3 = old auto mode
+
+- SpiritAI v1.10
+  Improved compatibility with KingBiggie's AI.tcl
+
+- Warsong v1.00
+  Vendor NPCs selling Warsong Gulch specific rewards, based on reputation.
+  Quest NPCs giving a repeatable quest.
+  More checking on mounts.
+  More checking when trying to start a game.
+
+- Honor v4.32
+  Honor NPC now teleports to the entrance of the battleground, so players can speak to the quest givers.
+
+- New Russian www files and updated translation thanks to Neo_mat.
+
+2006-03-11 - v4.31
+
+- Defense v1.12
+  New option "npc_health", to configure at with health percentage an npc will get help.
+  Creatures file generator improved a bit, you may want to go back to your original file and generate again.
+
+- XPControl v0.20
+  Using a different approach when controlling quests xp with MasterScript.
+  If you use it, you have to regenerate "quests_noxp.scp" (just delete it and ".retcl").
+
+- SpiritHonor v1.24
+  Fixed the WorldWidth error.
+
+- Texts files moved to "scripts/conf/texts", and file extension renamed to ".tcl.txt".
+
+2006-03-09 - v4.30
+
+- FriendsList v0.60 included. This addon makes the friends and ignore list work.
+
+- MobTalk v0.51 included. This addon allows some hundreds of mobs to talk. It also allows to play sounds from server scripting.
+
+- XPControl v0.10 included. This allows control over XP gained from completing quests, killing mobs and exploring maps.
+
+- SpiritAI v1.00 included. This is an improved AI script over the plain original.
+
+- "scripts.conf" moved to "scripts/conf" directory.
+
+- "-Custom.tcl" merged with "_Cmd.tcl" and renamed to "Custom.tcl" .
+  With the incoming start-tcl system, I'll let users deal with load order.
+
+- "Guard Defense" renamed "Defense System" and now allows both players and npcs to be defended.
+  Generator to have a corrected "creatures.scp" for guard defense automatic mode (more information in "readme_defense.txt").
+  Compatiblity with QDB namespaces for the automatic mode (needs Neo2003's TCL Pack v0.80 or higher).
+
+2006-03-06 - v4.22
+
+- Guard defense automatic mode has been optimized. It is 2x/3x faster than before.
+
+- Some other code cleaning, optimizations and fixes.
+
+2006-03-05 - v4.21
+
+- Fixed a typo in Custom that caused the IsOnline proc to stop working, affecting Honor/Warsong.
+
+- Added option "guard_reputation", reputation level required for the help from guards (0 = neutral, 1 = friendly, etc.)
+
+- Reduced the minimum distance when checking for guards already defending players.
+
+2006-03-02 - v4.20
+
+- The changelog is now unified, I will talk about the Honor System, the Warsong Gulch script, the addon
+  or anything else included with the release. This has not been just a Honor System for some time already.
+
+- New option "guard_defense" that allows players to ask guards for assistance against mobs or players.
+  The default mode works semi-automatic, where players have to click on the guard each time they want assistance.
+  An automatic mode is available, but I am a bit concerned about performance.
+  You may have to click at least once on the guard each time you load the server or .retcl even in the automatic mode.
+  Make sure your maps are correctly extracted.
+  The addon SpiritHonor v1.20 is needed.
+
+- The resurrection spell of Spirit Guides has been changed to the one suggested by deathkiller.
+  Hopefully it will work with friendly faction (35), if you want them to be friendly at any case.
+
+- This was already done, but I forgot to mention that the players from the losing team at Warsong Gulch
+  get 1 piece of reward if the match lasted more than 10 minutes. The winners always get 3 pieces.
+
+- Fixed a bug reported by DeadMan that affected honor when killing guards.
+
+- Updated Portuguese translation thanks to ItizaI.
+
+- Fixed maxhealth/damage/combat_reach for Honor NPCs thanks to ZORG.
+
+- Text files have been moved to a seperate directory and are loaded by the Texts script, which is in -Custom.tcl.
+  Also those files can now be encoded in UTF-8 with BOM.
+
+
+Changes before 2006-03-01:
+
+Honor System:
+
+v4.12
+- "check_login" option
+- Honor rates ajusted
+- AddOn SpiritHonor v1.10
+
+v4.11
+- Table correction/upgrade mechanism
+- Sql specific commands (.honor sql)
+- Penalty for killing a player in ghost form
+
+v4.10
+- SQLdb support
+- Changes in guards/civilians detection
+- Fixed size for tauren honor NPCs
+
+v4.04
+- Improved "civilian_noaggro" option
+- "guard_rate" now includes sub-bosses
+
+v4.03
+- Improved log off exploit detection
+- Improved addon (inspect frame, full pvp name in character frame)
+- Fixed notifications when having more than one kill in one shot
+- Fixed honor gain when killing grey level players
+- Option "civilian_noaggro"
+
+v4.02
+- Option for checking addon version
+
+v4.01
+- Count of ranked players on the web page above the limit of displayed players
+- Fixed a crash issue when having some foreign data in the honor directory
+
+v4.00 ( 2006-01 )
+- Fixed alignement for how_to_text in most text files.
+- Fixed new rank notification when playing a CTF game.
+
+v3.99
+- Addon optimizations
+- Counter logoff exploit command (.honor check)
+
+v3.98
+- Improved wrong installation detection
+- Honor Hall script integrated
+- External script for localizations
+- Unified configuration file (scripts.conf)
+
+v3.97
+- Small changes/fixes
+
+v3.96
+- Updated the code for the warsong option
+- Small changes/fixes
+
+v3.93
+- Reduced balancing range
+- Fixed honorable kills when killing a player
+
+v3.92
+- Small fixes and optimizations
+
+v3.90
+- Compensation rates (for horde/alliance balance)
+- More configuration options
+- Optional honor gain from killing guards
+- More configurable rates (players, leaders, civilians, guards)
+- Option to allow honor on specific locations instead of whole maps
+- Configurable number of displayed players on the rankings web page
+- Modifications to make the script "Copy 'n Play"
+- Client addon for notifications and information in the honor tab
+
+v3.21
+- Teleport to Warsong option for Honor NPCs
+
+v3.20
+- Configuration file (scripts/honor.conf)
+
+v3.12:
+- Fixed civilian detection
+
+v3.11:
+- Dishonorable kills
+- Better new rank notification
+- Better logging
+- Fix for HonorHall with unified updates
+
+v3.00 ( 2005-11 )
+- Honor decay
+- Diminishing return on consecutive kills
+- NPCs selling rewards for each rank
+- New rank notifications
+- GM commands
+
+v2.xx ( 2005-09 )
+- Honor points sharing between killers
+- Honor from killing racial leaders
+- Guilds on the web page
+- Map restrictions for honor gain
+- Maximum gain for one kill
+- Honor log
+
+v1.xx ( 2005-08 )
+- Honor from killing players
+- Rankings on a web page
+- Plevel restrictions for honor gain
+- Basic chainkill detection
+
+
+Warsong Gulch:
+
+v0.98
+- Sound effects
+
+v0.97
+- Option "queue_levels" (configures number of queues/required level for each queue)
+- Spirit Guides resurrecting players at the graveyards
+
+v0.96
+- Different colors in messages (neutral/horde/alliance)
+
+v0.94
+- Fixed online player detection
+- Changed "powerups_spawntime" (-1 = no powerups, 0 = no spawn time)
+
+v0.93
+- Improved client side speed checking
+- Bug fixes for "allow_mid_game_enter"
+- Bug fixes for "remember_return_pos"
+- Option "teleport_on_death" replaced by "graveyard_teleport"
+
+v0.92
+- Flag giving managed from the addon
+- Addon: improvements / bug fixes
+
+v0.91
+- Power-ups
+- Queue system improvements and bug fixes
+- Option to allow a player to join mid-game
+
+v0.90
+- Client side speed checking for flag carriers
+
+v0.89
+- Map information caching
+
+v0.88
+- Localizations
+
+v0.87
+- Fixed a problem when using the hearthstone to exit the battleground
+- Option to return players to where they were when taking the exits
+
+v0.85
+- Fixed bugs, rearranged some code
+
+v0.81
+- Optional command to join the queue from anywhere on the map
+
+v0.80
+- Queue system
+
+v0.70
+- Honor gain when capturing a flag or winning a game
+- Use of the honor addon for notifications (when a game is started, when a flag is picked up, dropped/returned, given or captured)
+
+v0.61
+- Updated to be compatible with Honor System v3.90
+
+v0.60
+- More configuration options, improved some commands
+
+v0.53
+- Included a missing new file
+- Fixed the NPC when giving the reward
+
+v0.50
+- Game starting and ending
+- Speed check on flag carriers
+- Giving the flag on selection
+- Rewards for winners
+- Map information improvements
+- The script is now "Copy'n'Play" (no need to modify other script files)
+
+v0.15
+- Battleground opening and closing
+
+v0.10 ( 2005-12 )
+- Flag carrying / droping
+- Scoring when capturing a flag

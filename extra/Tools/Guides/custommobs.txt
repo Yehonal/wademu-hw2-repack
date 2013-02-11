@@ -1,0 +1,2317 @@
+[creature 30062]
+name=Yara
+flags1=08080066
+guild=Weaponsmith
+npcflags=04004
+damage=42000 53000 0
+family=7
+type=7
+level=200
+maxmana=0
+maxhealth=700000
+faction=35
+model=14591
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=19.94
+civilian=1
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+
+
+
+[creature 60000]
+name=Bone Warrior
+attack=1613 1774
+bounding_radius=0.533
+combat_reach=3.53
+damage=1 2
+faction=7
+level=2 4
+maxhealth=60
+maxmana=60
+model=14706
+speed=1.08
+type=6
+loottemplate=50009
+money=1500
+
+[creature 60001]
+name=Bone Warrior Xikai
+attack=1613 1774
+bounding_radius=0.533
+combat_reach=3.53
+damage=2 3
+faction=7
+level=4 6
+maxhealth=120
+maxmana=160
+model=14706
+loottemplate=50009
+speed=1.08
+type=6
+money=2000
+
+[creature 60002]
+name=Fiend of Death
+flags1=010
+attack=1933 2126
+bounding_radius=1.08814
+combat_reach=4.09
+damage=3 4
+faction=7
+family=1
+loottemplate=50009
+level=6
+maxhealth=160
+maxmana=113
+model=9758
+size=0.725424
+speed=1.68
+type=1
+money=4500
+
+[creature 60004]
+name=Cruel Elf of Sakai
+flags1=010
+attack=1880 2068
+bounding_radius=0.51935
+combat_reach=3.52
+damage=6 8
+faction=7
+family=4
+level=8 12
+maxhealth=267
+maxmana=185
+model=2722
+loottemplate=50009
+size=0.75
+speed=0.82
+type=1
+money=8000
+
+[creature 60006]
+name=Death Flesh
+attack=1853 2038
+bounding_radius=1.00
+combat_reach=4.00
+damage=8 11
+level=12 13
+maxhealth=321
+maxmana=222
+loottemplate=50003
+model=7864
+faction=21
+speed=0.97
+type=7
+money=9500
+
+[creature 60007]
+name=Death Flesh Cruser
+attack=1853 2038
+bounding_radius=1.00
+combat_reach=4.00
+damage=10 13
+level=14 15
+maxhealth=371
+loottemplate=50003
+maxmana=322
+model=7864
+faction=21
+speed=0.97
+type=7
+money=13000
+
+[creature 60008]
+name=Guzak Za
+attack=1853 2038
+bounding_radius=1.00
+combat_reach=4.00
+damage=11 15
+level=15 16
+loottemplate=50003
+maxhealth=404
+maxmana=278
+faction=514
+model=7533
+speed=1.00
+type=7
+money=13500
+
+[creature 60010]
+name=Assasin Jan
+guild=Clan of Badshah
+attack=1000 1100
+bounding_radius=1.00
+combat_reach=4.00
+damage=18 23
+faction=50
+damage=17 23
+loottemplate=50003
+level=17 19
+maxhealth=547
+maxmana=376
+model=567
+speed=1.30
+type=4
+money=15000
+
+[creature 60012]
+name=Grozar Guards
+flags1=080000
+guild=Clan of Badshah
+attack=1247 1372
+bounding_radius=0.306
+combat_reach=5.71
+damage=41 56
+elite=1
+equipmodel=2 6593 2 3 1 26 0 0 0 0
+faction=40
+loottemplate=50003
+level=18 22
+loottemplate=622
+maxhealth=820
+maxmana=1129
+model=534
+speed=1.53
+type=7
+money=16000
+
+[creature 60014]
+name=Grozar
+flags1=080000
+guild=Clan of Badshah
+attack=1181 1299
+bounding_radius=0.4464
+combat_reach=5.85
+damage=66 90
+elite=1
+equipmodel=0 7490 2 8 1 17 1 0 0 0
+faction=40
+loottemplate=50004
+level=25 29
+maxhealth=1131
+maxmana=1561
+model=327
+size=1.2
+speed=1.91
+type=7
+money=19500
+
+[creature 60016]
+name=Nestra Man
+flags1=08480046
+attack=1653 1818
+bounding_radius=0.306
+combat_reach=3.31
+damage=27 37
+equipmodel=0 7482 2 7 1 13 3 0 0 0
+faction=514
+level=27
+maxhealth=754
+maxmana=520
+loottemplate=50004
+model=1734
+speed=1.06
+type=7
+unk7=1
+money=15000
+
+[creature 60018]
+name=Nestra Laser
+flags1=08480046
+attack=1653 1818
+bounding_radius=0.306
+combat_reach=3.31
+damage=32 44
+equipmodel=0 7482 2 7 1 13 3 0 0 0
+faction=514
+loottemplate=50004
+level=30
+maxhealth=847
+maxmana=585
+model=1734
+speed=1.06
+type=7
+unk7=1
+money=15550
+
+[creature 60019]
+name=Low Level Killer
+guild=Only Lvl 30 and Above
+level=29
+loottemplate=50004
+loot=10101016 100
+maxmana=0
+maxhealth=21220628
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+combatReach=1
+bounding_radius=0.37
+damage=999955 999993
+faction=514
+loottemplate=10184
+attack=2000 2000
+model=6380
+speed=1.14
+type=7
+money=16000
+
+[creature 60020]
+name=Meat Sucker
+attack=1613 1774
+bounding_radius=0.533
+combat_reach=3.53
+damage=40 55
+faction=21
+level=33
+maxhealth=1531
+maxmana=1561
+model=987
+speed=1.08
+type=6
+loottemplate=50006
+money=16500
+
+[creature 60022]
+name=Head Smasher
+flags1=066
+guild=Challenger
+level=35
+maxhealth=2531
+maxmana=1561
+combatReach=3
+bounding_radius=2.00
+damage=90 99
+faction=73
+loottemplate=50006
+elite=1
+attack=1506 1697
+model=13209
+speed=0.95
+type=6
+money=17000
+
+[creature 60024]
+name=Kabul Dragon
+level=37
+maxhealth=1863
+maxmana=1885
+spell=18435
+combatReach=3
+bounding_radius=1.8
+damage=70 80
+loottemplate=50006
+faction=73
+attack=1500 1600
+model=6371
+speed=1.87
+type=2
+money=19000
+
+[creature 60026]
+name=Fenros
+flags1=080000
+attack=1148 1263
+bounding_radius=1.00
+combat_reach=5.50
+damage=117 158
+elite=4
+faction=14
+level=40 43
+loottemplate=50006
+maxhealth=3402
+maxmana=1573
+model=11179
+speed=1.36
+type=7
+money=19500
+
+[creature 60028]
+name=Kharkharas
+level=42
+maxmana=2000
+maxhealth=2967
+equipmodel=0 8377 2 0 1 13 4 0 0 0
+combatReach=3
+bounding_radius=1.5
+damage=92 127
+faction=73
+attack=1500 1700 0
+model=8317
+loottemplate=50007
+speed=0.97
+type=2
+money=20000
+
+[creature 60030]
+name=Splitter of Skull
+flags1=080000
+attack=1386 1525
+bounding_radius=0.3366
+combat_reach=3.34
+damage=80 110
+equipmodel=0 1600 2 10 2 17 2 0 0 0
+faction=21
+level=45 49
+maxhealth=2202
+loottemplate=50007
+maxmana=977
+model=4621
+size=1.1
+speed=1.30
+type=7
+money=30500
+
+[creature 60031]
+name=Splitter of Flesh
+flags1=080000
+attack=1386 1525
+bounding_radius=0.3366
+combat_reach=3.34
+damage=100 130
+equipmodel=0 1600 2 10 2 17 2 0 0 0
+faction=21
+level=50 50
+loottemplate=50007
+maxhealth=2602
+maxmana=977
+model=4621
+size=1.1
+speed=1.30
+type=7
+money=45500
+
+[creature 60032]
+name=Guardians of Xero
+level=47
+maxhealth=2200
+maxmana=904
+combatReach=2.0
+bounding_radius=0.56
+damage=82 123
+faction=93
+loottemplate=50007
+attack=1344 1549
+model=10771
+speed=2.17
+type=6
+money=57500
+
+[creature 60034]
+name=Xero Dai Servent
+flags1=080000
+guild=Clan of Badshah
+attack=1046 1150
+bounding_radius=0.459
+combat_reach=4.96
+damage=173 234
+elite=4
+equipmodel=0 7427 2 0 1 13 3 0 0 0
+equipmodel=1 7427 2 0 1 13 3 0 0 0
+faction=28
+level=80
+loottemplate=50007
+maxhealth=4416
+maxmana=2053
+model=4582
+size=1.5
+speed=2.15
+type=7
+money=158500
+
+[creature 60036]
+name=Cheater
+flags1=080000
+guild=Clan of Khanbaba
+attack=1480 1628
+bounding_radius=0.306
+combat_reach=3.31
+damage=133 154
+equipmodel=0 7484 2 7 1 13 3 0 0 0
+equipmodel=1 20537 4 6 1 14 4 0 0 0
+faction=50
+level=53
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+maxhealth=2416
+maxmana=2053
+model=3711
+speed=2.15
+type=7
+money=79500
+
+[creature 60038]
+name=Vacious Prisoner
+flags1=080004
+attack=1960 2156
+bounding_radius=0.306
+combat_reach=3.31
+damage=143 174
+elite=2
+faction=514
+level=55
+maxhealth=2716
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+maxmana=2053
+model=3683
+speed=2.15
+type=7
+unk7=1
+money=80500
+
+[creature 60039]
+name=Low Level Killer
+guild=Only Lvl 50 and Above
+level=49
+maxmana=0
+loot=10101016 100
+maxhealth=21220628
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+combatReach=1
+bounding_radius=0.37
+damage=999955 999993
+faction=514
+loot=1200000 10
+loot=1200001 10
+loot=1200002 15
+loot=1200003 10
+attack=2000 2000
+model=6380
+loottemplate=50008
+speed=1.14
+type=7
+money=24900
+
+[creature 60040]
+name=Angry Guard
+flags1=080000
+attack=1280 1408
+bounding_radius=1.00
+combat_reach=4.00
+damage=243 374
+level=60
+maxhealth=3526
+maxmana=3535
+faction=514
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+model=14673
+speed=1.23
+type=5
+money=90000
+
+[creature 60041]
+name=Very Angry Guard
+flags1=080000
+attack=1280 1408
+bounding_radius=1.00
+combat_reach=4.00
+damage=343 474
+level=70
+maxhealth=4526
+maxmana=4535
+faction=514
+model=14673
+speed=1.23
+type=5
+money=91100
+
+[creature 60042]
+name=Guardian of Clan of Badshah
+guild=Clan of Badshah
+attack=1280 1408
+bounding_radius=1.00
+combat_reach=4.00
+damage=471 699
+level=100
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+elite=1
+maxhealth=54526
+maxmana=34535
+faction=514
+model=14674
+speed=1.23
+type=5
+money=110000
+
+[creature 60044]
+name=Smart Assasin
+guild=Clan of Badshah
+attack=1000 1100
+bounding_radius=1.00
+combat_reach=4.00
+damage=367 461
+faction=21
+level=80
+maxhealth=6462
+maxmana=2476
+model=567
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+speed=1.30
+type=7
+money=120000
+
+[creature 60046]
+name=Feroz Ha
+guild=Unknown Clan
+attack=1000 1100
+bounding_radius=1.00
+combat_reach=4.00
+damage=377 477
+faction=514
+level=90
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+maxhealth=6962
+maxmana=2476
+model=567
+speed=19.30
+type=7
+money=130000
+
+[creature 60048]
+name=Crawler of Death
+guild=Unknown Clan
+attack=1000 1100
+bounding_radius=1.00
+combat_reach=4.00
+damage=377 577
+faction=514
+level=100
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+maxhealth=8962
+maxmana=2476
+model=157
+speed=2.30
+type=7
+money=140000
+
+[creature 60049]
+name=Low Level Killer
+guild=Only Lvl 100 and Above
+loot=10101016 100
+level=99
+maxmana=0
+maxhealth=21220628
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+combatReach=1
+bounding_radius=0.37
+damage=999955 999993
+faction=514
+attack=2000 2000
+model=6380
+speed=1.14
+type=7
+money=150000
+
+[creature 60050]
+name=Lucifron
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=1128 1321
+elite=3
+equipmodel=0 19552 2 7 1 13 3 0 0 0
+faction=514
+level=150
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+maxhealth=118787
+maxmana=86907
+model=13031
+size=3
+loot=37542 0.5
+speed=19.44
+type=7
+money=160000
+
+[creature 60052]
+name=Spirit Healer
+questscript=MasterScript
+flags1=0280166
+npcflags=021
+npcjobs=spirithealer
+attack=1213 1334
+bounding_radius=0.5
+combat_reach=3.50
+damage=1107 1445
+faction=35
+family=7
+level=60
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+maxhealth=13867
+maxmana=1310
+model=5233
+npctext=580
+speed=13.26
+type=7
+unk7=1
+money=18000
+
+[creature 60054]
+name=Trezer
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=528 621
+elite=1
+equipmodel=0 19552 2 7 1 13 3 0 0 0
+faction=514
+level=125
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+maxhealth=12787
+maxmana=86907
+model=553
+size=3
+speed=19.44
+type=7
+money=100000
+
+[creature 60056]
+name=Mastic Sec
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=528 691
+elite=1
+equipmodel=0 7484 2 7 1 13 3 0 0 0
+equipmodel=1 20537 4 6 1 14 4 0 0 0
+faction=514
+level=150
+loot=19578 10
+loot=17014 10
+loot=17013 10
+loot=14552 10
+loot=16984 10
+loot=16950 10
+loot=16984 10
+loot=12895 10
+loot=12752 10
+loot=17109 10
+loot=18509 10
+loot=14554 10
+loot=20212 10
+loot=3075 10
+loot=18168 10
+loot=19491 10
+loot=20212 10
+loot=14555 10
+loot=18609 10
+loot=19852 10
+loot=811 10
+loot=17103 10
+loot=12592 10
+loot=2801 10
+loot=19130 10
+loot=647 10
+loot=19358 10
+loot=10847 10
+loot=944 10
+loot=19884 10
+maxhealth=14787
+maxmana=86907
+model=3434
+size=3
+speed=19.44
+type=7
+money=190000
+
+[creature 60086]
+name=invisible Man
+flags1=08080066
+guild=Khanbaba Clan
+npcflags=04004
+damage=24000 34400 0
+family=7
+type=7
+level=200
+maxmana=0
+maxhealth=100000
+faction=35
+model=15435
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+
+[creature 60088]
+name=Shikai
+flags1=08080066
+guild=General Totem Vendor
+npcflags=04004
+damage=42000 53000 0
+family=7
+type=7
+level=200
+maxmana=0
+maxhealth=700000
+faction=35
+model=14584
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=19.94
+civilian=1
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+sell=5175
+sell=25063
+sell=5176
+sell=5177
+sell=5178
+sell=6649
+sell=1029
+sell=1131
+sell=4783
+
+[creature 60090]
+name=Shaitan
+flags1=08080066
+guild=Khanbaba Clan
+npcflags=04004
+damage=940 1344 0
+family=7
+type=7
+level=200
+maxmana=25666
+money=1000000
+maxhealth=25000
+faction=50
+model=11686
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=12.94
+
+[creature 69900]
+name=Shezby
+guild=Clan of Khanbaba
+attack=2000 2200
+bounding_radius=0.208
+combat_reach=1.5
+damage=15000 17000
+faction=121
+level=255
+model=14334
+spell=22724
+type=10
+elite=1
+money=500000
+maxhealth=500000
+
+[creature 69901]
+name=Crypter Fiend
+guild=Clan of Khanbaba
+level=255
+maxmana=0
+maxhealth=500000
+combatReach=1
+bounding_radius=0.37
+damage=18000 26000
+faction=121
+loottemplate=10184
+loot=35705 10
+loot=35706 10
+loot=35707 10
+loot=37541 0.1
+loot=35708 10
+loot=35709 10
+loot=35710 10
+loot=35712 10
+loot=35711 10
+loot=25526 5
+loot=25533 5
+loot=35713 3
+elite=1
+attack=2000 2000
+model=11174
+speed=1.14
+type=7
+money=2250000
+
+[creature 69902]
+name=Nustro
+flags1=080891000
+guild=Clan of Khanbaba
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=14828 16121
+elite=1
+equipmodel=0 19552 2 7 1 13 3 0 0 0
+faction=121
+level=255
+loottemplate=12118
+maxhealth=598787
+maxmana=86907
+model=8571
+size=3
+loot=37542 0.5
+speed=19.44
+type=7
+money=1148000
+
+[creature 69903]
+name=Nustro
+flags1=080891000
+guild=Clan of Khanbaba
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=14828 16121
+elite=1
+faction=121
+level=255
+loottemplate=12118
+maxhealth=598787
+maxmana=86907
+model=8571
+size=3
+loot=37542 0.5
+speed=19.44
+type=7
+money=1148000
+
+[creature 69904]
+name=Torzo Hyker
+flags1=080891000
+guild=Clan of Khanbaba
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=14828 16121
+elite=1
+faction=121
+level=255
+loottemplate=12118
+maxhealth=598787
+maxmana=86907
+model=7919
+size=3
+loot=37542 0.5
+speed=19.44
+type=7
+money=1148000
+
+[creature 69905]
+name=Soul Crusher
+aiscript=SkeletalMage
+guild=Clan of Khanbaba
+attack=1680 1848
+bounding_radius=1
+combat_reach=4.00
+damage=14424 15333
+equipmodel=0 1600 2 10 2 17 2 0 0 0
+faction=121
+level=255
+loot=35803 50
+maxhealth=522694
+maxmana=44478
+model=9783
+speed=1.05
+type=6
+elite=1
+money=500000
+
+[creature 69906]
+name=Risen Horse
+flags1=080891000
+guild=Clan of Khanbaba
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=14828 16121
+elite=1
+faction=121
+level=255
+loottemplate=12118
+maxhealth=598787
+maxmana=86907
+model=14584
+size=3
+loot=37542 0.5
+speed=19.44
+type=7
+money=1148000
+
+[creature 69907]
+name=Versale Cede
+flags1=080891000
+guild=Clan of Khanbaba
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=14828 16121
+elite=1
+faction=121
+level=255
+loottemplate=12118
+maxhealth=598787
+maxmana=86907
+model=15191
+size=3
+loot=37542 0.5
+speed=19.44
+type=7
+money=1148000
+
+[creature 69908]
+name=Rabia K
+guild=Clan of Khanbaba
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=121
+model=100
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+money=200000
+
+[creature 69909]
+name=Jess Sal
+guild=Clan of Khanbaba
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=121
+model=754
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+money=200000
+
+[creature 69910]
+name=Heli San
+guild=Clan of Khanbaba
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=121
+model=327
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+money=200000
+
+[creature 69911]
+name=Rew Da
+guild=Clan of Khanbaba
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=121
+model=263
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+money=200000
+
+[creature 69912]
+name=Tere Zan Guard
+guild=Clan of Khanbaba
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=121
+model=637
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+money=200000
+
+[creature 69913]
+name=Naga Siren
+guild=Clan of Khanbaba
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=121
+model=4922
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+money=200000
+
+[creature 69914]
+name=Xeruo Ded
+guild=Clan of Khanbaba
+attack=1000 1100
+bounding_radius=1.00
+combat_reach=4.00
+damage=11267 13161
+faction=121
+level=255
+loottemplate=5764
+maxhealth=553462
+maxmana=2476
+model=7029
+speed=1.30
+type=4
+money=549500
+
+[creature 69915]
+name=Hyper Grunt
+guild=Clan of Khanbaba
+attack=1253 1378
+bounding_radius=0.372
+combat_reach=3.37
+damage=11109 14449
+equip=0 1640
+equipmodel=0 3797 2 1 1 17 1 0 0 0
+faction=121
+family=7
+level=255
+maxhealth=551756
+maxmana=1230
+model=4259
+speed=1.24
+type=7
+money=27500
+
+[creature 69916]
+name=Tyra Fera
+guild=Clan of Khanbaba
+attack=1000 1100
+bounding_radius=1.00
+combat_reach=4.00
+damage=11267 13161
+faction=121
+level=255
+loottemplate=5764
+maxhealth=553462
+maxmana=2476
+model=9754
+speed=1.30
+type=4
+money=549500
+
+[creature 69917]
+name=Assasin Jan
+guild=Clan of Khanbaba
+attack=1000 1100
+bounding_radius=1.00
+combat_reach=4.00
+damage=11267 13161
+faction=121
+level=255
+loottemplate=5764
+maxhealth=553462
+maxmana=2476
+model=567
+speed=1.30
+type=4
+money=549500
+
+
+
+[creature 155601]
+name=Timsa
+flags1=080000
+attack=1280 1408
+bounding_radius=1.00
+combat_reach=4.00
+damage=1771 2199 2
+level=225
+maxhealth=108526
+maxmana=9535
+faction=514
+model=833
+speed=1.23
+type=5
+money=380000
+
+[creature 155631]
+name=Dragon of Khanbaba
+level=240
+maxhealth=121301
+maxmana=33763
+combatReach=1.0
+bounding_radius=1
+damage=2558 2775 2
+faction=73
+elite=1
+attack=1400 1600
+model=1267
+speed=1.11
+type=2
+size=5
+money=420000
+
+[creature 155801]
+name=Skeletan Mage Challenger
+aiscript=SkeletalMage
+attack=1680 1848
+bounding_radius=1
+combat_reach=4.00
+damage=2424 3333
+equipmodel=0 1600 2 10 2 17 2 0 0 0
+faction=21
+level=255
+maxhealth=132694
+maxmana=44478
+model=9783
+speed=11.05
+size=2
+type=7
+money=520000
+
+[creature 155811]
+name=Skeletal Warrior
+aiscript=SkeletalWarrior
+attack=1680 1848
+bounding_radius=0.3349
+combat_reach=3.33
+damage=2824 3533
+equipmodel=0 7426 2 0 1 13 3 0 0 0
+faction=21
+level=255
+maxhealth=143694
+maxmana=33478
+model=200
+size=2
+speed=11.89
+type=7
+money=580000
+
+[creature 9999001]
+name=Shezby
+starts_quests=8000012
+finishes_quests=8000012
+questscript=MasterScript
+guild=Clan of Badshah
+npcflags=02
+attack=2000 2200
+bounding_radius=0.208
+combat_reach=1.5
+damage=4000 7000
+faction=50
+level=255
+model=14334
+spell=22724
+type=10
+elite=1
+money=500000
+maxhealth=200000
+
+[creature 9999011]
+name=Crypter Fiend
+guild=Clan of Badshah
+level=255
+maxmana=0
+maxhealth=200000
+combatReach=1
+bounding_radius=0.37
+damage=4000 7000
+faction=50
+elite=1
+attack=2000 2000
+model=11174
+speed=1.14
+type=7
+money=600000
+
+[creature 9999021]
+name=Nustro Brave
+flags1=080891000
+guild=Clan of Badshah
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=4828 6121
+elite=1
+equipmodel=0 19552 2 7 1 13 3 0 0 0
+faction=50
+level=255
+maxhealth=208787
+maxmana=86907
+model=8571
+size=3
+loot=37542 0.5
+speed=19.44
+type=7
+money=600000
+
+[creature 9999041]
+name=Torzo Hyker
+flags1=080891000
+guild=Clan of Badshah
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=14828 16121
+elite=1
+faction=50
+level=255
+loottemplate=12118
+maxhealth=208787
+maxmana=86907
+model=7919
+size=3
+loot=37542 0.5
+speed=19.44
+type=7
+money=1148000
+
+[creature 9999051]
+name=Soul Crusher
+aiscript=SkeletalMage
+guild=Clan of Badshah
+attack=1680 1848
+bounding_radius=1
+combat_reach=4.00
+damage=4424 5333
+equipmodel=0 1600 2 10 2 17 2 0 0 0
+faction=50
+level=255
+loot=35803 50
+maxhealth=222694
+maxmana=44478
+model=9783
+speed=1.05
+type=6
+elite=1
+money=500000
+
+[creature 9999061]
+name=Risen Horse
+flags1=080891000
+guild=Clan of Khanbaba
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=4828 6121
+elite=1
+faction=35
+level=255
+loottemplate=12118
+maxhealth=238787
+maxmana=86907
+model=14584
+size=3
+loot=37542 0.5
+speed=19.44
+type=7
+money=700000
+
+[creature 9999071]
+name=Versale Cede
+flags1=080891000
+guild=Clan of Badshah
+attack=377 415
+bounding_radius=3
+combat_reach=9.00
+damage=5828 8121
+elite=1
+faction=50
+level=255
+loottemplate=12118
+maxhealth=598787
+maxmana=86907
+model=15191
+size=3
+loot=37542 0.5
+speed=19.44
+type=7
+money=800000
+
+[creature 9999089]
+name=Rabia K
+guild=Clan of Badshah
+damage=7000 9000 0
+type=7
+level=255
+maxmana=0
+maxhealth=250000
+faction=50
+model=100
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+money=900000
+
+[creature 9999099]
+name=Jess Sal
+guild=Clan of Badshah
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=50
+model=754
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+money=200000
+
+[creature 9999109]
+name=Heli San
+guild=Clan of Badshah
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=50
+model=327
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+money=200000
+
+[creature 9999119]
+name=Rew Da
+guild=Clan of Badshah
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=50
+model=263
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+money=6000000
+
+[creature 9999129]
+name=Tere Zan Guard
+guild=Clan of Badshah
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=50
+model=637
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+money=6000000
+
+[creature 9999139]
+name=Naga Siren
+guild=Clan of Badshah
+damage=12000 19000 0
+type=7
+level=255
+maxmana=0
+maxhealth=500000
+faction=50
+model=4922
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+money=6000000
+
+[creature 9999149]
+name=Xeruo Ded
+guild=Clan of Badshah
+attack=1000 1100
+bounding_radius=1.00
+combat_reach=4.00
+damage=11267 13161
+faction=50
+level=255
+loottemplate=5764
+maxhealth=553462
+maxmana=2476
+model=7029
+speed=1.30
+type=4
+money=6000000
+
+[creature 61062]
+name=Yara
+flags1=08080066
+guild=Weaponsmith
+npcflags=04004
+damage=42000 53000 0
+family=7
+type=7
+level=200
+maxmana=0
+maxhealth=700000
+faction=35
+model=14591
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=19.94
+civilian=1
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+sell=420032
+sell=25063
+sell=420030
+sell=420028
+sell=800026
+sell=800027
+sell=800028
+sell=800030
+sell=800008
+sell=800009
+sell=800010
+sell=800036
+sell=800032
+sell=800038
+sell=6948
+sell=6265
+sell=799998
+sell=799999
+sell=800000
+sell=800001
+sell=800002
+sell=800003
+sell=800004
+sell=800005
+sell=800006
+sell=800007
+sell=800011
+sell=800012
+sell=800013
+sell=800014
+sell=800015
+sell=800016
+sell=800017
+sell=800019
+sell=800020
+sell=800021
+money=20000
+
+[creature 60083]
+name=General Markston
+flags1=08080066
+guild=Special Weapon & Armor Vendor
+npcflags=04004
+damage=42000 53000 0
+family=7
+type=7
+level=200
+maxmana=0
+maxhealth=700000
+faction=35
+model=5965
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=19.94
+civilian=1
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+sell=420032
+sell=90005
+sell=90004
+sell=4000581
+sell=4000561
+sell=4000031
+sell=4000021
+sell=4000041
+sell=4000051
+sell=4000061
+sell=4000081
+sell=40000091
+sell=4000121
+sell=4000161
+sell=4000181
+sell=4000201
+sell=4000301
+sell=4000321
+sell=4000331
+sell=4000361
+sell=4000401
+sell=40004211
+sell=4000481
+sell=4000491
+
+[creature 155011]
+name=Fury of Bactria
+flags1=080000
+attack=1152 1267
+bounding_radius=0.6188
+combat_reach=6.02
+damage=688 712
+faction=514
+level=160
+maxhealth=25982
+maxmana=6770
+model=2295
+size=2.3
+speed=19.11
+type=7
+money=250000
+
+[creature 155141]
+name=Sherkhan Challenger
+guild=Khan Body Guards
+level=180
+maxhealth=43208
+maxmana=33079
+equipmodel=0 2839 2 5 2 17 1 0 0 0
+combatReach=2.6
+bounding_radius=1.3
+damage=690 754
+faction=778
+attack=2000 2200
+model=10040
+speed=12.91
+type=5
+size=1.30
+money=290000
+
+[creature 155581]
+name=Drunken
+flags1=080000
+attack=1280 1408
+bounding_radius=1.00
+combat_reach=4.00
+damage=1271 1599 2
+level=190
+maxhealth=46526
+maxmana=33535
+faction=514
+model=9560
+speed=1.23
+size=2.0
+type=5
+money=310000
+
+[creature 155571]
+name=Exile Prophet
+flags1=080000
+attack=780 808
+bounding_radius=1.00
+combat_reach=4.00
+level=200
+maxhealth=48526
+maxmana=33535
+faction=514
+model=15274
+damage=1671 1799 2
+speed=14.23
+size=2.0
+type=5
+money=340000
+
+[creature 121961]
+attack=1710 1881
+bounding_radius=0.236
+combat_reach=2.24
+damage=33 48
+equipmodel=0 7462 2 4 2 13 7 0 0 0
+faction=35
+flags1=08480046
+guild=Make This your inn so you will Resurrect Here
+level=30
+loottemplate=12196
+maxhealth=1454
+maxmana=686
+model=12392
+name=Ressurect Here Make it your INN
+npcflags=0105
+npctext=820
+npctext0_0=Make this your inn so you will rez here instead of going to your starting area?
+questscript=Innkeeper_Kaylisk_12196
+
+[creature 56881]
+name=Make this Your inn so you will Rez here instead of Going to starting area
+finishes_quests=8
+questscript=MasterScript
+flags1=018480046
+guild=Innkeeper
+npcflags=087
+npcjobs=vendor innkeeper
+qtnpcflags=noblueqm
+attack=1613 1774
+bounding_radius=0.383
+combat_reach=3.38
+damage=112 1144
+equipmodel=0 24595 2 14 1 13 0 0 0 0
+faction=35
+level=150
+loottemplate=5688
+maxhealth=129847
+maxmana=5852
+model=8190
+npctext=1853
+
+[creature 60082]
+name=Xghan Armor
+flags1=08080066
+guild=Alliance Epic Armor Vendor
+npcflags=04004
+damage=2000 3000 0
+family=7
+type=7
+level=200
+maxmana=0
+maxhealth=100000
+faction=35
+model=14591
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+civilian=1
+sell=16369
+sell=16391
+sell=16392
+sell=16393
+sell=16396
+sell=16397
+sell=16401
+sell=16403
+sell=16405
+sell=16406
+sell=16409
+sell=16410
+sell=16413
+sell=16414
+sell=16415
+sell=16416
+sell=16417
+sell=16418
+sell=16419
+sell=16420
+sell=16421
+sell=16422
+sell=16423
+sell=16424
+sell=16425
+sell=16426
+sell=16427
+sell=16428
+sell=16429
+sell=16430
+sell=16431
+sell=16432
+sell=16433
+sell=16434
+sell=16435
+sell=16436
+sell=16437
+sell=16440
+sell=16441
+sell=16442
+sell=16443
+sell=16444
+sell=16446
+sell=16448
+sell=16449
+sell=16450
+sell=16451
+sell=16452
+sell=16453
+sell=16454
+sell=16455
+sell=16456
+sell=16457
+sell=16459
+sell=16462
+sell=16463
+sell=16465
+sell=16466
+sell=16467
+sell=16468
+sell=16471
+sell=16472
+sell=16473
+sell=16474
+sell=16475
+sell=16476
+sell=16477
+sell=16478
+sell=16479
+sell=16480
+sell=16483
+sell=16484
+sell=17562
+sell=17564
+sell=17566
+sell=17567
+sell=17568
+sell=17569
+sell=17578
+sell=17579
+sell=17580
+sell=17581
+sell=17583
+sell=17584
+sell=17594
+sell=17596
+sell=17598
+sell=17599
+sell=17600
+sell=17601
+sell=17602
+sell=17603
+sell=17604
+sell=17605
+sell=17607
+sell=17608
+sell=12584
+sell=18825
+sell=18827
+sell=18830
+sell=18833
+sell=18836
+sell=18838
+sell=18843
+sell=18847
+sell=18855
+sell=18865
+sell=18867
+sell=18869
+sell=18873
+sell=18876
+sell=15198
+sell=18606
+sell=18839
+sell=18841
+equipmodel=0 3879 2 5 2 money=100000
+money=20000
+
+[creature 60084]
+name=Xghan Armor
+flags1=08080066
+guild=Horde Epic Armor Vendor
+npcflags=04004
+damage=2000 3000 0
+family=7
+type=7
+level=200
+maxmana=0
+money=1000000
+maxhealth=100000
+faction=35
+model=14591
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+civilian=1
+sell=16485 //name=Blood Guard's Silk Footwraps
+sell=16486 //name=First Sergeant's Silk Cuffs
+sell=16487 //name=Blood Guard's Silk Gloves
+sell=16489 //name=Champion's Silk Hood
+sell=16490 //name=Legionnaire's Silk Pants
+sell=16491 //name=Legionnaire's Silk Robes
+sell=16492 //name=Champion's Silk Shoulderpads
+sell=16494 //name=Blood Guard's Dragonhide Boots
+sell=16496 //name=Blood Guard's Dragonhide Gauntlets
+sell=16497 //name=First Sergeant's Leather Armguards
+sell=16498 //name=Blood Guard's Leather Treads
+sell=16499 //name=Blood Guard's Leather Vices
+sell=16501 //name=Champion's Dragonhide Spaulders
+sell=16502 //name=Legionnaire's Dragonhide Trousers
+sell=16503 //name=Champion's Dragonhide Helm
+sell=16504 //name=Legionnaire's Dragonhide Breastplate
+sell=16505 //name=Legionnaire's Leather Hauberk
+sell=16506 //name=Champion's Leather Headguard
+sell=16507 //name=Champion's Leather Mantle
+sell=16508 //name=Legionnaire's Leather Leggings
+sell=16509 //name=Blood Guard's Plate Boots
+sell=16510 //name=Blood Guard's Plate Gloves
+sell=16513 //name=Legionnaire's Plate Armor
+sell=16514 //name=Champion's Plate Headguard
+sell=16515 //name=Legionnaire's Plate Legguards
+sell=16516 //name=Champion's Plate Pauldrons
+sell=16518 //name=Blood Guard's Mail Walkers
+sell=16519 //name=Blood Guard's Mail Grips
+sell=16521 //name=Champion's Mail Helm
+sell=16522 //name=Legionnaire's Mail Chestpiece
+sell=16523 //name=Legionnaire's Mail Legguards
+sell=16524 //name=Champion's Mail Shoulders
+sell=16525 //name=Legionnaire's Chain Breastplate
+sell=16526 //name=Champion's Chain Headguard
+sell=16527 //name=Legionnaire's Chain Leggings
+sell=16528 //name=Champion's Chain Pauldrons
+sell=16530 //name=Blood Guard's Chain Gauntlets
+sell=16531 //name=Blood Guard's Chain Boots
+sell=16532 //name=First Sergeant's Mail Wristguards
+sell=16533 //name=Warlord's Silk Cowl
+sell=16534 //name=General's Silk Trousers
+sell=16535 //name=Warlord's Silk Raiment
+sell=16536 //name=Warlord's Silk Amice
+sell=16539 //name=General's Silk Boots
+sell=16540 //name=General's Silk Handguards
+sell=16541 //name=Warlord's Plate Armor
+sell=16542 //name=Warlord's Plate Headpiece
+sell=16543 //name=General's Plate Leggings
+sell=16544 //name=Warlord's Plate Shoulders
+sell=16545 //name=General's Plate Boots
+sell=16548 //name=General's Plate Gauntlets
+sell=16549 //name=Warlord's Dragonhide Hauberk
+sell=16550 //name=Warlord's Dragonhide Helmet
+sell=16551 //name=Warlord's Dragonhide Epaulets
+sell=16552 //name=General's Dragonhide Leggings
+sell=16554 //name=General's Dragonhide Boots
+sell=16555 //name=General's Dragonhide Gloves
+sell=16558 //name=General's Leather Treads
+sell=16560 //name=General's Leather Mitts
+sell=16561 //name=Warlord's Leather Helm
+sell=16562 //name=Warlord's Leather Spaulders
+sell=16563 //name=Warlord's Leather Breastplate
+sell=16564 //name=General's Leather Legguards
+sell=16565 //name=Warlord's Chain Chestpiece
+sell=16566 //name=Warlord's Chain Helmet
+sell=16567 //name=General's Chain Legguards
+sell=16568 //name=Warlord's Chain Shoulders
+sell=16569 //name=General's Chain Boots
+sell=16571 //name=General's Chain Gloves
+sell=16573 //name=General's Mail Boots
+sell=16574 //name=General's Mail Gauntlets
+sell=16577 //name=Warlord's Mail Armor
+sell=16578 //name=Warlord's Mail Helm
+sell=16579 //name=General's Mail Leggings
+sell=16580 //name=Warlord's Mail Spaulders
+sell=18826 //name=High Warlord's Shield Wall
+sell=18828 //name=High Warlord's Cleaver
+sell=18831 //name=High Warlord's Battle Axe
+sell=18834 //name=Insignia of the Horde
+sell=18835 //name=High Warlord's Recu've
+sell=18837 //name=High Warlord's Crossbow
+sell=18840 //name=High Warlord's Razor
+sell=18844 //name=High Warlord's Right Claw
+sell=18848 //name=High Warlord's Left Claw
+sell=18860 //name=High Warlord's Street Sweeper
+sell=18866 //name=High Warlord's Bludgeon
+sell=18868 //name=High Warlord's Pulverizer
+sell=18871 //name=High Warlord's Pig Sticker
+sell=18874 //name=High Warlord's War Staff
+sell=18877 //name=High Warlord's Greatsword
+sell=18849 //name=Insignia of the Horde
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+
+[creature 15569]
+name=Angry Devilsaur
+flags1=080000
+attack=914 1005
+bounding_radius=2.5
+combat_reach=7.90
+damage=1221 2299
+elite=3
+faction=14
+level=150
+loottemplate=50010
+loot=900900 50
+loot=900901 50
+loot=17107 50
+loot=18541 50
+maxhealth=112526
+maxmana=83535
+model=5239
+size=2.5
+speed=14.61
+type=1
+money=500000
+
+[creature 15570]
+name=Zikzak
+flags1=08080066
+guild=Epic Mounts Vendor
+npcflags=04004
+damage=2000 3000 0
+family=7
+type=7
+level=221
+maxmana=0
+maxhealth=100000
+faction=35
+model=14591
+bounding_radius=0.306
+combat_reach=1.5
+attack=2000 2000
+speed=0.94
+civilian=1
+sell=25500
+sell=25501
+sell=25502
+sell=25503
+sell=25504
+sell=25505
+sell=25506
+sell=25507
+sell=25508
+sell=25509
+sell=25510
+sell=25511
+sell=25512
+sell=25513
+sell=25514
+sell=25515
+sell=25516
+sell=25517
+sell=25518
+sell=25519
+sell=25520
+sell=25521
+sell=25522
+sell=25523
+sell=25524
+sell=25525
+sell=25063
+equipmodel=0 3879 2 5 2 17 1 0 0 0
+money=200000
+
+[creature 305]
+name=White Stallion Mount
+attack=2000 2200
+bounding_radius=1.00
+combat_reach=4.00
+damage=0 1
+level=1
+maxhealth=32
+maxmana=26
+model=2410
+speed=0.91
+money=500
+
+[creature 7706]
+name=Ivory Raptor Mount
+attack=2000 2200
+bounding_radius=1.00
+combat_reach=4.00
+damage=0 1
+level=1
+maxhealth=32
+maxmana=26
+model=6471
+speed=0.91
+money=500
+
+[creature 10179]
+name=White Mechanostrider Mount
+attack=2000 2200
+bounding_radius=1.00
+combat_reach=4.00
+damage=0 1
+level=1
+maxhealth=32
+maxmana=26
+model=6569
+speed=0.91
+money=500
+
+[creature 11150]
+name=Icy Blue Mechanostrider Mount
+attack=2000 2200
+bounding_radius=1.00
+combat_reach=4.00
+damage=0 1
+level=1
+maxhealth=32
+maxmana=26
+model=10666
+speed=0.91
+money=500

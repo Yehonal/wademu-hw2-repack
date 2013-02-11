@@ -1,0 +1,285 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#                <http://www.gnu.org/copyleft/lesser.html>
+#
+#
+# Russian language support added by romanZ and verified by ReGeDiT
+#
+
+
+namespace eval ::WoWEmu::Commands {
+        Texts::Set ru unknown_command           "Комманда \"%s\" неизвестна."
+        Texts::Set ru not_allowed               "Вам запрещено использовать эту комманду."
+        Texts::Set ru not_allowed_players       "Вам запрещено использовать эту комманду на игроках."
+        Texts::Set ru not_allowed_object        "Вам запрещено использовать эту комманду для этого объекта."
+        Texts::Set ru select_player             "Пожалуйста, выберете игрока."
+        Texts::Set ru select_self               "Для использования этой комманды вам нужно выбрать себя, нажав F1."
+        Texts::Set ru cant_kick_self            "Вы не можете кикнуть себя."
+        Texts::Set ru plevel_conflict           "PLevel вашей цели больше или равен вашему."
+        Texts::Set ru object_not_found          "Объект не найден."
+        Texts::Set ru help_plvl0                "Команды: \n .HELP \n .WHERE \n .DISMOUNT \n Используйте .HELP <комманда> для дополнительной информации.\n"
+        Texts::Set ru help_plvl2                "Команды: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .DEL; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .RESURRECT; \n .SETAURA; .SETRESTSTATE; \n .CLEARQFLAGS; \n .STARTTIMER; .STOPTIMER; \n .FACTION; \n Используйте .HELP <команда> для дополнительной информации.\n"
+        Texts::Set ru help_plvl4                "Команды: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .NAMEGO; \n .FACTION; \n .ADD ; .ADDGO ; .ADDNPC; \n .ADDSPAWN; \n .SETSPAWNNPC; .SETSPAWNGO; \n .SETSPAWNDIST; .SETSPAWNTIME; \n .SETLEVEL; .SETMODEL; \n .SETSIZE; .SETSPEED; \n .SETXP; .SETCP; .SETHP; \n .SETFLAGS; .SETNPCFLAGS; \n .PARALYSE; \n .DEL; .KILL; .KILLALLNPC; \n .RESURRECT; \n .LEARN; .UNLEARN; .LEARNSK; .UNLEARNSK; \n .SETAURA; .SETRESTSTATE; .CELARQFLAGS; \n .TARGETGO; .TARGETLINK; \n .TURN; .COME; \n .MOVE; .ROTATE; \n .CLEARREP; .GFLAGS; .GTYPE; \n .STARTTIMER ; .STOPTIMER; \n .EXPLORATION; .BROADCAST; \n Используйте .HELP <команда> для дополнительной информации.\n"
+        Texts::Set ru help_plvl6                "Команды: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .KILL ; .KILLALLNPC; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .NAMEGO; \n .FACTION; .SETFACTION; \n .TARGETGO; .TARGETLINK; \n .TURN; .COME; \n .DEL; .ADD ; .ADDGO ; .ADDNPC; \n .ADDSPAWN; \n .SETSPAWNNPC; .SETSPAWNGO; \n .SETSPAWNDIST; .SETSPAWNTIME; \n .SETXP; .SETCP; .SETHP; \n .SETLEVEL; .SETMODEL; .SETSIZE; \n .SETSPEED; .SETFLAGS; \n .SETAURA; .SETRESTSTATE; \n .SETNPCFLAGS; \n .LEARN; .UNLEARN; .LEARNSK; .UNLEARNSK; \n .MOVE; .ROTATE; \n .GFLAGS; .GTYPE; \n .RESURRECT; .PARALYSE; .CLEARREP; \n .EXPLORATION; .CLEARQFLAGS; \n .EXPORTCHAR; .IMPORTCHAR; \n .EXPORTSPAWNS; .EXPORTSPAWNSXY; \n .IMPORTSPAWNS; .DELSPAWNS; .DELSPAWNSXY; \n .STARTTIMER; .STOPTIMER; \n .PPON; .PPOFF; \n .RETCL; .RESCP; \n .BROADCAST; .SAVE; .SHUTDOWN; .REHASH; \n .DELALLCORP; .CLEANUP; .RESPAWNALL; \n Используйте .HELP <команда> для дополнительной информации.\n"
+        Texts::Set ru number_too_large          "Это число слишком большое!"
+}
+
+
+namespace eval ::AI {
+        Texts::Set ru humanoid_sayings {
+                "Умри, %s!"
+                "Приготовься к смерти, %s!"
+                "Я достану тебя, %s!"
+                "Ты сдохнешь, %s!"
+                "%s, Я помогу тебе встретиться с предками!"
+                "%s, Я отрежу твою бошку!"
+                "Ты никуда не уйдёшь, %s!"
+                "%s ты должен сдохнуть!"
+                "Ты готов к смерти, %s?"
+        }
+}
+
+
+namespace eval ::SpellEffects {
+        Texts::Set ru script_without_case       "ВНИМАНИЕ! Бестолковый скрипт %s"
+        Texts::Set ru spell_effect_quest        "Квест на эффекте заклинания %s"
+        Texts::Set ru teleport_not_ready        "Заклинание телепорта ещё не готово![ ::Custom::Color " Осталось времени: %s." dcdcdc ]"
+}
+
+
+namespace eval ::GmTools {
+        Texts::Set ru accounts_on_server        "Аккаунты на сервере: %s"
+        Texts::Set ru bans_on_server            "Баны на сервере: %s"
+        Texts::Set ru plevel_conflict           "Конфликт PLevel."
+        Texts::Set ru can_not_ban_self          "Вы не можете забанить себя!"
+        Texts::Set ru banned_account            "Забаненный аккаунт %s."
+        Texts::Set ru can_not_del_self          "Вы не можете удалить свой аккаунт!"
+        Texts::Set ru deleted_account           "Удален аккаунт %s."
+        Texts::Set ru account_exists            "Аккаунт %s уже существует."
+        Texts::Set ru added_account             "Добавлен аккаунт %s."
+        Texts::Set ru can_not_lock_self         "Нельзя заблокировать себя!"
+        Texts::Set ru locked_account            "Аккаунт %s заблокирован."
+        Texts::Set ru select_player             "Пожалуйста, выберете игрока."
+        Texts::Set ru unbanned_account          "С аккаунта %s снят бан."
+        Texts::Set ru unlocked_account          "Аккаунт %s разблокирован."
+        Texts::Set ru changed_password          "У %s изменён пароль."
+        Texts::Set ru can_not_level_self        "Вы не можете менять PLevel для себя!"
+        Texts::Set ru changed_plevel            "У %s изменён PLevel."
+        Texts::Set ru not_enough_parms          "Недостаточно параметров."
+        Texts::Set ru select_npc                "Пожалуйста, выберете NPC."
+        Texts::Set ru reputation_with           "Ваша репутация с %s фракицей (%s): %s."
+        Texts::Set ru untalent_help             "Использование: .untalent \[ free \]"
+        Texts::Set ru missing_delspell_keys     "Заклинание %s в файле spellcost.scp не имеет ключи delspell."
+        Texts::Set ru too_low_level             "%s имеет слишком низкий уровень."
+        Texts::Set ru not_enough_money          "%s не имеет достаточно денег. Это стоит %s медных."
+        Texts::Set ru aggro_help                "Использование: .aggro \[ ВКЛ \| ВЫКЛ \]"
+        Texts::Set ru aggro_on                  "Агрессивность [ Custom::Color "включена" red ]."
+        Texts::Set ru aggro_off                 "Агрессивность [ Custom::Color "выключена" lime ]."
+        Texts::Set ru damage_help               "Использование: .damage \[ ВКЛ \| ВЫКЛ \]"
+        Texts::Set ru damage_on                 "Урон [ Custom::Color "включен" red ]."
+        Texts::Set ru damage_off                "Урон [ Custom::Color "выключен" lime ]."
+}
+
+
+namespace eval ::WorldLock {
+        Texts::Set ru l_msg01   "[ Custom::Color "Вам запрещено использовать эту комманду!" red ]"
+        Texts::Set ru l_msg02   "\"[ Custom::Color "world.save" white ]\" уже  [ Custom::Color "заблокирован" red ]."
+        Texts::Set ru l_msg03   "\"[ Custom::Color "world.save" white ]\" уже  [ Custom::Color "разблокирован" lime ]."
+        Texts::Set ru l_msg04   "\"[ Custom::Color "world.save" white ]\"  [ Custom::Color "заблокирован" red ]."
+        Texts::Set ru l_msg05   "\"[ Custom::Color "world.save" white ]\" [ Custom::Color "разблокирован" lime ]."
+        Texts::Set ru l_msg06   "Использование:   [ Custom::Color ".ws \[ lock \| exclusive \| unlock \| shared \| info \| help \]" white ]"
+}
+
+
+namespace eval ::RavenclawApparition {
+        Texts::Set ru msg1      "Наш Повелитель приказал нам готовиться к войне!"
+        Texts::Set ru msg2      "Мы становимся сильнее, пока наши враги окружены их врагами, и слабеем от постоянных атак!"
+        Texts::Set ru msg3      "Умирайте и молитесь за Lich King!"
+        Texts::Set ru msg4      "Мы отведем наших врагов от Silverpine, а затем обрушим гнев войны на их столицу!"
+}
+
+
+namespace eval ::MoonrageDarkrunner {
+        Texts::Set ru msg1      "Сыновья Arugal'а восстанут против всех, кто осмелиться дать вызов силе Moonrage!"
+}
+
+
+namespace eval ::Nefarian {
+        Texts::Set ru msg1      "ГОРИТЕ! Вы ведьмы! ГОРИТЕ!"
+        Texts::Set ru msg2      "Я сотру тебя с лица этих земель!"
+        Texts::Set ru msg3      "Заканчивай лечиться и повернись ко мне лицом!"
+        Texts::Set ru msg4      "Я повеливаю смертью!"
+        Texts::Set ru msg5      "ААРРРГГХХ!!!"
+        Texts::Set ru msg6      "И маги здесь!? Вам стоит быть поаккуратнее, когда вы играете с магией!"
+        Texts::Set ru msg7      "Воины, я знаю, вы можете бить сильнее! Посмотрим, на что вы способны!"
+        Texts::Set ru msg8      "Друиды со своими глупыми превращениями! Посмотрим, на что вы способны в бою!"
+        Texts::Set ru msg9      "Жрецы! так и будете продолжать лечиться, может быть сделаем битву более интересной?!"
+        Texts::Set ru msg10     "Паладины... Я слышал, у вас много преимуществ! Покажите их мне!"
+        Texts::Set ru msg11     "Шаманы, покажите мне, на что способны ваши тотемы!"
+        Texts::Set ru msg12     "Колдуны, не стоит играть с магией, которую вы не понимаете! Видите, что происходит!?"
+        Texts::Set ru msg13     "Охотники со своими нудными автошотами!! Я вас достану!"
+        Texts::Set ru msg14     "Разбойники! Хватит прятаться, покажитесь мне!"
+}
+
+
+namespace eval ::DevlinAgamand {
+        Texts::Set ru msg1      "Agamand Mills'у помог Scourge, Воин. Присоединяйся к нам!"
+        Texts::Set ru msg2      "Agamand Mills'у помог Scourge, Паладин. Присоединяйся к нам!"
+        Texts::Set ru msg3      "Agamand Mills'у помог Scourge, Охотник. Присоединяйся к нам!"
+        Texts::Set ru msg4      "Agamand Mills'у помог Scourge, Разбойник. Присоединяйся к нам!"
+        Texts::Set ru msg5      "Agamand Mills'у помог Scourge, Жрец. Присоединяйся к нам!"
+        Texts::Set ru msg6      "Agamand Mills'у помог Scourge, Шаман. Присоединяйся к нам!"
+        Texts::Set ru msg7      "Agamand Mills'у помог Scourge, Маг. Присоединяйся к нам!"
+        Texts::Set ru msg8      "Agamand Mills'у помог Scourge, Колдун. Присоединяйся к нам!"
+        Texts::Set ru msg9      "Agamand Mills'у помог Scourge, Друид. Присоединяйся к нам!"
+        Texts::Set ru msg10     "Ты здесь для того, чтобы навестить свою семью? Умри, глупец!"
+}
+
+
+namespace eval ::RotHideMongrel {
+        Texts::Set ru msg1      "Грррр... свежее мясо!"
+        Texts::Set ru msg2      "Побольше костей погрызть..."
+}
+
+
+namespace eval ::RotHideGraverobber {
+        Texts::Set ru msg1      "Грррр... свежее мясо!"
+        Texts::Set ru msg2      "Побольше костей погрызть..."
+}
+
+
+namespace eval ::RuklartheTrapper {
+        Texts::Set ru msg1      "Ты не взял свечу!"
+        Texts::Set ru msg2      "Йиииииии! Я убегаю!"
+}
+
+
+namespace eval ::LepperGnome {
+        Texts::Set ru msg1      "Я порежу тебя!"
+}
+
+
+namespace eval ::PalemaneTanner {
+        Texts::Set ru msg1      "Грррр... свежее мясо!"
+        Texts::Set ru msg2      "Побольше костей погрызть..."
+}
+
+
+namespace eval ::PalemaneSkinner {
+        Texts::Set ru msg1      "Грррр... свежее мясо!"
+        Texts::Set ru msg2      "Побольше костей погрызть..."
+}
+
+
+namespace eval ::StormscaleToxicologist {
+        Texts::Set ru msg1      "Ты нарушил наши планы в последний раз, глупый Воин!"
+        Texts::Set ru msg2      "Ты нарушил наши планы в последний раз, глупый Паладин!"
+        Texts::Set ru msg3      "Ты нарушил наши планы в последний раз, глупый Охотник!"
+        Texts::Set ru msg4      "Ты нарушил наши планы в последний раз, глупый Разбойник!"
+        Texts::Set ru msg5      "Ты нарушил наши планы в последний раз, глупый Жрец!"
+        Texts::Set ru msg6      "Ты нарушил наши планы в последний раз, глупый панк!"
+        Texts::Set ru msg7      "Ты нарушил наши планы в последний раз, глупый Шаман!"
+        Texts::Set ru msg8      "Ты нарушил наши планы в последний раз, глупый Маг!"
+        Texts::Set ru msg9      "Ты нарушил наши планы в последний раз, глупый Колдун!"
+        Texts::Set ru msg10     "Ты нарушил наши планы в последний раз, тупой осёл!"
+        Texts::Set ru msg11     "Ты нарушил наши планы в последний раз, глупый Друид!"
+}
+
+
+namespace eval ::KoboldGeomancer {
+        Texts::Set ru msg1      "Ты не взял свечу!"
+        Texts::Set ru msg2      "Йиииииии! Я убегаю!"
+}
+
+
+namespace eval ::Koboldminer {
+        Texts::Set ru msg1      "Ты не взял свечу!"
+        Texts::Set ru msg2      "Йиииииии! Я убегаю!"
+}
+
+
+namespace eval ::KoboldLaborer {
+        Texts::Set ru msg1      "Ты не взял свечу!"
+        Texts::Set ru msg2      "Йиииииии! Я убегаю!"
+}
+
+
+namespace eval ::TunnelRatForager {
+        Texts::Set ru msg1      "Моя не бежать от Воинов похожих на тебя!"
+        Texts::Set ru msg2      "Моя не бежать от Паладинов похожих на тебя!"
+        Texts::Set ru msg3      "Моя не бежать от Охотников похожих на тебя!"
+        Texts::Set ru msg4      "Моя не бежать от Разбойников похожих на тебя!"
+        Texts::Set ru msg5      "Моя не бежать от Жрецов похожих на тебя!"
+        Texts::Set ru msg6      "Моя не бежать от панков похожих на тебя!"
+        Texts::Set ru msg7      "Моя не бежать от Шаманов похожих на тебя!"
+        Texts::Set ru msg8      "Моя не бежать от Магов похожих на тебя!"
+        Texts::Set ru msg9      "Моя не бежать от Колдунов похожих на тебя!"
+        Texts::Set ru msg10     "Моя не бежать от ослов похожих на тебя!"
+        Texts::Set ru msg11     "Моя не бежать от Друидов похожих на тебя!"
+        Texts::Set ru msg12     "Йип! Моя убивать!"
+}
+
+
+namespace eval ::TunnelRatVermin {
+        Texts::Set ru msg1      "Моя не бежать от Воинов похожих на тебя!"
+        Texts::Set ru msg2      "Моя не бежать от Паладинов похожих на тебя!"
+        Texts::Set ru msg3      "Моя не бежать от Охотников похожих на тебя!"
+        Texts::Set ru msg4      "Моя не бежать от Разбойников похожих на тебя!"
+        Texts::Set ru msg5      "Моя не бежать от Жрецов похожих на тебя!"
+        Texts::Set ru msg6      "Моя не бежать от панков похожих на тебя!"
+        Texts::Set ru msg7      "Моя не бежать от Шаманов похожих на тебя!"
+        Texts::Set ru msg8      "Моя не бежать от Магов похожих на тебя!"
+        Texts::Set ru msg9      "Моя не бежать от Колдунов похожих на тебя!"
+        Texts::Set ru msg10     "Моя не бежать от ослов похожих на тебя!"
+        Texts::Set ru msg11     "Моя не бежать от Друидов похожих на тебя!"
+        Texts::Set ru msg12     "Йип! Моя убивать!"
+}
+
+
+namespace eval ::DefiasBandit {
+        Texts::Set ru msg1      "А, вот и шанс воспользоватся этим свеже-заточенным лезвием!"
+        Texts::Set ru msg2      "Братство не одобрит твои действия!"
+}
+
+
+namespace eval ::DefiasCutpurse {
+        Texts::Set ru msg1      "А, вот и шанс воспользоватся этим свеже-заточенным лезвием!"
+        Texts::Set ru msg2      "Братство не одобрит твои действия"
+}
+
+
+namespace eval ::DarkIronSapper {
+        Texts::Set ru msg1      "Вахехе! Я возьму тебя вниз со мной!"
+}
+
+
+namespace eval ::VaelastrasztheCorrupt {
+        Texts::Set ru msg1      "Беги сейчас, пока ты на это способен! Я не хочу тебя поранить!"
+}
+
+
+namespace eval ::Onyxia {
+        Texts::Set ru msg1      "Как мне повезло! Обычно приходится покидать логово для кормешки!"
+        Texts::Set ru msg2      "Похоже, смертные, что вы не учитесь на своих ошибках!"
+}
+

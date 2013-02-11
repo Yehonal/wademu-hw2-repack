@@ -1,0 +1,135 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#                <http://www.gnu.org/copyleft/lesser.html>
+#
+# Those additions come from UWC, adapted to StartTCL by Hochelf
+#
+#
+# Russian language support added by romanZ and verified by ReGeDiT
+#
+
+
+namespace eval ::WoWEmu::Commands {
+        Texts::Set ru select_npc                "Пожалуйста, выберете NPC."
+        Texts::Set ru item_not_found            "Предмет не найден."
+        Texts::Set ru copper                    "Меди"
+        Texts::Set ru silver                    "Серебра"
+        Texts::Set ru gold                      "Золота"
+        Texts::Set ru invalid_money             "Неверное количество денег!"
+        Texts::Set ru bad_cmd_args              "Неверные аргументы команды!"
+        Texts::Set ru amount                    "количество"
+        Texts::Set ru added_to                  "добавлено"
+        Texts::Set ru location_added            "Локация добавлена."
+        Texts::Set ru no_location_name          "Нет (или слишком короткое) имени локации."
+        Texts::Set ru target                    "Цель"
+        Texts::Set ru no_locations              "Локации нет."
+        Texts::Set ru bad_command               "Неправильная комманда."
+        Texts::Set ru created_for_route_and     "создан для маршрута и привязан в вей-поинту."
+        Texts::Set ru created                   "создан"
+        Texts::Set ru banip_usage               "Систаксис для использования: ban <ip> / <list> / <undo>. Для <ip> замените последнюю цифру на 0. пример 184.157.23.0. Не оставляйте пробел в конце ip адреса. <Undo> удаляет последнюю запись"
+        Texts::Set ru no_ips_lines_to_remove    "Нет IP или линий для удаления"
+        Texts::Set ru undo_done_last_line       "Отмена выполнена, последняя линия удалена."
+        Texts::Set ru ip_already_banned         "Ошибка > Этот IP уже в списке банов!"
+        Texts::Set ru ip_list_updated_noerror   "Список банов обновлен. Ошибок не было."
+        Texts::Set ru thank_for_report          "Спасибо вам\n С вашей помощью мы сделаем лучше эту Реальность."
+        Texts::Set ru bug_select                "Пожалуйста, выберете глючный объект (или себя)."
+        Texts::Set ru cant_cast_that            "Не могу кастовать эту магию!"
+        Texts::Set ru input_spell               "Пожалуйста, введите спелл."
+        Texts::Set ru no_adminpass_conf         "У вас нет файла adminpass.conf!"
+        Texts::Set ru incorrect_password        "Неправильный пароль!"
+        Texts::Set ru setpassword_enabled       "Старый пароль правильный, пожалуйста, введите .setpassword (новый пароль) для изменения вашего пароля!"
+        Texts::Set ru deleted_from              "удален из"
+        Texts::Set ru not_in_inventory          "не найдено в инвентаре"
+        Texts::Set ru only_gm_learn             "Только ГМмам можно учить эти вещи!"
+        Texts::Set ru learned_all_langs         "Вы выучили все языки!"
+        Texts::Set ru learned_gm_spells         "Вы выучили все ГМ-спеллы!"
+        Texts::Set ru not_while_dead            "Вы не можете использовать эту команду будучи мертвым!"
+        Texts::Set ru invalid_selection         "Неправильное выделение"
+        Texts::Set ru removed_from              "удален из"
+        Texts::Set ru location_not_found        "Положение не найдено."
+        Texts::Set ru location_deleted          "Локация удалена."
+        Texts::Set ru specify_location          "Пожалуйста, укажите локацию."
+        Texts::Set ru cant_emote                "Нет такой эмоции!"
+        Texts::Set ru input_emote               "Пожалуйста, введите эмоцию."
+        Texts::Set ru linked_to_start           "переброшен в начало"
+        Texts::Set ru way_saved                 "Путь сохранен, Waypoint"
+        Texts::Set ru way_starts_on             "Путь начинается на Waypoint"
+        Texts::Set ru start_way_before          "Начните путь до того, как пробовать его сохранять!"
+        Texts::Set ru target_player             "Вам нужно выбрать игрока!"
+        Texts::Set ru is_gm                     "Выбранный игрок является ГМмом!"
+        Texts::Set ru no_gm                     "Выбранный игрок не является ГМмом!"
+        #Texts::Set ru no_one_jailed             "В тюрьме никого."
+        #Texts::Set ru character_name            "Имя персонажа"
+        #Texts::Set ru reason                    "Причина"
+        #Texts::Set ru jailed_by                 "Вас посадил"
+        #Texts::Set ru free_not_sure             "Хммм... не уверен, кого освободить?"
+        #Texts::Set ru is_not_jailed             "не помещен в тюрьму"
+        #Texts::Set ru unjailed_false            "Игрок не был выпущен из тюрьмы!"
+        #Texts::Set ru you_freed_by              "Вас освободил из тюрьмы"
+        #Texts::Set ru free_and_teleported       "теперь свободен и телепортирован в"
+        #Texts::Set ru jail_usage                "Выберете игрока\n.jail причина: сажает в тюрьму выбранного игрока\n.jail list: выдает список посаженных в тюрьму игроков\n.jail free: освобождает выбранного игрока"
+        #Texts::Set ru jail_not_sure             "Хмм... не уверен, кого сажать в тюрьму?"
+        #Texts::Set ru jail_reason_syntax        "Синтаксис (с выбранным игроком): .jail причина"
+        #Texts::Set ru now_jailed_by             "Посажен в тюрьму"
+        #Texts::Set ru for                       "За"
+        #Texts::Set ru is_now_jailed_for         "теперь посажен в тюрьму за"
+        #Texts::Set ru not_jailed                "Не посажен в тюрьму"
+        Texts::Set ru cant_teleport             "Не могу телепортироваться!"
+        Texts::Set ru name                      "Имя"
+        Texts::Set ru file                      "Файл"
+        Texts::Set ru merged_with_main_file     "объединен с главным файлом waypoints.scp"
+        Texts::Set ru the_original              "Оригинальный"
+        Texts::Set ru deleted_run_rescp         "был удален. Не забудьте запустить  команду .rescp перед назначением вей-поинта любому NPC."
+        Texts::Set ru missing                   "Отсутствует"
+        Texts::Set ru file_to_merge             "файл для объединения!"
+        Texts::Set ru is_reporting              "сообщает"
+        Texts::Set ru pvp_usage                 "\nGurubashi PvP Arena:\n Для входа на арену наберите .pvp enter\n Для выхода с арены наберите .pvp leave\n Для дополнительной информации наберите .pvp info"
+        Texts::Set ru already_there             "Вы уже на арене!"
+        Texts::Set ru no_enter_while_jailed     "Вы не можете входить на арену будучи в тюрьме"
+        Texts::Set ru not_in_arena              "Вы не можете покинуть арену, не находясь на ней!"
+        Texts::Set ru pvp_info                  "Помощь:\nБои проходят только на боевом ринге!\nНарушители будут посажены в тюрьму!\nПожалуйста, сообщайте о них ГМмам"
+        Texts::Set ru changepassword_first      "Пожалуйста, используйте сначала .changepassword (текущий пароль)"
+        Texts::Set ru password_changed          "Пароль успешно изменен."
+        Texts::Set ru waypoint_doesnt_exist     "Way-point не существует!"
+        Texts::Set ru ok_waypoint               "OK: Waypoint установлен"
+        Texts::Set ru set_for_npc               "установлен для выбранного NPC"
+        Texts::Set ru waypoint                  "Waypoint"
+        Texts::Set ru shown                     "показан"
+        Texts::Set ru route_started_waypoint    "маршрут начат, waypoint"
+        Texts::Set ru finish_before_new         "Закончите текущий маршрут перед созданием нового!"
+        Texts::Set ru select_target_first       "Сначала выберете цель!"
+        Texts::Set ru cant_tame_elite           "Нельзя приручать элиту!"
+        Texts::Set ru cant_tame_player          "Нельзя приручать игроков!"
+        Texts::Set ru cant_tame_npc             "Нельзя приручать NPC!"
+        Texts::Set ru cant_tame_friendly        "Нельзя приручать дружественных мобов!"
+        Texts::Set ru cant_tame_higher          "Нельзя приручать никого, кто выше вашего уровня!"
+        Texts::Set ru beast_tamed               "Вы успешно приручили монстра."
+        Texts::Set ru you_not_gm                "Вы не ГМ!"
+        Texts::Set ru closer_to_target          "Вы должны быть ближе к цели!"
+        Texts::Set ru now_visible               "Теперь вы видимы!"
+        Texts::Set ru specify_gender            "Вам нужно указать ваш пол:\nm-мужской, f-женский!"
+        Texts::Set ru pet_ran_away              "Ваш питомец убежал!"
+        Texts::Set ru select_pet                "Сначала выберете своего питомца!"
+        Texts::Set ru pet_more_life             "Вашему питомцу нужно больше жизней!"
+}
+

@@ -1,0 +1,1067 @@
+-22;Other;Seasonal
+-24;Other;Herbalism
+-61;Other;Warlock
+-81;Other;Warrior
+-82;Other;Schamane
+-101;Other;Fishing
+-121;Other;Blacksmith
+-141;Other;Paladin
+-161;Other;Mage
+-162;Other;Rogue
+-181;Other;Alchemy
+-182;Other;Leatherworking
+-201;Other;Engeneering
+-221;Other;Treasure Map
+-261;Other;Hunter
+-262;Other;Priest
+-263;Other;Druid
+-264;Other;Tailoring
+-284;Other;Special
+-304;Other;Cooking
+-324;Other;First Aid
+-364;Other;Darkmoon Faire
+251;Burning Steppes;Flame Crest
+252;Burning Steppes;Blackrock Stronghold
+256;Teldrassil;Aldrassil
+258;Teldrassil;Fel Rock
+259;Teldrassil;Lake Al'Ameth
+260;Teldrassil;Starbreeze Village
+262;Teldrassil;Ban'ethil Barrow Den
+266;Teldrassil;Wellspring Lake
+267;Hillsbrad Foothills
+269;Dun Algaz
+275;Hillsbrad Foothills;Durnholde Keep
+279;Alterac Mountains;Dalaran
+281;Alterac Mountains;Ruins of Alterac
+283;Alterac Mountains;Slaughter Hollow
+285;Hillsbrad Foothills;Southpoint Tower
+286;Hillsbrad Foothills;Hillsbrad Fields
+287;Hillsbrad Foothills;Hillsbrad
+288;Hillsbrad Foothills;Azurelode Mine
+290;Hillsbrad Foothills;Dun Garok
+297;Stranglethorn Vale;Jaguero Isle
+299;Wetlands;Menethil Bay
+300;Swamp of Sorrows;Misty Reed Strand
+301;Stranglethorn Vale;The Savage Coast
+303;Stranglethorn Vale;Shell Beach
+312;Stranglethorn Vale;Janeiro's Point
+314;Arathi Highlands;Go'Shek Farm
+316;Arathi Highlands;Boulderfist Hall
+318;Arathi Highlands;Drywhisker Gorge
+320;Arathi Highlands;Refuge Pointe
+324;Arathi Highlands;Stromgarde Keep
+327;Arathi Highlands;Faldir's Cove
+330;Thandol Span
+332;The Great Sea UNUSED
+335;Arathi Highlands;Circle of Inner Binding
+341;Badlands;Camp Kosh
+342;Badlands;Camp Boff
+343;Badlands;Camp Wurg
+345;Badlands;Agmond's End
+346;Badlands;Hammertoe's Digsite
+349;The Hinterlands;Wildhammer Keep
+351;The Hinterlands;Skulk Rock
+352;The Hinterlands;Zun'watha
+353;The Hinterlands;Shadra'Alor
+356;The Hinterlands;Seradane
+359;The Barrens;Bael Modan
+360;Mulgore;The Venture Co. Mine
+361;Felwood
+363;Durotar;Valley of Trials
+367;Durotar;Sen'jin Village
+369;Durotar;Thunder Ridge
+372;Durotar;Tiragarde Keep
+374;Durotar;Bladefist Bay
+375;Durotar;Deadeye Shore
+378;The Barrens;Camp Taurajo
+380;The Barrens;The Crossroads
+384;The Barrens;Dreadmist Peak
+385;The Barrens;Northwatch Hold
+386;The Barrens;The Forgotten Pools
+137;Dun Morogh;Brewnall Village
+142;Loch Modan;Ironband's Excavation Site
+143;Loch Modan;Mo'grosh Stronghold
+144;Loch Modan;Thelsamar
+145;Loch Modan;Algaz Gate
+147;Loch Modan;The Farstrider Lodge
+154;Tirisfal Glades;Deathknell
+155;Tirisfal Glades;Night Web's Hollow
+158;Tirisfal Glades;Agamand Family Crypt
+160;Tirisfal Glades;Whispering Gardens
+161;Tirisfal Glades;Terrace of Repose
+168;Tirisfal Glades;The North Coast
+170;Lordamere Lake
+172;Silverpine Forest;Fenris Isle
+189;Dun Morogh;Steelgrill's Depot
+190;Western Plaguelands;Hearthglen
+198;Western Plaguelands;The Weeping Cave
+199;Western Plaguelands;Felstone Field
+200;Western Plaguelands;Dalson's Tears
+202;Western Plaguelands;The Writhing Haunt
+203;Western Plaguelands;Mardenholde Keep
+207;The Great Sea
+208;Unused Ironcladcove
+210;***On Map Dungeon***
+213;Silverpine Forest;Deep Elem Mine
+214;The Great Sea
+215;Mulgore
+222;Mulgore;Bloodhoof Village
+388;The Barrens;The Stagnant Oasis
+391;The Barrens;The Merchant Coast
+394;Darrowmere Lake UNUSED
+397;Mulgore;Thunderhorn Water Well
+1;Dun Morogh
+4;Blasted Lands
+8;Swamp of Sorrows
+15;Dustwallow Marsh
+18;Elwynn Forest;Crystal Lake
+20;Westfall;Moonbrook
+21;Kul Tiras
+30;Nine
+32;Duskwood;The Cemetary
+33;Stranglethorn Vale
+35;Stranglethorn Vale;Booty Bay
+37;Stranglethorn Vale;Lake Nazferiti
+38;Loch Modan
+40;Westfall
+42;Duskwood;Darkshire
+43;Stranglethorn Vale;Wild Shore
+47;The Hinterlands
+49;Programmer Isle;Dead Man's Hole
+51;Searing Gorge
+53;Elwynn Forest;Thieves Camp
+55;Elwynn Forest;Valley of Heroes UNUSED
+56;Elwynn Forest;Heroes' Vigil
+61;Elwynn Forest;Thunder Falls
+63;Elwynn Forest;The Stonefield Farm
+66;***On Map Dungeon***
+69;Redridge Mountains;Lakeshire
+70;Redridge Mountains;Stonewatch
+74;Swamp of Sorrows;Pool of Tears
+76;Swamp of Sorrows;Fallow Sanctuary
+80;Elwynn Forest;Stormwind Mountains
+82;Programmer Isle;Jeff NW Quadrant
+85;Tirisfal Glades
+86;Elwynn Forest;Stone Cairn Lake
+88;Elwynn Forest;Eastvale Logging Camp
+89;Elwynn Forest;Mirror Lake Orchard
+94;Duskwood;Raven Hill
+96;Redridge Mountains;Tower of Ilgalar
+97;Redridge Mountains;Alther's Mill
+101;Stranglethorn Vale;Kurzen's Compound
+103;Stranglethorn Vale;Ruins of Zul'Mamwe
+106;Stranglethorn Vale;The Stockpile
+107;Westfall;Saldean's Farm
+115;Westfall;Westfall Lighthouse
+116;Swamp of Sorrows;Misty Valley
+118;Wetlands;Whelgar's Excavation Site
+123;Stranglethorn Vale;Bal'lal Ruins
+126;Stranglethorn Vale;Tkashi Ruins
+127;Stranglethorn Vale;Balia'mah Ruins
+128;Stranglethorn Vale;Ziata'jai Ruins
+129;Stranglethorn Vale;Mizjah Ruins
+132;Dun Morogh;Coldridge Valley
+133;Dun Morogh;Gnomeregan
+135;Dun Morogh;Frostmane Hold
+54;Elwynn Forest;Jasperlode Mine
+599;Desolace;Thunder Axe Fortress
+153;Tirisfal Glades;Ruins of Lordaeron
+295;Hillsbrad Foothills;Western Strand
+806;Dun Morogh;South Gate Outpost
+815;The Barrens;Southfury River
+837;Loch Modan;Dun Algaz
+249;Burning Steppes;Dreadmaul Rock
+289;Hillsbrad Foothills;Nethander Stead
+323;Arathi Highlands;O'Breen's Camp
+331;Ashenvale
+336;Arathi Highlands;Circle of Outer Binding
+977;Tanaris;Steamwheedle Port
+1036;Wetlands;Angerfang Encampment
+1037;Wetlands;Grim Batol
+1038;Wetlands;Dragonmaw Gates
+1039;Wetlands;The Lost Fleet
+1101;Feralas;The Writhing Deep
+1106;Feralas;Frayfeather Highlands
+1107;Feralas;Idlewind Lake
+1109;Feralas;East Pillar
+1110;Feralas;West Pillar
+1111;Feralas;Dream Bough
+1113;Feralas;Oneiros
+1157;The Barrens;Southern Gold Road
+1518;Westfall;Not Used Deadmines
+1519;Stormwind City
+307;The Hinterlands;The Overlook Cliffs
+77;Dun Morogh;Anvilmar
+139;Eastern Plaguelands
+148;Darkshore
+211;Dun Morogh;Iceflow Lake
+232;Silverpine Forest;The Dawning Isles
+244;Duskwood;The Whipple Estate
+25;Blackrock Mountain
+28;Western Plaguelands
+84;Programmer Isle;Jeff SW Quadrant
+997;Redridge Mountains;Render's Valley
+998;Redridge Mountains;Render's Rock
+999;Redridge Mountains;Stonewatch Tower
+1000;Redridge Mountains;Galardell Valley
+1120;Feralas;Sardor Isle
+1221;Azshara;Ruins of Eldarath 
+1224;Azshara;Bear's Head
+1226;Azshara;Temple of Arkkoran
+1227;Azshara;Bay of Storms
+1229;Azshara;Tower of Eldara
+1231;Azshara;Southridge Beach
+1233;Azshara;Forlorn Ridge
+1235;Azshara;Shadowsong Shrine
+1237;Azshara;Valormok
+1256;Azshara;The Ruined Reaches
+1277;Stonetalon Mountains;The Talondeep Path
+1337;Uldaman
+1338;Silverpine Forest;Lordamere Lake
+98;Redridge Mountains;Rethban Caverns
+131;Dun Morogh;Kharanos
+609;Desolace;Kolkar Village
+603;Desolace;Sargeron
+604;Desolace;Magram Village
+26;Westfall;Lighthouse
+60;Elwynn Forest;Forest's Edge
+235;Silverpine Forest;Fenris Keep
+317;Arathi Highlands;Witherbark Village
+429;Ashenvale;Xavian
+437;Ashenvale;Warsong Lumber Camp
+467;Stonetalon Mountains;Stonetalon Peak
+10;Duskwood
+11;Wetlands
+616;Hyjal
+502;Dustwallow Marsh;Witch Hill
+412;Ashenvale;The Ruins of Ordil'Aran
+636;Stonetalon Mountains;Blackwolf River
+71;Redridge Mountains;Stonewatch Falls
+308;The Forbidding Sea
+338;Badlands;Angor Fortress
+637;Mulgore;Kodo Rock
+638;Durotar;Hidden Path
+639;Durotar;Spirit Rock
+716;Dun Morogh;Ironband's Compound
+717;The Stockade
+720;The Barrens;Fray Island
+722;Razorfen Downs
+796;Scarlet Monastery
+797;Elwynn Forest;Jerod's Landing
+798;Elwynn Forest;Ridgepoint Tower
+138;Dun Morogh;Misty Pine Refuge
+699;Teldrassil;Temple of Elune UNUSED
+436;Ashenvale;Demon Fall Ridge
+449;Darkshore;The Master's Glaive
+468;Stonetalon Mountains;The Talon Den
+480;Thousand Needles;Camp E'thok
+398;Mulgore;Wildmane Water Well
+401;The Barrens;The Tidus Stair
+404;Mulgore;Bael'dun Digsite
+405;Desolace
+410;Durotar;Razorwind Canyon
+414;Ashenvale;The Zoram Strand
+415;Ashenvale;Astranaar
+416;Ashenvale;The Shrine of Aessina
+417;Ashenvale;Fire Scar Shrine
+419;Ashenvale;The Howling Vale
+421;Ashenvale;Mystral Lake
+422;Ashenvale;Fallen Sky Lake
+427;Ashenvale;The Shady Nook
+430;Ashenvale;Satyrnaar
+433;Ashenvale;Falfarren River
+438;Ashenvale;Bough Shadow
+440;Tanaris
+442;Darkshore;Auberdine
+443;Darkshore;Ruins of Mathystra
+446;Darkshore;Bashal'Aran
+452;Darkshore;Mist's Edge
+454;Darkshore;Wildbend River
+456;Darkshore;Cliffspring River
+458;The Barrens;Gold Road
+460;Stonetalon Mountains;Sun Rock Retreat
+461;Stonetalon Mountains;Windshear Crag
+465;Stonetalon Mountains;The Charred Vale
+469;Stonetalon Mountains;Greatwood Vale
+470;Mulgore;Thunder Bluff UNUSED
+471;Mulgore;Brave Wind Mesa
+472;Mulgore;Fire Stone Mesa
+474;Mulgore;Hunter Rise UNUSED
+476;Mulgore;Elder RiseUNUSED
+478;Teldrassil;Pools of Arlithrien
+479;Thousand Needles;The Rustmaul Dig Site
+482;Thousand Needles;Highperch
+485;Thousand Needles;The Great Lift
+486;Thousand Needles;Galak Hold
+487;Thousand Needles;Roguefeather Den
+490;Un'Goro Crater
+492;Duskwood;Raven Hill Cemetery
+493;Moonglade
+495;DELETE ME
+504;Dustwallow Marsh;North Point Tower
+505;Dustwallow Marsh;West Point Tower
+507;Dustwallow Marsh;Bluefen
+508;Dustwallow Marsh;Stonemaul Ruins
+512;Dustwallow Marsh;Onyxia's Lair UNUSED
+513;Dustwallow Marsh;Theramore Isle
+514;Dustwallow Marsh;Foothold Citadel
+517;Dustwallow Marsh;Tidefury Cove
+537;Un'Goro Crater;Fire Plume Ridge
+539;Un'Goro Crater;Terror Run
+541;Un'Goro Crater;Marshal's Refuge
+542;Un'Goro Crater;Fungal Rock
+556;Loch Modan;The Loch
+87;Elwynn Forest;Goldshire
+425;Ashenvale;Moonwell
+226;Silverpine Forest;The Skittering Dark
+473;Mulgore;Mantle Rock
+41;Deadwind Pass
+151;Designer Island
+188;Teldrassil;Shadowglen
+220;Mulgore;Red Cloud Mesa
+276;UNUSED Stonewrought Pass
+302;Stranglethorn Vale;The Crystal Shore
+403;Dustwallow Marsh;Shady Rest Inn
+434;Ashenvale;Felfire Hill
+481;Thousand Needles;Splithoof Crag
+113;Westfall;Gold Coast Quarry
+169;Tirisfal Glades;Whispering Shore
+268;Azshara Crater
+387;The Barrens;Lushwater Oasis
+453;Darkshore;The Long Wash
+238;Silverpine Forest;Malden's Orchard
+239;Silverpine Forest;The Ivar Patch
+311;Stranglethorn Vale;Ruins of Aboraz
+315;Arathi Highlands;Dabyrie's Farmstead
+354;The Hinterlands;Jintha'Alor
+597;Desolace;Ghost Walker Post
+227;Silverpine Forest;Valgan's Field
+228;Silverpine Forest;The Sepulcher
+229;Silverpine Forest;Olsen's Farthing
+230;Silverpine Forest;The Greymane Wall
+231;Silverpine Forest;Beren's Peril
+240;Silverpine Forest;The Dead Field
+241;Duskwood;The Rotting Orchard
+242;Duskwood;Brightwood Grove
+243;Duskwood;Forlorn Rowe
+247;Searing Gorge;Grimesilt Dig Site
+697;Teldrassil;Tradesmen's Terrace UNUSED
+698;Teldrassil;The Temple Gardens UNUSED
+721;Gnomeregan
+838;Loch Modan;North Gate Pass
+839;Loch Modan;South Gate Pass
+922;Westfall;The Dust Plains
+936;Loch Modan;Grizzlepaw Ridge
+956;The Verdant Fields
+978;Tanaris;Zul'Farrak
+980;Tanaris;Thistleshrub Valley
+983;Tanaris;Dunemaul Compound
+985;Tanaris;Waterspring Field
+988;Tanaris;Wavestrider Beach
+989;Tanaris;Uldum
+992;Tanaris;Southmoon Ruins
+1001;Redridge Mountains;Lakeridge Highway
+1018;Wetlands;Black Channel Marsh
+1020;Wetlands;Mosshide Fen
+1022;Wetlands;Bluegill Marsh
+1023;Wetlands;Saltspray Glen
+1057;Hillsbrad Foothills;Thoradin's Wall
+1098;Duskwood;Manor Mistmantle
+1099;Feralas;Camp Mojache
+1105;Feralas;Feral Scar Vale
+1115;Feralas;Rage Scar Hold
+1156;The Barrens;Southern Barrens
+1216;Azshara;Timbermaw Hold
+1217;Azshara;Vanndir Encampment
+1218;Azshara;TESTAzshara
+1219;Azshara;Legash Encampment
+1119;Feralas;The Twin Colossals
+1137;Feralas;Lower Wilds
+1296;Durotar;Rocktusk Farm
+1336;Tanaris;Lost Rigger Cove
+1377;Silithus
+1397;Emerald Forest
+1438;Blasted Lands;Nethergarde Keep
+1441;Blasted Lands;Altar of Storms
+1442;Searing Gorge;Firewatch Ridge
+1443;Searing Gorge;The Slag Pit
+1444;Searing Gorge;The Sea of Cinders
+1517;Badlands;Uldaman
+1537;Ironforge
+1579;Unused The Deadmines 002
+1581;The Deadmines
+516;Dustwallow Marsh;Dustwallow Bay
+540;Un'Goro Crater;The Slithering Scar
+1097;Duskwood;The Hushed Bank
+1136;Feralas;High Wilderness
+1417;Sunken Temple
+918;Westfall;The Molsen Farm
+976;Tanaris;Gadgetzan
+475;Mulgore;Spirit RiseUNUSED
+1886;The Hinterlands;The Creeping Ruin
+1941;Caverns of Time
+676;Outland
+696;Teldrassil;Craftsmen's Terrace UNUSED
+466;Stonetalon Mountains;Valley of the Bloodfuries
+381;The Barrens;Boulder Lode Mine
+333;Arathi Highlands;Circle of East Binding
+923;Loch Modan;Stonesplinter Valley
+991;Tanaris;Gunstan's Post
+1056;Hillsbrad Foothills;Darrow Hill
+1108;Feralas;The Forgotten Coast
+896;Hillsbrad Foothills;Purgation Isle
+986;Tanaris;Zalashji's Den
+1437;Blasted Lands;Dreadmaul Hold
+1103;Feralas;Gordunni Outpost
+396;Mulgore;Winterhoof Water Well
+7;Stranglethorn Vale;Blackwater Cove
+2017;Stratholme
+2037;UNUSEDShadowfang Keep 003
+305;Silverpine Forest;North Tide's Run
+2077;Darkshore;Twilight Vale
+2101;Loch Modan;Stoutlager Inn
+2102;Dun Morogh;Thunderbrew Distillery
+2103;Wetlands;Menethil Keep
+2104;Wetlands;Deepwater Tavern
+2157;The Barrens;Bael'dun Keep
+488;Thousand Needles;The Weathered Nook
+810;Tirisfal Glades;Stillwater Pond
+1118;Feralas;Lower Wilds UNUSED
+1228;Azshara;The Shattered Strand
+2240;Thousand Needles;Mirage Raceway
+2243;Winterspring;Timbermaw Post
+2245;Winterspring;Mazthoril
+2247;Winterspring;Ice Thistle Hills
+491;Razorfen Kraul
+506;Dustwallow Marsh;Lost Point
+1769;Felwood;Timbermaw Hold
+328;Arathi Highlands;The Drowned Reef
+355;The Hinterlands;The Altar of Zul
+1658;Darnassus;Cenarion Enclave
+1998;Felwood;Talonbranch Glade 
+2249;Winterspring;Frostwhisper Gorge
+2251;Winterspring;Lake Kel'Theril
+2254;Winterspring;Ban'Thallow Barrow Den
+2260;Eastern Plaguelands;The Marris Stead
+2262;Eastern Plaguelands;Darrowshire
+2263;Eastern Plaguelands;Crown Guard Tower
+2264;Eastern Plaguelands;Corin's Crossing
+2266;Eastern Plaguelands;Tyr's Hand
+2270;Eastern Plaguelands;The Noxious Glade
+800;Dun Morogh;Coldridge Pass
+805;Dun Morogh;South Gate Pass
+807;Dun Morogh;North Gate Pass
+808;Dun Morogh;North Gate Outpost
+811;Tirisfal Glades;Nightmare Vale
+812;Tirisfal Glades;Venomweb Vale
+814;Durotar;Southfury River
+817;Durotar;Skull Rock
+819;Mulgore;Windfury Ridge
+836;Wetlands;Dun Algaz
+856;Duskwood;Twilight Grove
+876;GM Island
+877;The Barrens;Delete ME
+879;Ashenvale;Southfury River
+917;Westfall;The Dead Acre
+1858;Arathi Highlands;Boulder'gor
+2259;Eastern Plaguelands;UNUSEDThe Marris Stead
+2303;Thousand Needles;Windbreak Canyon
+2319;The Barrens;The Great Sea
+2320;Durotar;The Great Sea
+2323;Feralas;The Veiled Sea
+2326;Darkshore;The Veiled Sea
+395;Darrowmere Lake UNUSED;Caer Darrow UNUSED
+2362;Moonglade;Shrine of Remulos
+2364;Westfall;The Great Sea
+2368;Old Hillsbrad Foothills;Tarren Mill
+2369;Old Hillsbrad Foothills;Southshore
+2370;Old Hillsbrad Foothills;Durnholde Keep
+2371;Old Hillsbrad Foothills;Dun Garok
+2376;Old Hillsbrad Foothills;Southpoint Tower
+2397;Hillsbrad Foothills;The Great Sea
+2398;Silverpine Forest;The Great Sea
+2399;Tirisfal Glades;The Great Sea
+2402;Wetlands;The Forbidding Sea
+2403;Swamp of Sorrows;The Forbidding Sea
+2408;Desolace;Shadowprey Village
+2417;Burning Steppes;Blackrock Pass
+2421;Burning Steppes;Draco'dar
+2437;Ragefire Chasm
+2457;Ashenvale;Nightsong Woods
+2497;Azshara;Bitter Reaches
+2517;Blasted Lands;Rise of the Defiler
+2519;Feralas;Woodpaw Hills
+2520;Feralas;Woodpaw Den
+2538;Stonetalon Mountains;Camp Aparaje
+2539;Stonetalon Mountains;Malaka'jin
+2541;Stonetalon Mountains;Sishir Canyon
+2557;Dire Maul
+2559;Deadwind Pass;Diamondhead River
+2562;Deadwind Pass;Karazhan
+2563;Deadwind Pass;Morgan's Plot
+2617;Desolace;Scrabblescrew's Camp
+2620;Western Plaguelands;Thondroril River
+2621;Eastern Plaguelands;Lake Mereldar
+2623;Eastern Plaguelands;The Infectis Scar
+2624;Eastern Plaguelands;Blackwood Lake
+2625;Eastern Plaguelands;Eastwall Gate
+2637;Ashenvale;Kargathia Keep
+1497;Undercity
+1577;Stranglethorn Vale;The Cape of Stranglethorn
+2697;Deadwind Pass;Deadman's Crossing
+2717;Molten Core
+2738;Silithus;Southwind Village
+2742;Silithus;Hive'Ashi
+2744;Silithus;Hive'Regal
+1957;Searing Gorge;Blackchar Cave
+2119;Tirisfal Glades;Gallows' End Tavern
+2757;The Barrens;Shrine of the Fallen Warrior
+1882;The Hinterlands;Plaguemist Ravine
+2099;Redridge Mountains;Stonewatch Keep
+1938;Tanaris;Broken Pillar
+2777;Hillsbrad Foothills;UNUSED Alterac Valley
+2817;***On Map Dungeon***
+2137;Mulgore;The Pools of VisionUNUSED
+1597;The Barrens;Raptor Grounds UNUSED
+1599;The Barrens;Mor'shan Base Camp
+1600;The Barrens;Honor's Stand UNUSED
+1601;The Barrens;Blackthorn Ridge UNUSED
+1602;The Barrens;Bramblescar UNUSED
+1641;Thunder Bluff;Hunter Rise
+1657;Darnassus
+700;Teldrassil;Cenarion Enclave UNUSED
+1660;Darnassus;Warrior's Terrace
+1661;Darnassus;The Temple Gardens
+1662;Darnassus;Tradesmen's Terrace
+1680;Alterac Mountains;The Headland
+1681;Alterac Mountains;Misty Shore
+187;Teldrassil;Darnassus UNUSED
+984;Tanaris;Eastmoon Ruins
+1717;The Barrens;Razorfen Kraul
+1740;Stranglethorn Vale;Venture Co. Base Camp
+1883;The Hinterlands;Valorwind Lake
+1885;The Hinterlands;Hiri'watha
+1897;Badlands;The Maker's Terrace
+1917;The Hinterlands;Shaol'watha
+1959;Searing Gorge;Dustfire Valley
+2078;Darkshore;Twilight Shore
+2079;Dustwallow Marsh;Alcaz Island
+2117;Tirisfal Glades;Shadow Grave
+2160;Stonetalon Mountains;Windshear Mine
+2339;Stranglethorn Vale;The Great Sea
+2358;Ashenvale;Forest Song
+2359;Ashenvale;Greenpaw Village
+2375;Old Hillsbrad Foothills;Darrow Hill
+1617;Stormwind City;Valley of Heroes
+1637;Orgrimmar
+1638;Thunder Bluff
+1640;Thunder Bluff;Spirit Rise
+280;Alterac Mountains;Strahnbrad
+111;Westfall;Jangolode Mine
+167;Tirisfal Glades;Crusader Outpost
+1002;Redridge Mountains;Three Corners
+411;Ashenvale;Bathran's Haunt
+431;Ashenvale;Splintertree Post
+100;Stranglethorn Vale;Nesingwary's Expedition
+296;South Seas UNUSED
+408;Gillijim's Isle
+1757;Stranglethorn Vale;The Crimson Veil
+1758;Stranglethorn Vale;The Riptide
+1761;Felwood;Deadwood Village
+1762;Felwood;Felpaw Village
+1766;Felwood;Shatter Scar Vale
+1767;Felwood;Irontree Woods
+1770;Felwood;Shadow Hold
+1779;Swamp of Sorrows;Draenil'dur Village
+1220;Azshara;Thalassian Base Camp
+1230;Azshara;Jagged Reef
+1887;The Hinterlands;Bogen's Ledge
+1937;Tanaris;Noonshade Ruins
+701;Teldrassil;Warrior's Terrace UNUSED
+1683;Alterac Mountains;Growless Cave
+1697;The Barrens;Raptor Grounds
+1698;The Barrens;Bramblescar
+1699;The Barrens;Thorn Hill
+1700;The Barrens;Agama'gor
+1702;The Barrens;Honor's Stand
+1739;Stranglethorn Vale;Bloodsail Compound
+1741;Stranglethorn Vale;Gurubashi Arena
+1759;Stranglethorn Vale;The Damsel's Luck
+1777;Swamp of Sorrows;Itharius's Cave
+1797;Swamp of Sorrows;Stagalbog
+990;Tanaris;Valley of the Watchers
+1021;Wetlands;Thelgen Rock
+2739;Silithus;Twilight Base Camp
+2337;Durotar;Razor Hill Barracks
+2239;Thousand Needles;Zane's Eye Crater
+2265;Eastern Plaguelands;Scarlet Base Camp
+2838;Searing Gorge;Stonewrought Pass
+2253;Winterspring;Starfall Village
+2877;Programmer Isle;Chunk Test
+418;Ashenvale;The Ruins of Stardust
+2957;Alterac Valley;Irondeep Mine
+2959;Alterac Valley;Dun Baldar
+2960;Alterac Valley;Icewing Pass
+2962;Alterac Valley;Tower Point
+2963;Alterac Valley;Coldtooth Mine
+2964;Alterac Valley;Winterax Hold
+2276;Eastern Plaguelands;Quel'Lithien Lodge
+253;Burning Steppes;The Pillar of Ash
+263;Teldrassil;The Cleft
+284;Alterac Mountains;The Uplands
+293;Thoradin's Wall
+309;Wetlands;Ironbeard's Tomb
+377;Southfury River
+390;The Barrens;Field of Giants
+9;Elwynn Forest;Northshire Valley
+23;Elwynn Forest;Northshire River
+46;Burning Steppes
+75;Swamp of Sorrows;Stonard
+99;Stranglethorn Vale;Rebel Camp
+108;Westfall;Sentinel Hill
+125;Stranglethorn Vale;Kal'ai Ruins
+134;Dun Morogh;Gol'Bolar Quarry
+1225;Azshara;Ursolan
+2857;Tanaris;The Rumble Cage
+2374;Old Hillsbrad Foothills;Nethander Stead
+2979;Durotar;Tor'kren Farm
+146;Loch Modan;Stonewrought Dam
+159;Tirisfal Glades;Brill
+197;Western Plaguelands;Sorrow Hill
+205;Wetlands;Dun Modr
+212;Dun Morogh;Helm's Bed Lake
+225;Mulgore;Red Rocks
+237;Silverpine Forest;The Decrepit Ferry
+1016;Wetlands;Direforge Hill
+1025;Wetlands;The Green Belt
+1116;Feralas;Feathermoon Stronghold
+1076;Stonetalon Mountains;Webwinder Path
+1583;Blackrock Spire
+277;Alterac Mountains;The Foothill Caverns
+1222;Azshara;Hetaera's Clutch
+1234;Azshara;Lake Mennar
+1316;The Barrens;Razorfen Downs
+424;Ashenvale;Iris Lake
+409;Island of Doctor Lapidis
+600;Desolace;Bolgan's Hole
+987;Tanaris;Land's End Beach
+1580;Unused The Deadmines 002;Unused Ironclad Cove 003
+1677;Alterac Mountains;Gavin's Naze
+1742;Stranglethorn Vale;Spirit Den
+1881;The Hinterlands;Shindigger's Camp
+2958;Alterac Valley;Stonehearth Outpost
+2938;Deadwind Pass;Sleeping Gorge
+3017;Alterac Valley;Frost Dagger Pass
+3037;Thousand Needles;Ironstone Camp
+3038;Thousand Needles;Weazel's Crater
+3039;Thousand Needles;Tahonda Ruins
+3058;Alterac Valley;Icewing Cavern
+3097;Silithus;The Swarming Pillar
+3098;Silithus;Twilight Post
+3099;Silithus;Twilight Outpost
+3100;Silithus;Ravaged Twilight Camp
+3117;Feralas;Shalzaru's Lair
+2407;Desolace;Kormek's Hut
+2300;Tanaris;Caverns of Time
+2367;Old Hillsbrad Foothills
+2242;Winterspring;The Hidden Grove
+2478;Felwood;Morlos'Aran
+2252;Winterspring;The Ruins of Kel'Theril
+2839;Alterac Mountains;Alterac Valley
+2961;Alterac Valley;Frostwolf Village
+272;Hillsbrad Foothills;Tarren Mill
+358;Mulgore;Brambleblade Ravine
+59;Elwynn Forest;Northshire Vineyards
+166;Tirisfal Glades;Cold Hearth Manor
+926;Silverpine Forest;Bucklebree Farm
+1457;Blasted Lands;Garrison Armory
+149;Loch Modan;Silver Stream Mine
+2420;Burning Steppes;Terror Wing Path
+2518;Feralas;Lariss Pavilion
+448;Darkshore;Grove of the Ancients
+464;Stonetalon Mountains;Mirkfallon Lake
+477;Stranglethorn Vale;Ruins of Jubuwal
+489;Feralas;Thalanaar
+497;Dustwallow Marsh;Swamplight Manor
+536;Duskwood;Addle's Stead
+92;Elwynn Forest;Mirror Lake
+371;Durotar;Dustwind Cave
+19;Stranglethorn Vale;Zul'Gurub
+596;Desolace;Kodo Graveyard
+607;Desolace;Valley of Spears
+501;Dustwallow Marsh;Beezil's Wreck
+500;Dustwallow Marsh;Moggle Point
+254;Burning Steppes;Blackrock Mountain
+718;Wailing Caverns
+799;Duskwood;The Darkened Bank
+809;Dun Morogh;Gates of Ironforge
+919;Westfall;Stendel's Pond
+2302;Dustwallow Marsh;The Quagmire
+2324;Desolace;The Veiled Sea
+2366;The Black Morass
+2373;Old Hillsbrad Foothills;Eastern Strand
+2401;Arathi Highlands;The Forbidding Sea
+1768;Felwood;Irontree Cavern
+2743;Silithus;Hive'Zora
+2797;Ashenvale;Blackfathom Deeps
+1598;The Barrens;Grol'dom Farm UNUSED
+1659;Darnassus;Craftsmen's Terrace
+1684;Alterac Mountains;Chillwind Point
+1837;Arathi Highlands;Witherbark Caverns
+1958;Searing Gorge;Tanner Camp
+2161;Duskwood;Roland's Doom
+67;***On Map Dungeon***
+880;Arathi Highlands;Thandol Span
+1763;Felwood;Jaedenar
+1019;Eastern Plaguelands;The Green Belt
+1939;Tanaris;Abyssal Sands
+981;Tanaris;The Gaping Chasm
+1276;Ashenvale;The Talondeep Path
+1943;Un'Goro Crater;Ironstone Plateau
+365;Durotar;Burning Blade Coven
+1678;Alterac Mountains;Sofera's Naze
+608;Desolace;Nijel's Point
+1978;Swamp of Sorrows;Misty Reed Post
+2097;Thousand Needles;Darkcloud Pinnacle
+2138;The Barrens;Dreadmist Den
+2237;Thousand Needles;Whitereach Post
+2246;Winterspring;Frostfire Hot Springs
+515;Dustwallow Marsh;Ironclad Prison
+271;Hillsbrad Foothills;Southshore
+1771;Felwood;Shrine of the Deceiver
+2257;Deeprun Tram
+2269;Eastern Plaguelands;Browman Mill
+2275;Eastern Plaguelands;Northpass Tower
+2301;Ashenvale;Thistlefur Village
+455;Darkshore;Blackwood Den
+278;Alterac Mountains;Lordamere Internment Camp
+344;Badlands;Camp Cagg
+373;Durotar;Scuttle Coast
+14;Durotar
+44;Redridge Mountains
+141;Teldrassil
+164;Tirisfal Glades;Garren's Haunt
+921;Westfall;Demont's Place
+1024;Wetlands;Sundown Marsh
+1440;Blasted Lands;Serpent's Coil
+881;Wetlands;Thandol Span
+1121;Feralas;Isle of Dread
+236;Silverpine Forest;Shadowfang Keep
+428;Ashenvale;Night Run
+602;Desolace;Mannoroc Coven
+2378;Old Hillsbrad Foothills;Western Strand
+2537;Stonetalon Mountains;Grimtotem Post
+2577;Feralas;Dire Maul
+1114;Feralas;Ruins of Ravenwind
+2057;Scholomance
+2248;Winterspring;Dun Mandarr
+2256;Winterspring;Darkwhisper Gorge
+2521;Feralas;Verdantis River
+2267;Eastern Plaguelands;The Scarlet Basilica
+2677;Blackwing Lair
+818;Mulgore;Palemane Rock
+2978;Alterac Valley;Frostwolf Keep
+2272;Eastern Plaguelands;Northdale
+2273;Eastern Plaguelands;Zul'Mashar
+2274;Eastern Plaguelands;Mazra'Alor
+2277;Eastern Plaguelands;Plaguewood
+2278;Eastern Plaguelands;Scourgehold
+2280;UNUSED Stratholme
+2298;Western Plaguelands;Caer Darrow
+2299;Eastern Plaguelands;Darrowmere Lake
+3137;Azshara;Talrendis Point
+3138;Azshara;Rethress Sanctum
+3140;Azshara;Scalebeard's Cave
+3177;Ashenvale;Warsong Labor Camp
+1582;The Deadmines;Ironclad Cove
+3197;Western Plaguelands;Chillwind Camp
+1704;The Barrens;Grol'dom Farm
+2238;Thousand Needles;Gornia
+2404;Desolace;Tethris Aran
+2837;Deadwind Pass;The Master's Cellar
+2937;Deadwind Pass;Grosh'gok Compound
+3217;Dire Maul;The Maul
+1339;Alterac Mountains;Lordamere Lake
+264;Teldrassil;The Oracle Glade
+362;Durotar;Razor Hill
+122;Stranglethorn Vale;Zuuldaia Ruins
+657;Swamp of Sorrows;The Harborage
+1446;Searing Gorge;Thorium Point
+130;Silverpine Forest
+445;Darkshore;Cliffspring Falls
+576;Duskwood;Beggar's Haunt
+250;Burning Steppes;Ruins of Thaurissan
+2737;Silithus;The Scarab Wall
+2338;Stranglethorn Vale;South Seas
+1357;Alterac Mountains;Gallows' Corner
+2118;Tirisfal Glades;Brill Town Hall
+2177;Stranglethorn Vale;Battle Ring
+2255;Winterspring;Everlook
+2897;Ashenvale;Zoram'gar Outpost
+2917;Hall of Legends
+2977;Alterac Valley;Iceblood Garrison
+12;Elwynn Forest
+2321;Azshara;The Great Sea
+2361;Moonglade;Nighthaven
+2400;The Hinterlands;The Forbidding Sea
+2418;Burning Steppes;Morgan's Vigil
+2480;Felwood;Jadefire Glen
+2522;Feralas;Ruins of Isildien
+2657;Desolace;Valley of Bones
+2740;Silithus;The Crystal Vale
+2322;Teldrassil;The Veiled Sea
+1765;Felwood;Bloodvenom Falls
+2261;Eastern Plaguelands;The Undercroft
+2279;Eastern Plaguelands;Stratholme
+2318;Dustwallow Marsh;The Great Sea
+2363;Moonglade;Stormrage Barrow Dens
+2377;Old Hillsbrad Foothills;Thoradin's Wall
+2406;Desolace;Ranazjar Isle
+2558;Deadwind Pass;Deadwind Ravine
+2618;Felwood;Jadefire Run
+2479;Felwood;Emerald Sanctuary
+2560;Deadwind Pass;Ariden's Camp
+2622;Eastern Plaguelands;Pestilent Scar
+1584;Blackrock Depths
+1880;The Hinterlands;Featherbeard's Hovel
+2158;Dustwallow Marsh;Emberstrife's Den
+1603;The Barrens;Agama'gor UNUSED
+1679;Alterac Mountains;Corrahn's Dagger
+1737;Stranglethorn Vale;Mistvale Valley
+916;Westfall;The Jansen Stead
+2357;Ashenvale;Bloodtooth Camp
+370;Durotar;Drygulch Ravine
+339;Badlands;Lethlor Ravine
+1764;Felwood;Bloodvenom River
+1817;Swamp of Sorrows;Stagalbog Cave
+1898;Badlands;Dustwind Gulch
+1639;Thunder Bluff;Elder Rise
+1701;The Barrens;Blackthorn Ridge
+1798;Swamp of Sorrows;The Shifting Mire
+1297;Durotar;Jaggedswine Farm
+1942;Un'Goro Crater;The Marshlands
+350;The Hinterlands;Quel'Danil Lodge
+313;Arathi Highlands;Northfold Manor
+1977;Zul'Gurub
+2100;Maraudon
+2159;Onyxia's Lair
+2244;Winterspring;Winterfall Village
+68;Redridge Mountains;Lake Everstill
+640;Durotar;Shrine of the Dormant Flame
+2258;Eastern Plaguelands;The Fungal Vale
+2271;Eastern Plaguelands;Eastwall Tower
+2297;Western Plaguelands;Darrowmere Lake
+24;Elwynn Forest;Northshire Abbey
+152;Tirisfal Glades;The Bulwark
+156;Tirisfal Glades;Solliden Farmstead
+157;Tirisfal Glades;Agamand Mills
+163;Tirisfal Glades;Gunther's Retreat
+1718;The Barrens;The Great Lift
+1760;Stranglethorn Vale;Venture Co. Operations Center
+1780;Swamp of Sorrows;Splinterspear Junction
+186;Teldrassil;Dolanaar
+1877;Badlands;Valley of Fangs
+1878;Badlands;The Dustbowl
+1879;Badlands;Mirage Flats
+1884;The Hinterlands;Agol'watha
+195;Western Plaguelands;School of Necromancy
+196;Western Plaguelands;Uther's Tomb
+201;Western Plaguelands;Gahrron's Withering
+204;Silverpine Forest;Pyrewood Village
+209;Shadowfang Keep
+2098;Duskwood;Dawning Wood Catacombs
+2197;Thunder Bluff;The Pools of Vision
+22;Programmer Isle
+221;Mulgore;Camp Narache
+2217;Desolace;Broken Spear Village
+928;Silverpine Forest;North Tide's Hollow
+2250;Winterspring;Owl Wing Thicket
+511;Dustwallow Marsh;Wyrmbog
+322;Arathi Highlands;Blackwater Shipwrecks
+820;Mulgore;The Golden Plains
+2561;Deadwind Pass;The Vice
+1857;Arathi Highlands;Thoradin's Wall
+2379;Old Hillsbrad Foothills;Azurelode Mine
+1703;The Barrens;The Mor'shan Rampart
+2626;Eastern Plaguelands;Terrorweb Tunnel
+95;Redridge Mountains;Redridge Canyons
+392;The Barrens;Ratchet
+498;Dustwallow Marsh;Bloodfen Burrow
+2741;Silithus;The Scarab Dais
+2198;Desolace;Shadowbreak Ravine
+2918;Champions' Hall
+3077;Silithus;Valor's Rest
+3157;Stonetalon Mountains;Boulderslide Cavern
+165;Tirisfal Glades;Balnir Farmstead
+306;Silverpine Forest;South Tide's Run
+432;Ashenvale;The Dor'Danil Barrow Den
+2365;Wetlands;The Great Sea
+736;Teldrassil;Ban'ethil Hollow
+406;Stonetalon Mountains
+16;Azshara
+925;Loch Modan;Algaz Station
+927;Silverpine Forest;The Shining Strand
+2597;Alterac Valley
+1232;Azshara;Ravencrest Monument
+1682;Alterac Mountains;Dandred's Fold
+1738;Stranglethorn Vale;Nek'mani Wellspring
+1778;Swamp of Sorrows;Sorrowmurk
+1940;Tanaris;Southbreak Shore
+3139;Winterspring;Moon Horror Den
+337;Badlands;Apocryphan's Rest
+3257;Silithus;Bones of Grakkarond
+400;Thousand Needles
+3277;Warsong Gulch
+821;Mulgore;The Rolling Plains
+3057;Alterac Valley;Field of Strife
+3237;Dire Maul;The Maul UNUSED
+3297;Alterac Valley;Frostwolf Graveyard
+3298;Alterac Valley;Frostwolf Pass
+3299;Alterac Valley;Dun Baldar Pass
+3300;Alterac Valley;Iceblood Graveyard
+3301;Alterac Valley;Snowfall Graveyard
+3302;Alterac Valley;Stonehearth Graveyard
+3303;Alterac Valley;Stormpike Graveyard
+3304;Alterac Valley;Icewing Bunker
+3305;Alterac Valley;Stonehearth Bunker
+3306;Alterac Valley;Wildpaw Ridge
+3317;The Hinterlands;Revantusk Village
+3318;Alterac Valley;Rock of Durotan
+3319;Ashenvale;Silverwing Grove
+3320;Warsong Gulch;Warsong Lumber Mill
+3321;Warsong Gulch;Silverwing Hold
+518;Dustwallow Marsh;Dreadmurk Shore
+3337;Alterac Valley;Wildpaw Cavern
+3338;Alterac Valley;The Veiled Cleft
+1997;Felwood;Bloodvenom Post 
+105;Stranglethorn Vale;Mosh'Ogg Ogre Mound
+1104;Feralas;Mok'Gordun
+1117;Feralas;Ruins of Solarsal
+13;Duskwood;The World Tree
+1445;Searing Gorge;Blackrock Mountain
+1477;The Temple of Atal'Hakkar
+255;Burning Steppes;Altar of Storms
+265;Teldrassil;Wellspring River
+282;Alterac Mountains;Crushridge Hold
+294;Hillsbrad Foothills;Eastern Strand
+310;Stranglethorn Vale;Crystalvein Mine
+326;Arathi Highlands;The Sanctum
+334;Arathi Highlands;Circle of West Binding
+348;The Hinterlands;Aerie Peak
+357;Feralas
+366;Durotar;Kolkar Crag
+379;The Barrens;Far Watch Post
+393;Durotar;Darkspear Strand
+2;Westfall;Longshore
+17;The Barrens
+34;Elwynn Forest;Echo Ridge Mine
+45;Arathi Highlands
+57;Elwynn Forest;Fargodeep Mine
+72;Blasted Lands;The Dark Portal
+91;Elwynn Forest;Tower of Azora
+104;Stranglethorn Vale;The Vile Reef
+121;Duskwood;Tranquil Gardens Cemetery
+136;Dun Morogh;The Grizzled Den
+150;Wetlands;Menethil Harbor
+162;Tirisfal Glades;Brightwater Lake
+193;Western Plaguelands;Ruins of Andorhal
+206;Westfall
+219;Westfall;Alexston Farmstead
+233;Silverpine Forest;Ambermill
+656;Moonglade;Lake Elune'ara
+924;Loch Modan;Valley of Kings
+979;Tanaris;Sandsorrow Watch
+1017;Wetlands;Raptor Ridge
+1102;Feralas;Wildwind Lake
+1196;UNUSEDAlcaz Island
+1176;Zul'Farrak
+1439;Blasted Lands;Dreadmaul Post
+1557;Thousand Needles;Splithoof Hold
+120;Elwynn Forest;Westbrook Garrison
+261;Teldrassil;Gnarlpine Hold
+1100;Feralas;Grimtotem Compound
+1112;Feralas;Jademir Lake
+321;Arathi Highlands;Hammerfall
+223;Mulgore;Stonebull Lake
+83;Programmer Isle;Jeff SE Quadrant
+996;Redridge Mountains;Render's Camp
+1223;Azshara;Temple of Zin-Malor
+1236;Azshara;Haldarr Encampment
+109;Westfall;Furlbrow's Pumpkin Farm
+413;Ashenvale;Maestra's Post
+407;Durotar;Orgrimmar UNUSED
+420;Ashenvale;Silverwind Refuge
+435;Ashenvale;Demon Fall Canyon
+447;Darkshore;Ameth'Aran
+463;Stonetalon Mountains;Cragpool Lake
+483;Thousand Needles;The Screeching Canyon
+496;Dustwallow Marsh;Brackenwall Village
+509;Dustwallow Marsh;The Den of Flame
+538;Un'Goro Crater;Lakkari Tar Pits
+382;The Barrens;The Sludge Fen
+245;Duskwood;The Yorgen Farmstead
+503;Dustwallow Marsh;Sentry Point
+102;Stranglethorn Vale;Ruins of Zul'Kunda
+598;Desolace;Sar'theris Strand
+399;Mulgore;Skyline Ridge
+173;Tirisfal Glades;Faol's Rest
+618;Winterspring
+117;Stranglethorn Vale;Grom'gol Base Camp
+719;Blackfathom Deeps
+804;Dun Morogh;The Tundrid Hills
+816;Durotar;Razormane Grounds
+878;Azshara;Southfury River
+2317;Tanaris;South Seas
+2360;Ashenvale;Silverwing Outpost
+2372;Old Hillsbrad Foothills;Hillsbrad Fields
+2405;Desolace;Ethel Rethor
+224;Mulgore;Ravaged Caravan
+2241;Winterspring;Frostsaber Rock
+2268;Eastern Plaguelands;Light's Hope Chapel
+2325;Ashenvale;The Veiled Sea
+2419;Burning Steppes;Slither Rock
+246;Searing Gorge;The Cauldron
+2477;Silithus;The Veiled Sea
+2481;Felwood;Ruins of Constellas
+2540;Stonetalon Mountains;Boulderslide Ravine
+257;Teldrassil;Shadowthread Cave
+2619;Eastern Plaguelands;Thondroril River
+2627;Eastern Plaguelands;Terrordale
+298;Wetlands;Baradin Bay
+3;Badlands
+325;Arathi Highlands;The Tower of Arathor
+340;Badlands;Kargath
+347;Badlands;Dustbelch Grotto
+36;Alterac Mountains
+364;Durotar;The Den
+368;Durotar;Echo Isles
+383;The Barrens;The Dry Hills
+426;Ashenvale;Raynewood Retreat
+439;Thousand Needles;The Shimmering Flats
+441;Ashenvale;Lake Falathim
+444;Darkshore;Tower of Althalaxx
+450;Darkshore;Remtravel's Excavation
+457;The Veiled Sea
+459;Tirisfal Glades;Scarlet Watch Post
+484;Thousand Needles;Freewind Post
+499;Dustwallow Marsh;Darkmist Cavern
+510;Dustwallow Marsh;The Dragonmurk
+543;Un'Goro Crater;Golakka Hot Springs
+606;Desolace;Gelkis Village
+62;Elwynn Forest;Brackwell Pumpkin Patch
+64;Elwynn Forest;The Maclure Vineyards
+65;***On Map Dungeon***
+702;Teldrassil;Rut'theran Village
+73;Blasted Lands;The Tainted Scar
+801;Dun Morogh;Chill Breeze Valley
+802;Dun Morogh;Shimmer Ridge
+803;Dun Morogh;Amberstill Ranch
+81;Programmer Isle;Jeff NE Quadrant Changed
+813;Western Plaguelands;The Bulwark
+920;Westfall;The Dagger Hills
+93;Duskwood;Vul'Gol Ogre Mound
+982;Tanaris;The Noxious Lair
+3357;Stranglethorn Vale;Yojamba Isle
+3358;Arathi Basin
+1578;Stranglethorn Vale;Southern Savage Coast
+192;Western Plaguelands;Northridge Lumber Camp

@@ -1,0 +1,3075 @@
+
+[areatrigger 45]
+name=Scarlet Monastery Big East Entrance Istance
+pos=0 2924.379883 -798.429016 161.610992
+script=InstanceLimiter
+totrigger=602
+
+[areatrigger 71]
+name=Westfall - Sentinel Hill Inn
+pos=0 -10645.900391 1179.060059 48.178101
+script=RestState
+
+[areatrigger 78]
+name=DeadMines Entrance
+pos=0 -11208.669922 1673.168457 24.643379 4.73
+script=InstanceLimiter
+topos=36 -16.40 -383.07 61.78 1.86
+
+[areatrigger 87]
+name=Jasperlode mine 1
+completes_quest=76
+pos=0 -9077.339844 -552.924988 60.347599
+script=MasterScript
+
+[areatrigger 88]
+name=Fargodeep mine 1
+completes_quest=62
+pos=0 -9811.754883 130.155045 6.858425
+script=MasterScript
+
+[areatrigger 97]
+name=Dun Morogh - Frostmane Hold
+pos=0 -5660.330078 755.299011 389.605011
+script=FrostmaneHold1
+
+[areatrigger 101]
+name=Stormwind Stockades Entrance
+pos=0 -8764.827148 846.075256 87.484169
+script=InstanceLimiter
+topos=34 54.23 0.28 -18.34 6.26
+
+[areatrigger 107]
+name=Stormwind Vault Entrance
+pos=0 -8667.559570 623.562988 85.405403
+script=InstanceLimiter
+topos=35 -0.91 40.57 -24.23 1.59
+
+[areatrigger 109]
+name=Stormwind Vault Istance
+pos=35 -0.900420 16.443001 -14.236000
+topos=0 -8653.45 606.19 91.16 5.37
+
+[areatrigger 119]
+name=DeadMines Istance Start
+pos=36 -12.691923 -382.338104 61.609615 2.4938
+topos=0 -11208.25 1672.52 24.66 4.67
+
+[areatrigger 121]
+name=Deadmines Istance End
+pos=36 -110.760002 -1009.190002 34.804401
+topos=0 -11339.39 1571.16 100.56 1.98
+
+[areatrigger 145]
+name=Shadowfang Keep Entrance
+pos=0 -232.795914 1568.279419 76.890907
+script=InstanceLimiter
+topos=33 -230.675446 2106.099854 76.891190 1.1
+
+[areatrigger 168]
+name=Dun Morogh - Frostmane Hold
+pos=0 -5584.206543 759.832153 384.290161
+script=FrostmaneHold2
+
+[areatrigger 169]
+name=Dun Morogh - Frostmane Hold
+pos=0 -5586.459961 679.297974 384.954987
+script=FrostmaneHold3
+
+[areatrigger 173]
+pos=0 1058.109985 1554.680054 -15.000000
+script=DeadFields
+
+[areatrigger 175]
+name=Wetlands - Dun Algaz
+pos=0 -4086.360107 -2610.949951 46.014301
+script=UnusedTriggers
+
+[areatrigger 178]
+name=Strahnbrad - Alterac mountains
+pos=0 683.770996 -912.143982 174.500000
+script=UnusedTriggers
+
+[areatrigger 194]
+name=Shadowfang keep - Entrance
+pos=33 -230.675446 2106.099854 76.891190
+topos=0 -232.795914 1568.279419 76.890907 4.4
+
+[areatrigger 196]
+name=Stranglethorn vale - Vile reef
+pos=0 -12133.724609 938.409241 2.743071
+script=Vilereef
+
+[areatrigger 197]
+name=Fargodeep mine 2
+completes_quest=62
+pos=0 -9796.179688 157.772995 25.3878
+script=MasterScript
+
+[areatrigger 205]
+pos=1 -1895.780029 -1109.040039 86.182999
+script=UnusedTriggers
+
+[areatrigger 216]
+name=The Barrens - Forgotten pools
+pos=1 90.100304 -1943.439941 79.472702
+script=UnusedTriggers
+
+[areatrigger 217]
+name=Tedrassil - Shadowglen
+pos=1 10708.799805 762.091980 1321.369995
+script=UnusedTriggers
+
+[areatrigger 218]
+name=Tedrassil - Star breeze village
+pos=1 9859.089844 588.760986 1300.609985
+script=UnusedTriggers
+
+[areatrigger 219]
+name=Tedrassil - Pools of arlithrien
+pos=1 9556.240234 1654.770020 1299.489990
+script=UnusedTriggers
+
+[areatrigger 220]
+name=Tedrassil - Oracle glade
+pos=1 10675.200195 1857.449951 1324.170044
+script=UnusedTriggers
+
+[areatrigger 223]
+name=Darkshore - Master Glaive
+pos=1 4508.169922 373.376007 32.512501
+script=UnusedTriggers
+
+[areatrigger 224]
+name=Darkshore - Master Glaive
+pos=1 4605.569824 385.157990 31.482700
+script=UnusedTriggers
+
+[areatrigger 225]
+name=Darkshore - Master Glaive
+pos=1 4558.359863 421.446014 33.742500
+script=UnusedTriggers
+
+[areatrigger 226]
+name=The Barrens - Wailing Caverns
+pos=43 -164.995895 135.502792 -73.215523
+totrigger=228
+
+[areatrigger 228]
+name=The Barrens - Wailing Caverns
+pos=1 -746.207275 -2213.178955 14.890936
+script=InstanceLimiter
+totrigger=226
+
+[areatrigger 230]
+name=Bashal'aran
+completes_quest=954
+pos=1 6744.97998 41.116402 47.604099
+script=MasterScript
+
+[areatrigger 231]
+name=Darkshore
+pos=1 5996.560059 365.209991 21.866100
+script=UnusedTriggers
+
+[areatrigger 232]
+name=Darkshore (Coordinate Z Out of Map)
+pos=1 5980.169922 330.669006 21.765499
+script=UnusedTriggers
+
+[areatrigger 233]
+name=DarkShore - Twilight vale
+pos=1 4916.990234 328.429993 36.767799
+script=UnusedTriggers
+
+[areatrigger 234]
+name=Darkshore - Blackwood den
+pos=1 4641.189941 55.380100 66.630699
+script=UnusedTriggers
+
+[areatrigger 235]
+name=DarkShore - Twilight vale
+pos=1 4554.649902 146.354004 59.502701
+script=UnusedTriggers
+
+[areatrigger 236]
+name=DarkShore - Twilight vale
+pos=1 4643.379883 145.348999 57.904701
+script=UnusedTriggers
+
+[areatrigger 237]
+name=DarkShore - Twilight vale
+pos=1 4504.310059 32.329601 86.491302
+script=UnusedTriggers
+
+[areatrigger 238]
+name=DarkShore - Twilight vale
+completes_quest=984
+pos=1 6876.279785 -486.028992 40.1436
+script=MasterScript
+
+[areatrigger 239]
+name=Ashenvale - Zoram Strand
+pos=1 3469.429932 847.619995 5.364760
+script=UnusedTriggers
+
+[areatrigger 242]
+name=Razorfen Kraul Istance Start
+pos=47 1939.260620 1539.076538 83.279701 1.007452
+totrigger=244
+
+[areatrigger 244]
+name=Razorfen Kraul Entrance
+pos=1 -4464.921387 -1666.239258 90 4.054976
+script=InstanceLimiter
+totrigger=242
+
+[areatrigger 246]
+name=Freewind post - Thousand Needles
+pos=1 -4932.529785 -1596.050049 84.815697
+script=UnusedTriggers
+
+[areatrigger 254]
+name=Shadowfang Keep Istance (On a castle wall)
+pos=33 -236.470001 2202.419922 97.345200
+script=UnusedTriggers
+
+[areatrigger 255]
+name=Shadowfang Keep Istance (On a castle wall)
+pos=33 -223.399002 2101.969971 97.389900
+script=UnusedTriggers
+
+[areatrigger 256]
+name=Shadowfang Keep Istance (On a castle wall)
+pos=33 -189.005997 2145.689941 97.389900
+script=UnusedTriggers
+
+[areatrigger 257]
+name=Blackphantom Deeps Entrance
+pos=1 4252.370117 756.973999 -23.063200
+script=InstanceLimiter
+topos=48 -151.632996 108.080002 -39.564101 4.5
+
+[areatrigger 259]
+name=Blackphantom Deeps Instance Start
+pos=48 -148.632996 121.080002 -33.414101
+topos=1 4247.738770 745.878601 -24.52988 4.3
+
+[areatrigger 262]
+name=Razorfen Kraul
+pos=47 2019.729980 2004.599976 61.687401
+script=UnusedTriggers
+
+[areatrigger 283]
+name=Blackphantom deeps - The pool of ask'ar
+pos=48 -527.658020 321.109009 -50.258400
+script=UnusedTriggers
+
+[areatrigger 284]
+name=StormWind - Old City (Near Stonefist)
+pos=0 -8681.370117 434.406006 99.257896
+script=UnusedTriggers
+
+[areatrigger 286]
+name=Uldaman Entrance
+pos=0 -6053.729980 -2954.629883 213.686005
+script=InstanceLimiter
+topos=70 -228.192993 46.160198 -46.013898 1.5
+
+[areatrigger 288]
+name=Uldaman Istance Start
+pos=70 -228.192993 34.160198 -39.233898
+topos=0 -6066.729980 -2955.629883 209.776005 3.2
+
+[areatrigger 302]
+name=Dustwallow Marsh - Sentry Point
+pos=1 -3463.260010 -4123.129883 17.104300
+script=UnusedTriggers
+
+[areatrigger 322]
+name=Gnomeregan Istance Start
+pos=90 -312.204987 -4.632560 -148.656998
+topos=0 -5163.330078 927.622986 257.187994 4.6
+
+[areatrigger 324]
+name=Gnomeregan Entrance
+pos=0 -5161.330078 939.622986 258.287994
+script=InstanceLimiter
+topos=90 -327.204987 -3.632560 -152.846998 2.7
+
+[areatrigger 342]
+name=Jasperlode mine 2
+completes_quest=76
+pos=0 -9029.173828 -608.328857 56.467899
+script=MasterScript
+
+[areatrigger 362]
+name=The temple of Atal'Hakkar
+completes_quest=1448
+pos=0 -10429.43457 -3828.84082 -31.629646
+script=MasterScript
+
+[areatrigger 382]
+name=StormWind - Old City (Near Stonefist)
+pos=0 -8681.400391 434.438995 99.259003
+script=UnusedTriggers
+
+[areatrigger 422]
+name=Desolace
+pos=1 -93.161400 1691.150024 89.064903
+script=UnusedTriggers
+
+[areatrigger 442]
+name=Razorfen Downs Entrance
+pos=1 -4666.520020 -2536.820068 86.967102
+script=InstanceLimiter
+topos=129 2593.061941 1109.640015 52.179001 4.5
+
+[areatrigger 444]
+name=Razorfen Downs Istance Start
+pos=129 2593.939941 1124.640015 56.179001
+topos=1 -4658.120020 -2526.350068 82.967102 1.1
+
+[areatrigger 446]
+name=Altar of Atal'Hakkar Entrance
+pos=0 -10162.700195 -3998.649902 -107.977997
+script=InstanceLimiter
+topos=109 -314.229 99.88 -131.800000 3.1
+
+[areatrigger 448]
+name=Altar of Atal'Hakkar Instance start
+pos=109 -300.000000 99.000000 -127.000000
+topos=0 -10175.121 -3995.147 -112.9 2.9
+
+[areatrigger 462]
+name=Razorfen Kraul
+pos=47 2107.719971 1823.770020 79.969597
+script=UnusedTriggers
+
+[areatrigger 463]
+name=Razorfen Kraul
+pos=47 2165.750000 1944.750000 61.463501
+script=UnusedTriggers
+
+[areatrigger 482]
+name=Razorfen Kraul
+pos=0 -8932.780273 -1986.400024 139.904999
+script=UnusedTriggers
+
+[areatrigger 503]
+name=Stockades - Istance
+pos=34 49.821239 0.870144 -16.713627
+totrigger=101
+
+[areatrigger 522]
+name=Fray Island
+pos=1 -1679.300049 -4328.959961 2.585910
+script=UnusedTriggers
+
+[areatrigger 523]
+name=Gnomeregan Train Depot Entrance
+pos=0 -4858.270020 756.434875 244.922714 4.61
+script=InstanceLimiter
+totrigger=525
+
+[areatrigger 525]
+name=Gnomeregan Train Fepot Istance
+pos=90 -738.209473 2.710169 -250.519577 3.11
+totrigger=523
+
+[areatrigger 527]
+name=Teddrassil - Ruth Theran
+pos=1 9946.133789 2627.796631 1318.417236 4.737779
+totrigger=542
+
+[areatrigger 542]
+name=Teddrassil - Darnassus
+pos=1 8795.801758 969.427429 30.195545 3.398674
+totrigger=527
+
+[areatrigger 562]
+name=Elwinn Forest - Goldshire Lion's Pride Inn
+pos=0 -9465.580078 16.847200 65.920998
+script=InstanceLimiter
+
+[areatrigger 602]
+name=Scarlet Monastery Big West Istance
+pos=189 1687.569946 1040.089966 20.982901
+totrigger=45
+
+[areatrigger 604]
+name=Scarlet Monastery Mini West Instance start
+pos=189 853.679016 1308.099976 19.671400
+totrigger=610
+
+[areatrigger 606]
+name=Scarlet Monastery Mini East Instance start
+pos=189 1608.650024 -308.970001 20.782400
+totrigger=612
+
+[areatrigger 608]
+name=Scarlet Monastery Big East Instance start
+pos=189 253.600998 -196.804001 21.038500
+totrigger=614
+
+[areatrigger 610]
+name=Scarlet Monastery Mini West Entrance
+pos=0 2925.179932 -820.544983 161.634003
+script=InstanceLimiter
+totrigger=604
+
+[areatrigger 612]
+name=Scarlet Monastery Mini East Entrance
+pos=0 2877.984375 -839.267395 163.049179
+script=InstanceLimiter
+totrigger=606
+
+[areatrigger 614]
+name=Scarlet Monastery Big East Entrance
+pos=0 2859.729980 -824.909973 162.082993
+script=InstanceLimiter
+totrigger=608
+
+[areatrigger 682]
+name=Redrige Mountains - Lakeshire inn
+pos=0 -9219.370117 -2149.939941 70.606003
+script=RestState
+
+[areatrigger 702]
+name=Stormwind - Wizard Sanctum room
+pos=0 -9019.160156 887.596313 29.620623
+totrigger=704
+
+[areatrigger 704]
+name=Stormwind - Wizard Sanctum Tower portal
+pos=0 -9015.971680 875.317993 148.616898
+totrigger=702
+
+[areatrigger 707]
+name=Duskwood - Darkshire Scarlet Raven Inn
+pos=0 -10517.000000 -1158.390015 39.054199
+script=RestState
+
+[areatrigger 708]
+name=Southshore - Hillsbrad Foothill Inn
+pos=0 -852.854004 -576.711975 20.029301
+script=RestState
+
+[areatrigger 709]
+name=Theramore isle
+pos=1 -3615.489990 -4467.339844 24.314100
+script=RestState
+
+[areatrigger 710]
+name=Dun Morogh - Thunderbrew Distillery
+pos=0 -5601.459961 -530.747009 395.483002
+script=RestState
+
+[areatrigger 712]
+name=Thelsamar - Stoutlager Inn
+pos=0 -5390.180176 -2953.929932 322.029999
+script=RestState
+
+[areatrigger 713]
+name=Wetlands - Deepwater Tavern
+pos=0 -3823.060059 -834.526001 18.278900
+script=RestState
+
+[areatrigger 715]
+name=Tedrassil - Donalaar
+pos=1 9809.049805 959.187988 1315.349976
+script=RestState
+
+[areatrigger 716]
+name=DarkShore - Auberdine
+pos=1 6410.009766 527.034973 14.057800
+//script=Exploredtrigger
+
+[areatrigger 717]
+name=Ashenvale - Astrannar
+pos=1 2756.639893 -423.057007 119.387001
+script=RestState
+
+[areatrigger 719]
+name=Tirisfal Glades - Brill Gallows End Tavern
+pos=0 2266.679932 245.992996 44.414501
+script=RestState
+
+[areatrigger 720]
+name=Sepulcher - Silverpine forest (Coordinate Z Out of Map)
+pos=0 511.536011 1638.630005 120.417297
+script=RestState
+
+[areatrigger 721]
+name=Tarren Mills - Hillsbrad Footshill
+pos=0 -7.355900 -936.734009 62.333599
+script=RestState
+
+[areatrigger 722]
+name=Bloodhoff village - Mulgore
+pos=1 -2366.699951 -345.983002 -1.293130
+script=RestState
+
+[areatrigger 742]
+name=Crossroads - The Barrens
+pos=1 -405.311005 -2645.290039 111.972000
+script=RestState
+
+[areatrigger 743]
+name=Ratchet - The Barrens
+pos=1 -1051.439941 -3653.810059 31.135201
+script=RestState
+
+[areatrigger 762]
+name=Blackphantom Deeps istance Akumais lair
+pos=48 -842.075989 -472.462006 -34.065601
+script=UnusedTriggers
+
+[areatrigger 802]
+name=Menethil Harbor - WetLands
+pos=0 -3752.810059 -851.557983 10.115300
+script=UnusedTriggers
+
+[areatrigger 803]
+name=Menethil Harbor - WetLands
+pos=0 -3668.340088 -823.838989 9.899150
+script=UnusedTriggers
+
+[areatrigger 822]
+name=Uldaman Istance Map chamber
+pos=70 -234.444000 319.127014 -47.588501
+script=UnusedTriggers
+
+[areatrigger 843]
+name=RazorHill - Durotar
+pos=1 341.420013 -4684.700195 30.949301
+script=RestState
+
+[areatrigger 844]
+name=Stonard - Swamp of sorrows
+pos=0 -10487.299805 -3256.870117 39.896400
+script=RestState
+
+[areatrigger 862]
+name=Booty bay - Stranglethorn vale
+pos=0 -14457.000000 496.450012 39.139198
+script=RestState
+
+[areatrigger 882]
+name=Uldaman Istance End
+pos=70 -213.720001 370.606995 -35.388699
+topos=0 -6620.479980 -3765.189941 266.910004 3.0
+
+[areatrigger 902]
+name=Uldaman Exit
+pos=0 -6606.479980 -3762.189941 266.910004
+script=InstanceLimiter
+topos=70 -214.020001 383.606995 -38.768699 0.5
+
+[areatrigger 922]
+name=Zul'Farrak Istance start
+pos=209 1190.349976 840.586975 13.434200
+topos=1 -6796.490234 -2890.770020 8.8806300 3.1
+
+[areatrigger 924]
+name=Zul'Farrak Entrance
+pos=1 -6773.490234 -2889.770020 15.106300
+script=InstanceLimiter
+topos=209 1212.349976 842.586975 8.944200 0.1
+
+[areatrigger 942]
+name=Thousand Needles
+pos=1 -4950.649902 -1625.140015 -3.015700
+script=UnusedTriggers
+
+[areatrigger 943]
+name=Thousand Needles
+pos=1 -4950.740234 -1595.140015 -3.015700
+script=UnusedTriggers
+
+[areatrigger 944]
+name=Thousand Needles
+pos=1 -4950.649902 -1567.099976 -3.015700
+script=UnusedTriggers
+
+[areatrigger 962]
+name=Zul'Farrak istance (inside)
+pos=209 1909.270020 1015.109985 11.515500
+script=UnusedTriggers
+
+[areatrigger 982]
+name=The Barrens - Camp Taurajo
+pos=1 -2372.510010 -1991.640015 120.974998
+script=RestState
+
+[areatrigger 1022]
+name=Sun Rock Retrait - Stonetalon
+pos=1 898.481995 922.687988 126.788002
+script=RestState
+
+[areatrigger 1023]
+name=Gadgetzan - Tanaris
+pos=1 -7164.870117 -3844.469971 13.903000
+script=RestState
+
+[areatrigger 1024]
+name=Feathermoon Stronghold - Feralas
+pos=1 -4370.830078 3289.149902 23.782301
+script=RestState
+
+[areatrigger 1025]
+name=Camp Mojache - Feralas
+pos=1 -4458.928711 243.414932 64.613571
+script=RestState
+
+[areatrigger 1042]
+name=Wildhammer Keep - Hinterlands
+pos=0 357.220001 -2106.090088 121.838997
+script=UnusedTriggers
+
+[areatrigger 1064]
+name=Onyxia's Lair - Dustwallow istance
+pos=249 29.242701 -22.181200 10.527200
+totrigger=2848
+
+[areatrigger 1103]
+name=Booty Bay Dock - Stranglethorn Vale - Eastern Kingdoms
+completes_quest=578
+pos=0 -14292.94 531.52 8.7
+script=MasterScript
+
+[areatrigger 1104]
+name=Gnomeregan - Dun Morogh entrance
+pos=0 -5096.759766 750.205017 260.549988
+script=UnusedTriggers
+
+[areatrigger 1105]
+name=Gnomeregan - Dun Morogh istance
+pos=90 -377.056000 44.049999 -156.483002
+script=UnusedTriggers
+
+[areatrigger 1125]
+name=Cathedral of Light - Stormwind
+pos=0 -8561.540039 823.382996 106.518997
+script=UnusedTriggers
+
+[areatrigger 1205]
+name=Altar of Zul - Hinterlands
+pos=0 -295.639008 -3460.679932 193.884003
+script=UnusedTriggers
+
+[areatrigger 1306]
+name=The temple of Atal'Hakkar - Un'goro Crater istance
+pos=109 -496.854004 42.692902 -91.131798
+script=UnusedTriggers
+
+[areatrigger 1326]
+name=The temple of Atal'Hakkar - Un'goro Crater istance
+pos=109 -467.520996 95.308296 -105.000000
+script=UnusedTriggers
+
+[areatrigger 1387]
+name=The Shattered Strand - Azshara
+pos=1 4260.729980 -6273.640137 90.228897
+script=UnusedTriggers
+
+[areatrigger 1388]
+name=Talassian Base Camp - Azshara
+pos=1 4277.580078 -6296.000000 95.576401
+script=UnusedTriggers
+
+[areatrigger 1426]
+name=Blasted Lands
+pos=0 -11204.500000 -2730.610107 14.897200
+script=UnusedTriggers
+
+[areatrigger 1427]
+name=Rise of Defiler - Blasted Lands
+pos=0 -11079.700195 -2855.639893 10.691100
+script=UnusedTriggers
+
+[areatrigger 1428]
+name=Rise of Defiler - Blasted Lands
+pos=0 -11208.099609 -2960.479980 9.214490
+script=UnusedTriggers
+
+[areatrigger 1429]
+name=Rise of Defiler - Blasted Lands
+pos=0 -11337.400391 -2848.929932 9.344040
+script=UnusedTriggers
+
+[areatrigger 1446]
+name=Rise of Defiler - Blasted Lands
+pos=0 -11185.099609 -2834.629883 116.473999
+script=UnusedTriggers
+
+[areatrigger 1447]
+name=Zul Farrak - Tanaris istance (inside)
+pos=209 1811.050049 700.976013 15.294000
+script=UnusedTriggers
+
+[areatrigger 1466]
+name=Blackrock Mountain - Searing Gorge istance?
+pos=0 -7176.629883 -937.666992 170.205994
+script=InstanceLimiter
+topos=230 457.968994 35.368000 -69.245299 4.7
+
+[areatrigger 1468]
+name=Blackrock Spire - Searing Gorge istance (inside)
+pos=0 -7518.189941 -1239.130005 287.243011
+script=InstanceLimiter
+topos=229 78.508301 -225.044006 49.83902 5.1
+
+[areatrigger 1470]
+name=Blackrock Spire - Searing Gorge istance
+pos=229 73.508301 -215.044006 52.386902
+topos=0 -7524.189941 -1230.130005 285.743011 2.1
+
+[areatrigger 1472]
+name=Blackrock Dephts - Searing Gorge istance
+pos=230 456.968994 48.368000 -65.275299
+topos=0 -7179.629883 -923.666992 166.415994 1.8
+
+[areatrigger 1506]
+name=Dredmaul Rock - Burning Steppes
+pos=0 -7921.140137 -2604.179932 223.345993
+script=UnusedTriggers
+
+[areatrigger 1526]
+name=Blackrock Dephts - Searing Gorge istance
+pos=230 596.432007 -188.498001 -50.000000
+script=UnusedTriggers
+
+[areatrigger 1590]
+name=Blackrock Dephts - Searing Gorge istance
+pos=230 376.105988 -191.242004 -70.544899
+script=UnusedTriggers
+
+[areatrigger 1606]
+name=Kargath - Badlands
+pos=0 -6657.350098 -2157.100098 264.132996
+script=RestState
+
+[areatrigger 1626]
+name=Old Hillsbrad Foothills - istance ?
+pos=269 3122.199951 2324.639893 -129.320007
+script=UnusedTriggers
+
+[areatrigger 1628]
+name=Hall of Blackhand - Searing Gorge istance (inside)
+pos=229 -78.581902 -401.394989 38.942799
+script=UnusedTriggers
+
+[areatrigger 1629]
+name=The Black Morass - istance (inside)
+pos=269 -2061.120117 6635.970215 -144.595993
+script=UnusedTriggers
+
+[areatrigger 1631]
+name=Cavern of Times - Tanaris istance (inside)
+pos=1 -8280.790039 -4025.139893 -181.059006
+script=UnusedTriggers
+
+[areatrigger 1632]
+name=Cavern of Times - Tanaris istance (inside)
+pos=1 -8799.190430 -4115.160156 -199.998993
+script=UnusedTriggers
+
+[areatrigger 1646]
+name=Hammerfall - Arathi Highlands
+pos=0 -907.864990 -3534.239990 83.787804
+script=RestState
+
+[areatrigger 1667]
+name=Sentry Point - Dustwallow Marsh
+pos=1 -3464.709961 -4120.930176 17.098700
+script=UnusedTriggers
+
+[areatrigger 1686]
+name=Blackrock Dephts - Searing Gorge istance (inside)
+pos=230 319.973999 -215.184998 -77.954201
+script=UnusedTriggers
+
+[areatrigger 1726]
+name=The Marshlands - Un'goro Crater
+pos=1 -7286.009766 -2125.060059 -272.114014
+script=UnusedTriggers
+
+[areatrigger 1727]
+name=The Marshlands - Un'goro Crater
+pos=1 -7208.419922 -2027.089966 -271.739990
+script=UnusedTriggers
+
+[areatrigger 1728]
+name=The Marshlands - Un'goro Crater
+pos=1 -7170.020020 -1852.790039 -272.988007
+script=UnusedTriggers
+
+[areatrigger 1729]
+name=The Marshlands - Un'goro Crater
+pos=1 -7395.189941 -1735.680054 -279.763000
+script=UnusedTriggers
+
+[areatrigger 1730]
+name=The Marshlands - Un'goro Crater
+pos=1 -7449.899902 -2111.570068 -271.765991
+script=UnusedTriggers
+
+[areatrigger 1731]
+name=The Marshlands - Un'goro Crater
+pos=1 -7463.350098 -1957.640015 -272.532013
+script=UnusedTriggers
+
+[areatrigger 1732]
+name=The Marshlands - Un'goro Crater
+pos=1 -7509.580078 -1946.560059 -270.536987
+script=UnusedTriggers
+
+[areatrigger 1733]
+name=The Marshlands - Un'goro Crater
+pos=1 -7516.870117 -1829.760010 -272.647003
+script=UnusedTriggers
+
+[areatrigger 1734]
+name=The Marshlands - Un'goro Crater
+pos=1 -7594.120117 -1771.619995 -273.612000
+script=UnusedTriggers
+
+[areatrigger 1735]
+name=The Marshlands - Un'goro Crater
+pos=1 -7748.899902 -1721.140015 -271.908997
+script=UnusedTriggers
+
+[areatrigger 1736]
+name=The Marshlands - Un'goro Crater
+pos=1 -7768.609863 -1957.630005 -272.126007
+script=UnusedTriggers
+
+[areatrigger 1737]
+name=The Marshlands - Un'goro Crater
+pos=1 -7612.560059 -1930.869995 -271.828003
+script=UnusedTriggers
+
+[areatrigger 1738]
+name=The Marshlands - Un'goro Crater
+pos=1 -7952.200195 -1792.010010 -272.893005
+script=UnusedTriggers
+
+[areatrigger 1739]
+name=Un'goro Crater
+pos=1 -7895.290039 -1623.619995 -269.707001
+script=UnusedTriggers
+
+[areatrigger 1740]
+name=The Marshlands - Un'goro Crater
+pos=1 -7874.180176 -1806.300049 -271.459015
+script=UnusedTriggers
+
+[areatrigger 1741]
+name=Un'goro Crater -The Northern Pylon
+pos=1 -6219.615723 -1551.455678 -221.241150
+script=UnusedTriggers
+
+[areatrigger 1746]
+name=Blackrock Dephts - Searing Gorge istance (inside)
+pos=230 411.617004 -201.645996 -65.144600
+script=UnusedTriggers
+
+[areatrigger 1766]
+name=The Marshlands - Un'goro Crater
+pos=1 -7308.713379 -2001.473145 -272.450500
+script=UnusedTriggers
+
+[areatrigger 1786]
+name=Blackrock Dephts - Searing Gorge istance (inside)
+pos=230 690.518005 -280.052002 -43.196899
+script=UnusedTriggers
+
+[areatrigger 1826]
+name=Blackrock Dephts - Searing Gorge istance (inside)
+pos=230 471.141998 -9.343780 -69.799301
+script=UnusedTriggers
+
+[areatrigger 1827]
+name=Blackrock Dephts - Searing Gorge istance (inside)
+pos=230 1380.150024 -554.604004 -89.642998
+script=UnusedTriggers
+
+[areatrigger 1828]
+name=Blackrock Dephts - Searing Gorge istance (inside)
+pos=230 497.398987 13.231900 -70.137199
+script=UnusedTriggers
+
+[areatrigger 1906]
+name=Darkshore
+pos=1 6818.560059 -391.734985 40.123001
+script=UnusedTriggers
+
+[areatrigger 1926]
+name=Blackrock Dephts - Searing Gorge istance (inside)
+pos=230 845.911011 -317.368988 -50.286800
+script=UnusedTriggers
+
+[areatrigger 1946]
+name=Hall of Blackhand - Searing Gorge istance (inside)
+pos=229 70.861099 -409.014008 64.347702
+script=UnusedTriggers
+
+[areatrigger 1966]
+name=Twilight Shore - Darkshore
+pos=1 4988.970215 547.002014 5.379290
+script=UnusedTriggers
+
+[areatrigger 1986]
+name=Hall of Blackhand - Searing Gorge istance (inside)
+pos=229 91.085403 -408.373993 64.347702
+script=UnusedTriggers
+
+[areatrigger 1987]
+name=Hall of Blackhand - Searing Gorge istance (inside)
+pos=229 109.608002 -415.697998 64.347702
+script=UnusedTriggers
+
+[areatrigger 2026]
+name=Hall of Blackhand - Searing Gorge istance (inside)
+pos=229 153.763000 -419.833008 110.472000
+script=UnusedTriggers
+
+[areatrigger 2046]
+name=Hall of Blackhand - Searing Gorge istance (inside)
+pos=229 102.430000 -319.166992 65.463501
+script=UnusedTriggers
+
+[areatrigger 2066]
+name=Hall of Blackhand - Searing Gorge istance (inside)
+pos=229 75.262199 -547.679016 110.928001
+script=UnusedTriggers
+
+[areatrigger 2067]
+name=Hall of Blackhand - Searing Gorge istance (inside)
+pos=229 26.458300 -522.471008 110.943001
+script=UnusedTriggers
+
+[areatrigger 2068]
+name=Hall of Blackhand - Searing Gorge istance (inside)
+pos=229 25.928499 -299.325012 24.109501
+script=UnusedTriggers
+
+[areatrigger 2146]
+pos=0 16299.200195 16277.299805 73.972298
+script=UnusedTriggers
+
+[areatrigger 2166]
+name=Deeprun Tram - Ironforge istance (inside)
+pos=369 69.254242 10.256980 -4.296640 3.098323
+totrigger=2175
+
+[areatrigger 2171]
+name=Deeprun Tram - Stormwind istance (inside)
+pos=369 68.300598 2490.910156 -4.296469 3.121915
+totrigger=2173
+
+[areatrigger 2173]
+name=Deeprun Tram - Stormwind istance
+pos=0 -8364.570313 535.980896 91.796860 2.246191
+totrigger=2171
+
+[areatrigger 2175]
+name=Deeprun Tram - Ironforge istance
+pos=0 -4838.954102 -1318.460205 501.867920 1.423718
+totrigger=2166
+
+[areatrigger 2187]
+name=Stratholme - Eastern Plaguelands istance (inside)
+pos=329 3673.600098 -3633.870117 139.942993
+script=UnusedTriggers
+
+[areatrigger 2206]
+name=Shatter Scar Vale - Felwood
+pos=1 5483.899902 -749.880981 334.621002
+script=UnusedTriggers
+
+[areatrigger 2207]
+name=Shatter Scar Vale - Felwood
+pos=1 5552.089844 -683.812988 335.250000
+script=UnusedTriggers
+
+[areatrigger 2208]
+name=Shatter Scar Vale - Felwood
+pos=1 5587.020020 -784.025024 335.821991
+script=UnusedTriggers
+
+[areatrigger 2209]
+name=Stratholme - Eastern Plaguelands istance (inside)
+pos=329 3665.110107 -3164.959961 127.223999
+script=UnusedTriggers
+
+[areatrigger 2210]
+name=Stratholme - Eastern Plaguelands istance (inside)
+pos=329 3663.949951 -3164.270020 127.361000
+script=UnusedTriggers
+
+[areatrigger 2211]
+name=Mazthoril - Winterspring
+pos=1 6107.620117 -4181.600098 852.322021
+script=UnusedTriggers
+
+[areatrigger 2213]
+name=Mazthoril - Winterspring
+pos=1 5893.319824 -4054.830078 596.322021
+script=UnusedTriggers
+
+[areatrigger 2214]
+name=Stratholme - Eastern Plaguelands istance
+pos=0 3237.459961 -4060.600098 112.010002
+script=InstanceLimiter
+topos=329 3590.780029 -3640.050049 139.117996 5.0
+
+[areatrigger 2216]
+name=Stratholme - Eastern Plaguelands istance
+pos=0 3392.459961 -3396.770020 143.072998
+script=InstanceLimiter
+topos=329 3395.09 -3380.25 142.702 0.1
+
+[areatrigger 2217]
+name=Stratholme - Eastern Plaguelands istance
+pos=0 3392.560059 -3361.780029 142.802002
+script=InstanceLimiter
+topos=329 3395.09 -3380.25 142.702 0.1
+
+[areatrigger 2221]
+name=Stratholme - Eastern Plaguelands istance (inside)
+pos=329 3584.780029 -3632.050049 142.117996
+topos=0 3235.459961 -4050.600098 110.010002 2.0
+
+[areatrigger 2226]
+name=Ragefire Chasm - Ogrimmar istance (inside)
+pos=389 2.580190 -0.013587 -13.366800
+totrigger=2230
+
+[areatrigger 2230]
+name=Ragefire Chasm - Ogrimmar istance
+pos=1 1818.400024 -4427.259766 -10.447800
+script=InstanceLimiter
+totrigger=2226
+
+[areatrigger 2246]
+name=Felstone Field - Western Plaguelands
+pos=0 1757.260010 -1165.930054 59.602501
+totrigger=2248
+
+[areatrigger 2248]
+name=Dalson's Tears - Western Plaguelands
+pos=0 1855.130005 -1569.219971 59.182499
+totrigger=2246
+
+[areatrigger 2250]
+name=The Writhing Haunt - Western Plaguelands
+pos=0 1462.130005 -1864.020020 58.702801
+totrigger=2252
+
+[areatrigger 2252]
+name=Gahroron's Withering - Western Plaguelands
+pos=0 1668.119995 -2282.560059 59.222099
+totrigger=2250
+
+[areatrigger 2266]
+name=Nijel's Point - Desolace
+pos=1 245.587006 1251.989990 210.145004
+script=RestState
+
+[areatrigger 2267]
+name=Shadowprey Village - Desolace
+pos=1 -1596.160034 3145.260010 67.833801
+script=RestState
+
+[areatrigger 2286]
+name=Freewind Post - Thousand Needles
+pos=1 -5474.600098 -2459.310059 103.730003
+script=RestState
+
+[areatrigger 2287]
+name=Everlook - Winterspring
+pos=1 6687.990234 -4670.069824 723.890991
+script=RestState
+
+[areatrigger 2327]
+name=Darkwhisper Gorge - Winterspring
+pos=1 5018.910156 -4563.939941 851.750000
+script=UnusedTriggers
+
+[areatrigger 2387]
+name=Swamp of Sorrow
+pos=0 -9897.209961 -3725.090088 24.667101
+script=UnusedTriggers
+
+[areatrigger 2406]
+name=Shadowfang Keep - Silverpine istance
+pos=33 -287.071014 2175.639893 36.886101
+script=UnusedTriggers
+
+[areatrigger 2407]
+name=Shadowfang Keep - Silverpine istance
+pos=33 -315.990997 2179.629883 91.754204
+script=UnusedTriggers
+
+[areatrigger 2408]
+name=Shadowfang Keep - Silverpine istance
+pos=33 -232.371994 2077.100098 68.117699
+script=UnusedTriggers
+
+[areatrigger 2409]
+name=Shadowfang Keep - Silverpine istance
+pos=33 -255.272995 2035.760010 114.436996
+script=UnusedTriggers
+
+[areatrigger 2410]
+name=Shadowfang Keep - Silverpine istance
+pos=33 -167.091995 2104.219971 73.449699
+script=UnusedTriggers
+
+[areatrigger 2411]
+pos=33 -179.729004 2079.370117 42.694500
+script=UnusedTriggers
+
+[areatrigger 2412]
+name=The Headland - Alterac PVP Entrance Alliance
+pos=0 99.948402 -182.951096 127.472984 5.3
+totrigger=2608
+
+[areatrigger 2413]
+name=Alterac Mountains - Alterac PVP Entrance Horde
+pos=0 538.594482 -1084.788940 106.396423 3.5
+totrigger=2606
+
+[areatrigger 2416]
+name=Programmer Island
+pos=451 16304.200195 16318.099609 69.444397
+script=UnusedTriggers
+
+[areatrigger 2426]
+pos=469 -7474.009766 -1286.339966 431.303986
+script=UnusedTriggers
+
+[areatrigger 2427]
+name=Blackwing Lair - ?
+pos=469 -7375.319824 -1240.140015 494.279999
+script=UnusedTriggers
+
+[areatrigger 2428]
+name=Blackwing Lair - ?
+pos=469 -7568.399902 -1375.660034 468.507996
+script=UnusedTriggers
+
+[areatrigger 2429]
+name=Blackwing Lair - ?
+pos=469 -7412.970215 -1371.589966 413.425995
+script=UnusedTriggers
+
+[areatrigger 2486]
+name=Darkshore
+pos=1 6207.500000 -152.832993 79.818497
+script=UnusedTriggers
+
+[areatrigger 2527]
+name=Hall of the Brave - Ogrimmar
+pos=1 1643.359985 -4233.600098 56.155701
+script=Honor
+
+[areatrigger 2530]
+name=Hall of the Brave - Ogrimmar (inside)
+pos=450 215.194000 71.156998 30.127600
+script=Honor
+topos=1 1633.811646 -4249.414551 54.888481
+
+[areatrigger 2532]
+name=Stormwind - near Old Town
+pos=0 -8768.080078 409.204987 103.920998
+script=Honor
+
+[areatrigger 2534]
+name=Stormwind (inside) - near Old Town
+pos=449 -0.199573 -1.591120 -0.255884
+script=Honor
+topos=0 -8761.803711 402.035156 103.902588
+
+[areatrigger 2547]
+name=Scholomance - Western Plaguelands istance
+pos=289 332.865997 94.310799 92.222099
+script=UnusedTriggers
+
+[areatrigger 2548]
+name=Scholomance - Western Plaguelands istance
+pos=289 322.884003 112.137001 98.672600
+script=UnusedTriggers
+
+[areatrigger 2549]
+name=scholomance exit
+pos=289 325.183990 75.618103 93.874397
+script=UnusedTriggers
+
+[areatrigger 2567]
+name=scholomance entrance
+pos=0 1282.050049 -2548.729980 85.399399
+script=InstanceLimiter
+topos=289 189.606999 126.649997 138.707001 0.1
+
+[areatrigger 2568]
+name=Scholomance istance
+pos=289 182.264999 126.449997 143.707001
+topos=0 1275.050049 -2552.029980 90.399399 3.66
+
+[areatrigger 2606]
+name=Alterac Valley PVP Instance Horde
+pos=30 -726.349548 -702.727600 52.169415 2.0
+totrigger=2413
+
+[areatrigger 2608]
+name=Alterac Valley PVP Instance Alliance
+pos=30 943.662170 -505.183563 94.599449 4.3
+totrigger=2412
+
+[areatrigger 2610]
+pos=1 2343.570068 -2569.000000 118.827003
+script=RestState
+
+[areatrigger 2626]
+name=western plaguelands - felstone field
+pos=0 1756.790039 -1200.150024 60.735199
+script=UnusedTriggers
+
+[areatrigger 2627]
+name=western plaguelands - felstone field
+pos=0 1723.319946 -1198.380005 60.009602
+script=UnusedTriggers
+
+[areatrigger 2628]
+name=western plaguelands - felstone field
+pos=0 1723.099976 -1166.709961 59.577499
+script=UnusedTriggers
+
+[areatrigger 2629]
+name=western plaguelands - dalson's tears
+pos=0 1879.598511 -1546.082642 59.030109
+script=UnusedTriggers
+
+[areatrigger 2630]
+name=western plaguelands - dalson's tears
+pos=0 1903.000000 -1570.260010 59.703499
+script=UnusedTriggers
+
+[areatrigger 2631]
+name=western plaguelands - dalson's tears
+pos=0 1878.079956 -1593.739990 59.473900
+script=UnusedTriggers
+
+[areatrigger 2632]
+name=western plaguelands - the writhing haunt
+pos=0 1487.030029 -1840.910034 58.667500
+script=UnusedTriggers
+
+[areatrigger 2633]
+pos=0 1510.459961 -1863.239990 59.105999
+script=UnusedTriggers
+
+[areatrigger 2634]
+pos=0 1485.609985 -1888.689941 59.090199
+script=UnusedTriggers
+
+[areatrigger 2635]
+name=western plaguelands - gahrron's withering
+pos=0 1681.116821 -2250.931885 59.021118
+script=UnusedTriggers
+
+[areatrigger 2636]
+name=western plaguelands - gahrron's withering
+pos=0 1712.750000 -2263.280029 64.088898
+script=UnusedTriggers
+
+[areatrigger 2637]
+name=western plaguelands - gahrron's withering
+pos=0 1700.250000 -2295.360107 58.984600
+script=UnusedTriggers
+
+[areatrigger 2647]
+name=western plagueands - felstone field
+pos=0 2841.810059 -1544.520020 188.516006
+script=UnusedTriggers
+
+[areatrigger 2706]
+name=eastern plaguelands - terror web tunnel
+pos=0 2964.560059 -2712.889893 98.744598
+script=UnusedTriggers
+
+[areatrigger 2707]
+name=eastern plaguelands - terror web tunnel
+pos=0 2980.100098 -2720.919922 99.933701
+script=UnusedTriggers
+
+[areatrigger 2726]
+name=eastern plaguelands - marris stead
+pos=0 1868.959961 -3223.389893 123.065002
+script=UnusedTriggers
+
+[areatrigger 2746]
+name=trade district - sw city
+pos=0 -8821.360352 633.296997 94.075798
+script=UnusedTriggers
+
+[areatrigger 2766]
+name=dragonmaw garrison - blackwing lair
+pos=469 -7621.589844 -1071.479980 408.489990
+script=UnusedTriggers
+
+[areatrigger 2767]
+pos=469 -7621.729980 -1070.609985 408.489990
+script=UnusedTriggers
+
+[areatrigger 2786]
+name=Stormwind City - Gates
+pos=0 -9050.870117 445.458008 93.055801
+script=RestState
+
+[areatrigger 2848]
+name=Onyxia's Lair Entrance
+pos=1 -4768.609863 -3752.110107 53.431702
+script=InstanceLimiter
+totrigger=1064
+
+[areatrigger 2886]
+name=The Molten Bridge
+pos=230 1097.989990 -466.493988 -96.071899
+script=InstanceLimiter
+topos=409 1098.989990 -469.493988 -104.95899 3.5
+
+[areatrigger 2890]
+name=The Molten Core
+pos=409 1115.219971 -462.959015 -95.014801
+topos=230 1115.219971 -460.959015 -103.494801 0.7
+
+[areatrigger 2926]
+name=Mystral Lake - Ashenvale
+pos=1 1999.150024 -1121.280029 97.353699
+script=UnusedTriggers
+
+[areatrigger 2946]
+name=Boulderside Ravine - Stonetalon mountains
+pos=1 -122.390999 388.013000 94.485603
+script=UnusedTriggers
+
+[areatrigger 3066]
+pos=0 18.944799 -1448.219971 176.149994
+script=UnusedTriggers
+
+[areatrigger 3106]
+pos=0 -30.053301 -1576.500000 194.453003
+script=UnusedTriggers
+
+[areatrigger 3126]
+name=Maraudon
+pos=349 756.877991 -633.960022 -32.819099
+topos=1 -1186.979980 2875.949951 85.7258102 0.1
+
+[areatrigger 3131]
+name=Maraudon
+pos=349 1005.020020 -460.539001 -43.250702
+topos=1 -1471.069946 2618.570068 76.194401 0.1
+
+[areatrigger 3133]
+name=Maraudon
+pos=1 -1484.069946 2617.570068 75.714401
+script=InstanceLimiter
+topos=349 1012.020020 -459.539001 -43.50702 0.1
+
+[areatrigger 3134]
+name=Maraudon
+pos=1 -1181.979980 2861.949951 85.258102
+script=InstanceLimiter
+topos=349 755.877991 -620.960022 -33.0519099 0.1
+
+[areatrigger 3146]
+pos=1 -7180.939941 441.136993 26.544901
+script=UnusedTriggers
+
+[areatrigger 3182]
+name=Dire Maul
+pos=1 -3577.669922 841.859009 134.593994
+script=UnusedTriggers
+
+[areatrigger 3183]
+name=Dire Maul
+pos=1 -3730.479980 933.974976 160.973007
+script=InstanceLimiter
+topos=429 44.449902 -154.822006 -2.712010 0.02
+
+[areatrigger 3184]
+name=Dire Maul
+pos=1 -3981.580078 771.192993 160.962006
+script=InstanceLimiter
+topos=429 -202.664001 -322.876007 -2.723530 4.7
+
+[areatrigger 3185]
+name=Dire Maul
+pos=1 -4028.209961 123.966003 26.810900
+script=InstanceLimiter
+topos=429 9.311190 -837.085022 -32.530501 0.01
+
+[areatrigger 3186]
+name=Dire Maul
+pos=1 -3837.790039 1250.229980 160.223007
+script=InstanceLimiter
+topos=429 -62.965801 159.867004 -3.462060 3.1
+
+[areatrigger 3187]
+name=Dire Maul
+pos=1 -3741.959961 1249.180054 160.216995
+script=InstanceLimiter
+topos=429 31.560900 159.449997 -3.47770 0.01
+
+[areatrigger 3188]
+name=Dire Maul - door no exit
+pos=1 -3519.189941 1176.709961 161.128006
+script=UnusedTriggers
+
+[areatrigger 3189]
+name=Dire Maul
+pos=1 -3520.649902 1068.719971 161.128006
+script=InstanceLimiter
+topos=429 255.248993 -16.056060 -2.587370 4.7
+
+[areatrigger 3190]
+name=Dire Maul
+pos=429 -55.965801 159.867004 -3.462060
+topos=1 -3831.790039 1250.229980 160.223007 6.2
+
+[areatrigger 3191]
+name=Dire Maul
+pos=429 24.560900 159.449997 -3.466770
+topos=1 -3747.959961 1249.180054 160.216995 3.1
+
+[areatrigger 3192]
+name=Dire Maul - door no exit
+pos=429 255.341003 78.964302 -2.593290
+script=UnusedTriggers
+
+[areatrigger 3193]
+name=Dire Maul
+pos=429 255.248993 -9.056060 -2.587370
+topos=1 -3520.649902 1077.719971 161.138006 1.5
+
+[areatrigger 3194]
+name=Dire Maul
+pos=429 37.449902 -154.822006 -2.712010
+topos=1 -3737.479980 934.974976 160.973007 3.1
+
+[areatrigger 3195]
+name=Dire Maul
+pos=429 -202.664001 -314.876007 -2.723530
+topos=1 -3980.580078 776.192993 161.006 1.6
+
+[areatrigger 3196]
+name=Dire Maul
+pos=429 4.311190 -837.085022 -33.040501
+topos=1 -4030.209961 127.966003 26.810900 2.2
+
+[areatrigger 3197]
+name=Dire Maul
+pos=429 194.350998 -240.820999 -25.630699
+topos=1 -3577.669922 841.859009 134.593994 2.6
+
+[areatrigger 3306]
+pos=469 -7523.990234 -1013.080017 408.570007
+script=UnusedTriggers
+
+[areatrigger 3326]
+name=alterac valley
+pos=30 -758.822021 -348.119995 90.979698
+script=UnusedTriggers
+
+[areatrigger 3327]
+name=alterac valley
+pos=30 -1221.349976 -352.877014 57.721199
+script=UnusedTriggers
+
+[areatrigger 3328]
+name=alterac valley
+pos=30 -1300.420044 -266.231995 114.278999
+script=UnusedTriggers
+
+[areatrigger 3329]
+name=alterac valley
+pos=30 213.666000 -373.242004 56.391399
+script=UnusedTriggers
+
+[areatrigger 3330]
+name=alterac valley
+pos=30 326.519012 -503.868988 71.144798
+script=UnusedTriggers
+
+[areatrigger 3331]
+name=alterac valley
+pos=30 683.036987 -129.654999 63.666302
+script=UnusedTriggers
+
+[areatrigger 3366]
+pos=0 2832.070068 -1540.479980 190.164993
+script=UnusedTriggers
+
+[areatrigger 3367]
+pos=0 2843.399902 -1553.260010 190.720993
+script=UnusedTriggers
+
+[areatrigger 3506]
+name=Dire Maul
+pos=429 580.754028 487.506012 29.464100
+script=UnusedTriggers
+
+[areatrigger 3507]
+name=Dire Maul
+pos=429 580.656982 475.885010 29.464100
+script=UnusedTriggers
+
+[areatrigger 3508]
+name=Dire Maul
+pos=429 592.507019 486.309998 29.464100
+script=UnusedTriggers
+
+[areatrigger 3509]
+name=Dire Maul
+pos=429 591.919983 476.403992 29.464100
+script=UnusedTriggers
+
+[areatrigger 3528]
+pos=0 -7513.220215 -1033.770020 181.834000
+script=UnusedTriggers
+
+[areatrigger 3529]
+pos=0 -7512.160156 -1034.780029 177.207993
+script=UnusedTriggers
+
+[areatrigger 3530]
+pos=0 -8536.179688 452.165009 104.917000
+script=UnusedTriggers
+
+[areatrigger 3546]
+pos=1 9933.94 2500.98 1317.82
+script=UnusedTriggers
+
+[areatrigger 3547]
+pos=0 1642.1 239.843 62.592
+script=UnusedTriggers
+
+[areatrigger 3548]
+pos=0 -4754.56 -3313.8 313.564
+script=UnusedTriggers
+
+[areatrigger 3549]
+pos=1 1253.79 -2227.52 92.248
+script=UnusedTriggers
+
+[areatrigger 3550]
+pos=1 -959.299 -3759.21 4.986
+script=UnusedTriggers
+
+[areatrigger 3551]
+pos=1 -998.183 -3822.07 5.295
+script=UnusedTriggers
+
+[areatrigger 3552]
+pos=0 -11413.6 1954.91 14.241
+script=UnusedTriggers
+
+[areatrigger 3586]
+pos=1 6221.84 -1152.75 383.231
+script=UnusedTriggers
+
+[areatrigger 3587]
+pos=1 6221.89 -1153 383.272
+script=UnusedTriggers
+
+[areatrigger 3606]
+pos=0 -7514.81 -1033.12 163.806
+script=UnusedTriggers
+
+[areatrigger 3626]
+pos=469 -7529.1 -1007.19 408.565
+script=UnusedTriggers
+
+[areatrigger 3646]
+name=Warsong Gulch - Alliance Flag spawn
+pos=489 1538.04 1481.46 352.409
+script=Warsong
+
+[areatrigger 3647]
+name=Warsong Gulch - Horde Flag spawn
+pos=489 918.049 1434.1 346.476
+script=Warsong
+
+[areatrigger 3649]
+name=Warsong Gulch - Horde Flag spawn
+pos=489 918.049 1434.1 346.476
+script=UnusedTriggers
+
+[areatrigger 3650]
+name=Ashenvale - Silverwing Grove (Warsong Gulch - Alliance Entrance)
+pos=1 1422.33 -1855.33 135.775
+script=Warsong
+topos=489 1524.05 1481.12 352
+
+[areatrigger 3654]
+name=Barrens - Mor`shan Base camp (Warsong Gulch - Horde Entrance)
+pos=1 1034.19 -2087.74 123.372
+script=Warsong
+topos=489 930.22 1435.13 345.5
+
+[areatrigger 3669]
+name=Warsong Gulch - Horde Exit
+pos=489 1009.167 1290.767 346.961
+script=Warsong
+
+[areatrigger 3671]
+name=Warsong Gulch - Alliance Exit
+pos=489 1456.468 1628.468 360.352
+script=Warsong
+
+[areatrigger 3686]
+name=Warsong Gulch - Alliance elexir of speed spawn
+pos=489 1449.767 1470.567 342.625
+script=Warsong
+
+[areatrigger 3687]
+name=Warsong Gulch - Horde elexir of speed spawn
+pos=489 1005.267 1447.267 335.893
+script=Warsong
+
+[areatrigger 3688]
+name=Warsong Gulch - Horde side
+pos=489 1125.227 1541.501 307.392
+script=UnusedTriggers
+
+[areatrigger 3690]
+pos=0 -622.142 -4582.14 22.576
+script=UnusedTriggers
+
+[areatrigger 3706]
+name=Warsong Gulch - Alliance elexir of regeneration spawn
+pos=489 1316.967 1550.968 313.234
+script=Warsong
+
+[areatrigger 3707]
+name=Warsong Gulch - Alliance elexir of berserk spawn
+pos=489 1319.767 1378.667 314.753
+script=Warsong
+
+[areatrigger 3708]
+name=Warsong Gulch - Horde elexir of regeneration spawn
+pos=489 1107.867 1354.267 316.431
+script=Warsong
+
+[areatrigger 3709]
+name=Warsong Gulch - Horde elexir of berserk spawn
+pos=489 1140.067 1560.767 306.824
+script=Warsong
+
+[areatrigger 3726]
+name=Blackwing Lair Entrance - Searing Gorge - Burning Steppes - Eastern Kingdoms
+pos=229 176.47 -474.27 116.84 3.20
+script=InstanceLimiter
+totrigger=3728
+
+[areatrigger 3728]
+name=Blackwing Lair Exit - Searing Gorge - Burning Steppes - Eastern Kingdoms
+pos=469 -7674.47 -1108.38 396.65 0.61
+totrigger=3726
+
+[areatrigger 3746]
+name=Deadmines Instance (near entrance)
+pos=36 -29.555 -374.503 59.356
+script=UnusedTriggers
+
+[areatrigger 3766]
+name=Wailing Caverns Instance (near entrance)
+pos=43 -108.563 160.915 -79.791
+script=UnusedTriggers
+
+[areatrigger 3806]
+name=Arathi Basin - NEW PVP BG
+pos=529 1182.28 1183.18 -45.255
+script=UnusedTriggers
+
+[areatrigger 3807]
+name=Arathi Basin
+pos=529 1181.62 1183.39 -45.329
+script=UnusedTriggers
+
+[areatrigger 3808]
+name=Arathi Basin
+pos=529 997.144 1001.16 -31.437
+script=UnusedTriggers
+
+[areatrigger 3809]
+name=Arathi Basin
+pos=529 997.092 1001.47 -31.336
+script=UnusedTriggers
+
+[areatrigger 3810]
+name=Arathi Basin
+pos=529 819.995 813.552 -57.646
+script=UnusedTriggers
+
+[areatrigger 3811]
+name=Arathi Basin
+pos=529 820.006 813.831 -57.667
+script=UnusedTriggers
+
+[areatrigger 3812]
+name=Arathi Basin
+pos=529 819.327 1178.43 36.385
+script=UnusedTriggers
+
+[areatrigger 3813]
+name=Arathi Basin
+pos=529 819.39 1178.5 36.385
+script=UnusedTriggers
+
+[areatrigger 3814]
+name=Arathi Basin
+pos=529 1174 830.033 -106.574
+script=UnusedTriggers
+
+[areatrigger 3815]
+name=Arathi Basin
+pos=529 1174.14 830.089 -106.553
+script=UnusedTriggers
+
+[areatrigger 3846]
+name=Blackrock Mountain - Orb of Command - spawn
+pos=0 -7663.58 -1218.36 287.788
+script=UnusedTriggers
+
+[areatrigger 3847]
+name=Murloc camps
+pos=0 -3291.77002 -958.614014 1
+
+[areatrigger 3928]
+name=Zul'Gurub Exit - Stranglethorn Vale - Azeroth
+pos=309 -11916.00 -1251.47 92.32
+topos=309 -11916.00 -1251.47 92.32
+
+[areatrigger 3930]
+name=Zul'Gurub Entrance - Stranglethorn Vale - Azeroth
+pos=0 -11916.31 -1204.115 92.26
+topos=0 -11916.31 -1204.115 92.26
+
+[areatrigger 3948]
+name=Arathi Basin Alliance Out
+pos=529 1384 1300 -8
+script=Battleground
+
+[areatrigger 3949]
+name=Arathi Basin Horde Out
+pos=529 633 701 -12
+script=Battleground
+
+[areatrigger 3953]
+name=Arathi Basin Alliance In
+pos=0 -1198 -2533 22
+script=Battleground
+
+[areatrigger 3954]
+name=Arathi Basin Horde In
+pos=0 -817 -3509 73
+script=Battleground
+
+[areatrigger 3956]
+pos=309 -11918.6 -1433.95 44.545
+
+[areatrigger 3957]
+pos=309 -11916.8 -1256.7 92.543
+
+[areatrigger 3958]
+pos=309 -11915.044 -1312.676 77.502
+
+[areatrigger 3959]
+pos=309 -11945.688 -1597.607 36.757
+
+[areatrigger 3960]
+pos=309 -11788.9 -1595.06 36.999
+
+[areatrigger 3961]
+pos=309 -11614.2 -1361.51 76.84
+
+[areatrigger 3962]
+pos=309 -11957.6 -1819.97 54.311
+
+[areatrigger 3963]
+pos=309 -12112.9 -1794.63 80.416
+
+[areatrigger 3964]
+pos=309 -11791 -1562.86 19.742
+
+[areatrigger 3965]
+pos=309 -11610 -1749.86 38.734
+
+[areatrigger 3966]
+pos=309 -12072.3 -1479.05 106.495
+
+[areatrigger 3986]
+name=Caverns of Time
+completes_quest=8286
+pos=1 -8194.259765625 -4676.43994140625 11.3654003143311
+script=MasterScript
+
+[areatrigger 4006]
+name=Ruins Of Ahn'Qiraj (Inside)
+pos=509 -8419.580078 1504.280029 31.73559952
+topos=1 -8418.501953 1505.941162 31.823208
+//script=AhnQiraj
+
+[areatrigger 4008]
+name=Ruins Of Ahn'Qiraj (Outside)
+pos=1 -8424.94042969 1508.65002441 32.0141983032
+script=InstanceLimiter
+topos=509 -8429.743164 1512.136475 31.907366
+//script=AhnQiraj
+
+[areatrigger 4010]
+name=Ahn'Qiraj Temple (Outside)
+pos=1 -8230.40039063 2003.32995605 129.863006592
+script=InstanceLimiter
+topos=531 -8231.33007813 2010.59997559 129.860992432
+//script=AhnQiraj
+
+[areatrigger 4012]
+name=Ahn'Qiraj Temple (Inside)
+pos=531 -8231.33007813 2010.59997559 129.860992432
+topos=1 -8230.40039063 2003.32995605 129.863006592
+
+[areatrigger 4022]
+name=Arathi Basin Gold Mine
+pos=529 1145.723511 849.123352 -110.524696
+script=Battleground
+
+[areatrigger 4023]
+name=Arathi Basin Stables
+pos=529 1168.077759 1201.844849 -56.422939
+script=Battleground
+
+[areatrigger 4025]
+name=Arathi Basin BlackSmith
+pos=529 978.281189 1047.194458 -44.655514
+script=Battleground
+
+[areatrigger 4026]
+name=Arathi Basin Farm
+pos=529 807.292480 875.195068 -55.704700
+script=Battleground
+
+[areatrigger 4029]
+name=Arathi Basin Lumber Mill
+pos=529 855.106384 1147.859741 11.528749
+script=Battleground
+
+[areatrigger 4033]
+name=Ahn'Qiraj Temple (Inside)
+pos=531 -8546.23046875 1987.65002441 -96.5206985474
+topos=531 -8578.0 1986.80004883 100.220001221
+
+[areatrigger 4036]
+name=Ahn'Qiraj Temple (Inside)
+pos=531 -8578.0 1986.80004883 100.220001221
+topos=531 -8546.23046875 1987.65002441 -96.5206985474
+
+[areatrigger 4053]
+name= Raid zone eastern plaguelands -azeroth
+pos=329 3929.57 -3383.43 119.69
+totrigger=4056
+script=InstanceLimiter
+
+[areatrigger 4055]
+name=Naxxramas 2th
+pos=0 3132.701660 -3731.424072 138.657410
+script=InstanceLimiter
+topos=533 3005.798096 -3434.379150 293.880798
+
+[areatrigger 4056]
+name=Naxxramas (Inside)
+pos=533 3005.798096 -3434.379150 293.880798
+topos=0 3132.701660 -3731.424072 138.657410
+
+[areatrigger 4112]
+name=Kel'Thuzad Lair
+pos=533 3716.165039 -5105.184082 141.288162 6.168203
+script=InstanceLimiter
+
+[areatrigger 4155]
+name=Wall PortalFrostwyrm Lair
+pos=533 2598.107910 -3840.529785 296.493347 4.041726
+topos=533 3498.240234 -5349.788086 144.968155 1.404742
+
+[areatrigger 4156]
+name=Inside Naxx - To Frostwyrm Lair - Upper Portal
+pos=533 3006.09008789063 -3434.169921875 304.195007324219
+totrigger=4167
+
+//[areatrigger 4167]
+name=Frostwyrm Lair - Inside
+pos=533 3498.16 -5349.03 144.968
+totrigger=4156
+
+[areatrigger 5242]
+name=Mount Hyjal Entrance
+pos=1 4561.84912100 -3932.86547900 942.39263900
+script=InstanceLimiter
+topos=1 4622.72021500 -3844.44921900 943.82086200
+
+[areatrigger 5243]
+name=Mount Hyjal Exit
+pos=1 4608.27880900 -3865.14868200 944.18463100
+topos=1 4556.45263700 -3942.53418000 943.07684300
+
+
+[areatrigger 5244]
+name=Arathi Basin Alliance Enter
+pos=529 708.337036 708.889771 -17.999359
+script=BattlegroundGate
+topos=1 4556.45263700 -3942.53418000 943.07684300
+
+[areatrigger 30004]
+name=Middle of Alterac Valley - PvP Area
+pos=30 -219.28 -283.46 10.89
+
+[areatrigger 30005]
+name=Stone Hearth Outpost - Alliance Half - PvP Area
+pos=30 -6.355 -411.18 45.43
+
+[areatrigger 30006]
+name=Iceblood Garrison - Horde Half - PvP Area
+pos=30 -489.13 -190.27 56.79
+
+[areatrigger 30007]
+name=Stone Earth Outpost - Alterac Valley - PvP Area
+pos=30 -133.29 -534.24 45.93
+
+[areatrigger 30008]
+name=Frostwolf Keep - Horde Starting Area - PvP Area
+pos=30 -1325.13 -290.89 90.73
+
+[areatrigger 30009]
+name=Dun Baldar - Alliance Starting Area - PvP Area
+pos=30 666.30 -29.26 51.12
+
+[areatrigger 33008]
+name=Main Courtyard - Shadowfang Keep - Silverpine Forest - Azeroth
+pos=33 -211.37 2197.26 79.76
+
+[areatrigger 33009]
+name=Dinner Hall - Shadowfang Keep - Silverpine Forest - Azeroth
+pos=33 -270.84 2295.69 76.97
+
+[areatrigger 33010]
+name=Overlook of Pyrewood Village - Shadowfang Keep - Silverpine Forest - Azeroth
+pos=33 -267.13 2151.72 95.78
+
+[areatrigger 33011]
+name=Top of Main Tower Floor 1 - Shadowfang Keep - Silverpine Forest - Azeroth
+pos=33 -146.23 2172.71 127.95
+
+[areatrigger 33012]
+name=Top of Main Tower Floor 2 - Shadowfang Keep - Silverpine Forest - Azeroth
+pos=33 -83.20 2153.63 155.63
+
+[areatrigger 33013]
+name=Tower Outlook - Shadowfang Keep - Silverpine Forest - Azeroth
+pos=33 -260.43 2113.79 128.20
+
+[areatrigger 34002]
+name=Block A Stormwind Stockade - Stormwind City - Azeroth
+pos=34 153.01 108.39 -35.19
+
+[areatrigger 34003]
+name=Block B Stormwind Stockade - Stormwind City - Azeroth
+pos=34 102.75 -106.51 -35.19
+
+[areatrigger 35002]
+name=End Side of Vault - Stormwind City - Azeroth
+pos=35 -99.69 148.89 -40.38
+
+[areatrigger 36003]
+name=Mast Room - The Deadmines - Westfall - Azeroth
+pos=36 -289.55 -504.04 50.06
+
+[areatrigger 36004]
+name=Goblin Foundry - The Deadmines - Westfall - Azeroth
+pos=36 -198.05 -556.25 51.23
+
+[areatrigger 36005]
+name=Ironclad Cove - Contested Territory - The Deadmines - Westfall - Azeroth
+pos=36 0.50 -779.34 9.78
+
+[areatrigger 36006]
+name=Exit - The Deadmines - Westfall - Azeroth
+pos=36 -108.16 -1001.45 34.06
+
+[areatrigger 37000]
+name=Alliance Start Point
+pos=37 1042.35 29.08 334.19
+
+[areatrigger 37001]
+name=Horde Start Point
+pos=37 140.01 1202.75 295.07
+
+[areatrigger 44000]
+name=The Grand Vestibule - Tirisfal Glades - Azeroth
+pos=44 75.44 -0.55 18.68
+
+[areatrigger 169000]
+name=Emerald Forest (Statue)
+pos=169 3105.41 3096.78 27.00
+
+[areatrigger 169001]
+name=The Verdant Fields
+pos=169 -2128.12 -1005.89 132.21
+
+[areatrigger 169002]
+name=Emerald Forest (Trees)
+pos=169 2732.93 -3319.63 101.28
+
+[areatrigger 229002]
+name=Raid Entrance - Searing Gorge - Burning Steppes - Azeroth
+pos=229 172.48 -474.53 116.84
+
+[areatrigger 269004]
+name=Green Portal - The Black Morass - Tanaris - Kalimdor
+pos=269 -2033.50 7120.97 23.52
+
+[areatrigger 269005]
+name=Eventual Site of Entrance - Hillsbrad Foothills - Azeroth
+pos=0 -287.02 -430.40 66.13
+
+[areatrigger 289005]
+name=Scholomance Balcony - Western Plaguelands - Azeroth
+pos=289 318.40 93.54 101.65
+
+[areatrigger 309000]
+name=Zul'Gurub Entrance - Stranglethorn Vale - Azeroth
+pos=0 -11916.31 -1204.115 92.26
+
+[areatrigger 309001]
+name=Zul'Gurub Exit - Stranglethorn Vale - Azeroth
+pos=309 -11916.00 -1251.47 92.32
+
+[areatrigger 329003]
+name=The Crimson Throne - Eastern Plaguelands - Azeroth
+pos=329 3422.95 -3053.52 136.50
+
+[areatrigger 329004]
+name=Stratholme - Eastern Plaguelands - Azeroth
+pos=0 3344.49 -3379.79 144.78
+
+
+
+[areatrigger 363738]
+name=Murloc camps
+pos=0 -3291.77002 -958.614014 1
+script=Murloc_camps_363738
+
+[areatrigger 369004]
+name=Deeprun Tram - Underwater area
+pos=369 -9.96 1238.17 -126.10
+
+[areatrigger 451000]
+name=Programmers Isle
+pos=451 16391.80 16341.20 69.44
+
+[areatrigger 451001]
+name=Designers Isle
+pos=451 16303.50 -16173.50 40.44
+
+[areatrigger 451002]
+name=GM's Island
+pos=1 16222.10 16252.10 12.59
+
+[areatrigger 469006]
+name=Blackwing Lair Rooftop Terrace - Blackrock Mountain - Azeroth
+pos=469 -7590.25 -1257.61 481.55
+
+[areatrigger 700001]
+name=Aerie Peak Eastern Kingdoms
+pos=0 234.85 -2127.76 118.10
+
+[areatrigger 700002]
+name=Aldrassil Kalimdor
+pos=1 10479.60 812.28 1322.75
+
+[areatrigger 700003]
+name=Algaz Station Eastern Kingdoms
+pos=0 -4817.79 -2666.70 351.20
+
+[areatrigger 700004]
+name=Alliance Azshara Crater
+pos=37 -448.98 -1028.22 431.97
+
+[areatrigger 700005]
+name=Angor Fortress Eastern Kingdoms
+pos=0 -6392.65 -3158.00 299.77
+
+[areatrigger 700006]
+name=Anvilmar Eastern Kingdoms
+pos=0 -6134.28 383.76 399.25
+
+[areatrigger 700007]
+name=Ariden's Camp Eastern Kingdoms
+pos=0 -10443.30 -2141.10 90.78
+
+[areatrigger 700008]
+name=Astranaar Kalimdor
+pos=1 2720.43 -382.39 107.09
+
+[areatrigger 700009]
+name=Auberdine Kalimdor
+pos=1 6439.33 411.95 10.86
+
+[areatrigger 700010]
+name=Ban'ethil Barrow Den Kalimdor
+pos=1 9864.17 1557.41 1329.30
+
+[areatrigger 700011]
+name=Bathran's Haunt Kalimdor
+pos=1 3827.37 -161.31 -0.61
+
+[areatrigger 700012]
+name=Beggar's Haunt Eastern Kingdoms
+pos=0 -10349.70 -1538.80 92.64
+
+[areatrigger 700013]
+name=Blackwood Den Kalimdor
+pos=1 4619.42 25.61 70.50
+
+[areatrigger 700014]
+name=Bloodfen Burrow Kalimdor
+pos=1 -4335.04 -2639.53 39.63
+
+[areatrigger 700015]
+name=Bloodhoof Village Kalimdor
+pos=1 -2323.92 -394.98 -9.13
+
+[areatrigger 700016]
+name=Bloodtooth Camp Kalimdor
+pos=1 1612.52 -1465.10 157.02
+
+[areatrigger 700017]
+name=Bloodvenom Post Kalimdor
+pos=1 5111.98 -353.40 357.23
+
+[areatrigger 700018]
+name=Bluefen Kalimdor
+pos=1 -2685.32 -3087.58 41.45
+
+[areatrigger 700019]
+name=Bolgan's Hole Kalimdor
+pos=1 -2281.95 2499.60 73.75
+
+[areatrigger 700020]
+name=Bones of Grakkarond Kalimdor
+pos=1 -7242.11 882.53 -1.29
+
+[areatrigger 700021]
+name=Booty Bay Eastern Kingdoms
+pos=0 -14383.30 487.14 -29.56
+
+[areatrigger 700022]
+name=Boulderfist Outpost Eastern Kingdoms
+pos=0 -1194.05 -2119.16 61.88
+
+[areatrigger 700023]
+name=Brill Eastern Kingdoms
+pos=0 2249.85 278.41 34.11
+
+[areatrigger 700024]
+name=Browman Mill Eastern Kingdoms
+pos=0 2483.98 -5183.79 76.11
+
+[areatrigger 700025]
+name=Camp Mojache Kalimdor
+pos=1 -4394.98 215.61 25.41
+
+[areatrigger 700026]
+name=Camp Narache Kalimdor
+pos=1 -2906.49 -253.61 52.94
+
+[areatrigger 700027]
+name=Camp Taurajo Kalimdor
+pos=1 -2352.66 -1921.67 95.78
+
+[areatrigger 700028]
+name=Chillwind Camp Eastern Kingdoms
+pos=0 921.05 -1421.46 66.55
+
+[areatrigger 700029]
+name=Cliffspring Falls Kalimdor
+pos=1 6870.57 -662.40 86.64
+
+[areatrigger 700030]
+name=Coldtooth Mine Alterac Valley
+pos=30 -948.54 -193.08 99.58
+
+[areatrigger 700031]
+name=Cragpool Lake Kalimdor
+pos=1 1543.57 70.13 -10.38
+
+[areatrigger 700032]
+name=Darkcloud Pinnacle Kalimdor
+pos=1 -5086.21 -1919.44 88.18
+
+[areatrigger 700033]
+name=Darkmist Cavern Kalimdor
+pos=1 -2829.79 -2722.81 36.79
+
+[areatrigger 700034]
+name=Darkshire Eastern Kingdoms
+pos=0 -10564.70 -1170.65 28.05
+
+[areatrigger 700035]
+name=Darnassus Kalimdor
+pos=1 9951.75 2254.50 1335.42
+
+[areatrigger 700036]
+name=Deadwind Ravine Eastern Kingdoms
+pos=0 -10572.00 -1841.05 109.05
+
+[areatrigger 700037]
+name=Deathknell Eastern Kingdoms
+pos=0 1879.83 1588.20 90.17
+
+[areatrigger 700038]
+name=Demon Fall Canyon Kalimdor
+pos=1 1702.45 -3150.99 93.52
+
+[areatrigger 700039]
+name=Dolanaar Kalimdor
+pos=1 9787.99 949.90 1306.73
+
+[areatrigger 700040]
+name=Drywhisker Gorge Eastern Kingdoms
+pos=0 -1014.22 -3827.39 145.41
+
+[areatrigger 700041]
+name=Dun Algaz Eastern Kingdoms
+pos=0 -4191.02 -2373.14 205.15
+
+[areatrigger 700042]
+name=Dun Baldar Alterac Valley
+pos=30 693.10 -19.20 51.12
+
+[areatrigger 700043]
+name=Dun Baldar North Bunker Alterac Valley
+pos=30 678.08 -137.38 76.08
+
+[areatrigger 700044]
+name=Dun Mandarr Kalimdor
+pos=1 5718.83 -4507.31 761.08
+
+[areatrigger 700045]
+name=Dun Modr Eastern Kingdoms
+pos=0 -2610.26 -2350.56 81.59
+
+[areatrigger 700046]
+name=Dustbelch Grotto Eastern Kingdoms
+pos=0 -7320.59 -2265.09 244.55
+
+[areatrigger 700047]
+name=East Frostwolf Tower Alterac Valley
+pos=30 -1301.47 -307.24 127.89
+
+[areatrigger 700048]
+name=Echo Ridge Mine Eastern Kingdoms
+pos=0 -8676.57 -119.63 91.42
+
+[areatrigger 700049]
+name=Emberstrife's Den Kalimdor
+pos=1 -4987.73 -3832.99 44.85
+
+[areatrigger 700050]
+name=Everlook Kalimdor
+pos=1 6723.46 -4662.50 722.81
+
+[areatrigger 700051]
+name=Falfarren River Kalimdor
+pos=1 2231.21 -2222.91 94.41
+
+[areatrigger 700052]
+name=Feathermoon Kalimdor
+pos=1 -4434.99 3276.74 11.78
+
+[areatrigger 700053]
+name=Fel Rock Kalimdor
+pos=1 10050.60 1031.20 1329.95
+
+[areatrigger 700054]
+name=Flame Crest Eastern Kingdoms
+pos=0 -7479.77 -2186.40 166.15
+
+[areatrigger 700055]
+name=Forest Song Kalimdor
+pos=1 2880.33 -3287.54 157.82
+
+[areatrigger 700056]
+name=Fray Island Kalimdor
+pos=1 -1668.51 -4329.20 3.27
+
+[areatrigger 700057]
+name=Freewind Post Kalimdor
+pos=1 -5454.07 -2445.50 90.11
+
+[areatrigger 700058]
+name=Frostwolf Graveyard Alterac Valley
+pos=30 -1083.67 -307.44 57.77
+
+[areatrigger 700059]
+name=Frostwolf Keep Alterac Valley
+pos=30 -1369.01 -225.37 98.78
+
+[areatrigger 700060]
+name=Frostwolf Relief Hut Alterac Valley
+pos=30 -1414.89 -306.06 93.25
+
+[areatrigger 700061]
+name=Fungal Rock Kalimdor
+pos=1 -6370.15 -1836.52 -258.03
+
+[areatrigger 700062]
+name=Gadgetzan Kalimdor
+pos=1 -7139.15 -3752.11 8.54
+
+[areatrigger 700063]
+name=Ghost Walker Post Kalimdor
+pos=1 -1224.06 1736.67 90.02
+
+[areatrigger 700064]
+name=Goldshire Eastern Kingdoms
+pos=0 -9480.09 63.52 56.18
+
+[areatrigger 700065]
+name=Greenpaw Village Kalimdor
+pos=1 2291.29 -1444.96 87.88
+
+[areatrigger 700066]
+name=Grim Batol Eastern Kingdoms
+pos=0 -4055.00 -3448.54 283.12
+
+[areatrigger 700067]
+name=Grom'gol Eastern Kingdoms
+pos=0 -12378.40 185.73 3.06
+
+[areatrigger 700068]
+name=Grosh'gok Compound Eastern Kingdoms
+pos=0 -11112.20 -2335.63 117.13
+
+[areatrigger 700069]
+name=Hammerfall Eastern Kingdoms
+pos=0 -991.57 -3528.34 56.55
+
+[areatrigger 700070]
+name=Hetaera's Clutch Kalimdor
+pos=1 3556.64 -6232.79 44.01
+
+[areatrigger 700071]
+name=Horde Azshara Crater
+pos=37 -669.13 -483.29 387.27
+
+[areatrigger 700072]
+name=Iceblood Garrison Alterac Valley
+pos=30 -537.81 -168.36 57.71
+
+[areatrigger 700073]
+name=Iceblood Graveyard Alterac Valley
+pos=30 -531.34 -405.27 30.77
+
+[areatrigger 700074]
+name=Iceblood Tower Alterac Valley
+pos=30 -560.38 -271.28 87.92
+
+[areatrigger 700075]
+name=Icewing Bunker Alterac Valley
+pos=30 208.79 -367.94 68.60
+
+[areatrigger 700076]
+name=Icewing Cavern Alterac Valley
+pos=30 276.06 61.15 20.34
+
+[areatrigger 700077]
+name=Ironband's Compound Eastern Kingdoms
+pos=0 -5858.70 -2004.10 401.65
+
+[areatrigger 700078]
+name=Irondeep Mine Alterac Valley
+pos=30 801.66 -330.02 86.72
+
+[areatrigger 700079]
+name=Ironforge Eastern Kingdoms
+pos=0 -5021.00 -834.06 495.32
+
+[areatrigger 700080]
+name=Ironstone Camp Kalimdor
+pos=1 -5848.05 -3412.38 -51.06
+
+[areatrigger 700081]
+name=Irontree Cavern Kalimdor
+pos=1 6481.87 -1571.00 438.97
+
+[areatrigger 700082]
+name=Janeiro's Point Eastern Kingdoms
+pos=0 -14179.60 718.00 28.29
+
+[areatrigger 700083]
+name=Jasperlode Mine Eastern Kingdoms
+pos=0 -9184.50 -605.89 62.82
+
+[areatrigger 700084]
+name=Kargath Eastern Kingdoms
+pos=0 -6676.42 -2186.68 245.83
+
+[areatrigger 700085]
+name=Kharanos Eastern Kingdoms
+pos=0 -5585.95 -482.13 397.02
+
+[areatrigger 700086]
+name=Lakeshire Eastern Kingdoms
+pos=0 -9227.69 -2201.47 63.93
+
+[areatrigger 700087]
+name=Lariss Pavillion Kalimdor
+pos=1 -4052.72 81.55 77.18
+
+[areatrigger 700088]
+name=Lost Point Kalimdor
+pos=1 -3925.50 -2862.15 46.48
+
+[areatrigger 700089]
+name=Maclure Vineyards Eastern Kingdoms
+pos=0 -9948.39 69.16 33.30
+
+[areatrigger 700090]
+name=Maraudon Kalimdor
+pos=1 -1422.62 2918.45 136.15
+
+[areatrigger 700091]
+name=Marshal's Refuge Kalimdor
+pos=1 -6143.21 -1078.89 -198.37
+
+[areatrigger 700092]
+name=Menethil Harbor Eastern Kingdoms
+pos=0 -3672.70 -828.46 9.90
+
+[areatrigger 700093]
+name=Mirage Raceway Kalimdor
+pos=1 -6239.42 -3973.12 -58.75
+
+[areatrigger 700094]
+name=Mirror Lake Eastern Kingdoms
+pos=0 -9389.26 458.43 38.29
+
+[areatrigger 700095]
+name=Moon Horror Den Kalimdor
+pos=1 7123.02 -4631.57 639.68
+
+[areatrigger 700096]
+name=Moonbrook Eastern Kingdoms
+pos=0 -11017.07 1510.17 43.17
+
+[areatrigger 700097]
+name=Mor'shan Base Camp Kalimdor
+pos=1 1035.13 -2113.34 122.95
+
+[areatrigger 700098]
+name=Night Web's Hollow Eastern Kingdoms
+pos=0 2046.11 1829.45 107.82
+
+[areatrigger 700099]
+name=Nighthaven Kalimdor
+pos=1 7961.75 -2491.77 487.88
+
+[areatrigger 700100]
+name=Nijel's Point Kalimdor
+pos=1 202.52 1308.24 190.24
+
+[areatrigger 700101]
+name=North Point Tower Kalimdor
+pos=1 -2884.79 -3429.99 39.36
+
+[areatrigger 700102]
+name=Northshire Abbey Eastern Kingdoms
+pos=0 -8896.16 -179.33 80.29
+
+[areatrigger 700103]
+name=Northshire Vineyards Eastern Kingdoms
+pos=0 -9067.35 -333.97 73.45
+
+[areatrigger 700104]
+name=Onyxia's Lair Kalimdor
+pos=1 -4698.06 -3720.58 50.46
+
+[areatrigger 700105]
+name=Orgrimmar Kalimdor
+pos=1 1381.77 -4371.16 26.02
+
+[areatrigger 700106]
+name=Pre-alliance POI test Alterac Valley
+pos=30 451.37 -127.12 7.11
+
+[areatrigger 700107]
+name=Rage Scar Hold Kalimdor
+pos=1 -3842.71 1738.94 149.97
+
+[areatrigger 700108]
+name=Ratchet Kalimdor
+pos=1 -951.36 -3680.07 8.04
+
+[areatrigger 700109]
+name=Ravaged Twilight Camp Kalimdor
+pos=1 -6227.24 1773.23 15.12
+
+[areatrigger 700110]
+name=Raven Hill Eastern Kingdoms
+pos=0 -10752.53 310.43 40.16
+
+[areatrigger 700111]
+name=Razor Hill Kalimdor
+pos=1 312.66 -4745.52 9.55
+
+[areatrigger 700112]
+name=Razorwind Canyon Kalimdor
+pos=1 636.96 -4534.04 8.82
+
+[areatrigger 700113]
+name=Refuge Pointe Eastern Kingdoms
+pos=0 -1251.05 -2526.81 20.71
+
+[areatrigger 700114]
+name=Render's Rock Eastern Kingdoms
+pos=0 -8674.12 -2290.05 157.01
+
+[areatrigger 700115]
+name=Rethban Caverns Eastern Kingdoms
+completes_quest=1699
+pos=0 -8970.76 -2002.70 140.76
+script=MasterScript
+
+[areatrigger 700116]
+name=Rethress Sanctum Kalimdor
+pos=1 2195.67 -6438.33 2.13
+
+[areatrigger 700117]
+name=Revantusk Village Eastern Kingdoms
+pos=0 -573.46 -4590.51 10.41
+
+[areatrigger 700118]
+name=Roguefeather Den Kalimdor
+pos=1 -5466.71 -1636.27 29.03
+
+[areatrigger 700119]
+name=Roland's Doom Eastern Kingdoms
+pos=0 -11076.00 -1139.98 42.88
+
+[areatrigger 700120]
+name=Ruins of Solarsal Kalimdor
+pos=1 -4852.91 3616.63 16.42
+
+[areatrigger 700121]
+name=Scalebeard's Cave Kalimdor
+pos=1 3705.10 -6043.45 2.51
+
+[areatrigger 700122]
+name=Scholomance Eastern Kingdoms
+pos=0 1262.19 -2579.41 126.37
+
+[areatrigger 700123]
+name=Scrabblescrew's Camp Kalimdor
+pos=1 -1407.87 1493.13 60.89
+
+[areatrigger 700124]
+name=Sen'jin Village Kalimdor
+pos=1 -819.49 -4918.24 19.34
+
+[areatrigger 700125]
+name=Sentinel Hill Eastern Kingdoms
+pos=0 -10503.70 1027.76 55.58
+
+[areatrigger 700126]
+name=Sentry Point Kalimdor
+pos=1 -3476.59 -4109.08 17.10
+
+[areatrigger 700127]
+name=Shadowprey Village Kalimdor
+pos=1 -1657.85 3097.92 30.50
+
+[areatrigger 700128]
+name=Shadowthread Cave Kalimdor
+pos=1 10756.20 921.30 1338.56
+
+[areatrigger 700129]
+name=Shady Rest Inn Kalimdor
+pos=1 -3723.63 -2535.18 69.57
+
+[areatrigger 700130]
+name=Shalzaru's Lair Kalimdor
+pos=1 -5492.37 3622.79 3.70
+
+[areatrigger 700131]
+name=Shrine of Remulos Kalimdor
+pos=1 7856.18 -2215.45 471.30
+
+[areatrigger 700132]
+name=Silverwind Refuge Kalimdor
+pos=1 2130.27 -1190.25 99.86
+
+[areatrigger 700133]
+name=Silverwing Grove Kalimdor
+pos=1 1462.48 -1858.93 123.55
+
+[areatrigger 700134]
+name=Silverwing Outpost Kalimdor
+pos=1 1776.64 -2065.15 104.19
+
+[areatrigger 700135]
+name=Sishir Canyon Kalimdor
+pos=1 515.85 624.05 68.16
+
+[areatrigger 700136]
+name=Slaughter Hollow Eastern Kingdoms
+pos=0 861.22 -558.22 146.61
+
+[areatrigger 700137]
+name=Sleeping Gorge Eastern Kingdoms
+pos=0 -10740.80 -1973.68 134.63
+
+[areatrigger 700138]
+name=Slither Rock Eastern Kingdoms
+pos=0 -7652.52 -3030.61 134.26
+
+[areatrigger 700139]
+name=Snowfall Graveyard Alterac Valley
+pos=30 -203.09 -112.60 78.49
+
+[areatrigger 700140]
+name=Southshore Eastern Kingdoms
+pos=0 -803.03 -531.73 15.97
+
+[areatrigger 700141]
+name=Spirit Den Eastern Kingdoms
+pos=0 -13751.40 -18.32 49.28
+
+[areatrigger 700142]
+name=Splintertree Post Kalimdor
+pos=1 2286.41 -2564.67 105.48
+
+[areatrigger 700143]
+name=Splithoof Hold Kalimdor
+pos=1 -5065.61 -2367.61 -53.67
+
+[areatrigger 700144]
+name=Stagalbog Cave Eastern Kingdoms
+pos=0 -10803.20 -3739.01 27.56
+
+[areatrigger 700145]
+name=Steelgrill's Depot Eastern Kingdoms
+pos=0 -5488.04 -658.67 394.30
+
+[areatrigger 700146]
+name=Stonard Eastern Kingdoms
+pos=0 -10443.70 -3277.49 20.18
+
+[areatrigger 700147]
+name=Stonefield Farm Eastern Kingdoms
+pos=0 -9901.14 378.19 35.28
+
+[areatrigger 700148]
+name=Stonehearth Bunker Alterac Valley
+pos=30 -160.40 -454.18 50.42
+
+[areatrigger 700149]
+name=Stonehearth Graveyard Alterac Valley
+pos=30 65.89 -415.62 49.34
+
+[areatrigger 700150]
+name=Stonehearth Outpost Alterac Valley
+pos=30 1.67 -292.68 15.78
+
+[areatrigger 700151]
+name=Stonemaul Ruins Kalimdor
+pos=1 -4346.02 -3321.15 34.26
+
+[areatrigger 700152]
+name=Stonetalon Peak Kalimdor
+pos=1 2658.78 1449.71 226.14
+
+[areatrigger 700153]
+name=Stormpike Aid Station Alterac Valley
+pos=30 640.91 -18.19 51.80
+
+[areatrigger 700154]
+name=Stormpike Graveyard Alterac Valley
+pos=30 666.57 -305.43 30.29
+
+[areatrigger 700155]
+name=Stormrage Barrow Dens Kalimdor
+pos=1 7564.51 -2951.72 466.68
+
+[areatrigger 700156]
+name=Stormwind Eastern Kingdoms
+pos=0 -9153.77 364.06 90.48
+
+[areatrigger 700157]
+name=Sun Rock Retreat Kalimdor
+pos=1 936.31 910.97 104.44
+
+[areatrigger 700158]
+name=Swamplight Manor Kalimdor
+pos=1 -2949.47 -3893.50 35.03
+
+[areatrigger 700159]
+name=Tahonda Ruins Kalimdor
+pos=1 -6569.91 -3894.97 -58.75
+
+[areatrigger 700160]
+name=Talrendis Point Kalimdor
+pos=1 2707.72 -3869.25 104.21
+
+[areatrigger 700161]
+name=Tarren Mill Eastern Kingdoms
+pos=0 -27.04 -900.56 55.96
+
+[areatrigger 700162]
+name=Temple of Atal'Hakkar Eastern Kingdoms
+pos=0 -10429.90 -3828.52 37.99
+
+[areatrigger 700163]
+name=Temple of Zin-Malor Kalimdor
+pos=1 3549.15 -5359.12 204.10
+
+[areatrigger 700164]
+name=Terrorweb Tunnel Eastern Kingdoms
+pos=0 3035.33 -2773.90 102.87
+
+[areatrigger 700165]
+name=Thalanaar Kalimdor
+pos=1 -4510.03 -779.47 -41.54
+
+[areatrigger 700166]
+name=The Cleft Kalimdor
+pos=1 10316.40 1200.62 1458.09
+
+[areatrigger 700167]
+name=The Crossroads Kalimdor
+pos=1 -455.90 -2652.15 95.59
+
+[areatrigger 700168]
+name=The Den Kalimdor
+pos=1 -604.10 -4202.92 38.73
+
+[areatrigger 700169]
+name=The Dor'Danil Barrow Den Kalimdor
+pos=1 1776.23 -2678.36 111.67
+
+[areatrigger 700170]
+name=The Ruins of Kel'Theril Kalimdor
+pos=1 6426.76 -4304.99 666.74
+
+[areatrigger 700171]
+name=The Ruins of Ordil'Aran Kalimdor
+pos=1 3493.89 -119.60 0.72
+
+[areatrigger 700172]
+name=The Rustmaul Digsite Kalimdor
+pos=1 -6490.61 -3449.15 -58.78
+
+[areatrigger 700173]
+name=The Sepulcher Eastern Kingdoms
+pos=0 508.07 1619.02 125.27
+
+[areatrigger 700174]
+name=The Swarming Pillar Kalimdor
+pos=1 -7106.40 742.59 23.44
+
+[areatrigger 700175]
+name=The Talon Den Kalimdor
+pos=1 2416.89 1792.39 394.94
+
+[areatrigger 700176]
+name=The Talondeep Path Kalimdor
+pos=1 1531.94 -576.57 68.96
+
+[areatrigger 700177]
+name=The Talondeep Path Kalimdor
+pos=1 1930.26 -732.68 114.53
+
+[areatrigger 700178]
+name=The Tower of Arathor Eastern Kingdoms
+pos=0 -1778.21 -1513.16 64.92
+
+[areatrigger 700179]
+name=The Undercity Eastern Kingdoms
+pos=0 1849.69 235.70 61.66
+
+[areatrigger 700180]
+name=The Weathered Nook Kalimdor
+pos=1 -5213.85 -2794.53 -7.09
+
+[areatrigger 700181]
+name=The Weeping Cave Eastern Kingdoms
+pos=0 2249.61 -2389.63 59.80
+
+[areatrigger 700182]
+name=Thelsamar Eastern Kingdoms
+pos=0 -5349.27 -2959.91 323.63
+
+[areatrigger 700183]
+name=Theramore Isle Kalimdor
+pos=1 -3680.17 -4388.51 10.56
+
+[areatrigger 700184]
+name=Thorium Point Eastern Kingdoms
+pos=0 -6513.68 -1142.76 309.82
+
+[areatrigger 700185]
+name=Thunder Bluff Kalimdor
+pos=1 -1205.41 29.42 126.35
+
+[areatrigger 700186]
+name=Tidefury Cove Kalimdor
+pos=1 -4300.98 -4062.71 -10.60
+
+[areatrigger 700187]
+name=Timbermaw Hold Kalimdor
+pos=1 6900.63 -2298.18 588.52
+
+[areatrigger 700188]
+name=Timbermaw Hold Kalimdor
+pos=1 6817.78 -2097.68 624.84
+
+[areatrigger 700189]
+name=Tor'kren Farm Kalimdor
+pos=1 726.30 -4242.41 17.29
+
+[areatrigger 700190]
+name=Tower of Ilgalar Eastern Kingdoms
+pos=0 -9281.33 -3318.81 122.25
+
+[areatrigger 700191]
+name=Tower Point Alterac Valley
+pos=30 -759.27 -348.04 104.59
+
+[areatrigger 700192]
+name=Twilight Outpost Kalimdor
+pos=1 -7929.11 1833.28 4.87
+
+[areatrigger 700193]
+name=Twilight Post Kalimdor
+pos=1 -6762.18 1640.55 6.84
+
+[areatrigger 700194]
+name=Uldaman Eastern Kingdoms
+pos=0 -6092.01 -3179.35 257.19
+
+[areatrigger 700195]
+name=Uldum Kalimdor
+pos=1 -9635.41 -2787.20 7.86
+
+[areatrigger 700196]
+name=Uther's Tomb Eastern Kingdoms
+pos=0 969.18 -1825.52 99.61
+
+[areatrigger 700197]
+name=Valley of Bones Kalimdor
+pos=1 -2251.19 1513.55 63.59
+
+[areatrigger 700198]
+name=Valor's Rest Kalimdor
+pos=1 -6344.32 -279.02 -0.51
+
+[areatrigger 700199]
+name=Venture Co. Mine Kalimdor
+pos=1 -1501.49 -1036.19 151.72
+
+[areatrigger 700200]
+name=Wailing Caverns Kalimdor
+pos=1 -837.97 -2037.00 80.47
+
+[areatrigger 700201]
+name=Warsong Labor Camp Kalimdor
+pos=1 1575.91 -2463.94 98.55
+
+[areatrigger 700202]
+name=Wavestrider Beach Kalimdor
+pos=1 -7693.45 -4878.96 0.66
+
+[areatrigger 700203]
+name=Weazel's Crater Kalimdor
+pos=1 -5799.94 -3899.53 -96.74
+
+[areatrigger 700204]
+name=West Frostwolf Tower Alterac Valley
+pos=30 -1298.09 -266.70 127.80
+
+[areatrigger 700205]
+name=Westbrook Garrison Eastern Kingdoms
+pos=0 -9615.71 667.33 38.65
+
+[areatrigger 700206]
+name=Whitereach Post Kalimdor
+pos=1 -4917.35 -1375.50 -52.37
+
+[areatrigger 700207]
+name=Wildbend River Kalimdor
+pos=1 5056.04 220.76 22.91
+
+[areatrigger 700208]
+name=Wildhammer Keep Eastern Kingdoms
+pos=0 316.95 -2119.30 122.04
+
+[areatrigger 700209]
+name=Wildpaw Cavern Alterac Valley
+pos=30 -1436.10 -455.65 70.52
+
+[areatrigger 700210]
+name=Windshear Mine Kalimdor
+pos=1 981.95 -358.90 15.23
+
+[areatrigger 700211]
+name=Winterax Hold Alterac Valley
+pos=30 -129.34 102.48 96.20
+
+[areatrigger 700212]
+name=Woodpaw Den Kalimdor
+pos=1 -4835.20 863.05 137.05
+
+[areatrigger 700213]
+name=Woodpaw Hills Kalimdor
+pos=1 -4915.81 199.28 52.30
+
+[areatrigger 700214]
+name=Xavian Kalimdor
+pos=1 2936.56 -2822.67 212.73
+
+[areatrigger 700215]
+name=Zoram'gar Outpost Kalimdor
+pos=1 3362.22 1010.16 3.60
+
+[areatrigger 800000]
+name=Zerg Hive - Southwind Village - Silithus - Kalimdor
+pos=1 -7182.50 441.37 64.09
+
+[areatrigger 800001]
+name=On top The Scarab Wall - Silithus - Kalimdor
+pos=1 -8136.24 1525.43 38.44
+
+[areatrigger 800002]
+name=Temple - Silithus - Kalimdor
+pos=1 -9678.49 1529.20 43.00
+
+[areatrigger 800010]
+name=Supposed Entrance Portal - Dark Portal - Blasted Lands - Azeroth
+pos=0 -11894.80 -3206.52 -14.62
+
+[areatrigger 800011]
+name=Supposed Exit Portal - The Tainted Scar
+pos=0 -14958.50 12761.60 36.04
+
+[areatrigger 800012]
+name=Ruined Orc Village on a Hill - The Tainted Scar
+pos=0 -14357.70 12317.80 -2.36
+
+[areatrigger 800013]
+name=Ruined Human settlement - The Tained Scar
+pos=0 -14315.90 12908.50 -130.91
+
+[areatrigger 800014]
+name=Corpse of a Pit Lord Manorroth the Destroyer  - The Tained Scar
+pos=0 -13946.70 12416.70 -98.44
+
+[areatrigger 800015]
+name=Draenei Village - The Tained Scar
+pos=0 -13634.80 12462.30 4.28
+
+[areatrigger 800016]
+name=Draenei outlook post - The Tained Scar
+pos=0 -13602.30 12776.90 142.52
+
+[areatrigger 800017]
+name=Spike Cube - The Tained Scar
+pos=0 -13841.80 13327.70 -241.80
+
+[areatrigger 800020]
+name=Hyjal Area - Under Construction
+pos=1 5478.06 -3730.85 1593.44
+
+[areatrigger 800100]
+name=Boulderslide Ravine - Stonetalon Mountains - Kalimdor
+pos=1 -209.66 106.81 97.38
+
+[areatrigger 800101]
+name=Kolkar Crag - Durotar - Kalimdor
+pos=1 -924.94 -4485.63 29.55
+
+[areatrigger 800102]
+name=Bloodhoof Village - Mulgore - Kalimdor
+pos=1 -2366.70 -345.98 -1.29
+
+[areatrigger 800103]
+name=Trisfal - Trisfal Glades - Azeroth
+pos=0 2058.87 245.47 99.77
+
+[areatrigger 800104]
+name=Ratchet - The Barrens - Kalimdor
+pos=1 -1000.14 -3824.60 6.28
+
+[areatrigger 800105]
+name=Top Of Tower Angor Fortress - Badlands - Azeroth
+pos=0 -6479.72 -3131.81 362.74
+
+[areatrigger 800200]
+name=Top Of Mountain Side - Northshire Valley - Elwynn Forest - Azeroth
+pos=0 -8566.85 -352.60 269.29
+
+[areatrigger 800201]
+name=Small House on Mountain Top - Northshire Valley - Elwynn Forest - Azeroth
+pos=0 -8267.30 -220.53 267.87
+
+[areatrigger 800202]
+name=WDDG Owen Vaughn - Northshire Valley - Elwynn Forest - Azeroth
+pos=0 -8324.60 -347.34 145.91
+
+[areatrigger 801000]
+name=Human's - Northshire Valley - Elwynn Forest - Azeroth
+pos=0 -8949.95 -132.49 83.53
+
+[areatrigger 801001]
+name=Night Elf's - Shadowglen - Teldrassil - Kalimdor
+pos=1 10318.19 830.499 1326.38
+
+[areatrigger 801002]
+name=Dwarf's - Coldridge Valley - Dun Morogh - Azeroth
+pos=0 -6230.28 331.10 383.15
+
+[areatrigger 801003]
+name=Gnome's - Coldridge Valley - Dun Morogh - Azeroth
+pos=0 -6229.28 331.09 383.16
+
+[areatrigger 802000]
+name=Undead's - Shadow Grave - Tirisfal Glades - Azeroth
+pos=0 1671.82 1678.08 120.72
+
+[areatrigger 802001]
+name=Orc's - Valley of Trials - Durotar - Kalimdor
+pos=1 -618.52 -4251.67 38.72
+
+[areatrigger 802002]
+name=Troll's - Valley of Trials - Durotar - Kalimdor
+pos=1 -620.53 -4251.68 39.73
+
+[areatrigger 802003]
+name=Tauren's - Camp Narache - Mulgore - Kalimdor
+pos=1 -2917.58 -257.98 53.00
+
+

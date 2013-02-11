@@ -1,0 +1,135 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+# Those additions come from UWC, adapted to StartTCL by Hochelf
+#
+#
+# Translation by Hochelf
+#
+
+
+namespace eval ::WoWEmu::Commands {
+	Texts::Set de select_npc                "Bitte wählt einen NPC aus."
+	Texts::Set de item_not_found            "Item nicht gefunden."
+	Texts::Set de copper                    "Kupfer"
+	Texts::Set de silver                    "Silber"
+	Texts::Set de gold                      "Gold"
+	Texts::Set de invalid_money             "Ungültige Geldmenge"
+	Texts::Set de bad_cmd_args              "Ungültige Argumente"
+	Texts::Set de amount                    "Menge"
+	Texts::Set de added_to                  "hinzugefügt zu"
+	Texts::Set de location_added            "Ort hinzugefügt."
+	Texts::Set de no_location_name          "Keiner (oder zu kurzer) Ortsname."
+	Texts::Set de target                    "Ziel"
+	Texts::Set de no_locations              "Kein Ort."
+	Texts::Set de bad_command               "Ungültiger Befehl."
+	Texts::Set de created_for_route_and     "erstellt für die Route und an den Wegpunkt angeschlossen:"
+	Texts::Set de created                   "erstellt"
+	Texts::Set de banip_usage               "Benutzung: ban <ip> / <list> / <undo>. Für <ip> ersetzt die letzte Ziffer durch 0. Beispiel: 184.157.23.0. Lasst kein Leerzeichen am Ende der IP. <Undo> löscht den letzten Eintrag"
+	Texts::Set de no_ips_lines_to_remove    "Keine IPs oder Einträge zum löschen"
+	Texts::Set de undo_done_last_line       "Undo gemacht, letzter Eintrag gelöscht"
+	Texts::Set de ip_already_banned         "Fehler: IP ist bereits in Bannliste"
+	Texts::Set de ip_list_updated_noerror   "Bannliste aktualisiert, keine Fehler"
+	Texts::Set de thank_for_report          "Vielen Dank\n Nur mit Eurer Hilfe können wir dieses Realm verbessern."
+	Texts::Set de bug_select                "Bitte wählt das fehlerhafte Objekt aus (oder Euch selbst)."
+	Texts::Set de cant_cast_that            "Kann das nicht zaubern!"
+	Texts::Set de input_spell               "Bitte gebt einen Zauber an."
+	Texts::Set de no_adminpass_conf         "Ihr habt keine adminpass.conf!"
+	Texts::Set de incorrect_password        "Falsches Passwort!"
+	Texts::Set de setpassword_enabled       "Altes Passwort korrekt, bitte gebt .setpassword (neues Passwort) ein, um das Passwort zu ändern!"
+	Texts::Set de deleted_from              "gelöscht von"
+	Texts::Set de not_in_inventory          "nicht im Inventar gefunden von:"
+	Texts::Set de only_gm_learn             "Nur GMs dürfen diese Dinge lernen!"
+	Texts::Set de learned_all_langs         "Alle Sprachen und Portaleffekte gelernt!"
+	Texts::Set de learned_gm_spells         "Alle GM zauber gelernt!"
+	Texts::Set de not_while_dead            "Ihr könnt diesen Befehl nicht benutzen, während Iht tot seid."
+	Texts::Set de invalid_selection         "Ungültige Auswahl"
+	Texts::Set de removed_from              "entfernt von"
+	Texts::Set de location_not_found        "ort nicht gefunden."
+	Texts::Set de location_deleted          "Ort gelöscht."
+	Texts::Set de specify_location          "Bitte wählt einen Ort."
+	Texts::Set de cant_emote                "Kann das nicht machen!"
+	Texts::Set de input_emote               "Bitte gebt ein Emote an."
+	Texts::Set de linked_to_start           "an den Start gehängt"
+	Texts::Set de way_saved                 "Weg gespeichert, Wegpunkt"
+	Texts::Set de way_starts_on             "Weg startet am Wegpunkt"
+	Texts::Set de start_way_before          "Startet einen Weg, bevor Ihr versucht, ihn zu speichern!"
+	Texts::Set de target_player             "Ihr müsst einen Spieler auswählen!"
+	Texts::Set de is_gm                     "Der ausgewählte Spieler ist ein GM!"
+	Texts::Set de no_gm                     "Der ausgewählte Spieler ist kein GM!"
+	Texts::Set de no_one_jailed             "Niemand ist im Gefängnis."
+	Texts::Set de character_name            "Charaktername"
+	Texts::Set de reason                    "Grund"
+	Texts::Set de jailed_by                 "Von"
+	Texts::Set de free_not_sure             "Ähm... Nicht sicher, wen Ihr befreien wollt?"
+	Texts::Set de is_not_jailed             "ist nicht im Gefängnis"
+	Texts::Set de unjailed_false            "Der Spieler wurde nicht befreit"
+	Texts::Set de you_freed_by              "Ihr wurdet freigelassen von"
+	Texts::Set de free_and_teleported       "ist jetzt freigelassen und wurde teleportiert nach"
+	Texts::Set de jail_usage                "Wählt einen Spieler\n.jail reason: Auswahl einsperren\n.jail list: gefangene Spieler auflisten\n.jail free: Auswahl freilassen"
+	Texts::Set de jail_not_sure             "Ähm... Nicht sicher, wen Ihr einsperren wollt?"
+	Texts::Set de jail_reason_syntax        "Syntax (mit ausgewähltem Spieler): .jail reason"
+	Texts::Set de now_jailed_by             "Jetzt eingesperrt von"
+	Texts::Set de for                       "Grund"
+	Texts::Set de is_now_jailed_for         "ist jetzt eingesperrt. Grund:"
+	Texts::Set de not_jailed                "Nicht eingesperrt"
+	Texts::Set de cant_teleport             "Kann nicht teleportieren."
+	Texts::Set de name                      "Name"
+	Texts::Set de file                      "Datei"
+	Texts::Set de merged_with_main_file     "zusammengefügt mit waypoints.scp."
+	Texts::Set de the_original              "Die originale"
+	Texts::Set de deleted_run_rescp         "wurde gelöscht. Führt .rescp aus, bevor Ihr den Wegpunkt einem NPC zuordnet."
+	Texts::Set de missing                   "Vermisse"
+	Texts::Set de file_to_merge             "Datei zum zusammenfügen!"
+	Texts::Set de is_reporting              "meldet"
+	Texts::Set de pvp_usage                 "\nGurubashi PvP Arena:\nZum Betreten .pvp enter\nZum To leave the PvP arena type .pvp leave\nFor information type .pvp info"
+	Texts::Set de already_there             "Ihr seid bereits dort!"
+	Texts::Set de no_enter_while_jailed     "Ihr könnt die Arena nicht betreten, während Ihr im Gefängnis seid!"
+	Texts::Set de not_in_arena              "Ihr könnt die Arena nicht verlassen, während Ihr nicht in ihr seid!"
+	Texts::Set de pvp_info                  "Hilfe:\nKämpfe finden ausschließlich im Kampfring statt!\nBei Verstößen wird eingesperrt\nBitte meldet Verstöße an die GMs"
+	Texts::Set de changepassword_first      "Bitte verwendet .changepassword (aktuelles Passwort) erst!"
+	Texts::Set de password_changed          "Passwort geändert."
+	Texts::Set de waypoint_doesnt_exist     "Der Wegpunkt existiert nicht!"
+	Texts::Set de ok_waypoint               "OK: Wegpunkt"
+	Texts::Set de set_for_npc               "setzen für ausgewählten NPC"
+	Texts::Set de waypoint                  "Wegpunkt"
+	Texts::Set de shown                     "gezeigt"
+	Texts::Set de route_started_waypoint    "Route gestartet, Wegpunkt"
+	Texts::Set de finish_before_new         "Beendet aktuelle Route, bevor Ihr eine neue erstellt!"
+	Texts::Set de select_target_first       "Bitte wählt ein Ziel!"
+	Texts::Set de cant_tame_elite           "Ihr könnt keine Elites zähmen!"
+	Texts::Set de cant_tame_player          "Ihr könnt keine Spieler zähmen!"
+	Texts::Set de cant_tame_npc             "Ihr könnt keine NPCs zähmen!"
+	Texts::Set de cant_tame_friendly        "Ihr könnt keine freundlichen Mobs zähmen!"
+	Texts::Set de cant_tame_higher          "Ihr könnt nichts zähmen, was eine höhere Stufe hat, als Ihr!"
+	Texts::Set de beast_tamed               "Ihr könnt dieses Monster zähmen."
+	Texts::Set de you_not_gm                "Ihr seid kein GM!"
+	Texts::Set de closer_to_target          "Ihr müsst näher am Ziel sein!"
+	Texts::Set de now_visible               "Ihr seid nun sichtbar!"
+	Texts::Set de specify_gender            "Ihr müsst ein Geschlecht wählen:\nm für männlich, f für weiblich!"
+	Texts::Set de pet_ran_away              "Euer Haustier ist davongelaufen!"
+	Texts::Set de select_pet                "Ihr müsst euer Haustier auswählen!"
+	Texts::Set de pet_more_life             "Euer Haustier benötigt mehr Lebenspunkte!"
+}
+

@@ -1,0 +1,20 @@
+Use this tool at your own risk, if anything happens to your pc the author is not
+responsible for anything..You agree with this then process..
+
+How to use Money Increaser.exe tool
+Run it first, and then select the creatures.scp file on which you want to increase
+Gold, take backup first of creature.scp file..and then in multipliyer type
+how many times you want to increase it, like say if level gives 2 copper
+in blizzlike and you want to give it like 2 silver, then put 100 in multiplier and
+then click on convert.. 
+After that it will create new file which is changed, and then you take that and replace it
+with the old one..
+
+
+SayWOW increaser is bit kinda hard, easy for those who understand quickly..
+
+
+I didnt made any of these tools...
+
+Khanbaba
+http://afgwarriorz.ath.cx

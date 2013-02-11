@@ -1,0 +1,41 @@
+# Heads Script Languages
+#
+namespace eval ::PvPFunScript {
+    # English
+    # by Rama
+    ::Texts::Set en alliance "Alliance"
+    ::Texts::Set en horde "Horde"
+    ::Texts::Set en give_heads "Give me your Heads!"
+    ::Texts::Set en not_enought_heads "You dont have enough %s Heads!"
+    ::Texts::Set en exit_option "I need to go!"
+    ::Texts::Set en bye_bye "Bye Bye and kill as much %s Players as you can!"
+    
+    # German
+    # by Rama
+    ::Texts::Set de alliance "Allianz"
+    ::Texts::Set de horde "Horde"
+    ::Texts::Set de give_heads "Gib mir deine Kpfe!"
+    ::Texts::Set de not_enought_heads "Du hast nicht genug %s Kpfe!"
+    ::Texts::Set de exit_option "Ich muss gehen!"
+    ::Texts::Set de bye_bye "Byeee und kill so viele %s Spieler wie du kannst!"
+
+    # Czech
+    # by Solfern
+    ::Texts::Set cz alliance "Alliance"
+    ::Texts::Set cz horde "Horda"
+    ::Texts::Set cz give_heads "Dej mi sve hlavy!!"
+    ::Texts::Set cz not_enought_heads "Nemas dostatek %s hlav!"
+    ::Texts::Set cz exit_option "Ja potrebuji jit!"
+    ::Texts::Set cz bye_bye "Bye Bye a zabi co nejvic %s Hracu jak muzes!"
+
+    # French
+    # by CZW and maxhysteria
+    ::Texts::Set fr alliance "Allianceux"
+    ::Texts::Set fr horde "Hordeux"
+    ::Texts::Set fr give_heads "Donnez moi vos ttes!"
+    ::Texts::Set fr not_enought_heads "Vous n'avez pas assez de ttes de %s!"
+    ::Texts::Set fr exit_option "Je dois partir!"
+    ::Texts::Set fr bye_bye "A la prochaine! et tuez autant de joueurs %s que vous pouvez!"
+#
+}
+#

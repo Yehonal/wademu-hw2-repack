@@ -1,0 +1,35 @@
+Roadmap:
+=======
+
+v1.0.0		(YYYY-MM-DD)		  -	Stable release.
+
+v0.9.0 - v0.9.X	(2006-03-27 - 2006-MM-DD) -	Second public stable series.
+
+v0.8.0 - v0.8.4	(2006-03-12 - 2006-03-26) -	First public stable series and
+						big revolution on the working
+						internals.
+
+v0.7.0 - v0.7.2	(2006-03-10 - 2006-03-11) -	Development series used to
+						unify the loading of TBCs and
+						TCLs from the same folder
+						structure.
+
+v0.6.0 - v0.6.6	(2006-02-01 - 2006-03-08) -	Development series used to
+						find the best way to order in a
+						OS independent way the files to
+						load.
+
+v0.5.0		(2006-01-26)		  -	The "incremental"
+						internal version.
+
+v0.4.0		(2006-01-26)		  -	The "with license"
+						internal version.
+
+v0.3.0		(2006-01-14)		  -	The "best of both"
+						internal version.
+
+v0.2.0		(2006-01-14)		  -	The "better make up your mind"
+						internal version.
+
+v0.1.0		(2006-01-13)		  -	The "I sure hope I'm doing it right"
+						internal version.

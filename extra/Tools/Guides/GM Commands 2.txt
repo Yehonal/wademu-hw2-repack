@@ -1,0 +1,92 @@
+===== 
+GAME MASTER'S (GM'S) COMMANDS (In general) 
+===== 
+All Commands are for Ingame use 
+
+Informational commands: 
+.HELP displays command list 
+.WHERE displays map number, coordinates x,y,z and orientation h 
+.INFO displays selected object info 
+.FACTION displays selected object faction 
+.ONLINE displays connected players count on server 
+.TARGETGO selects nearest gameobjects and displays its info 
+.PINGMM displays selected NPC on mini map 
+.LISTSP list of learned spells 
+.LISTSK list of learned skills 
+
+Creation commands: 
+.ADD add item to your inventory, can't grant items to other players 
+.ADDNPC add paralysed NPC at your location with your orientation 
+.ADDGO add gameobject at your location with your orientation 
+.ADDSPAWN add empty spawn if called without parameters 
+.ADDSPAWN NPC add single NPC spawn 
+.ADDSPAWN NPC N add single spawn for N NPCs 
+
+Deletion/kill commands: 
+.DEL delete selected object (your reputation not changed) 
+.KILL kill selected NPC (your reputation decreased) 
+.KILLALLNPC kill all NPC around you 
+.DELALLCORP delete all player dead bodies 
+
+NPC/objects manipulation: 
+.TARGETLINK select spawn for currently selected NPC (not displayed on screen) - 
+i.e. if spawn is unreachable, you can select its NPC then .targetlink 
+and call for spawn to .come) 
+.TURN turns NPC/spawn to look at you 
+.COME asks selected NPC/spawn to come to you 
+.SETLEVEL sets level for NPC/player/GM 
+.SETMODEL sets model for NPC/player/GM 
+.SETSIZE sets size for model of NPC 
+.SETSPEED sets speed for animation and movement of selected NPC 
+.SETSPAWNNPC sets NPC id and (optional) amount to be spawned 
+.SETSPAWNGO sets gameobject to be spawned 
+.SETSPAWNDIST sets spawn radius (or two radii min and max) 
+.SETSPAWNTIME sets interval (or two intervals min and max) to spawn new NPC/gameobject 
+instead of killed one 
+.SETXP sets XP for player/GM 
+.PARALYSE paralyse or free selected NPC 
+.MOVE moves targeted gameobject (selection not visible on screen) relative to its 
+current X Y Z 
+
+Characters commands: 
+.RESURRECT that's it 
+.EXPORTCHAR exports character to separate file 
+.IMPORTCHAR loads character from separate file. WARNING! make sure that there is no 
+player in the world who has same guid! Also the same for every item in player 
+inventory. 
+.LEARN learn some spell for player/GM 
+.DELSP forget some spell (spell list is limited! do not learn everything) 
+.LEARNSK learn some skill for player/GM 
+.DELSK forget some skill (skill list is limited! do not learn everything) 
+
+Teleportation commands: 
+.GO teleport to (map x y z) coordinates. DO NOT forget map parameter! 
+.GOTRIGGER teleport to trigger number 
+.GONAME teleport to player by name 
+.GOGUID teleport to object by GUID 
+
+Server control commands: 
+.SAVE save world and players 
+.SHUTDOWN that's it 
+.RETCL reloads all tcl scripts 
+.RESCP reloads all SCP databases 
+.REHASH rehashes objects (dunno what's that shit about) 
+.CLEARQFLAGS forgets about all completed quests 
+.EXPORTSPAWNSXY <map> <x1> <y1> <x2> <y2> <filename> 
+exports rectangular world area to file 
+
+Misc commands: 
+.PPON turns on pathpoint collection 
+.PPOFF turns off 
+.DISMOUNT dismounts you in case you have lost your mounted icon after logoff 
+
+.BYTES for debug 
+.ADDDYN for debug 
+.STARTTIMER for debug 
+.STOPTIMER for debug 
+.TEST for debug 
+.SETAURA for debug 
+.EXPLORATION for debug 
+.FLAG1 for debug 
+.SETRESTSTATE for debug 
+.SETFLAGS for debug 

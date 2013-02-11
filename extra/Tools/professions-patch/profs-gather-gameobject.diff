@@ -1,0 +1,1168 @@
+--- ../gameobjects.scp	2006-03-20 08:33:04.000000000 -0500
++++ gameobjects.scp	2006-04-11 15:09:41.375000000 -0400
+@@ -1874,31 +1874,28 @@
+ [gameobj 14]
+ name=Kingsblood
+ type=3
+ sound1=1421
+ sound0=45
+ flags=00
+-loot=11040 0.000954882
+-loot=3356 99.6152
+-loot=5503 0.000954882
+-loot=5504 0.00381953
++loottemplate=31
++level=125
+ model=320
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 15]
+ name=Wild Steelbloom
+ type=3
+ sound1=1420
+ sound0=32
+ flags=00
+-loot=3355 99.628
+-loot=5504 0.00222767
+-loot=7974 0.006683
++loottemplate=39
++level=115
+ model=371
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+@@ -2411,36 +2408,28 @@
+ [gameobj 20]
+ name=Peacebloom
+ type=3
+ sound1=1415
+ sound0=29
+ flags=00
+-loot=2447 99.7451
+-loot=2450 0.000397716
+-loot=5056 0.873383
+-loot=5498 0.000397716
+-loot=5503 0.00397716
++loottemplate=20
++level=0
+ model=269
+ size=0.500000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 21]
+ name=Silverleaf
+ type=3
+ sound1=1414
+ sound0=29
+ flags=00
+-loot=5056 0.930706
+-loot=5498 0.000315387
+-loot=5503 0.00220771
+-loot=765 100
+-loot=765 50
+-loot=765 25
+-loot=8050 0.000315387
++loottemplate=21
++level=0
+ model=270
+ size=0.600000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+@@ -2510,79 +2499,70 @@
+ [gameobj 25]
+ name=Mageroyal
+ type=3
+ sound1=2514
+ sound0=9
+ flags=00
+-loot=2452 20.0408
+-loot=5056 1.20408
+-loot=5503 0.00654897
+-loot=5504 0.000935567
+-loot=785 99.6117
++loottemplate=25
++level=50
+ model=268
+ size=0.300000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 26]
+ name=Fadeleaf
+ type=3
+ sound1=1731
+ sound0=47
+ flags=00
+-loot=3818 99.6716
+ model=697
++loottemplate=26
++level=160
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 27]
+ name=Briarthorn
++loottemplate=27
++level=70
+ type=3
+ sound1=2515
+ sound0=31
+ flags=00
+-loot=2450 99.5084
+-loot=2452 39.8464
+-loot=5056 0.96207
+-loot=5503 0.00341402
+-loot=5504 0.00273121
+ model=271
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 28]
+ name=Bruiseweed
+ type=3
+ sound1=1419
+ sound0=11
+ flags=00
+-loot=2453 99.7404
+-loot=5056 0.113655
+-loot=5503 0.00774923
+-loot=5504 0.00774923
++loottemplate=15
++level=100
+ model=358
+ size=0.700000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 29]
+ name=Earthroot
+ type=3
+ sound1=1416
+ sound0=30
+ flags=00
+-loot=2449 99.745
+-loot=5056 0.734197
+-loot=5498 0.00070057
+-loot=5503 0.00560456
++loottemplate=29
++level=15
+ model=414
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+@@ -2706,17 +2686,14 @@
+ [gameobj 39]
+ name=Stranglekelp
+ type=3
+ sound1=1733
+ sound0=519
+ flags=00
+-loot=3820 99.7691
+-loot=5498 0.0040503
+-loot=5503 0.0182264
+-loot=5504 0.0607546
+-loot=7974 0.00810061
++loottemplate=19
++level=85
+ model=700
+ size=0.500000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+@@ -3455,33 +3432,27 @@
+ [gameobj 45]
+ name=Purple Lotus
+ type=3
+ sound1=6142
+ sound0=439
+ flags=00
+-loot=5498 0.00271157
+-loot=5500 0.00271157
+-loot=7971 0.00271157
+-loot=7974 0.0677893
+-loot=8153 10.0762
+-loot=8831 99.6095
++loottemplate=35
++level=210
+ model=2314
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 46]
+ name=Sungrass
+ type=3
+ sound1=6151
+ sound0=441
+ flags=00
+-loot=11040 0.00270819
+-loot=11514 1.78334
+-loot=7974 0.00541638
+-loot=8838 99.5965
++loottemplate=37
++level=230
+ model=2315
+ size=1.800000
+ sound3=1
+ sound4=1
+ sound5=1
+@@ -6270,14 +6242,14 @@
+ [gameobj 128]
+ name=Grave Moss
+ type=3
+ sound1=1424
+ sound0=33
+ flags=00
+-loot=3369 99.9173
+-loot=7974 0.00635809
++loottemplate=9
++level=120
+ model=357
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 129]
+@@ -6518,83 +6490,78 @@
+ [gameobj 150]
+ name=Mountain Silversage
+ type=3
+ sound1=13947
+ sound0=1121
+ flags=00
+-loot=11514 4.39885
+-loot=13465 99.5353
+-loot=3821 0.00232374
+-loot=7974 0.00232374
++loottemplate=33
++level=280
+ model=4633
+ size=1.800000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 151]
+ name=Dreamfoil
+ type=3
+ sound1=13946
+ sound0=1120
+ flags=00
+-loot=11514 6.82539
+-loot=13463 99.6273
+-loot=7974 0.00212961
++loottemplate=14
++level=270
+ model=4635
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 152]
+ name=Arthas' Tears
+ type=3
+ sound1=13970
+ sound0=440
+-loot=11514 10.6593
+-loot=8836 99.5075
++loottemplate=18
++level=220
+ model=2310
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 153]
+ name=Golden Sansam
+ type=3
+ sound1=13945
+ sound0=1119
+ flags=00
+-loot=11514 4.41023
+-loot=13464 99.6494
+-loot=7971 0.00217789
+-loot=7974 0.0283126
++loottemplate=11
++level=260
+ model=4652
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 154]
+ name=Blindweed
+ type=3
+ sound1=6152
+ sound0=442
+ flags=00
+-loot=7974 0.0086672
+-loot=8839 99.7291
++loottemplate=16
++level=235
+ model=2311
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 155]
+ name=Plaguebloom
+ type=3
+ sound1=13948
+ sound0=1122
+-loot=11514 11.0893
+-loot=13466 99.4338
++loottemplate=34
++level=285
+ model=4632
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 156]
+@@ -7205,14 +7172,15 @@
+ [gameobj 208]
+ name=Ghost Mushroom
+ type=3
+ sound1=6312
+ sound0=443
+ flags=00
+-loot=8845 100.182
+ model=389
++loottemplate=12
++level=245
+ size=0.300000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 209]
+@@ -7266,14 +7234,14 @@
+ 
+ [gameobj 214]
+ name=Icecap
+ type=3
+ sound1=13949
+ sound0=1123
+-loot=11040 0.00521621
+-loot=13467 99.7183
++loottemplate=7
++level=290
+ model=4634
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 215]
+@@ -8954,14 +8922,14 @@
+ [gameobj 281]
+ name=Gromsblood
+ type=3
+ sound1=6313
+ sound0=444
+ flags=00
+-loot=11514 13.4665
+-loot=8846 99.4851
++loottemplate=8
++level=250
+ model=2313
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 282]
+@@ -11073,13 +11041,14 @@
+ [gameobj 341]
+ name=Black Lotus
+ type=3
+ sound1=13950
+ sound0=1124
+ flags=00
+-loot=13468 99.8834
++loottemplate=17
++level=300
+ model=4636
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 342]
+@@ -12693,147 +12660,112 @@
+ [gameobj 1617]
+ name=Silverleaf
+ type=3
+ sound1=1414
+ sound0=29
+ flags=00
+-loot=5056 0.930706
+-loot=5498 0.000315387
+-loot=5503 0.00220771
+-loot=765 100
+-loot=765 50
+-loot=765 25
+-loot=8050 0.000315387
++loottemplate=21
++level=0
+ model=270
+ size=0.600000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 1618]
+ name=Peacebloom
+ type=3
+ sound1=1415
+ sound0=29
+ flags=00
+-loot=2447 100
+-loot=2447 50
+-loot=2447 25
+-loot=2450 0.000397716
+-loot=5056 0.873383
+-loot=5498 0.000397716
+-loot=5503 0.00397716
++loottemplate=20
++level=0
+ model=269
+ size=0.500000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 1619]
+ name=Earthroot
+ type=3
+ sound1=1416
+ sound0=30
+ flags=00
+-loot=2449 100
+-loot=2449 50
+-loot=2449 25
+-loot=5056 0.734197
+-loot=5498 0.00070057
+-loot=5503 0.00560456
++loottemplate=29
++level=15
+ model=414
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 1620]
+ name=Mageroyal
+ type=3
+ sound1=1417
+ sound0=9
+ flags=00
+-loot=2452 20.0408
+-loot=5056 1.20408
+-loot=5503 0.00654897
+-loot=5504 0.000935567
+-loot=785 100
+-loot=785 50
+-loot=785 25
++loottemplate=25
++level=50
+ model=268
+ size=0.300000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 1621]
+ name=Briarthorn
++loottemplate=27
++level=70
+ type=3
+ sound1=1418
+ sound0=31
+ flags=00
+-loot=2450 100
+-loot=2450 50
+-loot=2450 25
+-loot=2452 39.8464
+-loot=5056 0.96207
+-loot=5503 0.00341402
+-loot=5504 0.00273121
+ model=271
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 1622]
+ name=Bruiseweed
+ type=3
+ sound1=1419
+ sound0=11
+ flags=00
+-loot=2453 100.0
+-loot=2453 50.0
+-loot=2453 25.0
+-loot=5056 0.113655
+-loot=5503 0.00774923
+-loot=5504 0.00774923
++loottemplate=15
++level=100
+ model=358
+ size=0.700000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 1623]
+ name=Wild Steelbloom
+ type=3
+ sound1=1420
+ sound0=32
+ flags=00
+-loot=3355 100.0
+-loot=3355 50.0
+-loot=3355 25.0
+-loot=5504 0.00222767
+-loot=7974 0.006683
+ model=371
++loottemplate=39
++level=115
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 1624]
+ name=Kingsblood
+ type=3
+ sound1=1421
+ sound0=45
+ flags=00
+-loot=11040 0.000954882
+-loot=3356 100.0
+-loot=3356 50.0
+-loot=3356 25.0
+-loot=5503 0.000954882
+-loot=5504 0.00381953
++loottemplate=31
++level=125
+ model=320
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+@@ -12849,14 +12781,14 @@
+ [gameobj 1628]
+ name=Grave Moss
+ type=3
+ sound1=1424
+ sound0=33
+ flags=00
+-loot=3369 99.9173
+-loot=7974 0.00635809
++loottemplate=9
++level=120
+ model=357
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 1630]
+@@ -15969,100 +15901,84 @@
+ [gameobj 2041]
+ name=Liferoot
+ type=3
+ sound1=1730
+ sound0=27
+ flags=00
+-loot=3357 100.0
+-loot=3357 50.0
+-loot=3357 25.0
+-loot=5504 0.033651
+-loot=7974 0.00269208
++loottemplate=32
++level=150
+ model=677
+ size=0.600000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 2042]
+ name=Fadeleaf
++loottemplate=26
++level=160
+ type=3
+ sound1=1731
+ sound0=47
+ flags=00
+-loot=3818 100.0
+-loot=3818 50.0
+-loot=3818 25.0
+ model=697
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 2043]
+ name=Khadgar's Whisker
+ type=3
+ sound1=1423
+ sound0=49
+ flags=00
+-loot=3358 100
+-loot=3358 50
+-loot=3358 25
+-loot=7971 0.00139575
+-loot=7974 0.00558301
++loottemplate=28
++level=185
+ model=701
+ size=0.500000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 2044]
+ name=Wintersbite
+ type=3
+ sound1=1732
+ sound0=51
+ flags=00
+-loot=3819 100.00
+-loot=3819 50.00
+-loot=3819 25.00
++loottemplate=41
++level=195
+ model=699
+ size=0.2
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 2045]
+ name=Stranglekelp
+ type=3
+ sound1=1733
+ sound0=519
+ flags=00
+-loot=3820 100.00
+-loot=3820 50.00
+-loot=3820 25.00
+-loot=5498 0.0040503
+-loot=5503 0.0182264
+-loot=5504 0.0607546
+-loot=7974 0.00810061
++loottemplate=19
++level=85
+ model=700
+ size=0.500000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 2046]
+ name=Goldthorn
+ type=3
+ sound1=1734
+ sound0=521
+ flags=00
+-loot=3821 100.00
+-loot=3821 50.00
+-loot=3821 25.00
+-loot=5500 0.00117881
+-loot=7974 0.00589407
++lottemplate=10
++level=170
+ model=698
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 2047]
+@@ -26569,15 +26485,14 @@
+ [gameobj 2866]
+ name=Firebloom
+ type=3
+ sound1=2292
+ sound0=50
+ flags=00
+-loot=4625 100.00
+-loot=4625 50.00
+-loot=4625 25.00
++loottemplate=13
++level=205
+ model=2312
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 2867]
+@@ -29470,100 +29385,84 @@
+ [gameobj 3724]
+ name=Peacebloom
+ type=3
+ sound1=2512
+ sound0=29
+ flags=00
+-loot=2447 99.7451
+-loot=2450 0.000397716
+-loot=5056 0.873383
+-loot=5498 0.000397716
+-loot=5503 0.00397716
++loottemplate=20
++level=0
+ model=269
+ size=0.500000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 3725]
+ name=Silverleaf
+ type=3
+ sound1=2511
+ sound0=29
+ flags=00
+-loot=5056 0.930706
+-loot=5498 0.000315387
+-loot=5503 0.00220771
+-loot=765 99.9663
+-loot=8050 0.000315387
++loottemplate=21
++level=0
+ model=270
+ size=0.600000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 3726]
+ name=Earthroot
+ type=3
+ sound1=2513
+ sound0=30
+ flags=00
+-loot=2449 99.745
+-loot=5056 0.734197
+-loot=5498 0.00070057
+-loot=5503 0.00560456
++loottemplate=29
++level=15
+ model=414
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 3727]
+ name=Mageroyal
+ type=3
+ sound1=2514
+ sound0=9
+ flags=00
+-loot=2452 20.0408
+-loot=5056 1.20408
+-loot=5503 0.00654897
+-loot=5504 0.000935567
+-loot=785 99.6117
++loottemplate=25
++level=50
+ model=268
+ size=0.300000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 3729]
+ name=Briarthorn
++loottemplate=27
++level=70
+ type=3
+ sound1=2515
+ sound0=31
+ flags=00
+-loot=2450 99.5084
+-loot=2452 39.8464
+-loot=5056 0.96207
+-loot=5503 0.00341402
+-loot=5504 0.00273121
+ model=271
+ size=0.400000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 3730]
+ name=Bruiseweed
+ type=3
+ sound1=2516
+ sound0=11
+ flags=00
+-loot=2453 99.7404
+-loot=5056 0.113655
+-loot=5503 0.00774923
+-loot=5504 0.00774923
++loottemplate=15
++level=100
+ model=358
+ size=0.700000
+ sound3=1
+ sound4=1
+ sound5=1
+@@ -71355,100 +71261,82 @@
+ [gameobj 142140]
+ name=Purple Lotus
+ type=3
+ sound1=6142
+ sound0=439
+ flags=00
+-loot=5498 0.00271157
+-loot=5500 0.00271157
+-loot=7971 0.00271157
+-loot=7974 0.0677893
+-loot=8153 10.0762
+-loot=8831 100
+-loot=8831 50
+-loot=8831 25
++loottemplate=35
++level=210
+ model=2314
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 142141]
+ name=Arthas' Tears
+ type=3
+ sound1=6150
+ sound0=440
+ flags=00
+-loot=11514 10.6593
+-loot=8836 100
+-loot=8836 50
+-loot=8836 25
++loottemplate=18
++level=220
+ model=2310
+ size=1.300000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 142142]
+ name=Sungrass
+ type=3
+ sound1=6151
+ sound0=441
+ flags=00
+-loot=11040 0.00270819
+-loot=11514 1.78334
+-loot=7974 0.00541638
+-loot=8838 100
+-loot=8838 50
+-loot=8838 25
++loottemplate=37
++level=230
+ model=2315
+ size=1.800000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 142143]
+ name=Blindweed
+ type=3
+ sound1=6152
+ sound0=442
+ flags=00
+-loot=7974 0.0086672
+-loot=8838 100
+-loot=8838 50
+-loot=8838 25
+-loot=8839 99.7291
++loottemplate=16
++level=235
+ model=2311
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 142144]
+ name=Ghost Mushroom
+ type=3
+ sound1=6312
+ sound0=443
+ flags=00
+-loot=8845 100
+-loot=8845 50
+-loot=8845 25
+ model=389
++loottemplate=12
++level=245
+ size=0.300000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 142145]
+ name=Gromsblood
+ type=3
+ sound1=6313
+ sound0=444
+ flags=00
+-loot=11514 13.4665
+-loot=8846 100
+-loot=8846 50
+-loot=8846 25
++loottemplate=8
++level=250
+ model=2313
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 142151]
+@@ -105843,97 +105729,81 @@
+ [gameobj 176583]
+ name=Golden Sansam
+ type=3
+ sound1=13945
+ sound0=1119
+ flags=00
+-loot=11514 4.41023
+-loot=13464 100
+-loot=13464 50
+-loot=13464 25
+-loot=7971 0.00217789
+-loot=7974 0.0283126
++loottemplate=11
++level=260
+ model=4652
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176584]
+ name=Dreamfoil
+ type=3
+ sound1=13946
+ sound0=1120
+ flags=00
+-loot=11514 6.82539
+-loot=13463 100
+-loot=13463 50
+-loot=13463 25
+-loot=7974 0.00212961
++loottemplate=14
++level=270
+ model=4635
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176586]
+ name=Mountain Silversage
+ type=3
+ sound1=13947
+ sound0=1121
+ flags=00
+-loot=11514 4.39885
+-loot=13465 100
+-loot=13465 50
+-loot=13465 25
+-loot=3821 0.00232374
+-loot=7974 0.00232374
++loottemplate=33
++level=280
+ model=4633
+ size=1.800000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176587]
+ name=Plaguebloom
+ type=3
+ sound1=13948
+ sound0=1122
+ flags=00
+-loot=11514 11.0893
+-loot=13466 100
+-loot=13466 50
+-loot=13466 25
++loottemplate=34
++level=285
+ model=4632
+ size=1.800000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176588]
+ name=Icecap
+ type=3
+ sound1=13949
+ sound0=1123
++loottemplate=7
++level=290
+ flags=00
+-loot=11040 0.00521621
+-loot=13467 100
+-loot=13467 50
+-loot=13467 25
+ model=4634
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176589]
+ name=Black Lotus
+ type=3
+ sound1=13950
+ sound0=1124
+ flags=00
+-loot=13468 100
+-loot=13468 50
+-loot=13468 25
++loottemplate=17
++level=300
+ model=4636
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176591]
+@@ -106077,101 +105947,94 @@
+ 
+ [gameobj 176636]
+ name=Sungrass
+ type=3
+ sound1=13965
+ sound0=441
+-loot=11040 0.00270819
+-loot=11514 1.78334
+-loot=7974 0.00541638
+-loot=8838 99.5965
++loottemplate=37
++level=230
+ model=2315
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176637]
+ name=Gromsblood
+ type=3
+ sound1=13966
+ sound0=444
+ flags=00
+-loot=11514 13.4665
+-loot=8846 99.4851
++loottemplate=8
++level=250
+ model=2313
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176638]
+ name=Golden Sansam
+ type=3
+ sound1=13967
+ sound0=1119
+ flags=00
+-loot=11514 4.41023
+-loot=13464 99.6494
+-loot=7971 0.00217789
+-loot=7974 0.0283126
++loottemplate=11
++level=260
+ model=4652
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176639]
+ name=Dreamfoil
+ type=3
+ sound1=13968
+ sound0=1120
+ flags=00
+-loot=11514 6.82539
+-loot=13463 99.6273
+-loot=7974 0.00212961
++loottemplate=14
++level=270
+ model=4635
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176640]
+ name=Mountain Silversage
+ type=3
+ sound1=13969
+ sound0=1121
+ flags=00
+-loot=11514 4.39885
+-loot=13465 99.5353
+-loot=3821 0.00232374
+-loot=7974 0.00232374
++loottemplate=33
++level=280
+ model=4633
+ size=1.8
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176641]
+ name=Plaguebloom
+ type=3
+ sound1=13971
+ sound0=1122
+ flags=00
+-loot=11514 11.0893
+-loot=13466 99.4338
++loottemplate=34
++level=285
+ model=4632
+ size=1.800000
+ sound3=1
+ sound4=1
+ sound5=1
+ 
+ [gameobj 176642]
+ name=Arthas' Tears
+ type=3
+ sound1=13970
+ sound0=440
+ flags=00
+-loot=11514 10.6593
+-loot=8836 99.5075
++loottemplate=18
++level=220
+ model=2310
+ size=1.3
+ sound3=1
+ sound4=1
+ sound5=1

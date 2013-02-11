@@ -1,0 +1,135 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+# Those additions come from UWC, adapted to StartTCL by Hochelf
+#
+#
+# Czech translation by kupkoid
+#
+
+
+namespace eval ::WoWEmu::Commands {
+	Texts::Set cz select_npc                "Prosim zvol NPC."
+	Texts::Set cz item_not_found            "Predmet nebyl nalezen."
+	Texts::Set cz copper                    "Med"
+	Texts::Set cz silver                    "Stribro"
+	Texts::Set cz gold                      "Zlato"
+	Texts::Set cz invalid_money             "Spatne mnozstvi penez"
+	Texts::Set cz bad_cmd_args              "Spatne argumenty prikazu"
+	Texts::Set cz amount                    "mnozstvi"
+	Texts::Set cz added_to                  "pridano do"
+	Texts::Set cz location_added            "Lokace pridana."
+	Texts::Set cz no_location_name          "Zadne (nebo prilis kratke) jmeno lokace."
+	Texts::Set cz target                    "Cil"
+	Texts::Set cz no_locations              "Zadna lokace."
+	Texts::Set cz bad_command               "Spatny prikaz."
+	Texts::Set cz created_for_route_and     "Vytvoreno pro cestu a pripojeno k waypointiu"
+	Texts::Set cz created                   "vytvoreno"
+	Texts::Set cz banip_usage               "Pouzij syntax: ban <ip> / <list> / <undo>. Pro <ip> zamen posledni cislo za 0 Priklad 184.157.23.0. Nenechavej zadne misto za IP adresou. <Undo> smazan posledni udaj"
+	Texts::Set cz no_ips_lines_to_remove    "Zadne IP ci radky k odstraneni"
+	Texts::Set cz undo_done_last_line       "Vraceno odstraneni posledni radky"
+	Texts::Set cz ip_already_banned         "Error > IP se jiz nachazi v BANlistu"
+	Texts::Set cz ip_list_updated_noerror   "IP BANlist byl uspesne updatovan. Zadne chyby"
+	Texts::Set cz thank_for_report          "Dekujeme ti za tvou pomoc pri odstranovani chyb emu."
+	Texts::Set cz bug_select                "Prosim vyber zabugovany objekt (popr. sebe)."
+	Texts::Set cz cant_cast_that            "Nemuzu seslat kouzlo!"
+	Texts::Set cz input_spell               "Prosim zadejte kouzlo."
+	Texts::Set cz no_adminpass_conf         "Nemas adminpass.conf!"
+	Texts::Set cz incorrect_password        "Spatne heslo!"
+	Texts::Set cz setpassword_enabled       "Stare heslo je spravne, prosim zadej .setpassword (nove heslo) pro zmenu toho stavajiciho!"
+	Texts::Set cz deleted_from              "vymazano z"
+	Texts::Set cz not_in_inventory          "nenalezeno v inventari"
+	Texts::Set cz only_gm_learn             "Pouze GM jsou opravneni naucit se tyto veci!"
+	Texts::Set cz learned_all_langs         "NAuceny vsechny lazyky!"
+	Texts::Set cz learned_gm_spells         "Nauceny vsechny GM kouzla!"
+	Texts::Set cz not_while_dead            "Nemuzes pouzit tento prikaz, jsi-li mrtev."
+	Texts::Set cz invalid_selection         "Spatny vyber"
+	Texts::Set cz removed_from              "vymazano z"
+	Texts::Set cz location_not_found        "Lokace nebyla nalezena."
+	Texts::Set cz location_deleted          "Lokace vymazana."
+	Texts::Set cz specify_location          "Prosim specifikuj lokaci."
+	Texts::Set cz cant_emote                "Nemuzu na tohle pouzit emoci!"
+	Texts::Set cz input_emote               "Prosim vloz emoci."
+	Texts::Set cz linked_to_start           "napojeno na start"
+	Texts::Set cz way_saved                 "Cesta ulozena, Waypoint"
+	Texts::Set cz way_starts_on             "Cesta zacina na Waypointu"
+	Texts::Set cz start_way_before          "Nezapomen cestu ulozit, drive nez ji odzkousis!"
+	Texts::Set cz target_player             "potrebujes zaznacit hrace!"
+	Texts::Set cz is_gm                     "Oznaceny hrac je GM!"
+	Texts::Set cz no_gm                     "Oznaceny hrac neni GM!"
+	Texts::Set cz no_one_jailed             "Nikdo neni uveznen."
+	Texts::Set cz character_name            "Jmeno postavy"
+	Texts::Set cz reason                    "Duvod"
+	Texts::Set cz jailed_by                 "Uveznen"
+	Texts::Set cz free_not_sure             "Humm... Nejsem si jist, koho pustit?"
+	Texts::Set cz is_not_jailed             "neni uveznen"
+	Texts::Set cz unjailed_false            "Hrac neni propusten"
+	Texts::Set cz you_freed_by              "Byl jste uvolnen z vezeni"
+	Texts::Set cz free_and_teleported       "je to nyni zadarmo a teleportuje vas"
+	Texts::Set cz jail_usage                "Zvol hrace.reason: jail selected player\n.jail list: list jailed players\n.jail free: free selected playerr"
+	Texts::Set cz jail_not_sure             "Humm... Nejsmem si jist, koho uveznit?"
+	Texts::Set cz jail_reason_syntax        "Syntax (s oznacenym hracem): .jail reason"
+	Texts::Set cz now_jailed_by             "Nyni uveznen"
+	Texts::Set cz for                       "Pro"
+	Texts::Set cz is_now_jailed_for         "je nyni uveznen za"
+	Texts::Set cz not_jailed                "Neni uveznen"
+	Texts::Set cz cant_teleport             "Nemuzu teleportovat."
+	Texts::Set cz name                      "Jmeno"
+	Texts::Set cz file                      "Soubor"
+	Texts::Set cz merged_with_main_file     "Pridano k waypoints.scp."
+	Texts::Set cz the_original              "Originalni"
+	Texts::Set cz deleted_run_rescp         "byl vymazan. Nezapomente na .rescp pred zadanim waypointu urcenemu NPC."
+	Texts::Set cz missing                   "Chybi"
+	Texts::Set cz file_to_merge             "soubor k pridani!"
+	Texts::Set cz is_reporting              "je zpravujici"
+	Texts::Set cz pvp_usage                 "\nGurubashi PvP Arena:\nTo enter the PvP arena type .pvp enter\nTo leave the PvP arena type .pvp leave\nFor information type .pvp info"
+	Texts::Set cz already_there             "Uz jsi zde!"
+	Texts::Set cz no_enter_while_jailed     "Nemuzes se teleportovat do areny, pokud jsi uveznen!"
+	Texts::Set cz not_in_arena              "Nemuzes opustit arenu, pokud jsi v ni!"
+	Texts::Set cz pvp_info                  "Help:\nBattles take place inside the battle ring only!\nViolators will be jailed\nPlease report abuses to GMs"
+	Texts::Set cz changepassword_first      "Prosim pouzij .changepassword (nynejsi heslo) prvni!"
+	Texts::Set cz password_changed          "Heslo zmeneno."
+	Texts::Set cz waypoint_doesnt_exist     "Tento waypoint neexistuje!"
+	Texts::Set cz ok_waypoint               "OK: Waypoint"
+	Texts::Set cz set_for_npc               "Nastaveno pro dane NPC"
+	Texts::Set cz waypoint                  "Waypoint"
+	Texts::Set cz shown                     "shown"
+	Texts::Set cz route_started_waypoint    "cesta odstartovana, waypoint"
+	Texts::Set cz finish_before_new         "Dokonci nynejsi cestu drive, nez zapocnes novou!"
+	Texts::Set cz select_target_first       "Jako prvni si zvol cil!"
+	Texts::Set cz cant_tame_elite           "Nemuzes si ochocit elita!"
+	Texts::Set cz cant_tame_player          "Nemuzes si ochocit hrace!"
+	Texts::Set cz cant_tame_npc             "Nemuzes si ochocit NPC!"
+	Texts::Set cz cant_tame_friendly        "Nemuzes si ochocit pratelske moby!"
+	Texts::Set cz cant_tame_higher          "Nemuzes si ochocit nic, co ma vyssi level, jako ty!"
+	Texts::Set cz beast_tamed               "Uspesne sis ochocil zviratko."
+	Texts::Set cz you_not_gm                "Nejsi GM!"
+	Texts::Set cz closer_to_target          "Musis byt blize k cili!"
+	Texts::Set cz now_visible               "Nyni jsi viditelny!"
+	Texts::Set cz specify_gender            "Musis specifikovat sve pohlavi:\nm je muz a f je zena!"
+	Texts::Set cz pet_ran_away              "Tvuj mazlicek ti utek!"
+	Texts::Set cz select_pet                "Nejdrive zvol sveho mazlicka!"
+	Texts::Set cz pet_more_life             "Tvuj mazlicek potrebuje vice zivota!"
+}
+

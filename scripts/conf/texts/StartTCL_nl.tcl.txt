@@ -1,0 +1,285 @@
+﻿#
+#
+# This file is part of the StartTCL Startup System
+#
+# StartTCL is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# StartTCL is (c) 2006 by Spirit <thehiddenspirit@hotmail.com>
+#
+# StartTCL is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# StartTCL is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+#
+# Dutch translation by Drakkaa <www.drakkaa.nl>
+#
+
+
+namespace eval ::WoWEmu::Commands {
+	Texts::Set nl unknown_command           "Commando \"%s\" is onbekend."
+	Texts::Set nl not_allowed               "Je bent niet gemachtigd om dit commando te gebruiken."
+	Texts::Set nl not_allowed_players       "Je bent niet gemachtigd om dit commando te gebruiken voor spelers."
+	Texts::Set nl not_allowed_object        "Je bent niet gemachtigd om dit commando te gebruiken voor dit object"
+	Texts::Set nl select_player             "Selecteer een speler alstublieft."
+	Texts::Set nl select_self               "You have to select yourself by pressing F1 for this command."
+	Texts::Set nl cant_kick_self            "You can't kick yourself."
+	Texts::Set nl plevel_conflict           "Your target's plevel is equal to yours or higher."
+	Texts::Set nl object_not_found          "Object not found."
+	Texts::Set nl help_plvl0                "Commandos: \n .HELP \n .WHERE \n .DISMOUNT \n Use .HELP <command> for more info.\n"
+	Texts::Set nl help_plvl2                "Commandos: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .DEL; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .RESURRECT; \n .SETAURA; .SETRESTSTATE; \n .CLEARQFLAGS; \n .STARTTIMER; .STOPTIMER; \n .FACTION; \n Use .HELP <command> for more info.\n"
+	Texts::Set nl help_plvl4                "Commandos: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .NAMEGO; \n .FACTION; \n .ADD ; .ADDGO ; .ADDNPC; \n .ADDSPAWN; \n .SETSPAWNNPC; .SETSPAWNGO; \n .SETSPAWNDIST; .SETSPAWNTIME; \n .SETLEVEL; .SETMODEL; \n .SETSIZE; .SETSPEED; \n .SETXP; .SETCP; .SETHP; \n .SETFLAGS; .SETNPCFLAGS; \n .PARALYSE; \n .DEL; .KILL; .KILLALLNPC; \n .RESURRECT; \n .LEARN; .UNLEARN; .LEARNSK; .UNLEARNSK; \n .SETAURA; .SETRESTSTATE; .CELARQFLAGS; \n .TARGETGO; .TARGETLINK; \n .TURN; .COME; \n .MOVE; .ROTATE; \n .CLEARREP; .GFLAGS; .GTYPE; \n .STARTTIMER ; .STOPTIMER; \n .EXPLORATION; .BROADCAST; \n Use .HELP <command> for more info.\n"
+	Texts::Set nl help_plvl6                "Commands: \n .HELP; \n .DISMOUNT; \n .WHERE; .INFO; .ONLINE; \n .LISTSP; .LISTSK; \n .KILL ; .KILLALLNPC; \n .GO; .GOTRIGGER; .GONAME; .GOGUID; \n .NAMEGO; \n .FACTION; .SETFACTION; \n .TARGETGO; .TARGETLINK; \n .TURN; .COME; \n .DEL; .ADD ; .ADDGO ; .ADDNPC; \n .ADDSPAWN; \n .SETSPAWNNPC; .SETSPAWNGO; \n .SETSPAWNDIST; .SETSPAWNTIME; \n .SETXP; .SETCP; .SETHP; \n .SETLEVEL; .SETMODEL; .SETSIZE; \n .SETSPEED; .SETFLAGS; \n .SETAURA; .SETRESTSTATE; \n .SETNPCFLAGS; \n .LEARN; .UNLEARN; .LEARNSK; .UNLEARNSK; \n .MOVE; .ROTATE; \n .GFLAGS; .GTYPE; \n .RESURRECT; .PARALYSE; .CLEARREP; \n .EXPLORATION; .CLEARQFLAGS; \n .EXPORTCHAR; .IMPORTCHAR; \n .EXPORTSPAWNS; .EXPORTSPAWNSXY; \n .IMPORTSPAWNS; .DELSPAWNS; .DELSPAWNSXY; \n .STARTTIMER; .STOPTIMER; \n .PPON; .PPOFF; \n .RETCL; .RESCP; \n .BROADCAST; .SAVE; .SHUTDOWN; .REHASH; \n .DELALLCORP; .CLEANUP; .RESPAWNALL; \n Gebruik .HELP <commando> voor meer info.\n"
+	Texts::Set nl number_too_large          "Dat getal is te hoog!"
+}
+
+
+namespace eval ::AI {
+	Texts::Set nl humanoid_sayings {
+		"Sterf, %s!"
+		"Bereid je voor om te sterfen!, %s!"
+		"Ik krijg je wel, %s!"
+		"Jij gaat sterven, %s!"
+		"%s, Ik help je om je voorvaderen te ontmoeten."
+		"%s, Ik snij je hoofd eraf!"
+		"Jij gaat nergens heen, %s!"
+		"%s moet sterven!"
+		"Ben je klaar om te sterven, %s?"
+	}
+}
+
+
+namespace eval ::SpellEffects {
+	Texts::Set nl script_without_case       "WAARSCHUWING! Spell effect script %s zonder oorzaak"
+	Texts::Set nl spell_effect_quest        "Spell effect queste %s"
+	Texts::Set nl teleport_not_ready        "Deze teleport spreuk is nog niet klaar om weer te gebruiken.[ ::Custom::Color " Tijd te gaan: %s." dcdcdc ]"
+}
+
+
+namespace eval ::GmTools {
+	Texts::Set nl accounts_on_server        "Accounts op de server: %s"
+	Texts::Set nl bans_on_server            "Bans op de server: %s"
+	Texts::Set nl plevel_conflict           "Plevel conflict."
+	Texts::Set nl can_not_ban_self          "Je kunt jezelf niet bannen."
+	Texts::Set nl banned_account            "Gebanned account %s."
+	Texts::Set nl can_not_del_self          "Je kunt je eigen account niet verwijderen."
+	Texts::Set nl deleted_account           "Verwijderd account %s."
+	Texts::Set nl account_exists            "Account %s bestaat al."
+	Texts::Set nl added_account             "Account toegevoegd %s."
+	Texts::Set nl can_not_lock_self         "Je kunt jezelf niet vastzetten."
+	Texts::Set nl locked_account            "Account vastgezet. %s."
+	Texts::Set nl select_player             "Selecteer speler."
+	Texts::Set nl unbanned_account          "Unbanned account %s."
+	Texts::Set nl unlocked_account          "losgemaakt account %s."
+	Texts::Set nl changed_password          "Wachtwoord veranderd voor %s."
+	Texts::Set nl can_not_level_self        "Je kunt je eigen plevel niet veranderen."
+	Texts::Set nl changed_plevel            "plevel voor %s is veranderd."
+	Texts::Set nl not_enough_parms          "Niet genoeg parameters."
+	Texts::Set nl select_npc                "Selecteer een NPC alstublieft."
+	Texts::Set nl reputation_with           "Je reputatie met %s's factie (%s) is %s."
+	Texts::Set nl untalent_help             "Gebruik: .untalent \[ free \]"
+	Texts::Set nl missing_delspell_keys     "Spreuk %s in spellcost.scp mist de wis-spreuk sleutel."
+	Texts::Set nl too_low_level             "%s heeft een te laag level."
+	Texts::Set nl not_enough_money          "%s heeft niet genoeg geld. het kost %s koperstukken."
+	Texts::Set nl aggro_help                "Gebruik: .aggro \[ on \| off \]"
+	Texts::Set nl aggro_on                  "Agressie is : [ Custom::Color "aan" red ]."
+	Texts::Set nl aggro_off                 "Agressie is : [ Custom::Color "uit" lime ]."
+	Texts::Set nl damage_help               "Gebruik: .damage \[ on \| off \]"
+	Texts::Set nl damage_on                 "Schade staat: [ Custom::Color "aan" red ]."
+	Texts::Set nl damage_off                "Schade staat: [ Custom::Color "uit" lime ]."
+}
+
+
+namespace eval ::WorldLock {
+	Texts::Set nl l_msg01   "[ Custom::Color "Jij kunt dit commando niet gebruiken!" red ]"
+	Texts::Set nl l_msg02   "De \"[ Custom::Color "world.save" white ]\" is al [ Custom::Color "op slot" red ]."
+	Texts::Set nl l_msg03   "De \"[ Custom::Color "world.save" white ]\" is al [ Custom::Color "van het slot" lime ]."
+	Texts::Set nl l_msg04   "De \"[ Custom::Color "world.save" white ]\" is [ Custom::Color "op slot" red ]."
+	Texts::Set nl l_msg05   "The \"[ Custom::Color "world.save" white ]\" is [ Custom::Color "van het slot" lime ]."
+	Texts::Set nl l_msg06   "Gebruik:   [ Custom::Color ".ws \[ lock \| exclusive \| unlock \| shared \| info \| help \]" white ]"
+}
+
+
+namespace eval ::RavenclawApparition {
+	Texts::Set nl msg1      "Onse heer gebied ons klaar te maken voor oorlog!"
+	Texts::Set nl msg2      "Wij worden sterk, waneer onze vijanden omringt zijn door vijanden, en verzwakt door constante aanvallen!"
+	Texts::Set nl msg3      "Dood en hulde aan de Ondode tovenaarskoning!"
+	Texts::Set nl msg4      "We zullen onze vijanden verdrijven uit Silverpine, en we brengen de oorlog naar hun eigen hoofdstad!"
+}
+
+
+namespace eval ::MoonrageDarkrunner {
+	Texts::Set nl msg1      "De zonen van Arugal zullen iedereen verpletteren die in de weg staat van de Moonrage!"
+}
+
+
+namespace eval ::Nefarian {
+	Texts::Set nl msg1      "BRAND! lelijke kinders! BRAND!"
+	Texts::Set nl msg2      "Ik grijp je van deze grond!"
+	Texts::Set nl msg3      "Houd op jezelf te helen, en val me aan!"
+	Texts::Set nl msg4      "Ik comandeer de Dood!"
+	Texts::Set nl msg5      "GRRAAAAAWWL!"
+	Texts::Set nl msg6      "Magiërs ook? Je moet voorzichtiger zijn als je met magie speelt!"
+	Texts::Set nl msg7      "Vechters je kunt toch wel harder slaan dan dat! Laat zien dan!!"
+	Texts::Set nl msg8      "Druiden en je trieste Vormveranderingen. Laat me maar eens wat zien!"
+	Texts::Set nl msg9      "Priesters! Als je jezelf zo blijft helen, dan kan ik het net zo goed wat interresanter maken!"
+	Texts::Set nl msg10     "Paladins... Ik heb gehoord dat jullie overal voor te gebruiken zijn, laat zien dan"
+	Texts::Set nl msg11     "Sjamaan, laat me zien wat je totem kan!"
+	Texts::Set nl msg12     "Warlocks, Je kunt maar beter geen magie gebruiken die je niet snapt! Zie je wat er gebeurd?"
+	Texts::Set nl msg13     "Jagers en jullie slappe erwtenschieters!"
+	Texts::Set nl msg14     "Dieven? hou op je te verstoppen en kijk me aan!"
+}
+
+
+namespace eval ::DevlinAgamand {
+	Texts::Set nl msg1      "De Agamand Mills word vastgehouden in het vagevuur, Vechter. help ons mee!"
+	Texts::Set nl msg2      "De Agamand Mills word vastgehouden in het vagevuur, Palladin. help ons mee!"
+	Texts::Set nl msg3      "De Agamand Mills word vastgehouden in het vagevuur, Jager. help ons mee!"
+	Texts::Set nl msg4      "De Agamand Mills word vastgehouden in het vagevuur, Dief. help ons mee!"
+	Texts::Set nl msg5      "De Agamand Mills word vastgehouden in het vagevuur, Priester. help ons mee!"
+	Texts::Set nl msg6      "De Agamand Mills word vastgehouden in het vagevuur, Sjamaan. help ons mee!"
+	Texts::Set nl msg7      "De Agamand Mills word vastgehouden in het vagevuur, Magier. help ons mee!"
+	Texts::Set nl msg8      "De Agamand Mills word vastgehouden in het vagevuur, Warlock. help ons mee!"
+	Texts::Set nl msg9      "De Agamand Mills word vastgehouden in het vagevuur, Druide. help ons mee!"
+	Texts::Set nl msg10     "Ben je hier om de familie te bezoeken? Sterf sukkel!"
+}
+
+
+namespace eval ::RotHideMongrel {
+	Texts::Set nl msg1      "Grrrr... vers vlees!"
+	Texts::Set nl msg2      "Meer botten om op te knagen..."
+}
+
+
+namespace eval ::RotHideGraverobber {
+	Texts::Set nl msg1      "Grrrr... vers vlees!"
+	Texts::Set nl msg2      "Meer botten om op te knagen..."
+}
+
+
+namespace eval ::RuklartheTrapper {
+	Texts::Set nl msg1      "jij kaars niet krijg!"
+	Texts::Set nl msg2      "Yiieeeee! ik weg ren!"
+}
+
+
+namespace eval ::LepperGnome {
+	Texts::Set nl msg1      "Ik snij je kapot!"
+}
+
+
+namespace eval ::PalemaneTanner {
+	Texts::Set nl msg1      "Grrrr... vers vlees!"
+	Texts::Set nl msg2      "Meer botten om op te knagen..."
+}
+
+
+namespace eval ::PalemaneSkinner {
+	Texts::Set nl msg1      "Grrrr... vers vlees!"
+	Texts::Set nl msg2      "Meer botten om op te knagen..."
+}
+
+
+namespace eval ::StormscaleToxicologist {
+	Texts::Set nl msg1      "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Vechter!"
+	Texts::Set nl msg2      "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Paladin!"
+	Texts::Set nl msg3      "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Jager!"
+	Texts::Set nl msg4      "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Dief!"
+	Texts::Set nl msg5      "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Priester!"
+	Texts::Set nl msg6      "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Unk1!"
+	Texts::Set nl msg7      "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Sjamaan!"
+	Texts::Set nl msg8      "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Magier!"
+	Texts::Set nl msg9      "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Warlock!"
+	Texts::Set nl msg10     "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Unk2!"
+	Texts::Set nl msg11     "Je hebt onze plannen voor de laatste keer gedwarsboomt, ezelachtige Druide!"
+}
+
+
+namespace eval ::KoboldGeomancer {
+	Texts::Set nl msg1      "jij kaars niet krijg!"
+	Texts::Set nl msg2      "Yiieeeee! ik weg ren!"
+}
+
+
+namespace eval ::Koboldminer {
+	Texts::Set nl msg1      "jij kaars niet krijg!"
+	Texts::Set nl msg2      "Yiieeeee! ik weg ren!"
+}
+
+
+namespace eval ::KoboldLaborer {
+	Texts::Set nl msg1      "jij kaars niet krijg!"
+	Texts::Set nl msg2      "Yiieeeee! ik weg ren!"
+}
+
+
+namespace eval ::TunnelRatForager {
+	Texts::Set nl msg1      "Ik niet ren weg voor een vechter zoals jij!"
+	Texts::Set nl msg2      "Ik niet ren weg voor een paladin zoals jij!"
+	Texts::Set nl msg3      "Ik niet ren weg voor een jager zoals jij!"
+	Texts::Set nl msg4      "Ik niet ren weg voor een dief zoals jij!"
+	Texts::Set nl msg5      "Ik niet ren weg voor een palladin zoals jij!"
+	Texts::Set nl msg6      "Ik niet ren weg voor een unk1 zoals jij!"
+	Texts::Set nl msg7      "Ik niet ren weg voor een sjamaan zoals jij!"
+	Texts::Set nl msg8      "Ik niet ren weg voor een magier zoals jij!"
+	Texts::Set nl msg9      "Ik niet ren weg voor een warlock zoals jij!"
+	Texts::Set nl msg10     "Ik niet ren weg voor een unk2 zoals jij!"
+	Texts::Set nl msg11     "Ik niet ren weg voor een druide zoals jij!"
+	Texts::Set nl msg12     "Yep! ik gedood heb!"
+}
+
+
+namespace eval ::TunnelRatVermin {
+	Texts::Set nl msg1      "Ik niet ren weg voor een vechter zoals jij!"
+	Texts::Set nl msg2      "Ik niet ren weg voor een paladin zoals jij!"
+	Texts::Set nl msg3      "Ik niet ren weg voor een jager zoals jij!"
+	Texts::Set nl msg4      "Ik niet ren weg voor een dief zoals jij!"
+	Texts::Set nl msg5      "Ik niet ren weg voor een palladin zoals jij!"
+	Texts::Set nl msg6      "Ik niet ren weg voor een unk1 zoals jij!"
+	Texts::Set nl msg7      "Ik niet ren weg voor een sjamaan zoals jij!"
+	Texts::Set nl msg8      "Ik niet ren weg voor een magier zoals jij!"
+	Texts::Set nl msg9      "Ik niet ren weg voor een warlock zoals jij!"
+	Texts::Set nl msg10     "Ik niet ren weg voor een unk2 zoals jij!"
+	Texts::Set nl msg11     "Ik niet ren weg voor een druide zoals jij!"
+	Texts::Set nl msg12     "Yep! ik gedood heb!"
+}
+
+
+namespace eval ::DefiasBandit {
+	Texts::Set nl msg1      "Ah, een kans om mijn net geslepen mes te gebruiken."
+	Texts::Set nl msg2      "Het Broederschap zal je akties niet tolereren."
+}
+
+
+namespace eval ::DefiasCutpurse {
+	Texts::Set nl msg1      "Ah, een kans om mijn net geslepen mes te gebruiken."
+	Texts::Set nl msg2      "Het Broederschap zal je akties niet tolereren."
+}
+
+
+namespace eval ::DarkIronSapper {
+	Texts::Set nl msg1      "Whehehe! Ik neem je mee het graf in!"
+}
+
+
+namespace eval ::VaelastrasztheCorrupt {
+	Texts::Set nl msg1      "Ren nu maar, nu je nog kunt, ik wil je geen pijn doen!"
+}
+
+
+namespace eval ::Onyxia {
+	Texts::Set nl msg1      "Dit is mijn geluksdag! Meestal moet ik mijn hol uit om te eten."
+	Texts::Set nl msg2      "Het lijkt erop dat je het lesje niet begrijpt, jij nare sterveling."
+}
+

@@ -1,0 +1,39 @@
+
+namespace eval ::instancelimiter {
+# English
+# By Spirit (verified by Hochelf)
+::Texts::Set en max_inst_player "This instance does not support more than %d players."
+::Texts::Set en other_side_already "You cannot enter the instance while the %s is inside."
+::Texts::Set en min_level_limit "You need to be level %s or higher to enter here."
+::Texts::Set en max_level_limit "The maximum level for this instance is %d."
+::Texts::Set en slot_taken "%s has taken my slot!"
+::Texts::Set en alliance "Alliance"
+::Texts::Set en horde "Horde"
+#
+# German
+# By Rama (verified by Hochelf)
+::Texts::Set de max_inst_player "In dieser instanz können maximal %d Spieler gleichzeitig sein!"
+::Texts::Set de other_side_already "Ihr könnt diese Instanz nicht betreten, da die %s sie besetzt!"
+::Texts::Set de min_level_limit "Ihr benötigt mindestens Stufe %s, um die Instanz zu betreten!"
+::Texts::Set de max_level_limit "Die maximale Stufe für diese Instanz ist: %d."
+::Texts::Set de slot_taken "%s hat bereits meinen Platz!"
+::Texts::Set de alliance "Allianz"
+::Texts::Set de horde "Horde"
+#
+# French
+# By Spirit
+::Texts::Set fr max_inst_player "Je ne peux pas entrer tant que c'est plein!"
+::Texts::Set fr other_side_already "Je ne peux pas entrer tant qu'il y a encore un groupe de %s à l'intérieur."
+::Texts::Set fr level_limit "Je dois être au moins niveau %s pour entrer."
+#
+}
+#
+namespace eval ::WoWEmu {
+#
+# English
+::Texts::Set en not_enough_toplay "There are not enough players in this instance"
+#
+# German
+::Texts::Set de not_enough_toplay "Es befinden sich nicht genügend Spieler in dieser Instanz"
+#
+}

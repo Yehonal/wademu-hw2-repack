@@ -1,0 +1,81 @@
+﻿
+namespace eval ::zJail {
+	#
+	# English
+	# by Rama (verified by Hochelf)
+	::Texts::Set en no_one_jailed "Jail is empty!"
+	::Texts::Set en jailed_till "is jailed till:"
+	::Texts::Set en reason_why "Reason:"
+	::Texts::Set en no_selected "Please select a player or choose a name."
+	::Texts::Set en offline_player "%s will be freed as soon as he comes online!"
+	::Texts::Set en player_freed "You have set %s free!"
+	::Texts::Set en not_jailed "%s is not jailed"
+	::Texts::Set en jail_help "zJail System Help: \n.jail  - jail selected player\n.jail NAME  - jail player NAME\n.jail free NAME  - free player NAME\n.jail help - shows this text"
+	::Texts::Set en cant_jail_plevel "You need to have a higher Plevel than your target to jail it!"
+	::Texts::Set en jail_till_gmfree "%s is jailed until a GM lets him out!"
+	::Texts::Set en jail_till_gmfree2 "a GM lets him out!"
+	::Texts::Set en is_jailed "is jailed till"
+	::Texts::Set en if_online_jail "%s will be jailed as soon as he comes online"
+	::Texts::Set en now_jailed "I am now [ ::Custom::Color "jailed" red ]!"
+	::Texts::Set en player_till_gmfree "You are jailed until a GM lets you out"
+	::Texts::Set en player_wait_tillfree "You have to wait %s until you can get out!"
+	::Texts::Set en player_not_jailed "You are not jailed"
+	::Texts::Set en back_home "Yeah, back Home"
+	#
+	# German
+	# by Hochelf (verified by Hochelf)
+	::Texts::Set de no_one_jailed "Das Gefängnis ist leer!"
+	::Texts::Set de jailed_till "ist eingesperrt bis:"
+	::Texts::Set de reason_why "Grund:"
+	::Texts::Set de no_selected "Selektiert einen Spieler oder gebt einen Namen an!"
+	::Texts::Set de offline_player "%s wird befreit, sobald er online kommt!"
+	::Texts::Set de player_freed "%s wurde befreit!"
+	::Texts::Set de not_jailed "%s ist nicht im Gefängnis!"
+	::Texts::Set de jail_help "zJailSystem Hilfe: \n.jail  - markierten Spieler einsperren \n.jail NAME  - Spieler NAME einsperren \n.jail free NAME  - Spieler NAME befreien \n.jail help  - zeigt diesen Text"
+	::Texts::Set de cant_jail_plevel "Ihr braucht einen höheren Plevel als euer Ziel, um es einzusperren!"
+	::Texts::Set de jail_till_gmfree "%s ist im Gefängnis, bis jemand ihn befreit!"
+	::Texts::Set de jail_till_gmfree2 "jemand ihn befreit!"
+	::Texts::Set de is_jailed "ist eingesperrt bis"
+	::Texts::Set de if_online_jail "%s wird eingesperrt, sobald er online kommt!"
+	::Texts::Set de now_jailed "Ich wurde [ ::Custom::Color "eingesperrt" red ]!"
+	::Texts::Set de player_till_gmfree "Ihr seid solange im Gefängnis, bis jemand euch befreit"
+	::Texts::Set de player_wait_tillfree "Ihr müsst %s warten, bis Ihr befreit werdet!"
+	::Texts::Set de player_not_jailed "Ihr seid nicht eingesperrt!"
+	::Texts::Set de back_home "Juhuu, ab nach Hause!"
+}
+
+namespace eval ::zJailNPC {
+	#
+	# English
+	# by Rama (verified by Hochelf)
+	::Texts::Set en how_long "How long do I have to stay?"
+	::Texts::Set en why_jailed "Why am I jailed?"
+	::Texts::Set en let_me_free "Let me out!"
+	::Texts::Set en npc_not_jailed "(Not jailed, speak to me again to come out)"
+	::Texts::Set en npc_jailed_till "You are jailed till:"
+	::Texts::Set en npc_jailed_gmfree "You are jailed until a GM lets you out!"
+	::Texts::Set en npc_not_jailed2 "You are not jailed"
+	::Texts::Set en npc_reason "Reason:"
+	::Texts::Set en npc_no_reason "No reason given!"
+	::Texts::Set en npc_back_home "Yeah, back home"
+	::Texts::Set en npc_wait_gmfree "%s left until you can get out!"
+	::Texts::Set en player_now_notjailed "I am not jailed"
+	#
+	# German
+	# by Rama (verified by Hochelf)
+	::Texts::Set de how_long "Wie lange bleibe ich hier?"
+	::Texts::Set de why_jailed "Warum wurde ich eingesperrt?"
+	::Texts::Set de let_me_free "Lasst mich frei!"
+	::Texts::Set de npc_not_jailed "(Nicht eingesperrt, sprecht erneut mit mir, um freigelassen zu werden)"
+	::Texts::Set de npc_jailed_till "Ihr seid eingesperrt bis:"
+	::Texts::Set de npc_jailed_gmfree "Ihr seid so lange eingesperrt, bis jemand Euch freilässt!"
+	::Texts::Set de npc_not_jailed2 "Ihr seid nicht eingesperrt"
+	::Texts::Set de npc_reason "Grund:"
+	::Texts::Set de npc_no_reason "Kein Grund!"
+	::Texts::Set de npc_back_home "Juhuu, ab nach Hause!"
+	::Texts::Set de npc_wait_gmfree "Ihr müsst %s warten, bis Ihr freigelassen werdet!"
+	::Texts::Set de player_now_notjailed "Ich bin nicht eingesperrt!"
+	#
+	#
+	#
+}

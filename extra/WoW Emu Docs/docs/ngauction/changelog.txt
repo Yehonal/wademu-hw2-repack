@@ -1,0 +1,299 @@
+#
+#
+# This program is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#               <http://www.gnu.org/copyleft/lesser.html>
+#
+#
+# This program is based on the reverse engineering of a compiled TCL script
+# authored by OXOThuk, who graciously allowed the licensing of this derivated
+# work under the above License. This does not imply that the original code
+# nor its versions are under the same license as long as they don't include
+# code specific from this program. Only this program and derivated work from it
+# are subject to the above License. The original code is (c) OXOThuk and you
+# must contact him for licensing details.
+#
+#
+# Name:		ngAuction.tcl
+#
+# Version:	1.0.1
+#
+# Date:		2006-03-28
+#
+# Description:	NextGen Auction House System
+#
+# Author:	Lazarus Long <lazarus.long@bigfoot.com>
+#
+# Changelog:
+#
+# v1.0.1 (2006-03-28) -	The "minor adjustments" version.
+#			I need a new brain. Damn stupid little things made me
+#			make a new version. Corrected minor glitches.
+#
+# v1.0.0 (2006-03-28) -	The "at last we made it" version.
+#			Fixed the dealing with activating DEBUG on the config
+#			file. Removed the 5 second fuziness when calling the
+#			"process" procedure when it is hooked to the procedure
+#			"::WoWEmu::Commands". Converted it to use ReadConf from
+#			Custom, and Provide and Requires from StartTCL. Added
+#			Spanish Standard translation thanks to JOS3. Updated
+#			the client addon to avoid the ".auct" bug and added
+#			public key signature.
+#
+# v0.9.9 (2006-03-02) -	The "server friendly" version.
+#			As sugested by spirit, moved the hooked function from
+#			"::AI::CanUnAgro" to "::WoWEmu::Commands" since it's
+#			less heavy on the server and the auction timeout isn't
+#			a crucial to the part-of-a-second thing. Added Chilian
+#			Spanish translation thanks to EZ-Mouse. Added support
+#			for the new StartTCL scheme of loading files.
+#
+# v0.9.8 (2006-02-20) -	The "who is missing" version.
+#			To make the Auction Invoices as Blizz-like as possible
+#			I needed to pass along the buyer or seller of the item,
+#			hence new (and final) change to "SendMail". Updated
+#			again the Russian translation.
+#
+# v0.9.7 (2006-02-19) -	The "to invoice or not to invoice" version.
+#			Redid the "SendMail" procedure to issue Blizzard
+#			compatible invoices when connected to ngMail, adapted
+#			existing calls to it. Added French translation, thanks
+#			to spirit. Added German translation, thanks to
+#			Ramanubis. Converted the script to use spirit's custom
+#			procedures "::Custom::AddCommand" and
+#			"::Custom::HookProc" if present (I hope I did it
+#			correctly, I'm not sure of the second one).
+#
+# v0.9.6 (2006-02-17) -	The "handle it to spirit" version.
+#			Corrected the dealing with the database handle due to a
+#			wrong interpretation of the variable linking concept,
+#			after spirit called my attention to it. Thank you
+#			spirit. Corrected a stupid error I introduced in last
+#			version, thanks Vasya for reporting and spirit for
+#			correcting. Added Russian translation, thanks to
+#			Neo_mat for the work. Corrected an error I made in the
+#			"readConf" procedure that whould read the config file
+#			to the end even if it was already loaded the chosen
+#			language.
+#
+# v0.9.5 (2006-02-13) -	The "let's go international" version.
+#			Added the first translation, Hungarian, thanks to
+#			merkantizis for the work. Renamed some functions for
+#			clarity. Moved the handle to the SQLdb namespace to
+#			prepare for multiple plugins using it. Simplified the
+#			SQL statements when doing a update. Modified the
+#			"readConf" procedure to allow global definitions.
+#			Prepared the "SendMail" procedure to work both with
+#			Golgorth's Final Mail 1.0 and ngMail.
+#
+# v0.9.4 (2006-02-08) -	The "check and double check, please..." version.
+#			Found a non standard SQL statement in the proc
+#			"create_auctiondb" which crashed the plugin for MySQL
+#			users when performing an upgrade from a previous
+#			version (nobody complained because there was no
+#			previous version to compare to). Also created some
+#			aliases for commands all starting with ".auction",
+#			use ".auction help" for a list.
+#
+# v0.9.3 (2006-02-07) -	The "babelfish? what babelfish?" version.
+#			OK localization is done. A new file with localization
+#			strings is part of the plugin "scripts/ngauction.conf".
+#			I'm finished! The development cycle for the plugin is
+#			near it's end, I'm reserving the remaining revision
+#			numbers for unexpected bugs and addition of languages
+#			to the pack (I would like Spanish, French and German at
+#			least, others are more than welcome), I hope to get to
+#			v1.0.0 in a very short time.
+#
+# v0.9.2 (2006-02-07) -	The "against the rules" version.
+#			Well I decided, against my own rules to turn public one
+#			of the development versions. I need some more beta
+#			testers and since only poor Neos offered you are all
+#			going to be forced volunteers. This will fail, it will
+#			render your system useless and it won't work. So please
+#			stick with the 0.8.x versions.
+#
+# v0.9.1 (2006-02-06) -	The "hands off" version.
+#			Re-made great part of the startup sequence, so now it's
+#			not necessary to do anything at all to get the database
+#			up and running, it will be detected if it's a first run,
+#			an update or a normal run and it will be acted as
+#			accordingly. What was disabled, for now was the mail
+#			table bug check, since it was giving too many problems.
+#
+# v0.8.2 (2006-02-05) -	The "time to timeout" version.
+#			Removed the timing out setting on the mail database in
+#			hope that problems with UWC-RR get solved, but I'm not
+#			sure if that's the cause of them. Also updated the
+#			CREATE and DROP syntax, and lost the INDEX (it wasn't
+#			used anyway). Already existing databases can be updated
+#			with ".create_auctiondb update".
+#
+# v0.8.1 (2006-02-04) -	The "bug hunting we will go..." version.
+#			Caught it! I thought it was in the "makebid" procedure
+#			but it was in the "process", hence I couldn't find it
+#			before. No more stale entries cluttering the tables.
+#
+# v0.9.0 (2006-02-03) -	The "next generation" version.
+#			Converted the script to use the SQLdb facility. Renamed
+#			the script from "SQLiteAuction.tcl" to the new name.
+#
+# v0.8.0 (2006-01-30) -	The "a beast of its own" version.
+#			OK, a new beast has born. There are so many changes
+#			that I can't remember them all. For starters read all
+#			the previous 0.7.x entries to get a grip of things.
+#			Other than that I worked a lot the startup sequence and
+#			now you have a script which you just drop in your
+#			"scripts/tcl" folder (or whatever you call it) and
+#			forget about. No configuration, no setting up database,
+#			no initializing, no nothing. The "time_send" column in
+#			the mail table is automatically created if it
+#			doesn't exist, the auction_* tables are created at
+#			startup if they don't exist, they are updated, if
+#			needed, several speed parameters are set and a
+#			integrity check is performed to the database as a whole
+#			(another advantage in having all tables in the same
+#			database). I don't remember what else, except that the
+#			database handle was changed from "auction" to "db3" for
+#			future integration both with other plugins and
+#			tcl-start (but you don't need to worry with this unless
+#			you are a repacker). Oh, and don't forget that the
+#			client addon MUST be upgraded.
+#
+# v0.7.5 (2006-01-29) -	The "almost there" version.
+#			All procedures adapted and working! Just have to figure
+#			out several return codes, since this new version only
+#			has two: AUC_OK and AUC_ERROR, while the other had a
+#			bunch of them.
+#
+# v0.7.4 (2006-01-29) -	The "the bid bid bid bid bid - part 3" version.
+#			The logic of the "makebid" procedure keeps defying me.
+#			OK, this time I got it finally right, and working with
+#			version 0.4.1 (0.4 with my changes) of the client
+#			addon.
+#
+# v0.7.3 (2006-01-29) -	The "cut, cut, cut" version.
+#			I'm deleting the "listitems" procedure and it's call
+#			from the "work" procedure. For what I can understand it
+#			became unnecessary since its functionality was
+#			incorporated in the "searchitems" procedure, and I was
+#			unable to make the client addon request for it, so here
+#			goes...
+#
+# v0.6.2 (2006-01-29) -	The "one seconds, two second" version.
+#			Corrected a small typo in the "SendMail" procedure,
+#			thanks to Stiga for pointing it out.
+#
+# v0.7.2 (2006-01-29) -	The "the only LUA I know is the Moon" version.
+#			Got both "createauction" and "owneritems" procedures
+#			working. The number of displayed items per page is 8
+#			for the "Auctions" and 7 for "Browse" windows, but the
+#			client addon assumed 7 for both, so I had to edit the
+#			client addon (I don't know shit about LUA so this was
+#			gut feeling plain and simple, I'm not sure of it). I
+#			believe that my changes didn't break compatibility with
+#			other versions, since I think that they will also have
+#			a better fit with them, but I'm not sure.
+#
+# v0.7.1 (2006-01-29) -	The "oh, shit it's working!" version.
+#			I got it working for the "searchitems" procedure,
+#			except for the "usable" option, which I still don't
+#			know what it does. It now has multiple pages and it can
+#			be ordered by a bunch of different ways. I don't know
+#			shit about LUA, so it's harder, but I think I got the
+#			hang of it.
+#
+# v0.6.1 (2006-01-29) -	The "missing version" version.
+#			Forgot to finish the version querying for the procedure
+#			"create_auctiondb" and also parsed the string passed to
+#			it in case independent form.
+#
+# v0.7.0 (2006-01-29) -	The "I don't know what I'm doing" version.
+#			Got access to version 0.4 of the client plugin and I'm
+#			trying to figure out what are the new fields. (internal
+#			version. All 0.7.x will be so for me to make it work,
+#			if I ever get it working it'll come out as 0.8.0)
+#
+# v0.6.0 (2006-01-28) -	The "I'm a moron" version.
+#			Damn I am a moron. The "GetItemCategory" procedure was
+#			bugged by mixing string and integer returns. Also I
+#			introduced a early verification against the "items.scp"
+#			database and also kept the previous way of checking the
+#			database and they were coliding with each other. Fixed,
+#			but it may fail in some strange way still, 'cause I'm
+#			not yet at ease with that procedure.
+#
+# v0.5.4 (2006-01-28) -	The "GM friendly" version.
+#			Changed the "create_auctiondb" procedure to spit a help
+#			screen with the several new options to it, accessed by
+#			using ".create_auctiondb help". Also added version info
+#			to the script by creating a "version" procedure,
+#			accessed by typing ".version_auction" ingame.
+#			(internal version)
+#
+# v0.5.3 (2006-01-28) -	The "revisited the bid bid bid bid bid" version.
+#			Changed the "makebid" and "bideritems" procedures to
+#			only delete the current player previous bids allowing
+#			other players to see their biddings in the "Bid" window
+#			of the client plugin. (internal version)
+#
+# v0.5.2 (2006-01-28) -	The "let's cleanup when accessing" version.
+#			Added a call to "process" procedure in the "work" one
+#			in case you are running a pacific server where the Agro
+#			system is less used (I'm still evaluating the impact of
+#			this, so it might change back).
+#
+# v0.5.1 (2006-01-27) -	The "bid bid bid bid bid" version.
+#			Had wrong logic in the "makebid" procedure, corrected
+#			it to the fact that the first bidder wasn't taken in
+#			account. (internal version)
+#
+# v0.5.0 (2006-01-27) -	The "let's keep it tight" version.
+#			Setup the system to automatically make the changes to
+#			"::WoWEmu:Commands", without having to edit the
+#			procedure by hand. Ready for beta testing.
+#
+# v0.4.0 (2006-01-26) -	The "timing, it's all about timing" version.
+#			Setup the database initialization and the check for the
+#			required SQLite DLL at system startup. Also setup the
+#			system to run "process" procedure at system startup and
+#			periodically under the Agro system. (internal version)
+#
+# v0.3.0 (2006-01-26) -	The "shit, I hope I don't make it worse" version.
+#			Double checked the conversion of all MySQL access calls
+#			to the corresponding SQLite ones, then proceeded to
+#			check/test/fix the procedures one by one to make them
+#			work, finally moved all the mail code to a separate
+#			procedure for both optimization and possibility to
+#			allow using other mail systems in the future. The
+#			"GetItemCategory" procedure is the part of the code I
+#			understood worse and most sure will need to be checked
+#			and fixed. I still have the gut feeling that part of
+#			the code is missing, but this is what we have to work
+#			with. (internal version)
+#
+# v0.2.0 (2006-01-24) -	The "it has to be their fault" version.
+#			Started to optimize several function calls and
+#			corrected some small typos in the code, since the
+#			previous version didn't work. (internal version)
+#
+# v0.1.0 (2006-01-23) -	The "it's gonna be too easy" version.
+#			Converted all MySQL access calls to the corresponding
+#			SQLite ones. (internal version)
+#
+#

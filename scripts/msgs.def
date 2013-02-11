@@ -1,0 +1,321 @@
+************************************************************
+*  Messages File. Used to store the multitude of responses *
+*        and questions between NPCs and Player             *
+************************************************************
+* based on contributions of a lot of people, originally 
+* created by IRPG
+*
+*  - smartwork                                            
+***********************************************************
+
+
+////////////////////////////////////////////////////////////////////////////////////
+//                            GENERAL IRPG PART                                   //
+////////////////////////////////////////////////////////////////////////////////////
+
+*/*/ClassWarrior       Warrior
+*/*/ClassHunter        Hunter
+*/*/ClassPaladin       Paladin
+*/*/ClassRogue         Rogue
+*/*/ClassPriest        Priest 
+*/*/ClassShaman        Shaman
+*/*/ClassMage          Mage
+*/*/ClassWarlock       Warlock 
+*/*/ClassDruid         Druid
+
+*/*/ProfAlchemy        Alchemy
+*/*/ProfBlacksmithing  Blacksmithing
+*/*/ProfCooking        Cooking
+*/*/ProfEnchanting     Enchanting
+*/*/ProfEngineering    Engineering
+*/*/ProfFirstAid       First Aid
+*/*/ProfFishing        Fishing
+*/*/ProfHerbalism      Herbalism
+*/*/ProfLeatherworking Leatherworking 
+*/*/ProfMining         Mining
+*/*/ProfSkinning       Skinning
+*/*/ProfTailoring      Tailoring
+
+*/*/infBack            Back to my other questions...
+*/*/infTrainers        Class trainers
+*/*/infMerchants       Merchants
+*/*/infBanks           The banks
+*/*/infInns            The inns
+*/*/infProfTrainers    Profession trainers
+*/*/infSuppliers       Suppliers
+*/*/infStableMasters   The stable masters
+*/*/infGryphonMasters  Gryphon masters
+*/*/infZeppelins       Fly Paths, Zeppelins, Transporters
+*/*/infGuilds          Guild masters
+*/*/infGuildHow        How do I form a guild?
+*/*/infMailHow         How do I use mailboxes?
+*/*/infInnHow          What can I do at an inn ?
+*/*/infAuctions        Auction House
+*/*/infTrams           The Deeprun Tram
+*/*/infMailBoxes       Mailboxes
+*/*/infWpTrainers      Weapons Trainers
+*/*/infOtherWpTrainers What can other weapon masters teach?
+
+*/*/MsgPPLimitReached  You have already %d primary professions, I can't teach you much more. 
+*/*/disablednpc        This NPC has been disabled by the administration. Sorry for the inconvenience.
+*/*/disabledquest      This Quest is not yet supported on this server. Press the "Complete Now !" Button to complete it now.
+*/*/completenow        Complete Now !
+*/*/completeq          Complete Quest
+*/*/nametrans          Friend
+*/*/quest              Available quests
+
+*/*/nomultitask        You haven't completed some of my tasks yet ! Be sure to complete them ...
+*/*/nomultitask        Aren't you supposed to complete my tasks ? Well ... go go go ...
+*/*/nomultitask        Well, where are the results of my tasks ? Don't you turn your back on me !
+*/*/notask             What about my last task for you? Are you going to finish it somewhere in the near future?
+*/*/notask             How's my task going ? Are you done or do I have to wait more?
+*/*/notask             Well, hello little one ... Why have you returned ? I believe you had some things to do for me !
+*/*/noclass            Do I look like a $C trainer to you ?
+
+*/*/inn                Make this inn your home
+*/*/taxi               I want continue my journey
+*/*/battle             My blood hungers for battle
+*/*/guild              I am interested in guilds
+*/*/revive             Please revive my spirit
+*/*/trade              I want to browse your goods
+*/*/train              I am interested in $C training
+*/*/bank               I wanna make some bank transactions
+*/*/auction            Wanna auction something
+*/*/norace             What do you want ? 
+*/*/tabardvendor       I want to purchase a tabard
+*/*/infGryphonHowTo    Teach me how to ride a gryphon
+*/*/infZeppelinHowTo   What are those zeppelins all about ?
+*/*/infHippographHowTo Teach me how to ride a hippogryph 
+*/*/infWindRiderHowTo  Teach me how to use a Wind Rider
+*/*/ttrain             I am interested in training
+*/*/ttrain             What do you train ?
+*/*/ttrain             Teach me something
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//                            User written part                                  //
+///////////////////////////////////////////////////////////////////////////////////
+
+
+human/warrior/trade    I need sharper blade and stronger plate!
+human/warrior/trade    I demand some new equipment!
+human/warrior/trade    I want to look at shiny stuff
+human/warrior/trade    Give me something that wouldn't break
+human/warrior/trade    Show me what you got there !
+human/warrior/trade    Trade is what I'm here for !
+human/warrior/trade    Let's trade !
+human/warrior/trade    Hey, you ... serve me !
+human/rouge/trade      Pssst! Wanna trade?
+human/rouge/trade      Hey, you there, I need some stuff
+human/rouge/trade      Need some goods, but don't dare to cheat me!
+human/rogue/trade      I have little offer for ya.
+human/priest/trade     I require some arcane goods
+human/priest/trade     I need new equipment for my journey towards the light
+human/priest/trade     My soul is strong but I need something to strengthen my body
+human/priest/trade     I need better gear to spread the light
+human/mage/trade       It would be nice if you could show me your high quality goods.
+human/mage/trade       Do you have anything that is it worth to sell to a mage?
+human/mage/trade       Is there any possibility to do some business?
+
+
+human/warrior/train    I am a warrior, train me !
+human/warrior/train    Train me, I need more skills !
+human/warrior/train    Hi, would you care to train me ?
+human/warrior/train    I need more POWER !
+human/warrior/train    My warrior blood requires training !
+human/paladin/train    Teach me some more Leadership
+human/paladin/train    Imbue my soul and strengthen my skills
+human/paladin/train    Show me the path of justice
+human/paladin/train    I want to continue my trail to the true blessing
+human/rouge/train      I'd like to become deadlier.
+human/rouge/train      You know what I need...
+human/rouge/train      Need to learn something more lethal.
+human/rouge/train      Just need to be more effective.
+human/rouge/train      Can you teach me to be deadlier.
+human/rouge/train      Teach me some mortal actions...
+human/rogue/train      Let me slice more quickly
+human/rogue/train      Show me how to cut some throats
+human/rogue/train      Teach me the ways of the thug
+human/rogue/train      Give me knowledge to kill undetected
+human/rogue/train      Teach me disciplines of the shadows
+human/rogue/train      Teach me the art of assassination
+human/rogue/train      Show me how to stay unseen
+human/rogue/train      Let me take a glimpse at other's possessions
+human/mage/train       It would be nice if we can share our knowledge.
+human/mage/train       O, let us discuss a new thesis!
+human/mage/train       I need a new spell to spend my arcane power, what do you recommend?
+human/mage/train       I need a good thesis to study. Any recommendations?
+human/mage/train       There is a lot of space in my brain that waits to be filled...
+human/priest/train     The light is my guide, you are my teacher.
+human/priest/train     I am here to teach from you - wise one.
+human/priest/train     Show me the ways of the light.
+human/priest/train     Lead me to eternal life
+human/priest/train     Help me to help others
+human/priest/train     Teach me divinity of this world
+human/warlock/train    Master, train me in the art of Death
+human/warlock/train    Master, My life is yours, Instruct me in the Dark Arts
+
+human/warrior/revive   Revive my spirit !
+human/warrior/revive   I hunger for battle ! Death is not my way !
+human/warrior/revive   My people need me ! I want to live !
+human/warrior/revive   Bring me back to life !
+human/warrior/noclass  Do I look like a warrior trainer to you ?
+human/warrior/noclass  Pfff... another mindless warrior ! I AM NO WARRIOR TRAINER !
+human/warrior/noclass  Warriors, warriors and another time warriors ... Well I'm not a warrior ...
+human/warrior/noclass  Nope ... you're a warrior and I do not train your "kind".
+
+human/paladin/revive   Let my soul fill my body again!
+human/paladin/revive   I want to serve the Light again! Revive my spirit!
+human/rogue/revive     Good, nobody's around... revive me!
+human/priest/revive    Revive my spirit, so that I could serve the Light again!
+
+
+dwarf/warrior/train   Are you worthy enough to teach me?
+dwarf/warrior/train   I want to know what you know.
+dwarf/warrior/train   Are you better than me? Prove it.	
+dwarf/warrior/train   What do you know I can find useful?
+dwarf/paladin/train   Teach me some more Leadership
+dwarf/paladin/train   Imbue my soul and strengthen my skills
+dwarf/paladin/train   Show me the path of justice
+dwarf/paladin/train   I want to continue my trail to the true blessing
+dwarf/hunter/train    How can I bring balance to the nature?
+dwarf/hunter/train    My sight is no good enough.
+dwarf/hunter/train    I need to aim straight.
+dwarf/hunter/train    Would you help me protect the nature?
+dwarf/hunter/train    I need more skill in hunting. You'd better *!
+dwarf/hunter/train    I need some help with targeting, especially when I've drunk a few pints! Can you help me?
+dwarf/hunter/train    It's never too late for education, even for a dwarf like me!
+dwarf/priest/train    The light is my guide, you are my teacher.
+dwarf/priest/train    I am here to teach from you - wise one.
+dwarf/priest/train    Show me the ways of the light.
+dwarf/priest/train    Lead me to eternal life
+dwarf/priest/train    Help me to help others
+dwarf/priest/train    Teach me the divinity of this world
+dwarf/rogue/train     Let me slice more quickly
+dwarf/rogue/train     Show me how to cut some throats
+dwarf/rogue/train     Teach me the ways of the thug
+dwarf/rogue/train     Give me knowledge to kill undetected
+dwarf/rogue/train     Teach me disciplines of the shadows
+dwarf/rogue/train     Teach me the art of assassination
+dwarf/rogue/train     Show me how to stay unseen
+dwarf/rogue/train     Let me take a glimpse at other's possessions
+
+
+dwarf/warrior/trade   I need a sharper blade and a stronger plate!
+dwarf/warrior/trade   I demand some new equipment!
+dwarf/warrior/trade   I want to look at shiny stuff
+dwarf/warrior/trade   Give me something that wouldn't break
+dwarf/priest/trade    I require some arcane goods
+dwarf/priest/trade    I need new equipment for my journey towards the light
+dwarf/priest/trade    My soul is strong but I need something to strengthen my body
+dwarf/priest/trade    I need better gear to spread the light
+dwarf/rogue/trade     I have little offer for ya.
+dwarf/rogue/trade     Were could we find some private space?
+dwarf/rogue/trade     I need sharper tools
+dwarf/rogue/trade     Look at what I've got... but not too long!
+
+
+
+
+
+nightelf/druid/train  Let me follow the ways of great outdoors
+nightelf/druid/train  Show me the blossom of wisdom between spikes of impropriety
+nightelf/druid/train  Teach me the ways of nature
+nightelf/druid/train  Give me a fruit of your wisdom branch
+nightelf/rouge/train  I'd like to be deadlier.
+nightelf/rouge/train  You know what I need...
+nightelf/rouge/train  Need to learn something more lethal.
+nightelf/rouge/train  Just need to be more effective.
+nightelf/rouge/train  Can you teach me to be deadlier.
+nightelf/rouge/train  Teach me some mortal actions...
+
+nightelf/druid/trade  Show me the gifts from Mother Nature
+nightelf/druid/trade  Give me something to cleanse this land
+nightelf/druid/trade  Are you interested in my possessions?
+nightelf/druid/trade  I need something to help the nature
+nightelf/rouge/trade  Pssst! Wanna trade?
+nightelf/rouge/trade  Hey, you there, I need some stuff.
+nightelf/rouge/trade  Just need your best goods or else...
+nightelf/rouge/trade  Need some goods, but don't dare to cheat me!
+nightelf/rouge/trade  Do you know where I get what i need?
+nightelf/rouge/trade  Am I right that nobody will remember this trade?
+
+
+
+gnome/mage/train      Care to share your knowledge?
+gnome/mage/train      Wisdom is your power.
+
+
+
+orc/warrior/train     Teach me how to splatter the enemies!
+orc/warrior/train     Show me how to spend my rage?
+orc/warrior/train     I wanna become a lethal warrior!		
+orc/warrior/train     Bet you can show me how to deal more damage!
+orc/warrior/train     I wanna learn how to use my strength efficiently!
+orc/warrior/train     Got to improve my killspeed!
+orc/warrior/train     ME WANT POWER BIG!!!
+orc/warrior/train     Teach me crush!
+orc/warrior/train     Me want my blade deadly!
+orc/warrior/train     Show me how to bash some heads!
+
+orc/warrior/trade     Need new equipment!
+orc/warrior/trade     Me wants big blade!
+orc/warrior/trade     I need good stuff!
+orc/warrior/trade     Show me goods or me bash you!
+orc/warrior/trade     Give me hard stuff!
+orc/warrior/trade     Nock tarro garr!
+
+
+
+undead/warlock/train  Bring me closer to the dark.
+undead/warlock/train  I am here to learn the ways of suffering.
+undead/warlock/train  Teach me how to walk with the dead.
+undead/warlock/train  The darkness is my path, teach me!
+undead/warlock/train  Bring me further on the path of destruction!								
+undead/warlock/train  Do you know any new ways to inflict pain and suffering?
+undead/warlock/train  Teach me some of your dark lore!
+undead/warlock/train  My chaotic powers need the shaping of your evil mastermind.
+undead/warlock/train  Show me how to summon demons of great power!
+undead/warlock/train  Let me journey deeper into the dark realm of your lore!
+undead/warlock/train  Show me how to scourge on my enemies
+undead/warlock/train  Improve my powers of death
+undead/warlock/train  Lead me to joy of torment
+undead/warlock/train  Let the death cleanse my soul
+
+undead/warlock/trade  I need some bonemeal among other things...
+undead/warlock/trade  Do you sell any demonbound artifacts?
+undead/warlock/trade  I'd like to barter for some warpstone and other substances.
+undead/warlock/trade  I need reagents for a summoning.
+undead/warlock/trade  Let me see your cursed relics!
+undead/warlock/trade  Show me what you found in the graves
+undead/warlock/trade  What kind of items darkness sends for me?
+undead/warlock/trade  Give me something that generates pain
+undead/warlock/trade  I want more wicked equipment
+
+
+
+tauren/druid/train    Show me the roots of knowledge
+tauren/druid/train    Let the wild help me
+tauren/druid/train    Let me be a branch on your knowledge tree
+tauren/druid/train    Teach me how to use the nature against it's enemies
+
+tauren/shaman/trade   Have you got something that fits to my totem?
+tauren/shaman/trade   I need something magical AND tough!
+tauren/shaman/trade   What fits my elemental powers?
+tauren/shaman/trade   Have you got something of XXXXXL size? 
+tauren/shaman/trade   I need something small but powerful
+tauren/shaman/trade   What you have of superior quality?
+tauren/shaman/trade   Do you need something from my arcane inventory?
+tauren/shaman/trade   Give me something to strengthen my powers!
+
+troll/hunter/train Teach me how to find friends in the wild
+troll/hunter/train I want my shots straight and deadly...
+troll/hunter/train Teach me how to find the weakest point in my enemies scale
+troll/hunter/train Show me how to slay more beasts
+
+troll/hunter/trade What you gonna give?
+troll/hunter/trade Need some better stuff!
+troll/hunter/trade Show me what u got!
+troll/hunter/trade What you neeed from me?
+
+

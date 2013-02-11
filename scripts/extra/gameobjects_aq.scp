@@ -1,0 +1,153 @@
+[gameobj 210312]
+name=Ahn'Qiraj Ossirian Crystal
+type=5
+model=6486
+size=5
+
+[gameobj 210313]
+name=Ahn'Qiraj Ossirian Crystal
+type=0
+model=6486
+size=4
+
+[gameobj 210327]
+name=Communication Crystal
+type=0
+model=6427
+size=1
+
+[gameobj 210328]
+name=Communication Crystal
+type=0
+model=6426
+size=1
+
+[gameobj 210329]
+name=Communication Crystal
+type=0
+model=6425
+size=1
+
+[gameobj 210330]
+name=Communication Crystal
+type=0
+model=6427
+sound1=879
+sound2=655360
+size=1
+
+[gameobj 210331]
+name=Communication Crystal
+type=0
+model=6426
+sound1=879
+sound2=655360
+size=1
+
+[gameobj 210332]
+name=Communication Crystal
+type=0
+model=6425
+sound1=879
+sound2=655360
+size=1
+
+[gameobj 210334]
+name=Ahn'Qiraj Gong
+finishes_quests=50040
+questscript=Ahn_Qiraj_Gong
+type=2
+sound1=50040
+flags=00
+faction=84
+model=4675
+
+[gameobj 210335]
+name=Twilight Tablet
+type=5
+flags=040
+model=6419
+size=2
+
+[gameobj 210336]
+name=Twilight Tablet
+type=5
+flags=040
+model=6420
+size=2
+
+[gameobj 210337]
+name=Glyphed Crystal
+type=8
+sound1=15
+sound0=643
+flags=00
+model=6431
+size=3.000000
+
+[gameobj 210338]
+name=Gorishi Silithid Crystal
+type=8
+sound1=15
+sound0=643
+flags=00
+model=3431
+size=1.000000
+
+[gameobj 210339]
+name=Ahn'Qiraj Sand Trap
+type=5
+model=6483
+
+[gameobj 210341]
+name=Hive Fireflies 01
+type=5
+model=6667
+
+[gameobj 210342]
+name=Glyphed Crystal
+type=5
+model=6431
+
+[gameobj 210343]
+name=Sand Worm Rock Base
+type=5
+size=6.5
+model=6559
+
+[gameobj 210344]
+name=Silithus Crystal Formation 03
+type=5
+model=6570
+
+[gameobj 210345]
+name=Floating Red Crystal Broken 03
+type=5
+model=6571
+
+[gameobj 210346]
+name=Floating Red Crystal Broken 01
+type=5
+model=6573
+
+[gameobj 210347]
+name=Ahn'Qiraj Door 01
+type=0
+Size=1
+model=6470
+
+[gameobj 210348]
+name=Floating Purple Crystal Broken 01
+type=5
+model=1667
+
+[gameobj 210349]
+name=Teleport to AQ
+type=2
+questscript=portal5
+sound1=76
+level=10
+flags=040
+sound2=1
+model=5491
+

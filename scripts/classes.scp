@@ -1,0 +1,1112 @@
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+//                                                                   //
+//    Blizzlike Stats and Items Classes.scp for UnitedWorldCrew      //
+//                          Revision 0.7.1                             //
+//      Updated 24-03-2006 ++ Original Thanks to Rama and Nev        //
+//        Modified and commented By Jenova on 24 March 2006          //
+//                                                                   //
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+
+//~~RACES~~//
+
+[race #RACE_HUMAN]
+startmap=0                                //Azeroth
+startzone=12                              //Elwynn Forest
+startpos=-8949.95 -132.493 83.5312 1.0    //Northshire
+startstats=20 20 20 20 21                 //Str, Agi, Stm, Int, Spr
+str_on_level=0.100                        //Stats Increase on lvl
+agi_on_level=0.100                        //Stats Increase on lvl
+sta_on_level=0.100                        //Stats Increase on lvl
+int_on_level=0.100                        //Stats Increase on lvl
+spi_on_level=0.100                        //Stats Increase on lvl
+bodymale=49                               //Model Type
+bodyfemale=50                             //Model Type
+size=1.0                                  //Model Size
+health=10                                 //Base Race Health
+skill=98 300 300                          //Language: Common
+spell=668                                 //Language: Common
+skill=162 1 300                           //Unarmed
+spell=203                                 //Unarmed
+spell=81                                  //Dodge
+skill=754 1 1                             //Human Racial
+spell=019CB                               //Attack
+spell=20597                               //Sword Specialization
+spell=20598                               //The Human Spirit
+spell=20599                               //Diplomacy
+spell=20600                               //Perception
+spell=20864                               //Mace Specialization
+spell=3365                                //Opening
+spell=6478                                //Opening
+
+[race #RACE_ORC]
+startmap=1                                //Kalimdor
+startzone=14                              //Durotar
+startpos=-618.518 -4251.67 38.718 1.0     //Valley of Trials
+startstats=23 17 22 17 23                 //Str, Agi, Stm, Int, Spr
+str_on_level=0.175                        //Stats Increase on lvl
+agi_on_level=0.052                        //Stats Increase on lvl
+sta_on_level=0.146                        //Stats Increase on lvl
+int_on_level=0.052                        //Stats Increase on lvl
+spi_on_level=0.175                        //Stats Increase on lvl
+bodymale=51                               //Model Type
+bodyfemale=52                             //Model Type
+size=1.0                                  //Model Size
+health=30                                 //Base Race Health
+skill=109 300 300                         //Language: Orcish
+spell=669                                 //Language: Orcish
+skill=162 1 300                           //Unarmed
+spell=203                                 //Unarmed
+spell=81                                  //Dodge
+skill=125 1 1                             //Orcish Racial
+spell=019CB                               //Attack
+spell=20572                               //Blood Fury
+spell=20573                               //Hardiness
+spell=20574                               //Axe Specialization
+spell=20575                               //Command
+spell=3365                                //Opening
+spell=6478                                //Opening
+
+[race #RACE_DWARF]
+startmap=0                                //Azeroth
+startzone=1                               //Dun Morogh
+startpos=-6240.32 331.033 382.758 1.0     //Coldridge Valley
+startstats=22 16 23 19 19                 //Str, Agi, Stm, Int, Spr
+str_on_level=0.146                        //Stats Increase on lvl
+agi_on_level=0.041                        //Stats Increase on lvl
+sta_on_level=0.175                        //Stats Increase on lvl
+int_on_level=0.081                        //Stats Increase on lvl
+spi_on_level=0.081                        //Stats Increase on lvl
+bodymale=53                               //Model Type
+bodyfemale=54                             //Model Type
+size=1.0                                  //Model Size
+heatlh=40                                 //Base Race Health
+skill=98 1 300                          //Language: Common
+spell=668                                 //Language: Common
+skill=111 300 300                         //Language: Dwarvern
+spell=672                                 //Language: Dwarvern
+skill=162 1 300                           //Unarmed
+spell=203                                 //Unarmed
+spell=81                                  //Dodge
+skill=101 1 1                             //Dwarvern Racial
+spell=019CB                               //Attack
+spell=20594                               //Stoneform
+spell=20595                               //Gun Specialization
+spell=20596                               //Frost Resistance
+spell=2481                                //Find Treasure
+spell=3365                                //Opening
+spell=6478                                //Opening
+
+[race #RACE_NIGHT_ELF]
+startmap=1                                //Kalimdor
+startzone=14                              //Teldrassil
+startpos=10311.3 832.463 1326.41 1.0      //Shadowglen
+startstats=17 25 19 20 20                 //Str, Agi, Sta, Int, Spi
+str_on_level=0.052                        //Stats Increase on lvl
+agi_on_level=0.244                        //Stats Increase on lvl
+sta_on_level=0.081                        //Stats Increase on lvl
+int_on_level=0.100                        //Stats Increase on lvl
+spi_on_level=0.100                        //Stats Increase on lvl
+bodymale=55                               //Model Type
+bodyfemale=56                             //Model Type
+size=1.0                                  //Model Size
+skill=98 1 300                          //Language: Common
+spell=668                                 //Language: Common
+skill=113 300 300                         //Language: Darnassian
+spell=671                                 //Language: Darnassian
+skill=162 1 300                           //Unarmed
+spell=203                                 //Unarmed
+spell=81                                  //Dodge
+skill=126 1 1                             //Night Elf Racial
+spell=019CB                               //Attack
+spell=20580                               //Shadowmeld
+spell=20582                               //Quickness
+spell=20583                               //Nature Resistance
+spell=20585                               //Wisp Spirit
+spell=3365                                //Opening
+spell=6478                                //Opening
+
+[race #RACE_UNDEAD]
+startmap=0                                //Azeroth
+startzone=85                              //Tirisfal Glades
+startpos=1676.35 1677.45 121.67 3.14      //Deathknell
+startstats=19 18 21 18 25                 //Str, Agi, Sta, Int, Spi
+str_on_level=0.081                        //Stats Increase on lvl
+agi_on_level=0.066                        //Stats Increase on lvl
+sta_on_level=0.122                        //Stats Increase on lvl
+int_on_level=0.066                        //Stats Increase on lvl
+spi_on_level=0.244                        //Stats Increase on lvl
+bodymale=57                               //Model Type
+bodyfemale=58                             //Model Type
+size=1.0                                  //Model Size
+health=20                                 //Base Race Health
+skill=109 1 300                         //Language: Orcish
+spell=669                                 //Language: Orcish
+skill=673 300 300                         //Language: Gutterspeak
+spell=17737                               //Language: Gutterspeak
+skill=162 1 300                           //Unarmed
+spell=203                                 //Unarmed
+spell=81                                  //Dodge
+skill=220 1 1                             //Undead Racial
+spell=019CB                               //Attack
+spell=5227                                //Underwater Breathing
+spell=7744                                //Will of The Forsaken
+spell=20577                               //Cannibalize
+spell=20579                               //Shadow Resistance
+spell=3365                                //Opening
+spell=6478                                //Opening
+
+[race #RACE_TAUREN]
+startmap=1                                //Kalimdor
+startzone=215                             //Mulgore
+startpos=-2917.58 -257.98 52.9968 1.0     //Camp Narache
+startstats=25 15 22 15 22                 //Str, Agi, Sta, Int, Spi
+str_on_level=0.244                        //Stats Increase on lvl
+agi_on_level=0.032                        //Stats Increase on lvl
+sta_on_level=0.146                        //Stats Increase on lvl
+int_on_level=0.032                        //Stats Increase on lvl
+spi_on_level=0.146                        //Stats Increase on lvl
+bodymale=59                               //Model Type
+bodyfemale=60                             //Model Type
+size=1.35                                 //Model Size
+health=30                                 //Base Race Health
+skill=109 1 300                         //Language: Orcish
+spell=669                                 //Language: Orcish
+skill=115 300 300                         //Language: Taurahe
+spell=670                                 //Language: Taurahe
+skill=162 1 300                           //Unarmed
+spell=203                                 //Unarmed
+spell=81                                  //Dodge
+skill=124 1 1                             //Tauren Racial
+spell=019CB                               //Attack
+spell=20549                               //War Stomp
+spell=20550                               //Endurance
+spell=20551                               //Nature Resistance
+spell=20552                               //Cultivation
+spell=3365                                //Opening
+spell=6478                                //Opening
+
+[race #RACE_GNOME]
+startmap=0                                //Azeroth
+startzone=1                               //Dun Morogh
+startpos=-6240.32 331.033 382.758 1.0     //Coldridge Valley
+startstats=15 23 19 24 20                 //Str, Agi, Sta, Int, Spi
+str_on_level=0.032                        //Stats Increase on lvl
+agi_on_level=0.175                        //Stats Increase on lvl
+sta_on_level=0.081                        //Stats Increase on lvl
+int_on_level=0.175                        //Stats Increase on lvl
+spi_on_level=0.100                        //Stats Increase on lvl
+bodymale=1563                             //Model Type
+bodyfemale=1564                           //Model Type
+size=1.0                                  //Model Size
+skill=98 1 300                          //Language: Common
+spell=668                                 //Language: Common
+skill=313 300 300                         //Language: Gnomish
+spell=7340                                //Language: Gnomish
+skill=162 1 300                           //Unarmed
+spell=203                                 //Unarmed
+spell=81                                  //Dodge
+skill=753 1 1                             //Gnomish Racial
+spell=019CB                               //Attack
+spell=20589                               //Escape Artist
+spell=20591                               //Expansive Mind
+spell=20592                               //Arcane Resistance
+spell=20593                               //Engineering Specialization
+spell=3365                                //Opening
+spell=6478                                //Opening
+
+[race #RACE_TROLL]
+startmap=1                                //Kalimdor
+startzone=14                              //Durotar
+startpos=-618.518 -4251.67 38.718 1.0     //Valley of Trials
+startstats=21 22 21 16 21                 //Str, Agi, Sta, Int, Spi
+str_on_level=0.122                        //Stats Increase on lvl
+agi_on_level=0.146                        //Stats Increase on lvl
+sta_on_level=0.122                        //Stats Increase on lvl
+int_on_level=0.041                        //Stats Increase on lvl
+spi_on_level=0.122                        //Stats Increase on lvl
+bodymale=1478                             //Model Type
+bodyfemale=1479                           //Model Type
+size=1.0                                  //Model Size
+health=20                                 //Base Race Health
+skill=109 1 300                         //Language: Orcish
+spell=669                                 //Language: Orcish
+skill=315 300 300                         //Language: Trollish
+spell=7341                                //Language: Trollish
+skill=162 1 300                           //Unarmed
+spell=203                                 //Unarmed
+spell=81                                  //Dodge
+skill=733 1 1                             //Troll Racial
+spell=019CB                               //Attack
+spell=20554                               //Berserking
+spell=20555                               //Regeneration
+spell=20557                               //Beast Slaying
+spell=20558                               //Throwing Specialization
+spell=3365                                //Opening
+spell=6478                                //Opening
+
+//~~CLASSES~~//
+
+[class #CLASS_WARRIOR]
+startstats=3 0 2 0 0                      //Str, Agi, Sta, Int, Spi
+str_on_level=1.426                        //Stats Increase on lvl
+agi_on_level=0.916                        //Stats Increase on lvl
+sta_on_level=3.918                        //Stats Increase on lvl
+int_on_level=0.070                        //Stats Increase on lvl
+spi_on_level=0.324                        //Stats Increase on lvl
+health=40                                 //Base Class Health
+healthmod=10                              //Stamina : Health
+maxpowers=0 1000 0 0 0                    //Set Rage
+mana=0                                    //Mana
+powermod=0                                //Intellect : Mana
+attacktime=2000 2000                      //Attack Time
+skill=415 1 1                             //Cloth
+spell=9078                                //Cloth
+skill=414 1 1                             //Leather
+spell=9077                                //Leather
+skill=413 1 1                             //Mail
+spell=8737                                //Mail
+skill=433 1 1                             //Shield
+spell=9116                                //Shield
+skill=95 1 300                            //Defense
+spell=107                                 //Block
+spell=2457                                //Battle Stance
+spell=78                                  //Heroic Strike
+skill=26 1 1                              //Arms
+skill=256 1 1                             //Fury
+skill=257 1 1                             //Protection
+
+[class #CLASS_PALADIN]
+startstats=2 0 2 0 1                      //Str, Agi, Sta, Int, Spi
+str_on_level=1.256                        //Stats Increase on lvl
+agi_on_level=0.663                        //Stats Increase on lvl
+sta_on_level=3.423                        //Stats Increase on lvl
+int_on_level=2.412                        //Stats Increase on lvl
+spi_on_level=0.816                        //Stats Increase on lvl
+health=38                                 //Base Class Health
+healthmod=10                              //Stamina : Health
+maxpowers=80 0 0 0 0                      //Set Mana
+mana=80                                   //Mana
+powermod=15                               //Intellect : Mana
+attacktime=2000 2000                      //Attack Time
+skill=415 1 1                             //Cloth
+spell=9078                                //Cloth
+skill=414 1 1                             //Leather
+spell=9077                                //Leather
+skill=413 1 1                             //Mail
+spell=8737                                //Mail
+skill=433 1 1                             //Shield
+spell=9116                                //Shield
+skill=95 1 300                            //Defense
+spell=107                                 //Block
+spell=635                                 //Holy Light
+spell=21084                               //Seal of Righteousness
+skill=184 1 1                             //Combat
+skill=267 1 1                             //Protection
+skill=594 1 1                             //Holy
+
+[class #CLASS_HUNTER]
+startstats=0 3 1 0 1                      //Str, Agi, Sta, Int, Spi
+str_on_level=0.494                        //Stats Increase on lvl
+agi_on_level=1.697                        //Stats Increase on lvl
+sta_on_level=3.386                        //Stats Increase on lvl
+int_on_level=2.454                        //Stats Increase on lvl
+spi_on_level=0.731                        //Stats Increase on lvl
+health=46                                 //Base Class Health
+healthmod=10                              //Stamina : Health
+maxpowers=85 0 0 0 0                      //Set Mana [Focus Unavailable]
+mana=85                                   //Mana
+powermod=15                               //Intellect : Mana
+attacktime=2000 2000                      //Attack Time
+skill=415 1 1                             //Cloth
+spell=9078                                //Cloth
+skill=414 1 1                             //Leather
+spell=9077                                //Leather
+skill=95 1 300                            //Defense
+spell=75                                  //Auto Shot
+spell=2973                                //Raptor Strike
+skill=51 1 1                              //Survival
+skill=50 1 1                              //Beast Mastery
+skill=163 1 1                             //Ranged Combat
+
+[class #CLASS_ROGUE]
+startstats=1 3 1 0 0                      //Str, Agi, Sta, Int, Spi
+str_on_level=0.901                        //Stats Increase on lvl
+agi_on_level=1.714                        //Stats Increase on lvl
+sta_on_level=3.273                        //Stats Increase on lvl
+int_on_level=0.155                        //Stats Increase on lvl
+spi_on_level=0.409                        //Stats Increase on lvl
+health=45                                 //Base Class Health
+healthmod=10                              //Stamina : Health
+maxpowers=0 0 0 100 0                     //Set Energy
+mana=0                                    //Mana
+powermod=0                                //Intellect : Mana
+skill=415 1 1                             //Cloth
+spell=9078                                //Cloth
+skill=414 1 1                             //Leather
+spell=9077                                //Leather
+skill=95 1 300                            //Defense
+spell=1752                                //Sinister Strike
+spell=2098                                //Eviscerate
+skill=38 1 1                              //Combat
+skill=39 1 1                              //Subtlety
+skill=253 1 1                             //Assassination
+
+[class #CLASS_DRUID]
+startstats=1 0 0 2 2                      //Str, Agi, Sta, Int, Spi
+str_on_level=0.646                        //Stats Increase on lvl
+agi_on_level=0.494                        //Stats Increase on lvl
+sta_on_level=2.965                        //Stats Increase on lvl
+int_on_level=2.538                        //Stats Increase on lvl
+spi_on_level=1.223                        //Stats Increase on lvl
+health=54                                 //Base Class Health
+healthmod=10                              //Stamina : Health
+maxpowers=70 1000 0 100 0                 //Set Mana Set Rage Set Energy
+mana=70                                   //Mana
+powermod=15                               //Intellect : Mana
+attacktime=2000 2000                      //Attack Time
+skill=415 1 1                             //Cloth
+spell=9078                                //Cloth
+skill=414 1 1                             //Leather
+spell=9077                                //Leather
+skill=95 1 300                            //Defense
+spell=5176                                //Wrath
+spell=5185                                //Healing Touch
+skill=134 1 1                             //Feral Combat
+skill=573 1 1                             //Restoration
+skill=574 1 1                             //Balance
+
+[class #CLASS_SHAMAN]
+startstats=1 0 1 1 2                      //Str, Agi, Sta, Int, Spi
+str_on_level=0.985                        //Stats Increase on lvl
+agi_on_level=0.494                        //Stats Increase on lvl
+sta_on_level=2.750                        //Stats Increase on lvl
+int_on_level=2.952                        //Stats Increase on lvl
+spi_on_level=1.036                        //Stats Increase on lvl
+health=47                                 //Base Class Health
+healthmod=10                              //Stamina : Health
+maxpowers=75 0 0 0 0                      //Set Mana
+mana=75                                   //Mana
+powermod=15                               //Intellect : Mana
+attacktime=2000 2000                      //Attack Time
+skill=415 1 1                             //Cloth
+spell=9078                                //Cloth
+skill=414 1 1                             //Leather
+spell=9077                                //Leather
+skill=433 1 1                             //Shield
+spell=9116                                //Shield
+skill=95 1 300                            //Defense
+spell=107                                 //Block
+spell=331                                 //Healing Wave
+spell=403                                 //Lightning Bolt
+skill=373 1 1                             //Enchantment
+skill=374 1 1                             //Restoration
+skill=375 1 1                             //Elemental Combat
+
+[class #CLASS_PRIEST]
+startstats=0 0 0 2 3                      //Str, Agi, Sta, Int, Spi
+str_on_level=0.155                        //Stats Increase on lvl
+agi_on_level=0.239                        //Stats Increase on lvl
+sta_on_level=2.384                        //Stats Increase on lvl
+int_on_level=3.042                        //Stats Increase on lvl
+spi_on_level=1.629                        //Stats Increase on lvl
+health=52                                 //Base Class Health
+healthmod=10                              //Stamina : Health
+maxpowers=130 0 0 0 0                     //Set Mana
+mana=130                                  //Mana
+powermod=15                               //Intellect : Mana
+attacktime=2000 2000                      //Attack Time
+skill=415 1 1                             //Cloth
+spell=9078                                //Cloth
+skill=95 1 300                            //Defense
+spell=585                                 //Smite
+spell=2050                                //Lesser Heal
+skill=56 1 1                              //Holy
+skill=613 1 1                             //Discipline
+skill=78 1 1                              //ShadowMagic
+
+[class #CLASS_MAGE]
+startstats=0 0 0 3 2                      //Str, Agi, Sta, Int, Spi
+agi_on_level=0.155                        //Stats Increase on lvl
+int_on_level=2.870                        //Stats Increase on lvl
+spi_on_level=1.562                        //Stats Increase on lvl
+sta_on_level=2.253                        //Stats Increase on lvl
+str_on_level=0.017                        //Stats Increase on lvl
+health=52                                 //Base Class Health
+healthmod=10                              //Stamina : Health
+maxpowers=120 0 0 0 0                     //Set Mana
+mana=120                                  //Mana
+powermod=15                               //Intellect : Mana
+attacktime=2000 2000                      //Attack Time
+skill=415 1 1                             //Cloth
+spell=9078                                //Cloth
+skill=95 1 300                            //Defense
+spell=133                                 //Fireball
+spell=168                                 //Frost Armor
+skill=6 1 1                               //Frost
+skill=8 1 1                               //Fire
+skill=237 1 1                             //Arcane
+
+[class #CLASS_WARLOCK]
+startstats=0 0 1 2 2                      //Str, Agi, Sta, Int, Spi
+str_on_level=0.324                        //Stats Increase on lvl
+agi_on_level=0.409                        //Stats Increase on lvl
+sta_on_level=2.594                        //Stats Increase on lvl
+int_on_level=2.842                        //Stats Increase on lvl
+spi_on_level=1.392                        //Stats Increase on lvl
+health=43                                 //Base Class Health
+healthmod=10                              //Stamina : Health
+maxpowers=110 0 0 0 0                     //Set Mana
+mana=110                                  //Mana
+powermod=15                               //Intellect : Mana
+attacktime=1600 2000                      //Attack Time
+skill=415 1 1                             //Cloth
+spell=9078                                //Cloth
+skill=95 1 300                            //Defense
+spell=686                                 //Shadow Bolt
+spell=687                                 //Demon Skin
+skill=354 1 1                             //Demonology
+skill=355 1 1                             //Affliction
+skill=593 1 1                             //Destruction
+
+//~~START ITEMS / SKILLS~~//
+
+// ++WARRIOR++
+
+[startitems #RACE_HUMAN #CLASS_WARRIOR]
+item=3 38                                 //Recruit's Shirt
+item=6 39                                 //Recruit's Pants
+item=7 40                                 //Recruit's Boots
+item=15 25                                //Worn Short Sword
+item=16 2362                              //Worn Wooden Shield
+item=23 117                               //Tough Jerky
+item=24 6948                              //Hearthstone
+item=25 14646                             //Northshire Gift Voucher
+skill=44 1 300                            //Axes
+spell=196                                 //Axes
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=43 1 300                            //Swords
+spell=201                                 //Swords
+
+[startitems #RACE_NIGHT_ELF #CLASS_WARRIOR]
+item=3 38                                 //Recruit's Shirt
+item=6 39                                 //Recruit's Pants
+item=7 40                                 //Recruit's Boots
+item=15 25                                //Worn Short Sword
+item=16 2362                              //Worn Wooden Shield
+item=23 117
+//Tough Jerky
+item=24 6948                              //Hearthstone
+item=25 14648                             //Shadowglen Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=43 1 300                            //Swords
+spell=201                                 //Swords
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+
+[startitems #RACE_DWARF #CLASS_WARRIOR]
+item=3 38                                 //Recruit's Shirt
+item=6 39                                 //Recruit's Pants
+item=7 40                                 //Recruit's Boots
+item=15 12282                             //Worn Battleaxe
+item=23 6948                              //Hearthstone
+item=23 117
+//Tough Jerky
+item=25 14647                             //Coldridge Valley Gift Voucher
+skill=44 1 300                            //Axes
+spell=196                                 //Axes
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=172 1 300                           //Two-Handed Axes
+spell=197                                 //Two-Handed Axes
+
+[startitems #RACE_GNOME #CLASS_WARRIOR]
+item=3 38                                 //Recruit's Shirt
+item=6 39                                 //Recruit's Pants
+item=7 40                                 //Recruit's Boots
+item=15 25                                //Worn Short Sword
+item=16 2362                              //Worn Wooden Shield
+item=23 117
+//Tough Jerky
+item=24 6948                              //Hearthstone
+item=25 14647                             //Coldridge Valley Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=43 1 300                            //Swords
+spell=201                                 //Swords
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+
+[startitems #RACE_UNDEAD #CLASS_WARRIOR]
+item=3 6125                               //Brawler's Harness
+item=6 139                                //Brawler's Pants
+item=7 140                                //Brawler's Boots
+item=15 25                                //Worn Short Sword
+item=16 2362                              //Worn Wooden Shield
+item=23 117
+//Tough Jerky
+item=24 6948                              //Hearthstone
+item=25 14651                             //Deathknell Gift Voucher
+skill=43 1 300                            //Swords
+spell=201                                 //Swords
+skill=55 1 300                            //Two-Handed Swords
+spell=202                                 //Two-Handed Swords
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+
+[startitems #RACE_ORC #CLASS_WARRIOR]
+item=3 6125                               //Brawler's Harness
+item=6 139                                //Brawler's Pants
+item=7 140                                //Brawler's Boots
+item=15 12282                             //Worn Battleaxe
+item=23 6948                              //Hearthstone
+item=23 117
+//Tough Jerky
+item=25 14649                             //Valley of Trials Gift Voucher
+skill=43 1 300                            //Swords
+spell=201                                 //Swords
+skill=44 1 300                            //Axes
+spell=196                                 //Axes
+skill=172 1 300                           //Two-Handed Axes
+spell=197                                 //Two-Handed Axes
+
+[startitems #RACE_TROLL #CLASS_WARRIOR]
+item=3 6125                               //Brawler's Harness
+item=6 139                                //Brawler's Pants
+item=7 140                                //Brawler's Boots
+item=15 37                                //Worn Short Axe
+item=16 2362                              //Worn Wooden Shield
+item=17 3111                              //Crude Throwing Axe
+item=23 117
+//Tough Jerky
+item=24 6948                              //Hearthstone
+item=25 14649                             //Valley of Trials Gift Voucher
+skill=44 1 300                            //Axes
+spell=196                                 //Axes
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+skill=176 1 300                           //Thrown
+spell=2567                                //Thrown
+spell=2764                                //Throw
+
+[startitems #RACE_TAUREN #CLASS_WARRIOR]
+item=3 6125                               //Brawler's Harness
+item=6 139                                //Brawler's Pants
+item=15 2361                              //Battleworn Hammer
+item=23 6948                              //Hearthstone
+item=24 117                               //Tough Jerky
+item=25 14650                             //Camp Narache Gift Voucher
+skill=44 1 300                            //Axes
+spell=196                                 //Axes
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=160 1 300                           //Two-Handed Maces
+spell=199                                 //Two-Handed Maces
+
+// ++PALADIN++
+
+[startitems #RACE_HUMAN #CLASS_PALADIN]
+item=3 45                                 //Squire's Shirt
+item=6 44                                 //Squire's Pants
+item=7 43                                 //Squire's Boots
+item=15 2361                              //Battleworn Hammer
+item=23 6948                              //Hearthstone
+item=24 159                               //Refreshing Spring Water
+item=25 2070                              //Darnassian Bleu
+item=26 14646                             //Northshire Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=160 1 300                           //Two-Handed Maces
+spell=199                                 //Two-Handed Maces
+
+[startitems #RACE_DWARF #CLASS_PALADIN]
+item=3 45                                 //Squire's Shirt
+item=6 44                                 //Squire's Pants
+item=7 43                                 //Squire's Boots
+item=15 2361                              //Battleworn Hammer
+item=23 4540                              //Tough Hunk of Bread
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14647                             //Coldridge Valley Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=160 1 300                           //Two-Handed Maces
+spell=199                                 //Two-Handed Maces
+
+// ++HUNTER++
+
+[startitems #RACE_NIGHT_ELF #CLASS_HUNTER]
+item=3 148                                //Rugged Trapper's Shirt
+item=6 147                                //Rugged Trapper's Pants
+item=7 129                                //Rugged Trapper's Boots
+item=15 2092                              //Worn Dagger
+item=17 2504                              //Worn Shortbow
+item=23 159                               //Refreshing Spring Water
+item=24 117                               //Tough Jerky
+item=25 6948                              //Hearthstone
+item=26 14648                             //Shadowglen Gift Voucher
+item=27 2512                              //Rough Arrow
+item=28 2101                              //Light Quiver
+skill=45 1 300                            //Bows
+spell=264                                 //Bows
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+
+[startitems #RACE_DWARF #CLASS_HUNTER]
+item=3 148                                //Rugged Trapper's Shirt
+item=6 147                                //Rugged Trapper's Pants
+item=7 129                                //Rugged Trapper's Boots
+item=15 37                                //Worn Axe
+item=17 2508                              //Old Blunderbuss
+item=23 159                               //Refreshing Spring Water
+item=24 117                               //Tough Jerky
+item=25 6948                              //Hearthstone
+item=26 14647                             //Coldridge Valley Gift Voucher
+item=27 2516                              //Light Shot
+item=28 2102                              //Small Ammo Pouch
+skill=44 1 300                            //Axes
+spell=196                                 //Axes
+skill=46 1 300                            //Guns
+spell=266                                 //Guns
+
+[startitems #RACE_ORC #CLASS_HUNTER]
+item=3 127                                //Trapper's Shirt
+item=6 6126                               //Trapper's Pants
+item=7 6127                               //Trapper's Boots
+item=15 37                                //Worn Axe
+item=17 2504                              //Worn Shortbow
+item=23 159                               //Refreshing Spring Water
+item=24 6948                              //Hearthstone
+item=25 117                               //Tough Jerky
+item=26 14649                             //Valley of Trials Gift Voucher
+item=27 2512                              //Rough Arrow
+item=28 2101                              //Light Quiver
+skill=44 1 300                            //Axes
+spell=196                                 //Axes
+skill=45 1 300                            //Bows
+spell=264                                 //Bows
+
+[startitems #RACE_TROLL #CLASS_HUNTER]
+item=3 127                                //Trapper's Shirt
+item=6 6126                               //Trapper's Pants
+item=7 6127                               //Trapper's Boots
+item=15 37                                //Worn Axe
+item=17 2504                              //Worn Shortbow
+item=23 4604                              //Forest Mushroom Cap
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14649                             //Valley of Trials Gift Voucher
+item=27 2512                              //Rough Arrow
+item=28 2101                              //Light Quiver
+skill=44 1 300                            //Axes
+spell=196                                 //Axes
+skill=45 1 300                            //Bows
+spell=264                                 //Bows
+
+[startitems #RACE_TAUREN #CLASS_HUNTER]
+item=3 127                                //Trapper's Shirt
+item=6 6126                               //Trapper's Pants
+item=15 37                                //Worn Axe
+item=17 2508                              //Old Blunderbuss
+item=23 6948                              //Hearthstone
+item=24 159                               //Refreshing Spring Water
+item=25 117                               //Tough Jerky
+item=26 14650                             //Camp Narache Gift Voucher
+item=27 2516                              //Light Shot
+item=28 2102                              //Small Ammo Pouch
+skill=44 1 300                            //Axes
+spell=196                                 //Axes
+skill=46 1 300                            //Guns
+spell=266                                 //Guns
+
+// ++ROGUE++
+
+[startitems #RACE_HUMAN #CLASS_ROGUE]
+item=3 49                                 //Footpad's Shirt
+item=6 48                                 //Footpad's Pants
+item=7 47                                 //Footpad's Shoes
+item=15 2092                              //Worn Dagger
+item=17 2947                              //Small Throwing Knife
+item=23 2070                              //Darnassian Bleu
+item=24 6948                              //Hearthstone
+item=25 14646                             //Northshire Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+spell=2567                                //Thrown
+skill=176 1 300                           //Thrown
+spell=2764                                //Throw
+
+[startitems #RACE_NIGHT_ELF #CLASS_ROGUE]
+item=3 49                                 //Footpad's Shirt
+item=6 48                                 //Footpad's Pants
+item=7 47                                 //Footpad's Shoes
+item=15 2092                              //Worn Dagger
+item=17 2947                              //Small Throwing Knife
+item=23 4540                              //Tough Hunk of Bread
+item=24 6948                              //Hearthstone
+item=25 14648                             //Shadowglen Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+spell=2567                                //Thrown
+skill=176 1 300                           //Thrown
+spell=2764                                //Throw
+
+[startitems #RACE_DWARF #CLASS_ROGUE]
+item=3 49                                 //Footpad's Shirt
+item=6 48                                 //Footpad's Pants
+item=7 47                                 //Footpad's Shoes
+item=15 2092                              //Worn Dagger
+item=17 3111                              //Crude Throwing Axe
+item=23 4540                              //Tough Hunk of Bread
+item=24 6948                              //Hearthstone
+item=25 14647                             //Coldridge Valley Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+spell=2567                                //Thrown
+skill=176 1 300                           //Thrown
+spell=2764                                //Throw
+
+[startitems #RACE_GNOME #CLASS_ROGUE]
+item=3 49                                 //Footpad's Shirt
+item=6 48                                 //Footpad's Pants
+item=7 47                                 //Footpad's Shoes
+item=15 2092                              //Worn Dagger
+item=17 2947                              //Small Throwing Knife
+item=23 117                               //Tough Jerky
+item=24 6948                              //Hearthstone
+item=25 14647                             //Coldridge Valley Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+spell=2567                                //Thrown
+skill=176 1 300                           //Thrown
+spell=2764                                //Throw
+
+[startitems #RACE_UNDEAD #CLASS_ROGUE]
+item=3 2105                               //Thug Shirt
+item=6 120                                //Thug Pants
+item=7 121                                //Thug Shoes
+item=15 2092                              //Worn Dagger
+item=17 2947                              //Small Throwing Knife
+item=23 4604                              //Forest Mushroom Cap
+item=24 6948                              //Hearthstone
+item=25 14651                             //Deathknell Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+spell=2567                                //Thrown
+skill=176 1 300                           //Thrown
+spell=2764                                //Throw
+
+[startitems #RACE_ORC #CLASS_ROGUE]
+item=3 2105                               //Thug Shirt
+item=6 120                                //Thug Pants
+item=7 121                                //Thug Shoes
+item=15 2092                              //Worn Dagger
+item=17 3111                              //Crude Throwing Axe
+item=23 117                               //Tough Jerky
+item=24 6948                              //Hearthstone
+item=25 14649                             //Valley of Trials Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+spell=2567                                //Thrown
+skill=176 1 300                           //Thrown
+spell=2764                                //Throw
+
+[startitems #RACE_TROLL #CLASS_ROGUE]
+item=3 2105                               //Thug Shirt
+item=6 120                                //Thug Pants
+item=7 121                                //Thug Shoes
+item=15 2092                              //Worn Dagger
+item=17 3111                              //Crude Throwing Axe
+item=23 117                               //Tough Jerky
+item=24 6948                              //Hearthstone
+item=25 14649                             //Valley of Trials Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+spell=2567                                //Thrown
+skill=176 1 300                           //Thrown
+spell=2764                                //Throw
+
+// ++DRUID++
+
+[startitems #RACE_NIGHT_ELF #CLASS_DRUID]
+item=4 6123                               //Novice's Robe
+item=6 44                                 //Novice's Pants
+item=15 3661                              //Handcrafted Staff
+item=23 159                               //Refreshing Spring Water
+item=24 4536                              //Shiny Red Apple
+item=25 6948                              //Hearthstone
+item=26 14648                             //Shadowglen Gift Voucher
+skill=136 1 300                           //Staves
+spell=227                                 //Staves
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+
+[startitems #RACE_TAUREN #CLASS_DRUID]
+item=4 6139                               //Novice's Robe
+item=6 6124                               //Novice's Pants
+item=15 35                                //Bent Staff
+item=23 159                               //Refreshing Spring Water
+item=24 4536                              //Shiny Red Apple
+item=25 6948                              //Hearthstone
+item=26 14650                             //Camp Narache Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=136 1 300                           //Staves
+spell=227                                 //Staves
+
+// ++SHAMAN++
+
+[startitems #RACE_ORC #CLASS_SHAMAN]
+item=3 154                                //Primitive Mantle
+item=6 153                                //Primitive Kilt
+item=15 36                                //Worn Mace
+item=23 6948                              //Hearthstone
+item=24 117                               //Tough Jerky
+item=25 159                               //Refreshing Spring Water
+item=26 14649                             //Valley of Trials Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=136 1 300                           //Staves
+spell=227                                 //Staves
+
+[startitems #RACE_TROLL #CLASS_SHAMAN]
+item=3 6134                               //Primitive Mantle
+item=6 6135                               //Primitive Kilt
+item=15 36                                //Worn Mace
+item=23 117                               //Tough Jerky
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14649                             //Valley of Trials Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=136 1 300                           //Staves
+spell=227                                 //Staves
+
+[startitems #RACE_TAUREN #CLASS_SHAMAN]
+item=3 154                                //Primitive Mantle
+item=6 153                                //Primitive Kilt
+item=15 36                                //Worn Mace
+item=23 6948                              //Hearthstone
+item=24 4604                              //Forest Mushroom Cap
+item=25 159                               //Refreshing Spring Water
+item=26 14650                             //Camp Narache Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=136 1 300                           //Staves
+spell=227                                 //Staves
+
+// ++PRIEST++
+
+[startitems #RACE_HUMAN #CLASS_PRIEST]
+item=3 53                                 //Neophyte's Shirt
+item=4 6098                               //Neophyte's Robe
+item=6 52                                 //Neophyte's Pants
+item=7 51                                 //Neophyte's Boots
+item=15 36                                //Worn Mace
+item=23 159                               //Refreshing Spring Water
+item=24 2070                              //Darnassian Bleu
+item=25 6948                              //Hearthstone
+item=26 14646                             //Northshire Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+[startitems #RACE_NIGHT_ELF #CLASS_PRIEST]
+item=3 53                                 //Neophyte's Shirt
+item=4 6119                               //Neophyte's Robe
+item=6 52                                 //Neophyte's Pants
+item=7 51                                 //Neophyte's Boots
+item=15 36                                //Worn Mace
+item=23 2070                              //Darnassian Bleu
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14648                             //Shadowglen Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+[startitems #RACE_DWARF #CLASS_PRIEST]
+item=3 53                                 //Neophyte's Shirt
+item=4 6098                               //Neophyte's Robe
+item=6 52                                 //Neophyte's Pants
+item=7 51                                 //Neophyte's Boots
+item=15 36                                //Worn Mace
+item=23 159                               //Refreshing Spring Water
+item=24 4540                              //Tough Hunk of Bread
+item=25 6948                              //Hearthstone
+item=26 14647                             //Coldridge Valley Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+[startitems #RACE_UNDEAD #CLASS_PRIEST]
+item=3 53                                 //Neophyte's Shirt
+item=4 6144                               //Neophyte's Robe
+item=6 52                                 //Neophyte's Pants
+item=7 51                                 //Neophyte's Boots
+item=15 36                                //Worn Mace
+item=23 4604                              //Forest Mushroom Cap
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14651                             //Deathknell Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+[startitems #RACE_TROLL #CLASS_PRIEST]
+item=3 53                                 //Neophyte's Shirt
+item=4 6144                               //Neophyte's Robe
+item=6 52                                 //Neophyte's Pants
+item=15 36                                //Worn Mace
+item=23 4540                              //Tough Hunk of Bread
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14649                             //Valley of Trials Gift Voucher
+skill=54 1 300                            //Maces
+spell=198                                 //Maces
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+// ++MAGE++
+
+[startitems #RACE_HUMAN #CLASS_MAGE]
+item=3 6096                               //Apprentice's Shirt
+item=4 56                                 //Apprentice's Robe
+item=6 1395                               //Apprentice's Pants
+item=7 55                                 //Apprentice's Boots
+item=15 35                                //Bent Staff
+item=23 2070                              //Darnassian Bleu
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14646                             //Northshire Gift Voucher
+skill=136 1 300                           //Staves
+spell=227                                 //Staves
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+[startitems #RACE_GNOME #CLASS_MAGE]
+item=3 6096                               //Apprentice's Shirt
+item=4 56                                 //Apprentice's Robe
+item=6 1395                               //Apprentice's Pants
+item=7 55                                 //Apprentice's Boots
+item=15 35                                //Bent Staff
+item=23 4536                              //Shiny Red Apple
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14647                             //Coldridge Valley Gift Voucher
+skill=136 1 300                           //Staves
+spell=227                                 //Staves
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+[startitems #RACE_UNDEAD #CLASS_MAGE]
+item=3 6096                               //Apprentice's Shirt
+item=4 6140                               //Apprentice's Robe
+item=6 1395                               //Apprentice's Pants
+item=7 55                                 //Apprentice's Boots
+item=15 35                                //Bent Staff
+item=23 4604                              //Forest Mushroom Cap
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14651                             //Deathknell Gift Voucher
+skill=136 1 300                           //Staves
+spell=227                                 //Staves
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+[startitems #RACE_TROLL #CLASS_MAGE]
+item=3 6096                               //Apprentice's Shirt
+item=4 6140                               //Apprentice's Robe
+item=6 1395                               //Apprentice's Pants
+item=7 55                                 //Apprentice's Boots
+item=15 35                                //Bent Staff
+item=23 117                               //Tough Jerky
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14649                             //Valley of Trials Gift Voucher
+skill=136 1 300                           //Staves
+spell=227                                 //Staves
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+// ++WARLOCK++
+
+[startitems #RACE_HUMAN #CLASS_WARLOCK]
+item=3 6097                               //Acolyte's Shirt
+item=4 57                                 //Acolyte's Robe
+item=6 1396                               //Acolyte's Pants
+item=7 59                                 //Acolyte's Shoes
+item=15 2092                              //Worn Dagger
+item=23 4604                              //Forest Mushroom Cap
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14646                             //Northshire Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+[startitems #RACE_GNOME #CLASS_WARLOCK]
+item=3 6097                               //Acolyte's Shirt
+item=4 57                                 //Acolyte's Robe
+item=6 1396                               //Acolyte's Pants
+item=7 59                                 //Acolyte's Shoes
+item=15 2092                              //Worn Dagger
+item=23 159                               //Refreshing Spring Water
+item=24 4604                              //Forest Mushroom Cap
+item=25 6948                              //Hearthstone
+item=26 14647                             //Coldridge Valley Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+[startitems #RACE_UNDEAD #CLASS_WARLOCK]
+item=4 6129                               //Acolyte's Robe
+item=6 1396                               //Acolyte's Pants
+item=7 59                                 //Acolyte's Shoes
+item=15 2092                              //Worn Dagger
+item=23 4604                              //Forest Mushroom Cap
+item=24 159                               //Refreshing Spring Water
+item=25 6948                              //Hearthstone
+item=26 14651                             //Deathknell Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+[startitems #RACE_ORC #CLASS_WARLOCK]
+item=4 6129                               //Acolyte's Robe
+item=6 1396                               //Acolyte's Pants
+item=7 59                                 //Acolyte's Shoes
+item=15 2092                              //Worn Dagger
+item=23 6948                              //Hearthstone
+item=24 117                               //Tough Jerky
+item=25 159                               //Refreshing Spring Water
+item=26 14649                             //Valley of Trials Gift Voucher
+skill=173 1 300                           //Daggers
+spell=1180                                //Daggers
+skill=228 1 300                           //Wands
+spell=5009                                //Wands
+spell=5019                                //Shoot
+
+//~~~~~~~~~~~~Blizzlike Stats and Items Classes.scp for UnitedWorldCrew~~~~~~~~~~~~//
+

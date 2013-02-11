@@ -1,0 +1,9 @@
+1- Type: .addspawn 
+2- Select the spawn and type: .setspawngo # (#=game object number) 
+3- Select the spawn and type: .setspawndist #1 #2 (#1=minimum distance and #2 = max distance, use "0 0" to make it spawn on the spawnpoint allways) 
+4- Select the spawn and type: .setspawntime 360 560 (random between 360 and 560 seconds, use 360 360 to make it spawn every 360 sec.) 
+
+If the gameojbect is spawned, go close to is and use .targetgo 
+Then use .info to get the number for that object. (entry=? -I think)  
+
+It is not hard once you do it some times. 

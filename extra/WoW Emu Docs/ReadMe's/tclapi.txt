@@ -1,0 +1,116 @@
+
+-----------------------------------------------------------------------
+API commands:
+
+GetQFlags player			return string of quest flags
+GetQFlag player flag			return 1 if flag exists, otherwise 0
+SetQFlag player flag
+ClearQFlag player flag
+GetQuestStatus player questid		return active quest status
+SendQuestsList player npc questid1 questid2 questid3 ....
+SendQuestDetails player npc qid qname qdesc qdetails
+SendQuestReward { player npc qid  qname qdesc }
+SendQuestRequestItems player npc qid  qname qdesc
+SendGossipComplete player		close gssip window
+SendSwitchGossip player npc mode	modes: 0=off  1=npctext0_0 2=npctext0_1
+SendGossip player npc { npctext 192 } { text 4 "Hello" } { quest 66 }...
+                                  ^            ^\gossip option type. types are:
+                                  |            0 - Chat 
+                                  |            1 - Trade
+                                  |            2 - Train skill 
+                                  |            3 - Wing 
+                                  |            4 - Cogwheel 
+                                  |            5 - Cogwheel 
+                                  |            6 - Green dollar 
+                                  |            7 - Chat with dots 
+                                  |            8 - Blue dollar 
+                                  \text id from npctext.scp
+SendQuestComplete player questid
+GetClass player
+GetRace player
+GetLevel mobile
+GetEntry object
+GetCreatureType npc
+GetReputation player npc
+AddReputation player npc value
+Resurrect player
+VendorList player npc
+TrainerList player npc
+PetitionList player npc
+BankerList player npc
+TaxistList player npc
+GetScpValue script section key
+    puts [GetScpValue "emu.conf" "system" "server_rules"]
+GetNpcflags npc
+SetNpcflags for_player npc value
+    внимание, флаги выставляются только временно, для конкретного игрока.
+SetBindpoint player
+GetBindpoint player
+Teleport from map x y z
+Emote from to emoteid
+Say mob language emoteid
+GetSelection player
+Distance obj1 obj2
+SendPOI player flags x y type unk text
+GetPlevel player
+GetObjectType object
+    types are: 0=object not found, item=1, container=2, creature=3, 
+               player=4, gameobject=5, corpse=7
+GO_CustomAnimation object animation
+Loot player body loottemplate loottype
+BreakSpellLink player
+GetName player
+    return name or ""
+GetPos object 
+    return m x y z
+GetSkill player skillid
+SetSkill player skillid value maxvalue
+GetGuid object
+GetLocation object
+AddItem player itemid
+LearnSpell player spellid
+FishNotHooked player
+FishEscaped player
+KickPlayer player
+EmoteState player npc emote (234 is a tree chopping).
+NpcPOI player npc 1(on)/0(off)
+TaxiNodeExplorered player nodeid
+ConsumeItem player entry number 
+    items from backpack and subpacks consumed. if not enough - returned 0 else 1
+GetLinkObject from
+GetHealthPCT mobile
+ChangeMoney player +-money (return 0 if not enough money,
+    otherwise 1 if money consumed or added)
+CastSpell from to spellid (for players, npcs, gameobjects)
+SetFaction to faction_template (for npcs and gameobjects)
+GetNumLinked from
+SetWayPoint npc pointid
+
+-----------------------------------------------------------------------
+API procs:
+
+WoWEmu::CalcXP { killer victim }
+WoWEmu::ExplorationXP { player location }
+WoWEmu::CalcReputation { killer victim }
+WoWEmu::DamageReduction { player from_mob armor }
+WoWEmu::Command { args }
+WoWEmu::OnPlayerDeath { player killer }
+WoWEmu::OnPlayerResurrect { player }
+WoWEmu::FishingPing { player bobber seconds_remaining }
+WoWEmu::FishingOpen { player bobber deep }
+*::OnOpen { obj player questid }
+          return 1 (loot) / return 0 (noloot)
+*::OnFocus object player focus_type 
+          questscript= for gameobjects type 8
+
+*::AreaTrigger player trigger_number
+AI::CanCast npc victim
+*::CanCast npc victim
+AI::CanAgro npc player
+AI::CanUnAgro npc player
+
+SpellEffects::SPELL_EFFECT_TELEPORT_UNITS { to from spellid }
+SpellEffects::SPELL_EFFECT_QUEST_COMPLETE { to from questid }
+SpellEffects::SPELL_EFFECT_SCRIPT_EFFECT { to from spellid }
+SpellEffects::SPELL_EFFECT_SEND_EVENT { to from eventid }
+SpellEffects::SPELL_EFFECT_PORTAL { from spellid }

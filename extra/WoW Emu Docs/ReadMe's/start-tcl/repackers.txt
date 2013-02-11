@@ -1,0 +1,10 @@
+				TO ALL REPACKERS
+
+It's part of the terms of the LGPL that it's text be included with programs
+licensed under it, so we ask repackers to please include the "docs/lgpl.txt"
+whenever you include this script in your repack.
+
+Thank you very much, for your compreension.
+
+-- 
+Lazarus & spirit

@@ -1,0 +1,16 @@
+#Translated by @Luciolis - info@abitcomputer.com
+namespace eval GuildBank {
+::Texts::Set de notmember "Du bist nicht Zunft-Mitglied"
+::Texts::Set de noperm "Erlaubnis verweigerte "
+::Texts::Set de nocash "Du hast kein Bargeld!"
+::Texts::Set de addgold "Du fügst %s Gold GuildBank hinzu "
+::Texts::Set de nogold "Du %s Gold in GuildBank nicht haben "
+::Texts::Set de getgold "Du erhältst %s Gold von GuildBank "
+::Texts::Set de amount "Du mußt Menge schreiben "
+::Texts::Set de delitem "Du entfernst Einzelteil von GuildBank "
+::Texts::Set de getitem "Du erhältst Einzelteil von GuildBank "
+::Texts::Set de additem "Du fügst Einzelteil GuildBank hinzu "
+::Texts::Set de cash "GuildBank innen kassieren: %s "
+::Texts::Set de noitem "Du dieses Einzelteil in GuildBank nicht haben "
+::Texts::Set de soul_item "Du kannst nicht diese Art addieren "
+}

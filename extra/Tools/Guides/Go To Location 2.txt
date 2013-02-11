@@ -1,0 +1,452 @@
+===== 
+GO LOCATIONS 
+===== 
+Azeroth 
+
+Alterac Mountains: 
+.go 0 -74.6376 201.212 53.2755 Lordamere Internment Camp 
+.go 0 258 351 41.9076 Dalaran Inside the Dome 
+.go 0 386.938 212.299 43.6994 Dalaran Ruins 
+.go 0 1239.12 -286.705 42.4764 The Uplands 
+.go 0 679.813 -965.173 164.598 Strahnbrad 
+.go 0 522.608 -275.392 150.689 Ruins of Alterac 
+
+Arathi Highlands: 
+.go 0 -2086.88 -2074.57 5.72927 Faldir's Cove 
+.go 0 -1969.08 -2789.04 81.2105 Boulderfist Hall 
+.go 0 -1505.51 -3030.52 12.627 Go'Shek Farm 
+.go 0 -1763.41 -3371.67 40.609 Witherbark Village 
+.go 0 -950.584 -3533.13 71.8318 Hammerfall 
+.go 0 -1065.89 -2905.56 42.0958 Dabyrie's Farmstead 
+.go 0 -1262.79 -2521.75 20.8021 Refuge Pointe 
+.go 0 -797.235 -2068.95 33.8337 Northfold Manor 
+.go 0 -863.118 -1784.72 39.6118 Circle of West Binding 
+.go 0 -839.599 -1590.32 54.1962 Thoradin's Wall 
+.go 0 -1661.42 -1804.2 83.0723 Stormgarde Keep 
+.go 0 -1529.75 -2166.7 17.3717 Circle of Inner Binding 
+.go 0 -1354.4 -2738.07 58.9657 Circle of Outer Binding 
+.go 0 -842.604 -3270.04 78.3588 Circle of East Binding 
+
+Badlands: 
+.go 0 -6092.32 -3214.55 262.727 Excavatin Site 
+.go 0 -6411.58 -3409.85 241.537 Hamertoe's Digsite 
+.go 0 -6247.73 -3776.6 249.06 Camp Cosh 
+.go 0 -6935.86 -4092.06 285.906 Lethlor Ravine 
+.go 0 -7033.94 -3669.89 245.91 Camp Boff 
+.go 0 -7027.81 -3330.11 241.51 Agmond's End 
+.go 0 -7147.67 -2430.87 240.51 Camp Cagg 
+.go 0 -6894.29 -2465.82 247.978 Apocryphan's Rest 
+.go 0 -6675.96 -2188.29 246.152 Kargath Orc Outpost 
+.go 0 -6380.77 -3139.89 301.111 Unknown Dwarf Fortress 
+.go 0 -5829.66 -2585.59 311.971 Two Giant Sitting Dwarfs 
+
+Blasted Lands: 
+.go 0 -10859 -2663.38 7.80049 Orc Outpost 
+.go 0 -11272.8 -2547.59 102.02 Altar of Storms 
+.go 0 -11853.6 -3197.44 -27.2186 Dark Portal 
+.go 0 -11033 -3095.22 89.8189 Azureload Human Town 
+
+Burning Steppes: 
+.go 0 -7924.68 -2624.44 220.958 Dreadmaul Rock 
+.go 0 -8066.68 -1621.66 132.982 Giant Orc Statue 
+.go 0 -7613.13 -761.492 190.807 Altar of Storms 
+.go 0 -7468 -1082 896 Top of Blackrock Mountain 
+
+Darrowmere Lake: 
+.go 0 1234.83 -2118.49 50.8011 Darrowmere Lake 
+.go 0 1125.31 -2541.35 78.3562 Caer Darrow The Dark Portal 
+
+Dun Morogh: 
+.go 0 -5475.44 -2425.32 413.455 Dwarf Outpost 
+.go 0 -5231.95 -2366.98 398.807 Dwarf Outpost 
+.go 0 -5607.39 -1984.16 396.373 Helm's Bed Lake 
+.go 0 -5826.35 -1586.57 364.269 Gol'Bolar Quarry 
+.go 0 -5582.32 -463.982 402 Kharanos 
+.go 0 -5470.37 -662.312 392.674 Steelgrill's Depot 
+.go 0 -5353.18 -1043.02 394.772 Misty Pine Refuge 
+.go 0 -4981.25 -881.542 501.66 City of Ironforge 
+.go 0 -6325.7 294.835 379.791 Coldridge Valley 
+.go 0 -6110.8 388.517 395.542 Anvilmar 
+.go 0 -5368.81 319.498 394.123 Brewnall Village 
+.go 0 -5259.74 107.593 392.567 Iceflow Lake 
+.go 0 -5179.58 660.421 388.391 Gnomeregan 
+
+Duskwood: 
+.go 0 -10649.7 -884.01 50.8196 Brightwood Grove 
+.go 0 -10385 -424.696 63.534 Twilight Grove 
+.go 0 -11105.4 -500.791 32.8518 Yorgen Farmstead 
+.go 0 -11069.3 -927.315 63.502 The Rotting Orchard 
+.go 0 -10993.3 -1331.19 52.7805 Tranquil Gardens Cemetery 
+.go 0 -10567.5 -1169.86 29.0826 Dark Shire 
+.go 0 -10435.4 -1809.28 98.3851 Deadwind Pass 
+.go 0 -10750.1 323.644 38.0417 Raven Hill 
+.go 0 -10316.7 342.295 59.6454 Ravenhill Cemetery 
+.go 0 -10992.6 268.794 27.5101 Addle's Stead 
+.go 0 -10359.9 -1531.75 91.5352 Beggar's Haunt 
+.go 0 -11078.9 -2078.53 206.878 Medivh's Tower 
+
+Eastern Plaguelands: 
+.go 0 2433.31 -3782.06 185.472 Ziggaraut 
+.go 0 2016.11 -4486.36 73.6226 Village 
+.go 0 2823.83 -3727.76 124.971 Ziggaraut in Mushroom Field 
+.go 0 3097.32 -3562.77 134.093 Slaughterhouse in Mushroom Field 
+.go 0 3653.67 -3609.77 137.118 Unknown City 
+.go 0 3452.83 -4992.61 196.981 Cool Temple 
+.go 0 2719.29 -5479.3 159.542 Slaughterhouse 
+.go 0 1612.63 -5524.9 111.148 Tyr's Hand 
+
+Elwynn Forest: 
+.go 0 -8913.23 554.633 93.7944 Stormwind City 
+.go 0 -8951.62 524.373 96.6275 Valley of Heroes 
+.go 0 -8852.03 652.878 96.46 Stormwind Trade District 
+.go 0 -8675.39 635.774 96.9275 Stormwind Canals 
+.go 0 -8662.9 498.212 100.833 Stormwind Old Town 
+.go 0 -8635.62 762.727 103.667 Stormwind Cathedral Square 
+.go 0 -8513.49 861.197 111.039 Stormwind Cathedral of Light 
+.go 0 -9007.65 870.424 148.618 Stormwind Wizard's Sanctum 
+.go 0 -8896.36 834.148 99.5207 Stormwind Mage Quarter 
+.go 0 -8937.08 640.4 100.645 Stormwind Bank 
+.go 0 -9043.76 -41.5906 88.3589 Northshire Valley 
+.go 0 -9092.38 -368.684 73.6163 Northshire Vineyards 
+.go 0 -9443.45 59.8944 56.0704 Goldshire 
+.go 0 -9355.84 537.441 52.5171 Mirror Lake 
+.go 0 -9469.08 467.583 54.0913 Mirror Lake Orchard 
+.go 0 -9646.46 679.589 37.4136 Forest's Edge 
+.go 0 -9964.72 391.509 35.6555 The Stonefiled Farm 
+.go 0 -9881.4 88.8972 33.3196 The Maclure Vineyards 
+.go 0 -9462.99 -161.312 60.7274 Crystal Lake 
+.go 0 -9769.82 -811.712 40.9564 Brackwell Pumpkin Patch 
+.go 0 -9549 -1407.04 54.7673 Eastvale Logging Camp 
+.go 0 -9136.28 -1053.89 70.624 Hero's Vigil 
+.go 0 -9325.33 -1038.92 65.3535 Stone Cairn Lake 
+
+Hillsbrad Foothills: 
+.go 0 -898.266 -1044.33 30.3478 Nethander Stead 
+.go 0 -1266.15 -1198.95 40.1765 Unknown Dwarf Fortress 
+.go 0 -489.832 -1391.35 53.3854 Durnholde Keep 
+.go 0 -821.604 -544.654 15.0387 Southshore Human Harbor Town 
+.go 0 -1019.67 -359.442 5.13463 Western Strand 
+.go 0 -1234.91 -943.205 8.62585 Eastern Strand 
+.go 0 -501.505 91.4121 59.0582 Hillsbrad Fields Human Town 
+.go 0 -870.601 233.102 9.93092 Unknown Mine 
+.go 0 -28.1484 -899.243 56.0704 Tarren Mill 
+
+Hinterlands: 
+.go 0 724.846 -3996.11 149.735 Seradene Night Elf Portal and Giant World Tree 
+.go 0 362.039 -3796.03 153.998 Skulk Rock 
+.go 0 -69.8514 -4536 7.28923 Overlook Cliffs 
+.go 0 -678.757 -4018.61 238.351 Jintha'Alor 
+.go 0 -295.384 -3459.12 194.005 The Altar of Zul 
+.go 0 -464.208 -2837.23 110.073 Shadra'Alor 
+.go 0 266.941 -2751.41 122.544 Quel'Danil Night Elf Lodge 
+.go 0 -35.7245 -2479.51 120.423 Zun'Watha 
+.go 0 327.814 -1959.99 197.724 Aerie Peak 
+
+Loch Modan: 
+.go 0 -5335.61 -2982.58 332.669 Thelsamar 
+.go 0 -5201.86 -3136.59 298.761 The Loch Lake 
+.go 0 -4939.1 -3423.74 305.595 Wreck from Battle 
+.go 0 -4871.78 -4025.77 313.141 Mo'Grosh Stronghold 
+.go 0 -5675.42 -4244.87 407.002 Purple Night Elf Building 
+.go 0 -5755.53 -3998.42 330.436 Ironband's Excavation Site 
+.go 0 -4771.99 -3329.01 345.504 Stonewrough Dam 
+.go 0 -4231.86 -2361.37 204.069 Dun Algaz 
+
+Offshore: 
+.go 0 -12380.3 3400.92 48.865 Island of Doctor Lapidis 
+.go 0 -13693.5 2806.3 56.6918 Gilijim's Isle 
+.go 0 -2200.52 -1685.18 -34.4569 The Drowned Reef 
+
+Red Ridge Mountains: 
+.go 0 -9319 -1937.94 58.0698 Lake Everstill 
+.go 0 -9282.98 -2269.64 69.39 Lakeshire 
+.go 0 -9168.66 -2726.31 90.0426 Alther's Mill 
+.go 0 -9385.46 -3039.27 139.437 Stonewatch 
+.go 0 -8687.39 -2330.38 155.916 Orc Outpost 
+
+Silverpine Forest: 
+.go 0 -126.954 815.624 66.0224 Ambermill 
+.go 0 -416.466 1543.87 17.5941 Pyrewood Village 
+.go 0 -202.557 1666.88 79.7641 Shadowfang Keep 
+.go 0 -577.865 1807.08 8.2492 South Tide's Run 
+.go 0 -757.376 1527.28 17.2465 The Greymane Wall 
+.go 0 -987.449 1585.69 53.4298 Behind The Greymane Wall Unfinished Location 
+.go 0 374.222 1083.9 106.509 Mine 
+.go 0 507.784 1611.33 124.921 The Sepulcher 
+.go 0 134.209 1496.64 114.394 Olsen's Farthing 
+.go 0 675.698 974.873 34.8849 The Decrepit Fairy 
+.go 0 762.653 909.072 31.2142 Lordamere Lake 
+.go 0 731.866 727.793 37.0975 Fenris Isle 
+.go 0 960.45 689.611 59.7365 Fenris Isle Fortress Ruins 
+.go 0 982.34 201.239 34.9509 The Dawning Isles 
+.go 0 1414.28 1073.22 52.4649 Malden's Orchard 
+.go 0 1285.69 1242.33 52.6914 The Ivar Patch 
+.go 0 964.877 1238.75 48.0979 Valgan's Field 
+.go 0 1035.91 1540.85 30.525 The Dead Field 
+.go 0 1293.65 1957.71 19.5619 The Skittering Dark 
+.go 0 873.391 1852.5 5.0548 North Tide's Run 
+
+Strangelthon Vale: 
+.go 0 -14692.4 506.162 1.78241 Wild Shore 
+.go 0 -14740.7 -432.482 4.00624 Jaguero Isle (Statue of Liberty) 
+.go 0 -14406.6 419.353 22.3907 Booty Bay 
+.go 0 -14178.2 712.03 29.1868 Janeiro's Point 
+.go 0 -13274.4 769.951 2.45505 The Savage Coast 
+.go 0 -13382.6 2.10815 21.8683 Ruins of Jubuwal 
+.go 0 -13152.9 342.729 52.1328 Arena 
+.go 0 -12352.8 211.452 4.5846 Grom'Gol Base Camp 
+.go 0 -11977.4 332.254 3.20626 Bal'lal Ruins 
+.go 0 -12258.9 621.105 -68.3247 The Vile Reef 
+.go 0 -11683.1 925.209 3.64735 Zuuldaia Ruins 
+.go 0 -11693.9 702.532 49.9689 Ruins of Zul'Kunda 
+.go 0 -11586.5 -657.662 32.9941 Kurzen's Compound 
+.go 0 -11845 -1199.29 77.2075 Unfinished Temple 
+.go 0 -11712.7 -1758.67 22.4509 Random Bay Ruins 
+.go 0 -11988 -1484.99 78.9735 Floating Bridge 
+.go 0 -13010.2 -1617.82 146.263 Unfinished Hills 
+.go 0 -11311.5 -195.19 76.3198 Rebel Camp 
+
+Trisfal Glades: 
+.go 0 1871.14 1587.91 91.2143 Deathknell 
+.go 0 2268.03 1333.63 34.7835 Solliden Farmstead 
+.go 0 2538.92 1407.01 5.69061 Whispering Shore 
+.go 0 2803.27 847.119 111.841 Agamand Mills 
+.go 0 2861.67 398.526 21.1504 Garren's Haunt 
+.go 0 2955.79 99.8215 3.32947 The North Coast 
+.go 0 2685.13 -198.851 31.4095 Brightwater Lake 
+.go 0 2563.98 -51.7975 31.7441 Gunther's Retreat 
+.go 0 2260.64 289.021 34.1291 Brill Forsaken Village 
+.go 0 2146.99 658.485 33.59 Cold Hearth Manor 
+.go 0 1832.44 236.426 60.4171 Ruins of Lordaeron 
+.go 0 1628.3 239.925 64.5006 The Throne Room 
+.go 0 1586.48 239.562 -52.149 The Undercity Trade Quarter 
+.go 0 1614.68 643.289 37.0547 The Undercity Caves 
+.go 0 1658.95 303.76 -42.6923 The Undercity War Quarter 
+.go 0 1786.82 47.9279 -29.1457 The Undercity Magic Quarter 
+.go 0 1466.11 49.6445 -62.2932 The Undercity Rogue's Quarter 
+.go 0 1410.31 430.512 -80.3588 The Undercity The Apothecarium 
+.go 0 2032.01 -432.954 35.4329 Balnir Farmstead 
+.go 0 2795.02 -753.797 138.036 Whispering Gardens 
+.go 0 2922.59 -740.071 153.983 Terrace of Repose 
+.go 0 2853.92 -718.217 148.381 Unfinished Mansion 
+.go 0 3040.8 -552.374 122.216 Scarlet Watch Post 
+.go 0 1716.02 -788.217 56.844 The Bulwark 
+
+
+
+
+Searing Gorge: 
+.go 0 -6892.24 -1342.38 239.913 The Cauldron 
+.go 0 -7317.34 -1072.33 277.069 Blackrock Mountain 
+.go 0 -6986.92 -1705.54 241.667 Grimeslit Dig Site 
+
+Swamp of Sorrows: 
+.go 0 -10103.4 -2431.61 28.4491 Misty Valley 
+.go 0 -10452.5 -3263.59 20.1782 Stonard Orc Outpost 
+.go 0 -9980.38 -3568.28 22.0569 Fallow Sanctuary Murloc Outpost 
+.go 0 -10022.2 -4266.67 7.26064 Mistyreed Strand 
+.go 0 -10303.5 -3972.28 20.2882 Pool of Tears 
+.go 0 -10349.1 -3849.67 -25.6078 Sunken Temple 
+
+Western Plaguelands: 
+.go 0 1386.47 -1518.8 72.4034 Ruins of Anderhol 
+.go 0 1064.09 -1718.04 61.1348 Sorrow Hill 
+.go 0 981.477 -1821.84 80.4872 Paladin Statue 
+.go 0 1738.52 -2319.93 59.5751 Gahrron's Withering 
+.go 0 1487.77 -1884.87 59.2039 The Writhing Haunt 
+.go 0 1835.04 -1568.1 59.1818 Dalson's Tears 
+.go 0 1782.26 -1211.93 59.4057 Felstone Field 
+.go 0 2423.42 -1646.44 60.5098 Northridge Lumber Camp 
+.go 0 2918.72 -1439.39 150.782 Hearthglenn 
+
+Westfall: 
+.go 0 -10510 1046.89 60.518 Sentinel Hill 
+.go 0 -11018.4 1513.69 43.0152 Moonbrook Westfall 
+.go 0 -10644.8 1681.3 42.0338 Alexston Farmsted 
+.go 0 -10513.9 2075.23 12.1819 Longshore 
+.go 0 -10171.8 1195.41 36.4345 Saldean's Farm 
+.go 0 -11399.2 1947.85 10.1451 Westfall Lighthouse 
+.go 0 -9903.53 1245.26 42.0563 Furlbrow's Pumpkin Patch 
+
+Wetlands: 
+.go 0 -4053.99 -3450.62 283.383 Unknown Big Dwarf City 
+.go 0 -3465.16 -3727.56 64.5778 Big Broken Gates 
+.go 0 -3256.88 -2718.36 9.41205 Weird Flowers 
+.go 0 -2849.21 -2220.06 31.3835 Ironbead's Tomb 
+.go 0 -2955 -1022.21 10.0919 Baradin Bay 
+.go 0 -3754.19 -1087.3 -1.71875 Menethil Bay 
+.go 0 -3740.29 -755.08 10.9643 Menethil Harbor 
+.go 0 -2605.21 -2341.09 83.3551 Dun Modr 
+.go 0 -2336.47 -2509.82 85.2212 Thandol Span 
+.go 0 -3522.96 -1848.58 25.1502 Whelgar's Excavation Site 
+
+Kalimdor 
+
+Ashenvale: 
+.go 1 2867.03 -2595.67 219.911 Xavian 
+.go 1 2745.85 -378.33 108.253 Astrnaar 
+.go 1 3155 -3702 121 Night Elf Portal 
+.go 1 4577.61 419.307 33.7161 Master's Glaive 
+.go 1 2439.16 -3500.08 98.5954 Kargathia Orc Outpost 
+.go 1 2757.59 -2967.58 143.882 Satyrnaar 
+.go 1 2454.38 -2943.27 124 Moonwell 
+.go 1 2114.86 -2998.32 111.396 Felfire Hill 
+.go 1 1626.91 -3057.36 89.4942 Demon Fall Canyon 
+.go 1 1775.1 -2679.19 111.666 The Dor'danil Barrow Den 
+.go 1 1669.74 -1714.14 97.9564 Falfarren River 
+.go 1 2673.51 -1859.72 188.112 Raynewood Retreat 
+
+Aszhara: 
+.go 1 3466.36 -6656.29 -58.5217 Underwater Dark Portal 
+.go 1 3546.8 -5287.96 109.935 Aszhara Naga City 
+
+Barrens: 
+.go 1 -1719.08 -3824.99 12.0836 Barrens Merchant Coast 
+.go 1 -3120.86 -2327.89 93.1243 Barrens Field of Giants 
+.go 1 -4095.7 -2305.74 124.914 Bael Modan 
+.go 1 -4319.38 -2110.38 80.8662 Barrens Gnoll Outpost Inside a Giant Beast 
+.go 1 -4619.15 -1850.91 86.0563 Barrens The Great Lift 
+.go 1 -2388.95 -1918.82 96.7422 Camp Taurajo 
+.go 1 -964.776 -2039.74 81.3491 Lushwater Oasis 
+.go 1 -1330.17 -3120.07 91.6667 The Stagnant Oasis 
+.go 1 -943.935 -3715.49 11.8385 Ratchet Troll Port Outpost 
+.go 1 -456.263 -2652.7 95.615 The Crossroads 
+.go 1 110.197 -1891.39 93.5444 The Forgotten Pools 
+.go 1 1059.54 -3003.53 91.6441 The Sludge Fen 
+
+Dark Shore: 
+.go 1 4995.94 82.9197 54.3857 Grove of The Ancients 
+.go 1 5028.14 534.745 7.28397 The Long Wash 
+.go 1 6439.28 614.957 5.98831 Auberdine 
+.go 1 6735.43 6.71422 42.7028 Bashal'Aran 
+.go 1 6931.74 -569.077 44.8192 Cliffspring River 
+.go 1 7177.46 -761.607 59.6101 Tower of Althalaxx 
+.go 1 7373.38 -938.331 32.6196 Ruins of Mathystra 
+.go 1 7742.92 -769.867 5.22102 Mist's Edge 
+
+Desolace: 
+.go 1 -439.192 1708.22 125.856 Thunder Axe Fortress 
+.go 1 -242.347 764.848 98.7113 Sargeron 
+.go 1 -939.787 1091.4 93.8119 Kolkar Village 
+.go 1 -1754.33 967.89 92.5626 Magram Village 
+.go 1 -1879.28 1745.49 78.8892 Mannoroc Coven 
+.go 1 -2222.47 2522.4 68.4424 Gelkis Village 
+.go 1 -1482.87 2855.86 112.854 Valley of Spears 
+.go 1 -592.792 2592.84 15.467 Sar'Theris Strand 
+.go 1 -1305.19 1837.56 55.731 Kodo Graveyard 
+.go 1 -1156.34 1894.49 86.2854 Ghost Walker Post 
+
+Felwood: 
+.go 1 6200 -1035 387 Three Frozen Ancients 
+.go 1 3652.24 928.308 7.01517 Zoram's Stand 
+
+Feralas: 
+.go 1 -4358.88 3241 12.3636 Feralas Island Night Elf City 
+.go 1 -2871.76 1885.29 52.6501 Feralas 
+.go 1 -2858.35 2611.48 58.3777 Feralas Ruins 
+.go 1 -4522.22 2038.54 50.1436 Feralas Coast 
+.go 1 -5566.04 1449.82 20.1135 Big Feralas Ruins 
+.go 1 -4369.68 242.294 25.4133 Tauren Village 
+.go 1 -4517.1 -780.415 -40.736 Thalanaar 
+
+Durotar: 
+.go 1 -1124.19 -5535.02 8.62076 Echo Isles 
+.go 1 -636.469 -4243.52 38.1339 Valley of Trials Bindpoint 
+.go 1 -844.586 -4924.29 20.8708 Sen'Jin Village 
+.go 1 -1028.63 -4599.8 25.5756 Kolkar Crag 
+.go 1 -250.245 -5070.41 22.5875 Tiragarde Keep 
+.go 1 242.548 -5151.46 1.60441 Scuttle Coast 
+.go 1 304.762 -4734.97 9.30458 Razorhill 
+.go 1 114.769 -3758.95 17.8907 Southfury River 
+.go 1 925.127 -4038.29 -13.338 Thunder Ridge 
+.go 1 1484.36 -4417.03 24.4709 Orgimmar 
+.go 1 1525.73 -4968.13 17.1397 Bladefist Bay 
+.go 1 918.715 -5115.69 2.85835 Deadeye Shore 
+
+Dustwallow Marsh: 
+.go 1 -3719.26 -2530.63 69.58 Shady Rest Inn 
+.go 1 -3922.24 -2839.21 44.6212 Lost Point 
+.go 1 -4336.82 -3018.67 33.1744 The Den of Flame 
+.go 1 -4197.56 -2873.76 44.6771 The Dragonmurk 
+.go 1 -4354.46 -3275.34 46.0475 Stonemaul Ruins 
+.go 1 -4006.19 -3777.83 40.6804 Beezil's Zepellins Wreck 
+.go 1 -3129.38 -2864.51 34.8711 Brackenwall Orc Village 
+.go 1 -2855.96 -3422.66 36.7473 North Point Tower 
+.go 1 -3459.39 -4130.3 16.3786 Sentry Point 
+.go 1 -3012.72 -4345.51 6.83608 Dreadmurk Shore 
+
+Mulgore: 
+.go 1 -2321.74 -378.941 -9.40597 Bloodhoof Tauren Village 
+.go 1 -2905.3 -253.768 56.0612 Tauren Camp Narache 
+.go 1 -2933.37 -963.993 58.2343 Brambleblade Ravine 
+.go 1 -2928.26 -46.1054 188.892 Red Cloud Mesa 
+.go 1 -1897.98 400.675 134.787 Bael'Dun Digside 
+.go 1 -758.744 -149.474 -27.712 Wildmane Water Well 
+.go 1 -1008.68 -1115.72 46.046 Red Rocks 
+.go 1 -1915.66 -1107.44 87.572 Mulgore Mine 
+
+Shimmering Flats: 
+.go 1 -6495.56 -3472.69 -58.7786 The Rustmaul Dig Site 
+.go 1 -6202.16 -3901.68 -60.2858 The Racetrack 
+
+South Kalimdor: 
+.go 1 -6942.47 -4847.1 0.667853 Tanaris 
+.go 1 -7434.56 -1983.21 -270.149 Ungoro Crater 
+.go 1 -7866.75 -630.03 -260.563 Terror Run 
+.go 1 -8185.09 1528.22 2.98973 Floating Crystal Gates 
+.go 1 -9678.11 1530.11 43.025 Unkown City 
+.go 1 -7245.6 1678.94 -65.9066 Nerubian Pits 
+
+Stonetalon Mountains: 
+.go 1 -239.089 -809.973 8.78944 Stonetalon Mountains 
+.go 1 -87.9634 -565.775 -12.1339 Greatwood Vale 
+.go 1 -191.661 -301.87 12.2698 Sunrock Retreat 
+.go 1 1160.25 51.3229 1.072 Windshear Crag 
+.go 1 1618.33 161.796 133.084 Cragpool Lake 
+.go 1 2506.3 1470.14 262.722 Stonetalon Peak 
+.go 1 821.99 1599.07 -21.1896 Charred Vale 
+
+Thousand Needles: 
+.go 1 -5437.4 -2437.47 89.3083 Freewood Post 
+.go 1 -5467.33 -1633.45 29.4245 The Screeching Canyon 
+.go 1 -5000.46 -940.209 -5.58816 Highperch 
+
+Teldrassil: 
+.go 1 9892.57 982.424 1313.83 Dolanaar 
+.go 1 9477.19 1005.74 1249.01 Lake Al'Ameth 
+.go 1 9114.65 1846.06 1327.5 Gnarlpine Hold 
+.go 1 9561.33 1743 1291.91 Pools of Arilthrien 
+.go 1 9948.55 2413.59 1327.23 Darnassus 
+.go 1 10699.8 738.73 1325.881 Shadowglen 
+.go 1 10455.7 798.455 1346.75 Aldrassil 
+
+Theramore Isle: wwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+.go 1 -3688.18 -4760.14 0.909682 Theramore Isle Lighthouse 
+.go 1 -3729.36 -4421.41 30.4474 - Theramore Isle City 
+
+Secret/Hard to get to Locations: 
+
+.go 1 -12352.9 3055.12 15.6725 Developer's Playground 
+.go 1 -10082.2 -5656.43 6.24787 Goblin Obeservatory 
+.go 1 -11700.4 2282.02 -11.8416 Underwater Developer's Playground 
+.go 1 10389 -1886.06 183.379 Desert Outpost with a Waterfall 
+.go 1 7503.31 -4388.79 725.559 Winterspring Ice World 
+.go 1 4674.88 -3638.37 965.264 Hyjal 
+.go 1 5300.18 -2292.83 944.186 Hyjal Plains Unifinished Location 
+.go 1 4491.35 -3201.77 1026.57 Hyjal Cool Ancient Statue 
+.go 0 5333.04 -4795.84 0 Weird Flat Lands Place (Quel'Thalas?) 
+.go 0 3602.47 -1142.69 1.03249e-007 Mountains in Flat Lands (Quel'Thalas?) 
+.go 0 -9549.58 -4939.88 174.657 Cool Piece of Land 
+
+extra silithus
+cenarion hold
+.go 1 -6817.020020 818.829956 49.9749184 4.770101    zone 1377
+.go 1 -6607.931152 1135.507690 -47.763046 4.891827
+.go 1 -8124.518555 1527.318481 3.922268
+pvp alliance ilaqa
+.go 30 643.153198 31.225981 68.416412 4.624028   map 30 zone 2597
+pvp horde but alliance change new
+.go -1493.173096 -331.935059 101.008080 0.401558   map 30  zone 2597
+
+pvp horde
+.go 30 -1260.101318 -345.564941 59.911953 0.265063

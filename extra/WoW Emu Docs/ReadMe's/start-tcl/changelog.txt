@@ -1,0 +1,128 @@
+#
+#
+# This program is (c) 2006 by Lazarus Long <lazarus.long@bigfoot.com>
+# This program is (c) 2006 by spirit <thehiddenspirit@hotmail.com>
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation; either version 2.1 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+# details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA. You can also consult
+# the terms of the license at:
+#
+#		<http://www.gnu.org/copyleft/lesser.html>
+#
+#
+# Name:		startup.tcl / tcl/NNN_*.tcl
+#
+# Version:	0.8.2
+#
+# Date:		2006-03-20
+#
+# Description:  Start-TCL Startup System
+#
+# Authors:	Lazarus Long <lazarus.long@bigfoot.com>
+#		spirit <thehiddenspirit@hotmail.com>
+#
+# Changelog:
+#
+# v0.8.2 (2006-03-20) -	The "sort it out" version.
+#			Reverted back to "dictionary" sorting since "integer"
+#			chokes on levels that start by 0 and are followed by 8
+#			or 9 'cause the option assumes they are octal numbers.
+#			Included a graphical level editor to the archive to
+#			ease level setting. Included WorldLock.tcl back to the
+#			pack, READ the instructions or it WILL crash your
+#			system,
+#
+# v0.8.1 (2006-03-15) -	The "space in space" version.
+#			Found out a problem with "concat" when the path
+#			contains spaces, converted to "lappend".
+#
+# v0.8.0 (2006-03-15) -	The "ready for prime time" version.
+#			Done the documentation explaining how to set
+#			it up.
+#
+# v0.7.2 (2006-03-11) -	The "faster than a speeding bullet" version.
+#			Final changes. One important for performance is that
+#			the StartTCL information regarding the level to run at
+#			must be in the first block of comments at the top of
+#			the script, before any non-comment data (excluding
+#			empty lines) or else it will be ignored.
+#
+# v0.7.1 (2006-03-10) -	The "there can be only one" version.
+#			If there are two files with identical names only
+#			differing in the extension issue a warning.
+#
+# v0.7.0 (2006-03-10) -	The "one size fits all" version.
+#			All scripts are now loaded from the same folder,
+#			regardless of being TCL or TBC.
+#
+# v0.6.6 (2006-03-08) -	The "lets go global" version.
+#			spirit's onboard. It's more than deserved since half
+#			the changes are either his suggestions or his code so
+#			it's co-authored from now on. Going global for the sort
+#			system both TCL and TBC based.
+#
+# v0.6.5 (2006-03-02) -	The "no dash to separate us" version.
+#			Removed the dash "-" from the namespace and script name
+#			since it was giving too many trouble.
+#
+# v0.6.4 (2006-02-28) -	The "less is best" version.
+#			Reduced the number of levels by one, since there was no
+#			need for 4 start levels.
+#
+# v0.6.3 (2006-02-26) -	The "new approach" version.
+#			OK, I found a weakness by relying only on the filename,
+#			so I looked for another approach and BSD systems have
+#			it. The file itself contains the information of when it
+#			should be loaded, so this is a much more robust method.
+#
+# v0.6.2 (2006-02-22) -	The "preload bye bye" version.
+#			I finaly decided to give up the preloader idea, it was
+#			prone to misinterpretations and errors, it's time to go
+#			System V all the way, which means that filenames alone
+#			decide the order of loading, the rest is decided by
+#			convention.
+#
+# v0.6.1 (2006-02-20) -	The "sort me out" version.
+#			Redid the whole idea by case insensitive sorting the
+#			filenames, which gives a consistent order across OS
+#			versions.
+#
+# v0.6.0 (2006-02-01) -	The "inform me of errors" version.
+#			Included the $errorInfo variable in error messages.
+#
+# v0.5.0 (2006-01-26) -	The "incremental" version.
+#			Changed the way the counters are incremented.
+#
+# v0.4.0 (2006-01-26) -	The "with license" version.
+#			Put it under LGPL, instead of GPL.
+#
+# v0.3.0 (2006-01-14) -	The "best of both" version.
+#			I'm puting back the former behaviour of loading files
+#			from the "scripts\pls" into the WoWEmu namespace. To
+#			add global directives and/or defines edit/create
+#			"scripts/local/preload.tcl".
+#
+# v0.2.0 (2006-01-14) -	The "better make up your mind" version.
+#			I'm still trying to figure out the best way to preload
+#			scripts.
+#
+# v0.1.0 (2006-01-13) -	The "I sure hope I'm doing it right" version.
+#			First attempt. This is going to be very generic. I
+#			didn't base it in nothing particular, but took ideas
+#			from here and there from almost every "startup.tcl" I
+#			got my hands on so WDDG, Ecko007, Ramanubis, spirit,
+#			GriffonHeart and Golgorth are just the ones that I
+#			remember, most surelly there are others.
+#
+#
