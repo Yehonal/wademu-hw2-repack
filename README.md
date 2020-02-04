@@ -6,7 +6,7 @@ Old wowemu created by WAD scripted, modded and repacked by Hw2-Yehonal
 
 Installation:
 
-1) execute the setup and install client/HW2-Client.exe in your 1.12.1 wow directory
+1) execute the setup and install client/HW2-Client.exe in your 1.12.1 client directory
 2) extract the maps with "BatCreator"
 3) execute Wowemu.exe
 4) have a good game!
